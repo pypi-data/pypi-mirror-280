@@ -1,0 +1,14 @@
+albumentations
+cityscapesscripts
+einops
+ftfy
+imagecorruptions
+matplotlib
+mat73
+scikit-learn
+scikit-image
+torchmetrics
+prettytable
+pyEdgeEval>=0.2.7
+regex
+wandb

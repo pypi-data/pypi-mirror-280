@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: blette
+Version: 1.0.0
+Summary: Edge Detection Toolbox and Benchmark
+Home-page: http://github.com/haruishi43/blette
+Author: Haruya Ishikawa
+Author-email: 
+License: Apache License 2.0
+Keywords: computer vision,edge detection,semantic edge detection
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: albumentations
+Requires-Dist: cityscapesscripts
+Requires-Dist: einops
+Requires-Dist: ftfy
+Requires-Dist: imagecorruptions
+Requires-Dist: matplotlib
+Requires-Dist: mat73
+Requires-Dist: scikit-learn
+Requires-Dist: scikit-image
+Requires-Dist: torchmetrics
+Requires-Dist: prettytable
+Requires-Dist: pyEdgeEval>=0.2.7
+Requires-Dist: regex
+Requires-Dist: wandb
+
+# blette
+
+A toolbox for edge detection tasks (binary and multi-label edges).
+
+## Installation
+
+```Bash
+# install pytorch
+# e.g. for CUDA 11.7
+pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
+
+# openmm dependencies
+pip install -U openmim
+mim install -U mmengine
+mim install -U 'mmcv==2.0.0rc4'  # until mmseg updates...
+pip install mmsegmentation
+
+# third-party dependencies
+pip install -r requirements.txt
+
+# global package
+pip install -e .
+```
+
+## Usage
+
+- [SBD](./.readme/sbd.md)
+- [Cityscapes](./.readme/cityscapes.md)
+- [BSDS500](./.readme/bsds500.md)
+
+
+## Dev
+
+TODO:
+- [ ] Reproduce results
+- [ ] Test codes for functions not present in other mm-libraries
+- [ ] Improve docstrings
+- [ ] Improve documentations
