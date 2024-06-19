@@ -1,0 +1,3 @@
+[console_scripts]
+cryotrans-predict = cryotrans.predict:main
+cryotrans-train = cryotrans.train:main
