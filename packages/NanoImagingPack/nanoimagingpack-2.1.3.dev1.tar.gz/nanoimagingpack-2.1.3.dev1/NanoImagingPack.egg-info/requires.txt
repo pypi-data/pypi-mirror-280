@@ -1,0 +1,9 @@
+numpy>=1.16
+scipy
+tifffile
+imageio
+matplotlib
+napari
+ruamel.yaml
+tkinterdnd2
+clize
