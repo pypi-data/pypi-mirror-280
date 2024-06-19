@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: mindrove
+Version: 0.1.0
+Summary: Python Binding for MindRove
+Home-page: https://github.com/MindRove/MindRoveSDK
+Author: Mindrove
+Author-email: info@mindrove.com
+Requires-Python: >=3.5.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: nptyping ==1.4.4
+
+<p align="center">
+    <img width="400" height="160" src="https://live.staticflickr.com/65535/49908747533_f359f83610_w.jpg">
+    <br>
+    <a href="https://github.com/mindrove-dev/mindrove/releases">
+       <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/mindrove-dev/mindrove/total?color=yellow&label=Downloads%28Github%29">
+    </a>
+    <a href="https://pypi.org/project/mindrove/">
+        <img alt="PYPI" src="https://static.pepy.tech/personalized-badge/mindrove?period=total&units=international_system&left_color=grey&right_color=yellow&left_text=Downloads(PYPI)">
+    </a>
+    <a href="https://www.nuget.org/packages/mindrove/">
+        <img alt="Nuget" src="https://img.shields.io/nuget/dt/mindrove?color=yellow&label=Downloads%28Nuget%29&logo=MindRove">
+    </a>
+</p>
+
+MindRove is a library intended to obtain, parse and analyze EEG, EMG, ECG, and other kinds of data from biosensors.
+
+It provides a uniform SDK to work with biosensors with a primary focus on neurointerfaces, all features available for free and distributed under MIT license.
+
+#### Advantages of MindRove:
+
+* powerful API with many features to simplify development
+    * Straightforward API for data acquisition
+    * Powerful API for signal filtering, denoising, downsampling...
+    * Development tools like Synthetic board, Streaming board, logging API
+* easy to use
+    * MindRove has many bindings, you can choose programming language you like
+    * All programming languages provide the same API, so it's simple to switch
+    * API is uniform for all boards, it makes applications on top of MindRove almost board agnostic
+* easy to support and extend
+    * Code to read data and to perform signal processing is implemented only once in C/C++, bindings just call C/C++ methods
+    * Powerful CI/CD system which runs integrations tests for each commit automatically using MindRove's Emulator
+    * Simplified process to add new boards and methods
+
+## Resources
+
+* [***MindRove Docs, Dev and User guides and other information***](https://mindrove.readthedocs.io)
+* [***MindRove's slack workspace***](https://openbraintalk.slack.com/)***, use this*** [***link to join***](https://c6ber255cc.execute-api.eu-west-1.amazonaws.com/Express/)
+* [***For MindRove Developers***](https://mindrove.readthedocs.io/en/master/MindRoveDev.html)
+
+## Contribution guidelines
+
+If you want to contribute to MindRove, be sure to review the [contribution guidelines](https://mindrove.readthedocs.io/en/stable/MindRoveDev.html). This project adheres to [MindRove's code of conduct](https://github.com/mindrove-dev/mindrove/blob/master/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+
+We use [GitHub issues](https://github.com/mindrove-dev/mindrove/issues) for tracking requests and bugs, please use MindRove's slack for general discussions.
+
+The MindRove project strives to abide by generally accepted best practices in open-source software development.
+
+## Build Status
+|          Build Type         	|                                                                                Status                                                                               	|
+|:---------------------------:	|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------:	|
+|        Windows Tests        	|   [![Run Windows](https://github.com/mindrove-dev/mindrove/actions/workflows/run_windows.yml/badge.svg?branch=master)](https://github.com/mindrove-dev/mindrove/actions/workflows/run_windows.yml)  	|
+| Unix(Linix and MacOS) Tests 	| [![Run Unix](https://github.com/mindrove-dev/mindrove/actions/workflows/run_unix.yml/badge.svg?branch=master)](https://github.com/mindrove-dev/mindrove/actions/workflows/run_unix.yml) 	|
+|        Android Tests        	|   [![Run Android NDK](https://github.com/mindrove-dev/mindrove/actions/workflows/run_android.yml/badge.svg?branch=master)](https://github.com/mindrove-dev/mindrove/actions/workflows/run_android.yml)   	|
+|         Alpine Tests        	|       [![Run Alpine](https://github.com/mindrove-dev/mindrove/actions/workflows/run_alpine.yml/badge.svg?branch=master)](https://github.com/mindrove-dev/mindrove/actions/workflows/run_alpine.yml)       	|
+|        Valgrind Tests       	|     [![Run Valgrind](https://github.com/mindrove-dev/mindrove/actions/workflows/valgrind.yml/badge.svg?branch=master)](https://github.com/mindrove-dev/mindrove/actions/workflows/valgrind.yml)      	|
+|           CppCheck          	|    [![CppCheck](https://github.com/mindrove-dev/mindrove/actions/workflows/cppcheck.yml/badge.svg?branch=master)](https://github.com/mindrove-dev/mindrove/actions/workflows/cppcheck.yml)   	|
+|         Clang-Format        	|   [![Clang Format](https://github.com/mindrove-dev/mindrove/actions/workflows/clang_format.yml/badge.svg?branch=master)](https://github.com/mindrove-dev/mindrove/actions/workflows/clang_format.yml)   	|  
+
+## Partners and Sponsors
+
+[![OpenBCI](https://live.staticflickr.com/65535/51618456586_7b533781e2.jpg)](https://openbci.com/)
+
+## License: 
+[MIT](https://github.com/mindrove-dev/mindrove/blob/master/LICENSE)
