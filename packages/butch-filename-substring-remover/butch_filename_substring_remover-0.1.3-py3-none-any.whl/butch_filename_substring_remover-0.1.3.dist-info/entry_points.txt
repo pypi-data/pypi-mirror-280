@@ -1,0 +1,2 @@
+[console_scripts]
+butch-rename = butch_filename_substring_remover.main:main
