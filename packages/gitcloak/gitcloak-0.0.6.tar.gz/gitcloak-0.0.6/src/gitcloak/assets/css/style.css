@@ -1,0 +1,80 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+.directory a,
+.file a {
+    text-decoration: none;
+    color: #0366d6;
+}
+
+.directory a:hover,
+.file a:hover {
+    text-decoration: underline;
+}
+
+.readme {
+    margin-top: 20px;
+}
+
+.readme .card-title {
+    font-size: 1.5rem;
+}
+
+.readme .card-text pre {
+    background-color: #f6f8fa;
+    padding: 10px;
+    border-radius: 4px;
+    overflow: auto;
+}
+
+.icon {
+    margin-right: 5px;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    padding: 0 10px;
+}
+
+#content-div::after {
+    content: " ";
+    display: block;
+    height: 50px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-white a {
+    color: white;
+    text-decoration: underline;
+}
