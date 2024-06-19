@@ -1,0 +1,24 @@
+pygeogrids>=0.5.1
+numpy
+pandas
+click
+configparser
+more_itertools
+tqdm
+repurpose>=0.11
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[plot]
+matplotlib
+cartopy
+
+[testing]
+pytest
+pytest-cov
+pytest-mpl
+
+[xr]
+xarray
+dask
