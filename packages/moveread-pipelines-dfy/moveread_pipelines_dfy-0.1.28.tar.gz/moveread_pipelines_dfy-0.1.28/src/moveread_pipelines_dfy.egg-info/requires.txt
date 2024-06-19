@@ -1,0 +1,10 @@
+moveread-pipelines-input-validation
+moveread-pipelines-game-preprocess
+moveread-pipelines-ocr-predict
+moveread-pipelines-game-correction
+pipeteer
+queue-http
+kv-rest
+
+[core]
+moveread-core
