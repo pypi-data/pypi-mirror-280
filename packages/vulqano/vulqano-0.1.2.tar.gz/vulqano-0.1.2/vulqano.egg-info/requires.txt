@@ -1,0 +1,6 @@
+qiskit==0.38.0
+qtealeaves>=1.1.10
+numpy
+matplotlib
+tqdm
+multiprocess
