@@ -1,0 +1,15 @@
+gitcloak/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitcloak/app.py,sha256=f_BmBxoajYpv9H_Kw-3ETrUlxHrKgZ2ulwsy8w25RPc,4871
+gitcloak/assets/css/style.css,sha256=Dpsiaplvd4qmSHaBWFOpnI6F09JuU_moKcYtyfem2RM,917
+gitcloak/classes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitcloak/classes/git.py,sha256=GzC52i7Jw_qeDSWZ_fIUQl_Eg4UWA3FMNKAl_g-Cg-Y,4630
+gitcloak/classes/markdown.py,sha256=XS_w7DLmfvjXKn4dcEUMIP68SO2QjbbKMHtWaoBnPU4,664
+gitcloak/templates/base.html,sha256=u6Okxvnn5h4rWGiAWDxC62J_qc9NDDZpN8aC6VV8IGs,783
+gitcloak/templates/index.html,sha256=4mgQE4tkO28lF1EdBxM2UI4WXs0VP2gAUoEAn3URxTk,1251
+gitcloak/templates/path.html,sha256=dWI0QoAY9UOBUiD9UNtQwjcK5tlLdjSVtQr40h4Ihv4,1574
+gitcloak/templates/preview.html,sha256=N-KJXmrU6E3ys8kP6E_f4YvYSpeOtn3nPmStErNAYLU,1385
+gitcloak-0.0.2.dist-info/METADATA,sha256=VmUj7y-o2ELaZJ1_TXwM7fEU23xFcf0Xy7dU-CWMI4E,5316
+gitcloak-0.0.2.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+gitcloak-0.0.2.dist-info/entry_points.txt,sha256=6xrcTQhU0fcfgH742C0Q8P7Y0PHKtSen87yI2dFQ1lE,47
+gitcloak-0.0.2.dist-info/licenses/LICENSE,sha256=IpiKjAAg5wWrWp9flzsSdyagJDJPa3fOsIhs-AfxuSc,1087
+gitcloak-0.0.2.dist-info/RECORD,,
