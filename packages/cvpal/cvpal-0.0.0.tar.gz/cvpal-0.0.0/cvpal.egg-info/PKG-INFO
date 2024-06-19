@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: cvpal
+Version: 0.0.0
+Summary: A Python library for every Computer Vision Engineer
+Author: Mohamed E. Ibrahim
+Author-email: mohamedelsayed3487@gmail.com
+Keywords: python,computer vision,cv,Data Reformatting,YOLO,Roboflow,ultralytics,Data preprocessing
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: pyaml
+Requires-Dist: PyYAML
+Requires-Dist: python-dateutil
+Requires-Dist: numpy
+
+
+# Introduction
+
+Welcome to cvPal!👋
+
+cvPal is a powerful Python package designed to assist Computer Vision engineers in performing a variety of image operations. The primary goal of cvPal is to simplify the process of image manipulation and dataset management, enabling engineers to focus on building and optimizing their machine learning pipelines.
+
+With cvPal, you can easily handle tasks such as merging datasets, removing specific labels, counting label occurrences, and generating comprehensive reports on your dataset, all with a user-friendly interface and comprehensive documentation.
+
+## Features
+- **Dataset Merging**: Functions to seamlessly merge different datasets, each with multiple attributes.
+- **Label Removal**: Functions to remove specific labels from your dataset.
+- **Label Occurrence Counting**: Functions to count the occurrences of specific labels.
+- **Dataset Reporting**: Functions to generate comprehensive reports on your dataset.
+- **Easy Integration**: Seamlessly integrate with existing ML pipelines.
+- **Comprehensive Documentation**: Detailed documentation to guide you through all features and functionalities.
