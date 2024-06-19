@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ owner }}/{{ repo }} - {{ file_path }}{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12">
+        <h1>{{ owner }}/{{ repo }} - <small>{{ file_path }}</small></h1>
+        <div class="mb-3">
+            <a href="/{{ owner }}/{{ repo }}/tree/main/{{ ("/" + file_path).rsplit('/', 1)[0].lstrip("/") }}">
+                <img class="icon" src="/assets/dist/icons/folder.svg" alt="Back to Parent Directory"> Back to Parent Directory
+            </a>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                {% if is_text %}
+                    {% if is_safe %}
+                        <div>{{ file_content | safe }}</div>
+                    {% else %}
+                        <pre>{{ file_content }}</pre>
+                    {% endif %}
+                {% elif is_image %}
+                    <img src="data:image/png;base64,{{ file_content }}" class="img-fluid" alt="{{ file_path }}">
+                {% else %}
+                    <p>This file is binary and cannot be displayed.</p>
+                {% endif %}
+                <hr>
+                <p class="card-text">
+                    <a href="/{{ owner }}/{{ repo }}/raw/main/{{ file_path }}" class="btn btn-primary">Download</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
