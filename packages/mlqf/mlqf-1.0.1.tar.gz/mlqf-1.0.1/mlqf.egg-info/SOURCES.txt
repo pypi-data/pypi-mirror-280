@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+mlqf/__init__.py
+mlqf.egg-info/PKG-INFO
+mlqf.egg-info/SOURCES.txt
+mlqf.egg-info/dependency_links.txt
+mlqf.egg-info/not-zip-safe
+mlqf.egg-info/requires.txt
+mlqf.egg-info/top_level.txt
