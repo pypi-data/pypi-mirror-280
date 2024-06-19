@@ -1,0 +1,3 @@
+flake8_thoughtful
+libraries
+tests
