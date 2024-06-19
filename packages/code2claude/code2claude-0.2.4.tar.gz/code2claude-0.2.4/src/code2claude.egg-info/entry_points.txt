@@ -1,0 +1,2 @@
+[console_scripts]
+code2claude = code2claude.consolidate:main

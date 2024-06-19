@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/code2claude/__init__.py
+src/code2claude/consolidate.py
+src/code2claude.egg-info/PKG-INFO
+src/code2claude.egg-info/SOURCES.txt
+src/code2claude.egg-info/dependency_links.txt
+src/code2claude.egg-info/entry_points.txt
+src/code2claude.egg-info/top_level.txt
