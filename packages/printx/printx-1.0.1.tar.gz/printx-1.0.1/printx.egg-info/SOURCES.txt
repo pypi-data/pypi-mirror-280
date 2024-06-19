@@ -1,0 +1,8 @@
+README.md
+setup.py
+printx/__init__.py
+printx/printx.py
+printx.egg-info/PKG-INFO
+printx.egg-info/SOURCES.txt
+printx.egg-info/dependency_links.txt
+printx.egg-info/top_level.txt
