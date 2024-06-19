@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "indasuite-api-client"
+version = "v0.2"
+description = "A client library for accessing Indasuite API"
+authors = ["Terega Solutions <tsol-techindasuite@terega.fr>"]
+readme = "README.md"
+packages = [
+    {include = "indasuite_api_client"},
+]
+include = ["CHANGELOG.md", "indasuite_api_client/py.typed"]
+
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+httpx = ">=0.20.0,<0.28.0"
+attrs = ">=21.3.0"
+python-dateutil = "^2.8.0"
+pandas = "^2.2.2"
+deprecated = "^1.2.14"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["F", "I", "UP"]
