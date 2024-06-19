@@ -1,0 +1,13 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_normalize_fragments.py,sha256=yhBjDYkA9aTeGt_aNtf7mkot1WBp3vbZrJkFG6wrfv8,1084
+tests/test_normalize_netloc.py,sha256=1AkkdFB78Nl457tReZK0TqSP09sxO8MxXTVy9znV1_0,1554
+tests/test_normalize_path.py,sha256=qCz9uAmSFNLy9U8EK5hP2Ur-PZts_TaSrVbpYuy-FsA,1446
+tests/test_normalize_query.py,sha256=e-RlntyfzKh67abHNLRPMf6yOdO_R0OCnie1lBAd4LQ,1536
+tests/test_normalize_scheme.py,sha256=lJ38Bak737WlEcD0irYu-nQS0cVp1dCvzQH7SBo9DCk,2159
+url_normalization/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+url_normalization/exceptions.py,sha256=ESfKGORYhylf0DfQdltDJt8oiqODVeEKnY41qc9k2YM,950
+url_normalization/url_normalization.py,sha256=zQK_rKoX_DRxOoiDxTTFPNk7QaYcDbHbUOXRJA0lbl4,6230
+UrlNormalization-0.1.0.dist-info/METADATA,sha256=PocGbV7u0bkXh-SXfNX4-N0AQ6rPvK77UHqXmbG_yp8,503
+UrlNormalization-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+UrlNormalization-0.1.0.dist-info/top_level.txt,sha256=eCojlFzUI9Y3zIgeInF05FwyvlorCgplBs707k8RA0s,24
+UrlNormalization-0.1.0.dist-info/RECORD,,
