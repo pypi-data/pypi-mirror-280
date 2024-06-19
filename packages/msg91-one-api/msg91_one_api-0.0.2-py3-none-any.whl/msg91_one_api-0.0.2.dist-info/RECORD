@@ -1,0 +1,8 @@
+msg91/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msg91/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msg91/services/campaign_service.py,sha256=rpJqAlkY0xpquafhvAzSH_Id9gPWBrrjkeP8D4ncv0g,4686
+msg91/services/otp_service.py,sha256=lF0MCAdWinO0wKaL3T97ZIGzgXAVeZGfYwPCEu-3buU,319
+msg91_one_api-0.0.2.dist-info/METADATA,sha256=M4bINYk9fGO2ALHe4Iv4CuyO8ZozVq1PzA8CbBYOMXI,437
+msg91_one_api-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+msg91_one_api-0.0.2.dist-info/top_level.txt,sha256=uzi3ZNN126VvLkFU1L-G6kAGJs4lrtfEU7Qc7o8fenY,6
+msg91_one_api-0.0.2.dist-info/RECORD,,
