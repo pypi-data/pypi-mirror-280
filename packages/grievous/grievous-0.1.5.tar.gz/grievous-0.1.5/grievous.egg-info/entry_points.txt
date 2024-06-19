@@ -1,0 +1,3 @@
+[console_scripts]
+grievous = grievous.generalGrievous:main
+
