@@ -1,0 +1,17 @@
+[console_scripts]
+create_env = nbdevAuto.automate:create_env
+everything = nbdevAuto.automate:everything
+gacp = nbdevAuto.automate:gacp
+gitrelease = nbdevAuto.automate:release_git
+h = nbdevAuto.automate:help_output
+hello = nbdevAuto.automate:hello
+piprelease = nbdevAuto.automate:release_pypi
+prep = nbdevAuto.automate:prep
+reinstall = nbdevAuto.automate:reinstall
+release = nbdevAuto.automate:release
+status = nbdevAuto.automate:status
+update = nbdevAuto.automate:update
+upload = nbdevAuto.automate:upload
+
+[nbdev]
+nbdevAuto = nbdevAuto._modidx:d
