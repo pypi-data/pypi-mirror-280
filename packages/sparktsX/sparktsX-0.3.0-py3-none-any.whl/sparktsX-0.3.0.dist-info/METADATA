@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sparktsX
+Version: 0.3.0
+Summary: A library for analyzing large time series data with Apache Spark
+Home-page: https://github.com/sryza/spark-timeseries
+Author: Sandy Ryza
+Author-email: sandy@cloudera.com
+Keywords: spark,time,series,data,analysis
+Requires-Dist: pandas (>=0.13)
+Requires-Dist: numpy (>=1.9.2)
+
