@@ -1,0 +1,4 @@
+dist
+docs
+document
+schema_entry
