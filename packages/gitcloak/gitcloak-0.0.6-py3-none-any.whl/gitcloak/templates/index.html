@@ -1,0 +1,41 @@
+{% extends 'base.html' %} {% block title %}Welcome to GitCloak{% endblock %} {%
+block content %}
+<div class="jumbotron">
+  <h1 class="display-8">Welcome to GitCloak!</h1>
+  <p class="lead">
+    GitCloak is a simple web frontend that lets you browse public GitHub
+    repositories and view their contents.
+  </p>
+  <p class="lead">
+    Unlike other GitHub interfaces, GitCloak does not use APIs or screen
+    scraping, allows cloning repositories, needs no credentials and does not use
+    any JavaScript.
+  </p>
+  <hr class="my-4" />
+  <p>
+    To get started, simply replace <code>github.com</code> in the URL - the
+    following paths are already available:
+  </p>
+  <ul>
+    <li>
+      <code>/&lt;owner&gt;/&lt;repo&gt;/</code> - View the root directory of the
+      repository
+    </li>
+    <li>
+      <code>/&lt;owner&gt;/&lt;repo&gt;/tree/main/&lt;path&gt;</code> - View a
+      specific directory
+    </li>
+    <li>
+      <code>/&lt;owner&gt;/&lt;repo&gt;/raw/main/&lt;file_path&gt;</code> - View
+      the raw content of a specific file
+    </li>
+  </ul>
+  <p>
+    For example, to see the contents of the
+    <code>PrivateCoffee/transfer.coffee</code> repository, simply visit
+    <a href="/PrivateCoffee/transfer.coffee/">/PrivateCoffee/transfer.coffee/</a
+    >.
+  </p>
+  <p>Other features are still in development, so stay tuned!</p>
+</div>
+{% endblock %}
