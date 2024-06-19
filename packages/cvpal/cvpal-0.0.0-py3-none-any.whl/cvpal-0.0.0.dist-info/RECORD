@@ -1,0 +1,15 @@
+cvpal/__init__.py,sha256=Ikj5TozYzngovdzCdEZdbsAx6XVKMGfgvf_wxGcd-yE,24
+cvpal/coco_json_implementation_functions.py,sha256=VpYjheVUpO2UBtLz1rsMKe6_I6Yn6iqjfGfVffgxX5E,73
+cvpal/createml_json_implementation_functions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cvpal/cvpal.py,sha256=5AVW-nuBSIuK81dmvuFffsraX-DgVmy_c4dIbmV7yqA,3748
+cvpal/darknet_txt_implementation_functions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cvpal/paligemma_jsonal_implementation_functions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cvpal/tf_record_implementation_functions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cvpal/txt_implementation_functions.py,sha256=ooC63gJr1MO4RFHkRVOoD_7j8ZACmNYRFUQiToonfD0,18393
+cvpal/xml_implementation_functions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cvpal-0.0.0.dist-info/LICENSE.txt,sha256=akXI8WkKu_iYTgC_-4CCIfwuyxQ523yIMW_Pp256JVM,1070
+cvpal-0.0.0.dist-info/METADATA,sha256=3aUBLiko2dyZSY_F4x8JTgEmLtg2al9kMOmoi-KzNRQ,1927
+cvpal-0.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+cvpal-0.0.0.dist-info/top_level.txt,sha256=hXdhONQfwxJ4fqAotK1wyAEC6MhWjyEbL_Vhe1nECtM,12
+cvpal-0.0.0.dist-info/RECORD,,
