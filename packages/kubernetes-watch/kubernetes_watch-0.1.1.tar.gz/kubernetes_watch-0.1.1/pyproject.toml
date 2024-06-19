@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "kubernetes-watch"
+version = "0.1.1"
+description = ""
+authors = ["bmotevalli <b.motevalli@gmail.com>"]
+readme = "README.md"
+packages = [{include = "kube_watch"}]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4"
+prefect = "2.18.0"
+boto3 = "1.34.68"
+hvac = "2.1.0"
+humps = "0.2.2"
+requests = "2.31.0"
+kubernetes = "29.0.0"
+pyyaml = "6.0.1"
+gitpython = "3.1.43"
+cryptography = "42.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
