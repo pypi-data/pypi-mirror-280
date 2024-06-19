@@ -1,0 +1,12 @@
+diskcache-stubs/__init__.pyi,sha256=e_E4NwXT-oqPw_nbd_DSFG9MnAIVSrkSxVaOOnZXUc0,1508
+diskcache-stubs/_typeshed.pyi,sha256=NK1Su440ZAVeP-3vvxZwanXua8LWReyh4aMABSSGHns,9571
+diskcache-stubs/cli.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diskcache-stubs/core.pyi,sha256=asxEgEG4oK6-ZuVTRU5S6n4NP9BsCkNYAcBT1_mFOpw,16280
+diskcache-stubs/djangocache.pyi,sha256=cFQ6ndaR7EiUmDGTiP8rMuDictmHTLGMYL0xrgzLXKI,2633
+diskcache-stubs/fanout.pyi,sha256=-L27t5ccUzTW751t34yCyytF0CHhQWyb6iLPiQqwLSU,1855
+diskcache-stubs/persistent.pyi,sha256=jC_aU5mCQI_e8JzmE3s2c_eR-Np2k_Vb_FVNxrEbT8k,5579
+diskcache-stubs/recipes.pyi,sha256=4Eb0EYxP5PZ6O2atKAKo-D8oX40iyfWHxwYSgePiqag,2724
+diskcache_stubs-5.6.3.5.20240619.dist-info/METADATA,sha256=c4OiCuG31ue9B_IoJGhJXthebDuthnd1z5wZ5CfUl4I,14512
+diskcache_stubs-5.6.3.5.20240619.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+diskcache_stubs-5.6.3.5.20240619.dist-info/licenses/LICENSE,sha256=jb6pkfjogGFaGtbm4TT9Y_ELI2dggS4YbtXZwFdogc0,11344
+diskcache_stubs-5.6.3.5.20240619.dist-info/RECORD,,
