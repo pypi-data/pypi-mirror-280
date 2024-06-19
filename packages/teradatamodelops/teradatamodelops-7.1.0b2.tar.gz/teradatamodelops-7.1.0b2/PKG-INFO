@@ -1,0 +1,729 @@
+Metadata-Version: 2.1
+Name: teradatamodelops
+Version: 7.1.0b2
+Summary: Python client for Teradata ModelOps (TMO)
+Author-email: Anton Zadorozhniy <anton.zadorozhniy@teradata.com>, Sheheryar Ali Bhatti <sheheryar.bhatti@teradata.com>, Christian Axel Schmidt Dick <christianaxel.schmidt@teradata.com>, Will Fleury <will.fleury@teradata.com>
+Maintainer-email: Anton Zadorozhniy <anton.zadorozhniy@teradata.com>, Sheheryar Ali Bhatti <sheheryar.bhatti@teradata.com>, Christian Axel Schmidt Dick <christianaxel.schmidt@teradata.com>, "Mo, Mengyu" <mengyu.mo@teradata.com>
+License: Copyright (c) 2024 Teradata. All rights reserved.
+        
+        LICENSE AGREEMENT
+        
+        PRODUCT: teradatamodelops
+        
+        IMPORTANT - READ THIS AGREEMENT CAREFULLY BEFORE INSTALLING OR USING THE SOFTWARE. TERADATA WILL LICENSE THE SOFTWARE TO YOU ONLY IF YOU ACCEPT THE TERMS AND CONDITIONS OF THIS AGREEMENT AND MEET THE CONDITIONS FOR USING THE SOFTWARE DESCRIBED BELOW. BY DOWNLOAING, INSTALLING OR USING THE SOFTWARE, YOU (1) AGREE TO THE TERMS AND CONDITIONS OF THIS AGREEMENT, AND (2) REPRESENT AND WARRANT THAT YOU POSSESS THE AUTHORITY TO ENTER INTO THIS AGREEMENT ON BEHALF OF YOU, YOUR EMPLOYER (WHEN ACTING ON BEHALF OF YOUR EMPLOYER), AND/OR A TERADATA-AUTHORIZED LICENSEE (WHEN YOU AND YOUR EMPLOYER ARE ACTING ON BEHALF OF A TERADATA-AUTHORIZED LICENSEE). IF YOU DO NOT ACCEPT THE TERMS AND CONDITIONS OF THIS AGREEMENT, DO NOT DOWNLOAD, INSTALL OR USE THE SOFTWARE.
+        
+        IMPORTANT - BY DOWNLOADING THE SOFTWARE:
+        * YOU ACKNOWLEDGE THAT THE SOFTWARE YOU ARE DOWNLOADING FROM TERADATA IS SUBJECT TO THE RESTRICTIONS AND CONTROLS IMPOSED BY UNITED STATES EXPORT REGULATIONS.
+        
+        * YOU CERTIFY THAT:
+         ** YOU DO NOT INTEND TO USE THE SOFTWARE FOR ANY PURPOSE PROHIBITED BY UNITED STATES EXPORT REGULATIONS, INCLUDING, WITHOUT LIMITATION, TERRORISM, CYBER-ATTACKS, CYBER-CRIMES, MONEY-LAUNDERING, INDUSTRIAL ESPIONAGE, OR NUCLEAR, CHEMICAL OR BIOLOGICAL WEAPONS PROLIFERATION.
+         ** YOU ARE NOT LISTED AS A DENIED PARTY ON ANY LIST GOVERNING UNITED STATES EXPORTS.
+         ** YOU ARE NOT A NATIONAL OF ANY COUNTRY THAT IS NOT APPROVED FOR EXPORT OF THE SOFTWARE. AS OF 2017, THESE COUNTRIES ARE CUBA, IRAN, NORTH KOREA, AND SYRIA.
+        
+        This License Agreement ("Agreement") is a legal contract between you (as defined below) and Teradata (as defined below) regarding the Software (as defined below). The terms "you", "your" and "yours" collectively and individually refer to you as an individual and to any company for which you are acting. The term "Teradata" refers to either Teradata U.S., Inc. for Software deliveries in the US or Teradata Ireland Ltd. for Software deliveries outside the United States. "Software" refers to the software product identified above, which consists of computer software code in object code form only, as well as associated documentation that Teradata may elect in its sole discretion to provide you. "Software" also includes any and all error corrections, bug fixes, updates, upgrades, or new versions or releases of the Software (collectively and individually, "Enhancements") that Teradata may elect in its sole discretion to provide you.
+        
+        1. Term. This Agreement commences on the earliest date of the first download, first copying, first installation, or first use of the Software (the "Effective Date"). Unless terminated earlier as provided herein, this agreement, including your license to the Software, will expire or terminate on the same date that your Teradata-authorized license to use the Teradata Vantage product expires or terminates (whichever occurs first).
+        
+        2. License.
+        (a) Subject to your compliance with all of the terms and conditions of this Agreement and only during the term of this Agreement, Teradata grants you a nonexclusive, nontransferable, paid up license to install and use the Software on your computer solely for purposes of facilitating your Teradata-authorized license to use the Teradata Vantage. You may make reasonable archival backup copies of the Software, but may only use an archival copy in lieu of your primary copy and subject to the same restrictions as your primary copy.
+        
+        (b) The term Third Party Software means computer programs or modules (including their documentation) that bear the logo, copyright and/or trademark of a third party (including open source software that are contained in files marked as "open source" or the like) or are otherwise subject to the written license terms of a third party. The term "Software" does not include Third Party Software. Third Party Software is licensed to you subject to the applicable license terms accompanying it, included in/with it, referenced in it, or otherwise entered into by you with respect to it. Third Party Software license terms include those found in the FOSS licensing zip file accompanying the Software. Teradata provides source code to certain Third Party Software for certain periods of time in compliance with certain applicable licenses. To request such source code, visit http://developer.teradata.com/download/license/oss-request.
+        
+        (c) You will not sell, copy, rent, loan, modify, transfer, disclose, embed, sublicense, create derivative works of or distribute the Software, in whole or in part, without Teradata's prior written consent. You are granted no rights to obtain or use the Software's source code. You will not reverse-assemble, reverse compile or reverse-engineer the Software, except as expressly permitted by applicable law without the possibility of contractual waiver. Notwithstanding anything to the contrary, you do not have any license, right, or authority to subject the Software, in whole or in part or as part of a larger work, to any terms of any other agreement, including GNU Public Licenses.
+        
+        (d) No license rights to the Software will be implied. The Software, which includes all copies thereof (whether in whole or in part), is and remains the exclusive property of Teradata. You will ensure that all copies of the Software contain Teradata's copyright notices, as well as all other proprietary legends. Teradata reserves the right to inspect your use of the Software for purposes of verifying your compliance with the terms and conditions of this Agreement.
+        
+        3. Responsibilities. You are responsible for the installation of the Software, as well as for providing data security and backup operations. This Agreement does not require Teradata to provide you with any Enhancements, consulting services, technical assistance, installation, training, support, or maintenance of any kind (collectively and individually, "Services"). To the extent that Teradata elects to provide you with any Services, such Services are provided to you at Teradata's sole discretion and may be modified or discontinued at any time for any reason.
+        
+        4. DISCLAIMER OF WARRANTY. TERADATA: (a) PROVIDES SERVICES (IF ANY), (b) LICENSES THE SOFTWARE, AND (c) PROVIDES THIRD PARTY SOFTWARE TO YOU ON AN "AS-IS" BASIS WITHOUT WARRANTIES OF ANY KIND (ORAL OR WRITTEN, EXPRESS OR IMPLIED, OR STATUTORY). WITHOUT LIMITATION TO THE FOREGOING, THERE ARE NO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. TERADATA DOES NOT WARRANT THAT THE SOFTWARE, THIRD PARTY SOFTWARE, OR SERVICES WILL MEET YOUR REQUIREMENTS OR CONFORM TO ANY SPECIFICATIONS, OR THAT THE OPERATION OF THE SOFTWARE OR THIRD PARTY SOFTWARE WILL BE UNINTERRUPTED OR ERROR FREE. YOU BEAR THE ENTIRE RISK AS TO SATISFACTORY QUALITY, PERFORMANCE, ACCURACY, AND RESULTS OBTAINED FROM THE SOFTWARE, THIRD PARTY SOFTWARE, AND SERVICES. SOME JURISDICTIONS RESTRICT DISCLAIMERS OF WARRANTY, SO THE ABOVE DISCLAIMERS MAY NOT FULLY APPLY TO YOU.
+        
+        5. LIMITATIONS ON LIABILITY: UNDER NO CIRCUMSTANCES WILL TERADATA'S AND ITS LICENSOR'S TOTAL CUMULATIVE LIABILITY FOR CLAIMS RELATING TO THIS AGREEMENT, THE SERVICES, THE SOFTWARE, AND/OR THIRD PARTY SOFTWARE (WHETHER BASED IN CONTRACT, STATUTE, TORT (INCLUDING NEGLIGENCE) OR OTHERWISE) EXCEED US$1,000; PROVIDED, HOWEVER, THAT THE FOREGOING WILL NOT APPLY TO CLAIMS FOR (A) PERSONAL INJURY, INCLUDING DEATH, TO THE EXTENT CAUSED BY TERADATA'S NEGLIGENCE OR WILLFUL MISCONDUCT; OR (B) PHYSICAL DAMAGE TO TANGIBLE REAL OR PERSONAL PROPERTY TO THE EXTENT CAUSED BY TERADATA'S NEGLIGENCE OR WILLFUL MISCONDUCT EQUAL TO THE AMOUNT OF DIRECT DAMAGES UP TO ONE MILLION DOLLARS PER OCCURRENCE. IN NO EVENT WILL TERADATA OR ITS LICENSORS BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, INCIDENTAL OR CONSEQUENTIAL DAMAGES, OR FOR LOSS OF PROFITS, REVENUE, TIME, OPPORTUNITY OR DATA, EVEN IF INFORMED OF THE POSSIBILITY OF SUCH DAMAGES. SOME JURISDICTIONS RESTRICT LIMITATIONS OF LIABILITY, SO THE ABOVE LIMITATIONS MAY NOT FULLY APPLY TO YOU.
+        
+        6. Government Restrictions. You agree that you will not, directly or indirectly, export or transmit any Software without obtaining Teradata's prior written authorization, as well as appropriate governmental approvals, including those required by the U.S. Government. Use and or distribution of this software is subject to export laws and regulations of the United States and other jurisdictions. The links below connect you to applicable U.S. government agencies, and their regulations, that have jurisdiction over this transaction.
+        http://www.bis.doc.gov/
+        http://www.treas.gov/offices/enforcement/ofac/
+        
+        In downloading this product, you acknowledge that this transaction is subject to applicable export control laws and you certify that your download, use and/or subsequent distribution of this product is not prohibited under applicable laws and regulations.
+        
+        The Government's use, duplication, or disclosure of Teradata's commercial computer software and commercial computer software documentation is subject to: (a) the Restricted Rights Notice set forth in 48 C.F.R. 52.227-14 (Rights In Data - General); (b) Teradata's standard commercial license rights supplemented by 48 C.F.R. 52.227-19 (Commercial Computer Software - Restricted Rights); and/or (c) the limited rights and license set forth 48 CFR 252.227-7015 (Technical Data-Commercial Items), as applicable.
+        
+        7. Termination and Expiration. A party may terminate this Agreement with or without cause, upon providing written notice to the other parties. When this Agreement terminates or expires, you will immediately cease all use of the Software, permanently remove the Software from all computers, destroy all copies of the Software, and (upon receipt of Teradata's request) provide a signed written certification that the foregoing has occurred. Sections 4, 5, 6, 7, 8, 9, 10, and 11 will survive expiration or termination of this Agreement.
+        
+        8. Choice of Law and Dispute Resolution. The parties will attempt in good faith to resolve any controversy or claim by negotiation or mediation. If they are unable to do so, and regardless of the causes of action alleged and whether they arise under this Agreement or otherwise, the claim will be resolved by arbitration before a sole arbitrator in Dayton, Ohio pursuant to the then-current Commercial Rules of the American Arbitration Association and the federal substantive and procedural law of arbitration. The arbitrator's award will be final and binding, and may be entered in any court having jurisdiction thereof, but may include only damages consistent with the limitations in this Agreement. Each party will bear its own attorney's fees and costs related to the arbitration. The obligations to negotiate, mediate and arbitrate shall not apply to claims for misuse or infringement of a party's intellectual property rights. Any claim or action must be brought within two years after the claimant knows or should have known of the claim. New York law will govern the interpretation and enforcement of this Agreement, except that the Federal Arbitration Act will govern the interpretation and enforcement of the arbitrability of claims under this Section.
+        
+        9. Feedback. Notwithstanding anything to the contrary: (a) Teradata will have no obligation of any kind with respect to any Software-related comments, suggestions, design changes or improvements that you elect to provide to Teradata in either verbal or written form (collectively, "Software Feedback"), and (b) Teradata and its affiliates are hereby free to use any ideas, concepts, know-how or techniques, in whole or in part, contained in Software Feedback: (i) for any purpose whatsoever, including developing, manufacturing, and/or marketing products and/or services incorporating Software Feedback in whole or in part, and (ii) without any restrictions or limitations, including requiring the payment of any license fees, royalties, or other consideration.
+        
+        10. Confidentiality. You will not disclose the results of any testing or evaluations, including any benchmarks, insofar as it relates to the Software without Teradata's prior written consent.
+        
+        11. Entire Agreement. This Agreement constitutes the entire understanding of the parties with respect to the Software and Services, and supersede all other prior agreements and understandings whether oral or written. No oral representation or change to this Agreement will be binding upon either party unless agreed to in writing and signed by authorized representatives of all parties. You will not assign this Agreement or your rights, nor will you delegate your obligations under this Agreement. Failure by either party to enforce any term or condition of this Agreement will not be deemed a waiver of future enforcement of that or any other term or condition. The provisions of this Agreement are severable. "Include", "includes", and "including" shall be interpreted as introducing a list of examples which do not limit the generality of any preceding words or any words in the list of examples.
+Project-URL: Homepage, https://pypi.org/project/teradatamodelops/
+Project-URL: Documentation, https://pypi.org/project/teradatamodelops/#cli
+Project-URL: Repository, https://github.td.teradata.com/ModelOps/ModelOpsPythonSDK
+Keywords: teradata,vantage,data science,devops,vantagecloud
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Database
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE-3RD-PARTY.txt
+License-File: LICENSE.txt
+Requires-Dist: jinja2>=3.1.4
+Requires-Dist: requests>=2.32.3
+Requires-Dist: requests-oauthlib>=2.0.0
+Requires-Dist: oauthlib>=3.2.2
+Requires-Dist: aia>=0.2.0
+Requires-Dist: pyyaml>=5.4
+Requires-Dist: gitpython>=3.1.41
+Requires-Dist: cryptography>=42.0.2
+Requires-Dist: teradataml>=20.0.0.0
+Requires-Dist: certifi>=2023.7.22
+Requires-Dist: pycryptodome>=3.19.1
+Requires-Dist: httpx>=0.23.0
+Requires-Dist: Pygments>=2.18.0
+Requires-Dist: idna>=3.7
+Requires-Dist: numpy>=1.26.4
+
+# Teradata ModelOps Client
+
+- [Installation](#installation)
+- [CLI](#cli)
+- [Authentication](#authentication)
+- [SDK](#sdk)
+- [Release Notes](#release-notes)
+
+
+# Installation
+
+The teradatamodelops is available from [pypi](https://pypi.org/project/teradatamodelops/)
+
+```bash
+pip install teradatamodelops
+```
+
+_Note: previously Teradata ModelOps was known as AnalyticsOps Accelerator (AOA), so you might encounter mentions of AOA or aoa, it's referring to an older version of ModelOps_
+
+# CLI 
+
+## configuration
+
+By default, the CLI looks for configuration stored in `~/.aoa/config.yaml`. Copy the config from ModelOps UI -> Session Details -> CLI Config. This will provide the command to create or update the `config.yaml`. If required, one can override this configuration at runtime by specifying environment variables (see `api_client.py`)
+
+## help
+
+The cli can be used to perform a number of interactions and guides the user to perform those actions.
+
+```bash
+> tmo -h
+usage: tmo [-h] [--debug] [--version] {list,add,run,init,clone,link,connection,feature,doctor} ...
+
+TMO CLI
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --debug               Enable debug logging
+  --version             Display the version of this tool
+
+actions:
+  valid actions
+
+  {list,add,run,init,clone,link,connection,feature,doctor}
+    list                List projects, models, local models or datasets
+    add                 Add model to working dir
+    run                 Train and Evaluate model locally
+    init                Initialize model directory with basic structure
+    clone               Clone Project Repository
+    link                Link local repo to project
+    connection          Manage local connections
+    feature             Manage feature statistics
+    doctor              Diagnose configuration issues
+```
+
+
+## clone
+
+The `clone` command provides a convenient way to perform a git clone of the repository associated with a given project. The command can be run interactively and will allow you to select the project you wish to clone. Note that by default it clones to the current working directory so you either need to make sure you create an empty folder and run it from within there or else provide the `--path ` argument.
+
+```bash
+> tmo clone -h
+usage: tmo clone [-h] [--debug] [-id PROJECT_ID] [-p PATH]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --debug               Enable debug logging
+  -id PROJECT_ID, --project-id PROJECT_ID
+                        Id of Project to clone
+  -p PATH, --path PATH  Path to clone repository to
+```
+
+### init
+
+When you create a git repository, its empty by default. The `init` command allows you to initialize the repository with the structure required by the AOA. It also adds a default README.md and HOWTO.md.
+
+```bash
+> tmo init -h
+usage: tmo init [-h] [--debug]
+
+optional arguments:
+  -h, --help  show this help message and exit
+  --debug     Enable debug logging
+```
+
+## list
+
+Allows to list the aoa resources. In the cases of listing models (pushed / committed) and datasets, it will prompt the user to select a project prior showing the results. In the case of local models, it lists both committed and non-committed models.
+```bash
+> tmo list -h
+usage: tmo list [-h] [--debug] [-p] [-m] [-lm] [-t] [-d] [-c]
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --debug              Enable debug logging
+  -p, --projects       List projects
+  -m, --models         List registered models (committed / pushed)
+  -lm, --local-models  List local models. Includes registered and non-registered (non-committed / non-pushed)
+  -t, --templates      List dataset templates
+  -d, --datasets       List datasets
+  -c, --connections    List local connections
+```
+All results are shown in the format
+```
+[index] (id of the resource) name
+```
+for example:
+```
+List of models for project Demo:
+--------------------------------
+[0] (03c9a01f-bd46-4e7c-9a60-4282039094e6) Diabetes Prediction
+[1] (74eca506-e967-48f1-92ad-fb217b07e181) IMDB Sentiment Analysis
+```
+
+## add
+
+Add a new model to a given repository based on a model template. A model in any other existing ModelOps git repository (specified via the `-t <giturl>`) can be used.
+
+```bash
+> tmo add -h
+usage: tmo add [-h] [--debug] -t TEMPLATE_URL -b BRANCH
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --debug               Enable debug logging
+  -t TEMPLATE_URL, --template-url TEMPLATE_URL
+                        Git URL for template repository
+  -b BRANCH, --branch BRANCH
+                        Git branch to pull templates (default is main)
+```
+
+Example usage 
+```bash
+> tmo add -t https://github.com/Teradata/modelops-demo-models -b master
+```
+
+## run
+
+The cli can be used to validate the model training and evaluation logic locally before committing to git. This simplifies the development lifecycle and allows you to test and validate many options. It also enables you to avoid creating the dataset definitions in the AOA UI until you are ready and have a finalised version.
+
+```bash
+> tmo run -h
+usage: tmo run [-h] [--debug] [-id MODEL_ID] [-m MODE] [-d DATASET_ID] [-t DATASET_TEMPLATE_ID] [-ld LOCAL_DATASET] [-lt LOCAL_DATASET_TEMPLATE] [-c CONNECTION]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --debug               Enable debug logging
+  -id MODEL_ID, --model-id MODEL_ID
+                        Id of model
+  -m MODE, --mode MODE  Mode (train or evaluate)
+  -d DATASET_ID, --dataset-id DATASET_ID
+                        Remote datasetId
+  -t DATASET_TEMPLATE_ID, --dataset-template-id DATASET_TEMPLATE_ID
+                        Remote datasetTemplateId
+  -ld LOCAL_DATASET, --local-dataset LOCAL_DATASET
+                        Path to local dataset metadata file
+  -lt LOCAL_DATASET_TEMPLATE, --local-dataset-template LOCAL_DATASET_TEMPLATE
+                        Path to local dataset template metadata file
+  -c CONNECTION, --connection CONNECTION
+                        Local connection id
+```
+
+You can run all of this as a single command or interactively by selecting some optional arguments, or none of them.
+
+For example, if you want to run the cli interactively you just select `tmo run` but if you wanted to run it non interactively to train a given model with a given datasetId you would expect
+```bash
+> tmo run -id <modelId> -m <mode> -d <datasetId>
+```
+
+
+## connection
+
+The connection credentials stored in the ModelOps service cannot be accessed remotely through the CLI for security reasons. Instead, users can manage connection information locally for the CLI. These connections are used by other CLI commands which access Vantage.  
+
+
+```bash
+> tmo connection -h
+usage: tmo connection [-h] {list,add,remove,export,test,create-byom-table} ...
+
+optional arguments:
+  -h, --help            show this help message and exit
+
+actions:
+  valid actions
+
+  {list,add,remove,export,test,create-byom-table}
+    list                List all local connections
+    add                 Add a local connection
+    remove              Remove a local connection
+    export              Export a local connection to be used as a shell script
+    test                Test a local connection
+    create-byom-table   Create a table to store BYOM models
+```
+
+
+## feature 
+
+Manage feature metadata by creating and populating feature metadata table(s). The feature metadata tables contain information required when computing statistics during training, scoring etc. This metadata depends on the feature type (categorical or continuous). 
+
+As this metadata can contain sensitive profiling information (such as categories), it is recommended to treat this metadata in the same manner as you treat the features for a given use case. That is, the feature metadata should live in a project or use case level database. 
+
+```bash
+> tmo feature -h
+usage: tmo feature [-h] {compute-stats,list-stats,create-stats-table,import-stats} ...
+
+optional arguments:
+  -h, --help            show this help message and exit
+
+action:
+  valid actions
+
+  {compute-stats,list-stats,create-stats-table,import-stats}
+    compute-stats       Compute feature statistics
+    list-stats          List available statistics
+    create-stats-table  Create statistics table
+    import-stats        Import column statistics from local JSON file
+```
+
+### tmo feature compute metadata
+
+Compute the feature metadata information required when computing statistics during training, scoring etc. This metadata depends on the feature type (categorical or continuous).
+
+Continuous: the histograms edges  
+Categorical: the categories
+
+```bash
+> tmo feature compute-stats -h
+usage: tmo feature compute-stats [-h] [--debug] -s SOURCE_TABLE -m METADATA_TABLE [-t {continuous,categorical}] -c COLUMNS
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --debug               Enable debug logging
+  -s SOURCE_TABLE, --source-table SOURCE_TABLE
+                        Feature source table/view
+  -m METADATA_TABLE, --metadata-table METADATA_TABLE
+                        Metadata table for feature stats, including database name
+  -t {continuous,categorical}, --feature-type {continuous,categorical}
+                        Feature type: continuous or categorical (default is continuous)
+  -c COLUMNS, --columns COLUMNS
+                        List of feature columns
+```
+
+Example usage
+
+```bash
+tmo feature compute-stats \
+  -s <feature-db>.<feature-data> \
+  -m <feature-metadata-db>.<feature-metadata-table> \
+  -t continuous -c numtimesprg,plglcconc,bloodp,skinthick,twohourserins,bmi,dipedfunc,age
+```
+
+
+# Authentication
+
+A number of authentication methods are supported for both the CLI and SDK. 
+
+- device_code (interactive)
+- client_credentials (service-service)
+- bearer (raw bearer token)
+
+When working interactively, the recommended auth method for the CLI is `device_code`. It will guide you through the auth automatically. For the SDK, use  `bearer` if working interactively. 
+For both CLI and SDK, if working in an automated service-service manner, use `client_credentials`. 
+
+# SDK
+
+The SDK for ModelOps allows users to interact with ModelOps APIs from anywhere they can execute python such as notebooks, IDEs etc. It can also be used for devops to automate additional parts of the process and integrate into the wider organization.
+
+## Create Client
+
+By default, creating an instance of the `AoaClient` looks for configuration stored in `~/.aoa/config.yaml`. When working with the SDK, we recommend that you specify (and override) all the necessary configuration as part of the `AoaClient` invocation. 
+
+An example to create a client using a bearer token for a given project is
+
+```python
+from aoa import AoaClient
+
+client = AoaClient(
+    aoa_url="<modelops-endpoint>",
+    auth_mode="bearer",
+    auth_bearer="<bearer-token>",
+    project_id="23e1df4b-b630-47a1-ab80-7ad5385fcd8d",
+)
+```
+
+To get the values to use for bearer token and aoa_url, go to the ModelOps UI -> Session Details -> SDK Config. 
+
+## Read Entities
+
+We provide an extensive sdk implementation to interact with the APIs. You can find, create, update, archive, etc any entity that supports it via the SDK. In addition, most if not all search endpoints are also implemented in the sdk. Here are some examples
+
+```python
+from aoa import AoaClient, DatasetApi, JobApi
+import pprint
+
+client = AoaClient(project_id="23e1df4b-b630-47a1-ab80-7ad5385fcd8d")
+
+dataset_api = DatasetApi(aoa_client=client)
+
+datasets = dataset_api.find_all()
+pprint.pprint(datasets)
+
+dataset = dataset_api.find_by_id("11e1df4b-b630-47a1-ab80-7ad5385fcd8c")
+pprint.pprint(dataset)
+
+job_api = JobApi(aoa_client=client)
+jobs = job_api.find_by_id("21e1df4b-b630-47a1-ab80-7ad5385fcd1c")
+pprint.pprint(jobs)
+```
+
+## Deploy Model Version
+
+Let's assume we have a model version `4131df4b-b630-47a1-ab80-7ad5385fcd15` which we want to deploy In-Vantage and schedule it to execute once a month at midnight of the first day of the month using dataset connection `11e1df4b-b630-47a1-ab80-7ad5385fcd8c` and dataset template `d8a35d98-21ce-47d0-b9f2-00d355777de1`. We can use the SDK as follows to perform this.
+
+```python
+from aoa import AoaClient, TrainedModelApi, JobApi
+
+client = AoaClient(project_id="23e1df4b-b630-47a1-ab80-7ad5385fcd8d")
+trained_model_api = TrainedModelApi(aoa_client=client)
+job_api = JobApi(aoa_client=client)
+
+trained_model_id = "4131df4b-b630-47a1-ab80-7ad5385fcd15"
+deploy_request = {
+   "engineType": "IN_VANTAGE",
+   "publishOnly": False,
+   "language": "PMML",
+   "cron": "0 0 1 * *",
+   "byomModelLocation": {
+     "database": "<db-name>",
+     "table": "<table-name>"
+    },
+    "datasetConnectionId": "11e1df4b-b630-47a1-ab80-7ad5385fcd8c",
+    "datasetTemplateId": "d8a35d98-21ce-47d0-b9f2-00d355777de1",
+    "engineTypeConfig": {
+        "dockerImage": "",
+        "engine": "byom",
+        "resources": {
+            "memory": "1G",
+            "cpu": "1"
+        }
+    }
+}
+
+job = trained_model_api.deploy(trained_model_id, deploy_request)
+
+# wait until the job completes (if the job fails it will raise an exception)
+job_api.wait(job['id'])
+```
+
+## Import Model Version
+
+Let's assume we have a PMML model which we have trained in another data science platform. We want to import the artefacts for this version (model.pmml and data_stats.json) against a BYOM model `f937b5d8-02c6-5150-80c7-1e4ff07fea31`.
+
+```python
+from aoa import (
+    AoaClient, 
+    ModelApi,
+    TrainedModelApi, 
+    TrainedModelArtefactsApi,
+    UserAttributesApi, 
+    JobApi
+)
+import uuid
+
+client = AoaClient(project_id="23e1df4b-b630-47a1-ab80-7ad5385fcd8d")
+model_api = ModelApi(aoa_client=client)
+trained_model_api = TrainedModelApi(aoa_client=client)
+trained_model_artefacts_api = TrainedModelArtefactsApi(aoa_client=client)
+user_attributes_api = UserAttributesApi(aoa_client=client)
+
+job_api = JobApi(aoa_client=client)
+
+# set metadata for your import request
+model_id = '<model-uuid>'
+filename = './pima.pmml'
+language = 'PMML'
+dataset_connection_id = '<dataset-connection-uuid>'
+train_dataset_id = 'train-dataset-uuid'
+
+# first, upload the artefacts which we want to associate with the BYOM model version
+import_id = trained_model_artefacts_api.upload_byom_model(language,filename)
+
+import_request = {
+    "artefactImportId": import_id,
+    "externalId": "my_model_external_id",
+    "modelMonitoring": {
+        "language": language,
+        "useDefaultEvaluation": True,
+        "evaluationEnabled": True,
+        "modelType": "CLASSIFICATION",
+        "byomColumnExpression": "CAST(CAST(json_report AS JSON).JSONExtractValue('$.predicted_HasDiabetes') AS INT)",
+        "driftMonitoringEnabled": True,
+        "datasetId": train_dataset_id,
+        "datasetConnectionId": default_connection_id,
+    },
+}
+
+job = model_api.import_byom(model_id, import_request)
+
+# wait until the job completes (if the job fails it will raise an exception)
+job_api.wait(job["id"])
+
+# now you can list the artefacts which were uploaded and linked to the model version
+trained_model_id = job["metadata"]["trainedModel"]["id"]
+artefacts = trained_model_artefacts_api.list_artefacts(trained_model_id)
+```
+
+
+## Release Notes
+
+### current
+
+- Explicitly ask for `logmech` when defining a local Vantage connection
+- Fixed `tmo connection create-byom-table` logging error
+- Added support for `access_token` when using OAuth2 Device code grant type.
+- Updated `requests` dependency
+- Client hardening efforts
+
+### 7.0.6
+
+- Fixed compatibility issue with `teradataml>=20.0.0.0`
+- Minor formatting updates
+- Added user attributes API
+- Updated programmatic BYOM import examples
+
+### 7.0.5
+
+**WARNING** Please recreate statistics metadata if you are using this version. It will produce more accurate results and correct behaviour.
+
+- Fixed computing statistics metadata for continuous features with all NULLs
+- Fixed training/eval/scoring statistics on columns with all NULLs
+- Added a workaround for VAL Histograms failure due to SP argument being longer than 31000 characters
+- Rounding all Decimal and Float bin edges to Teradata-supported FLOAT literals (15 digits max)
+- Fixed CLI error computing continuous statistics metadata related to mixed case column names
+
+### 7.0.4
+
+**WARNING** Please recreate statistics metadata if you are using this version. It will produce more accurate results and correct behaviour.
+
+- Fixed STO helper functions to pick up correct python environment
+- Computing statistics metadata:
+    - Allow less than 10 bins for continuous integer features
+    - Ignore continuous features that have single value for all rows
+    - Allow different precision for decimal and float continuous features
+    - Fix a bug with repeating edges for decimal/float continuous features
+    - Using rounded edges for integer continuous features
+    - Ignore NULLs for categorical features
+    - Ignore categorical features that have NULL value for all rows
+- Allow collecting training statistics without providing a target (unsupervised learning)
+- Report right and left outliers when computing statistics on continuous features
+- Allow collecting training/evaluation/scoring statistics when statistics metadata is missing for some columns (missing columns are reported in data_stats.json)
+- For categorical features, report outlier categories in "unmonitored_frequency"
+- Assume statistics metadata is empty, in case it could not be read from the database
+- Minor fixes and improvements
+
+### 7.0.3
+
+- Fixed statistics computation for symmetric distributions
+- Added automatic retry for device_code expired session or refresh token
+
+### 7.0.2
+
+- Updated dependencies
+
+### 7.0.1
+
+- Updates to new name
+- Changes to support both 1.x and 2.x version of SQLAlchemy
+- Added a command to create BYOM table
+- Various quality of life and performance improvements
+
+### 7.0.0.0
+
+- Refactor: Refactor data statistics API / internals to be simpler (breaking changes)
+- Feature: Switch CLI authentication to use `device_code` grant flow
+- Feature: Add raw Bearer token support for authentication (SDK)
+
+
+### 6.1.4
+
+- Feature: Document user facing stats functions
+- Feature: Improve end user error messaging related to stats
+- Bug: Fix `aoa init` and `aoa add` not working due to refactor in 6.1.3
+
+### 6.1.3
+
+- Feature: Improve error messages for statistics calculations and validation
+- Feature: Use [aia](https://pypi.org/project/aia/) for AIA chasing for missing intermediate certificates
+- Bug: No defaults for set when BYOM and VAL DBs not configured on connections
+- Bug: Fixed requirement versions to ensure more stability across python versions
+- Bug: Fixed slow CLI for some commands due to repeated server initialization
+
+### 6.1.2
+
+- Bug: Work around problems with special character in passwords for teradataml
+
+### 6.1.0
+
+- Cleanup: Remove all non OAuth2 (JWT) authentication methods
+- Cleanup: Remove `aoa configure` 
+- Feature: Improve error messages to user on CLI
+- Feature: Add `aoa link` for linking project to repo locally
+- Bug: Don't show archived datasets
+- Bug: Fix issue with `aoa feature create-table`
+
+
+### 6.0.0
+
+- Feature: Support API changes on ModelOps 06.00
+- Feature: CLI DX improvements 
+- Feature: Add Telemetry query bands to session
+- Feature: `aoa feature` support for managing feature metadata
+- Feature: `aoa add` uses reference git repository for model templates
+- Feature: Improve DX from Notebooks 
+
+
+### 5.0.0
+
+- Feature: Add simpler teradataml context creation via aoa_create_context
+- Feature: Add database to connections
+- Feature: Support for human-readable model folder names
+- Feature: Improve UX of aoa run
+- Feature: Improved error messages for users related to auth and configure
+- Refactor: Package refactor of aoa.sto.util to aoa.util.sto
+- Bug: cli listing not filtering archived entities
+- Cleanup: Remove pyspark support from CLI
+- 
+
+### 4.1.12
+
+- Bug: aoa connection add now hides password symbols
+- Bug: sto.util.cleanup_cli() used hardcoded models table
+- Feature: sto.util.check_sto_version() checks In-Vantage Python version compatibility
+- Feature: sto.util.collect_sto_versions() fetches dict with Python and packages versions
+
+### 4.1.11
+
+- Bug: aoa run (evaluation) for R now uses the correct scoring file
+
+### 4.1.10
+
+- Bug: aoa init templates were out of date
+- Bug: aoa run (score) didn't read the dataset template correctly
+- Bug: aoa run (score) tried to publish to prometheus 
+- Bug: aoa run (score) not passing model_table kwargs
+
+### 4.1.9
+
+- Bug: Histogram buckets incorrectly offset by 1 for scoring metrics
+
+### 4.1.7
+
+- Bug: Quoted and escaped exported connection environmental variables
+- Bug: aoa clone with `path` argument didn't create .aoa/config.yaml in correct directory
+- Feature: aoa clone without `path` now uses repository name by default
+- Feature: update BYOM import to upload artefacts before creating version 
+
+### 4.1.6
+
+- Feature: Added local connections feature with Stored Password Protection
+- Feature: Self creation of .aoa/config.yaml file when cloning a repo
+- Bug: Fix argparse to use of common arguments
+- Feature: Support dataset templates for listing datasets and selecting dataset for train/eval
+- Bug: Fix aoa run for batch scoring, prompts for dataset template instead of dataset
+- Bug: Fix batch scoring histograms as cumulative
+
+### 4.1.5
+
+- Bug: Fix computing stats
+- Feature: Autogenerate category labels and support for overriding them
+- Feature: Prompt for confirmation when retiring/archiving
+
+### 4.1.4
+
+- Feature: Retiring deployments and archiving projects support
+- Feature: Added support for batch scoring monitoring
+
+### 4.1.2
+
+- Bug: Fix computing stats
+- Bug: Fix local SQL model training and evaluation
+
+### 4.1
+
+- Bug: CLI shows archived entities when listing datasets, projects, etc
+- Bug: Adapt histogram bins depending on range of integer types.
+
+### 4.0
+
+- Feature: Extract and record dataset statistics for Training, Evaluation
+
+### 3.1.1
+
+- Feature: `aoa clone` respects project branch
+- Bug: support Source Model ID from the backend
+
+### 3.1
+
+- Feature: ability to separate evaluation and scoring logic into separate files for Python/R
+
+### 3.0
+
+- Feature: Add support for Batch Scoring in run command
+- Feature: Added STO utilities to extract metadata for micro-models
+
+### 2.7.2
+
+- Feature: Add support for OAUTH2 token refresh flows
+- Feature: Add dataset connections api support
+
+### 2.7.1
+
+- Feature: Add TrainedModelArtefactsApi
+- Bug: pyspark cli only accepted old resources format
+- Bug: Auth mode not picked up from environment variables 
+
+### 2.7.0 
+
+- Feature: Add support for dataset templates
+- Feature: Add support for listing models (local and remote), datasets, projects
+- Feature: Remove pykerberos dependency and update docs
+- Bug: Fix tests for new dataset template api structure
+- Bug: Unable to view/list more than 20 datasets / entities of any type in the cli 
+
+### 2.6.2
+ - Bug: Added list resources command.
+ - Bug: Remove all kerberos dependencies from standard installation, as they can be now installed as an optional feature.
+ - Feature: Add cli support for new artefact path formats
+ 
+### 2.6.1 
+ - Bug: Remove pykerberos as an installation dependency. 
