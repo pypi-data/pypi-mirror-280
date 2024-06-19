@@ -1,0 +1,10 @@
+versifier/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+versifier/__main__.py,sha256=vC4W_qZaka3vxhTlU-Gdl27ttAitY3P8D760YB18HeE,2932
+versifier/config.py,sha256=15TTcbPthV_U340ioHX4HJjnmQMESvy18vKL0Ijn4OY,437
+versifier/core.py,sha256=F7m3L5_CK6XFqJ4ra1V8frayPTKHcWn1bRz8lqvgN3A,3956
+versifier/poetry.py,sha256=aOGCpchVlHRjwvj_jZAzxRDQ6P41-Rz8sCUGfG5y68k,3446
+versifier-0.0.3.dist-info/entry_points.txt,sha256=e4ejU9nPrgu_Bo_wx_og9ZgrsUnHbI-OblBaBc9X_wk,52
+versifier-0.0.3.dist-info/LICENSE,sha256=acc0GLs50MAberO1NcqLqiVver1Nm0AwsKyC9r9_H3Q,1064
+versifier-0.0.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+versifier-0.0.3.dist-info/METADATA,sha256=YS05Yf0ROcUo3gp4iTXQgyc9EgDkNHJwZEUPNxgIN-k,3864
+versifier-0.0.3.dist-info/RECORD,,
