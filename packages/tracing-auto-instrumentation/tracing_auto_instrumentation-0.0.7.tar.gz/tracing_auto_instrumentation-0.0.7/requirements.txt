@@ -1,0 +1,7 @@
+# Common dependencies
+html2text
+lastmile_eval
+pandas
+pyarrow
+tqdm
+wget
