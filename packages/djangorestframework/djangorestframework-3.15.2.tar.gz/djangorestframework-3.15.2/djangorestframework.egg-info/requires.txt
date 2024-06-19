@@ -1,0 +1,4 @@
+django>=4.2
+
+[:python_version < "3.9"]
+backports.zoneinfo
