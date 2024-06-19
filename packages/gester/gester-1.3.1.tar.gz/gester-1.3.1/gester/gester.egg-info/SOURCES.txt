@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/gest.py
+src/gester.egg-info/PKG-INFO
+src/gester.egg-info/SOURCES.txt
+src/gester.egg-info/dependency_links.txt
+src/gester.egg-info/entry_points.txt
+src/gester.egg-info/top_level.txt
