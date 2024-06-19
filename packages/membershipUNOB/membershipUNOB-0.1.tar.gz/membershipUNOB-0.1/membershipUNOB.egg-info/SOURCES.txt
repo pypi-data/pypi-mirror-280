@@ -1,0 +1,17 @@
+README.md
+setup.py
+membershipUNOB.egg-info/PKG-INFO
+membershipUNOB.egg-info/SOURCES.txt
+membershipUNOB.egg-info/dependency_links.txt
+membershipUNOB.egg-info/requires.txt
+membershipUNOB.egg-info/top_level.txt
+package/__init__.py
+package/main.py
+package/utils/__init__.py
+package/utils/_config.py
+package/utils/a_login.py
+package/utils/b_get_group.py
+package/utils/c_get_student.py
+package/utils/d_create_externalids.py
+package/utils/extract_data.py
+package/utils/f_data_import.py
