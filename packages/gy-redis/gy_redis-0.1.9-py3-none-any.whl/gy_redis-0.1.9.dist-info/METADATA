@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: gy-redis
+Version: 0.1.9
+Summary: GuanYu for test
+Home-page: https://github.com/guanyuhoujeff/gy-redis
+Author: jeff7522553
+Author-email: jeff7522553@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: redis
+Requires-Dist: reactivex (>=4.0.4)
+Requires-Dist: opencv-python (>=4.3.0)
+
+# gy-redis
+
+## pip package
+```
+pip install gy-redis -U
+```
+
+## build package
+First change the version or related information of setup.py
+
+```
+python setup.py sdist
+```
+
+## input tocken
+```
+twine upload dist/*
+```
+
