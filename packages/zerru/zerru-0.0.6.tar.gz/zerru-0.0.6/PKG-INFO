@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: zerru
+Version: 0.0.6
+Summary: Zerru — это модуль zer на русском! Для сокращения и автоматизации кода.
+Author: ZerProg studio
+License-File: LICENSE
+Requires-Dist: tqdm
+
+Zer-ru — это модуль zer на русском! Для сокращения и автоматизации кода.
+
+Версия модуля: 0.0.6.
+Издатель: ZerProg studio.
