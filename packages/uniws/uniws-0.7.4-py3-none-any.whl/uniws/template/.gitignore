@@ -1,0 +1,12 @@
+*
+
+!.gitattributes
+!.gitignore
+!.gitmodules
+
+!.uniws
+!.uniws/*.py
+!.uniws/*.sh
+!.uniws/.bashrc
+
+!README.md
