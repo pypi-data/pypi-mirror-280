@@ -1,0 +1,6 @@
+pyproject.toml
+src/naqsh/__init__.py
+src/naqsh.egg-info/PKG-INFO
+src/naqsh.egg-info/SOURCES.txt
+src/naqsh.egg-info/dependency_links.txt
+src/naqsh.egg-info/top_level.txt
