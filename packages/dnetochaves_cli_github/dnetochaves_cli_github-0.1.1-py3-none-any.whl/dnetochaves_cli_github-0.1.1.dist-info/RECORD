@@ -1,0 +1,13 @@
+dnetochaves_cli_github/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dnetochaves_cli_github/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dnetochaves_cli_github/cli/repo.py,sha256=y6DitJMVaw7pxOl2TXQAa6fAvUgryks3K5oqzEsj9Bk,1774
+dnetochaves_cli_github/cli/user.py,sha256=XWqhLat6BaMdd6sHCN9AgWEC4jEd03WSDC4InroMC14,888
+dnetochaves_cli_github/github.py,sha256=mx3TrAAy1jHSop0gAGA808A5sTKBoxsAp_NqOolUE10,3841
+dnetochaves_cli_github/main.py,sha256=_lUGGzQ682GlQUAOBl8SKGhmWUpkU5Rs5XrfMET6QYQ,416
+dnetochaves_cli_github/options.py,sha256=-zLoR-6yPUdfA2KXoQxjU6c3K_oC43K-E3xKGDVlYIo,109
+dnetochaves_cli_github/utils.py,sha256=LNUbGPWfEj07p_J_WzjlY8y8u5pvVOdIfo_AeCibd9I,1422
+dnetochaves_cli_github-0.1.1.dist-info/LICENSE,sha256=YQvmnr1tNArswmudtd0WrY3d2OAHtJpFkCCbLkKZPhk,1498
+dnetochaves_cli_github-0.1.1.dist-info/METADATA,sha256=_cs_h-KBRbvLD3z1xXddZ-2B8dTNr7WArgt4BZd6W_M,652
+dnetochaves_cli_github-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dnetochaves_cli_github-0.1.1.dist-info/entry_points.txt,sha256=291cmjphHh0Q1YTCSODoOhIJ8pg-dSqQfRtYHIIhqJ0,74
+dnetochaves_cli_github-0.1.1.dist-info/RECORD,,
