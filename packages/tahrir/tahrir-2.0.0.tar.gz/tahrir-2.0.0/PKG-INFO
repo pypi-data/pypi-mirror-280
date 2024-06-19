@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: tahrir
+Version: 2.0.0
+Summary: A webapp for issuing your own Open Badges
+Home-page: https://github.com/fedora-infra/tahrir
+License: AGPLv3+ with additional permission
+Keywords: fedora
+Author: Fedora Infrastructure
+Author-email: admin@fedoraproject.org
+Requires-Python: >=3.9.0,<4.0.0
+Classifier: Environment :: Web Environment
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Provides-Extra: deploy
+Provides-Extra: docs
+Requires-Dist: Babel (>=2.10.0,<3.0.0)
+Requires-Dist: backoff (>=2.2.1,<3.0.0)
+Requires-Dist: docutils (>=0.20.1)
+Requires-Dist: dogpile-cache (>=1.3.2,<2.0.0)
+Requires-Dist: fedora-messaging (>=3.5.0,<4.0.0)
+Requires-Dist: feedgen (>=1.0.0,<2.0.0)
+Requires-Dist: flask (>=2.0.0,<4.0.0)
+Requires-Dist: flask-babel (>=4.0.0,<5.0.0)
+Requires-Dist: flask-healthz (>=0.0.3)
+Requires-Dist: flask-oidc (>=2.2.0,<3.0.0)
+Requires-Dist: flask-talisman (>=0.8.0)
+Requires-Dist: flask-wtf (>=0.14)
+Requires-Dist: gunicorn (>=21.2) ; extra == "deploy"
+Requires-Dist: magickwand (>=0.2,<0.3)
+Requires-Dist: myst-parser ; extra == "docs"
+Requires-Dist: pillow (>=10.2.0,<11.0.0)
+Requires-Dist: psycopg2 (>=2.9.9,<3.0.0) ; extra == "deploy"
+Requires-Dist: pydantic-settings (>=2.0.2,<3.0.0)
+Requires-Dist: python-dateutil (>=2.9.0.post0,<3.0.0)
+Requires-Dist: pytz (>=2024.1)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: qrcode (>=7.4.2,<8.0.0)
+Requires-Dist: rdflib (>=7.0.0,<8.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: sphinx ; extra == "docs"
+Requires-Dist: sqlalchemy (>=2.0.29,<3.0.0)
+Requires-Dist: tahrir-api (>=1.1.0,<2.0.0)
+Requires-Dist: tahrir-messages (>=2.0.0,<3.0.0)
+Requires-Dist: whitenoise (>=6.0.0,<7.0.0)
+Project-URL: Documentation, https://tahrir.readthedocs.io
+Project-URL: Repository, https://github.com/fedora-infra/tahrir
+Description-Content-Type: text/markdown
+
+# Tahrir
+
+Tahrir is a [Flask](https://flask.palletsprojects.com/) application used by the Fedora Project for
+issuing [Open Badges](https://openbadges.org). As per the [about](https://openbadges.org/about/) page:
+
+> The concept of Open Badges originated among those working at the Mozilla and
+> MacArthur foundations, and out of the research of Erin Knight, founding
+> director of the Open Badges project at Mozilla.
+
+Originally, information was hosted on the [Mozilla Wiki][moz-badges].
+
+[moz-badges]: https://wiki.mozilla.org/index.php?title=Badges&oldid=1170927
+
+Tahrir is [Arabic for Liberation](http://en.wikipedia.org/wiki/Tahrir_Square).
+The name is total overkill.
+
+You can see Tahrir deployed in [production](https://badges.fedoraproject.org/), or in
+the [staging instance](https://badges.stg.fedoraproject.org/).
+
