@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/pypi.yaml
+psychopy_glfw/__init__.py
+psychopy_glfw/glfwbackend.py
+psychopy_glfw.egg-info/PKG-INFO
+psychopy_glfw.egg-info/SOURCES.txt
+psychopy_glfw.egg-info/dependency_links.txt
+psychopy_glfw.egg-info/entry_points.txt
+psychopy_glfw.egg-info/requires.txt
+psychopy_glfw.egg-info/top_level.txt

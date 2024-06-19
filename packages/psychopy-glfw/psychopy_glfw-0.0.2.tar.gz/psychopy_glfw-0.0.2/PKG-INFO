@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: psychopy-glfw
+Version: 0.0.2
+Summary: Extension package for PsychoPy adding support got GLFW windows.
+Author-email: Matthew Cutone <mcutone@opensciencetools.org>
+License: GNU General Public License v3 (GPLv3)
+Project-URL: homepage, https://github.com/psychopy/psychopy-glfw
+Project-URL: repository, https://github.com/psychopy/psychopy-glfw
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: glfw
+
+# psychopy-glfw
+GLFW window backend plugin for PsychoPy
+
+This plugin adds GLFW as a supported `winType` for PsychoPy once loaded. You can enable using GLFW by specifying it as 
+the `winType` when creating a new window. 
+
+## Example
+
+Creating a window using GLFW as the backend::
+
+    import psychopy.visual as visual
+    win = visual.Window(winType='glfw')
