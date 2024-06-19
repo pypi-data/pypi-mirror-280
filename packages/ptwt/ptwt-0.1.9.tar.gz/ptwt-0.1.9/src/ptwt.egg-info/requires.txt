@@ -1,0 +1,15 @@
+PyWavelets
+torch
+numpy
+
+[examples]
+matplotlib
+
+[tests]
+pytest
+scipy>=1.10
+pooch
+
+[typing]
+mypy
+pytest
