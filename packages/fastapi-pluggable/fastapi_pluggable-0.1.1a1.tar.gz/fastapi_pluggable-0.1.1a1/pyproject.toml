@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fastapi-pluggable"
+version = "0.1.1a1"
+description = "Make your FastAPI app pluggable with entrypoints"
+authors = ["Brandon Spendlove <brandon@veesix-networks.co.uk>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.9"
+pre-commit = "^3.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
