@@ -1,0 +1,9 @@
+joblib
+librosa
+matplotlib
+numpy
+scipy
+soundfile
+torch
+typing_extensions
+yachalk
