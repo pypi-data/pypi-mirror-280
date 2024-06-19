@@ -1,0 +1,11 @@
+#
+# @brief   ${PRO}
+# @version 1.0.1
+# @date    ${DATE}
+# @company None, free software to use ${YEAR}
+# @author  Vladimir Roncevic <elektron.ronca@gmail.com>
+#
+
+ASMFLAGS = \
+	-g \
+	-f elf64
