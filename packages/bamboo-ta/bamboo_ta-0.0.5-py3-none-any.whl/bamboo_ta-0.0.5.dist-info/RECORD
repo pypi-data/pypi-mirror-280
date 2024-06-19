@@ -1,0 +1,16 @@
+bamboo_ta/__init__.py,sha256=J3bv7zFQeRwso__ayttgHrhnFZ75pNHTRFs38L-Pd_E,187
+bamboo_ta/bamboo_ta.py,sha256=K9VS6WkawxJoMWz4Y6Lezp5pxe4f3C9QsNh7V26rVKQ,347
+bamboo_ta/candles.py,sha256=oeDMf_4-cZVI0jBsVCdXqr9EUWZTUAcGmY6rYaQ7Xkw,6194
+bamboo_ta/cycles.py,sha256=dec2CEBu6N0NU12lGkYQCBJWwMYb9idgNNw-puUpuXU,88
+bamboo_ta/momentum.py,sha256=9yMZDuj1m223EK04-kjmaTw3PNnfoqVXg4t6Ogp5g8Q,3730
+bamboo_ta/performance.py,sha256=dec2CEBu6N0NU12lGkYQCBJWwMYb9idgNNw-puUpuXU,88
+bamboo_ta/statistics.py,sha256=dec2CEBu6N0NU12lGkYQCBJWwMYb9idgNNw-puUpuXU,88
+bamboo_ta/trend.py,sha256=YCA3y4pqS2TIhIcD2ZHo3fJ4weK9AHg4M4fhUl6ctuo,12141
+bamboo_ta/utility.py,sha256=dec2CEBu6N0NU12lGkYQCBJWwMYb9idgNNw-puUpuXU,88
+bamboo_ta/volatility.py,sha256=ea4tBIm0NyF0qbGFDf445jei9TZy0dhkB849r6UwPCU,1562
+bamboo_ta/volume.py,sha256=dec2CEBu6N0NU12lGkYQCBJWwMYb9idgNNw-puUpuXU,88
+bamboo_ta-0.0.5.dist-info/LICENSE,sha256=cyatj2nT4N1kuyLnE3Mrn3TyVQvLM6J2JJW12-MlMII,1072
+bamboo_ta-0.0.5.dist-info/METADATA,sha256=5Jii7drRzxwYAZyZ3Fx2O5lUK2715niQPeSK_TFU7Dw,13171
+bamboo_ta-0.0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bamboo_ta-0.0.5.dist-info/top_level.txt,sha256=xDSFdlhIQHU7CmpFMxhgxzuXzI0F8RYiTRcQQWstkj0,10
+bamboo_ta-0.0.5.dist-info/RECORD,,
