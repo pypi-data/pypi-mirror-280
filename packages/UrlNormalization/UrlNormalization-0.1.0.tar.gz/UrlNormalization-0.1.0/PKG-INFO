@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: UrlNormalization
+Version: 0.1.0
+Summary: Package for URL Nomalization.
+Home-page: https://gitlab.com/witslb/url-normalization
+Author: dwbruijn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# URL-normalization
+
+
