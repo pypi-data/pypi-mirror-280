@@ -1,0 +1,13 @@
+global-exclude *.py[cod]
+global-exclude *.editorconfig
+include gen_nasm/conf/
+include gen_nasm/conf/gen_nasm.logo
+include gen_nasm/conf/gen_nasm.cfg
+include gen_nasm/conf/gen_nasm_util.cfg
+include gen_nasm/conf/project.yaml
+include gen_nasm/conf/template/asmflags.template
+include gen_nasm/conf/template/ldflags.template
+include gen_nasm/conf/template/objects.template
+include gen_nasm/conf/template/sources.template
+include gen_nasm/conf/template/makefile.template
+include gen_nasm/conf/template/main.template
