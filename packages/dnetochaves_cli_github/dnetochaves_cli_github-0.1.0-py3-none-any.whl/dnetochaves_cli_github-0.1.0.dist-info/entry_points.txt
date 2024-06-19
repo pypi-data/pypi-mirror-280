@@ -1,0 +1,3 @@
+[console_scripts]
+dnetochaves_cli_github=dnetochaves_cli_github.main:app
+
