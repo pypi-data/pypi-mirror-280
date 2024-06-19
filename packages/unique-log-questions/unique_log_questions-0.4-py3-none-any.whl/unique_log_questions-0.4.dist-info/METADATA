@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: unique-log-questions
+Version: 0.4
+Summary: A Django app for chatbot functionality.
+Home-page: https://github.com/saini2001/chatbot_code
+Author: Swati Saini
+Author-email: swati@mixorg.com
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Question Answer Database
+
+This package provides a Django application for storing question and answer sessions with dynamic data fields in a PostgreSQL database.
+
+## Installation
+
+Install using pip:
