@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: tokencal
+Version: 0.1.0
+Summary: A powerful package for estimating token prices in large language models.
+Author-email: fardinkai <fardin.opai@gmail.com>
+Project-URL: Homepage, https://github.com/FardinHash/tokencal
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4.4; extra == "dev"
+Requires-Dist: flake8>=3.1.0; extra == "dev"
+Requires-Dist: coverage[toml]>=7.4.0; extra == "dev"
+
+# Tokencal: Token Price Estimation for LLMs
+
+## Overview
+**Tokencal** is a sophisticated tool designed to estimate token prices for large language models (LLMs). Whether you're a developer, researcher, or business, Tokencal helps you optimize token usage and manage costs effectively. 
+
+## Features
+- **Accurate Estimations**: Get precise token price estimates for various LLMs.
+- **Efficient Performance**: Fast calculations to save your time.
+- **Extensive Compatibility**: Works with multiple LLMs.
+
+## Installation
+To install Tokencal, simply run:
+```bash
+pip install tokencal
+```
+## Usage
+Using Tokencal is straightforward. Here’s a quick example to get you started:
+```
+from tokencal import TokenEstimator
+
+# Initialize the estimator with your LLM model details
+estimator = TokenEstimator(model_name="Your_LLM_Model")
+
+# Estimate token price
+price = estimator.estimate_price(text="Sample text to estimate token price.")
+print(f"Estimated token price: {price}")
+```
+
+## Keywords
+Token price estimation, LLM, Large Language Models, cost optimization, token usage
