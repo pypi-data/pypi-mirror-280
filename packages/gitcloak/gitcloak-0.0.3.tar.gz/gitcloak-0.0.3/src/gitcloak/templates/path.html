@@ -1,0 +1,49 @@
+{% extends 'base.html' %} {% block title %}{{ owner }}/{{ repo }} - {{ path or
+"/" }}{% endblock %} {% block content %}
+<div class="row">
+  <div class="col-md-8">
+    <h1>{{ owner }}/{{ repo }} - <small>{{ path or "/" }}</small></h1>
+    <div class="list-group">
+      {% if path %}
+      <div class="directory">
+        <a
+          class="list-group-item list-group-item-action"
+          href="/{{ owner
+            }}/{{ repo }}/tree/main/{{ '/'.join(path.split('/')[:-1]) }}"
+          ><img
+            class="icon"
+            src="/assets/dist/icons/folder.svg"
+            alt="Go up"
+          />..</a
+        >
+      </div>
+      {% endif %} {% for entry in directories + files %}
+      <div
+        class="{% if entry in directories %}directory{% else %}file{% endif %}"
+      >
+        <a
+          class="list-group-item list-group-item-action"
+          href="/{{ owner }}/{{ repo }}/{{ 'tree' if entry in directories else 'blob' }}/main/{{ path }}/{{ entry }}"
+        >
+          <img class="icon" src="{{ "/assets/dist/icons/" + ('folder.svg' if
+          entry in directories else 'file.svg') }}" alt="{{ 'folder' if entry in
+          directories else 'file' }}" /> {{ entry }}
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% if readme_content %}
+<div class="row">
+  <div class="col-md-8">
+    <div class="readme card">
+      <div class="card-body">
+        <h2 class="card-title">README.md</h2>
+        <div class="card-text">{{ readme_content|safe }}</div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %} {% endblock %}
