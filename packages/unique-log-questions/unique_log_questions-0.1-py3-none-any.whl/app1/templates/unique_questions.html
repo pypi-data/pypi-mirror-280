@@ -1,0 +1,28 @@
+<!-- app1/templates/app1/display_questions_answers.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Questions and Answers</title>
+  </head>
+  <body>
+    <h1>Chat Sessions</h1>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>User Name</th>
+          <th>Question</th>
+          <th>Answer</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for session in chat_sessions %}
+        <tr>
+          <td>{{ session.user_name }}</td>
+          <td>{{ session.question }}</td>
+          <td>{{ session.answer }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>
