@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: vsphere-sdk
+Version: 0.0.0.1
+Summary: Python bindings for vsphere sdk
+Author: Broadcom
+Requires-Dist: pyVmomi
+Requires-Dist: vmware-vcenter
+Requires-Dist: vmware-vapi-common-client
+
