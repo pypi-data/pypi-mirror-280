@@ -1,0 +1,12 @@
+qt_wsi_reg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qt_wsi_reg/registration_tree.py,sha256=2FvBAVPjZfCsMzfxyD6ntCu6kuWzEmMg2q5ROiBXats,52455
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_ccmct.py,sha256=MtfIZIdjtGR6Byt81iW9qBYrK3Y5uBEsB2FQMzau60I,2880
+tests/test_cyto.py,sha256=rFdy8uwBT_TGOpgzyZkvOsF5iKX5nOCcvXIQtpenWWg,5231
+tests/test_ihche.py,sha256=CpFcEi9TexxPOT4WUXiN9kDIUXLmam9HKz0LY8-4MMw,2010
+tests/test_rotation.py,sha256=7DiYwR9pyN7EwKd8ioM51B5m_rzbttxwSEZPd_IvjQ4,2224
+qt_wsi_registration-0.0.13.dist-info/LICENSE,sha256=E1Lv_eRFIf7WIl1x35IxITQa0M1uu2Ixorfky3rszU0,1074
+qt_wsi_registration-0.0.13.dist-info/METADATA,sha256=UPFPelSidEQNxG67qNN1PC1EyBbPpnpFC51qqmaqx1Y,2795
+qt_wsi_registration-0.0.13.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+qt_wsi_registration-0.0.13.dist-info/top_level.txt,sha256=h6IVvWTQvx1rqVmLEutY-_N0UEsXFRmYuU0MN79MCdY,17
+qt_wsi_registration-0.0.13.dist-info/RECORD,,
