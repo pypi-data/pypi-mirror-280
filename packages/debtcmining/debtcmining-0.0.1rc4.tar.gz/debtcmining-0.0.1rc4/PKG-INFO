@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: debtcmining
+Version: 0.0.1rc4
+Summary: 
+Author: DesKaOne
+Author-email: DesKaOne@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (==3.9.5)
+Requires-Dist: aiohttp-proxy (==0.1.2)
+Requires-Dist: colorama (==0.4.6)
+Requires-Dist: loguru (==0.7.2)
+Requires-Dist: pydantic (==2.7.4)
+Requires-Dist: sqlalchemy (==2.0.30)
+Description-Content-Type: text/markdown
+
+
