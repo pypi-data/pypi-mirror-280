@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: rTinyTools
+Version: 0.0.2
+Summary: A cli tools to do everything.
+Home-page: https://pypi.org/project/rTool/
+Author: rfooox
+Author-email: rfooox@outlook.com
+License: MIT Licence
+Keywords: rTools,tools,r-rools
+Platform: any
+Requires-Dist: PyYAML >=6.0.1
+Requires-Dist: click >=8.0.4
+
+
+    rfooox's Tools
+    A cli tools to do everything.
+    

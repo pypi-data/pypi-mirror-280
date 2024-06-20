@@ -1,0 +1,4 @@
+[console_scripts]
+r-tools = rTools.main:cli
+rTools = rTools.main:cli
+rtools = rTools.main:cli
