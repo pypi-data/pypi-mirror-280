@@ -1,0 +1,14 @@
+membershipUNOB/__init__.py,sha256=bX4EMoTBQhpXqknuavN4nnr6azGPw_0NC9AfiVWFJAA,99
+membershipUNOB/main.py,sha256=Zzw-BB2iN3IWE40XSJkmCDBfZZYhQZ62gYTN9CLcUQg,508
+membershipUNOB/utils/__init__.py,sha256=sRsusIghW9WED88qo8srkkAP6lTBljN6VEXgPH02uQw,260
+membershipUNOB/utils/_config.py,sha256=lEERjiyq6xe5Cy4FBWD_ViAb1EQa_YK_ghfmCNhr5VE,3276
+membershipUNOB/utils/a_login.py,sha256=_Ov0nRyhlJDckA-B79dh1BIxETILwd6Yl3rTazFIS4I,925
+membershipUNOB/utils/b_get_group.py,sha256=WMnlVAkxO0tm6MttgZqoK3kldHzk3M-LvR8u-EhboAM,1593
+membershipUNOB/utils/c_get_student.py,sha256=Cd5hCnxIc-Jh4o-kL42d5nFble5-TWuELWSuAlRHxa8,7512
+membershipUNOB/utils/d_create_externalids.py,sha256=vStN5d9HIJBFaaeJGBtsKumeTfzZlwrgRZzGxtkdDb8,1063
+membershipUNOB/utils/extract_data.py,sha256=8VRJJyuL_Dd_XozdM0HNuNdzdeD05LOQU0aYDFqJmn8,3784
+membershipUNOB/utils/f_data_import.py,sha256=M2zNNdQzfN99CRwhFdVSBsY7w8izrnd1RGQ6BiE1sfo,4310
+membershipUNOB-0.3.2.dist-info/METADATA,sha256=729bUZ6RDAZ1rP9yYXfqnsMrp2RuGAxUaenA8tOdzVU,3063
+membershipUNOB-0.3.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+membershipUNOB-0.3.2.dist-info/top_level.txt,sha256=PLmHektXJBSsgP6MjvxiMqDHSLd47G3WVjlzJpMSh-M,15
+membershipUNOB-0.3.2.dist-info/RECORD,,
