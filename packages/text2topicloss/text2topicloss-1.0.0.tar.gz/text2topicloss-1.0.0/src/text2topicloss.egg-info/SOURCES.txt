@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/text2topicloss/__init__.py
+src/text2topicloss/text2topicLoss.py
+src/text2topicloss.egg-info/PKG-INFO
+src/text2topicloss.egg-info/SOURCES.txt
+src/text2topicloss.egg-info/dependency_links.txt
+src/text2topicloss.egg-info/requires.txt
+src/text2topicloss.egg-info/top_level.txt

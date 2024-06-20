@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "text2topicloss"
+version = "1.0.0"
+authors = [
+    {name = "Marc-Alexis Azaïs", email = "azaismarc.pro@gmail.com"}
+]
+description = "Text2topic loss for bi-encoder models"
+readme = "README.md"
+keywords = ["text2topic", "nlp", "topic modeling", "BERT", "BERTopic"]
+dependencies = [
+    "sentence-transformers",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Customer Service",
+
+    "Topic :: Text Processing",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Repository = "https://github.com/azaismarc/text2topic"
+Paper = "https://aclanthology.org/2023.emnlp-industry.10/"
