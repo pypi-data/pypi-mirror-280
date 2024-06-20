@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+vs_api_elastic_history.egg-info/PKG-INFO
+vs_api_elastic_history.egg-info/SOURCES.txt
+vs_api_elastic_history.egg-info/dependency_links.txt
+vs_api_elastic_history.egg-info/top_level.txt
