@@ -1,0 +1,3 @@
+[console_scripts]
+earthkit-climdates = earthkit.time.cli.climatology:main
+earthkit-dateseq = earthkit.time.cli.sequence:main
