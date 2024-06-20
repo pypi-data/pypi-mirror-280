@@ -1,0 +1,8 @@
+python-dotenv
+argparse
+tqdm
+requests
+json
+time
+importlib
+os
