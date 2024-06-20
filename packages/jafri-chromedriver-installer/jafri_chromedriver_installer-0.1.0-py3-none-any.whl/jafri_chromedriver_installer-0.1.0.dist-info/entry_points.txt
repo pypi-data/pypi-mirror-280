@@ -1,0 +1,2 @@
+[console_scripts]
+update-chromedriver = jafri_chromedriver_installer.installer:update_chromedriver
