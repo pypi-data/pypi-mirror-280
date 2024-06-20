@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sphere-response-package
+Version: 1.5.0
+Summary: A package for sphereob response calculations with a PyQt5 GUI
+Home-page: https://github.com/anonseg24/sphere_ob_response
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyQt5
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: qdarkstyle
+

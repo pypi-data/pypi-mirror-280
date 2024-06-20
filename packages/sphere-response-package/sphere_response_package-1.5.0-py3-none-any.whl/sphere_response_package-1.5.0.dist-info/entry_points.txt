@@ -1,0 +1,2 @@
+[console_scripts]
+sphere_main = my_sphere_package.sphere_main:main
