@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: sn_restapi_wrapper
+Version: 1.0.0
+Summary: A wrapper for ServiceNOw RestAPI to pull large data volumes from different tables based on a time period
+Author: Mihindu Perera
+Author-email: mihinduperera35@gmail.com
+License: MIT
+Keywords: wrapper,servicenow-restapi
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: license.txt
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: tqdm
+
+
+
+Change Log 
+
+=============================
+
+1.0.0 (2024-06-20)
+------------------
+- First release
