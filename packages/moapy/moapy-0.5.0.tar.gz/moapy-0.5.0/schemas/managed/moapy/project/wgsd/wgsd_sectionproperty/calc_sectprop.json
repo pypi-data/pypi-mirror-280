@@ -1,0 +1,234 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "FastAPI",
+    "version": "0.1.0"
+  },
+  "servers": [
+    {
+      "url": "https://moa.rpm.kr-dv-midasit.com/backend/function-executor/python-execute/"
+    }
+  ],
+  "paths": {
+    "/moapy/project/wgsd/wgsd_sectionproperty/calc_sectprop": {
+      "post": {
+        "summary": "Calc Sectprop",
+        "operationId": "calc sectprop",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MPolygon"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MSectionProperty"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "MPolygon": {
+        "properties": {
+          "outerPolygon": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/gsdPoints"
+              }
+            ],
+            "description": "Outer polygon",
+            "default": {
+              "HEAD": [
+                "x",
+                "y"
+              ],
+              "DATA": [
+                [
+                  0.0,
+                  400.0,
+                  400.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  600.0,
+                  600.0
+                ]
+              ]
+            }
+          }
+        },
+        "type": "object",
+        "title": "Polygon",
+        "description": "Polygon"
+      },
+      "MSectionProperty": {
+        "properties": {
+          "HEAD": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "maxItems": 18,
+            "minItems": 18,
+            "title": "Head",
+            "default": [
+              "Area",
+              "Asy",
+              "Asz",
+              "Ixx",
+              "Iyy",
+              "Izz",
+              "Cy",
+              "Cz",
+              "Syp",
+              "Sym",
+              "Szp",
+              "Szm",
+              "Ipyy",
+              "Ipzz",
+              "Zy",
+              "Zz",
+              "ry",
+              "rz"
+            ]
+          },
+          "DATA": {
+            "items": {
+              "type": "number"
+            },
+            "type": "array",
+            "maxItems": 18,
+            "minItems": 18,
+            "title": "Data",
+            "default": [
+              10.0,
+              20.0,
+              30.0,
+              40.0,
+              50.0,
+              60.0,
+              70.0,
+              80.0,
+              90.0,
+              100.0,
+              110.0,
+              120.0,
+              130.0,
+              140.0,
+              150.0,
+              160.0,
+              170.0,
+              180.0
+            ]
+          }
+        },
+        "type": "object",
+        "title": "Section Property",
+        "description": "Section Property\n{\n    \"HEAD\": [\"Area\", \"Asy\", \"Asz\", \"Ixx\", \"Iyy\", \"Izz\", \"Cy\", \"Cz\", \"Syp\", \"Sym\", \"Szp\", \"Szm\", \"Ipyy\", \"Ipzz\", \"Zy\", \"Zz\", \"ry\", \"rz\"]\n    \"DATA\": [10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 100.0, 110.0, 120.0, 130.0, 140.0, 150.0, 160.0, 170.0, 180.0]\n}"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      },
+      "gsdPoints": {
+        "properties": {
+          "HEAD": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "maxItems": 2,
+            "minItems": 2,
+            "title": "Head"
+          },
+          "DATA": {
+            "items": {
+              "items": {
+                "type": "number"
+              },
+              "type": "array"
+            },
+            "type": "array",
+            "maxItems": 2,
+            "minItems": 2,
+            "title": "Data"
+          }
+        },
+        "type": "object",
+        "required": [
+          "HEAD",
+          "DATA"
+        ],
+        "title": "GSD Points",
+        "description": "GSD Points class\n\"HEAD\": [\"x\", \"y\"],\n\"DATA\": [[0.0, 400.0, 400.0, 0.0], [0.0, 0.0, 600.0, 600.0]],"
+      }
+    }
+  }
+}
