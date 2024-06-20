@@ -1,0 +1,1 @@
+# Este arquivo indica que auth_office365_lbx é um pacote Python.
