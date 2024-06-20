@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pytinyurl.py
+setup.py
+pytinyurl.egg-info/PKG-INFO
+pytinyurl.egg-info/SOURCES.txt
+pytinyurl.egg-info/dependency_links.txt
+pytinyurl.egg-info/entry_points.txt
+pytinyurl.egg-info/top_level.txt

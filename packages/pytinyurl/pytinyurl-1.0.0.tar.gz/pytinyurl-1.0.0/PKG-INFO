@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pytinyurl
+Version: 1.0.0
+Summary: An interactive script to shorten URLs using TinyURL
+Home-page: https://x.com/Lanaev0li
+Author: Avinion
+Author-email: shizofrin@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pytinyurl
+
+An interactive script to shorten URLs using TinyURL, supporting both English and Russian languages.
+
+## Installation
+
+To install pytinyurl, simply use pip:
+
+```sh
+pip install pytinyurl
+
+
+Usage
+To run the script, use the following command:
+
+pytinyurl
+
+
+
+The script will prompt you to choose a language (English or Russian) and then allow you to input URLs to shorten. You can continue to shorten URLs until you choose to exit.
+
+Author
+Made by Avinion
+Telegram: @akrim

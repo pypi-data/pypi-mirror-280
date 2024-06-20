@@ -1,0 +1,2 @@
+[console_scripts]
+pytinyurl = pytinyurl:main
