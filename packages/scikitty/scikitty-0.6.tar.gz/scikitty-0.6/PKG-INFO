@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: scikitty
+Version: 0.6
+Summary: A package to create Decision Trees like Scikitlearn.
+Home-page: https://github.com/JohnRojas222/SciKittyPackage/
+Download-URL: https://github.com/JohnRojas222/SciKittyPackage/tarball/0.1
+Author: John Rojas
+Author-email: john.rojas.chinchilla@gmail.com
+License: MIT
+Keywords: scikitlearn,decision trees,metrics
+Description-Content-Type: text/markdown
