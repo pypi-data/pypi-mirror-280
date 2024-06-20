@@ -1,0 +1,9 @@
+hf_hub_ctranslate2/__init__.py,sha256=qvqYYfUcSRZ_tTLAtzo9NPgueondIdvkPQ56n7hfywg,543
+hf_hub_ctranslate2/ct2_sentence_transformers.py,sha256=SkVBvWyNx7unnmBtuXhzUQ3KKZzsr1nn7Acn74-jYjY,7984
+hf_hub_ctranslate2/translate.py,sha256=zHezdbS23xGYSgzZ7xltCLNMGGclIBL1-rKfonux1eY,19963
+hf_hub_ctranslate2/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hf_hub_ctranslate2/util/utils.py,sha256=fsjtpTdSHbuGpIjcgKZIFVloS8vEk01s5lOzYcVr-dU,1711
+hf_hub_ctranslate2-2.13.0.dist-info/LICENSE,sha256=zX4sWFc2DoX4ttGGfu1DfnxrNJiv1dG9eHi7PSdSyVY,1069
+hf_hub_ctranslate2-2.13.0.dist-info/METADATA,sha256=fAwaWMEt8xfX3Yw_2AO0UulQou1pAeeTK-mPuRE_HxM,5754
+hf_hub_ctranslate2-2.13.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+hf_hub_ctranslate2-2.13.0.dist-info/RECORD,,
