@@ -1,0 +1,3 @@
+[console_scripts]
+goonies=goonies.backyard:main
+
