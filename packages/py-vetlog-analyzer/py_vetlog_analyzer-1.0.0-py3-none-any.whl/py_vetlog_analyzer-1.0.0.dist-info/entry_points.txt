@@ -1,0 +1,3 @@
+[console_scripts]
+filter=py_vetlog_analyzer.main:find
+
