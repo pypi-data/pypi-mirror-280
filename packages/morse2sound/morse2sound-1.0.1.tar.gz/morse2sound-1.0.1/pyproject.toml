@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [
+    {name = "Dr. Andreas Krüger, DJ3EI", email = "dj3ei@famsik.de"},
+]
+name = "morse2sound"
+description = "Software to convert text into Morse code sound files."
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["Morse", "Morsecode", "ham", "amateur radio", "cw"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Education",
+    "Topic :: Communications :: Ham Radio",
+    "Topic :: Multimedia :: Sound/Audio :: Sound Synthesis"
+]
+version = "1.0.1"
+dependencies = []
+
+[project.urls]
+Homepage = "https://gitlab.com/4ham/morse2sound"
+Repository = "https://gitlab.com/4ham/morse2sound"
+Issues = "https://gitlab.com/4ham/morse2sound/-/issues"
+
+[project.scripts]
+morse2sound = "cw_enc.driver:drive"
+
+[tool.isort]
+profile = "black"
+
