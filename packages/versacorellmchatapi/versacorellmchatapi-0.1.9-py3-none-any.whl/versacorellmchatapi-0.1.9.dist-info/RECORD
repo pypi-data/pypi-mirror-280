@@ -1,0 +1,9 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_api.py,sha256=Kdr38LHNV9E9ekMwhnt0yHLmKGUF5q9dZHjCTZFP4L8,620
+versacorellmchatapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+versacorellmchatapi/api.py,sha256=xBYnKon8joN2aASaYh636korxkdDYMWDGiApPEP6sKA,7451
+versacorellmchatapi-0.1.9.dist-info/LICENSE,sha256=q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U,11
+versacorellmchatapi-0.1.9.dist-info/METADATA,sha256=UZv-oBNUlSAXv633y_7hqtm9d4Yv0b5D_ZsXMOLSUDE,1752
+versacorellmchatapi-0.1.9.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+versacorellmchatapi-0.1.9.dist-info/top_level.txt,sha256=5tiGtLcNNTO3hwuS5ARNheAlRh5bbGjjiGJS3_XxBgA,26
+versacorellmchatapi-0.1.9.dist-info/RECORD,,
