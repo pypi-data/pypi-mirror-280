@@ -1,0 +1,11 @@
+versifier/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+versifier/__main__.py,sha256=qPbVNpD0XHYUdO47IzAoA8L9FCr8qv86fKGuoGZ4mmc,4255
+versifier/compiler.py,sha256=0B55Lx2_yuWPmmJqIeDa3orE5cbqFz8vQwOvwt7nU00,548
+versifier/config.py,sha256=HEuzBHwFe4nl48cLDz058ejug8WZbUEPY33cJG65BK4,317
+versifier/core.py,sha256=_t7Td5a1yJMEIkw_HMvdskulgKHMWBkuWl6hEMIOehs,4973
+versifier/poetry.py,sha256=aOGCpchVlHRjwvj_jZAzxRDQ6P41-Rz8sCUGfG5y68k,3446
+versifier-0.0.5.dist-info/entry_points.txt,sha256=e4ejU9nPrgu_Bo_wx_og9ZgrsUnHbI-OblBaBc9X_wk,52
+versifier-0.0.5.dist-info/LICENSE,sha256=acc0GLs50MAberO1NcqLqiVver1Nm0AwsKyC9r9_H3Q,1064
+versifier-0.0.5.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+versifier-0.0.5.dist-info/METADATA,sha256=ziM8HgDj-7MZFfu6sm_FRPiiuKrFscNKcbEejnN9OeE,4479
+versifier-0.0.5.dist-info/RECORD,,
