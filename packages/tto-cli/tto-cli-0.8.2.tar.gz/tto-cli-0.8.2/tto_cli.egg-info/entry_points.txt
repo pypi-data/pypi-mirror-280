@@ -1,0 +1,3 @@
+[console_scripts]
+tto = orchestcli.cli:cli
+
