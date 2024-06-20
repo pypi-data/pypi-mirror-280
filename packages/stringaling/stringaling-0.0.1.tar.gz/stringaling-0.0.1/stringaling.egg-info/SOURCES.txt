@@ -1,0 +1,8 @@
+README.md
+setup.py
+Stringaling/__init__.py
+Stringaling/main.py
+stringaling.egg-info/PKG-INFO
+stringaling.egg-info/SOURCES.txt
+stringaling.egg-info/dependency_links.txt
+stringaling.egg-info/top_level.txt
