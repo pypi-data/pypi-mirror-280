@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+logyca_pagination/__init__.py
+logyca_pagination.egg-info/PKG-INFO
+logyca_pagination.egg-info/SOURCES.txt
+logyca_pagination.egg-info/dependency_links.txt
+logyca_pagination.egg-info/requires.txt
+logyca_pagination.egg-info/top_level.txt
+logyca_pagination/utils/__init__.py
+logyca_pagination/utils/helpers/__init__.py
+logyca_pagination/utils/helpers/pagination.py
