@@ -1,0 +1,10 @@
+pyerrormetrics/__init__.py,sha256=y-kol77MAN298GLd4Ml1Rh09ns4A8fmFagg5X2HeoJY,259
+pyerrormetrics/error_metrics.py,sha256=uFI8sQbXpUK28Ijecb5V5oRfY2jDy3j5xI7VrwvixYc,18086
+pyerrormetrics/error_quotient.py,sha256=qUIy5J4AAd7fezI6oVf3-f_Oe1UyUWm7m6S_GRIDxIo,2725
+pyerrormetrics/repeated_error_density.py,sha256=ubKGxtyH-VNmPnMINyMA9pEFtvy2Q8K3qamSJVwBfZI,2190
+pyerrormetrics/watwin.py,sha256=JRnoe5h94kphOGErqm0mYhiRoA_h6CA_kMtVPegBHXs,35809
+pyerrormetrics-0.0.1.dist-info/LICENSE,sha256=sqSmZDlOfWaiTYUC2zRQpjsugWusKpjwflahmfsxeLM,1094
+pyerrormetrics-0.0.1.dist-info/METADATA,sha256=vskCbWjWiG1ioyThOSQEHWnut7E09POGlVummGxnik8,5527
+pyerrormetrics-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyerrormetrics-0.0.1.dist-info/top_level.txt,sha256=XQD4B2DumWLqyPBqd5AbPwFBErZLUBQTmFNYreO29Lo,15
+pyerrormetrics-0.0.1.dist-info/RECORD,,
