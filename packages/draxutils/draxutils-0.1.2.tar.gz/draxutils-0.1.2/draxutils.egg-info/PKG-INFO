@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: draxutils
+Version: 0.1.2
+Summary: Utility functions for image handling
+Home-page: UNKNOWN
+Author: dddraxxx
+Author-email: dongqh078@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Credit to https://www.kaggle.com/code/stassl/displaying-inline-images-in-pandas-dataframe.
+
+Usage example:
+
+from datasets import load_dataset
+# Load Fashion MNIST dataset
+rows = load_dataset("zalando-datasets/fashion_mnist", split="test")
+rows.set_format(type="pandas") # rows is a datasets.Dataset object from Hugging Face
+df = rows[:]
+
+from cvutils import show_pd
+show_pd(df)
+
