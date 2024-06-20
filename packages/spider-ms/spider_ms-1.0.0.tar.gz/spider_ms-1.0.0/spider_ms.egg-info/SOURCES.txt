@@ -1,0 +1,12 @@
+setup.py
+spider/__init__.py
+spider/browser.py
+spider/deep_spider.py
+spider/media_spider.py
+spider/page_spider.py
+spider/scorll_spider.py
+spider_ms.egg-info/PKG-INFO
+spider_ms.egg-info/SOURCES.txt
+spider_ms.egg-info/dependency_links.txt
+spider_ms.egg-info/requires.txt
+spider_ms.egg-info/top_level.txt

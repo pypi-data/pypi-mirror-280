@@ -1,0 +1,298 @@
+Metadata-Version: 2.1
+Name: spider_ms
+Version: 1.0.0
+Home-page: https://github.com/musen123
+Author: MuSen
+Author-email: 121292678@qq.com
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: moviepy==1.0.3
+Requires-Dist: pillow==10.3.0
+Requires-Dist: playwright==1.44.0
+Requires-Dist: faker==25.8.0
+Requires-Dist: requests==2.32.3
+
+# ms_spider爬虫框架的使用介绍
+
+### 作者：Musen
+
+## 一、配置文档
+
+### 1、浏览器配置项
+
+```python
+# 浏览器类型
+BROWSER: str = 'chrome'  
+# 默认为Flase,如果浏览器需要使用本地登录态，则设置为True，并配置浏览器路径和缓存文件路径
+IS_LOCAL_BROWSER: bool = False
+# 浏览器路径
+BROWSER_PATH: str = r'C:\Program Files\Google\Chrome\Application\chrome.exe'
+    
+#  浏览器用户缓存文件路径
+USER_DIR: str = r'C:\Users\zengyanzhi\AppData\Local\Google\Chrome\User Data'
+    
+# 是否启用调试模式(使用本地的chrome浏览器)
+DEBUG = False
+# 浏览器远程调试端口()
+PORT = 19789
+
+
+# 是否加载图片（关闭可提升数据抓取效率）
+IS_LOAD_IMAGE = True
+# 是否使用无头模式
+IS_HEADLESS: bool = True
+# 翻页操作间隔时间(控制抓取频率，防止反爬)
+TIME_INTERVAL: int = random.randint(1, 3)
+    
+    
+```
+
+### 2、通用爬虫配置项
+
+```python
+# 初始启动的url地址
+start_url: str = ''
+# 页面数据列表的定位表达式（css或xpath均支持）
+data_list_loc: str = ''
+```
+
+### 3、自动翻页爬虫
+
+```python
+# 自动翻页，下一页按钮的定位表达式（css或xpath均支持）
+next_page_btn_loc: str = ""
+# 下一页按钮距离页面底部的距离
+next_button_distance: int = 200
+# 数据分割的标识符(一般不用)
+split_str: str = '\n'
+# 抓取多少页
+pages: int = 1
+# 要提取的字段：{key:[v1,v2]}
+# key为保存的字段名称，v1为提取的属性，v2为定位表达式（css或xpath均支持）
+data_extract_loc = {
+        'score': ('text', '//span[@class="real font-bold"]'),
+        'name': ('text', '//span[@class="name font-bold"]'),
+        'price': ('text', '//span[@class="real-price font-bold"]'),
+    }
+```
+
+- #### 案例：大众点评
+
+  ```python
+  class DZDPSpider(BasePageCrawler):
+      """大众点评爬虫"""
+      DEBUG = True
+      start_url = 'https://www.dianping.com/changsha/ch10/g112'
+      data_list_loc = '//*[@id="shop-all-list"]/ul/li'
+      next_page_btn_loc = '//a[text()="下一页"]'
+      next_button_distance = 200
+      split_str = '\n'
+      pages = 2
+      data_extract_loc = {
+          'url': ('href', '//div[@class="tit"]/a[1]'),
+          'name': ('text', '//div[@class="tit"]/a/h4'),
+          'price': ('text', '//a[@class="mean-price"]'),
+          'recommend': ('text', '//div[@class="recommend"]'),
+      }
+  ```
+
+  
+
+### 4、滚动点击动态加载爬虫
+
+```python
+# 动态加载更多的按钮
+loader_more_loc = '//div[@class="list-btn-more"]/div'
+# 加载的次数(如果加载所有数据会自动停止)
+loaders = 20
+```
+
+- #### 案例：
+
+```python
+class XCJDSpider(ScrollLoaderSpider):
+    """携程酒店数据抓取"""
+    DEBUG = True
+    data_list_loc = '//li[@class="list-item-target"]'
+    loader_more_loc = '//div[@class="list-btn-more"]/div'
+    loaders = 20
+    data_extract_loc = {
+        'score': ('text', '//span[@class="real font-bold"]'),
+        'name': ('text', '//span[@class="name font-bold"]'),
+        'price': ('text', '//span[@class="real-price font-bold"]'),
+    }
+    start_url = 'https://hotels.ctrip.com/hotels/list?countryId=1&city=4&checkin=2024/05/01&checkout=2024/05/03&optionId=4&optionType=City&directSearch=0&display=%E9%87%8D%E5%BA%86&crn=1&adult=1&children=0&searchBoxArg=t&travelPurpose=0&ctm_ref=ix_sb_dl&domestic=1&&highPrice=-1&barCurr=CNY&hotPoi=50%7C50%7C4197113&sort=9'
+
+
+```
+
+
+
+### 5、深度爬虫
+
+```python
+# 深度页面打开的间隔时间(需要控制好，不然容易反爬)
+open_page_interval: int = 3
+# 深度url链接的提取规则
+deep_link_url: str = ''
+# 深度页面数据提取规则
+deep_data_extract_loc: dict = {}
+```
+
+- #### 案例：
+
+```python
+class DZDPSpider(DeepPageCrawler):
+    """大众点评深度爬虫"""
+    # 是否使用本地chrome
+    DEBUG = True
+    open_page_interval = 5
+    # 起始url
+    start_url = 'https://www.dianping.com/search/keyword/344/0_%E7%BE%8E%E5%AE%B9'
+    # 数据列表
+    data_list_loc = '//div[@id="shop-all-list"]//ul/li'
+    # 下一页按钮
+    next_page_btn_loc = "//a[text()='下一页']"
+    # 下一页距离底部距离
+    next_button_distance = 200
+    # 抓取页数
+    pages = 3
+    # 列表页数据提取规则
+    data_extract_loc = {
+        'url': ('href', '//div[@class="tit"]/a[1]'),
+        'name': ('text', '//div[@class="tit"]/a/h4'),
+        'price': ('text', '//a[@class="mean-price"]'),
+    }
+    # ==============深度页面抓取=============
+    # 深度抓取url提取规则
+    deep_link_url = '//div[@class="tit"]/a[1]'
+    # 深度抓取数据提取规则
+    deep_data_extract_loc = {
+        'addr': ('text', '//div[@class="expand-info address"]'),
+        "mobile": ('text', '//p[@class="expand-info tel"]')
+    }
+```
+
+## 二、视频图片爬虫案例
+
+### 1、图片爬虫
+
+```python
+from spider.media_spider import ImagesSpider
+
+
+class MZDPSpider(ImagesSpider):
+    """图片下载"""
+    DEBUG = True
+    # 页面地址
+    start_url = 'https://www.pexels.com/zh-cn/'
+    # 图片文件的前缀
+    image_start_path = "https://images.pexels.com/photos"
+    # 图片保存的路径
+    image_save_path = 'D:\projectCode\MusenSpider\images'
+
+    def opened(self):
+        """打开页面之后的操作"""
+
+
+if __name__ == '__main__':
+    MZDPSpider().main()
+```
+
+
+
+### 2、抖音视频批量抓取
+
+```python
+import random
+import time
+from spider.media_spider import VideoSpider
+
+
+class DouYinSpider(VideoSpider):
+    """抖音up账号视频爬虫"""
+    # 文件的开头路径
+    DEBUG = True
+    # 要抓取的抖音up主的首页地址
+    start_url: str = 'https://www.douyin.com/user/MS4wLjABAAAAOlZ8ngnt417GKBbFysKt2Q8ERj84-Wb9xypbB8_hmIc?vid=7369137414838684954'
+    # 视频保存路径
+    video_save_path: str = r'D:\projectCode\MusenSpider\video\木瓜电影'
+    # 视频地址前缀
+    video_start_path: str = 'https://v3-weba.douyinvod.com'
+    # 下载的视频类型
+    file_types: list = ['video/mp4']
+    # 从url中提取文件名的规则
+    file_name_pattern: str = r'.com/.+?/(.+?)/video'
+    # 音频文件标签
+    audio_tag: str = 'media-audio-und-mp4a'
+    # 视频文件标签
+    video_tag: str = 'media-video-hvc1'
+
+    def opened(self):
+        # 获取所有的url
+        a_list = self.page.locator('//ul[@class="e6wsjNLL bGEvyQfj"]//a').all()
+        print("up主的视频数量：", len(a_list))
+        for i in range(len(a_list)):
+            if i == 0:
+                a_list[i].click()
+            time.sleep(random.randint(3, 8))
+            self.page.mouse.wheel(0, 100)
+
+
+if __name__ == '__main__':
+    DouYinSpider().main()
+
+```
+
+
+
+### 3、快手视频批量抓取
+
+```python
+import random
+import time
+from spider.media_spider import VideoSpider
+
+
+class KuaiShouSpider(VideoSpider):
+    """快手up账号视频爬虫"""
+    # 文件的开头路径
+    DEBUG = True
+    # 要抓取的抖音up主的首页地址
+    start_url: str = 'https://www.kuaishou.com/profile/3x3fy6cyami7ai6'
+    # 视频保存路径
+    video_save_path: str = r'D:\projectCode\MusenSpider\video\快手'
+    # 视频地址前缀
+    video_start_path: str = 'https://v3-weba.douyinvod.com'
+    # 下载的视频类型
+    file_types: list = ['video/mp4']
+    # 从url中提取文件名的规则
+    file_name_pattern: str = r'&clientCacheKey=(.+?)&'
+
+    def opened(self):
+        # 获取所有的url
+        a_list = self.page.locator('//div[@class="card-link"]').all()
+        print("up主的视频数量：", len(a_list))
+        for i in range(len(a_list)):
+            print(f"下载第{i + 1}个视频")
+            if i == 0:
+                a_list[i].click()
+            time.sleep(random.randint(3, 8))
+            # 切换下一个视频
+            self.page.click('//div[@class="switch-item video-switch-next"]')
+
+
+if __name__ == '__main__':
+    KuaiShouSpider().main()
+```
+
+
+
+
+
+
+
+
+
+#### 
