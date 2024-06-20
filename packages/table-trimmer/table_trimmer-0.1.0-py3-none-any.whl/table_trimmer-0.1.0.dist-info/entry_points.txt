@@ -1,0 +1,2 @@
+[console_scripts]
+table-trimmer = table_trimmer.main:main
