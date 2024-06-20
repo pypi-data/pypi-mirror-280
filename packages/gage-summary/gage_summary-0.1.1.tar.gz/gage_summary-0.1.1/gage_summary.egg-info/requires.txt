@@ -1,0 +1,6 @@
+
+[dev]
+black
+groktest
+ipython
+tomli
