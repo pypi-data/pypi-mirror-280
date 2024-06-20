@@ -1,0 +1,4 @@
+-r requirements-test.txt
+black==24.4.2
+pre-commit==3.7.1
+requests==2.32.3
