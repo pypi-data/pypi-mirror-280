@@ -1,0 +1,4 @@
+pymc>=5.0.0
+mkdocs
+mkdocs-material
+mkdocstrings

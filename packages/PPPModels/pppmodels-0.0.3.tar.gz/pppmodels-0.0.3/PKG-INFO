@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: PPPModels
+Version: 0.0.3
+Summary: A Python library for Poisson point processes.
+Project-URL: Homepage, https://github.com/galenseilis/PPPModels
+Project-URL: Issues, https://github.com/galenseilis/PPPModels/issues
+Author-email: Galen Seilis <galen.seilis@seilis.ca>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# PPPModels
+Package for making predictions with Poisson point processes.
