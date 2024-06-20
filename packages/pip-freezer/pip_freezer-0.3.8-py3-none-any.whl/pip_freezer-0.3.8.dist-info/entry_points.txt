@@ -1,0 +1,3 @@
+[console_scripts]
+pip-freezer = pipfreezer.cli:cli
+pipfreezer = pipfreezer.cli:cli

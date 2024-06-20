@@ -1,0 +1,11 @@
+pipfreezer/__init__.py,sha256=c2j9l9h3PMPzMJh5OhA4lH1fi5d4CmM28tlmeNtTdag,635
+pipfreezer/cli.py,sha256=XOKk_948cJ9wtihb8moWRbNAma9IiV74_ZesQw2wIPI,2871
+pipfreezer/package_data.py,sha256=_Zpq4gTBV2x4vxkm2LuQiumUap6TmhUYeIy95BBrnPg,2206
+pipfreezer/pipfreezer.py,sha256=4y4--q9aDk4fz8WLEFL50CBmGkFie1RdYZhBGRem3Cg,3954
+pip_freezer-0.3.8.dist-info/AUTHORS.md,sha256=vz7emNaksVgjohice0ihmDvvxhR_4b9OoNoMRryRJG4,197
+pip_freezer-0.3.8.dist-info/LICENSE,sha256=rCTc6ROck3Xj4ojhrWRz9GUxynJLna_6zB1HnYawomg,1084
+pip_freezer-0.3.8.dist-info/METADATA,sha256=mFoKGeU0_-a9X5v4Z3MiFHWefvHdYswxpFANsN2UFfY,4502
+pip_freezer-0.3.8.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+pip_freezer-0.3.8.dist-info/entry_points.txt,sha256=Xlz2g_KZgGBRCtbbdtXPPn_luVLiNKZR3zq8hTMwcBM,83
+pip_freezer-0.3.8.dist-info/top_level.txt,sha256=GePWi5QyPJ7ggLGz__fWblpC4KkjTnRBjdmoOwzjsN8,11
+pip_freezer-0.3.8.dist-info/RECORD,,
