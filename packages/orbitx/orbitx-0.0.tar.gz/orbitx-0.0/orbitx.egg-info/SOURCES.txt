@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+orbitx/__init__.py
+orbitx/_version.py
+orbitx.egg-info/PKG-INFO
+orbitx.egg-info/SOURCES.txt
+orbitx.egg-info/dependency_links.txt
+orbitx.egg-info/requires.txt
+orbitx.egg-info/top_level.txt
