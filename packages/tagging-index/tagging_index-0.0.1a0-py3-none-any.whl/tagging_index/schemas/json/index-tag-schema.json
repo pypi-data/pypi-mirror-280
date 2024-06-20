@@ -1,0 +1,129 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "index_tag_schema.json",
+    "title": "指标标签范围定义",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "$schema",
+        "index_definition",
+        "version",
+        "version_desc",
+        "tag_version"
+    ],
+    "properties": {
+        "$schema": {
+            "type": "string"
+        },
+        "tag_version": {
+            "type": "string"
+        },
+        "version": {
+            "type": "string"
+        },
+        "version_desc": {
+            "type": "string"
+        },
+        "exclude": {
+            "type": "object",
+            "title": "exclude condition for all index, will be ignored if index.exclude defined",
+            "properties": {
+                "tags": {
+                    "type": "array",
+                    "title": "exclude tags",
+                    "description": "exclude tags,not affect its sub-tags",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "index_definition": {
+            "type": "array",
+            "description": "The tag range definition for index",
+            "items": {
+                "additionalProperties": false,
+                "type": "object",
+                "required": [
+                    "index_name",
+                    "condition"
+                ],
+                "properties": {
+                    "index_code": {
+                        "type": "string",
+                        "title": "index code"
+                    },
+                    "index_desc": {
+                        "type": "string",
+                        "title": "index description"
+                    },
+                    "index_name": {
+                        "type": "string",
+                        "title": "index name"
+                    },
+                    "condition": {
+                        "type": "object",
+                        "title": "tag condition, 'or' relation",
+                        "additionalProperties": false,
+                        "properties": {
+                            "or": {
+                                "type": "object",
+                                "properties": {
+                                    "tag_lv1": {
+                                        "type": "array",
+                                        "title": "tag_lv1 values",
+                                        "items": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "tag_lv2": {
+                                        "type": "array",
+                                        "title": "tag_lv2 values",
+                                        "items": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "tag_lv4": {
+                                        "type": "array",
+                                        "title": "tag_lv4 values",
+                                        "items": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "tag_lv5": {
+                                        "type": "array",
+                                        "title": "tag_lv5 values",
+                                        "items": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "tag_lv3": {
+                                        "type": "array",
+                                        "title": "tag_lv3 values",
+                                        "items": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            },
+                            "exclude": {
+                                "type": "object",
+                                "title": "exclude condition for current index",
+                                "properties": {
+                                    "tags": {
+                                        "type": "array",
+                                        "title": "exclude tags",
+                                        "description": "exclude tags,not affect its sub-tags",
+                                        "items": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
