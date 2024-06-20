@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: pyzpacker
+Version: 0.0.1
+Summary: 将纯python项目模块打包为pyz包.
+Author-email: hsz <hsz1273327@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Python-Tools
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: changelog, https://github.com/Python-Tools/pyzpacker/src/branch/main/CHANGELOG.md
+Project-URL: documentation, https://github.com/Python-Tools/pyzpacker
+Project-URL: homepage, https://github.com/Python-Tools/pyzpacker
+Project-URL: repository, https://github.com/Python-Tools/pyzpacker
+Keywords: tool
+Platform: all
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: ~=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: chardet >=5.0.0
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: mypy ; extra == 'test'
+Requires-Dist: pycodestyle ; extra == 'test'
+Requires-Dist: lxml ; extra == 'test'
+
+# pyzpacker
+
++ version: 0.0.1
++ status: dev
++ author: hsz
++ email: hsz1273327@gmail.com
+
+## Description
+
+将纯python项目模块打包为pyz包.
+
++ keywords: pyz, zip
+
+## Features
+
++ 将纯python模块打包为pyz包
++ 可选的进行精简大小
++ 可选的包含依赖
++ 可选的编译为pyc后移除源码打包
++ 仅支持python 3.10+
+
+## Install
+
+```bash
+python -m pip install pyzpacker
+```
+
+## Usage
+
+```bash
+pyzpacker [options] -m <指定入口模块> <你的项目目录>
+
+```

@@ -1,0 +1,2 @@
+[console_scripts]
+pyzpacker = pyzpacker.cmd:main
