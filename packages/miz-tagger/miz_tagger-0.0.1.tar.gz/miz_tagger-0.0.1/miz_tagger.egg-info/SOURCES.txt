@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+miz_tagger.egg-info/PKG-INFO
+miz_tagger.egg-info/SOURCES.txt
+miz_tagger.egg-info/dependency_links.txt
+miz_tagger.egg-info/entry_points.txt
+miz_tagger.egg-info/requires.txt
+miz_tagger.egg-info/top_level.txt
+tagger/__init__.py
+tagger/context_menu.py
+tagger/shared.py
+tagger/view.py
