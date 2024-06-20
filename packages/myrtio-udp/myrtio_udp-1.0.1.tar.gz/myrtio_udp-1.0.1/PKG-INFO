@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: myrtio-udp
+Version: 1.0.1
+Summary: MyrtIO protocol via UDP
+Author-email: Mikhael Khrustik <misha@myrt.co>
+License: MIT
+Keywords: cli,command-line-tool
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: AsyncIO
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: asyncio-datagram==1.4.0
+Requires-Dist: myrtio==1.0.3
+
+# MyrtIO UDP [![PyPI version](https://badge.fury.io/py/myrtio.svg)](https://badge.fury.io/py/myrtio)
+
+MyrtIO protocol implementation with UDP datagram.

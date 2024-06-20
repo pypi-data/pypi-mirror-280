@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "myrtio-udp"
+authors = [
+    {name = "Mikhael Khrustik", email = "misha@myrt.co"},
+]
+description = "MyrtIO protocol via UDP"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["cli", "command-line-tool"]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Framework :: AsyncIO",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "asyncio-datagram==1.4.0",
+    "myrtio==1.0.3",
+]
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = {file = [".version"]}

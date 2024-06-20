@@ -1,0 +1,11 @@
+.version
+README.md
+pyproject.toml
+myrtio_udp/__init__.py
+myrtio_udp/persistent_stream.py
+myrtio_udp/udp_transport.py
+myrtio_udp.egg-info/PKG-INFO
+myrtio_udp.egg-info/SOURCES.txt
+myrtio_udp.egg-info/dependency_links.txt
+myrtio_udp.egg-info/requires.txt
+myrtio_udp.egg-info/top_level.txt
