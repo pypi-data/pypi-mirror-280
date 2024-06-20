@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: streamlit-draw-lines
+Version: 0.0.2
+Home-page: 
+Author: Clay ONeil
+Author-email: 
+Requires-Python: >=3.9
+Description-Content-Type: text/plain
+Provides-Extra: devel
