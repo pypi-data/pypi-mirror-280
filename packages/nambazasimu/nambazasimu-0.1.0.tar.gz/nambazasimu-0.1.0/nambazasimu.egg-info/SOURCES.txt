@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+nambazasimu/__init__.py
+nambazasimu/carrier_identifier.py
+nambazasimu.egg-info/PKG-INFO
+nambazasimu.egg-info/SOURCES.txt
+nambazasimu.egg-info/dependency_links.txt
+nambazasimu.egg-info/top_level.txt
+tests/__init__.py
+tests/test_carrier_identifier.py
