@@ -1,0 +1,14 @@
+# Core requirements for using this application
+-c constraints.txt
+
+celery            # Asynchronous tasks
+edx-celeryutils      # Custom task extensions
+Django              # Web application framework
+djangorestframework     # API tools
+django-model-utils    # Provides TimeStampedModel abstract base class
+edx-opaque-keys    # Provides CourseKey and UsageKey
+edx-completion
+edx-toggles
+event-tracking     # Allows the aggregator to emit tracking events
+six
+XBlock[django]
