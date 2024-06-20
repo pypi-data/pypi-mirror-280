@@ -1,0 +1,14 @@
+django_excel_tools/__init__.py,sha256=VBGtOwwVH1G7m9v4bRZizGfvbbjYX96pO4tx8ZSqHKE,173
+django_excel_tools/exceptions.py,sha256=tBgNtpffsiijZD92jUVcdtK_mS_l2sem2ZvaS3BIHdA,404
+django_excel_tools/fields.py,sha256=psYpQhQNn2l6aFySC1Q3OlLNCRuXhqtcENthcGw8QsE,8265
+django_excel_tools/serializers.py,sha256=ZuLLwLXKQROchaXaBjlYu_0DMYB-doWBcYqiD0b2Cec,8413
+django_excel_tools/utils.py,sha256=rgIQvIz7BwIETSuHAXKzoaR2tMOZpLlBLX9pbQXQAvE,605
+django_excel_tools/locale/ja/LC_MESSAGES/django.mo,sha256=aFRfusemRYsTzbbzjrYIzhGc3_TSHiEy2S0Q37iuJqc,1641
+django_excel_tools/locale/km/LC_MESSAGES/django.mo,sha256=BcC4J2wNi6NfWonKzLiKf7nUPwRKThP99KQS-0rO5Bg,2018
+django_excel_tools/locale/th/LC_MESSAGES/django.mo,sha256=JOwrZBYksxuU2BBfAaZO0RdfPpW0wLMgsIFdmcoM-_M,1837
+django_excel_tools-1.1.1.dist-info/AUTHORS.rst,sha256=TOLbhSycjhAUhw-YLtSpF623GsbB7Az1eX_UdHFlAA8,168
+django_excel_tools-1.1.1.dist-info/LICENSE,sha256=VWPspBaeSSY-FnKTJmeC7KaDUsNqT492Llx3gwbMUFs,1076
+django_excel_tools-1.1.1.dist-info/METADATA,sha256=K7YoCSf94sSOgFtm99a9XjAzlIBf9etVU03ZfN9QJAA,9747
+django_excel_tools-1.1.1.dist-info/WHEEL,sha256=pOwdCRdxkCaq8tWTvnGIC-q_meWYHwmqvvQPkeaM2I4,109
+django_excel_tools-1.1.1.dist-info/top_level.txt,sha256=QMc9NWQlpN-IRGRauOURhpA5feRsomROA4qtITqyFnI,19
+django_excel_tools-1.1.1.dist-info/RECORD,,
