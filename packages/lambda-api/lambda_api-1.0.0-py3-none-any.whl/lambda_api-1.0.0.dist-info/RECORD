@@ -1,0 +1,11 @@
+lambda_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lambda_api/adapters.py,sha256=7ALHY70RhUnes3ruGaTmewK-aFkazXLdBQsGL99QutA,3802
+lambda_api/core.py,sha256=lvyUTyB19qjsEc42eNE4wvK1N5YxpHS1W6jhiQUnYeM,3878
+lambda_api/docsgen.py,sha256=OlI_u_0h4xHsm4yyis2DSUgVI2irCHz0kRlDKzTgmdk,3779
+lambda_api/error.py,sha256=ByEB4jYYfqmf_3911gldGLYbkMl4dr8bDr462K252WQ,316
+lambda_api/schema.py,sha256=_IInWMa0Kh6KzAZpTY05-UCSdQvlAhwv_LXZ0_-wQtQ,723
+lambda_api-1.0.0.dist-info/LICENSE,sha256=QFoO9z40iWEPi9QPL6tPCNssOYzWWu_IeeUbyQj3jo8,1070
+lambda_api-1.0.0.dist-info/METADATA,sha256=zZO-b7Lfp93aFQEu5RGKoDwSsKhWd5jyxJgEZu1u-Ls,1046
+lambda_api-1.0.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+lambda_api-1.0.0.dist-info/top_level.txt,sha256=MDXRv_4FnzAQ0Xd5isBpvVJYJKrprDkYuP1ryP7OxaQ,11
+lambda_api-1.0.0.dist-info/RECORD,,
