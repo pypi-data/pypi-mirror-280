@@ -1,0 +1,7 @@
+README.md
+setup.py
+bangpg/__init__.py
+bangpg.egg-info/PKG-INFO
+bangpg.egg-info/SOURCES.txt
+bangpg.egg-info/dependency_links.txt
+bangpg.egg-info/top_level.txt
