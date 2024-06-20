@@ -1,0 +1,10 @@
+spider/__init__.py,sha256=KuuQMYDOG-gxaBzd42y_wXwlyYtJyXNbx-kYb_emPrg,184
+spider/browser.py,sha256=NaQv77Un2e68UPNIpgAHcymgRQ9DrSJP6MfrS71iLaw,3658
+spider/deep_spider.py,sha256=ltdb1cUS1ONC-1ioRZVRrZh1ClDrennVgKQ9CXIOpWE,2635
+spider/media_spider.py,sha256=9gc-do1ZKAVwPfsIt2PyUfl-d2-157hg2RpcNieay70,5539
+spider/page_spider.py,sha256=uUbuxQ_1lcZItk1WtxsT_ZqxfBogHWyNpjYpVXX4Hlw,3531
+spider/scorll_spider.py,sha256=Am-YwobRaG5cl_wBKZGrPErqHaidftXU_AHI-P2307w,1738
+spider_ms-1.0.0.dist-info/METADATA,sha256=Ac18IvXZQSMLyDyuWrQjmjZ8Y9UO8xTvoFwyehfMU9c,8591
+spider_ms-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+spider_ms-1.0.0.dist-info/top_level.txt,sha256=-omgKN_8Zv_sz8Nh9RKvMeKEgG6ssFAFraIRpgIn8zA,7
+spider_ms-1.0.0.dist-info/RECORD,,
