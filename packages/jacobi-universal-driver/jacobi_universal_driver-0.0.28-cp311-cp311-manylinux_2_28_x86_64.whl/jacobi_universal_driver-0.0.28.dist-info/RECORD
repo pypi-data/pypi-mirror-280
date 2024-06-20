@@ -1,0 +1,10 @@
+jacobi_driver_universal.cpython-311-x86_64-linux-gnu.so,sha256=4b3y2tddhmsgHnu6nV7tTJHQZNd3esmAdSjszMMqEW0,423425
+libjacobi-universal-driver.so,sha256=sQTnF4gbJKaLU4_7-rsTaP3TfDGMHujsuHd8Hn7PQ5A,1552137
+jacobi_universal_driver.libs/libgomp-24e2ab19.so.1.0.0,sha256=7DVDy2-hHzQlj-PVkILkvZdAoYNJ4Jf8Qqe8aSohvyw,253289
+jacobi_universal_driver.libs/libcrypto-401bea5d.so.1.1.1k,sha256=7XXkUZAfCEVe3OvU_nAwJMAqJsXOepwYZ_SwPu91cp8,3215921
+jacobi_universal_driver.libs/libssl-52849bc7.so.1.1.1k,sha256=7OovoL-d8USKAsvf2ZUPjzdbz8u6daGbWhyibfxb9fY,662769
+jacobi_universal_driver.libs/libboost_system-69a6c43e.so.1.66.0,sha256=sd_lA0coUWXm-bluxkOkNrzrxFSAXYDphjPDwBekik8,22905
+jacobi_universal_driver-0.0.28.dist-info/METADATA,sha256=da_nk7rv175UAdV0iF4TVagw7QdHGLjBCid11zoou_Y,5530
+jacobi_universal_driver-0.0.28.dist-info/WHEEL,sha256=fKzGrFEJ-BYuc033LnwLHgipoR_5N1Sr5zh1J_kBXlE,117
+jacobi_universal_driver-0.0.28.dist-info/RECORD,,
+jacobi_universal_driver-0.0.28.dist-info/licenses/LICENSE,sha256=aOoSTZXfCLkJEh1SwiDvRcxqbW-GEe-zl4VUAwA89wA,3859
