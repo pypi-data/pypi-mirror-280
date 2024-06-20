@@ -1,0 +1,178 @@
+[project]
+name = "jsonpath-ext"
+version = "0.0.5"
+description = 'RFC 9535 - JSONPath: Query Expressions for JSON in Python with non-rfc9535 extensions.'
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = []
+authors = [{ name = "Riccardo Tiebax", email = "riccardo.t@gmail.com" }]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = ["regex", "iregexp-check>=0.1.3"]
+
+[project.urls]
+Documentation = "https://jg-rp.github.io/python-jsonpath-ext/"
+Issues = "https://github.com/riccardo92/python-jsonpath-ext/issues"
+Source = "https://github.com/riccardo92/python-jsonpath-ext"
+
+[project.scripts]
+jsonpath-ext = "src.jsonpath_ext.cli:main"
+
+[project.optional-dependencies]
+pre-commit = [
+  "deptry==0.16.1",
+  "pre-commit==3.7.0",
+  "ruff==0.4.2",
+  "tox==4.15.1"
+]
+
+[tool.coverage.run]
+branch = true
+parallel = true
+omit = [
+  "src/jsonpath_ext/__main__.py",
+  "src/jsonpath_ext/utils/nondeterministic_descent.py",
+]
+
+[tool.coverage.report]
+exclude_lines = ["no cov", "if __name__ == .__main__.:", "if TYPE_CHECKING:"]
+
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel>=0.30"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-ra -q"
+testpaths = ["tests"]
+pythonpath = ["app"]
+
+[tool.pytest]
+testpaths = "tests"
+
+[tool.isort]
+profile = "black"
+known_third_party = ["pytest"]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.0.5"
+tag_format = "$version"
+changelog_incremental = true
+update_changelog_on_bump = true
+version_files = ["src/jsonpath_ext/__init__.py:__version__", "pyproject.toml:^version"]
+bump_message = "release $current_version -> $new_version"
+
+[tool.deptry]
+ignore_notebooks = true
+extend_exclude = ["examples"]
+pep621_dev_dependency_groups = ["pre-commit"]
+known_first_party = ["jsonpath_ext"]
+
+[tool.deptry.package_module_name_map]
+jsonpath-ext = "jsonpath_ext"
+
+[tool.ruff]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+  ".bzr",
+  ".direnv",
+  ".eggs",
+  ".git",
+  ".hg",
+  ".mypy_cache",
+  ".nox",
+  ".pants.d",
+  ".pytype",
+  ".ruff_cache",
+  ".svn",
+  ".tox",
+  ".venv",
+  "__pypackages__",
+  "_build",
+  "buck-out",
+  "build",
+  "dist",
+  "node_modules",
+  "venv",
+]
+
+# Same as Black.
+line-length = 88
+
+# Assume Python 3.10.
+target-version = "py310"
+
+[tool.ruff.lint]
+select = [
+  "A",
+  "ARG",
+  "B",
+  "BLE",
+  "C4",
+  "D",
+  "E",
+  "F",
+  "FBT",
+  "I",
+  "ICN",
+  "ISC",
+  "N",
+  "PIE",
+  "PL",
+  "PT",
+  "Q",
+  "RET",
+  "RSE",
+  "S",
+  "SIM",
+  "SLF",
+  "T10",
+  "T20",
+  "TCH",
+  "TID",
+  "YTT",
+]
+
+ignore = ["S105", "S101", "D107", "D105", "PLR0913", "SIM108"]
+
+fixable = ["I"]
+unfixable = []
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.lint.isort]
+force-single-line = true
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"src/__init__.py" = ["D104"]
+"src/jsonpath_ext/utils/__init__.py" = ["D104"]
+"src/jsonpath_ext/__init__.py" = ["D104"]
+"scripts/__init__.py" = ["D104"]
+"tests/*" = ["D100", "D101", "D104", "D103"]
+"src/jsonpath_ext/lex.py" = ["E741"]
+"src/jsonpath_ext/utils/nondeterministic_descent.py" = [
+  "D103",
+  "D101",
+  "D102",
+  "S311",
+]
+"scripts/nondeterministic_descent.py" = ["T201"]
