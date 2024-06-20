@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+APIKick.egg-info/PKG-INFO
+APIKick.egg-info/SOURCES.txt
+APIKick.egg-info/dependency_links.txt
+APIKick.egg-info/requires.txt
+APIKick.egg-info/top_level.txt
+apikick/__init__.py
+apikick/apikick.py
+apikick/channel_data.py
+apikick/chat_data.py
+apikick/video_data.py
+apikick/utils/__init__.py
+apikick/utils/validate.py
