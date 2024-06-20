@@ -1,0 +1,11 @@
+bcamp_dl/__init__.py,sha256=sZFmgbskosaWkoT1i5vXapsiyi5X7s4xC5YKYictiRk,511
+bcamp_dl/_version.py,sha256=9acUHRb1fq-uv5dr49LlEh189daKw4-SeypW5NxDolA,411
+bcamp_dl/bcamp_dl.py,sha256=Id7WLmou25ID0KxBt-5Yh7QTKtOIPjOoQnkDruJXdPU,11777
+bcamp_dl/cli.py,sha256=mjYR5dok5wAzSHxKjKtvsvy3csiLP7PsPCEuxgCCxd8,5881
+bcamp_dl/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bcamp_dl-1.0.4.dist-info/LICENSE,sha256=-_NIqZkC5_Nedv4pIH395WEAcSKpYEIss8x8Vlmew1A,1062
+bcamp_dl-1.0.4.dist-info/METADATA,sha256=64-0MB-Wl08ZY0BVEGfR_bW1UiBqlamrfdBCTar5psI,4915
+bcamp_dl-1.0.4.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+bcamp_dl-1.0.4.dist-info/entry_points.txt,sha256=IqzY4LQQksyDtCNvUi5dlPka-aPMtPGKmR7-bbgFn_4,47
+bcamp_dl-1.0.4.dist-info/top_level.txt,sha256=wypoIhZoOolsXUl8zHLrtjGiwaPlji4CbhMG_rm3DMw,9
+bcamp_dl-1.0.4.dist-info/RECORD,,
