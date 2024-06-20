@@ -1,0 +1,17 @@
+parasite/__init__.py,sha256=LtVxMAVm5i6Xpi-6z4pxKOiCU7m2v-4Y84v14_O90hE,2360
+parasite/_const.py,sha256=O3eGBA7ZLqykObNXtBlVWSrJTLnUAuJbmVOOcDU_tTk,2591
+parasite/any.py,sha256=Rj-ijDwRdC7q8Y6zBwIrXJ_c_r8iPJkvfbgtPcBMoXc,4035
+parasite/array.py,sha256=qJ_xZEO2oXJU7c2jjJlGVKlM4BzT3dLGZ9VYqydqjLQ,14413
+parasite/boolean.py,sha256=-0r0WjRgUZlC3-3cFoy28B-Du_WiE5AOzCiE6uUrD0g,9810
+parasite/errors.py,sha256=sOgtVGMlSIKIxvPDZ7FP0jRB-qwYur1sXr4giJBRhJk,779
+parasite/never.py,sha256=lW1mr8iy3J1Bkp19K9RFMRg3_PEH4sBaQ1kf6o8Y03Q,1232
+parasite/null.py,sha256=y8TxhEzhqUu6qxpNO-0s6UH_wKGA9mkNTtEAOzhe1uI,3135
+parasite/number.py,sha256=4aJYwbjFW9zsedkBaT1p1dWkS0yps1O2kJBDroXCJno,9302
+parasite/object.py,sha256=fuz3rncGS5mWh36rNQJYfJGpJ9mv4-iUXln13ZpQfw4,21610
+parasite/string.py,sha256=2CzzXN2K2Wn9q1ruxVKKb1IaOcPh0AAXdqa1CQdL4K0,14602
+parasite/type.py,sha256=CA5ZgCE7gTfIG9YND1zebIWBpS6p06L5cK9BEWbAqs4,3603
+parasite/variant.py,sha256=WRVLIdpNzC6V5Gw3eqyEi9qxjJTXjZHyoVnzmRHJX3k,13524
+parasite-0.1.7.dist-info/LICENSE,sha256=CAdqsxv8urgYJkp3AaiTXJLryUCxOVrt0nH_GtvGPPY,1104
+parasite-0.1.7.dist-info/METADATA,sha256=QGQS8zDstKLXYlI46eNQJuaxiyar708dY4TCRh9IJo4,6250
+parasite-0.1.7.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+parasite-0.1.7.dist-info/RECORD,,
