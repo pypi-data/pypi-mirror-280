@@ -1,0 +1,7 @@
+urllib3
+typer[all]
+tinydb
+requests
+jsonschema
+pydantic==1.10.13
+gitpython
