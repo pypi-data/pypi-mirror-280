@@ -1,0 +1,4 @@
+[console_scripts]
+embuild = ezhub.embed_build.embuild_cmd:main
+embuild_deploy = ezhub.embed_build.embuild_cmd:deploy
+om_patch = ezhub.om_patch.patch_solution:main
