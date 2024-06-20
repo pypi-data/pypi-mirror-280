@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: bipp-cuda11x
+Version: 0.1.3
+Summary: Bluebild imaging algorithm for radio astronomy build with CUDA 11.2 - 11.x
+License: GPLv3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: astropy
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: pyproj
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: healpy
+Requires-Dist: scikit-learn
+Requires-Dist: python-casacore
+
+Bluebild imaging algorithm for radio astronomy build with CUDA 11.2 - 11.x
