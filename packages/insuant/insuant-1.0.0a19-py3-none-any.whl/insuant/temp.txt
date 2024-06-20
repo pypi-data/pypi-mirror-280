@@ -1,0 +1,192 @@
+[Document(page_content='Statement of Work\n2\n \nDealCloud will train Version 1 Platform Managers to configure fields, entry forms, in-platform dashboard \nreports, detail pages, and additional notifications according to designed data architecture.\n \nAssumptions:\n\uf0b7All functionality will be consistent across business units.\nExclusions:\n\uf0b7Automatically created tasks using the Automations or Workflows tools.\n\uf0b7Functionality or requirements not explicitly mentioned above.\n \nIf changes to the assumptions and exclusions listed above, or further functionality is desired, a separate \nscoping & order form will be required, or it can be self managed by the Version 1 team.\nCompany OwnershipDealCloud will introduce Version 1 to best practice Company Ownership Tracking functionality.\n \nIf changes to this are desired, a separate scoping & order form will be required.\n \n \nPermissionsDealCloud will not be responsible for configuring any permissions as part of this implementation.\n \nIf there is a request to set up permissions as part of the implementation, DealCloud will complete a \nseparate scoping and order form to configure requirements.\n \n \nDataCortex PitchbookDealCloud will enable the Pitchbook DataCortex in Version 1\'s DealCloud instance.\n \nThis activity will require the following tasks:\n\uf0b7Current Pitchbook integration field review with the Version 1 team on company and contact \nlevel.\n\uf0b7DealCloud to create Pitchbook fields the Version 1 would like to integrate from Pitchbook \n(which are included in current DataCortex integration).\n\uf0b7DealCloud to link fields from Pitchbook and display them on a company and contact detail \npage (as applicable).\n\uf0b7DealCloud to link 100% matches for company and contact entries to the data provider using \nDealCloud\'s matching algorithm. \n\uf0b7Training on standard DataCortex functionality & workflows \n \nExclusions:\n\uf0b7Fields not currently included in DealCloud\'s DataCortex offering for the above listed data \nprovider\n\uf0b7Linking of near or no match companies and contacts to the data provider\nDataCortex SourceScrubDealCloud will enable the SourceScrub DataCortex integration in the Version 1\'s DealCloud instance.\n \nThis activity will require the following tasks:\n \n\uf0b7Current SourceScrub integration field review with the Version 1 team on company and contact \nlevel.\n\uf0b7DealCloud to create SourceScrub fields the Version 1 would like to integrate from SourceScrub \n(which are included in current DealCloud DataCortex integration) DealCloud to link fields from \nSourceScrub and display them on a company and contact detail page (as applicable).\n\uf0b7DealCloud to link 100% matches for company and contact entries to the data provider using \nDealCloud\'s matching algorithm.\n\uf0b7Training on standard DataCortex functionality & workflows.\n \nExclusions:\n\uf0b7Fields not currently included in DealCloud\'s DataCortex offering for the above listed data \nprovider.\n\uf0b7Linking of near or no match companies and contacts to the data provider.\n\nStatement of Work\n3\nLegacy Data SourcesAs part of the implementation of DealCloud at Version 1, DealCloud will be responsible for a one-time \nmigration of the below data sources from Excel. Version 1 has up to one month from the project kickoff \ndate to provide the data to be considered part of the data migration. All data must be provided in Excel or \nCSV format to DealCloud.\n\uf0b7Deals (~1,100 records)\n\uf0b7Contacts (~100 records)\nAssumptions:\n\uf0b7DealCloud will review an initial export of the above data sources (in Excel) to drive design \ndecisions for creating/modifying the lists in the Version 1 DealCloud application.\n\uf0b7DealCloud will provide consulting on appropriate format for data upload.\n\uf0b7Version 1 will be responsible for getting data into final format (as agreed during \nimplementation) for a one-time migration by DealCloud via Excel into DealCloud.\nExclusions:\n\uf0b7Data migration outside of data sources explicitly listed above.\n\uf0b7Document migration.\n\uf0b7Attachment migration from individual data points (e.g. Interactions, Emails, Activities, etc.)\n\uf0b7Near duplicate cleansing (DealCloud will offer training on "Merge Duplicates" function but will \nnot be responsible for any merging of near duplicates as part of this data migration process).\n\uf0b7Filling/enriching of any additional meta-data related to records migrated from legacy data \nsources.\nOutput Using DealCloud Word Add-InDealCloud will setup the below "Best Practice" external reports using the DealCloud Word Add-In with \nVersion 1 branding and formatting:\n\uf0b7One (1x) Pipeline Report\nAs part of the creation of the above report(s), DealCloud will be responsible for the below:\n\uf0b7Setup of report with Version 1 formatting and branding.\n\uf0b71 review cycle with feedback adjusted.\nExclusions:\n\uf0b7Other reporting which requires DealCloud\'s Word Add-in not listed above \n\uf0b7Reports requiring the use of DealCloud\'s Excel or PowerPoint Add-In\n\uf0b7Report requiring VBA code\n\uf0b7More than one (1) review cycle of feedback from the Version 1 team\n**If there is an additional request to set up reports using DealCloud\'s Excel or PowerPoint Add-In as part \nof the implementation, DealCloud will complete a separate scoping and order form to configure \nrequirements.\nTraining RequirementsAs part of this rollout, DealCloud\'s "Client Training" team will offer the following "live" sessions for the \nVersion 1 Organization:\n\uf0b71 x "Live" (1-1.5 hour) Training for the team outlined in the "Implementation Overview" \nsection.\n\uf0b7These trainings include both preparations for the DealCloud "Client Training" team and follow-\nup emails to users after the session.\nExclusions:\n\uf0b7Documentation away from "best practice" documents offered via "DealCloud University".\nProject ManagementVersion 1As part of the Version 1 implementation of DealCloud, the DealCloud team will provide the \nbelow “Project Management” related activities at the start of the implementation to ensure success:\n\uf0b7Implementation Kick-off Deck introducing the DealCloud implementation process and \nestimated timelines.\n \nThroughout the implementation, the DealCloud team will provide the following on a weekly basis:\n\uf0b71 x 30-minute weekly check-in to review progress and next steps.\n\uf0b71 x weekly update with key dates, accomplishments and actions for both DealCloud and \nVersion 1.\n \nExclusions:\n\uf0b7DealCloud will not be responsible for creating bespoke test scripts for Version 1 “User \nAcceptance Testing” process.'),
+document = """
+Instructions:
+
+
+1.Please complete the Contact Information Sheet
+2.Please sign, date and return the DealCloud Order and Sale Agreement to your contact
+
+Contact Information
+Software Delivery
+The person listed as the Software Delivery Contact will be designated as the cloud tenant admin and will receive a
+welcome email from DealCloud within 5 business days of OSA execution.  The email will contain information to access
+the cloud tenant(s) as an administrator, tenant location, application URLs, and critical instructions to add a service
+implementer.
+
+Name
+
+
+Title
+
+
+Email
+
+
+Phone Number
+
+
+Invoicing Contact
+
+This person will receive communications regarding current and future invoices.
+
+Name
+
+
+Title
+
+
+Email
+
+
+Phone Number
+
+
+Order and Sale Agreement #34077 Version 1 Holdings Limited DealCloud, Inc.
+
+Order and Sale Agreement
+DealCloud Inc. Customer: Bill to:
+300 South Tryon Street, Suite 1200
+Charlotte, NC 28202
+Phone: (650) 852-0400
+www.dealcloud.comVersion 1 Holdings Limited
+Millennium House Millennium Walkway,
+Dublin 1
+Dublin, D01F5P8
+IrelandVersion 1 Holdings Limited
+Millennium House Millennium Walkway,
+Dublin 1
+Dublin, D01F5P8
+Ireland
+
+Date: 18-Apr-23 Quoted In: USD
+Order and Sale Agreement ("OSA") No.: 34077 Expires On: 31-May-23
+
+Subscription:
+DC-01641 DealCloud Standard Seat License Standard 1-Jun-23 31-May-24 275.00 6 Named Users 19,800.00
+Year 1 Subscription Fees: 19,800.00 
+DC-01641 DealCloud Standard Seat License Standard 1-Jun-24 31-May-25 297.00 6 Named Users 21,384.00
+Year 2 Subscription Fees: 21,384.00 
+DC-01641 DealCloud Standard Seat License Standard 1-Jun-25 31-May-26 320.76 6 Named Users 23,094.72
+Year 3 Subscription Fees: 23,094.72 
+Total Subscription Fees: 64,278.72
+
+Services:
+Product Code Product Name Description Net Total
+DC-01739 DealCloud DataCortex Enablement Fixed Fee Services 3,300.00
+DC-01739 DealCloud DataCortex Enablement Fixed Fee Services 3,300.00
+DC-01858 DealCloud Professional Services -
+ T&MQuoted on a Time & Materials basis
+The above estimate is neither a cap nor “not to exceed” price quote.13,200.00
+Total Services Fees: 19,800.00
+Grand Total: USD 84,078.72
+The Monthly/Unit Price shown above has been rounded to two decimal places for display purposes. As many as eight decimal places
+may be present in the actual price. The totals for this order were calculated using the actual price, rather than the Monthly/Unit Price
+displayed above, and are the true and binding totals for this order. 
+
+Order and Sale Agreement #34077 Version 1 Holdings Limited DealCloud, Inc.
+
+Terms & Conditions
+1All software and services are provided to Customer solely in accordance with and subject to the Master Subscription and Services
+Agreement v12 which is posted on the Internet at https://www.intapp.com/intapptermsandconditions/v12/ ("MSSA"). The MSSA,
+this Order and Sale Agreement ("OSA") and the Statement of Work (“SOW”), if any, are collectively the "Agreement." Customer's
+signature on this OSA constitutes Customer's acceptance of such MSSA as governing this OSA and SOW, if any. Any capitalized
+terms used but not specifically defined herein shall have the same meaning as defined in the Agreement.
+
+2Any Services not specifically included under the enclosed Statement of Work shall be scoped and billed on a separate Order and
+Sale Agreement.
+
+3"Named Users” means individuals who are authorized by Customer to use the Cloud Services and who have been supplied user
+identification and passwords by Customer (or by the licensor at Customer’s request).  Named Users may include but are not
+limited to employees, consultants, contractors, and agents of Customer or its Affiliates.  Use of the Cloud Services is limited to the
+number of Named Users set forth above.  A separate user identification and password is required for each individual Named User.
+Customer may not permit or allow any Named User sharing, distribution or group use of login information, including usernames or
+passwords.
+
+4Notwithstanding anything to the contrary in the Agreement, Subscription Payment Terms for this OSA are as follows:
+• Subscription Fees shall be invoiced Annually, due Net 30, for Year 1. The first installment shall be billable at the time of
+Agreement signature. Subscription Fees for subsequent years are due 30 days prior to the Start Date, annually.
+
+5Notwithstanding anything to the contrary in the Agreement, Services Payment Terms for this OSA are as follows:
+
+• Services Fees for T&M services shall be invoiced monthly in arrears for actual hours worked, and is due Net 30 days from the
+invoice date.
+• Services Fees for Fixed Fee Milestone services shall be due 30 days from completion of each Milestone as set forth in the SOW.
+
+6Notwithstanding any provision to the contrary in the Agreement, the Initial Term of this OSA is 36 months, commencing on the Start
+Date. Unless stated otherwise in this OSA, the software license fees will not be increased for the software during the Initial Term.
+Except in case of a material breach,  Customer may only cancel this OSA by paying all fees due during the Initial Term.  
+
+Agreed to by:
+
+Version 1 Holdings Limited
+
+ Authorized Signature ____________________________  
+ Name ____________________________  
+ Title ____________________________  
+ Signature Date ____________________________  
+ Effective Date 1-Jun-23  
+
+Order and Sale Agreement #34077 Version 1 Holdings Limited DealCloud, Inc.
+
+Statement of Work
+1
+Professional Services Scope
+Scoping Requirement Order Form
+Version 1 Implementation OverviewThe following functions are included in scope as a part of the DealCloud implementation at Version 1:
+•Version 1 Team (4 Users)
+As part of this deployment, DealCloud will go through the following phases:
+1. Kick-off
+2. Design / Configuration
+3. Testing
+4. Roll-Out (To be managed by DealCloud's Training Team)
+DealCloud has allocated 48 hours to this implementation.
+ 
+**The hourly rate and number of hours will expire 1 year from the date of signature of this Order Form. 
+Thereafter a new Order Form is required if further services are needed.
+ 
+Delivery Assumption:
+•All effort outlined below will be in support of Version 1 end users onboarding to the DealCloud 
+technology.  If a "3rd Party" consulting firm requires effort from the DealCloud deployment 
+team away from supporting Version 1 end users onboarding to the DealCloud technology, a 
+separate commercial agreement may be required.
+•Effort will be completed in Version 1 production DealCloud environment, Monday - Friday 
+9:00-18:00 PM BST/GMT.
+ 
+Exclusions:
+•Any functions not explicitly listed above.
+•Any requirements not explicitly listed below.
+•Any teams not explicitly listed above.
+•Manual setting of exchange rates by individual record (Deal, etc.) away from standard 
+DealCloud exchange rate functionality.
+•Conversion of DealCloud technology to a non-English language.
+•"Snapshot" Reporting (e.g. seeing the deal pipeline as it existed on a specific day in the past).
+Relationship ManagementDealCloud will start with best practice Relationship Management functionality and work with the Version 
+1 team to design/iterate on all field names (i.e. verbiage) and field types (i.e. pick list, look-up, multi-
+select, free text etc.,). As part of this process DealCloud will adopt Version 1 nomenclature.
+ 
+DealCloud will train Version 1 Platform Managers to configure fields, entry forms, in-platform dashboard 
+reports, detail pages, and additional notifications according to designed data architecture.
+ 
+Exclusions:
+•Automatically created tasks using the Automations or Workflows tools.
+•Functionality or requirements not explicitly mentioned above.
+ 
+If changes to the assumptions and exclusions listed above, or further functionality is desired, a separate 
+scoping & order form will be required, or it can be self managed by the Version 1 team.
+Company Level AttributesDealCloud will start with best practice Company Level Attributes Tracking functionality and work with the 
+Version 1 team to design/iterate on all field names (i.e. verbiage) and field types (i.e. pick list, look-up, 
+multi-select, free text etc.,). As part of this process DealCloud will adopt Version 1 nomenclature.
+ 
+DealCloud will train Version 1 Platform Managers to configure fields, entry forms, in-platform dashboard 
+reports, detail pages, and additional notifications according to designed data architecture.
+ 
+Exclusions:
+•Automatically created tasks using the Automations or Workflows tools.
+•Functionality or requirements not explicitly mentioned above.
+ 
+If changes to the assumptions and exclusions listed above, or further functionality is desired, a separate 
+scoping & order form will be required, or it can be self managed by the Version 1 team.
+Deal Tracking / Pipeline ManagementDealCloud will start with best practice Deal Tracking / Pipeline Management functionality and work with 
+the Version 1 team to design/iterate on all field names (i.e. verbiage) and field types (i.e. pick list, look-up, 
+multi-select, free text etc.,). As part of this process DealCloud will adopt Version 1 nomenclature.
+"""
