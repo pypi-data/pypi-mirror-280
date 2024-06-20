@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: beacons
+Version: 0.1.0
+Summary: Beacons EndPoints
+Home-page: https://github.com/asterio/beacons
+Author: Asterio Gonzalez
+Author-email: apastor@cibernos.com
+Keywords: beacons
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: agptools ==0.1.64
+Requires-Dist: syncmodels ==0.1.64
+Requires-Dist: swarmtube ==0.1.64
+Requires-Dist: pydantic
+Requires-Dist: datamodel-code-generator
+Requires-Dist: datamodel-code-generator[http]
+Requires-Dist: datamodel-code-generator[graphql]
+Requires-Dist: aiohttp
+Requires-Dist: aiocache
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+Requires-Dist: Click
+Requires-Dist: glom
+Requires-Dist: jmespath
+Requires-Dist: fastapi
+Requires-Dist: geopy
+Requires-Dist: requests
+Requires-Dist: rich
+Requires-Dist: surrealdb
+Requires-Dist: surrealist ==0.5.3
+Requires-Dist: uvicorn
+Requires-Dist: uvicorn[watchgodreload]
+Requires-Dist: uvloop
+Requires-Dist: watchfiles
+Requires-Dist: faker
+
+=======
+beacons
+=======
+
+
+
+
+
+
+Beacons EndPoints
+
+
+
+Features
+----------------
+
+* TODO
+
+Before Coding
+----------------
+
+* create a virtual env
+
+.. code-block:: 
+  
+  python3 -m venv .venv
+  source .venv/bin/activate
+  make install-testing-requisites
+
+Credits
+----------------
+
+This package was created with Cookiecutter_ .
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+
+
+=======
+History
+=======
+
+0.1.0 (2024-04-03)
+------------------
+
+* First release on PyPI.

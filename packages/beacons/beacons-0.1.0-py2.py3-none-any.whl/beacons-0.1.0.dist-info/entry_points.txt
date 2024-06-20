@@ -1,0 +1,2 @@
+[console_scripts]
+beacons = beacons.cli:main
