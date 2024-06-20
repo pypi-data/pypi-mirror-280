@@ -1,0 +1,6 @@
+README.md
+setup.py
+WDai.egg-info/PKG-INFO
+WDai.egg-info/SOURCES.txt
+WDai.egg-info/dependency_links.txt
+WDai.egg-info/top_level.txt
