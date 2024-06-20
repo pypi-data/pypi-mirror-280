@@ -1,0 +1,6 @@
+tqdm
+onnxruntime
+numpy
+transformers
+huggingface_hub
+scipy
