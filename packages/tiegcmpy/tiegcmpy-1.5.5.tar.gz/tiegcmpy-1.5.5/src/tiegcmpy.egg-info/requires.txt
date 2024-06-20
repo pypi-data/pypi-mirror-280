@@ -1,0 +1,7 @@
+cartopy
+matplotlib
+numpy
+xarray
+opencv-python
+ipython
+geomag
