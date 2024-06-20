@@ -1,0 +1,8 @@
+__init__.py,sha256=JmEOoiR4MlrQcJuYvGHD_zlLLYzAv5I3dHSXpxcWm5Y,70
+curve.py,sha256=E3PHHh71yVQCR4wexP5WqeCIEadfTZfDF3XHhjnjho0,7214
+src/__init__.py,sha256=bLD-3X8NK1HOC5aM_nU6tjyqmeOLmTEtU2Z7qEpUdmE,99
+src/curve.py,sha256=9jNIvfTtbnXPSuQPNA1Lrat-LHD8du_l3A7_ij6M88o,7293
+Curvify-0.1.0.dist-info/METADATA,sha256=Cm0J0f7YA0fzCBk9dqpMF7VovSeksO5ExKjHBjA4DUs,239
+Curvify-0.1.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+Curvify-0.1.0.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+Curvify-0.1.0.dist-info/RECORD,,
