@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: spondee
+Version: 0.1.2
+Summary: Sentence algorithms for Stanza
+License: MIT
+Author: tbonza
+Author-email: tylers.pile@gmail.com
+Requires-Python: >=3.10,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: networkx (>=3.3,<4.0)
+Requires-Dist: numpy (<2.0.0)
+Requires-Dist: pydantic (>=2.7.3,<3.0.0)
+Requires-Dist: stanza (>=1.8.2,<2.0.0)
+Requires-Dist: torch (>=2.2,<2.3)
+Description-Content-Type: text/markdown
+
+# Dactyl
+
+[Sentence Algorithms](https://nlp.stanford.edu/nlp/javadoc/javanlp/edu/stanford/nlp/simple/SentenceAlgorithms.html) for [stanza](https://github.com/stanfordnlp/stanza).
+
+## Related Works
+
+Slot filling tasks such as those referenced by the [KILT Benchmark](https://ai.meta.com/tools/kilt/) may 
+better accomplish this goal but are generally more compute intensive and less
+explainable:
+
+* [Zero-Shot Relation Extraction via Reading Comprehension](https://nlp.cs.washington.edu/zeroshot/)
+* [T-Rex : A Large Scale Alignment of Natural Language with Knowledge Base Triples](https://hadyelsahar.github.io/t-rex/)
+
+Also see [NLP-Progress: Intent Detection and Slot-Filling](https://nlpprogress.com/english/intent_detection_slot_filling.html).
+
+This package extends grammar parsing from [Paradigms of Artificial 
+Intelligence Programming: Case Studies in Common Lisp, Norvig (1992)](https://norvig.github.io/paip-lisp/#/).
+

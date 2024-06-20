@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "spondee"
+version = "0.1.2"
+description = "Sentence algorithms for Stanza"
+authors = ["tbonza <tylers.pile@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+stanza = "^1.8.2"
+torch = "~2.2"
+pydantic = "^2.7.3"
+numpy = "<2.0.0"
+networkx = "^3.3"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
