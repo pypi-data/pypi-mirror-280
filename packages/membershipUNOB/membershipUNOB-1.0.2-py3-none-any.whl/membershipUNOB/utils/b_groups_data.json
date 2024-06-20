@@ -1,0 +1,1096 @@
+{
+    "groups": [
+        {
+            "id": "819f5200-2c51-4cc8-aac6-a448ad78a6a8",
+            "name": "11-5ŘPOS1",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7253",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "e6de5760-0b4b-4632-bf6c-d5abf489adf6",
+            "name": "11-5ŘPOS2",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7254",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "4a2cd23a-6e3a-45ff-9e17-89127143c478",
+            "name": "11-5ŘPOS3",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7255",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "8193aa05-2eba-412b-8379-4a83d213e15a",
+            "name": "11-5ŘPOS4",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7256",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "d71f71f4-9fa3-47e5-95d9-0d0ccbbed76d",
+            "name": "11-5ŘPOS5",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7257",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "e32eb7d2-1bee-4d47-b70d-668a4eb73d7f",
+            "name": "11-5ŘPOS6",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7258",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "e9b9e179-e91f-41ac-a300-19dfd50bcab1",
+            "name": "12-5D",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7511",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "6adb70ad-922b-4ab9-a237-e0eb704179c9",
+            "name": "12-5DVZS",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7512",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "ec309e11-962c-4894-8619-59ac8c991582",
+            "name": "12-5CH",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7513",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "5963ac63-cc1c-4dca-b657-67f2c4cf841d",
+            "name": "12-5MIZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7514",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "4f7d6218-a292-4258-8e1c-031f38f118cd",
+            "name": "12-5MT",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7515",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "ed925675-f22e-4524-8a99-61a3e1fb6bf4",
+            "name": "12-5PZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7516",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "73442e8b-1e98-4af3-89e9-62be1a897b7b",
+            "name": "12-5ŘFZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7517",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "1d45f20d-ba7a-47d6-86c0-8563d894bb56",
+            "name": "12-5ŘLZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7518",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "1d91ea84-3e2c-4c52-a884-5f6417baca63",
+            "name": "12-5VD",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7519",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "0c1a70a6-ffc1-490c-b1ac-fad769c287a2",
+            "name": "12-5VL",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7520",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "232f0cb2-e9a4-4bd8-8785-7a3ccba06db4",
+            "name": "12-5Z",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7521",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "d693576f-29be-402d-998f-332c8462c1bb",
+            "name": "12-5ZZA",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7522",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "0787232b-927b-4a82-8bd6-5b647862416b",
+            "name": "13-5D",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7095",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "9e5bd463-5669-42be-8f66-a5ab13329690",
+            "name": "13-5DVZS",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7096",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "57f530c9-34ee-45a9-9f01-80226fc18c6e",
+            "name": "13-5CH",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7097",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "b9c1e1e4-f64c-498e-8b75-b8640355b120",
+            "name": "13-5MIZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7098",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "ac134937-d1c0-4687-a30c-7e725e7afe4f",
+            "name": "13-5MT",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7099",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "cc655c84-4057-459e-82fd-416aa1e9c6ea",
+            "name": "13-5PZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7100",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "c32cb02c-00fc-489e-a9d3-ff273767ac5e",
+            "name": "13-5ŘFZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7101",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "2ee76186-a227-449a-89df-3e4c9d5b577e",
+            "name": "13-5ŘLZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7102",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "ac28645d-0a0b-44d9-824d-ed54be523dbb",
+            "name": "13-5VD",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7103",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "3db1bb21-a18b-4f1a-84fb-ccdc857c33fb",
+            "name": "13-5VL",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7104",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "3fda88a9-d6b1-46d2-91c3-a94a61c8d64a",
+            "name": "13-5Z",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7105",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "07803b6f-20d0-4a64-9bdf-b4fd50f61730",
+            "name": "13-5ZZA",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7106",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "8c62589f-2b12-4081-aee2-b1cb639a8c72",
+            "name": "14-5D",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6721",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "73212cbe-2d38-4314-b485-604d9c2c61aa",
+            "name": "14-5DVZS",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6722",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "c778d3f7-20b2-445c-bc03-00c5906856cf",
+            "name": "14-5CH",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6723",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "5dd9c9ae-2378-4840-93bb-11937dc28bee",
+            "name": "14-5MIZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6724",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "6e03d6a8-e136-4cba-81c1-83e4655c2dc5",
+            "name": "14-5MT",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6725",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "2c2cddc2-44d0-4389-8ce3-7b84937b978a",
+            "name": "14-5PZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6726",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "0cb4278f-5edb-4701-8691-c78b8714ce6e",
+            "name": "14-5ŘFZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6727",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "8429ab65-a03c-481e-852b-e68960a8559b",
+            "name": "14-5ŘLZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6728",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "b7ca0612-8e78-4f4d-9367-02a569724201",
+            "name": "14-5VD",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6729",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "a7f7ba76-9047-498f-be78-9e3bc32b00d4",
+            "name": "14-5VL",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6730",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "bd93fc61-e4fd-4dcc-8058-185c672151e8",
+            "name": "14-5Z",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6731",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "ffd44ce0-2a46-42ec-bc6d-8b3987bb16f1",
+            "name": "14-5ZZA",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6732",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "98fd62ac-68e0-4721-bf3c-aa825a9b2d94",
+            "name": "15-5D",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6377",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "540feb9a-087a-4f94-91a6-a338dd0ff7b6",
+            "name": "15-5DVZS",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6378",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "52659ed7-e803-4e2f-bef1-72746f14a3d0",
+            "name": "15-5CH",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6380",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "0aa9fd1e-6051-4f7c-b49e-792d887f8179",
+            "name": "15-5MIZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6381",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "f7d1fcb6-1a56-44be-a8ec-d8e973b236fa",
+            "name": "15-5MT",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6382",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "50907f87-ba3a-4293-8fc7-0e8ef4ee2a39",
+            "name": "15-5PZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6383",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "6742b044-64fe-4a37-b251-0c1ed60dd9c3",
+            "name": "15-5ŘFZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6384",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "f55d5778-262f-49f6-ab33-c411dd315c2e",
+            "name": "15-5ŘLZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6385",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "4e7d54b5-57f2-4039-b993-3a5522045e9e",
+            "name": "15-5VD",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6386",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "de8f7ad1-e998-41ea-9875-28b8a3644e3d",
+            "name": "15-5VL",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6387",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "e68ec86f-a923-4778-b00c-fd10aa0265a1",
+            "name": "15-5Z",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6388",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "9e82d756-d8d3-4de1-a906-1de53f9318be",
+            "name": "15-5ZZA",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6389",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "c1d5bea3-075d-4e3d-b344-853b2f5e0f93",
+            "name": "21-5KB",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7213",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "e1d04473-79b8-4f72-9abd-cad5c7a744dc",
+            "name": "21-5VGM",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7260",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "9c68a072-92ce-4a4e-b8d8-ed926825c45f",
+            "name": "21-5VT-E",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7261",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "508210fb-b843-4fa6-ad7f-d00b83383da0",
+            "name": "21-5VT-S1",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7263",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "ca65fe17-b070-4063-96f7-f84555c7192a",
+            "name": "21-5VT-S2",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7264",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "355006a4-82cd-4b86-a277-a0761216813a",
+            "name": "22-5BSV",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7565",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "bdf8677c-56e3-4411-8f26-b6932a4c5651",
+            "name": "22-5EPZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7566",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "39b68bb9-54df-4147-a506-1c914c127e7f",
+            "name": "22-5GMZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7567",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "c3feb15a-8e96-4875-9581-05737d006fa9",
+            "name": "22-5IT",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7568",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "9f9d9d5d-ad66-4e67-85f1-863077ca4346",
+            "name": "22-5KB",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6838",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "62eecfcd-6ec5-410e-9488-6737b8189b2f",
+            "name": "22-5KB-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6839",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "1d8d5487-7f29-4182-ab6b-90c8efe6de07",
+            "name": "22-5KT",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7569",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "49e8dc57-4f4c-458f-86c7-4dcc749daa60",
+            "name": "22-5LRNS",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7570",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "8b54188e-71d2-4f83-b480-f8082b2c0589",
+            "name": "22-5LT-AV",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7571",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "04e6f258-bd44-4e78-a72e-bb8f8ac0ce34",
+            "name": "22-5LT-DM",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7572",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "ce346028-cf80-45fc-9716-eb0593001999",
+            "name": "22-5LTZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7573",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "4da0355b-687b-4edf-aafd-df56b1caa76e",
+            "name": "22-5REB",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7574",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "858f260b-07fe-423f-b62d-73f3fa16f328",
+            "name": "22-5ŘLP",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7391",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "424d702d-6d7c-4072-bd9f-2e3322bd4650",
+            "name": "22-5TPVO",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7575",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "d2a4953b-f45e-408e-b3be-9bdcc2daa0aa",
+            "name": "22-5VP",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7129",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "59a333b6-fba2-495b-94ad-3d511c65e827",
+            "name": "22-5ZM",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7576",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "cadeb467-844a-436a-bf95-b8136ece6108",
+            "name": "22-5ZSPVO",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7577",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "6da928ef-8108-4179-b5ab-2f8891b774a6",
+            "name": "22-5ŽK",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7578",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "b02708fc-0625-42be-a808-6179a85f91f6",
+            "name": "23-5BSV",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7143",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "4f5cbb60-4594-4aa0-b70c-9901d3595fdf",
+            "name": "23-5EPZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7144",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "49b6f473-936d-4961-a4bb-147be4bb6ea1",
+            "name": "23-5GMZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7145",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "6025e5e6-0d4b-4504-84f9-878017013657",
+            "name": "23-5IT",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7146",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "bc7ce794-7bbb-4eb0-b192-001b69a984a7",
+            "name": "23-5KB",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6550",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "f7d1b559-1b1f-463f-b4f7-02232ae27614",
+            "name": "23-5KB-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6504",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "8402a864-20e4-4f55-a5cd-7074c78f2a9a",
+            "name": "23-5KT",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7147",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "1e4d25bb-1ab2-4d6a-899d-1577ee4d26a8",
+            "name": "23-5LT-AV",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7148",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "ffa83061-1b2f-4a36-9050-5c3ea5910794",
+            "name": "23-5LT-DM",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7149",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "d7c515ce-5058-47f3-92e1-85f4798bbfc2",
+            "name": "23-5LTZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7150",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "c2a58c0a-ad76-4479-8a2c-513f3cf65390",
+            "name": "23-5REB",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7151",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "978c1427-6efd-43cb-a796-0f36c9af327a",
+            "name": "23-5ŘLP",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6969",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "30933958-7703-4e84-8db4-ce493f4a744c",
+            "name": "23-5TPVO",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7152",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "82cb6349-a6ca-49af-a002-a6129d341995",
+            "name": "23-5VP",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6759",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "bbbae42f-04f9-4fe7-9cc6-3777c566feb3",
+            "name": "23-5VR",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7153",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "eba7cdee-8130-478b-8c6b-0e4bbda06fdb",
+            "name": "23-5ZM",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7154",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "112cb401-1f26-4268-a097-722c1be40096",
+            "name": "23-5ZSPVO",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7155",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "9397ad4b-3c4d-455c-904a-f8af2e3f7d73",
+            "name": "23-5ŽK",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7156",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "4e1e480e-e214-4c19-81fa-56ac475a3537",
+            "name": "24-5BSV",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6751",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "921057f2-f918-402d-9f9e-453a0a3277d2",
+            "name": "24-5GMZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6752",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "7fc97a7a-be80-4f43-9289-cb0129502880",
+            "name": "24-5KB1",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/3737",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "59620d4b-efb0-42eb-ade9-7db9229d5b69",
+            "name": "24-5KB-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/3738",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "8e342e53-fe28-4944-a5c4-21e4b68cbf02",
+            "name": "24-5KT",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6945",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "6c882d11-1cc1-4fe5-9634-723e4b8eb2ef",
+            "name": "24-5LRNS",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6753",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "6cca0ef8-39fe-4a46-9ae9-f1373ea39e33",
+            "name": "24-5LT-AV",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6754",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "cc23c720-ac0a-499f-880f-335d9596b9e9",
+            "name": "24-5LT-DM",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6755",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "0f38fcba-765a-4eba-989f-cc036fa3691a",
+            "name": "24-5LTZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6756",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "f5512806-67b8-405a-8587-f9a9e3e939c6",
+            "name": "24-5REB",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6757",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "f1a658bc-8383-4bd9-ba5b-f21ce812736e",
+            "name": "24-5ŘLP",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6611",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "541a03c0-1d20-4df2-af3d-433c4cd36ecf",
+            "name": "24-5TPVO",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6758",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "7f23a5d4-2072-47b2-8079-a67fd8e572c7",
+            "name": "24-5VP",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6418",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "52896dbb-4723-4c5a-90ba-ca7c7aca1d92",
+            "name": "24-5ZM",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6760",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "6e66e011-344a-4f93-9ab9-0b0c8dc8b547",
+            "name": "24-5ŽK",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6761",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "4651e6a0-e374-436f-82e9-350df1f387a7",
+            "name": "25-5BSV",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6399",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "60ab0dfb-1d4a-4c1a-a360-092d89e10f83",
+            "name": "25-5GMZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6400",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "1b4b6253-e1d6-4034-9361-669b5210bcc0",
+            "name": "25-5IT",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6401",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "57bd05e4-5de8-488d-b7e7-3e1ff2ed5419",
+            "name": "25-5KB",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/1429",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "5067538f-2c18-4699-a81b-309da437c5b0",
+            "name": "25-5KB-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/1430",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "400351f8-56c3-498e-b155-6e69008f90b3",
+            "name": "25-5LRNS",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6405",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "56fb7e39-7571-4212-a4cd-f5de3f9f656b",
+            "name": "25-5LT-AV",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6408",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "3eb97a27-956d-43d3-927e-6236aebcf135",
+            "name": "25-5LT-DM",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6410",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "2948c31b-5451-4ddb-a197-d310a9517433",
+            "name": "25-5LTZ",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6412",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "c36301aa-713f-4806-816c-e22151829c47",
+            "name": "25-5REB",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6414",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "b6bd6e9b-6deb-4ae7-95d6-2b0552b0b46e",
+            "name": "25-5ŘLP",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/3744",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "c8e82227-28ac-4e08-8755-bb389b7fde71",
+            "name": "25-5TPVO",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6416",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "fef3892f-cf3d-4726-9273-5cff428229d8",
+            "name": "25-5VP",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/3693",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "ba916e7a-423a-4d2e-8a1c-958d9ad81e43",
+            "name": "25-5ZM",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6420",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "0cc79874-3e6f-459c-b367-df16922df69e",
+            "name": "12-3BO-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6831",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "2f26d3b6-346f-4bab-a013-56554fa660d0",
+            "name": "12-3BO-C-K",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6936",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "a6285f93-9be5-4b72-bb9c-56c3ed6218e1",
+            "name": "12-3BO-K",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6937",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "0f0cda29-0ef3-4814-81de-fa3291b83a08",
+            "name": "11-3BO-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7246",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "1ba425df-0b60-4ed5-9ffd-3310c68dd64b",
+            "name": "11-3BO-C-K",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7212",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "47653e61-9483-4aaa-86bd-7c9c0deb4739",
+            "name": "13-3BO-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6547",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "f57e0c9f-330a-498f-9607-17f01a0d47a0",
+            "name": "13-3BO-C-K",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6548",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "db239297-a6cc-4fa4-9c86-f00a9318ba10",
+            "name": "13-3BO-K",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6578",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "9e0acdb9-d9f3-4fbf-b928-8d3bc18704de",
+            "name": "11-2BO-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7238",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "37330a53-b5cf-426a-8085-083f908b0bf4",
+            "name": "11-2BO-C-K",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7239",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "2f3d725b-e01e-40dc-abff-62197d9a9e14",
+            "name": "11-2BO-K",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7376",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "a45f6155-3b62-4d31-8cc4-cc090c6f0856",
+            "name": "12-2BO-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6824",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "d7e0bd8a-dbbe-46ad-80a9-7d7df07799c2",
+            "name": "12-2BO-C-K",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6925",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "98396546-7d29-4de3-835a-cea4d0820b10",
+            "name": "12-2BO-K",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6960",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "909eeb9c-0aad-4807-8570-e8adf4b32310",
+            "name": "21-3GMOB-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7247",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "02ec83b0-06d8-45b3-8ce2-7b439c509bfd",
+            "name": "21-3LROT-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7248",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "baee4336-6f3a-41e3-a326-9e8a7305a247",
+            "name": "21-3LT-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7249",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "f8b4e7bb-c33e-402e-b05a-d686adc6092d",
+            "name": "21-3TOB-S-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7250",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "5c3bcf2a-fd66-47e1-8c59-c3c221f79396",
+            "name": "21-3TOMO-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7251",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "951f3c4c-66f0-487b-b0e8-90c13af5821b",
+            "name": "22-3LT-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6833",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "ea1b3079-51a1-408c-810e-571b6d518aae",
+            "name": "22-3TOMO-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6835",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "2ed3f2bb-36a2-433f-bdf0-c4426cfe6111",
+            "name": "22-3ZM-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6836",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "ee96e9ed-0086-4789-8faf-041db63fe19f",
+            "name": "21-2GMOB-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7240",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "bd855548-9792-4d58-900a-8b9ab329e04e",
+            "name": "21-2LROT-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7241",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "ac332482-7e95-471d-ad15-a34650dd5b92",
+            "name": "21-2LT-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7242",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "0c73bc5b-3089-4d6e-b1ef-3bbf26c104a2",
+            "name": "21-2TOMO-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7244",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "f256090c-b0ea-4887-a73b-cf9b60489318",
+            "name": "21-2ZM-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/7245",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "e7dd1652-3e54-4dbb-8941-f2ea5baf0066",
+            "name": "22-2GMOB-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6825",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "67548720-74b7-4466-ac91-ab82830823b1",
+            "name": "22-2LROT-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6826",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "0c67278a-dfd6-4f42-9b8f-1d4cd96a44e2",
+            "name": "22-2LT-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6827",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "48a551fd-6714-4c06-97a1-9d86fd55829c",
+            "name": "22-2TOMO-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6829",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        },
+        {
+            "id": "6e6f713d-5883-4a8b-9902-d24d139b8a2d",
+            "name": "22-2ZM-C",
+            "url": "https://apl.unob.cz/MojeAP/StudiumSkupina/6830",
+            "valid": true,
+            "grouptype_id": "cd49e157-610c-11ed-9312-001a7dda7110"
+        }
+    ]
+}
