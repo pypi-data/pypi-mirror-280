@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sedpack"
+version = "0.0.1"
+description = ""
+authors = [
+  "Karel Král <karelkral@google.com>",
+  "Jean-Michel Picod <jmichel@google.com>",
+  "Luca Invernizzi <invernizzi@google.com>"]
+readme = "README.md"
+license = 'Apache-2.0'
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
