@@ -1,0 +1,17 @@
+django_clamd/__init__.py,sha256=LWBe8lYOpgwErvzU8zsusFuKsf4Z8kGq7iCyI6104_8,284
+django_clamd/conf.py,sha256=Yn5PVvtphY1Pq7ltx-7to7y39O7RB2nYHZ0MpeqTi1I,1279
+django_clamd/validators.py,sha256=18G2bANnIMlnvO4ve82UwctPlxrPdIo40R5iCSlrOgk,1368
+django_clamd/locale/bg/LC_MESSAGES/django.mo,sha256=KDuEQ3AUIquq_MdqJrDwfven9kWC5yeR1S9BpDY0Gs0,528
+django_clamd/locale/bg/LC_MESSAGES/django.po,sha256=jljR2Y15HdOMjyDUSDhfCnkQ0DlpMt-W-5dT0CwpNNI,731
+django_clamd/locale/de/LC_MESSAGES/django.mo,sha256=t87pLnQQ9egdMinOy4NE5VsO5gJY-MAzRG12AEvG4x8,465
+django_clamd/locale/de/LC_MESSAGES/django.po,sha256=qZ6YCxFVDsuIhzni9JoT155fDcFqvcpypvmn_dZRiNE,664
+django_clamd/locale/en/LC_MESSAGES/django.mo,sha256=vhwHseaIXqRNSP7Mmg8_1xwcL52p-WjXvMBWMyc51i8,554
+django_clamd/locale/en/LC_MESSAGES/django.po,sha256=Xmk0-ZFCnWGrmrS9-aDpRYqj42EaHIGbbuBtpT2EPgs,818
+django_clamd/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_clamd/tests/forms.py,sha256=HY6yRA7Pbau7H8-YttxpKc5rK2raes8Bul59JNREljU,205
+django_clamd/tests/settings.py,sha256=b60jFqqLn-o7xerkDm4gUKvQ7B1duScDDtZj0A-jx94,363
+django_clamd/tests/test.py,sha256=Zw97nA7dHXBCDd_bRYA9s4GWlecj_x8-l_50k0asOyA,1808
+django_clamd-1.0.0.dist-info/METADATA,sha256=5wTivfbuXtPpWWEfJUCpMYCH6xZ4wHeoPo3rG0Rv9s4,3953
+django_clamd-1.0.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+django_clamd-1.0.0.dist-info/top_level.txt,sha256=8ypXQ544VGbtjU6bSAdlPpbySms8GhvTMC5OkLtLrB0,13
+django_clamd-1.0.0.dist-info/RECORD,,
