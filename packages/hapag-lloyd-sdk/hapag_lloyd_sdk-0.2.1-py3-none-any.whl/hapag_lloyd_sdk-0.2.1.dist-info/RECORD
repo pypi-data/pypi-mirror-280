@@ -1,0 +1,10 @@
+hapag_lloyd_sdk/__init__.py,sha256=qYNawtzMNqNLEnEd4186t7bLOzNGlTrSwtwYN_-RiQ8,37
+hapag_lloyd_sdk/api.py,sha256=xqfifUrOfb6JdeC6Suo3pCSZUeyEOnkwCendbGHC1Wk,763
+hapag_lloyd_sdk/client.py,sha256=DrF9S7uX6YZgQUNw-ZspJyrbN8jdcCpab1HMWGWL9ps,1009
+hapag_lloyd_sdk/models.py,sha256=Y19Q3UUMv1dXtsOtcarGmh0upqE8Ece1j57Slk7RNy0,959
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_api.py,sha256=wLiX59ELogg3TzJUXZ1JMzUc1to1N_bVYtBvUSElEaE,920
+hapag_lloyd_sdk-0.2.1.dist-info/METADATA,sha256=_tzDQ63bhvIUJ7MnMwcI4RMDsZIKX2i3ZupkbgKtdmU,976
+hapag_lloyd_sdk-0.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+hapag_lloyd_sdk-0.2.1.dist-info/top_level.txt,sha256=-0Mu6GhoJh6rHkFwuEl2dTXB0jtmy6vDZ8P420Q7e40,22
+hapag_lloyd_sdk-0.2.1.dist-info/RECORD,,
