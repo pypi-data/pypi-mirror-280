@@ -1,0 +1,4 @@
+[console_scripts]
+configure-aws = unique_log_question_project.scripts.configure_aws:main
+manage.py = unique_log_question_project.manage:main
+readme = unique_log_question_project.scripts.readme:main
