@@ -1,0 +1,2 @@
+[console_scripts]
+fontmat = fontmat.cli:main
