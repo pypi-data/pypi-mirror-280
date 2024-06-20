@@ -1,0 +1,11 @@
+numpy
+astropy
+matplotlib
+tqdm
+pyproj
+scipy
+pandas
+healpy
+scipy
+scikit-learn
+python-casacore
