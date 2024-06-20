@@ -1,0 +1,30 @@
+[tool.black]
+line-length = 120
+
+[tool.setuptools]
+package-data = { "pfpy" = ["py.typed"] }
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name="ma-kyc-ri-pfpy"
+version="0.1.2"
+description="A library providing utils for PassFort 3rd party integrations."
+readme = "README.md"
+authors = [{ name = "Fazal Khan", email = "fazal.khan@moodys.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pydantic",
+    "pytest"
+]
+requires-python = ">=3.12.3"
+
+[project.urls]
+Repository = "https://github.com/moodysanalytics/ma-kyc-ri-pfpy"
