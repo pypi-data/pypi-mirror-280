@@ -1,0 +1,7 @@
+colorama
+prompt_toolkit
+pydantic
+tqdm
+
+[test]
+pytest
