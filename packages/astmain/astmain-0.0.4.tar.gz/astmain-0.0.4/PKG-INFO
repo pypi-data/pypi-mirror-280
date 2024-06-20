@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: astmain
+Version: 0.0.4
+Summary: 许鹏的第一个包
+Author-email: 许鹏 <1311192345@qq.com>
+Description-Content-Type: text/markdown
+Requires-Dist: tornado
+Requires-Dist: requests
+
+# 安装方式
+    pip uninstall astmain
+    pip install   astmain
+
+
+# 发布
+    fit publish
+
+# 依赖包
+    pip install requests
+    pip install pyppeteer
+    pip install pyppeteer_stealth
+
+    pip install arrow
+
+
+    pip install nuitka
+    pip install pytoml
+    pip install flit
+
+
+
+
+
+
+
+
+
+
+
+

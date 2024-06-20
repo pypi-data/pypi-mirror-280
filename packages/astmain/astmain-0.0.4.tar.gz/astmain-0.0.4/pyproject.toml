@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "astmain"
+version = "0.0.4"
+description = "许鹏的第一个包"
+dependencies = ["tornado", "requests"]
+readme = "README.md"
+
+[[project.authors]]
+name = "许鹏"
+email = "1311192345@qq.com"
