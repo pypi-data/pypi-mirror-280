@@ -1,0 +1,8 @@
+README.md
+maker_dist.py
+astmain/__init__.py
+astmain.egg-info/PKG-INFO
+astmain.egg-info/SOURCES.txt
+astmain.egg-info/dependency_links.txt
+astmain.egg-info/requires.txt
+astmain.egg-info/top_level.txt
