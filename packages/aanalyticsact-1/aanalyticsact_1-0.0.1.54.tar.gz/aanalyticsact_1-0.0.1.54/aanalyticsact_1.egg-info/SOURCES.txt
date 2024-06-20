@@ -1,0 +1,7 @@
+setup.py
+aanalyticsact_1.egg-info/PKG-INFO
+aanalyticsact_1.egg-info/SOURCES.txt
+aanalyticsact_1.egg-info/dependency_links.txt
+aanalyticsact_1.egg-info/not-zip-safe
+aanalyticsact_1.egg-info/requires.txt
+aanalyticsact_1.egg-info/top_level.txt
