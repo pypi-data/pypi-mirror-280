@@ -1,0 +1,13 @@
+__pycache__
+.coverage
+.env
+.mypy_cache
+.pytest_cache
+.scannerwork
+.tox
+.vscode
+coverage-reports
+dist
+htmlcov
+testing_script.py
+venv
