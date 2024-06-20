@@ -1,0 +1,6 @@
+inf = float('inf')
+ECLIPSE = 3
+
+MAX_ALFA = 0.40
+DEFAULT_ALFA = 0.05
+DISABLE_WARNINGS = False
