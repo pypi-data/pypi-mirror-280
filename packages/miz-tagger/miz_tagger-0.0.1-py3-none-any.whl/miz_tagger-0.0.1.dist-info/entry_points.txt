@@ -1,0 +1,6 @@
+[console_scripts]
+MizTagger-register = tagger.context_menu:register_cli
+MizTagger-unregister = tagger.context_menu:unregister_cli
+
+[gui_scripts]
+MizTagger-viewer = tagger.view:main

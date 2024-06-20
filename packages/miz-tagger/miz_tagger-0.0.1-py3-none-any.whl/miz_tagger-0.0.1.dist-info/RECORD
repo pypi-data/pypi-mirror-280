@@ -1,0 +1,9 @@
+tagger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tagger/context_menu.py,sha256=3DOWsYqrBAZw09Ca80XHxbleF4fugezqfSDw8jLTByM,11623
+tagger/shared.py,sha256=9PgkMrjS-wfinkbBLd_zbr_YoYg7uSuP4uO6zBXZ2qw,11484
+tagger/view.py,sha256=kVP5Kr1tpsBjHhqiECt4oirs2MZpm83XgfyE2T_YsG4,6896
+miz_tagger-0.0.1.dist-info/METADATA,sha256=_2gbduMjicp0hOWDX0iM13Q-xfab07xoY9XO_c5MOj0,2614
+miz_tagger-0.0.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+miz_tagger-0.0.1.dist-info/entry_points.txt,sha256=9pNpAVW7R7_n8R-22AyLrgif608t8ngfF7wRjkTQ1cw,181
+miz_tagger-0.0.1.dist-info/top_level.txt,sha256=J08a1A_ri8a5WLuwKrReP_tKClx5ZEHyTuHeU4Z4Ph8,7
+miz_tagger-0.0.1.dist-info/RECORD,,
