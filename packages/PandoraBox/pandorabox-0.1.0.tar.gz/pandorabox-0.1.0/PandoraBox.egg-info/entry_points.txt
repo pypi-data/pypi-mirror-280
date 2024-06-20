@@ -1,0 +1,2 @@
+[console_scripts]
+pybox = src.app.main

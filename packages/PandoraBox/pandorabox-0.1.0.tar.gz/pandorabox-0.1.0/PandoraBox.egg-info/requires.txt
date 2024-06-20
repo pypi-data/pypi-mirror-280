@@ -1,0 +1,11 @@
+requests
+fastapi
+uvicorn
+pydantic
+jupyter-client
+ipython
+pandas
+numpy
+matplotlib
+loguru
+jsonlines

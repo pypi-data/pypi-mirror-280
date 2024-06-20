@@ -1,0 +1,7 @@
+setup.py
+PandoraBox.egg-info/PKG-INFO
+PandoraBox.egg-info/SOURCES.txt
+PandoraBox.egg-info/dependency_links.txt
+PandoraBox.egg-info/entry_points.txt
+PandoraBox.egg-info/requires.txt
+PandoraBox.egg-info/top_level.txt
