@@ -1,0 +1,52 @@
+[build-system]
+# A list of packages that are needed to build your package:
+requires = ["setuptools"]  # REQUIRED if [build-system] table is used
+# The name of the Python object that frontends will use to perform the build:
+build-backend = "setuptools.build_meta"  # If not defined, then legacy behavior can happen.
+
+[project]
+name = "multidaq"
+version = "0.0.2"
+authors = [
+  { name="Tantor GmbH", email="info@tantor.de" },
+]
+description = "Python interface to biovision digitizers"
+keywords = [
+   "digitizer",
+   "biomechanics",
+   "driver",
+]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Scientific/Engineering",
+    "Topic :: System :: Hardware :: Hardware Drivers",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+]
+# For an analysis of this field vs pip's requirements files see:
+# https://packaging.python.org/discussions/install-requires-vs-requirements/
+dependencies = [
+  "numpy"
+]
+#install_requires=[
+#   'numpy'
+#]
+
+[project.urls]
+"Homepage" = "https://github.com/biodaq/biovision"
+"Bug Reports" = "https://github.com/biodaq/biovision/issues"
+"Source" = "https://github.com/biodaq/biovision/share/python/"
+
+
+# This is configuration specific to the `setuptools` build backend.
+# If you are using a different build backend, you will need to change this.
+[tool.setuptools]
+# If there are data files included in your packages that need to be
+# installed, specify them here.
+package-data = {"multidaq" = ["*.dll","*.so"]}
+
