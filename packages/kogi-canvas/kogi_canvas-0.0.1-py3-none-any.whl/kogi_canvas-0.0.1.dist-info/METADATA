@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: kogi-canvas
+Version: 0.0.1
+Summary: Canvas from KOGI
+Home-page: https://github.com/kuramitsulab/kogi-canvas
+Author: Kimio Kuramitsu
+License: A
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Framework :: IPython
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Intended Audience :: Education
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: pegtree
+Requires-Dist: requests
+Requires-Dist: requests-oauthlib
+Requires-Dist: cohere
+Requires-Dist: tiktoken
+Requires-Dist: markdown
+
