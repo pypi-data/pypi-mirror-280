@@ -1,0 +1,19 @@
+#========================================================================================================================================
+# CyborgAI CC BY-NC-ND 4.0 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 Internation    https://github.com/cyborg-ai-git | 
+#========================================================================================================================================
+
+# VALID TYPE FOR INPUT/OUTPUT:
+#   EOBJECT EOBJECT_CLASS
+
+package: evo_package_tunnel
+
+control:
+  CTunnelApi:
+    _DOC_: "CTunnelApi description"
+    
+    tunnel-api0:
+      isStream : false
+      description: "tunnel-api0 description"
+      callback: onApi0
+      input: EOBJECT evo_package_tunnel.ETunnelInput
+      output: EOBJECT evo_package_tunnel.ETunnelOutput
