@@ -1,0 +1,15 @@
+cltoolbox
+numba
+pandas
+tables
+
+[dev]
+hsp2[test]
+
+[slim]
+numba
+pandas
+
+[test]
+pytest
+pytest-cov
