@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+dsplayer.egg-info/PKG-INFO
+dsplayer.egg-info/SOURCES.txt
+dsplayer.egg-info/dependency_links.txt
+dsplayer.egg-info/requires.txt
+dsplayer.egg-info/top_level.txt
