@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/drugs_database/__init__.py
+src/drugs_database/drugs_database.py
+src/drugs_database/drugs_load.py
+src/pydrugsdatabase.egg-info/PKG-INFO
+src/pydrugsdatabase.egg-info/SOURCES.txt
+src/pydrugsdatabase.egg-info/dependency_links.txt
+src/pydrugsdatabase.egg-info/requires.txt
+src/pydrugsdatabase.egg-info/top_level.txt
