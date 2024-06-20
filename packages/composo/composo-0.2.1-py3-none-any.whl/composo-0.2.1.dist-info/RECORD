@@ -1,0 +1,10 @@
+composo/__init__.py,sha256=jAf3LEBxOcuSINOD5UhMzNZhFJ4aJ6KI8dpuztZrF3U,14322
+composo/arg_types.py,sha256=lS5JWIehMmm751zGZzXqt53qnk2scz8gN8-nIJcWvpo,3567
+composo/helpers.py,sha256=DWlZmxW6fbpOakNFTWlhm6HiIIiYQsorJU08rTslA9Y,4981
+composo/helpers_test.py,sha256=XSwjqCLZWkU2HFJKLDyR0o-sOwrdtfE13m37jqTLKiY,3784
+composo/package_primitives.py,sha256=7Pn7PzKB23VkdpR6sSE1ZQeIo4KtEismcRxW6qBZt8A,6801
+composo-0.2.1.dist-info/LICENSE,sha256=OUPt455m0DiDLKv2PetWJajo-iXSrqCD_A4Z_cUPeZk,2659
+composo-0.2.1.dist-info/METADATA,sha256=RUzYG_tj2mGuviMv-KMsvWZceOfP5zDdH2DK0iSF9Sg,338
+composo-0.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+composo-0.2.1.dist-info/top_level.txt,sha256=D5m1rJLqsAZElHntUnTiD4w9QQkHz1jo0523qS5xgcs,8
+composo-0.2.1.dist-info/RECORD,,

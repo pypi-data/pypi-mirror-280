@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: composo
+Version: 0.2.1
+Summary: Composo Python Package
+Home-page: UNKNOWN
+Author: Luke Markham
+Author-email: luke@composo.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: requests >=2.25.1
+Requires-Dist: colorama >=0.4.4
+Requires-Dist: psutil >=5.9.8
+
+UNKNOWN
+
