@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/favicon-editor.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Primary Meta Tags -->
+  <title>Abstra Editor</title>
+  <meta name="title" content="Abstra Editor" />
+  <script>
+    // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/h97k86ks'
+    (function () {
+      var w = window;
+      var ic = w.Intercom;
+      if (typeof ic === 'function') {
+        ic('reattach_activator');
+        ic('update', w.intercomSettings);
+      } else {
+        var d = document;
+        var i = function () {
+          i.c(arguments);
+        };
+        i.q = [];
+        i.c = function (args) {
+          i.q.push(args);
+        };
+        w.Intercom = i;
+        var l = function () {
+          var s = d.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = 'https://widget.intercom.io/widget/h97k86ks';
+          var x = d.getElementsByTagName('script')[0];
+          x.parentNode.insertBefore(s, x);
+        };
+        if (document.readyState === 'complete') {
+          l();
+        } else if (w.attachEvent) {
+          w.attachEvent('onload', l);
+        } else {
+          w.addEventListener('load', l, false);
+        }
+      }
+    })();
+  </script>
+  <script type="module" crossorigin src="/assets/editor.1dbc04f1.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/outputWidgets.b408cd47.js">
+  <link rel="modulepreload" crossorigin href="/assets/fetch.c6b0f555.js">
+  <link rel="modulepreload" crossorigin href="/assets/pubsub.e8c4900b.js">
+  <link rel="modulepreload" crossorigin href="/assets/index.93c872c5.js">
+  <link rel="modulepreload" crossorigin href="/assets/asyncComputed.a7fc1aad.js">
+  <link rel="modulepreload" crossorigin href="/assets/url.266b2c44.js">
+  <link rel="modulepreload" crossorigin href="/assets/runnerData.d52f67ef.js">
+  <link rel="modulepreload" crossorigin href="/assets/record.7a308bd3.js">
+  <link rel="modulepreload" crossorigin href="/assets/workspaces.76828554.js">
+  <link rel="stylesheet" href="/assets/outputWidgets.dd6a3ac2.css">
+  <link rel="stylesheet" href="/assets/index.df96c508.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  
+</body>
+
+</html>
