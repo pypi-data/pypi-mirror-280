@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: astmain
+Version: 0.0.8
+Summary: 包的简述1111
+Home-page: https://github.com
+Author: astmain
+Author-email: 1311192345@qq.com
+Keywords: python,tools
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# 依赖包
+pip install requests
+pip install pyppeteer
+pip install pyppeteer_stealth
+pip install nuitka
+pip install arrow
+
+
+
+
+
+
+
+
+
+
