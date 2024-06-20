@@ -1,0 +1,7 @@
+setup.py
+src/__init__.py
+src/curve.py
+src/Curvify.egg-info/PKG-INFO
+src/Curvify.egg-info/SOURCES.txt
+src/Curvify.egg-info/dependency_links.txt
+src/Curvify.egg-info/top_level.txt
