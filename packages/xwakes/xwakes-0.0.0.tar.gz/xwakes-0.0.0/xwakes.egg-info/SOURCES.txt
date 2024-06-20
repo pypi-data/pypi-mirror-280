@@ -1,0 +1,9 @@
+pyproject.toml
+setup.py
+xwakes/__init__.py
+xwakes/_version.py
+xwakes.egg-info/PKG-INFO
+xwakes.egg-info/SOURCES.txt
+xwakes.egg-info/dependency_links.txt
+xwakes.egg-info/requires.txt
+xwakes.egg-info/top_level.txt
