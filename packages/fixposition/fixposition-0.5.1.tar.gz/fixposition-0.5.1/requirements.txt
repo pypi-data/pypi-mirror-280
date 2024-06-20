@@ -1,0 +1,7 @@
+aiomqtt
+click
+coloredlogs
+orjson
+pydantic
+pydantic-settings
+roxbot

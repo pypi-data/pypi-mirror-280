@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: fixposition
+Version: 0.5.1
+Summary: Python driver for fixposition gps
+Author-email: ROX Automation <jev@roxautomation.com>
+License: MIT
+Project-URL: Homepage, https://gitlab.com/roxautomation/components/fixposition
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: aiomqtt
+Requires-Dist: click
+Requires-Dist: coloredlogs
+Requires-Dist: orjson
+Requires-Dist: pydantic
+Requires-Dist: pydantic-settings
+Requires-Dist: roxbot
+Provides-Extra: dev
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: invoke; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pylint; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"
+Requires-Dist: pynmea2; extra == "dev"
+Provides-Extra: ci
+Requires-Dist: pylint; extra == "ci"
+Requires-Dist: mypy; extra == "ci"
+Requires-Dist: pytest; extra == "ci"
+Requires-Dist: pynmea2; extra == "ci"
+
+# fixposition
+
+
+Python driver for fixposition gps
+
+**NOTE: work-in-progress**
+
+
+## Usage
+
+
+Message parsing:
+
+```python
+
+
+from fixposition import parser
+
+msg = "$GPHDT,61.7,T*05\r\n"
+
+data = parser.parse(msg)
+
+
+```
+
+
+
+## How it works
+*or rather how it should work, working on it ...*
+
+* message definitions are in `fixposition.messages`. Each submodule contains a `parse()`
+function.
+* `@validate_checksum` decorator adds nmea checksum to parse function.
+* `parser.parse(msg)` returns `NamedTuple` of a message
+
+
+## References
+
+* [FP_A messages](https://docs.fixposition.com/fd/fp_a-messages)
+* [FP_A-ODOMETRY](https://docs.fixposition.com/fd/fp_a-odometry)
+
+
+## Development
+
+
+1. develop and test in devcontainer (VSCode)
+2. trigger ci builds by bumping version with a tag. (see `.gitlab-ci.yml`)
+
+## Tooling
+
+* Verisoning : `bump2version`
+* Linting and formatting : `ruff`
+* Typechecking: `mypy`
+
+## What goes where
+* `src/fixposition` app code. `pip install .` .
+* `docker` folder contains dockerfiles for images.
+* `.gitlab-ci.yml` takes care of the building steps.
