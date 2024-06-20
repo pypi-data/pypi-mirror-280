@@ -1,0 +1,3 @@
+[console_scripts]
+hyperscale = hyperscale.cli:run
+hyperscale-server = hyperscale.run_uwsgi:run_uwsgi
