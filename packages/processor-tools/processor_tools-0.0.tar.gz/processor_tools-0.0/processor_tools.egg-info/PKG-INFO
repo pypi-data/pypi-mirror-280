@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: processor-tools
+Version: 0.0
+Summary: Tools to support the developing of processing pipelines
+Home-page: https://gitlab.npl.co.uk/eco/tools/processor_tools
+Author: Sam Hunt
+Author-email: sam.hunt@npl.co.uk
+License: None
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: dev
+
+# processor_tools
+
+Tools to support the developing of processing pipelines
+
+## Installation
+
+`processor_tools` is installable via pip. For development it is recommended to install in editable mode with the optional developer dependencies, i.e.:
+
+``
+pip install -e ".[dev]"
+``
+
+## Documentation
+
+For more information visit our [documentation](https://eco.gitlab-docs.npl.co.uk/tools/processor_tools).
+
+## Acknowledgements
+
+`processor_tools` has been developed by [Sam Hunt](mailto: sam.hunt@npl.co.uk).
+
+## Project status
+
+`processor_tools` is under active development. It is beta software.
