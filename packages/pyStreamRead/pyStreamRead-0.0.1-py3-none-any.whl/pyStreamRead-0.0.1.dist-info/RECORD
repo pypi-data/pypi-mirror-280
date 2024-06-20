@@ -1,0 +1,10 @@
+py_video_stream/__init__.py,sha256=E9NRPCzOOylXj-5CkCi1VPihXNh7o8EuQT_82Si5kF4,32
+py_video_stream/log.py,sha256=wYsP9hKMcthUKBRROYdbAEsIQSLBNG7hqxkxhr6DgV0,977
+py_video_stream/stream.py,sha256=eC4A0y3vyTNg1hRdnp5XJr2sZmGSdjw0rF0yzms4-yQ,1645
+stream/__init__.py,sha256=E9NRPCzOOylXj-5CkCi1VPihXNh7o8EuQT_82Si5kF4,32
+stream/log.py,sha256=wYsP9hKMcthUKBRROYdbAEsIQSLBNG7hqxkxhr6DgV0,977
+stream/stream.py,sha256=eC4A0y3vyTNg1hRdnp5XJr2sZmGSdjw0rF0yzms4-yQ,1645
+pyStreamRead-0.0.1.dist-info/METADATA,sha256=oKz5MxV5_D68YI1-4ZnByOAnDVfmkjfN6GwWZSyMqj8,435
+pyStreamRead-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyStreamRead-0.0.1.dist-info/top_level.txt,sha256=2SBK9vJ-OFJrLllTM_iIZBrGQ_ZdfpPKTESrlZGHFwE,7
+pyStreamRead-0.0.1.dist-info/RECORD,,
