@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="XRF: 1 scan, 1 det" description="">
+	<nodes>
+		<node id="0" name="Mesh: 1 scan, 1 det" qualified_name="orangecontrib.ewoksfluo.categories.demo.mesh_single_scan_single_det.OWMeshSingleScanSingleDetector" project_name="ewoksfluo" version="" title="Mesh: 1 scan, 1 det" position="(126.0, 428.0)" />
+		<node id="1" name="Fit: 1 scan, 1 det" qualified_name="orangecontrib.ewoksfluo.categories.fit.fit_single_scan_single_det.OWFitSingleScanSingleDetector" project_name="ewoksfluo" version="" title="Fit: 1 scan, 1 det" position="(578.0, 433.0)" />
+		<node id="2" name="Pick scan" qualified_name="orangecontrib.ewoksfluo.pick_scan.OWPickScan" project_name="ewoksfluo" version="" title="Pick scan" position="(360.0, 286.0)" />
+		<node id="3" name="Regrid" qualified_name="orangecontrib.ewoksfluo.regrid.OWRegrid" project_name="ewoksfluo" version="" title="Regrid" position="(771.0, 293.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="2" source_channel="scan_number" sink_channel="scan_number" enabled="true" source_channel_id="scan_number" sink_channel_id="scan_number" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="filename" sink_channel="filename" enabled="true" source_channel_id="filename" sink_channel_id="filename" />
+		<link id="2" source_node_id="2" sink_node_id="1" source_channel="scan_uri" sink_channel="scan_uri" enabled="true" source_channel_id="scan_uri" sink_channel_id="scan_uri" />
+		<link id="3" source_node_id="0" sink_node_id="1" source_channel="config" sink_channel="config" enabled="true" source_channel_id="config" sink_channel_id="config" />
+		<link id="4" source_node_id="0" sink_node_id="1" source_channel="detector_name" sink_channel="detector_name" enabled="true" source_channel_id="detector_name" sink_channel_id="detector_name" />
+		<link id="5" source_node_id="2" sink_node_id="3" source_channel="scan_uri" sink_channel="scan_uri" enabled="true" source_channel_id="scan_uri" sink_channel_id="scan_uri" />
+		<link id="6" source_node_id="1" sink_node_id="3" source_channel="fit_results_uri" sink_channel="fit_results_uri" enabled="true" source_channel_id="fit_results_uri" sink_channel_id="fit_results_uri" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'_ewoks_default_inputs': {'ndetectors': 1, 'integral_type': True, 'energy': 12.0, 'flux': 10000000.0, 'rois': [(100, 200), (300, 600)], 'output_filename': 'raw_data.h5', 'shape': (50, 60), 'expo_time': 0.1, 'emission_line_groups': ['Si-K', 'Ca-K', 'Ce-L', 'Fe-K'], 'counting_noise': True, 'nscans': 1}, '_ewoks_execinfo': {}, '_ewoks_varinfo': {}, 'controlAreaVisible': True, 'default_inputs': {}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xa7\x00\x00\x01\x07\x00\x00\x04F\x00\x00\x03\xfe\x00\x00\x00\xa7\x00\x00\x01,\x00\x00\x04F\x00\x00\x03\xfe\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\xa7\x00\x00\x01,\x00\x00\x04F\x00\x00\x03\xfe', '__version__': 1}</properties>
+		<properties node_id="1" format="literal">{'_ewoks_default_inputs': {'diagnostics': True, 'xrf_spectra_uri_template': 'instrument/{}/data', 'energy_uri_template': 'instrument/positioners_start/{}', 'output_uri_template': 'processed_data.h5::/results/fit/{}', 'fast_fitting': True, 'quantification': True}, '_ewoks_execinfo': {}, '_ewoks_varinfo': {}, 'controlAreaVisible': True, 'default_inputs': {}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01u\x00\x00\x01\x87\x00\x00\x08\x15\x00\x00\x04\xeb\x00\x00\x01u\x00\x00\x01\xac\x00\x00\x08\x15\x00\x00\x04\xeb\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x01u\x00\x00\x01\xac\x00\x00\x08\x15\x00\x00\x04\xeb', '__version__': 1}</properties>
+		<properties node_id="2" format="literal">{'_ewoks_default_inputs': {}, '_ewoks_execinfo': {}, '_ewoks_varinfo': {}, 'controlAreaVisible': True, 'default_inputs': {}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xc2\x00\x00\x00\x9e\x00\x00\x06!\x00\x00\x03\x99\x00\x00\x00\xc2\x00\x00\x00\xc3\x00\x00\x06!\x00\x00\x03\x99\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\xc2\x00\x00\x00\xc3\x00\x00\x06!\x00\x00\x03\x99', '__version__': 1}</properties>
+		<properties node_id="3" format="literal">{'_ewoks_default_inputs': {'output_uri': 'processed_data.h5::/results/regrid', 'interpolate': 'nearest'}, '_ewoks_execinfo': {}, '_ewoks_varinfo': {}, 'controlAreaVisible': True, 'default_inputs': {}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x012\x00\x00\x00e\x00\x00\x07\xe2\x00\x00\x03\xe1\x00\x00\x012\x00\x00\x00\x8a\x00\x00\x07\xe2\x00\x00\x03\xe1\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x012\x00\x00\x00\x8a\x00\x00\x07\xe2\x00\x00\x03\xe1', '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

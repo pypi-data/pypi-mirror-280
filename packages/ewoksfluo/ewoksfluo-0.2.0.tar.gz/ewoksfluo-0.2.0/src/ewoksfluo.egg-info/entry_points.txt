@@ -1,0 +1,23 @@
+[ewoks.tasks.class]
+ewoksfluo.tasks.* = ewoksfluo1
+ewoksfluo.tasks.*.* = ewoksfluo2
+
+[orange.canvas.help]
+html-index = orangecontrib.ewoksfluo:WIDGET_HELP_PATH
+
+[orange.widgets]
+FLUO = orangecontrib.ewoksfluo
+FLUOCATEGORIES = orangecontrib.ewoksfluo.categories
+
+[orange.widgets.tutorials]
+FLUO = orangecontrib.ewoksfluo.tutorials
+FLUODEMO = orangecontrib.ewoksfluo.categories.demo.tutorials
+FLUOFIT = orangecontrib.ewoksfluo.categories.fit.tutorials
+
+[orange3.addon]
+ewoksfluo = orangecontrib.ewoksfluo
+
+[orangecanvas.examples]
+FLUO = orangecontrib.ewoksfluo.tutorials
+FLUODEMO = orangecontrib.ewoksfluo.categories.demo.tutorials
+FLUOFIT = orangecontrib.ewoksfluo.categories.fit.tutorials

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="XRF: N scan, N det" description="">
+	<nodes>
+		<node id="0" name="Mesh: N scan, N det" qualified_name="orangecontrib.ewoksfluo.categories.demo.mesh_multi_scan_multi_det.OWMeshMultiScanMultiDetector" project_name="ewoksfluo" version="" title="Mesh: N scan, N det" position="(257.0, 383.0)" />
+		<node id="1" name="Fit: N scan, N det" qualified_name="orangecontrib.ewoksfluo.categories.fit.fit_multi_scan_multi_det.OWFitMultiScanMultiDetector" project_name="ewoksfluo" version="" title="Fit: N scan, N det" position="(682.0, 387.0)" />
+		<node id="2" name="Pick scans" qualified_name="orangecontrib.ewoksfluo.pick_scans.OWPickScans" project_name="ewoksfluo" version="" title="Pick scans" position="(454.0, 189.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="2" source_channel="filenames" sink_channel="filenames" enabled="true" source_channel_id="filenames" sink_channel_id="filenames" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="scan_ranges" sink_channel="scan_ranges" enabled="true" source_channel_id="scan_ranges" sink_channel_id="scan_ranges" />
+		<link id="2" source_node_id="2" sink_node_id="1" source_channel="scan_uris" sink_channel="scan_uris" enabled="true" source_channel_id="scan_uris" sink_channel_id="scan_uris" />
+		<link id="3" source_node_id="0" sink_node_id="1" source_channel="detector_names" sink_channel="detector_names" enabled="true" source_channel_id="detector_names" sink_channel_id="detector_names" />
+		<link id="4" source_node_id="0" sink_node_id="1" source_channel="configs" sink_channel="configs" enabled="true" source_channel_id="configs" sink_channel_id="configs" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'_ewoks_default_inputs': {'rois': [(100, 200), (300, 600)], 'integral_type': True, 'emission_line_groups': ['Si-K', 'Ca-K', 'Ce-L', 'Fe-K'], 'counting_noise': True, 'nscans': 3, 'shape': (50, 60), 'output_filename': 'raw_data.h5', 'ndetectors': 2, 'energy': 12.0, 'expo_time': 0.1, 'flux': 10000000.0}, '_ewoks_execinfo': {}, '_ewoks_varinfo': {}, 'controlAreaVisible': True, 'default_inputs': {}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00H\x00\x00\x00\xbe\x00\x00\x04\x1d\x00\x00\x02\xd6\x00\x00\x00H\x00\x00\x00\xe3\x00\x00\x04\x1d\x00\x00\x02\xd6\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00H\x00\x00\x00\xe3\x00\x00\x04\x1d\x00\x00\x02\xd6', '__version__': 1}</properties>
+		<properties node_id="1" format="literal">{'_ewoks_default_inputs': {'fast_fitting': True, 'xrf_spectra_uri_template': 'instrument/{}/data', 'output_uri_template': 'processed_data.h5::/results/fit/{}', 'diagnostics': False, 'figuresofmerit': False, 'energy_uri_template': 'instrument/positioners_start/{}'}, '_ewoks_execinfo': {}, '_ewoks_varinfo': {}, 'controlAreaVisible': True, 'default_inputs': {}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\n\x00\x00\x01\x86\x00\x00\x07?\x00\x00\x04\xe0\x00\x00\x01\n\x00\x00\x01\xab\x00\x00\x07?\x00\x00\x04\xe0\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x01\n\x00\x00\x01\xab\x00\x00\x07?\x00\x00\x04\xe0', '__version__': 1}</properties>
+		<properties node_id="2" format="literal">{'_ewoks_default_inputs': {}, '_ewoks_execinfo': {}, '_ewoks_varinfo': {}, 'controlAreaVisible': True, 'default_inputs': {}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x021\x00\x00\x01\x1c\x00\x00\x05d\x00\x00\x03`\x00\x00\x021\x00\x00\x01A\x00\x00\x05d\x00\x00\x03`\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x021\x00\x00\x01A\x00\x00\x05d\x00\x00\x03`', '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
