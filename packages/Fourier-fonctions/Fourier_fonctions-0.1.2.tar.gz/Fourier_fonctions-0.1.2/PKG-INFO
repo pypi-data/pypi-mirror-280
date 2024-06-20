@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Fourier_fonctions
+Version: 0.1.2
+Summary: Un package pour calculer la transformée de Fourier et d'autres trucs utiles
+Home-page: https://github.com/votreutilisateur/Fourier_fonctions
+Author: Leo leo
+Author-email: no@leo.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# Fourier_fonctions
+
+Un package pour calculer la transformÃ©e de Fourier et sa transformÃ©e inverse en Python.
+
+## Installation
+
+```bash
+pip install Fourier_fonctions

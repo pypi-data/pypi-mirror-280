@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+Fourier_fonctions/Exercice1.py
+Fourier_fonctions/Exercice2.py
+Fourier_fonctions/Exercice3.py
+Fourier_fonctions/Exercice4.py
+Fourier_fonctions/Zero_Padding.py
+Fourier_fonctions/__init__.py
+Fourier_fonctions/convolution.py
+Fourier_fonctions/filtre_Moyen_Mobile.py
+Fourier_fonctions/fourier.py
+Fourier_fonctions.egg-info/PKG-INFO
+Fourier_fonctions.egg-info/SOURCES.txt
+Fourier_fonctions.egg-info/dependency_links.txt
+Fourier_fonctions.egg-info/requires.txt
+Fourier_fonctions.egg-info/top_level.txt
