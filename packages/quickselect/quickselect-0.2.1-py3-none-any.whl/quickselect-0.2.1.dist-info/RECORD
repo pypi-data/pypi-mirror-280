@@ -1,0 +1,12 @@
+quickselect/__init__.py,sha256=NR6aWxgu58oc-RiEN1ZAh4XCxU5QQbP8ETjG-crUkBA,63
+quickselect/floyd_rivest.py,sha256=UD3RFHAa0meruA4ASa7F60u6s7rVPTDxxY9pYTQjv1M,7777
+quickselect/hints.py,sha256=XfeboqrF2lWCN_tQSNWPLmPTfuHeVvdFpOrpmsSHNXw,136
+quickselect/hoare.py,sha256=mihZMmoQHeLGaBgx48FOD_jz9SE0zOdUN0n3xlBAYCI,6282
+quickselect/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quickselect/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quickselect/core/utils.py,sha256=HLruxADWdHpgks02a1fx-fSjVdhf4HYaE_uJKNl5r6Y,841
+quickselect-0.2.1.dist-info/LICENSE,sha256=-W_qNLRoZO2-AnwtGfKupruYTfLtIk39IeMqidpeVOU,1069
+quickselect-0.2.1.dist-info/METADATA,sha256=vTxe-5qUOOMHenyml2bVG-DBL6r508xECFQ5jx2ab1s,4945
+quickselect-0.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+quickselect-0.2.1.dist-info/top_level.txt,sha256=ZgCVD4UmZV7u04xKMWkekga9Iv4CKvQ74i6x7HdLOuQ,12
+quickselect-0.2.1.dist-info/RECORD,,
