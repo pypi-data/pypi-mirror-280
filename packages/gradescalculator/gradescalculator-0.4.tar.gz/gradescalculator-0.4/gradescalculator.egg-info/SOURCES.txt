@@ -1,0 +1,11 @@
+README.md
+setup.py
+gradescalculator/__init__.py
+gradescalculator/main.py
+gradescalculator.egg-info/PKG-INFO
+gradescalculator.egg-info/SOURCES.txt
+gradescalculator.egg-info/dependency_links.txt
+gradescalculator.egg-info/entry_points.txt
+gradescalculator.egg-info/top_level.txt
+tests/__init__.py
+tests/test_calculations.py
