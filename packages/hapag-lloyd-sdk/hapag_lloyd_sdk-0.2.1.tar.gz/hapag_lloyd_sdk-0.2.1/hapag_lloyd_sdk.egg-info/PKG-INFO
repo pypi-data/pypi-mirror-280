@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: hapag_lloyd_sdk
+Version: 0.2.1
+Summary: Community SDK for Hapag-Lloyd API
+Home-page: https://github.com/gedankenfabrik/hapag_lloyd_sdk
+Author: Aaron Frank
+Author-email: aaron.frank@gedankenfabrik.de
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pydantic
+
+# Hapag Lloyd Python SDK
+
+This SDK contains all publicly available APIs for Hapag Lloyd.
+
+## Installation
+
+```bash
+pip install hapag-lloyd-sdk
+```
+
+## Usage
+
+Quick start with environment variables:
+
+```python
+from hapag_lloyd_sdk import HapagLloydClient
+
+client = HapagLloydClient()
+```
+
+If you have not set the environment variables, you can pass them as arguments:
+
+```python
+from hapag_lloyd_sdk import HapagLloydClient
+client = HapagLloydClient(client_id='xxx', client_secret='xxx')
+```
