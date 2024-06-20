@@ -1,0 +1,12 @@
+[
+  "test_biodbnet.py::test_db2db",
+  "test_biodbnet.py::test_dbAnnot",
+  "test_biodbnet.py::test_dbFind",
+  "test_biodbnet.py::test_dbOrg",
+  "test_biodbnet.py::test_dbOrtho",
+  "test_biodbnet.py::test_dbReport",
+  "test_biodbnet.py::test_dbWalk",
+  "test_biodbnet.py::test_getDirectOutputsForInput",
+  "test_biodbnet.py::test_getInputs",
+  "test_biodbnet.py::test_getOutputsForInput"
+]
