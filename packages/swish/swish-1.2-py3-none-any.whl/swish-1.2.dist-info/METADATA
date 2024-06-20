@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: swish
+Version: 1.2
+Summary: Swish Python Client Library
+Home-page: https://github.com/MadSpindel/swish-python
+Author: Fredrik Sundqvist
+Author-email: fsundqvist@gmail.com
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENSE
+Requires-Dist: requests >=2.9.1
+Requires-Dist: schematics >=2.0.0.dev2
+
+Swish Python Client Library
+===========================
+
+This client library is designed to support the Swish API. It was originally developed at `Playing <https://playing.se/>`_.
+
+Installation
+------------
+
+It's easy! Just install it with pip:
+
+.. code-block:: bash
+
+    $ pip install swish
+
+Quick Start Example
+-------------------
+
+.. code-block:: python
+
+    import swish
+    
+    swish_client = swish.SwishClient(
+        environment=swish.Environment.MSS,
+        merchant_swish_number='1231181189',
+        cert=('/path/to/cert.pem', '/path/to/key.pem'),
+        verify='/path/to/swish.pem'
+    )
+    
+    payment = swish_client.create_payment(
+        payee_payment_reference='0123456789',
+        callback_url='https://example.com/api/swishcb/paymentrequests',
+        payer_alias='46712345678',
+        amount=100,
+        currency='SEK',
+        message='Kingston USB Flash Drive 8 GB'
+    )
+    
+    # YOUR CODE: Save payment.id and other info in your database for later!
