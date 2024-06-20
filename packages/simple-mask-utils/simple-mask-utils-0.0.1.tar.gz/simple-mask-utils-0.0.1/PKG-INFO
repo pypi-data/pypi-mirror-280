@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: simple-mask-utils
+Version: 0.0.1
+Summary: Utility functions for dealing with image segmentation masks and turning them into polygons.
+Home-page: https://github.com/waikato-datamining/simple-mask-utils
+Author: Peter Reutemann
+Author-email: fracpete@waikato.ac.nz
+License: MIT License
+Description: **simple-mask-utils** provides utility functions for dealing with image segmentation masks and generating polygons.
+        
+        
+        Changelog
+        =========
+        
+        0.0.1 (2024-06-20)
+        ------------------
+        
+        - initial release
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
