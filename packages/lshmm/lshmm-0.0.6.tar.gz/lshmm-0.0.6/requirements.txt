@@ -1,0 +1,6 @@
+black
+pytest
+msprime
+tskit
+numba<0.60
+numpy<2
