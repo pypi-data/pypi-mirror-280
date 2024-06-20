@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: rmq-interface
+Version: 1.2
+Author-email: ['me@maksimeremeev.com', 'rois@rois.dev']
+Requires-Dist: pika ==1.0.1
+
