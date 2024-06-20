@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: xwakes
+Version: 0.0.1
+Summary: Wakefield and impedance toolbox for Xsuite
+Home-page: https://xsuite.web.cern.ch/
+Download-URL: https://pypi.python.org/pypi/xwakes
+Author: G. Iadarola et al.
+License: Apache 2.0
+Project-URL: Bug Tracker, https://github.com/xsuite/xsuite/issues
+Project-URL: Source Code, https://github.com/xsuite/xwakes/
+License-File: LICENSE
+License-File: LICENSE.txt
+Requires-Dist: numpy>=1.0
+Requires-Dist: pyyaml
+Provides-Extra: tests
+Requires-Dist: pytest; extra == "tests"
+
+Wakefield and impedance toolbox for Xsuite
