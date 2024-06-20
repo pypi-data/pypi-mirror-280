@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sphereobmodel
+Version: 0.1.0
+Summary: A utility to calculate and plot sphere-overburden EM response
+Home-page: https://github.com/anonseg24/sphere_ob_response/tree/main
+Author: Anon
+Author-email: Anon@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
