@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: vs_api_elastic_history
+Version: 0.0.1
+Summary: Biblioteca adpatação do langchain para uso mais fácil das ferramentas de histórico
+Author: Lucca Fabro
+Author-email: lucca.fabro@viasoft.com.br
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Biblioteca de HistÃ³rico de Mensagens
+
+Uma biblioteca Python para gerenciar e adaptar histÃ³ricos de mensagens usando LangChain e Elasticsearch. Esta biblioteca fornece ferramentas para armazenar, recuperar e processar histÃ³ricos de mensagens, facilitando a construÃ§Ã£o de aplicaÃ§Ãµes que requerem capacidades sofisticadas de manipulaÃ§Ã£o de mensagens.
+
+## Funcionalidades
+
+- **Armazenamento de Mensagens**: Armazene e indexe mensagens no Elasticsearch para uma recuperaÃ§Ã£o eficiente.
+- **RecuperaÃ§Ã£o de Mensagens**: Recupere mensagens com opÃ§Ãµes de consulta flexÃ­veis.
+- **IntegraÃ§Ã£o com LangChain**: Utilize o LangChain para processamento e anÃ¡lise avanÃ§ada de mensagens.
+- **FÃ¡cil de Usar**: API simples para operaÃ§Ãµes comuns em histÃ³ricos de mensagens.
+
+## InstalaÃ§Ã£o
+
+Para instalar a biblioteca, use o pip:
+
+```sh
+pip install vs-api-elastic-history
