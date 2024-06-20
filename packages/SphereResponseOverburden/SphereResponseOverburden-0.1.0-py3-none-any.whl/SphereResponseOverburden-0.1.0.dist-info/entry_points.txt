@@ -1,0 +1,2 @@
+[console_scripts]
+sphere-response = sphere_package.sphere_main:main
