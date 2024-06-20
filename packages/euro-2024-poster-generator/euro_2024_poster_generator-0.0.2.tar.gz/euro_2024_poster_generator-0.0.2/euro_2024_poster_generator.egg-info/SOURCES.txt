@@ -1,0 +1,11 @@
+README.md
+setup.py
+euro_2024_poster_generator/__init__.py
+euro_2024_poster_generator/image_generator.py
+euro_2024_poster_generator.egg-info/PKG-INFO
+euro_2024_poster_generator.egg-info/SOURCES.txt
+euro_2024_poster_generator.egg-info/dependency_links.txt
+euro_2024_poster_generator.egg-info/requires.txt
+euro_2024_poster_generator.egg-info/top_level.txt
+euro_2024_poster_generator/assets/fonts/MONTSERRAT-SEMIBOLD.TTF
+euro_2024_poster_generator/assets/img/euro-2024-bg.jpg
