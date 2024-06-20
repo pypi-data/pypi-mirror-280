@@ -1,0 +1,17 @@
+esp_idf_sbom/__init__.py,sha256=BTkVsX4a8vzPslbF2tNyRlSu-n7N7mP7IaobHg8WSBo,128
+esp_idf_sbom/__main__.py,sha256=GYiD1fyEzUCwrVzzdVylzCtJ8CWtkNibKfuVDEXK7PY,202
+esp_idf_sbom/sbom.py,sha256=xNAAEHP99OXLHSA1EjaVMikrzVRiU30RWYVPq8_qAQo,34721
+esp_idf_sbom/libsbom/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+esp_idf_sbom/libsbom/git.py,sha256=loEnSd8Mpy1XgHCenO8Fy5zIBh_A877KA8CPFfDs7xc,8921
+esp_idf_sbom/libsbom/log.py,sha256=Kd2CpA6eMHjK_u0EY1tGyIs1xxO6JpGQ3mQe0LS5irQ,1848
+esp_idf_sbom/libsbom/mft.py,sha256=IQJS70e3iTeGQ26uvIB0Qyf87x52dM3340nphyGXvAw,12022
+esp_idf_sbom/libsbom/nvd.py,sha256=-8xE1M6OCars_OrDE2SLsOD06ZzUYofSzGnD-gezEA0,3677
+esp_idf_sbom/libsbom/report.py,sha256=HrXur6o3Dt-37ZHETv6DafSVWVZvqUCF0ZXrR6uJSPE,14008
+esp_idf_sbom/libsbom/spdx.py,sha256=HRGlHY3Oj2vQSEVAP6-x5WdeYe52Mk2dDZFcTku1v9w,46165
+esp_idf_sbom/libsbom/utils.py,sha256=kgpRnkdhjnEp-wAJmEi7EPnSk1HoyEDhhrI-bEAqlkE,3528
+esp_idf_sbom-0.16.0.dist-info/LICENSE,sha256=Av-TG_oXJSCUlYSDbQDLLPFtw4cskCGjaZqTEuQ4wkE,11365
+esp_idf_sbom-0.16.0.dist-info/METADATA,sha256=LcNSWr0yNCq7KuLoce23nbSB5mhYKTTW3o62NxTz0WU,22864
+esp_idf_sbom-0.16.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+esp_idf_sbom-0.16.0.dist-info/entry_points.txt,sha256=KWvR1B2L3pIAwcGtTyI5ozRnAGnkUotxsKucfs_TTuE,56
+esp_idf_sbom-0.16.0.dist-info/top_level.txt,sha256=9BiVzwfEdXyX9eLZXy8BPxkdqHAt3NdDE3OcQMkj2Ow,13
+esp_idf_sbom-0.16.0.dist-info/RECORD,,
