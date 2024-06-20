@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+wexample_filestate.egg-info/PKG-INFO
+wexample_filestate.egg-info/SOURCES.txt
+wexample_filestate.egg-info/dependency_links.txt
+wexample_filestate.egg-info/requires.txt
+wexample_filestate.egg-info/top_level.txt
