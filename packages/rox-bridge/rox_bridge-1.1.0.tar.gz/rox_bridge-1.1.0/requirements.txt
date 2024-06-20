@@ -1,0 +1,7 @@
+aiomqtt
+pydantic
+pydantic-settings
+click
+coloredlogs
+orjson
+websockets
