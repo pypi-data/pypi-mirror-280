@@ -1,0 +1,6 @@
+
+[:python_version < "3.9"]
+importlib_resources
+
+[tests]
+coverage[toml]>=6
