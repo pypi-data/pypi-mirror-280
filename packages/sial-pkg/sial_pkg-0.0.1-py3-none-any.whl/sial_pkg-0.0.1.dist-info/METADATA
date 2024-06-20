@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sial-pkg
+Version: 0.0.1
+Summary: Statistical Inference After Learning
+Author-email: Po-Hsien Huang <psyphh@nccu.edu.tw>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scikit-learn >=1.5.0
+Requires-Dist: pandas >=2.2.2
+
+# SIAL: Statistical Inference After Learning
+ 
+`sial` is a python package for conducting statistical inference on feature importance in machine learning.
