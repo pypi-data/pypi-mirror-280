@@ -1,0 +1,586 @@
+Running Sphinx v7.3.7
+/Users/mstenber/git/rs/sdk/python/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+WARNING: html_static_path entry '_static' does not exist
+WARNING: The config value `autoapi_dirs' has type `str', defaults to `list'.
+loading pickled environment... done
+[AutoAPI] Ignoring /Users/mstenber/git/rs/sdk/python/src/root/utils.py
+[AutoAPI] Ignoring /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/api/engines_api.py
+[AutoAPI] Ignoring /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/api/models_api.py
+[AutoAPI] Ignoring /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/api/objectives_api.py
+[AutoAPI] Ignoring /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/api/__init__.py
+[AutoAPI] Ignoring /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/api/skills_api.py
+[AutoAPI] Ignoring /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/api/datasets_api.py
+[AutoAPI] Ignoring /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/api/chats_api.py
+[AutoAPI] Reading files... [  1%] /Users/mstenber/git/rs/sdk/python/src/root/skill.py
+[AutoAPI] Reading files... [  2%] /Users/mstenber/git/rs/sdk/python/src/root/models.py
+[AutoAPI] Reading files... [  3%] /Users/mstenber/git/rs/sdk/python/src/root/skills.py
+[AutoAPI] Reading files... [  4%] /Users/mstenber/git/rs/sdk/python/src/root/validators.py
+[AutoAPI] Reading files... [  5%] /Users/mstenber/git/rs/sdk/python/src/root/client.py
+[AutoAPI] Reading files... [  7%] /Users/mstenber/git/rs/sdk/python/src/root/data_loader.py
+[AutoAPI] Reading files... [  8%] /Users/mstenber/git/rs/sdk/python/src/root/datasets.py
+[AutoAPI] Reading files... [  9%] /Users/mstenber/git/rs/sdk/python/src/root/__init__.py
+[AutoAPI] Reading files... [ 10%] /Users/mstenber/git/rs/sdk/python/src/root/skill_chat.py
+[AutoAPI] Reading files... [ 11%] /Users/mstenber/git/rs/sdk/python/src/root/__about__.py
+[AutoAPI] Reading files... [ 12%] /Users/mstenber/git/rs/sdk/python/src/root/generated/__init__.py
+[AutoAPI] Reading files... [ 13%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/configuration.py
+[AutoAPI] Reading files... [ 14%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/rest.py
+[AutoAPI] Reading files... [ 15%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/__init__.py
+[AutoAPI] Reading files... [ 16%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/api_response.py
+[AutoAPI] Reading files... [ 17%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/exceptions.py
+[AutoAPI] Reading files... [ 18%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/api_client.py
+[AutoAPI] Reading files... [ 20%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/paginated_objective_list_list.py
+[AutoAPI] Reading files... [ 21%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/model_params.py
+[AutoAPI] Reading files... [ 22%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/input_variable.py
+[AutoAPI] Reading files... [ 23%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_test_input_request.py
+[AutoAPI] Reading files... [ 24%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/open_ai_chat_completion_request.py
+[AutoAPI] Reading files... [ 25%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/paginated_chat_list.py
+[AutoAPI] Reading files... [ 26%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/objective.py
+[AutoAPI] Reading files... [ 27%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_test_data_request.py
+[AutoAPI] Reading files... [ 28%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluation_percentiles.py
+[AutoAPI] Reading files... [ 29%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/nested_skill_evaluator_request.py
+[AutoAPI] Reading files... [ 30%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluator_execution_request.py
+[AutoAPI] Reading files... [ 32%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/reference_variable_dynamic_datasets_request.py
+[AutoAPI] Reading files... [ 33%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/model_create.py
+[AutoAPI] Reading files... [ 34%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/id.py
+[AutoAPI] Reading files... [ 35%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/data_set_type.py
+[AutoAPI] Reading files... [ 36%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/chat_create_request.py
+[AutoAPI] Reading files... [ 37%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_update.py
+[AutoAPI] Reading files... [ 38%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/paginated_model_list.py
+[AutoAPI] Reading files... [ 39%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/objective_list.py
+[AutoAPI] Reading files... [ 40%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/input_variable_request.py
+[AutoAPI] Reading files... [ 41%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_type_enum.py
+[AutoAPI] Reading files... [ 42%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluator_execution_function_parameter_property_request.py
+[AutoAPI] Reading files... [ 43%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/patched_objective_request.py
+[AutoAPI] Reading files... [ 45%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_execution_result.py
+[AutoAPI] Reading files... [ 46%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/data_loader.py
+[AutoAPI] Reading files... [ 47%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/nested_objective_list.py
+[AutoAPI] Reading files... [ 48%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/paginated_data_set_list_list.py
+[AutoAPI] Reading files... [ 49%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/chat_message.py
+[AutoAPI] Reading files... [ 50%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/data_set_list.py
+[AutoAPI] Reading files... [ 51%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_validator_request.py
+[AutoAPI] Reading files... [ 52%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/nested_user_details.py
+[AutoAPI] Reading files... [ 53%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/__init__.py
+[AutoAPI] Reading files... [ 54%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluator_execution_function_request.py
+[AutoAPI] Reading files... [ 55%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/chat_execution_result.py
+[AutoAPI] Reading files... [ 57%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/data_set_create.py
+[AutoAPI] Reading files... [ 58%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/paginated_skill_list_output_list.py
+[AutoAPI] Reading files... [ 59%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_create.py
+[AutoAPI] Reading files... [ 60%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_validator.py
+[AutoAPI] Reading files... [ 61%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluator_execution_function_parameter_type_enum.py
+[AutoAPI] Reading files... [ 62%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/blank_enum.py
+[AutoAPI] Reading files... [ 63%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluator_execution_result.py
+[AutoAPI] Reading files... [ 64%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/model.py
+[AutoAPI] Reading files... [ 65%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/model_create_request.py
+[AutoAPI] Reading files... [ 66%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_test_output.py
+[AutoAPI] Reading files... [ 67%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/data_loader_request.py
+[AutoAPI] Reading files... [ 68%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/chat_detail.py
+[AutoAPI] Reading files... [ 70%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/model_create_vendor.py
+[AutoAPI] Reading files... [ 71%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/chat.py
+[AutoAPI] Reading files... [ 72%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/objective_request.py
+[AutoAPI] Reading files... [ 73%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/model_params_request.py
+[AutoAPI] Reading files... [ 74%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/data_set_create_request.py
+[AutoAPI] Reading files... [ 75%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluator_demonstrations_request.py
+[AutoAPI] Reading files... [ 76%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/role_enum.py
+[AutoAPI] Reading files... [ 77%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/open_ai_message_request.py
+[AutoAPI] Reading files... [ 78%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_status.py
+[AutoAPI] Reading files... [ 79%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_list_output.py
+[AutoAPI] Reading files... [ 80%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/patched_skill_update_request.py
+[AutoAPI] Reading files... [ 82%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluator_demonstrations.py
+[AutoAPI] Reading files... [ 83%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/vendor_enum.py
+[AutoAPI] Reading files... [ 84%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/paginated_skill_details_output_list.py
+[AutoAPI] Reading files... [ 85%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_execution_request.py
+[AutoAPI] Reading files... [ 86%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluator_execution_functions_type_enum.py
+[AutoAPI] Reading files... [ 87%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_details_output.py
+[AutoAPI] Reading files... [ 88%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_revert_request.py
+[AutoAPI] Reading files... [ 89%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_update_request.py
+[AutoAPI] Reading files... [ 90%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/data_loader_type_enum.py
+[AutoAPI] Reading files... [ 91%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_status_request.py
+[AutoAPI] Reading files... [ 92%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/status_enum.py
+[AutoAPI] Reading files... [ 93%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/chat_execution_request_request.py
+[AutoAPI] Reading files... [ 95%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/nested_skill_evaluator.py
+[AutoAPI] Reading files... [ 96%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/reference_variable_request.py
+[AutoAPI] Reading files... [ 97%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_create_request.py
+[AutoAPI] Reading files... [ 98%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/reference_variable.py
+[AutoAPI] Reading files... [ 99%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluator_execution_functions_request.py
+[AutoAPI] Reading files... [100%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluator_execution_function_parameter_request.py
+
+WARNING: Cannot resolve import of unknown module root.generated.openapi_client.api.models_api in root.models
+WARNING: Cannot resolve import of unknown module root.utils in root.models
+WARNING: Cannot resolve import of unknown module root.generated.openapi_client.api.chats_api in root.skills
+WARNING: Cannot resolve import of unknown module root.generated.openapi_client.api.skills_api in root.skills
+WARNING: Cannot resolve import of unknown module root.generated.openapi_client.api.chats_api in root.skill_chat
+WARNING: Cannot resolve import of unknown module root.utils in root.skills
+WARNING: Cannot resolve import of unknown module root.generated.openapi_client.api.datasets_api in root.datasets
+WARNING: Cannot resolve import of unknown module root.utils in root.datasets
+[AutoAPI] Mapping Data... [  1%] /Users/mstenber/git/rs/sdk/python/src/root/skill.py
+[AutoAPI] Mapping Data... [  2%] /Users/mstenber/git/rs/sdk/python/src/root/models.py
+[AutoAPI] Mapping Data... [  3%] /Users/mstenber/git/rs/sdk/python/src/root/skills.py
+[AutoAPI] Mapping Data... [  4%] /Users/mstenber/git/rs/sdk/python/src/root/validators.py
+[AutoAPI] Mapping Data... [  5%] /Users/mstenber/git/rs/sdk/python/src/root/client.py
+[AutoAPI] Mapping Data... [  7%] /Users/mstenber/git/rs/sdk/python/src/root/data_loader.py
+[AutoAPI] Mapping Data... [  8%] /Users/mstenber/git/rs/sdk/python/src/root/datasets.py
+[AutoAPI] Mapping Data... [  9%] /Users/mstenber/git/rs/sdk/python/src/root/__init__.py
+[AutoAPI] Mapping Data... [ 10%] /Users/mstenber/git/rs/sdk/python/src/root/skill_chat.py
+[AutoAPI] Mapping Data... [ 11%] /Users/mstenber/git/rs/sdk/python/src/root/__about__.py
+[AutoAPI] Mapping Data... [ 12%] /Users/mstenber/git/rs/sdk/python/src/root/generated/__init__.py
+[AutoAPI] Mapping Data... [ 13%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/configuration.py
+[AutoAPI] Mapping Data... [ 14%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/rest.py
+[AutoAPI] Mapping Data... [ 15%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/__init__.py
+[AutoAPI] Mapping Data... [ 16%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/api_response.py
+[AutoAPI] Mapping Data... [ 17%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/exceptions.py
+[AutoAPI] Mapping Data... [ 18%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/api_client.py
+[AutoAPI] Mapping Data... [ 20%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/paginated_objective_list_list.py
+[AutoAPI] Mapping Data... [ 21%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/model_params.py
+[AutoAPI] Mapping Data... [ 22%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/input_variable.py
+[AutoAPI] Mapping Data... [ 23%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_test_input_request.py
+[AutoAPI] Mapping Data... [ 24%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/open_ai_chat_completion_request.py
+[AutoAPI] Mapping Data... [ 25%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/paginated_chat_list.py
+[AutoAPI] Mapping Data... [ 26%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/objective.py
+[AutoAPI] Mapping Data... [ 27%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_test_data_request.py
+[AutoAPI] Mapping Data... [ 28%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluation_percentiles.py
+[AutoAPI] Mapping Data... [ 29%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/nested_skill_evaluator_request.py
+[AutoAPI] Mapping Data... [ 30%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluator_execution_request.py
+[AutoAPI] Mapping Data... [ 32%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/reference_variable_dynamic_datasets_request.py
+[AutoAPI] Mapping Data... [ 33%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/model_create.py
+[AutoAPI] Mapping Data... [ 34%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/id.py
+[AutoAPI] Mapping Data... [ 35%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/data_set_type.py
+[AutoAPI] Mapping Data... [ 36%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/chat_create_request.py
+[AutoAPI] Mapping Data... [ 37%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_update.py
+[AutoAPI] Mapping Data... [ 38%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/paginated_model_list.py
+[AutoAPI] Mapping Data... [ 39%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/objective_list.py
+[AutoAPI] Mapping Data... [ 40%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/input_variable_request.py
+[AutoAPI] Mapping Data... [ 41%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_type_enum.py
+[AutoAPI] Mapping Data... [ 42%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluator_execution_function_parameter_property_request.py
+[AutoAPI] Mapping Data... [ 43%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/patched_objective_request.py
+[AutoAPI] Mapping Data... [ 45%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_execution_result.py
+[AutoAPI] Mapping Data... [ 46%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/data_loader.py
+[AutoAPI] Mapping Data... [ 47%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/nested_objective_list.py
+[AutoAPI] Mapping Data... [ 48%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/paginated_data_set_list_list.py
+[AutoAPI] Mapping Data... [ 49%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/chat_message.py
+[AutoAPI] Mapping Data... [ 50%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/data_set_list.py
+[AutoAPI] Mapping Data... [ 51%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_validator_request.py
+[AutoAPI] Mapping Data... [ 52%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/nested_user_details.py
+[AutoAPI] Mapping Data... [ 53%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/__init__.py
+[AutoAPI] Mapping Data... [ 54%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluator_execution_function_request.py
+[AutoAPI] Mapping Data... [ 55%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/chat_execution_result.py
+[AutoAPI] Mapping Data... [ 57%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/data_set_create.py
+[AutoAPI] Mapping Data... [ 58%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/paginated_skill_list_output_list.py
+[AutoAPI] Mapping Data... [ 59%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_create.py
+[AutoAPI] Mapping Data... [ 60%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_validator.py
+[AutoAPI] Mapping Data... [ 61%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluator_execution_function_parameter_type_enum.py
+[AutoAPI] Mapping Data... [ 62%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/blank_enum.py
+[AutoAPI] Mapping Data... [ 63%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluator_execution_result.py
+[AutoAPI] Mapping Data... [ 64%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/model.py
+[AutoAPI] Mapping Data... [ 65%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/model_create_request.py
+[AutoAPI] Mapping Data... [ 66%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_test_output.py
+[AutoAPI] Mapping Data... [ 67%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/data_loader_request.py
+[AutoAPI] Mapping Data... [ 68%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/chat_detail.py
+[AutoAPI] Mapping Data... [ 70%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/model_create_vendor.py
+[AutoAPI] Mapping Data... [ 71%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/chat.py
+[AutoAPI] Mapping Data... [ 72%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/objective_request.py
+[AutoAPI] Mapping Data... [ 73%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/model_params_request.py
+[AutoAPI] Mapping Data... [ 74%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/data_set_create_request.py
+[AutoAPI] Mapping Data... [ 75%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluator_demonstrations_request.py
+[AutoAPI] Mapping Data... [ 76%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/role_enum.py
+[AutoAPI] Mapping Data... [ 77%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/open_ai_message_request.py
+[AutoAPI] Mapping Data... [ 78%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_status.py
+[AutoAPI] Mapping Data... [ 79%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_list_output.py
+[AutoAPI] Mapping Data... [ 80%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/patched_skill_update_request.py
+[AutoAPI] Mapping Data... [ 82%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluator_demonstrations.py
+[AutoAPI] Mapping Data... [ 83%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/vendor_enum.py
+[AutoAPI] Mapping Data... [ 84%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/paginated_skill_details_output_list.py
+[AutoAPI] Mapping Data... [ 85%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_execution_request.py
+[AutoAPI] Mapping Data... [ 86%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluator_execution_functions_type_enum.py
+[AutoAPI] Mapping Data... [ 87%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_details_output.py
+[AutoAPI] Mapping Data... [ 88%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_revert_request.py
+[AutoAPI] Mapping Data... [ 89%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_update_request.py
+[AutoAPI] Mapping Data... [ 90%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/data_loader_type_enum.py
+[AutoAPI] Mapping Data... [ 91%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_status_request.py
+[AutoAPI] Mapping Data... [ 92%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/status_enum.py
+[AutoAPI] Mapping Data... [ 93%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/chat_execution_request_request.py
+[AutoAPI] Mapping Data... [ 95%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/nested_skill_evaluator.py
+[AutoAPI] Mapping Data... [ 96%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/reference_variable_request.py
+[AutoAPI] Mapping Data... [ 97%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/skill_create_request.py
+[AutoAPI] Mapping Data... [ 98%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/reference_variable.py
+[AutoAPI] Mapping Data... [ 99%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluator_execution_functions_request.py
+[AutoAPI] Mapping Data... [100%] /Users/mstenber/git/rs/sdk/python/src/root/generated/openapi_client/models/evaluator_execution_function_parameter_request.py
+
+[AutoAPI] Rendering Data... [  1%] root
+[AutoAPI] Rendering Data... [  2%] root.skill
+[AutoAPI] Rendering Data... [  3%] root.models
+[AutoAPI] Rendering Data... [  4%] root.skills
+[AutoAPI] Rendering Data... [  5%] root.client
+[AutoAPI] Rendering Data... [  7%] root.datasets
+[AutoAPI] Rendering Data... [  8%] root.generated
+[AutoAPI] Rendering Data... [  9%] root.validators
+[AutoAPI] Rendering Data... [ 10%] root.skill_chat
+[AutoAPI] Rendering Data... [ 11%] root.data_loader
+[AutoAPI] Rendering Data... [ 12%] root.generated.openapi_client
+[AutoAPI] Rendering Data... [ 13%] root.generated.openapi_client.rest
+[AutoAPI] Rendering Data... [ 14%] root.generated.openapi_client.models
+[AutoAPI] Rendering Data... [ 15%] root.generated.openapi_client.models.id
+[AutoAPI] Rendering Data... [ 16%] root.generated.openapi_client.exceptions
+[AutoAPI] Rendering Data... [ 18%] root.generated.openapi_client.api_client
+[AutoAPI] Rendering Data... [ 19%] root.generated.openapi_client.models.chat
+[AutoAPI] Rendering Data... [ 20%] root.generated.openapi_client.api_response
+[AutoAPI] Rendering Data... [ 21%] root.generated.openapi_client.models.model
+[AutoAPI] Rendering Data... [ 22%] root.generated.openapi_client.configuration
+[AutoAPI] Rendering Data... [ 23%] root.generated.openapi_client.models.objective
+[AutoAPI] Rendering Data... [ 24%] root.generated.openapi_client.models.role_enum
+[AutoAPI] Rendering Data... [ 25%] root.generated.openapi_client.models.blank_enum
+[AutoAPI] Rendering Data... [ 26%] root.generated.openapi_client.models.data_loader
+[AutoAPI] Rendering Data... [ 27%] root.generated.openapi_client.models.chat_detail
+[AutoAPI] Rendering Data... [ 29%] root.generated.openapi_client.models.vendor_enum
+[AutoAPI] Rendering Data... [ 30%] root.generated.openapi_client.models.status_enum
+[AutoAPI] Rendering Data... [ 31%] root.generated.openapi_client.models.model_params
+[AutoAPI] Rendering Data... [ 32%] root.generated.openapi_client.models.model_create
+[AutoAPI] Rendering Data... [ 33%] root.generated.openapi_client.models.skill_update
+[AutoAPI] Rendering Data... [ 34%] root.generated.openapi_client.models.chat_message
+[AutoAPI] Rendering Data... [ 35%] root.generated.openapi_client.models.skill_create
+[AutoAPI] Rendering Data... [ 36%] root.generated.openapi_client.models.skill_status
+[AutoAPI] Rendering Data... [ 37%] root.generated.openapi_client.models.data_set_type
+[AutoAPI] Rendering Data... [ 38%] root.generated.openapi_client.models.data_set_list
+[AutoAPI] Rendering Data... [ 40%] root.generated.openapi_client.models.input_variable
+[AutoAPI] Rendering Data... [ 41%] root.generated.openapi_client.models.objective_list
+[AutoAPI] Rendering Data... [ 42%] root.generated.openapi_client.models.skill_type_enum
+[AutoAPI] Rendering Data... [ 43%] root.generated.openapi_client.models.data_set_create
+[AutoAPI] Rendering Data... [ 44%] root.generated.openapi_client.models.skill_validator
+[AutoAPI] Rendering Data... [ 45%] root.generated.openapi_client.models.skill_test_output
+[AutoAPI] Rendering Data... [ 46%] root.generated.openapi_client.models.objective_request
+[AutoAPI] Rendering Data... [ 47%] root.generated.openapi_client.models.skill_list_output
+[AutoAPI] Rendering Data... [ 48%] root.generated.openapi_client.models.reference_variable
+[AutoAPI] Rendering Data... [ 49%] root.generated.openapi_client.models.paginated_chat_list
+[AutoAPI] Rendering Data... [ 51%] root.generated.openapi_client.models.chat_create_request
+[AutoAPI] Rendering Data... [ 52%] root.generated.openapi_client.models.nested_user_details
+[AutoAPI] Rendering Data... [ 53%] root.generated.openapi_client.models.data_loader_request
+[AutoAPI] Rendering Data... [ 54%] root.generated.openapi_client.models.model_create_vendor
+[AutoAPI] Rendering Data... [ 55%] root.generated.openapi_client.models.paginated_model_list
+[AutoAPI] Rendering Data... [ 56%] root.generated.openapi_client.models.model_create_request
+[AutoAPI] Rendering Data... [ 57%] root.generated.openapi_client.models.model_params_request
+[AutoAPI] Rendering Data... [ 58%] root.generated.openapi_client.models.skill_details_output
+[AutoAPI] Rendering Data... [ 59%] root.generated.openapi_client.models.skill_revert_request
+[AutoAPI] Rendering Data... [ 60%] root.generated.openapi_client.models.skill_update_request
+[AutoAPI] Rendering Data... [ 62%] root.generated.openapi_client.models.skill_status_request
+[AutoAPI] Rendering Data... [ 63%] root.generated.openapi_client.models.skill_create_request
+[AutoAPI] Rendering Data... [ 64%] root.generated.openapi_client.models.nested_objective_list
+[AutoAPI] Rendering Data... [ 65%] root.generated.openapi_client.models.chat_execution_result
+[AutoAPI] Rendering Data... [ 66%] root.generated.openapi_client.models.data_loader_type_enum
+[AutoAPI] Rendering Data... [ 67%] root.generated.openapi_client.models.evaluation_percentiles
+[AutoAPI] Rendering Data... [ 68%] root.generated.openapi_client.models.input_variable_request
+[AutoAPI] Rendering Data... [ 69%] root.generated.openapi_client.models.skill_execution_result
+[AutoAPI] Rendering Data... [ 70%] root.generated.openapi_client.models.nested_skill_evaluator
+[AutoAPI] Rendering Data... [ 71%] root.generated.openapi_client.models.skill_test_data_request
+[AutoAPI] Rendering Data... [ 73%] root.generated.openapi_client.models.skill_validator_request
+[AutoAPI] Rendering Data... [ 74%] root.generated.openapi_client.models.data_set_create_request
+[AutoAPI] Rendering Data... [ 75%] root.generated.openapi_client.models.open_ai_message_request
+[AutoAPI] Rendering Data... [ 76%] root.generated.openapi_client.models.skill_execution_request
+[AutoAPI] Rendering Data... [ 77%] root.generated.openapi_client.models.skill_test_input_request
+[AutoAPI] Rendering Data... [ 78%] root.generated.openapi_client.models.evaluator_demonstrations
+[AutoAPI] Rendering Data... [ 79%] root.generated.openapi_client.models.patched_objective_request
+[AutoAPI] Rendering Data... [ 80%] root.generated.openapi_client.models.evaluator_execution_result
+[AutoAPI] Rendering Data... [ 81%] root.generated.openapi_client.models.reference_variable_request
+[AutoAPI] Rendering Data... [ 82%] root.generated.openapi_client.models.evaluator_execution_request
+[AutoAPI] Rendering Data... [ 84%] root.generated.openapi_client.models.paginated_data_set_list_list
+[AutoAPI] Rendering Data... [ 85%] root.generated.openapi_client.models.patched_skill_update_request
+[AutoAPI] Rendering Data... [ 86%] root.generated.openapi_client.models.paginated_objective_list_list
+[AutoAPI] Rendering Data... [ 87%] root.generated.openapi_client.models.nested_skill_evaluator_request
+[AutoAPI] Rendering Data... [ 88%] root.generated.openapi_client.models.chat_execution_request_request
+[AutoAPI] Rendering Data... [ 89%] root.generated.openapi_client.models.open_ai_chat_completion_request
+[AutoAPI] Rendering Data... [ 90%] root.generated.openapi_client.models.paginated_skill_list_output_list
+[AutoAPI] Rendering Data... [ 91%] root.generated.openapi_client.models.evaluator_demonstrations_request
+[AutoAPI] Rendering Data... [ 92%] root.generated.openapi_client.models.paginated_skill_details_output_list
+[AutoAPI] Rendering Data... [ 93%] root.generated.openapi_client.models.evaluator_execution_function_request
+[AutoAPI] Rendering Data... [ 95%] root.generated.openapi_client.models.evaluator_execution_functions_request
+[AutoAPI] Rendering Data... [ 96%] root.generated.openapi_client.models.evaluator_execution_functions_type_enum
+[AutoAPI] Rendering Data... [ 97%] root.generated.openapi_client.models.reference_variable_dynamic_datasets_request
+[AutoAPI] Rendering Data... [ 98%] root.generated.openapi_client.models.evaluator_execution_function_parameter_request
+[AutoAPI] Rendering Data... [ 99%] root.generated.openapi_client.models.evaluator_execution_function_parameter_type_enum
+[AutoAPI] Rendering Data... [100%] root.generated.openapi_client.models.evaluator_execution_function_parameter_property_request
+
+[autosummary] generating autosummary for: autoapi/index.rst, autoapi/root/client/index.rst, autoapi/root/data_loader/index.rst, autoapi/root/datasets/index.rst, autoapi/root/generated/index.rst, autoapi/root/generated/openapi_client/api_client/index.rst, autoapi/root/generated/openapi_client/api_response/index.rst, autoapi/root/generated/openapi_client/configuration/index.rst, autoapi/root/generated/openapi_client/exceptions/index.rst, autoapi/root/generated/openapi_client/index.rst, ..., autoapi/root/models/index.rst, autoapi/root/skill/index.rst, autoapi/root/skill_chat/index.rst, autoapi/root/skills/index.rst, autoapi/root/validators/index.rst, generated/root.RootSignals.rst, generated/root.datasets.DataSets.rst, generated/root.generated.openapi_client.ApiClient.rst, generated/root.skills.Skills.rst, index.rst
+myst v3.0.1: MdParserConfig(commonmark_only=False, gfm_only=False, enable_extensions=set(), disable_syntax=[], all_links_external=False, links_external_new_tab=False, url_schemes=('http', 'https', 'mailto', 'ftp'), ref_domains=None, fence_as_directive=set(), number_code_blocks=[], title_to_header=False, heading_anchors=0, heading_slug_func=None, html_meta={}, footnote_transition=True, words_per_minute=200, substitutions={}, linkify_fuzzy_links=True, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, dmath_double_inline=False, update_mathjax=True, mathjax_classes='tex2jax_process|mathjax_process|math|output_area', enable_checkboxes=False, suppress_warnings=[], highlight_code_blocks=True)
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 92 source files that are out of date
+updating environment: 0 added, 92 changed, 0 removed
+reading sources... [  1%] autoapi/index
+reading sources... [  2%] autoapi/root/client/index
+reading sources... [  3%] autoapi/root/data_loader/index
+reading sources... [  4%] autoapi/root/datasets/index
+reading sources... [  5%] autoapi/root/generated/index
+reading sources... [  7%] autoapi/root/generated/openapi_client/api_client/index
+reading sources... [  8%] autoapi/root/generated/openapi_client/api_response/index
+reading sources... [  9%] autoapi/root/generated/openapi_client/configuration/index
+reading sources... [ 10%] autoapi/root/generated/openapi_client/exceptions/index
+reading sources... [ 11%] autoapi/root/generated/openapi_client/index
+reading sources... [ 12%] autoapi/root/generated/openapi_client/models/blank_enum/index
+reading sources... [ 13%] autoapi/root/generated/openapi_client/models/chat/index
+reading sources... [ 14%] autoapi/root/generated/openapi_client/models/chat_create_request/index
+reading sources... [ 15%] autoapi/root/generated/openapi_client/models/chat_detail/index
+reading sources... [ 16%] autoapi/root/generated/openapi_client/models/chat_execution_request_request/index
+reading sources... [ 17%] autoapi/root/generated/openapi_client/models/chat_execution_result/index
+reading sources... [ 18%] autoapi/root/generated/openapi_client/models/chat_message/index
+reading sources... [ 20%] autoapi/root/generated/openapi_client/models/data_loader/index
+reading sources... [ 21%] autoapi/root/generated/openapi_client/models/data_loader_request/index
+reading sources... [ 22%] autoapi/root/generated/openapi_client/models/data_loader_type_enum/index
+reading sources... [ 23%] autoapi/root/generated/openapi_client/models/data_set_create/index
+reading sources... [ 24%] autoapi/root/generated/openapi_client/models/data_set_create_request/index
+reading sources... [ 25%] autoapi/root/generated/openapi_client/models/data_set_list/index
+reading sources... [ 26%] autoapi/root/generated/openapi_client/models/data_set_type/index
+reading sources... [ 27%] autoapi/root/generated/openapi_client/models/evaluation_percentiles/index
+reading sources... [ 28%] autoapi/root/generated/openapi_client/models/evaluator_demonstrations/index
+reading sources... [ 29%] autoapi/root/generated/openapi_client/models/evaluator_demonstrations_request/index
+reading sources... [ 30%] autoapi/root/generated/openapi_client/models/evaluator_execution_function_parameter_property_request/index
+reading sources... [ 32%] autoapi/root/generated/openapi_client/models/evaluator_execution_function_parameter_request/index
+reading sources... [ 33%] autoapi/root/generated/openapi_client/models/evaluator_execution_function_parameter_type_enum/index
+reading sources... [ 34%] autoapi/root/generated/openapi_client/models/evaluator_execution_function_request/index
+reading sources... [ 35%] autoapi/root/generated/openapi_client/models/evaluator_execution_functions_request/index
+reading sources... [ 36%] autoapi/root/generated/openapi_client/models/evaluator_execution_functions_type_enum/index
+reading sources... [ 37%] autoapi/root/generated/openapi_client/models/evaluator_execution_request/index
+reading sources... [ 38%] autoapi/root/generated/openapi_client/models/evaluator_execution_result/index
+reading sources... [ 39%] autoapi/root/generated/openapi_client/models/id/index
+reading sources... [ 40%] autoapi/root/generated/openapi_client/models/index
+reading sources... [ 41%] autoapi/root/generated/openapi_client/models/input_variable/index
+reading sources... [ 42%] autoapi/root/generated/openapi_client/models/input_variable_request/index
+reading sources... [ 43%] autoapi/root/generated/openapi_client/models/model/index
+reading sources... [ 45%] autoapi/root/generated/openapi_client/models/model_create/index
+reading sources... [ 46%] autoapi/root/generated/openapi_client/models/model_create_request/index
+reading sources... [ 47%] autoapi/root/generated/openapi_client/models/model_create_vendor/index
+reading sources... [ 48%] autoapi/root/generated/openapi_client/models/model_params/index
+reading sources... [ 49%] autoapi/root/generated/openapi_client/models/model_params_request/index
+reading sources... [ 50%] autoapi/root/generated/openapi_client/models/nested_objective_list/index
+reading sources... [ 51%] autoapi/root/generated/openapi_client/models/nested_skill_evaluator/index
+reading sources... [ 52%] autoapi/root/generated/openapi_client/models/nested_skill_evaluator_request/index
+reading sources... [ 53%] autoapi/root/generated/openapi_client/models/nested_user_details/index
+reading sources... [ 54%] autoapi/root/generated/openapi_client/models/objective/index
+reading sources... [ 55%] autoapi/root/generated/openapi_client/models/objective_list/index
+reading sources... [ 57%] autoapi/root/generated/openapi_client/models/objective_request/index
+reading sources... [ 58%] autoapi/root/generated/openapi_client/models/open_ai_chat_completion_request/index
+reading sources... [ 59%] autoapi/root/generated/openapi_client/models/open_ai_message_request/index
+reading sources... [ 60%] autoapi/root/generated/openapi_client/models/paginated_chat_list/index
+reading sources... [ 61%] autoapi/root/generated/openapi_client/models/paginated_data_set_list_list/index
+reading sources... [ 62%] autoapi/root/generated/openapi_client/models/paginated_model_list/index
+reading sources... [ 63%] autoapi/root/generated/openapi_client/models/paginated_objective_list_list/index
+reading sources... [ 64%] autoapi/root/generated/openapi_client/models/paginated_skill_details_output_list/index
+reading sources... [ 65%] autoapi/root/generated/openapi_client/models/paginated_skill_list_output_list/index
+reading sources... [ 66%] autoapi/root/generated/openapi_client/models/patched_objective_request/index
+reading sources... [ 67%] autoapi/root/generated/openapi_client/models/patched_skill_update_request/index
+reading sources... [ 68%] autoapi/root/generated/openapi_client/models/reference_variable/index
+reading sources... [ 70%] autoapi/root/generated/openapi_client/models/reference_variable_dynamic_datasets_request/index
+reading sources... [ 71%] autoapi/root/generated/openapi_client/models/reference_variable_request/index
+reading sources... [ 72%] autoapi/root/generated/openapi_client/models/role_enum/index
+reading sources... [ 73%] autoapi/root/generated/openapi_client/models/skill_create/index
+reading sources... [ 74%] autoapi/root/generated/openapi_client/models/skill_create_request/index
+reading sources... [ 75%] autoapi/root/generated/openapi_client/models/skill_details_output/index
+reading sources... [ 76%] autoapi/root/generated/openapi_client/models/skill_execution_request/index
+reading sources... [ 77%] autoapi/root/generated/openapi_client/models/skill_execution_result/index
+reading sources... [ 78%] autoapi/root/generated/openapi_client/models/skill_list_output/index
+reading sources... [ 79%] autoapi/root/generated/openapi_client/models/skill_revert_request/index
+reading sources... [ 80%] autoapi/root/generated/openapi_client/models/skill_status/index
+reading sources... [ 82%] autoapi/root/generated/openapi_client/models/skill_status_request/index
+reading sources... [ 83%] autoapi/root/generated/openapi_client/models/skill_test_data_request/index
+reading sources... [ 84%] autoapi/root/generated/openapi_client/models/skill_test_input_request/index
+reading sources... [ 85%] autoapi/root/generated/openapi_client/models/skill_test_output/index
+reading sources... [ 86%] autoapi/root/generated/openapi_client/models/skill_type_enum/index
+reading sources... [ 87%] autoapi/root/generated/openapi_client/models/skill_update/index
+reading sources... [ 88%] autoapi/root/generated/openapi_client/models/skill_update_request/index
+reading sources... [ 89%] autoapi/root/generated/openapi_client/models/skill_validator/index
+reading sources... [ 90%] autoapi/root/generated/openapi_client/models/skill_validator_request/index
+reading sources... [ 91%] autoapi/root/generated/openapi_client/models/status_enum/index
+reading sources... [ 92%] autoapi/root/generated/openapi_client/models/vendor_enum/index
+reading sources... [ 93%] autoapi/root/generated/openapi_client/rest/index
+reading sources... [ 95%] autoapi/root/index
+reading sources... [ 96%] autoapi/root/models/index
+reading sources... [ 97%] autoapi/root/skill/index
+reading sources... [ 98%] autoapi/root/skill_chat/index
+reading sources... [ 99%] autoapi/root/skills/index
+reading sources... [100%] autoapi/root/validators/index
+
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/datasets/index.rst:44: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/datasets/index.rst:45: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/datasets/index.rst:96: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/datasets/index.rst:97: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/datasets/index.rst:149: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/datasets/index.rst:150: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/datasets/index.rst:202: WARNING: Field list ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/datasets/index.rst:204: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/datasets/index.rst:401: WARNING: duplicate object description of root.datasets.DataSets, other instance in generated/root.datasets.DataSets, use :no-index: for one of them
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/api_client/index.rst:139: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/api_client/index.rst:140: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/api_client/index.rst:191: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/api_client/index.rst:192: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/api_client/index.rst:244: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/api_client/index.rst:245: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/api_client/index.rst:297: WARNING: Field list ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/api_client/index.rst:299: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/api_client/index.rst:372: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/api_client/index.rst:384: WARNING: Definition list ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/api_client/index.rst:530: WARNING: duplicate object description of root.generated.openapi_client.api_client.Configuration.debug, other instance in autoapi/root/generated/openapi_client/api_client/index, use :no-index: for one of them
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/api_client/index.rst:560: WARNING: duplicate object description of root.generated.openapi_client.api_client.Configuration.logger_file, other instance in autoapi/root/generated/openapi_client/api_client/index, use :no-index: for one of them
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/api_client/index.rst:585: WARNING: duplicate object description of root.generated.openapi_client.api_client.Configuration.logger_format, other instance in autoapi/root/generated/openapi_client/api_client/index, use :no-index: for one of them
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/configuration/index.rst:70: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/configuration/index.rst:82: WARNING: Definition list ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/configuration/index.rst:228: WARNING: duplicate object description of root.generated.openapi_client.configuration.Configuration.debug, other instance in autoapi/root/generated/openapi_client/configuration/index, use :no-index: for one of them
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/configuration/index.rst:258: WARNING: duplicate object description of root.generated.openapi_client.configuration.Configuration.logger_file, other instance in autoapi/root/generated/openapi_client/configuration/index, use :no-index: for one of them
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/configuration/index.rst:283: WARNING: duplicate object description of root.generated.openapi_client.configuration.Configuration.logger_format, other instance in autoapi/root/generated/openapi_client/configuration/index, use :no-index: for one of them
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/index.rst:40: WARNING: duplicate object description of root.generated.openapi_client.ApiClient, other instance in generated/root.generated.openapi_client.ApiClient, use :no-index: for one of them
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/index.rst:63: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/index.rst:64: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/index.rst:115: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/index.rst:116: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/index.rst:168: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/index.rst:169: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/index.rst:221: WARNING: Field list ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/index.rst:223: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/index.rst:43: WARNING: duplicate object description of root.RootSignals, other instance in generated/root.RootSignals, use :no-index: for one of them
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/models/index.rst:43: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/models/index.rst:44: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/models/index.rst:95: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/models/index.rst:96: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/models/index.rst:148: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/models/index.rst:149: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/models/index.rst:201: WARNING: Field list ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/models/index.rst:203: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skill_chat/index.rst:44: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skill_chat/index.rst:45: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skill_chat/index.rst:96: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skill_chat/index.rst:97: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skill_chat/index.rst:149: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skill_chat/index.rst:150: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skill_chat/index.rst:202: WARNING: Field list ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skill_chat/index.rst:204: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:79: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:80: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:131: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:132: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:184: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:185: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:237: WARNING: Field list ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:239: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:618: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:619: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:622: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:623: WARNING: Inline strong start-string without end-string.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:694: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:695: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:698: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:699: WARNING: Inline strong start-string without end-string.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:1086: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:1087: WARNING: Block quote ends without a blank line; unexpected unindent.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:1090: ERROR: Unexpected indentation.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:1091: WARNING: Inline strong start-string without end-string.
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/skills/index.rst:2302: WARNING: duplicate object description of root.skills.Skills, other instance in generated/root.skills.Skills, use :no-index: for one of them
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... /Users/mstenber/git/rs/sdk/python/docs/generated/root.RootSignals.rst: WARNING: document isn't included in any toctree
+/Users/mstenber/git/rs/sdk/python/docs/generated/root.datasets.DataSets.rst: WARNING: document isn't included in any toctree
+/Users/mstenber/git/rs/sdk/python/docs/generated/root.generated.openapi_client.ApiClient.rst: WARNING: document isn't included in any toctree
+/Users/mstenber/git/rs/sdk/python/docs/generated/root.skills.Skills.rst: WARNING: document isn't included in any toctree
+done
+preparing documents... done
+copying assets... copying static files... done
+copying extra files... done
+done
+writing output... [  1%] autoapi/index
+writing output... [  2%] autoapi/root/client/index
+writing output... [  3%] autoapi/root/data_loader/index
+writing output... [  4%] autoapi/root/datasets/index
+writing output... [  5%] autoapi/root/generated/index
+writing output... [  6%] autoapi/root/generated/openapi_client/api_client/index
+writing output... [  8%] autoapi/root/generated/openapi_client/api_response/index
+writing output... [  9%] autoapi/root/generated/openapi_client/configuration/index
+writing output... [ 10%] autoapi/root/generated/openapi_client/exceptions/index
+writing output... [ 11%] autoapi/root/generated/openapi_client/index
+writing output... [ 12%] autoapi/root/generated/openapi_client/models/blank_enum/index
+writing output... [ 13%] autoapi/root/generated/openapi_client/models/chat/index
+writing output... [ 14%] autoapi/root/generated/openapi_client/models/chat_create_request/index
+writing output... [ 15%] autoapi/root/generated/openapi_client/models/chat_detail/index
+writing output... [ 16%] autoapi/root/generated/openapi_client/models/chat_execution_request_request/index
+writing output... [ 17%] autoapi/root/generated/openapi_client/models/chat_execution_result/index
+writing output... [ 18%] autoapi/root/generated/openapi_client/models/chat_message/index
+writing output... [ 19%] autoapi/root/generated/openapi_client/models/data_loader/index
+writing output... [ 20%] autoapi/root/generated/openapi_client/models/data_loader_request/index
+writing output... [ 22%] autoapi/root/generated/openapi_client/models/data_loader_type_enum/index
+writing output... [ 23%] autoapi/root/generated/openapi_client/models/data_set_create/index
+writing output... [ 24%] autoapi/root/generated/openapi_client/models/data_set_create_request/index
+writing output... [ 25%] autoapi/root/generated/openapi_client/models/data_set_list/index
+writing output... [ 26%] autoapi/root/generated/openapi_client/models/data_set_type/index
+writing output... [ 27%] autoapi/root/generated/openapi_client/models/evaluation_percentiles/index
+writing output... [ 28%] autoapi/root/generated/openapi_client/models/evaluator_demonstrations/index
+writing output... [ 29%] autoapi/root/generated/openapi_client/models/evaluator_demonstrations_request/index
+writing output... [ 30%] autoapi/root/generated/openapi_client/models/evaluator_execution_function_parameter_property_request/index
+writing output... [ 31%] autoapi/root/generated/openapi_client/models/evaluator_execution_function_parameter_request/index
+writing output... [ 32%] autoapi/root/generated/openapi_client/models/evaluator_execution_function_parameter_type_enum/index
+writing output... [ 33%] autoapi/root/generated/openapi_client/models/evaluator_execution_function_request/index
+writing output... [ 34%] autoapi/root/generated/openapi_client/models/evaluator_execution_functions_request/index
+writing output... [ 35%] autoapi/root/generated/openapi_client/models/evaluator_execution_functions_type_enum/index
+writing output... [ 37%] autoapi/root/generated/openapi_client/models/evaluator_execution_request/index
+writing output... [ 38%] autoapi/root/generated/openapi_client/models/evaluator_execution_result/index
+writing output... [ 39%] autoapi/root/generated/openapi_client/models/id/index
+writing output... [ 40%] autoapi/root/generated/openapi_client/models/index
+writing output... [ 41%] autoapi/root/generated/openapi_client/models/input_variable/index
+writing output... [ 42%] autoapi/root/generated/openapi_client/models/input_variable_request/index
+writing output... [ 43%] autoapi/root/generated/openapi_client/models/model/index
+writing output... [ 44%] autoapi/root/generated/openapi_client/models/model_create/index
+writing output... [ 45%] autoapi/root/generated/openapi_client/models/model_create_request/index
+writing output... [ 46%] autoapi/root/generated/openapi_client/models/model_create_vendor/index
+writing output... [ 47%] autoapi/root/generated/openapi_client/models/model_params/index
+writing output... [ 48%] autoapi/root/generated/openapi_client/models/model_params_request/index
+writing output... [ 49%] autoapi/root/generated/openapi_client/models/nested_objective_list/index
+writing output... [ 51%] autoapi/root/generated/openapi_client/models/nested_skill_evaluator/index
+writing output... [ 52%] autoapi/root/generated/openapi_client/models/nested_skill_evaluator_request/index
+writing output... [ 53%] autoapi/root/generated/openapi_client/models/nested_user_details/index
+writing output... [ 54%] autoapi/root/generated/openapi_client/models/objective/index
+writing output... [ 55%] autoapi/root/generated/openapi_client/models/objective_list/index
+writing output... [ 56%] autoapi/root/generated/openapi_client/models/objective_request/index
+writing output... [ 57%] autoapi/root/generated/openapi_client/models/open_ai_chat_completion_request/index
+writing output... [ 58%] autoapi/root/generated/openapi_client/models/open_ai_message_request/index
+writing output... [ 59%] autoapi/root/generated/openapi_client/models/paginated_chat_list/index
+writing output... [ 60%] autoapi/root/generated/openapi_client/models/paginated_data_set_list_list/index
+writing output... [ 61%] autoapi/root/generated/openapi_client/models/paginated_model_list/index
+writing output... [ 62%] autoapi/root/generated/openapi_client/models/paginated_objective_list_list/index
+writing output... [ 63%] autoapi/root/generated/openapi_client/models/paginated_skill_details_output_list/index
+writing output... [ 65%] autoapi/root/generated/openapi_client/models/paginated_skill_list_output_list/index
+writing output... [ 66%] autoapi/root/generated/openapi_client/models/patched_objective_request/index
+writing output... [ 67%] autoapi/root/generated/openapi_client/models/patched_skill_update_request/index
+writing output... [ 68%] autoapi/root/generated/openapi_client/models/reference_variable/index
+writing output... [ 69%] autoapi/root/generated/openapi_client/models/reference_variable_dynamic_datasets_request/index
+writing output... [ 70%] autoapi/root/generated/openapi_client/models/reference_variable_request/index
+writing output... [ 71%] autoapi/root/generated/openapi_client/models/role_enum/index
+writing output... [ 72%] autoapi/root/generated/openapi_client/models/skill_create/index
+writing output... [ 73%] autoapi/root/generated/openapi_client/models/skill_create_request/index
+writing output... [ 74%] autoapi/root/generated/openapi_client/models/skill_details_output/index
+writing output... [ 75%] autoapi/root/generated/openapi_client/models/skill_execution_request/index
+writing output... [ 76%] autoapi/root/generated/openapi_client/models/skill_execution_result/index
+writing output... [ 77%] autoapi/root/generated/openapi_client/models/skill_list_output/index
+writing output... [ 78%] autoapi/root/generated/openapi_client/models/skill_revert_request/index
+writing output... [ 80%] autoapi/root/generated/openapi_client/models/skill_status/index
+writing output... [ 81%] autoapi/root/generated/openapi_client/models/skill_status_request/index
+writing output... [ 82%] autoapi/root/generated/openapi_client/models/skill_test_data_request/index
+writing output... [ 83%] autoapi/root/generated/openapi_client/models/skill_test_input_request/index
+writing output... [ 84%] autoapi/root/generated/openapi_client/models/skill_test_output/index
+writing output... [ 85%] autoapi/root/generated/openapi_client/models/skill_type_enum/index
+writing output... [ 86%] autoapi/root/generated/openapi_client/models/skill_update/index
+writing output... [ 87%] autoapi/root/generated/openapi_client/models/skill_update_request/index
+writing output... [ 88%] autoapi/root/generated/openapi_client/models/skill_validator/index
+writing output... [ 89%] autoapi/root/generated/openapi_client/models/skill_validator_request/index
+writing output... [ 90%] autoapi/root/generated/openapi_client/models/status_enum/index
+writing output... [ 91%] autoapi/root/generated/openapi_client/models/vendor_enum/index
+writing output... [ 92%] autoapi/root/generated/openapi_client/rest/index
+writing output... [ 94%] autoapi/root/index
+writing output... [ 95%] autoapi/root/models/index
+writing output... [ 96%] autoapi/root/skill/index
+writing output... [ 97%] autoapi/root/skill_chat/index
+writing output... [ 98%] autoapi/root/skills/index
+writing output... [ 99%] autoapi/root/validators/index
+writing output... [100%] index
+
+/Users/mstenber/git/rs/sdk/python/docs/autoapi/root/generated/openapi_client/rest/index.rst:128: WARNING: unknown keyword: 'with'
+generating indices... genindex py-modindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+build succeeded, 91 warnings.
+
+The HTML pages are in _build/html.

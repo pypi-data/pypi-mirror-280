@@ -1,0 +1,20 @@
+stages:
+  - test
+
+include:
+  - ".ci-variables/variables.yml"
+
+cache:
+  key: "$CI_COMMIT_REF_NAME"
+  paths:
+    - $PIP_CACHE_DIR
+
+lint_and_type_check:
+  stage: test
+  image: $PYTHON_IMAGE
+  script:
+    - pip install hatch
+    - hatch run lint
+    - hatch run test
+  rules:
+    - if: $CI_PIPELINE_SOURCE != "pipeline" && $CI_COMMIT_TAG == null
