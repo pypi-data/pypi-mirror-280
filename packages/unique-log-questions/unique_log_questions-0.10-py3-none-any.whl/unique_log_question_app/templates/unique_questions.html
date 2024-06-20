@@ -1,0 +1,59 @@
+<!-- app1/templates/app1/display_questions_answers.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Questions and Answers</title>
+  </head>
+  <body>
+    <h1>Chat Sessions</h1>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>User Name</th>
+          <th>Question</th>
+          <th>Answer</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for session in chat_sessions %}
+        <tr>
+          <td>{{ session.user_name }}</td>
+          <td>{{ session.question }}</td>
+          <td>{{ session.answer }}</td>
+          <td class="p-4">
+            <a
+              class="btn btn-outline-primary"
+              href="{% url 'qna_update' pk=answer.pk %}"
+              >Edit</a
+            >
+            <!-- <form action="{% url 'qna_delete' pk=answer.pk %}" method="post" style="display: inline">
+                {% csrf_token %}
+                <button class="btn btn-outline-danger mt-3" type="submit">Delete</button>
+            </form> -->
+            <form
+              action="{% url 'qna_delete' pk=answer.pk %}"
+              method="post"
+              style="display: inline"
+              onsubmit="return confirmDelete();"
+            >
+              {% csrf_token %}
+              <button class="btn btn-outline-danger mt-3" type="submit">
+                Delete
+              </button>
+            </form>
+
+            <script>
+              function confirmDelete() {
+                return confirm(
+                  "Are you sure you want to delete this question?"
+                );
+              }
+            </script>
+          </td>
+        </tr>
+
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>
