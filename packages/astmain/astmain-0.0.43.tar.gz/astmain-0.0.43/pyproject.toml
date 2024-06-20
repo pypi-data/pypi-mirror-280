@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "astmain"
+version = "0.0.43"
+description = "我的工具包"
+dependencies = ["tornado", "requests", "pyppeteer", "pyppeteer_stealth", "arrow"]
+readme = "README.md"
+
+[[project.authors]]
+name = "xupeng"
+email = "1311192345@qq.com"
