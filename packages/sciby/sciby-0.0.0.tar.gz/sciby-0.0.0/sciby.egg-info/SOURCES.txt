@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+sciby/__init__.py
+sciby.egg-info/PKG-INFO
+sciby.egg-info/SOURCES.txt
+sciby.egg-info/dependency_links.txt
+sciby.egg-info/requires.txt
+sciby.egg-info/top_level.txt

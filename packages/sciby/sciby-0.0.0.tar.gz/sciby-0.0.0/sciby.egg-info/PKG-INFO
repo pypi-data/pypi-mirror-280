@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sciby
+Version: 0.0.0
+Home-page: 
+Author: 
+Author-email: 
+License: Licence
+Platform: any
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.14.0
+Requires-Dist: pandas>=2.2.0
+Requires-Dist: scipy>=1.0.0
