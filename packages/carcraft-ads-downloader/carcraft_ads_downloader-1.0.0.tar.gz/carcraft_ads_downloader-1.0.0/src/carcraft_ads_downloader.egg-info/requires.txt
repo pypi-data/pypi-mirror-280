@@ -1,0 +1,4 @@
+certifi==2024.6.2
+elasticsearch7==7.17.9
+python-dotenv==1.0.1
+urllib3==1.26.18
