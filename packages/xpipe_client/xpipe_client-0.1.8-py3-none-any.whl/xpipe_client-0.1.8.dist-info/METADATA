@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: xpipe_client
+Version: 0.1.8
+Summary: Client for the XPipe API
+Home-page: https://github.com/coandco/python_xpipe_client
+License: MIT
+Author: Clint Olson
+Author-email: coandco@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiohttp-requests (>=0.2.4,<0.3.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Project-URL: Repository, https://github.com/coandco/python_xpipe_client
