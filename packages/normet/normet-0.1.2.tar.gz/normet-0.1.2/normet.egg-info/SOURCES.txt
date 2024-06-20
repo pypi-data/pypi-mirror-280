@@ -1,0 +1,17 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+docs/conf.py
+normet/__init__.py
+normet/autodew.py
+normet/cpd.py
+normet/getdata.py
+normet/intervention.py
+normet/pdp.py
+normet.egg-info/PKG-INFO
+normet.egg-info/SOURCES.txt
+normet.egg-info/dependency_links.txt
+normet.egg-info/not-zip-safe
+normet.egg-info/requires.txt
+normet.egg-info/top_level.txt
