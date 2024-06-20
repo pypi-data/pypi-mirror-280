@@ -1,0 +1,3 @@
+[console_scripts]
+sarc = sarc.__main__:main
+sarctool = sarc.__main__:main

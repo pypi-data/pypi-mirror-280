@@ -1,0 +1,11 @@
+sarc/__init__.py,sha256=p1d2_dfUxrlWcXXNFoiRSmS-00Wvkrk1Blyf3MXdXAQ,93
+sarc/__main__.py,sha256=UFVpziNGzO2F0txfYh8gxY39GTvSqgRYpu3l8i6oADQ,10245
+sarc/_version.py,sha256=_Hz9QT6hCZoffi4sQA3nWPLMRcCiFpEJmwNWhyGWN9s,497
+sarc/aglenv_file_info.json,sha256=58hAs9pPNhccYP-Btur2PhmFRG3UEFuPybVTPLib62w,6943
+sarc/sarc.py,sha256=gMmGioLI0zuTVque3aDZCFiC1z4dPM4O7VVmeX_jhyw,18428
+sarc-2.0.5.dist-info/LICENSE,sha256=MVVce6oSrBFQvJpI-22FtV2c6hM2rjr6k9ZT9o_km7I,17879
+sarc-2.0.5.dist-info/METADATA,sha256=4Siel8JcilJBCB_p90Z1Vtza8hZgqB5FrR2lMZeaIGQ,2907
+sarc-2.0.5.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+sarc-2.0.5.dist-info/entry_points.txt,sha256=lmEeQTOtjwR7I_b5wQkG4ZAbltaIa_5dHT22kkNgm_E,74
+sarc-2.0.5.dist-info/top_level.txt,sha256=DrhRgGRAU5YJh-0dGpiQk2Ntk4BSb84zQd1zfw7nfC0,5
+sarc-2.0.5.dist-info/RECORD,,
