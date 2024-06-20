@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+imagetokenizer/version.py
+imagetokenizer.egg-info/PKG-INFO
+imagetokenizer.egg-info/SOURCES.txt
+imagetokenizer.egg-info/dependency_links.txt
+imagetokenizer.egg-info/top_level.txt
+imagetokenizer/model/magvit2.py
+imagetokenizer/quantize/lookup_free_quantize.py
