@@ -1,0 +1,9 @@
+netgen_occt-0.0.7.dev0.data/data/bin/custom.sh,sha256=Id7ljhQNUF-GMpA3frjBrf_tpAbqmJ2Ahz28aoz9XGo,126
+netgen_occt-0.0.7.dev0.data/data/bin/custom_clang_64.sh,sha256=6vaad_HVr8bllFnAdjNRHvYv3sYWrHp1mzyu9XqP6Ps,935
+netgen_occt-0.0.7.dev0.data/data/bin/env.sh,sha256=llsa24N98dIzYRpttt54lyTZS6IDPLD3VWl5IO3nHfQ,4319
+netgen_occt-0.0.7.dev0.data/data/lib/libTKMath.7.8.2.dylib,sha256=dMKqTvQYGBfwMCbhExKm7Na_1l2VT5rlF-r6iP-hI2Y,2535440
+netgen_occt-0.0.7.dev0.data/data/lib/libTKernel.7.8.2.dylib,sha256=lw9d8LmHSLIdIB720S7T8w8tBpZb1IRasr15f5wD--Q,1773632
+netgen_occt-0.0.7.dev0.dist-info/METADATA,sha256=U4bckPbHjtOPiBbf-hACL-QAJ9gkdM1HJnpHezP6rH4,3699
+netgen_occt-0.0.7.dev0.dist-info/WHEEL,sha256=NAJtp7Py9Sicz6I-rx8ejbhja7_0_XNNBwEl2nKvR64,112
+netgen_occt-0.0.7.dev0.dist-info/licenses/LICENSE_LGPL_21.txt,sha256=4jf6VmaAMOkoVR3dYPBd9f6Vf3XquHS70Bfghe1yLnw,26434
+netgen_occt-0.0.7.dev0.dist-info/RECORD,,
