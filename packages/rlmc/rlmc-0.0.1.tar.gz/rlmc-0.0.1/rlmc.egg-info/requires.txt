@@ -1,0 +1,5 @@
+colorlog
+
+[dev]
+pytest
+mypy
