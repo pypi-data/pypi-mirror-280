@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: cool-pipe
+Version: 0.1.0
+Summary: Simple pipelines for python functions and methods
+Home-page: https://github.com/dailydaniel/cool_pipe
+Author: Daniel Zholkovsky
+Author-email: daniel@zholkovsky.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Cool Pipelines Library
+
+A simple pipeline library for chaining methods and functions.
+
+## Installation
+
+```bash
+pip install cool_pipe
+```
+
+## Usage
+
+For functions:
+```python
+from cool_pipe import pipe_fun
+
+@pipe_fun
+def a(a_):
+    return a_ + 1
+
+@pipe_fun
+def b(b_):
+    return b_ + 2
+
+@pipe_fun
+def c(c_, t=7):
+    return c_ + 3 + t
+
+result = 1 | a | b | c
+print(result)
+```
+
+For methods:
+```python
+from cool_pipe import PipeItem, PipeFinish, pipe_met
+
+class A:
+    def __init__(self, num: int):
+        self.sum = PipeItem(num) | self.a | self.b | self.c | PipeFinish()
+
+    @pipe_met
+    def a(self, a_):
+        return a_ + 1
+
+    @pipe_met
+    def b(self, b_):
+        return b_ + 2
+
+    @pipe_met
+    def c(self, c_, t=5):
+        return c_ + 3 + t
+
+Aobj = A(5)
+print(Aobj.sum)
+```
