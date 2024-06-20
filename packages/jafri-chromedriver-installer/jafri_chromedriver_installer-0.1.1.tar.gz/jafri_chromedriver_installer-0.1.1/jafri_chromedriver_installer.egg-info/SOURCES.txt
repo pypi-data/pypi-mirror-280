@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+jafri_chromedriver_installer/__init__.py
+jafri_chromedriver_installer/installer.py
+jafri_chromedriver_installer.egg-info/PKG-INFO
+jafri_chromedriver_installer.egg-info/SOURCES.txt
+jafri_chromedriver_installer.egg-info/dependency_links.txt
+jafri_chromedriver_installer.egg-info/entry_points.txt
+jafri_chromedriver_installer.egg-info/requires.txt
+jafri_chromedriver_installer.egg-info/top_level.txt
