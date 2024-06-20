@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: pydot_graph
+Version: 0.0.1
+Summary: A Graph Notation for creating Graphviz visualizations using pydot.
+Project-URL: Homepage, https://github.com/faranalytics/pydot_graph
+Project-URL: Bug Tracker, https://github.com/faranalytics/pydot_graph/issues
+Author-email: Adam Patterson <adpatter@umich.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: pydot==2.*
