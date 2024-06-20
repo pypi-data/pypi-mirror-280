@@ -1,0 +1,15 @@
+vnpy_novastrategy/__init__.py,sha256=3gWoUy2pvn9GkjHF2L5c64O-TvyXTLCcbNMXMeBEFPc,1920
+vnpy_novastrategy/backtesting.py,sha256=xqc62UHRzRbZAN2KRdVdW85-8y_v3WNMj1e-ULEu_j0,30143
+vnpy_novastrategy/base.py,sha256=5QmjKK-jYa7EOfI90Wk_gshAxtFpY5YmhURjVlcaKbk,99
+vnpy_novastrategy/engine.py,sha256=GF8EDVKSuRgNv3gbLTmNY2p1pnZGC7IhzXKVxdOQZ6Y,18459
+vnpy_novastrategy/template.py,sha256=rZfuaSNcKJwI3j1skpVkrGw--SQznpDjpKOYbtde5jE,7064
+vnpy_novastrategy/strategies/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vnpy_novastrategy/strategies/demo_strategy.py,sha256=ysRD7mU49wfDP061snHYXZTEdYl3PT9yeGAatWMtSQI,1310
+vnpy_novastrategy/ui/__init__.py,sha256=5TXo_jE1oKI2zdp16COYVGq4oL79_UzlrJmN1m-oDkk,41
+vnpy_novastrategy/ui/nova.ico,sha256=vCO5pfbkWrk57zQLJhxucSGG-KJdTH6S4VENOG1pNAk,67646
+vnpy_novastrategy/ui/widget.py,sha256=v6LLddY--4Rt1AapxRZUvPzS90uh2R2J9uikQEap5sA,14272
+vnpy_novastrategy-0.1.0.dist-info/LICENSE,sha256=vUpmaFkLL4cFWdsRMwo53AKN6k63BIp8bNCuivrafiE,1092
+vnpy_novastrategy-0.1.0.dist-info/METADATA,sha256=VOHJu3fwrAVDtsB8iJb5UBxwDnE4eq7WV_k5luvKHjA,2006
+vnpy_novastrategy-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+vnpy_novastrategy-0.1.0.dist-info/top_level.txt,sha256=9WCwCB1tUEyKOJptfjf3LqAx7m6x6SgPP1L6ghXAtn8,18
+vnpy_novastrategy-0.1.0.dist-info/RECORD,,
