@@ -1,0 +1,8 @@
+mlhp.py,sha256=ZD1icMMWvvgkRMXUgOmlNa9KLPE9EwsBnS5669WDnXk,5783
+pymlhpcore.cpython-39-darwin.so,sha256=rFn6euBPq99Tm4VKXfFq5tgdBjUH4cxPxS6fDYs-r0s,3374528
+mlhp.dylibs/libomp.dylib,sha256=9SwH6id0I5o55JKgnEUfDmPG6G1ADrJBGPF1RqwxKNU,1613152
+mlhp-0.0.3.dist-info/RECORD,,
+mlhp-0.0.3.dist-info/WHEEL,sha256=IRWDGdz2SPFuu4rzqH5GOjJor8PmcV4n4TCkf27undY,111
+mlhp-0.0.3.dist-info/METADATA,sha256=Cw0GUZQWkMrVjWSH7-OO4AJvy3SFueVqltbqqB5hZ_M,2949
+mlhp-0.0.3.dist-info/licenses/LICENSE,sha256=RBgqXwGdDsQvESWxDXke48oOqLmbxw0VUKBIGGhxUwc,1069
+lib/libmlhpcore.a,sha256=X7OTYq3J9FjSaFgn5m4rmL5OIOMFFzFht1x1T-FjLPk,7183864
