@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "quixpose"
+version = "0.0.1"
+authors = [
+  { name="ShiftyByte", email="shiftybyte@quixpose.io" },
+]
+description = "Quixpose.io official python client"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ShiftyByte/quixpose-python"
+Issues = "https://github.com/ShiftyByte/quixpose-python/issues"
