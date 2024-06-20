@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: gester
+Version: 1.3.6
+Summary: A game engine for console based text game
+Home-page: https://github.com/etcetra7n/gest
+License: BSL-1.0
+Keywords: games,game development,game engine,text-game-engine,console game engine
+Author: John Anchery
+Author-email: john.anchery@mail.ru
+Requires-Python: >=3.0,<4.0
+Classifier: License :: OSI Approved :: Boost Software License 1.0 (BSL-1.0)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Topic :: Games/Entertainment
+Provides-Extra: pygame
+Project-URL: Bug Tracker, https://github.com/etcetra7n/gest/issues
+Project-URL: Repository, https://github.com/etcetra7n/gest
+Description-Content-Type: text/markdown
+
+# Gester
+
+A game engine for console based text game
+
+```s
+pip install gester
+```
+
+See an example text game
+```
+$ gest gernards_tale.gest
+
+Enter your player name: Alex
+Hello Alex. Welcome to Gernard's Tale
+
+You are about to enter a mistic and eerie world, full of wonders
+that will unfold before your eyes. Your progress will be saved
+automatically
+
+Are you ready to proceed? (y/n): n
+```
+
+The above gameplay is bought about by a game script `gernards_tale.gest`
+which look like:
+
+```
+[input: name] Enter you player name:
+Hello {name}. Welcome to Gernard's Tale
+
+You are about to enter a mistic and eerie world, full of wonders
+that will unfold before your eyes. Your progress will be saved
+automatically
+
+[yes_or_no: p] Are you ready to proceed?
+[{p} no]
+  [abort]
+[endblock]
+
+  ...
+```
+Go check out `example/` directory for more example.
+Gest command will invoke the game engine which will read the game
+script file (.gest file) and present the game on the command window
+
+## Features
+
+Using Gest you can make text based games with
+
+- Simple syntax
+- Use variable to store real-time values
+- IF Conditioning to make decision branches
+- Play background music
+- Make several `scenes` to partition and branch out your story
+- Write comments using `#` in your .gest file
+
