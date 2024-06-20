@@ -1,0 +1,13 @@
+README.md
+setup.py
+WDai.egg-info/PKG-INFO
+WDai.egg-info/SOURCES.txt
+WDai.egg-info/dependency_links.txt
+WDai.egg-info/top_level.txt
+dai/__init__.py
+dai/definitions.py
+dai/factory.py
+dai/server.py
+dai/worker.py
+dai/ITP/__init__.py
+dai/ITP/itp.py
