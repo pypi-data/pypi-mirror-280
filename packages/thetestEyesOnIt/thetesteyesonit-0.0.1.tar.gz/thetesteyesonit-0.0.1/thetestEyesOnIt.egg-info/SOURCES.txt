@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+thetestEyesOnIt.egg-info/PKG-INFO
+thetestEyesOnIt.egg-info/SOURCES.txt
+thetestEyesOnIt.egg-info/dependency_links.txt
+thetestEyesOnIt.egg-info/requires.txt
+thetestEyesOnIt.egg-info/top_level.txt
