@@ -1,0 +1,2 @@
+[console_scripts]
+ffs-docker-compose = ffs_docker_compose.cli:main

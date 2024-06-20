@@ -1,0 +1,138 @@
+Metadata-Version: 2.3
+Name: ffs_docker_compose
+Version: 1.0.0
+Summary: A docker-compose alternative that actually behaves like standalone docker
+Project-URL: Homepage, https://github.com/cudy789/ffs-docker-compose
+Project-URL: Issues, https://github.com/cudy789/ffs-docker-compose/issues
+Author-email: Corey Knutson <corey.knutson789@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+Requires-Dist: argparse
+Requires-Dist: pyyaml
+Description-Content-Type: text/markdown
+
+# ffs-docker-compose
+
+Ever been frustrated by the slight variation in behavior between `docker`, `docker compose`, and `docker-compose`? So have I!
+
+This package maps some of `docker-compose`'s keys into `docker` CLI arguments and flags, guaranteeing 
+identical behavior between single `docker` containers run from the command line, and container orchestrations kicked 
+off from a `docker-compose.yml` file.
+
+Just run `ffs-docker-compose.py` on your existing `docker-compose.yml` file!
+
+## Contents
+<!-- TOC -->
+* [ffs-docker-compose](#ffs-docker-compose)
+  * [Contents](#contents)
+  * [Usage](#usage)
+  * [Examples](#examples)
+    * [Start containers in background](#start-containers-in-background)
+    * [Stop containers (even in background)](#stop-containers-even-in-background)
+    * [Start containers in the foreground](#start-containers-in-the-foreground)
+  * [Compatibility](#compatibility)
+    * [Converting an existing docker-compose.yml file for use with ffs-docker-compose](#converting-an-existing-docker-composeyml-file-for-use-with-ffs-docker-compose)
+    * [List of compatible docker-compose YAML keys](#list-of-compatible-docker-compose-yaml-keys)
+<!-- TOC -->
+
+## Usage
+```
+$ ./ffs-docker-compose.py --help
+
+usage: ffs-docker-compose [-h] [-d] [compose_file] {up,down,pull}
+
+A version of docker-compose that maps docker-compose file parameters to actual docker arguments. A subset of docker-compose parameters are supported. When running in detached mode, the containers are automatically started on boot
+via systemd.
+
+positional arguments:
+  compose_file    docker-compose.yml file. Only a subset of docker-compose params are actually read from the file.
+  {up,down,pull}       start containers | stop & remove containers | pull latest image
+
+options:
+  -h, --help      show this help message and exit
+  -d, --detached  Run containers in a detached state. Containers are automatically started on boot by systemd.
+
+Because ffs docker-compose, why don't you behave like docker?!
+
+```
+
+## Examples
+
+Using the provided example `docker-compose.yml` file, simply run `./ffs-docker-compose.py up -d` in the same directory
+as the YAML file.
+
+### Start containers in background
+
+```
+# Start the containers in the background
+$ ./ffs-docker-compose.py up -d
+~~~~ ffs-docker-compose || v1.0 ~~~~
+Starting container micro-ros-agent in the background
+Starting container tts in the background
+[sudo] password for corey: 
+done
+$
+```
+
+### Stop containers (even in background)
+```
+# Stop the containers
+$ ./ffs-docker-compose.py down
+~~~~ ffs-docker-compose || v1.0 ~~~~
+Stopping & removing container micro-ros-agent
+Stopping & removing container tts
+done
+$
+```
+
+### Start containers in the foreground
+```
+# Start the containers in the foreground
+$ ./ffs-docker-compose.py up
+~~~~ ffs-docker-compose || v1.0 ~~~~
+Starting container micro-ros-agent
+Starting container tts
+Waiting for containers to exit, press CTRL-c to kill containers...
+[1712035918.379127] info     | UDPv4AgentLinux.cpp | init                     | running...             | port: 8888
+[1712035918.397009] info     | Root.cpp           | set_verbose_level        | logger setup           | verbose_level: 4
+/parameter_events
+/rosout
+Package 'tts' not found
+Restarting container tts...
+/parameter_events
+/rosout
+Package 'tts' not found
+Restarting container tts...
+^CCaught ctrl-c, killing containers...
+micro-ros-agent
+tts
+done
+$
+```
+
+## Compatibility
+
+### Converting an existing docker-compose.yml file for use with ffs-docker-compose
+`docker-compose` (v1) and `docker compose` (v2+) YAML files are supported, as this script simply maps the YAML 
+keys into `docker` flags and CLI arguments.
+
+However, **you must modify the `version` tag at the top of your `docker-compose.yml` file to include the text `ffs`**
+to acknowledge the limitations of running `ffs-docker-compose` on a `docker-compose.yml` file. 
+
+
+### List of compatible docker-compose YAML keys
+
+| Key              | Supported? |
+|------------------|------------|
+| `image`          | yes        |
+| `container_name` | yes        |
+| `command`        | yes        |
+| `entrypoint`     | yes*       |
+| `restart`        | yes**      |
+
+*`entrypoint` has the same behavior as `command`
+
+**`restart` only accepts the `always` value and defaults to `never`

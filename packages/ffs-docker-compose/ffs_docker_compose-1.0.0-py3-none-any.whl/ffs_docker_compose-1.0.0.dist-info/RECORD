@@ -1,0 +1,7 @@
+ffs_docker_compose/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ffs_docker_compose/cli.py,sha256=BE5Q1z1PRmKgbPn4SxzlwfxGRVxWnF1OzKrdue_UZPI,6942
+ffs_docker_compose-1.0.0.dist-info/METADATA,sha256=p21IDPTneaoQD9cRJB2v45thCOTMghSDcqg8QgSjhJ4,4904
+ffs_docker_compose-1.0.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+ffs_docker_compose-1.0.0.dist-info/entry_points.txt,sha256=TYd7ni7A2krJ0F9KJJla6f14RNmgZs87GDqOU4UWjwE,67
+ffs_docker_compose-1.0.0.dist-info/licenses/LICENSE,sha256=k_iB25EZfby-ohcPMDeVNZhTBmNQJy1IuLlytlFthZE,1070
+ffs_docker_compose-1.0.0.dist-info/RECORD,,
