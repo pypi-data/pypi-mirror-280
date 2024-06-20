@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: rolilib
+Version: 0.0.1
+Summary: API Wrapper for Rolimon's
+Author: ThunderFound
+Author-email: <contact.thunderfound@gmail.com>
+Keywords: python,api,rolimons
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+rolilib is an open source API Wrapper for Rolimon's

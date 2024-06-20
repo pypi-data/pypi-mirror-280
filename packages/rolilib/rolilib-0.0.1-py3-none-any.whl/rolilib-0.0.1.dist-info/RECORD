@@ -1,0 +1,9 @@
+rolilib/__init__.py,sha256=rclikilr8yv92kuCa_pPGda3HDRI3hFq1gbSkDZ5yQ4,120
+rolilib/exceptions.py,sha256=77g4EN7XUK5ES0lwd_Yw2UQ_AFZljBexgkYTfSd2ERc,85
+rolilib/item.py,sha256=yu2gIG7DXVMgSop10icr0dD0Q1NPv6SCNPdyZjChK4E,967
+rolilib/player.py,sha256=OAW4HYWUfAUWFoxy7CL0DprUkUJfDt7YZAMwXyFsRqE,1414
+rolilib/utils.py,sha256=qISRfS5uR0wgf6RQFUPBtIzuEsHPNT7qj0hI2zh8-8c,1830
+rolilib-0.0.1.dist-info/METADATA,sha256=2QvFxbjBVkQ-T3Pdjqki-JqtaISt8suk5cCxvIOzhDw,361
+rolilib-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+rolilib-0.0.1.dist-info/top_level.txt,sha256=aV3qBhcb0lSHvvjBk6XEs_gT89PFME8tNMHmtPVcACc,8
+rolilib-0.0.1.dist-info/RECORD,,
