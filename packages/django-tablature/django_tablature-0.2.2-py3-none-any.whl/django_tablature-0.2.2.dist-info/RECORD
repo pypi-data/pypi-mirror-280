@@ -1,0 +1,15 @@
+tablature/__init__.py,sha256=rPhH18ONyJhkmUjYTROHI75P61eBb_ChT3CkP-bR2ms,79
+tablature/views.py,sha256=PDPJm9CJ-aKQ0vxgwz7rK1dcESn45bF9REGfIj5-3qY,8334
+tablature/jinja2/tablature/table_page.html,sha256=YSOB1dnax_HiflQHfIrhHaexPXDQse1AnBbhJH0w880,428
+tablature/jinja2/tablature/includes/table.html,sha256=ILj1tdtEyXiqbNEDVx_pr5fsMOklH9TPAojm87WhOEM,1388
+tablature/locale/fr/LC_MESSAGES/django.mo,sha256=pOrm79Ama7Pm6G5MyZCJ7-hGsAdGwEr87B41fK7W6cM,708
+tablature/locale/fr/LC_MESSAGES/django.po,sha256=-POYrzy7v436LbN5JCpgaLD8rgJvVzsEJZUw7Z1m55s,1027
+tablature/static/js/tablature.js,sha256=izW0D-KJ2q9MFF0Avlw5mmIaA88QuNX_ukGAYPkHPv8,13294
+tablature/static/less/tablature.less,sha256=3bwj7QyOOYhkXI0MDUQf2DlUKqxyTdilZZPw2K_pRRY,2780
+tablature/templates/tablature/table_page.html,sha256=zo-WU5bxcKyENh8w0n1TaN-gmLQoToHa2M71H-j3-9Y,450
+tablature/templates/tablature/includes/table.html,sha256=ILj1tdtEyXiqbNEDVx_pr5fsMOklH9TPAojm87WhOEM,1388
+django_tablature-0.2.2.dist-info/LICENSE,sha256=Wlf6DsVlYJtysjQJADFo0jrbaFPR6y552mT7M3PLh28,1491
+django_tablature-0.2.2.dist-info/METADATA,sha256=CK68DSGsLwaGdlu1mJkx-re7s1DRb0UnR2oOyMvdkY0,1046
+django_tablature-0.2.2.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+django_tablature-0.2.2.dist-info/top_level.txt,sha256=nv1WeKb1mUfFqkxtWrM7_NCtzUDOoEoCcUy0sGPNcUo,10
+django_tablature-0.2.2.dist-info/RECORD,,

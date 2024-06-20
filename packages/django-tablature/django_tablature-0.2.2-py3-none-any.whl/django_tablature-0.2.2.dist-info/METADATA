@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: django-tablature
+Version: 0.2.2
+Summary: Easy to use library to display data in an ergonomic and fast table.
+Home-page: https://github.com/BertrandBordage/django-tablature
+Author: Bertrand Bordage
+Author-email: bordage.bertrand@gmail.com
+License: BSD
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+License-File: LICENSE
+Requires-Dist: Django >=2.0
+
+================
+django-tablature
+================
+
+Easy to use library to display data in an ergonomic and fast table.
+
+**In alpha, use at your own risks!**
