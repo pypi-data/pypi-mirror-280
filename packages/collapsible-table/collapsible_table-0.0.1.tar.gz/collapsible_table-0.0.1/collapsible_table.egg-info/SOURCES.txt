@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+collapsible_table/ReactTable.py
+collapsible_table/__init__.py
+collapsible_table/_imports_.py
+collapsible_table/collapsible_table.min.js
+collapsible_table/collapsible_table.min.js.map
+collapsible_table/metadata.json
+collapsible_table/package-info.json
+collapsible_table.egg-info/PKG-INFO
+collapsible_table.egg-info/SOURCES.txt
+collapsible_table.egg-info/dependency_links.txt
+collapsible_table.egg-info/top_level.txt
