@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gifconvert_basic_tomas
+Version: 1.0.1
+Summary: Test package for distribution
+Home-page: 
+Download-URL: 
+Author: Tomas
+Author-email: tomasjoa21@gmail.com
+Keywords: GIFCONVERTER,gifconverter,pngtogif
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: pillow
+
