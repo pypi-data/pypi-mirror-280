@@ -1,0 +1,2 @@
+[console_scripts]
+harissa = harissa.utils.cli:main
