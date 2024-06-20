@@ -1,0 +1,7 @@
+myrtio_udp/__init__.py,sha256=-0ZTTd_ZMSIRTdw7B4aQAskJQkvgWnlRLt0VYYAuluA,93
+myrtio_udp/persistent_stream.py,sha256=R7mnV0mxzM-eOeTcxzrK5QXpP1BICHdKZP-SLCBOA5k,2676
+myrtio_udp/udp_transport.py,sha256=SUBiApl4gK4ABaktDzgHJqnl6sGXZD6Iksnjci9aDUM,1528
+myrtio_udp-1.0.1.dist-info/METADATA,sha256=mXSbE3GNwnI4ByJfO_Nm_2f8kBtU9P1wbnkxck850fA,803
+myrtio_udp-1.0.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+myrtio_udp-1.0.1.dist-info/top_level.txt,sha256=XcNdThCp6f283fKIe-pviolxli8hRkqUXE5u6F2WXuo,11
+myrtio_udp-1.0.1.dist-info/RECORD,,
