@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Unito
+Version: 1.0.0
+Summary: Convert temp to temp ,length to length ,area to area and volume to volume!
+Author-email: Mohammad Parsa Mortazavi <mpmms@outlook.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Hi!
+It's Unito!You can convert temp to temp ,length to length ,area to area and volume to volume!
+Thank you for use it.
+I'm Mohammad Parsa Mortazavi!
+Name of my module is Italian! But I'm not Italian!
+My Email Address: mpmms@outlook.com 
