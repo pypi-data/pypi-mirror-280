@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyvisqol
+Version: 0.0.1
+Summary: An objective, full-reference metric for perceived audio quality.
+Home-page: https://github.com/pengzhendong/pyvisqol
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+License-File: LICENSE

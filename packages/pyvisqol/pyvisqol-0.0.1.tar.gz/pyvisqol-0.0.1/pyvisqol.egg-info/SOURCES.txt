@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+requirements.txt
+setup.py
+pyvisqol/__init__.py
+pyvisqol/cli.py
+pyvisqol/pyvisqol.py
+pyvisqol.egg-info/PKG-INFO
+pyvisqol.egg-info/SOURCES.txt
+pyvisqol.egg-info/dependency_links.txt
+pyvisqol.egg-info/entry_points.txt
+pyvisqol.egg-info/top_level.txt
+pyvisqol/pb2/similarity_result_pb2.py
+pyvisqol/pb2/visqol_config_pb2.py
