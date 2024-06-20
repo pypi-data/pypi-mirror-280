@@ -1,0 +1,122 @@
+Metadata-Version: 2.1
+Name: unique-log-questions
+Version: 0.14
+Summary: A Django app for chatbot functionality.
+Home-page: https://github.com/saini2001/chatbot_code
+Author: Swati Saini
+Author-email: swati@mixorg.com
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# My Django Package
+
+My Django Package is a web application for managing and querying documents using a chatbot interface. It supports multiple file formats, extracts text from documents, and uses an AI model to answer questions based on the content of uploaded documents.
+
+## Features
+
+- View and manage chat sessions
+
+## Installation
+
+### Prerequisites
+
+- Python 3.11
+- Django 3.2 or higher
+
+### Steps
+
+1. **Install the package:**
+
+   ```bash
+   pip install unique-log-questions
+   ```
+
+2. **Set up a virtual environment:**
+
+   ```bash
+   pip install virtualenv
+
+   virtualenv env
+
+   # On Windows
+   .\env\Scripts\activate
+
+   # On macOS/Linux
+   source env/bin/activate
+   ```
+
+3. **Install required packages:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Set up the Django project:**
+
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+   python manage.py createsuperuser
+   python manage.py runserver
+   ```
+
+5. **Open your browser and navigate to:**
+
+   ```plaintext
+   http://127.0.0.1:8000/
+   ```
+
+   This will display your Django project with the integrated `app1` app.
+
+## Usage
+
+## Usage
+
+1. **Integrate the library in your code:**
+
+   **settings.py:**
+
+   Add `unique_log_question_app` to your `INSTALLED_APPS` list:
+
+   ```python
+   INSTALLED_APPS = [
+
+       'unique_log_question_app',
+   ]
+   ```
+
+**views.py:**
+
+```python
+from unique_log_question_app.views import display_log_questions  # for log questions
+from unique_log_question_app.views import display_unique_questions  # for unique questions
+from unique_log_question_app.views import delete_chat_session
+from unique_log_question_app.views import delete_log_question
+from unique_log_question_app.views import edit_chat_session
+from unique_log_question_app.views import edit_similar_question
+```
+
+**urls.py:**
+
+```python
+from django.urls import path
+from unique_log_question_app.views import display_unique_questions, display_log_questions,delete_log_question,delete_chat_session,edit_chat_session,edit_similar_question
+
+urlpatterns = [
+    path('unique_questions/', display_unique_questions, name='display_unique_questions'),
+    path('log_questions/', display_log_questions, name='display_log_questions'),
+    path('delete_unique/<int:session_id>/', delete_chat_session, name='delete_chat_session'),
+    path('delete_log/<int:question_id>/', delete_log_question, name='qna_delete_log'),
+    path('log_questions/', display_log_questions, name='display_log_answers'),
+    path('edit_chat_session/<int:session_id>/', edit_chat_session, name='edit_chat_session'),
+    path('edit_similar_question/<int:question_id>/', edit_similar_question, name='edit_similar_question'),
+    # other paths...
+]
+```
+
+By following these instructions, you should be able to set up and use your Django package correctly.
+
+Open your browser and navigate to http://127.0.0.1:8000/unique_questions/ to see your unique questions with the integrated unique_log_question_app app.
+Open your browser and navigate to http://127.0.0.1:8000/log_questions/ to see your log questions with the integrated unique_log_question_app app.
