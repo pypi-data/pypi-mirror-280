@@ -1,0 +1,14 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+secudeps/__init__.py
+secudeps/cli.py
+secudeps/core.py
+secudeps.egg-info/PKG-INFO
+secudeps.egg-info/SOURCES.txt
+secudeps.egg-info/dependency_links.txt
+secudeps.egg-info/entry_points.txt
+secudeps.egg-info/requires.txt
+secudeps.egg-info/top_level.txt
