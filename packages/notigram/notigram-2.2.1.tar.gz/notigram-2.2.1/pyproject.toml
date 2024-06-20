@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "notigram"
+version = "2.2.1"
+description = "Creates a connection to @notigram_apibot in Telegram"
+authors = ["Marina Rodriguez <mrodriguezs0218@gmail.com>"]
+readme = "README.rst"
+packages = [{include = "notigram"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
