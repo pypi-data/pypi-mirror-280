@@ -1,0 +1,21 @@
+from sqlalchemy.orm  import declarative_base
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+from langchain_community.utilities import SQLDatabase
+
+
+# Presto Engine
+enginePresto=create_engine('presto://localhost:8080/mongodb/bank',
+                     pool_size=20, max_overflow=0,
+                     echo=True)
+
+PrestoSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=enginePresto)
+PrestoBase=declarative_base()
+prestoDb = SQLDatabase(engine=enginePresto)
+
+def get_presto_db():
+    db = PrestoSessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()     
