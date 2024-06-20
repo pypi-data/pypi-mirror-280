@@ -1,0 +1,2 @@
+[console_scripts]
+morse2sound = cw_enc.driver:drive
