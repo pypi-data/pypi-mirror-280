@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: wetsuite
+Version: 0.1.0
+Summary: Wetsuite
+Home-page: https://github.com/WetSuiteLeiden/wetsuite-core.git
+Author: Wetsuite team
+Author-email: alewijnse.bart@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Text Processing :: Linguistic
