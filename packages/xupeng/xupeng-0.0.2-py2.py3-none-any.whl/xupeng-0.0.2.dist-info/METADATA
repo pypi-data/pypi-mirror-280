@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: xupeng
+Version: 0.0.2
+Summary: 许鹏的第一个包
+Author-email: 许鹏 <1311192345@qq.com>
+Description-Content-Type: text/markdown
+Requires-Dist: tornado
+Requires-Dist: requests
+
+这是我的测试包
+
+
+flit publish
+
+pip install xupeng
