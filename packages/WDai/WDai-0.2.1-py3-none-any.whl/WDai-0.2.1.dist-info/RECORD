@@ -1,0 +1,11 @@
+dai/__init__.py,sha256=rR2k5SEQq86b59QJN_OcUJsEq84tkl4qtfQODzEuNN0,56
+dai/definitions.py,sha256=ZGA5-dxlVo8EpY51CJCxMs2J83bj2jpuPKbvrq-ZKrE,194
+dai/factory.py,sha256=3cYpKyS7xJR1s3os881QeRdfvfZWb2i2Nx4Lx-8E010,3256
+dai/server.py,sha256=3c14SkgYmp57k2QxRyvARR1ZYc8bJCEd97SaXqB1jk4,1071
+dai/worker.py,sha256=mQDAi15ytnFg6WiXPf4X169aYn3NyIPMYZqIrohsufo,1175
+dai/ITP/__init__.py,sha256=TbmCj2c4PpmGVte95LIq64qztFa-FPzTUSsNwxv-iIE,20
+dai/ITP/itp.py,sha256=IGNzo3V8XX0yd3c7ilVVcmmsx3zd78VLvQV-Yo4bXSI,7938
+WDai-0.2.1.dist-info/METADATA,sha256=maddygiHR7YXmWqYGZjTYAmwsjEeE12j8mDab9gBBsM,396
+WDai-0.2.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+WDai-0.2.1.dist-info/top_level.txt,sha256=f3eXegBMnmjAFq5zhy7JyiluwMnWcEtvI0BPi62nd1A,4
+WDai-0.2.1.dist-info/RECORD,,

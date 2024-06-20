@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: WDai
+Version: 0.2.1
+Summary: Herramienta para procesamiento distribuido de modelos de machine learning
+Home-page: https://github.com/nakato156/dai
+Author: Nakato
+Author-email: christianvelasces@gmail.com
+License: MIT
+Keywords: distribution,ia,server,workers,package,machine,learning,parallel
+Description-Content-Type: text/markdown
+
+# DAI
+Distribution AI
