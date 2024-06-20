@@ -1,0 +1,2 @@
+[console_scripts]
+magic-doc = magic_doc.cli:cli_conv
