@@ -1,0 +1,17 @@
+.env.example
+.gitignore
+README.md
+example-requirements.in
+example-requirements.txt
+pyproject.toml
+requirements.in
+requirements.txt
+example/main.py
+pylote/__init__.py
+pylote/_version.py
+pylote/pilote.py
+pylote.egg-info/PKG-INFO
+pylote.egg-info/SOURCES.txt
+pylote.egg-info/dependency_links.txt
+pylote.egg-info/requires.txt
+pylote.egg-info/top_level.txt
