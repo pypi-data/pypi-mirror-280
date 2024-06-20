@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "imfusion-sdk"
+version = "0.0.4"
+authors = [
+  { name="Markus Habert", email="habert@imfusion.com" },
+  { name="Ilja Manakov", email="manakov@imfusion.com" },
+]
+
+description = "ImFusion - Enabling Rapid Innovation in Medical Imaging"
+dependencies = [
+    "numpy<2.0.0",
+]
+license = {file = "LICENSE"}
+readme = "README.rst"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+  	"Programming Language :: Python :: 3.9",
+  	"Programming Language :: Python :: 3.10",
+  	"Programming Language :: Python :: 3.11",
+  	"Programming Language :: Python :: 3.12",
+    "License :: Other/Proprietary License",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Healthcare Industry",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Typing :: Typed"
+]
+keywords = [ "ImFusion", "Medical Imaging", "Image Processing", "Image Manipulation", "Hardware Acceleration", "GPU Acceleration", "SDK" ]
+
+
+[project.urls]
+"Homepage" = "https://www.imfusion.com"
+"Documentation" = "https://docs.imfusion.com/python"
+"Forum" = "https://forum.imfusion.com/c/python-sdk"
+"Webshop" = "https://shop.imfusion.com"
