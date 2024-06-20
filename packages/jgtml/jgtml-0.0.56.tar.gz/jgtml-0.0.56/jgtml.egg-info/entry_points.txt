@@ -1,0 +1,4 @@
+[console_scripts]
+jgtmlcli = jgtml.jgtmlcli:main
+ptojgtmlclittfprotocli = jgtml.ptojgtmlclittfprotocli:main
+ptojgtmltidealligator = jgtml.ptojgtmltidealligator:main
