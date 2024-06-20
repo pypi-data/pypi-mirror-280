@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyvisca.egg-info/PKG-INFO
+pyvisca.egg-info/SOURCES.txt
+pyvisca.egg-info/dependency_links.txt
+pyvisca.egg-info/requires.txt
+pyvisca.egg-info/top_level.txt
