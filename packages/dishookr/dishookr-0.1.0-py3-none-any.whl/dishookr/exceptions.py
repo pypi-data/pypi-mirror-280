@@ -1,0 +1,2 @@
+class EmptyWebhook(Exception):
+    pass
