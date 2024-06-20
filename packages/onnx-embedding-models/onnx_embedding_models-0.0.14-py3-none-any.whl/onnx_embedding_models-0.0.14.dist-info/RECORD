@@ -1,0 +1,10 @@
+onnx_embedding_models/__init__.py,sha256=eQBUzLtblyL-uxleSBtx6TNXaeqdTpLDHOHTVMqPqgg,176
+onnx_embedding_models/crossencoder.py,sha256=xpdwD8c3Uqk3i5m0n0jlqhGpDsXuK1nM8R9_Z8Xg5F4,3933
+onnx_embedding_models/embedding.py,sha256=ipaT1lXrG_g1L_8ndbvepvTxL6cXCfxsHQNLbLTzRK8,13477
+onnx_embedding_models/registry.py,sha256=7qXsYJTtZ_SB4GpF2pgdbh6v6pm0bhApROXq__a7Qbw,2496
+onnx_embedding_models/utils.py,sha256=8c2f-B2M2Z7S7kPkXi56JbyDT0WEZXzeigRcd2TTyUI,2916
+onnx_embedding_models-0.0.14.dist-info/LICENSE,sha256=CJpF_GwYKDRGDtddKp_x-98oH0quI5VsMrYclI7G-40,1066
+onnx_embedding_models-0.0.14.dist-info/METADATA,sha256=mKFAENMVV2-FVdlbyNc0zdYWSJIAUa4s1UkhMZkI7BA,784
+onnx_embedding_models-0.0.14.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+onnx_embedding_models-0.0.14.dist-info/top_level.txt,sha256=DaZlNBdzFUZZVApGtzO4SSD15bv3NSIXx6PkoV0Ez4c,22
+onnx_embedding_models-0.0.14.dist-info/RECORD,,
