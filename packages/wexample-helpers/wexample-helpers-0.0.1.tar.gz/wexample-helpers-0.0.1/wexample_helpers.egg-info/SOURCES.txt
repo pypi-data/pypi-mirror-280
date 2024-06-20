@@ -1,0 +1,6 @@
+README.md
+setup.py
+wexample_helpers.egg-info/PKG-INFO
+wexample_helpers.egg-info/SOURCES.txt
+wexample_helpers.egg-info/dependency_links.txt
+wexample_helpers.egg-info/top_level.txt
