@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: bangpg
+Version: 0.1.0
+Summary: This packeges implementes a faster alternative `to_sql()` method for PostgreSQL that support COPY FROM.
+Home-page: https://github.com/matheus0sa/bangpg
+Author: MATHEUS DE SA DE SOUZA
+Author-email: matheusdesa55@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Bang PG
+> As fast as a bullet 
+
+This packeges implementes a faster alternative `to_sql()` method for PostgreSQL that support COPY FROM.
+
+There are two ways to use it:
+
+1. 
+
+```python
+import bangpg
+bangpg.to_sql(df, 'table', engine,  if_exists='append', index=False)
+
+```
+
+2.
+
+```python
+import bangpg
+df.to_sql('table', engine,  if_exists='append', index=False, method=bangpg.psql_insert_copy)
+
+```
+
+
+
+
+references: https://pandas.pydata.org/docs/user_guide/io.html#io-sql-method
