@@ -1,0 +1,5 @@
+[console_scripts]
+scTail = scTail:main
+scTail-callPeak = callPeak:main
+scTail-count = count:main
+scTail-peakMerge = peakMerge:main
