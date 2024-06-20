@@ -1,0 +1,3 @@
+[console_scripts]
+physioqc = physioqc.workflow:_main
+
