@@ -1,0 +1,12 @@
+dmeta/__init__.py,sha256=BipZ8VahKEASrfh4MCyZHN46vpJmZgwWlvyPUHvSNlY,107
+dmeta/__main__.py,sha256=mYA7XrktyvheC6luAZa02rTZrEG1ZfGo2qTBSu_Q4YA,1687
+dmeta/functions.py,sha256=tPMGwSxofhnTTw7T_I3g3GYbR1zw21iIQ8eDXWwo5Uw,6023
+dmeta/params.py,sha256=75A82OhrkPsfSvljvlZn0kYEieQXpXy9Vg3KO2_swGc,846
+dmeta/util.py,sha256=lyONrQGQDZ5YoIC3HQQUQpl_Gc3cfNl3rm1bxINGVZM,2402
+DMeta-0.1.dist-info/AUTHORS.md,sha256=EXNutOIcz_dzrEezlg_Z-aug7v-Gsy9gmqba2nXsDyw,321
+DMeta-0.1.dist-info/LICENSE,sha256=OZYTph7QTRFs_KLtv0MX-4wBJ-f4HHDwK4YYEvY5XsM,1067
+DMeta-0.1.dist-info/METADATA,sha256=X-CO4N534HMA0il3rn8ZLbAGm2xdd2dNFWACK6EZ42Q,7862
+DMeta-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+DMeta-0.1.dist-info/entry_points.txt,sha256=W7rxpmNPhu7pXeNHwnZ1r-cExBovwqdcVuUOqfS8uBY,46
+DMeta-0.1.dist-info/top_level.txt,sha256=oZWD5bSo7oV44Ds2-9M4xqsWNZsemIjrK1BW2mBLFEA,6
+DMeta-0.1.dist-info/RECORD,,
