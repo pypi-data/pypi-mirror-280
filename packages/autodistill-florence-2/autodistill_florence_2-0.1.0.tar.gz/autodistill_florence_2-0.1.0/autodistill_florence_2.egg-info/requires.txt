@@ -1,0 +1,15 @@
+transformers
+einops
+flash_attn
+timm
+numpy
+supervision
+roboflow
+
+[dev]
+flake8
+black==22.3.0
+isort
+twine
+pytest
+wheel
