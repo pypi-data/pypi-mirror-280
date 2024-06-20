@@ -1,0 +1,9 @@
+zulu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zulu/main.py,sha256=mXJPArCwRGDka-M29ek2Lqkkhruzq0BJwz8YF1ORS5c,8289
+zulu/secrets_tool.py,sha256=3byKF74T0cgRACsiDgapdipZAzlYdpxV8reibexKcK0,5400
+zulu_cli-0.1.5.dist-info/LICENSE,sha256=SNUxlZ6vzq3fcuF-LYG1CB6MN3dlPOBj6LVxmxSWAnA,1057
+zulu_cli-0.1.5.dist-info/METADATA,sha256=RRnpmpXNeR6qR8fIcI4MWYWY-IS65wmIDvnGCK12r2w,1193
+zulu_cli-0.1.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+zulu_cli-0.1.5.dist-info/entry_points.txt,sha256=rNvs9cfmrsk6sinxCpFb8Sy5ZBUv6Nt69fKoA9QrVZw,40
+zulu_cli-0.1.5.dist-info/top_level.txt,sha256=TI4MDsEpif9nvIKm6oEjk1ktEm2HKUAhuaRpvL0oakE,5
+zulu_cli-0.1.5.dist-info/RECORD,,
