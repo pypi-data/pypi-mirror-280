@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: butiranx
+Version: 0.0.0
+Summary: python package for simulation of granular system
+Home-page: https://github.com/dudung/granular-system
+Author: Sparisoma Viridi
+Author-email: dudung@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# butiranx
+python package for simulation of granular system
