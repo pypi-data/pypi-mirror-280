@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Hydro-create
+Version: 2.0.9
+Summary: A useful module
+Author: Cloudann
+Author-email: cloudann@gmail.com
+Requires-Dist: pandas
+Requires-Dist: xpinyin
+Requires-Dist: openpyxl
+
