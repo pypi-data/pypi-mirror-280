@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+cool_pipe/__init__.py
+cool_pipe/pipeline.py
+cool_pipe.egg-info/PKG-INFO
+cool_pipe.egg-info/SOURCES.txt
+cool_pipe.egg-info/dependency_links.txt
+cool_pipe.egg-info/top_level.txt
