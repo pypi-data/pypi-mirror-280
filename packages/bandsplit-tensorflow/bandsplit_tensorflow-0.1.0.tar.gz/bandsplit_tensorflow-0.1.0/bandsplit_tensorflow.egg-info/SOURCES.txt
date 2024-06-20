@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+bandsplit_tensorflow/__init__.py
+bandsplit_tensorflow/bandsplit_layer.py
+bandsplit_tensorflow.egg-info/PKG-INFO
+bandsplit_tensorflow.egg-info/SOURCES.txt
+bandsplit_tensorflow.egg-info/dependency_links.txt
+bandsplit_tensorflow.egg-info/requires.txt
+bandsplit_tensorflow.egg-info/top_level.txt
+tests/test_bandsplit_layer.py
