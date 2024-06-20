@@ -1,0 +1,2 @@
+my_test_proj1_huangxiaolong==0.0.5
+my_test_proj3_huangxiaolong==0.0.1

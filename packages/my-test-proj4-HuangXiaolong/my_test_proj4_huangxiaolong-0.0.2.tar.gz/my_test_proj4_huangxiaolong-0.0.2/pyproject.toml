@@ -1,0 +1,18 @@
+[build-system]
+requires = [
+    "setuptools>=61.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+dependencies = [
+    "my_test_proj1_huangxiaolong==0.0.5",
+    "my_test_proj3_huangxiaolong==0.0.1",
+]
+name = "my_test_proj4_HuangXiaolong"
+authors = [
+    { name="Xiaolong Huang", email="hxl65536@gmail.com" }
+]
+version = "0.0.2"
+description = "example test project 4"
+requires-python = ">=3.8"
