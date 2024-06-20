@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: table-trimmer
+Version: 0.1.0
+Summary: Uma ferramenta utilitária para otimizar bancos de dados SQLite ao permitir que os usuários selecionem e mantenham apenas as colunas essenciais em novas tabelas derivadas. Isso ajuda na criação de tabelas mais enxutas, melhorando a gestão e o desempenho do banco de dados ao reduzir a quantidade de dados desnecessários. Ideal para limpeza de dados, análises específicas e para otimizar o armazenamento e a consulta em bancos de dados grandes.
+Author: Woul Schneider
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Table Trimmer
+
+`table-trimmer` Ã© uma ferramenta desenvolvida para otimizar bancos de dados SQLite. Este pacote permite aos usuÃ¡rios criar tabelas mais enxutas, selecionando e mantendo apenas as colunas essenciais. Isso melhora a eficiÃªncia do banco de dados ao reduzir o volume de dados desnecessÃ¡rios.
+
+## InstalaÃ§Ã£o
+
+VocÃª pode instalar o `table-trimmer` utilizando pip:
+
+```bash
+pip install table-trimmer
+```
+
+## Uso
+
+Para usar o `table-trimmer`, execute o seguinte comando no terminal:
+
+```bash
+table-trimmer
+```
+
+Siga as instruÃ§Ãµes interativas para selecionar o arquivo do banco de dados e a tabela que deseja otimizar. VocÃª serÃ¡ capaz de escolher as colunas que deseja manter na nova tabela enxuta.
+
+
+## LicenÃ§a
+
+Este projeto estÃ¡ licenciado sob a LicenÃ§a MIT - veja o arquivo LICENSE para detalhes.

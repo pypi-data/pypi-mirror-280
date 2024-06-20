@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/table-trimmer/__init__.py
+src/table-trimmer/main.py
+src/table_trimmer.egg-info/PKG-INFO
+src/table_trimmer.egg-info/SOURCES.txt
+src/table_trimmer.egg-info/dependency_links.txt
+src/table_trimmer.egg-info/entry_points.txt
+src/table_trimmer.egg-info/top_level.txt
