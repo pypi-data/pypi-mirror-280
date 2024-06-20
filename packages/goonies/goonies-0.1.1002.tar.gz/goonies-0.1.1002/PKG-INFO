@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: goonies
+Version: 0.1.1002
+Summary: a ragtag group of AI agents who stumble upon an old treasure map...
+License: MIT
+Keywords: ai,agents,llm,code generation
+Author: tolitius
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: PyMuPDF (==1.24.4)
+Requires-Dist: anthropic (==0.21.3)
+Requires-Dist: beautifulsoup4 (==4.12.3)
+Requires-Dist: colalamo (==0.1.2106)
+Requires-Dist: duckduckgo-search (==6.1.1)
+Requires-Dist: googlesearch-python (==1.2.4)
+Requires-Dist: ollama (==0.1.8)
+Requires-Dist: openai (==1.14.3)
+Requires-Dist: pyreadline3 (==3.4.1) ; os_name == "nt"
+Requires-Dist: python-dotenv (==1.0.1)
+Requires-Dist: replicate (==0.25.1)
+Project-URL: documentation, https://github.com/tolitius/goonies?tab=readme-ov-file#-goonies
+Project-URL: homepage, https://github.com/tolitius/goonies
+Project-URL: issues, https://github.com/tolitius/goonies/issues
+Project-URL: repository, https://github.com/tolitius/goonies
+Description-Content-Type: text/markdown
+
+# goonies
+> down here, it's our time. it's our time down here.
+
+- [license](#license)
+
+# license
+
+Copyright © 2024 tolitius
+
+Distributed under the Eclipse Public License either version 1.0 or (at
+your option) any later version.
+

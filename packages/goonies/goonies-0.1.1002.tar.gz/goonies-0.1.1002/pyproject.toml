@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "goonies"
+version = "0.1.1002"
+description = "a ragtag group of AI agents who stumble upon an old treasure map..."
+authors = ["tolitius"]
+readme = "README.md"
+keywords = ["ai", "agents", "llm", "code generation"]
+license = "MIT"  # Add your project's license here
+
+[tool.poetry.dependencies]
+python = "^3.8"  # Specify your Python version constraints
+python-dotenv = "1.0.1"
+anthropic = "0.21.3"
+openai = "1.14.3"
+ollama = "0.1.8"
+replicate = "0.25.1"
+colalamo = "0.1.2106"
+duckduckgo-search = "6.1.1"
+googlesearch-python = "1.2.4"
+beautifulsoup4 = "4.12.3"
+PyMuPDF = "1.24.4"
+pyreadline3 = { version = "3.4.1", markers = "os_name == 'nt'" }
+
+[tool.poetry.scripts]
+goonies = "goonies.backyard:main"
+
+[tool.poetry.urls]
+homepage = "https://github.com/tolitius/goonies"
+documentation = "https://github.com/tolitius/goonies?tab=readme-ov-file#-goonies"
+repository = "https://github.com/tolitius/goonies"
+issues = "https://github.com/tolitius/goonies/issues"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
