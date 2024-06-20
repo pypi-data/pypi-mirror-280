@@ -1,0 +1,11 @@
+fastapi_client/__init__.py,sha256=nQ4fGo_hRJEP1Er8bYDTCXviK7WuKTJI3BFCSkElNwI,133
+fastapi_client/base_client.py,sha256=4WrKDwG3jVqvSXcdc0VLn6oeX0GTHK70AEKJH56nt4I,3900
+fastapi_client/base_client_test.py,sha256=pEcc6i1F7vU7Xyw5AB_IiJvh6ByEsS7oLVkZitzdf5k,1353
+fastapi_client/client.py,sha256=1zlLvuK4uO0-zkwRDd-D6wCNFpqaq8XLOxoxp37ebm8,6977
+fastapi_client/client_test.py,sha256=3NZZe1EcoW_oxEBeXMUt3tsc0HSbeV2Dqp_BTqnFeQo,3219
+fastapi_client/exceptions.py,sha256=6W-ne4IFBFy9HtLs5mpZvYyqA-Vr7L-yyTCqXWxlmB4,95
+fastapi_client-0.0.1.dist-info/LICENSE,sha256=5-nggRgKjZZyENDmh-cw5T30g-ORDWl0aL4y-1MLN5k,1067
+fastapi_client-0.0.1.dist-info/METADATA,sha256=mrpd7ytvhM5DRrhZ8hUFgjGA2_7TZ7bpB-S55sx5aDE,2041
+fastapi_client-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fastapi_client-0.0.1.dist-info/top_level.txt,sha256=sGyislR2xfWVV2O9XTg6ubWpHFGUXMJS29YWltUF0vU,15
+fastapi_client-0.0.1.dist-info/RECORD,,
