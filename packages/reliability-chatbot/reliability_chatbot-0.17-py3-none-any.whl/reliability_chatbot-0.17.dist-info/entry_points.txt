@@ -1,0 +1,4 @@
+[console_scripts]
+configure-aws = app1.scripts.configure_aws:main
+manage.py = app1.manage:main
+readme = app1.scripts.readme:main
