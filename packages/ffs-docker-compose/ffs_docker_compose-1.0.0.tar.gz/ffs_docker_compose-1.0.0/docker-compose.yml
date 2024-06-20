@@ -1,0 +1,7 @@
+version: 'ffs-2.1'
+
+services:
+    getting-started:
+        container_name: getting-started
+        image: docker/getting-started
+        restart: always

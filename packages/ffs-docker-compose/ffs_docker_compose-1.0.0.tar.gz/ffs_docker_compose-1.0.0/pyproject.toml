@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ffs_docker_compose"
+version = "1.0.0"
+authors = [
+  { name="Corey Knutson", email="corey.knutson789@gmail.com" },
+]
+description = "A docker-compose alternative that actually behaves like standalone docker"
+readme = "README.md"
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "argparse",
+  "pyyaml",
+]
+
+[project.scripts]
+ffs-docker-compose = "ffs_docker_compose.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/cudy789/ffs-docker-compose"
+Issues = "https://github.com/cudy789/ffs-docker-compose/issues"
