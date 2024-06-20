@@ -1,0 +1,2 @@
+[console_scripts]
+spheremain2 = sphereob.sphere_main:main
