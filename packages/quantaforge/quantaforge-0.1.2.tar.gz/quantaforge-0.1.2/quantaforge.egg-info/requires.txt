@@ -1,0 +1,6 @@
+scikit-learn
+polars
+Cython
+numpy
+ib_insync
+confluent_kafka
