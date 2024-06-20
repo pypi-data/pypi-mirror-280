@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/cdediff/__init__.py
+src/cdediff/__main__.py
+src/cdediff/data.py
+src/cdediff/output.py
+src/cdediff/util.py
+src/cdediff.egg-info/PKG-INFO
+src/cdediff.egg-info/SOURCES.txt
+src/cdediff.egg-info/dependency_links.txt
+src/cdediff.egg-info/requires.txt
+src/cdediff.egg-info/top_level.txt

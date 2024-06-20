@@ -1,0 +1,78 @@
+[project]
+name = "cdediff"
+description = "Creates human readable descriptions and comparisons of CdEDB-Events."
+version = "0.3.1"
+authors = [
+    { name="Tobias Udtke", email="tobias.udtke@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: GNU General Public License (GPL)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "termcolor ~= 2.4.0",
+    "colorama >= 0.4.6",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black~=24.4.2",
+    "mypy~=1.10.0",
+    "ruff~=0.4.9",
+    "types-colorama",
+]
+build = [
+    "build",
+    "twine",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.mypy]
+python_version = 3.11
+exclude = [
+    "venv",
+    "build",
+]
+disallow_untyped_defs = true
+color_output = true
+
+[tool.ruff]
+line-length = 128
+
+[tool.ruff.lint]
+select = [
+    "ALL"
+]
+ignore = [
+    "D",  # pydocstyle
+    "T201",  # Usage of `print`.
+    "ANN101",  # No annotation for `self`.
+    "ANN102",  # No annotation for `cls`.
+    "RUF001",  # Ambiguous dash '–' instead of '-'.
+]
+fixable = ["ALL"]
+exclude = [
+    "build/*.py",
+]
+
+[tool.ruff.lint.flake8-builtins]
+builtins-ignorelist = ["id"]
+
+[tool.ruff.lint.mccabe]
+# Flag errors (`C901`) whenever the complexity level exceeds 15.
+max-complexity = 20
+
+[tool.ruff.lint.pylint]
+max-args = 6
+max-branches = 24
+max-statements = 70
+
+[tool.black]
+line-length = 128
