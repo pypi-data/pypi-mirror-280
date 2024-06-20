@@ -1,0 +1,21 @@
+Metadata-Version: 2.3
+Name: idika
+Version: 0.1.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Summary: Unique ids generator implemented in rust
+Author: jackkweyunga <jackkweyunga@gmail.com>
+Author-email: Jack Kweyunga <jackkweyunga@gmail.com>
+Requires-Python: >3
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/jackkweyunga/id_gen
+Project-URL: Bug Tracker, https://github.com/jackkweyunga/id_gen/issues
+
+<center>
+<h1> id_gen </h1>
+<p>A unique ids generator for python implemented in rust</p>
+</center>
+
+
