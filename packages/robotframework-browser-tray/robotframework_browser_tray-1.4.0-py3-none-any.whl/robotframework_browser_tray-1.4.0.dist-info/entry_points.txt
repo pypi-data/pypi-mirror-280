@@ -1,0 +1,4 @@
+[console_scripts]
+browser-tray=BrowserTray.tray:run
+ibrowser=BrowserTray.Repl.repl:run
+
