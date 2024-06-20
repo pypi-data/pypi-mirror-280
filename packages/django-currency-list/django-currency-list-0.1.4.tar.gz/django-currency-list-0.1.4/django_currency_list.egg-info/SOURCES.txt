@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+currency_list/__init__.py
+currency_list/apps.py
+currency_list/core.py
+currency_list/fields.py
+currency_list/test_core.py
+django_currency_list.egg-info/PKG-INFO
+django_currency_list.egg-info/SOURCES.txt
+django_currency_list.egg-info/dependency_links.txt
+django_currency_list.egg-info/requires.txt
+django_currency_list.egg-info/top_level.txt
