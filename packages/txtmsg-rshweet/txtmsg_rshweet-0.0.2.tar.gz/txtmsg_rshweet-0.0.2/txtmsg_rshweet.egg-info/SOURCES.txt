@@ -1,0 +1,10 @@
+setup.py
+txtmsg_rshweet/__init__.py
+txtmsg_rshweet/emailmsg.py
+txtmsg_rshweet/exceptions.py
+txtmsg_rshweet/providers.py
+txtmsg_rshweet/txtmsg.py
+txtmsg_rshweet.egg-info/PKG-INFO
+txtmsg_rshweet.egg-info/SOURCES.txt
+txtmsg_rshweet.egg-info/dependency_links.txt
+txtmsg_rshweet.egg-info/top_level.txt
