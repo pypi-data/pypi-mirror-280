@@ -1,0 +1,2 @@
+[console_scripts]
+usbcloner = usbcloner:main_cli

@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/usbcloner/__init__.py
+src/usbcloner/__main__.py
+src/usbcloner/config_handler.py
+src/usbcloner/duplication.py
+src/usbcloner/renaming.py
+src/usbcloner/usb_handler.py
+src/usbcloner/verification.py
+src/usbcloner.egg-info/PKG-INFO
+src/usbcloner.egg-info/SOURCES.txt
+src/usbcloner.egg-info/dependency_links.txt
+src/usbcloner.egg-info/entry_points.txt
+src/usbcloner.egg-info/requires.txt
+src/usbcloner.egg-info/top_level.txt

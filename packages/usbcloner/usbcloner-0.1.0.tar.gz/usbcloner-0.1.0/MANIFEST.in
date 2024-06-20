@@ -1,0 +1,9 @@
+prune */.*_cache
+prune */.vscode
+prune */__pycache__
+prune tests
+
+global-exclude \
+    *.py[cod] \  # compiled python files
+    .DS_Store \  # default Mac OSX files
+    *.so      \  # linux shared objects
