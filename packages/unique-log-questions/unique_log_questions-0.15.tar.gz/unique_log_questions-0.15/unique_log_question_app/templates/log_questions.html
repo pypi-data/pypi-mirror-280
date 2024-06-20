@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Questions and Answers</title>
+  </head>
+  <body>
+    <h1>Similar Questions</h1>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>User Name</th>
+          <th>Question</th>
+          <th>Answer</th>
+          <th>clusterId</th>
+          <th>Operations</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for question in similar_questions %}
+        <tr>
+          <td>{{ question.user_name }}</td>
+          <td>{{ question.question }}</td>
+          <td>{{ question.answer }}</td>
+          <td>{{ question.cluster_id}}</td>
+          <td><a href="{% url 'edit_similar_question' question.id %}">
+            <button class="edit-button">Edit</button>
+          
+            <form
+              action="{% url 'qna_delete_log' question.id %}"
+              method="POST"
+              style="display: inline"
+            >
+              {% csrf_token %}
+              <button type="submit" class="delete-button">Delete</button>
+            </form>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>

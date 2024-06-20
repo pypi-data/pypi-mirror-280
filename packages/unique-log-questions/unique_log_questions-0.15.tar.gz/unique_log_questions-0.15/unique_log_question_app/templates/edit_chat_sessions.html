@@ -1,0 +1,14 @@
+<!-- app1/templates/app1/edit_chat_session.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Edit Chat Session</title>
+  </head>
+  <body>
+    <h1>Edit Chat Session</h1>
+    <form method="post">
+      {% csrf_token %} {{ form.as_p }}
+      <button type="submit">Save</button>
+    </form>
+  </body>
+</html>
