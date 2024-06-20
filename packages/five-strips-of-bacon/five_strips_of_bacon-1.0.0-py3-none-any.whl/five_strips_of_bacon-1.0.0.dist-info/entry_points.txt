@@ -1,0 +1,3 @@
+[console_scripts]
+five-strips-of-bacon=src.main:main
+
