@@ -1,0 +1,14 @@
+aqudem/__init__.py,sha256=TBO6_IKJm_4H3ffQGrzo8BWkX0Kecp3MJDqLX-jKuhU,802
+aqudem/aqudem.py,sha256=JgHcXXNfp5QGkppN6ZBsdwuofsp_oSynbjv083_lYV4,11092
+aqudem/cross_correlation_helper.py,sha256=zFQBLpsBbq291GVe27IBYwWoWFQkctmm74h0uYw72rM,6203
+aqudem/damerau_levenshtein_helper.py,sha256=BnBspC2oTGBmQ8aWSvchX_nhdCXUE4-IVUKIdf1Jv10,5268
+aqudem/event_analysis_helper.py,sha256=J-aW5QPB6cveKF9vY2uQV8ctqVk8GlVW-DmW6RY_peE,14082
+aqudem/two_set_helper.py,sha256=HQ0zjkgnEUKQjbLQedSUvL9at3O-6x7joS02XsTeX68,9067
+aqudem/utils.py,sha256=485Gz7Of4FpOgLl_LKIq_earUnj4eR_4oDnXUn7l3I4,17356
+aqudem/ward_helper.py,sha256=qE13c2WxWnqMJ0UNHsQriHXWjhFHk07MhDzqcNGcrzo,9243
+aqudem-0.1.0.dist-info/AUTHORS.rst,sha256=BDcHqbpn5u0tcFSALEPje9j7o5dPaRBx4bMi0oforlQ,259
+aqudem-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+aqudem-0.1.0.dist-info/METADATA,sha256=dvsnH_UjKqa7zPk6HhowkPfkMfIwW2Q5LdRSWkueZro,4075
+aqudem-0.1.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+aqudem-0.1.0.dist-info/top_level.txt,sha256=HB0EW02n4j7Y1bip3r9-LifeqCBo_6HwbvWHfJr8Obw,7
+aqudem-0.1.0.dist-info/RECORD,,
