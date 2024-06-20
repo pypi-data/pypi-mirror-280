@@ -1,0 +1,10 @@
+ossai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ossai/handlers.py,sha256=2lS3d96OQBOIuAG4tCqzdM3LBAPK8qr1vW-qkDFC6Mo,8592
+ossai/slack_server.py,sha256=FPs8a1EQMjn5NFb6q-hXpLD3rfahZNte8NSqaJD5Kpo,3422
+ossai/summarizer.py,sha256=eU6-qojzBHM6pLLBLNt0WAPuHwqUxiHGxNj2TyXixLM,6843
+ossai/topic_analysis.py,sha256=1Bm241MFIAc2iPJuPJkqtPHyFdY2brRBSI4sMT_iVGw,6917
+ossai/utils.py,sha256=E8N-d8PuvkR-2Sj_gug2HpcFh8t07HsfG6JdH7uphrM,10836
+open_source_slack_ai-0.3.0.dist-info/LICENSE.md,sha256=0s3ZszwDrYq3nqSnLKx0SYM9bgm3cSIcG3381qbWm-U,34700
+open_source_slack_ai-0.3.0.dist-info/METADATA,sha256=94TC7S7jUqn2JK0St2pApnoCT4V0Jyv94cKlkhO_dmc,8049
+open_source_slack_ai-0.3.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+open_source_slack_ai-0.3.0.dist-info/RECORD,,
