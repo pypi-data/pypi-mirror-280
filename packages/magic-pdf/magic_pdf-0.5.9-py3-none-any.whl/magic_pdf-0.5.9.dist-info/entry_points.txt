@@ -1,0 +1,2 @@
+[console_scripts]
+magic-pdf = magic_pdf.cli.magicpdf:cli

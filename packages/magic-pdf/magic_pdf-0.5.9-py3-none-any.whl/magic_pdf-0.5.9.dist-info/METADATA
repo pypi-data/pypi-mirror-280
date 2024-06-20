@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: magic-pdf
+Version: 0.5.9
+Summary: A practical tool for converting PDF to Markdown
+Home-page: https://github.com/magicpdf/Magic-PDF
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: boto3 >=1.28.43
+Requires-Dist: Brotli >=1.1.0
+Requires-Dist: click >=8.1.7
+Requires-Dist: Distance >=0.1.3
+Requires-Dist: PyMuPDF >=1.24.5
+Requires-Dist: loguru >=0.6.0
+Requires-Dist: matplotlib >=3.8.3
+Requires-Dist: numpy >=1.21.6
+Requires-Dist: pandas >=1.3.5
+Requires-Dist: fast-langdetect >=0.1.1
+Requires-Dist: regex >=2023.12.25
+Requires-Dist: termcolor >=2.4.0
+Requires-Dist: wordninja >=2.0.0
+Requires-Dist: scikit-learn >=1.0.2
+Requires-Dist: nltk ==3.8.1
+Requires-Dist: s3pathlib >=2.1.1
+Requires-Dist: paddleocr
+Requires-Dist: pdfminer.six >=20231228
+Provides-Extra: cpu
+Requires-Dist: paddlepaddle ; extra == 'cpu'
+Provides-Extra: gpu
+Requires-Dist: paddlepaddle-gpu ; extra == 'gpu'
+
+<div id="top"></div>
+<div align="center">
+
+[![stars](https://img.shields.io/github/stars/magicpdf/Magic-PDF.svg)](https://github.com/magicpdf/Magic-PDF)
+[![forks](https://img.shields.io/github/forks/magicpdf/Magic-PDF.svg)](https://github.com/magicpdf/Magic-PDF)
+[![license](https://img.shields.io/github/license/magicpdf/Magic-PDF.svg)](https://github.com/magicpdf/Magic-PDF/tree/main/LICENSE)
+[![issue resolution](https://img.shields.io/github/issues-closed-raw/magicpdf/Magic-PDF)](https://github.com/magicpdf/Magic-PDF/issues)
+[![open issues](https://img.shields.io/github/issues-raw/magicpdf/Magic-PDF)](https://github.com/magicpdf/Magic-PDF/issues)
+
+[English](README.md) | [简体中文](README_zh-CN.md)
+
+</div>
+
+<div align="center">
+
+</div>
+
+# Magic-PDF
+
+## Introduction
+
+Magic-PDF is a tool designed to convert PDF documents into Markdown format, capable of processing files stored locally or on object storage supporting S3 protocol.
+
+Key features include:
+
+- Support for multiple front-end model inputs
+- Removal of headers, footers, footnotes, and page numbers
+- Human-readable layout formatting
+- Retains the original document's structure and formatting, including headings, paragraphs, lists, and more
+- Extraction and display of images and tables within markdown
+- Conversion of equations into LaTeX format
+- Automatic detection and conversion of garbled PDFs
+- Compatibility with CPU and GPU environments
+- Available for Windows, Linux, and macOS platforms
+
+## Getting Started
+
+### Requirements
+
+- Python 3.9 or newer
+
+### Usage Instructions
+
+1. **Install Magic-PDF**
+
+```bash
+pip install magic-pdf[cpu] # Install the CPU version 
+or
+pip install magic-pdf[gpu] # Install the GPU version
+```
+
+2. **Usage via Command Line**
+
+```bash
+magic-pdf --help
+```
+
+## License Information
+
+See [LICENSE.md](https://github.com/magicpdf/Magic-PDF/blob/master/LICENSE.md) for details.
+
+## Acknowledgments
+
+- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
+- [PyMuPDF](https://github.com/pymupdf/PyMuPDF)
