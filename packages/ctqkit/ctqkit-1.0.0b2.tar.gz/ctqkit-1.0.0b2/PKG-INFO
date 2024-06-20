@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: ctqkit
+Version: 1.0.0b2
+Summary: 天衍量子计算云平台 Python SDK
+License: Apache2.0
+Keywords: ctqkit,quantum circuit,quantum computing,quantum programming language,quantum,sdk
+Author: Gao Jianjian
+Author-email: jianjian001@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: matplotlib (>=3.7.5,<4.0.0)
+Requires-Dist: numpy (>=1.26.0,<2.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# CtqKit
+[![License](https://img.shields.io/github/license/Qiskit/qiskit.svg?)](https://opensource.org/licenses/Apache-2.0) <!--- long-description-skip-begin -->
+
+
+CTQit Python SDK
+本项目由国盾量子计算云平台，中电信天衍量子计算云平台，中科院量子创新研究院开发团队联合开发，
+包含新建量子实验、保存量子实验、运行量子实验、查看量子实验结果等多个实验操作接口
+
+## 结构说明
+CTQit Python SDK主要包括以下模块:
++ core--核心模块，定义新建实验、保存实验、运行实验、查看实验结果等接口
++ utils--工具模块，实现了qasm转qcis、qcis转qasm、化简量子电路等功能
++ visualization--可视化模块，实现了可视化量子电路，拓扑图，直方图等功能
++ simulator--模拟器模块，实现了模拟器接口
++ qalgo--算法模块
++ benchmark--算法模块
+
+docs中提供了sphinx文档，其中包含接口说明、使用说明等。
+tests中提供了部分函数的单元测试。
+
+## 安装
+推荐使用 `pip` 安装 ctqkit:
+```bash
+pip install ctqkit
+```
+
+
+## License
+[Apache License 2.0](LICENSE)

@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "ctqkit"
+version = "1.0.0b2"
+description = "天衍量子计算云平台 Python SDK"
+authors = ["Gao Jianjian <jianjian001@outlook.com>"]
+license = "Apache2.0"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: Apache Software License",
+    "Topic :: Software Development :: Libraries"
+]
+keywords = [
+    "ctqkit",
+    "quantum circuit",
+    "quantum computing",
+    "quantum programming language",
+    "quantum",
+    "sdk",
+]
+
+packages = [
+    { include = "ctqkit" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+numpy = "^1.26.0"
+tabulate= "^0.9.0"
+matplotlib= "^3.7.5"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.2"
+pylint = "^3.2.2"
+pre-commit = "^3.7.1"
+
+[project.urls]
+Homepage = "https://qc.zdxlz.com/"
+Documentation = "https://qc.zdxlz.com/learn/#/resource/informationSpace"
+Repository = "https://gitee.com/ctqkit/CtqKit"
+Issues = "https://gitee.com/ctqkit/CtqKit/issues"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
