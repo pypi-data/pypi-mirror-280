@@ -1,0 +1,17 @@
+diced-0.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+diced-0.1.1.dist-info/RECORD,,
+diced-0.1.1.dist-info/WHEEL,sha256=XuCvCdU3jPoWc8zSQt2yCbU0ma4nfvvSGuaFUTARw9I,110
+diced-0.1.1.dist-info/COPYING,sha256=h5RqVLpV4banbEfqJqPqYliCl5_lybNIKvcYI6YCuks,35148
+diced-0.1.1.dist-info/top_level.txt,sha256=wBDcu-ERMVaiIa35asBwMmTSBzXmuEg7OzSMdohydvg,6
+diced-0.1.1.dist-info/METADATA,sha256=gOdRQDq9JyQgiclsItww2a8kxbJrRsLbKi4qWWzyWZA,8929
+diced/lib.pyi,sha256=nqVPHHD-7EHPOxo8b70goxa78pgODSJWKXA8uSObO9k,941
+diced/__init__.py,sha256=OIba-SPOwu7CHpyywXETRkUTuIAZ1-6AcPrmx-T9c5A,206
+diced/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diced/lib.cpython-310-darwin.so,sha256=OOYp4sJEJER-bnnVJgaH6Kje_-7p91mQ4S7MA7eeA4A,605368
+diced/tests/requirements.txt,sha256=gm5ECjSYkWjFAs4CfSzSlKx4gRj2LgJGoOgNU1mKGU8,16
+diced/tests/__init__.py,sha256=_jgc0vnY96N72p0pjz8UqreLkvtg2dCwXPyaMlkHqUE,216
+diced/tests/unittest.rs,sha256=zN1MRe8Ap7W-Y95zZNMVM_ZN_2T0FVCEzskiILzXz94,1467
+diced/tests/test_scan.py,sha256=EhMvty7_0MBq-tlOqYeNt157tlXWPu8Y8mNJx6uFPg0,1083
+diced/tests/test_doctest.py,sha256=uCaWDEMc-BgXUbXxRp74QGpyfRM743fuOxrcBbxEe20,3223
+diced/tests/data/Aquifex_aeolicus_VF5.fna,sha256=vLaDBTFTuL856457ILhlKesWI98Rm5VO6ZD__GanMto,1573566
+diced/tests/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
