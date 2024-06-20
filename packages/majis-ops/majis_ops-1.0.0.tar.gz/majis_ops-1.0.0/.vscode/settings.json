@@ -1,0 +1,20 @@
+{
+    "python.testing.pytestArgs": [
+        "tests",
+        "--no-cov",
+        "-vv",
+        "--color=no"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "cSpell.words": [
+        "funcs",
+        "maxsplit",
+        "openpyxl",
+        "perijove",
+        "Poulet",
+        "xtlm"
+    ],
+    "liveServer.settings.root": "docs/_build/html",
+    "python.testing.pytestPath": ".venv/tests/bin/pytest"
+}

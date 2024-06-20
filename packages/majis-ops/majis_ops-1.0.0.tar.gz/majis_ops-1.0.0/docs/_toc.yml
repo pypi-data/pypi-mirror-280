@@ -1,0 +1,32 @@
+format: jb-book
+root: index
+parts:
+  - caption: 🐍 Python package
+    chapters:
+    - file: notebooks/itl
+      title: ITL reader
+    - file: notebooks/timeline.ipynb
+      title: Timeline
+
+  - caption: 🕹️ Command line interfaces
+    chapters:
+    - file: cli/itl
+      title: majis-itl
+
+  - caption: 📖 API references
+    chapters:
+    - file: api/majis
+      title: majis module
+    - file: api/itl
+      title: majis.itl submodule
+    - file: api/misc
+      title: majis.misc submodule
+
+  - caption: 📚 Resources
+    chapters:
+    - file: CHANGELOG
+      title: Changelog
+    - file: contribute
+      title: Contribute
+    - url: https://pypi.org/project/majis-ops/
+      title: PyPI
