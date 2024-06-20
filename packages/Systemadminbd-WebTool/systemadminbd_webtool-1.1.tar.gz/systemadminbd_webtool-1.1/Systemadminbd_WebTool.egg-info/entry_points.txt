@@ -1,0 +1,2 @@
+[console_scripts]
+systemadminbd-webtool = WebTool.test:async_main

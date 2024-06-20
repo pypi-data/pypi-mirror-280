@@ -1,0 +1,13 @@
+aiohttp
+asyncio
+requests
+colorama
+rich
+lolcat
+tqdm
+termcolor
+fake_useragent
+beautifulsoup4
+chardet
+urllib3
+aiofiles
