@@ -1,0 +1,9 @@
+ruff
+mypy
+invoke
+pre-commit
+pylint
+pytest
+pytest-cov
+pytest-asyncio
+pynmea2

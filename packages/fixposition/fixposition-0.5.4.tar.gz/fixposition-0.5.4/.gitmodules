@@ -1,0 +1,3 @@
+[submodule "submodules/roxbot"]
+	path = submodules/roxbot
+	url = git@github.com:rox-automation/roxbot.git

@@ -1,0 +1,18 @@
+{
+  "template": "https://gitlab.com/roxautomation/templates/python-microservice",
+  "commit": "67d57928f13b6147cd98d6ed0d24283fd4fb149f",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "author_name": "ROX Automation",
+      "author_email": "jev@roxautomation.com",
+      "gitlab_path": "roxautomation/components",
+      "project_name": "fixposition",
+      "project_slug": "fixposition",
+      "package_name": "fixposition",
+      "project_short_description": "Python driver for fixposition gps",
+      "_template": "https://gitlab.com/roxautomation/templates/python-microservice"
+    }
+  },
+  "directory": null
+}
