@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+sphereoverburden.egg-info/PKG-INFO
+sphereoverburden.egg-info/SOURCES.txt
+sphereoverburden.egg-info/dependency_links.txt
+sphereoverburden.egg-info/entry_points.txt
+sphereoverburden.egg-info/requires.txt
+sphereoverburden.egg-info/top_level.txt
