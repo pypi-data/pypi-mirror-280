@@ -1,0 +1,5 @@
+setup.py
+che_edu.egg-info/PKG-INFO
+che_edu.egg-info/SOURCES.txt
+che_edu.egg-info/dependency_links.txt
+che_edu.egg-info/top_level.txt
