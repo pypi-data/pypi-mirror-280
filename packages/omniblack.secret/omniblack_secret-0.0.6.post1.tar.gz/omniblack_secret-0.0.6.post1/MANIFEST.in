@@ -1,0 +1,3 @@
+include cflags.py
+include src/*.c
+include include/*.h
