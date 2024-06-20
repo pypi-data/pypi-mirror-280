@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: multidaq
+Version: 0.0.2
+Summary: Python interface to biovision digitizers
+Author-email: Tantor GmbH <info@tantor.de>
+Project-URL: Homepage, https://github.com/biodaq/biovision
+Project-URL: Bug Reports, https://github.com/biodaq/biovision/issues
+Project-URL: Source, https://github.com/biodaq/biovision/share/python/
+Keywords: digitizer,biomechanics,driver
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: System :: Hardware :: Hardware Drivers
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# Python Package for biovision digitzer
+
+we are working on documentation.
