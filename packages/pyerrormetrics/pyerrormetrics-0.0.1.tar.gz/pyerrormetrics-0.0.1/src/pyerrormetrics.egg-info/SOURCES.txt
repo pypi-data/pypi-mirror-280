@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/pyerrormetrics/__init__.py
+src/pyerrormetrics/error_metrics.py
+src/pyerrormetrics/error_quotient.py
+src/pyerrormetrics/repeated_error_density.py
+src/pyerrormetrics/watwin.py
+src/pyerrormetrics.egg-info/PKG-INFO
+src/pyerrormetrics.egg-info/SOURCES.txt
+src/pyerrormetrics.egg-info/dependency_links.txt
+src/pyerrormetrics.egg-info/not-zip-safe
+src/pyerrormetrics.egg-info/requires.txt
+src/pyerrormetrics.egg-info/top_level.txt
