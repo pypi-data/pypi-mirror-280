@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyqueue_test
+Version: 0.0.1
+Summary: Test to make my own queue class
+Author: Torak Schoorens/enigma_ZER0
+Author-email: torak.schoorens@gmail.com
+Keywords: python3,first package,experiment
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Other Audience
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/plain
+
+
+A procrastination effort,
+i might add features in the future if i think of any.
+But this was mostly a way for me to explore the Python Package envirement and experiment.
