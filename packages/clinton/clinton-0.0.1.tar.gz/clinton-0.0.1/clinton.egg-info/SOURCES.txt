@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+Clinton/__init__.py
+Clinton/functions/__init__.py
+Clinton/functions/function01.py
+Clinton/scripts/__init__.py
+Clinton/scripts/script01.py
+clinton.egg-info/PKG-INFO
+clinton.egg-info/SOURCES.txt
+clinton.egg-info/dependency_links.txt
+clinton.egg-info/requires.txt
+clinton.egg-info/top_level.txt
