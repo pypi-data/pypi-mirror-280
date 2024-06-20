@@ -1,0 +1,2 @@
+[console_scripts]
+copier_tools = copier_tools:EntryPoint.app
