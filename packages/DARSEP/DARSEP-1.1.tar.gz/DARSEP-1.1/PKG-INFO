@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: DARSEP
+Version: 1.1
+Summary: Variation and evolution analysis of SARS-CoV-2 using self-game sequence optimization
+Home-page: https://github.com/zjhubio/DARSEP
+Author: lizhong
+Author-email: lizhong@zjhu.edu.cn
+License: NONE
