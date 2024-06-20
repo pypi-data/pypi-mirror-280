@@ -1,0 +1,5 @@
+requests
+pycoin
+cryptos
+cbors
+secp256k1
