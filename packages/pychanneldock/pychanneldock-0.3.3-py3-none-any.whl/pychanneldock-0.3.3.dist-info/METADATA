@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pychanneldock
+Version: 0.3.3
+Author: Hango Bogdan
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+
