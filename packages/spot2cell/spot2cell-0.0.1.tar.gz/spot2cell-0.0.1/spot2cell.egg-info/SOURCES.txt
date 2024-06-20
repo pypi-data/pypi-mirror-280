@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+spot2cell/__init__.py
+spot2cell/logger.py
+spot2cell/spot2cell.py
+spot2cell/version.py
+spot2cell.egg-info/PKG-INFO
+spot2cell.egg-info/SOURCES.txt
+spot2cell.egg-info/dependency_links.txt
+spot2cell.egg-info/entry_points.txt
+spot2cell.egg-info/requires.txt
+spot2cell.egg-info/top_level.txt
+spot2cell/scripts/spots2cells.py
+tests/test_spot2cell.py

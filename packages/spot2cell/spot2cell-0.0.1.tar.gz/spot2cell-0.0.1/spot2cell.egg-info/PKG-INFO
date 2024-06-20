@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: spot2cell
+Version: 0.0.1
+Summary: From a X,Y list of detected spots, assigns each spot to a cell based on a segmentation mask
+Author-email: "Miguel A. Ibarra-Arellano" <c180l058j@mozmail.com>
+License: AGPL-3.0-or-later
+Project-URL: Repository, https://github.com/SchapiroLabor/spot2cell
+Project-URL: Homepage, https://github.com/SchapiroLabor/spot2cell
+Project-URL: Issues, https://github.com/SchapiroLabor/spot2cell/issues
+Keywords: cell,mask,spots,FISH,Xenium
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: tiffile
+
+# spot2cell
+[![PyPI](https://img.shields.io/pypi/v/spot2cell?style=flat-square)](https://pypi.org/project/spot2cell/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/spot2cell?style=flat-square)](https://pypi.org/project/spot2cell/)
+[![PyPI - License](https://img.shields.io/pypi/l/spot2cell?style=flat-square)](https://pypi.org/project/spot2cell/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/spot2cell?style=flat-square)](https://pypi.org/project/spot2cell/)
+[![main](https://github.com/saezlab/liana-py/actions/workflows/main.yml/badge.svg)](https://github.com/schapirolabor/spot2cell/actions)
+
+This tool assigns single-molecule detected spots to their respective cells in a tissue. It is designed to work with single-molecule FISH data technologies, but can be used with other types of data as well.
+
+## Installation
+
+```bash
+pip install spot2cell
+```
+
+## Docker
+Build Docker image from Dockerfile
+```bash
+docker build -t spot2cell .
+```
+## CLI
+
+```bash
+spot2cell --help
+```
