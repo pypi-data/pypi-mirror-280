@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+SunoAI.egg-info/PKG-INFO
+SunoAI.egg-info/SOURCES.txt
+SunoAI.egg-info/dependency_links.txt
+SunoAI.egg-info/requires.txt
+SunoAI.egg-info/top_level.txt
+suno/__init__.py
+suno/models.py
+suno/suno.py
+suno/utils.py
