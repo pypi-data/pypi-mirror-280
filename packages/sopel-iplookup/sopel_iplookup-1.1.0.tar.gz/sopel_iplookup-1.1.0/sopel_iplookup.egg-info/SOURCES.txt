@@ -1,0 +1,14 @@
+LICENSE.txt
+NEWS
+README.rst
+pyproject.toml
+setup.cfg
+sopel_iplookup/__init__.py
+sopel_iplookup/config.py
+sopel_iplookup/plugin.py
+sopel_iplookup.egg-info/PKG-INFO
+sopel_iplookup.egg-info/SOURCES.txt
+sopel_iplookup.egg-info/dependency_links.txt
+sopel_iplookup.egg-info/entry_points.txt
+sopel_iplookup.egg-info/requires.txt
+sopel_iplookup.egg-info/top_level.txt
