@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: consolidate
+Version: 0.1
+Summary: A Python library for generating a list of strings with every possible combination of placements of a given character (or a zero-width non joiner by default) within another given string, up to a given maximum length of characters. Returns a list sorted alphabetically, and includes helper functions as well. 
+
