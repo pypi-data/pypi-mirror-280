@@ -1,0 +1,150 @@
+Metadata-Version: 2.1
+Name: lexy
+Version: 0.0.2
+Summary: Data pipelines for AI applications.
+Home-page: https://getlexy.com
+License: Apache 2.0
+Author: Reza Shabani
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: all
+Provides-Extra: lexy-transformers
+Provides-Extra: tests
+Requires-Dist: Pillow (>=10.0.1,<11.0.0)
+Requires-Dist: asgi-lifespan (>=2.1.0,<3.0.0) ; extra == "tests" or extra == "all"
+Requires-Dist: asyncpg (>=0.28.0,<0.29.0)
+Requires-Dist: awscli (>=1.32.4,<2.0.0)
+Requires-Dist: boto3 (>=1.34.4,<2.0.0)
+Requires-Dist: celery (>=5.3.4,<6.0.0)
+Requires-Dist: fastapi (>=0.109.0,<1.0.0)
+Requires-Dist: flower (>=2.0.1,<3.0.0)
+Requires-Dist: google-cloud-storage (>=2.16.0,<3.0.0)
+Requires-Dist: greenlet (>=2.0.2) ; extra == "tests" or extra == "all"
+Requires-Dist: httpx (>=0.24.1,<0.25.0)
+Requires-Dist: openai (>=1.7.1,<2.0.0) ; extra == "lexy-transformers" or extra == "all"
+Requires-Dist: passlib[bcrypt] (>=1.7.4,<2.0.0)
+Requires-Dist: pgvector (>=0.2.5,<0.3.0)
+Requires-Dist: psycopg2-binary (>=2.9.7,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.2.1,<3.0.0)
+Requires-Dist: pydantic[email] (>=2.6.4,<3.0.0)
+Requires-Dist: pytest (>=7.4.1,<8.0.0) ; extra == "tests" or extra == "all"
+Requires-Dist: pytest-asyncio (>=0.21.1,<0.22.0) ; extra == "tests" or extra == "all"
+Requires-Dist: pytest-celery (>=0.0.0,<0.0.1) ; extra == "tests" or extra == "all"
+Requires-Dist: pytest-env (>=1.1.3,<2.0.0) ; extra == "tests" or extra == "all"
+Requires-Dist: pytest-httpx (>=0.24.0,<0.25.0) ; extra == "tests" or extra == "all"
+Requires-Dist: pytest-mock (>=3.11.1,<4.0.0) ; extra == "tests" or extra == "all"
+Requires-Dist: python-jose[cryptography] (>=3.3.0,<4.0.0)
+Requires-Dist: python-multipart (>=0.0.6,<0.0.7)
+Requires-Dist: sentence-transformers (>=2.2.2,<3.0.0) ; extra == "lexy-transformers" or extra == "all"
+Requires-Dist: sqlalchemy (>=2.0.29,<3.0.0)
+Requires-Dist: sqlmodel (>=0.0.16,<0.0.17)
+Requires-Dist: transformers[torch] (>=4.33.1,<5.0.0) ; extra == "lexy-transformers" or extra == "all"
+Requires-Dist: uvicorn (>=0.23.2,<0.24.0)
+Requires-Dist: watchdog (>=4.0.0,<5.0.0)
+Project-URL: Repository, https://github.com/lexy-ai/lexy
+Description-Content-Type: text/markdown
+
+# Lexy
+
+Welcome to Lexy!
+ 
+## Development
+
+### Clone the repo
+
+```Shell
+git clone https://github.com/lexy-ai/lexy.git
+```
+
+### Install dependencies
+
+Lexy requires Python 3.11 or greater. You can check your Python version by running `python3 --version`.
+
+First create a virtual environment and install the dependencies.
+
+```Shell
+# Change to the lexy directory
+cd lexy
+# Create a virtualenv
+python3 -m venv venv 
+source venv/bin/activate
+```
+
+Then run the following to install the dev dependencies and build your docker containers.
+
+```Shell
+# Install dev dependencies
+make install-dev
+# Build docker containers
+make build-dev
+```
+
+### Where to find services
+
+| Service      | URL                        | Notes                                                         |
+|--------------|----------------------------|---------------------------------------------------------------|
+| Lexy API     | http://localhost:9900/docs | Swagger API docs                                              |
+| Flower       | http://localhost:5556      | Celery task monitor                                           |
+| RabbitMQ     | http://localhost:15672     | Username: `guest`, Password: `guest`                          |
+| Postgres     | http://localhost:5432      | Database: `lexy`, Username: `postgres`, Password: `postgres`  |
+| Project docs | http://localhost:8000      | Run `make serve-docs`<br/>Username: `lexy`, Password: `guest` |
+
+### Configuring AWS
+
+In order to upload and store files to Lexy, you'll need to configure AWS. You can use `aws configure` (recommended) or 
+put `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` in your `.env` file.
+
+You'll also need to specify an S3 bucket for file storage (for which your AWS credentials should have full access). 
+You can do so by adding `DEFAULT_STORAGE_BUCKET=<name-of-your-S3-bucket>` to your `.env` file. Remember to rebuild your 
+dev containers for the change to take effect (run `make rebuild-dev-containers` on the command line).
+
+### Using OpenAI transformers
+
+To use OpenAI embeddings in Lexy, you'll need to set the `OPENAI_API_KEY` environment variable. You can do so by adding 
+the following to your `.env` file:
+
+```Shell
+OPENAI_API_KEY=<your-openai-api-key>
+```
+
+Do this before building your docker containers. Or, if you've already run `docker compose up`, you can run the 
+following to rebuild the server and worker containers.
+
+```shell
+# Rebuild the server and worker containers
+make rebuild-dev-containers
+```
+
+### Run the Dashboard
+
+Lexy comes with a built-in dashboard to visualize pipelines. See [the dashboard README](./dashboard/README.md) for more details.
+
+To start the dashboard, run:
+
+```shell
+cd dashboard
+npm install
+npm run dev
+```
+
+### PyCharm issues
+
+If your virtualenv keeps getting bjorked by PyCharm, make sure that you're following the instructions above verbatim, 
+and using `venv` instead of `.venv` for the path of your virtual environment.
+
