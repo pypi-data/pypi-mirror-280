@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: aanalyticsact-1
+Version: 0.0.1.53
+Summary: adobe analytics library for Team ACT
+Home-page: https://github.com/YK124/Glory-s
+Author: Youngkwang Cho
+Author-email: youngkwang.cho@gmail.com
+Keywords: adobe,analytics,api
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.12
+Requires-Dist: aanalytics2
+Requires-Dist: pymysql
+Requires-Dist: aanalyticsactauth
+Requires-Dist: pandas
