@@ -1,0 +1,14 @@
+
+[dev]
+pre-commit
+ruff
+black
+mypy
+
+[test]
+pytest
+pytest-cov
+pyyaml
+dummy-notebookutils
+mocker
+pytest-mock
