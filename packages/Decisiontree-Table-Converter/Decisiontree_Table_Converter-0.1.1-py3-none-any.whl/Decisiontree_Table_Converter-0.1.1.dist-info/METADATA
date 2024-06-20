@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: Decisiontree-Table-Converter
+Version: 0.1.1
+Summary: Convert decision trees into decision tables
+Home-page: https://github.com/bariscolaak/DecisionTreeTableConverter
+Author: Barican Colak
+Author-email: bariscolak9277@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+
