@@ -1,0 +1,3 @@
+[console_scripts]
+lockey=lockey.main:main
+
