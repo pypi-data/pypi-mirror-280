@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.py
+.vscode/settings.json
+packages/some_pd_tools/__init__.py
+packages/some_pd_tools/pd_compare.py
+packages/some_pd_tools/pd_format.py
+packages/some_pd_tools.egg-info/PKG-INFO
+packages/some_pd_tools.egg-info/SOURCES.txt
+packages/some_pd_tools.egg-info/dependency_links.txt
+packages/some_pd_tools.egg-info/requires.txt
+packages/some_pd_tools.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+pandas>=2
+
+[dev]
+pytest
+twine
