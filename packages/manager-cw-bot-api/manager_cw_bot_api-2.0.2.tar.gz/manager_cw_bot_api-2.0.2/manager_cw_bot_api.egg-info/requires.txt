@@ -1,0 +1,4 @@
+PyMySQL
+pyTelegramBotAPI==4.19.2
+requests
+Pillow
