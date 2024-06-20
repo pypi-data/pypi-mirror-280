@@ -1,0 +1,32 @@
+[project]
+name = "robotframework-browser-tray"
+version = "1.4.0"
+description = "Tray icon and REPL for trying out Browser Library keywords using Chromium or Edge"
+authors = [
+    {name = "Marduk Bolaños", email = "marduk.bolanos@imbus.de"},
+]
+urls = { homepage = "https://github.com/mardukbp/robotframework-browser-tray" }
+
+dependencies = [
+    "pystray>=0.19.5",
+    "robotframework-browser>=18.0.0",
+    "robotframework-debug>=4.5.0",
+]
+requires-python = ">=3.8.2"
+readme = "README.md"
+license = {text = "Apache 2.0"}
+
+[tool.flit.module]
+name = "BrowserTray"
+
+[project.scripts]
+browser-tray = "BrowserTray.tray:run"
+ibrowser = "BrowserTray.Repl.repl:run"
+
+[build-system]
+requires = ["flit_core>=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+
+[tool.pdm]
+distribution = true
