@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+cflags.py
+pyproject.toml
+setup.py
+include/secret.h
+omniblack.secret.egg-info/PKG-INFO
+omniblack.secret.egg-info/SOURCES.txt
+omniblack.secret.egg-info/dependency_links.txt
+omniblack.secret.egg-info/top_level.txt
+src/mod.c
+src/password.c
+src/secret.c
