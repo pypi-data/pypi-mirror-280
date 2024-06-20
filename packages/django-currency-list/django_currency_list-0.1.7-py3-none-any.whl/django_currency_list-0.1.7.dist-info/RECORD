@@ -1,0 +1,10 @@
+currency_list/__init__.py,sha256=j7lX8RbvtI-TzhxwB8Nr7fKGoADavWDLWbxlBgTVVck,494
+currency_list/apps.py,sha256=ShxlxRfAEVYHxDNoddph37FZsPTJkuVMWToLb_MzyTI,157
+currency_list/core.py,sha256=KlqCSgnnN_MBBNrBsyMrCRhotvbDomJl8wMMu6EP2N4,6728
+currency_list/fields.py,sha256=ILCLJwziGqbskhgwJmFJuohAKWcV0yA-elR7J70-T5c,807
+currency_list/test_core.py,sha256=Px2JmMeWkxgP5sGZ0XvsgI3IoyVxgttlZbXy0C_Yzb8,12973
+django_currency_list-0.1.7.dist-info/LICENSE,sha256=PMhgNlLqJAI8lyER-dpVC5XYXEKGp16M4iKxqN87E9s,1070
+django_currency_list-0.1.7.dist-info/METADATA,sha256=Iv67mxEU1b4OWUq7uef2wa62pP7IvOjlPW3JQPEONtU,727
+django_currency_list-0.1.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_currency_list-0.1.7.dist-info/top_level.txt,sha256=nqkMe65wDrmtuC6N-Ywfg7ZcXlO-4cRf8ZM-wIrX-_0,14
+django_currency_list-0.1.7.dist-info/RECORD,,
