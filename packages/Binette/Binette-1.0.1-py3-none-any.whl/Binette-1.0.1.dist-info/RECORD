@@ -1,0 +1,14 @@
+binette/__init__.py,sha256=bMIenWosteoeUs51RbaWVZetIuzRhWymuyy-n0rfK0I,21
+binette/bin_manager.py,sha256=HztDwU9g-07GvBxiudooXlgZE1V0k1h5Kb72VzN4lNM,15327
+binette/bin_quality.py,sha256=pZlklezDBj_M41OZEHedTv2P90R8eWmy3WDy3HFBXyg,11466
+binette/cds.py,sha256=Pl5Bjjuqbfk4SKgPkN6eiOCCsIQUmxtGqFicksJzO70,5658
+binette/contig_manager.py,sha256=Z2aZjNmdOpfjaxLGgeB0_pH0wPMaQVDju6sGzELnSwY,1412
+binette/diamond.py,sha256=-LPgRq4q3NIBWPqHNnD_Ma-R4YFiTBahjUlI_mVBQNA,4195
+binette/io_manager.py,sha256=c6VlRTTnaQKhNjEu2w9Q8lbOjI6G2MSCw1iAaTKSY30,4997
+binette/main.py,sha256=pszwXESWI8SZhyky0UKrUAMy2iPwcOsNKnLCIYTiwVM,15307
+Binette-1.0.1.dist-info/LICENSE,sha256=I6bNXsIfhsqNX_ol6hAvEj1slvaV4rii3B2_qXQ_PZs,1069
+Binette-1.0.1.dist-info/METADATA,sha256=7WkwmGNkwkpLJ8xP9VoobaqdR7mXAYVb4QKNff3yAVI,10027
+Binette-1.0.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+Binette-1.0.1.dist-info/entry_points.txt,sha256=rFEf0jLsLSuq617uexzg1oWqZEqVoa-0lXWYivIQRUs,46
+Binette-1.0.1.dist-info/top_level.txt,sha256=eqSc_eGZNW-EZZuJOUn0ExYPzFdYmT4-39xa0qJjfPk,8
+Binette-1.0.1.dist-info/RECORD,,
