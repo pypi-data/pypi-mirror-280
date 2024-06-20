@@ -1,0 +1,138 @@
+Metadata-Version: 2.1
+Name: fabric-fast-start
+Version: 0.1.0
+Summary: Fabric Fast Start is a set of tools to help you get started with Fabric.
+Author-email: Serge Artishev <serge.artishev@fusion5.co.nz>
+Maintainer-email: Serge Artishev <serge.artishev@fusion5.co.nz>
+License: MIT License
+        
+        Copyright (c) 2024 Fusion5
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/f5serge/fabric-fast-start
+Project-URL: Issues, https://github.com/f5serge/fabric-fast-start/issues
+Project-URL: Contributing, https://github.com/f5serge/fabric-fast-start/pulls
+Project-URL: Releases, https://github.com/f5serge/fabric-fast-start/releases
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pyyaml ; extra == 'test'
+Requires-Dist: dummy-notebookutils ; extra == 'test'
+Requires-Dist: mocker ; extra == 'test'
+Requires-Dist: pytest-mock ; extra == 'test'
+
+# Python package template
+
+This is a template repository for any Python package that comes with the following dev tools:
+
+* `ruff`: identifies many errors and style issues (`flake8`, `isort`, `pyupgrade`)
+* `black`: auto-formats code
+* `mypy`: static type checker
+
+Those checks are run as pre-commit hooks using the `pre-commit` library.
+
+It includes `pytest` for testing plus the `pytest-cov` plugin to measure coverage.
+
+The checks and tests are all run using Github actions on every pull request and merge to main.
+
+This repository is setup for Python 3.12. To change the version:
+
+1. Change the `image` argument in `.devcontainer/devcontainer.json` (see [https://github.com/devcontainers/images/tree/main/src/python](https://github.com/devcontainers/images/tree/main/src/python#configuration) for a list of pre-built Docker images)
+1. Change the config options in `.precommit-config.yaml`
+1. Change the config options in `.pyproject.toml`
+1. Change the version number in `.github/workflows/`
+
+## Development instructions
+
+## With devcontainer
+
+This repository comes with a devcontainer (a Dockerized Python environment). If you open it in Codespaces, it should automatically initialize the devcontainer.
+
+Locally, you can open it in VS Code with the Dev Containers extension installed.
+
+## Without devcontainer
+
+If you can't or don't want to use the devcontainer, then you should first create a virtual environment:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+Then install the dev tools and pre-commit hooks:
+
+```bash
+python3 -m pip install -e '.[dev]'
+pre-commit install
+```
+
+## Adding code and tests
+
+This repository starts with a very simple `main.py` and a test for it at `tests/test_main_module.py`.
+You'll want to replace that with your own code, and you'll probably want to add additional files
+as your code grows in complexity.
+
+When you're ready to run tests, run:
+
+```bash
+python3 -m pytest
+```
+
+## File breakdown
+
+Here's a short explanation of each file/folder in this template:
+
+* `.devcontainer`: Folder containing files used for setting up a devcontainer
+  * `devcontainer.json`: File configuring the devcontainer, includes VS Code settings
+* `.github`: Folder for Github-specific files and folders
+  * `workflows`: Folder containing Github actions config files
+* `tests`: Folder containing Python tests
+  * `test_main_module.py`: File with pytest-style tests of main.py
+* `.gitignore`: File describing what file patterns Git should never track
+* `.pre-commit-config.yaml`: File listing all the pre-commit hooks and args
+* `src`: Folder containing the source files for your Python package.
+  * `fabric-fast-start`: Folder containing the package.
+    * `py.typed`: File to force mypy to analyze package types.
+    * `__init__.py`: File to specify that this is a Python module.
+    * `main.py`: The main (and currently only) Python file for the program.
+* `CHANGELOG.md`: File to log the significant changes to the package between releases.
+* `pyproject.toml`: File configuring most of the Python dev tools
+* `README.md`: You're reading it!
+
+## 🔎 Found an issue or have an idea for improvement?
+
+Help me make this template repository better by letting me know and opening an issue!
