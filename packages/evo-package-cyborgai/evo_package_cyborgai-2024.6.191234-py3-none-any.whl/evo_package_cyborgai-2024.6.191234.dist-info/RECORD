@@ -1,0 +1,12 @@
+LICENSE.txt,sha256=ZVUH_vFhgRqW3APJ6oxDn-dyS5eSTwaKFxicMTFJCbo,13564
+evo_package_cyborgai/__init__.py,sha256=WlTbglvwXelm9vHo7RS1deldLzn95R6aMsL30iCfEko,127
+evo_package_cyborgai/automation/api.yaml,sha256=DpTgULr7ryDkBFwQncDo2BV32kdDRHEfgN7Y8kj-jS0,800
+evo_package_cyborgai/automation/entity.yaml,sha256=pTd0qKYLDe9icqVotWK_9oQlG5pO0zTgzGG2hlTAm3A,952
+evo_package_cyborgai/automation/tests.yaml,sha256=6mQQYbSzGPTetJV96-EaDSeveokjRXvE128PYQD0uSg,485
+evo_package_cyborgai/utility/IuCyborgai.py,sha256=PeBcbIwKWdFyTVDOUsJuljeZOZJEryg6XWDudNJR4_E,944
+evo_package_cyborgai/utility/UCyborgai.py,sha256=2eARpdVrmGpCVudYOT8Exw9euL30gObdBldm8aSl7Ug,1736
+evo_package_cyborgai/utility/__init__.py,sha256=7FxPShhfqs02CKy-NWt_pva5aSuZS6qX1OJqXBvnDcE,123
+evo_package_cyborgai-2024.6.191234.dist-info/LICENSE.txt,sha256=ZVUH_vFhgRqW3APJ6oxDn-dyS5eSTwaKFxicMTFJCbo,13564
+evo_package_cyborgai-2024.6.191234.dist-info/METADATA,sha256=xo-FAn-eiouvMmkXM466dBUBwhbPu-90sbj383zxLVo,1451
+evo_package_cyborgai-2024.6.191234.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+evo_package_cyborgai-2024.6.191234.dist-info/RECORD,,

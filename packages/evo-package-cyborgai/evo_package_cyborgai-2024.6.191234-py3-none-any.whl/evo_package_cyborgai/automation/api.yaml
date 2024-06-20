@@ -1,0 +1,19 @@
+#========================================================================================================================================
+# CyborgAI CC BY-NC-ND 4.0 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 Internation    https://github.com/cyborg-ai-git | 
+#========================================================================================================================================
+
+# VALID TYPE FOR INPUT/OUTPUT:
+#   EOBJECT EOBJECT_CLASS
+
+package: evo_package_cyborgai
+
+control:
+  CCyborgaiApi:
+    _DOC_: "CCyborgaiApi description"
+    
+    cyborgai-api0:
+      isStream : false
+      description: "cyborgai-api0 description"
+      callback: onApi0
+      input: EOBJECT evo_package_cyborgai.ECyborgaiInput
+      output: EOBJECT evo_package_cyborgai.ECyborgaiOutput
