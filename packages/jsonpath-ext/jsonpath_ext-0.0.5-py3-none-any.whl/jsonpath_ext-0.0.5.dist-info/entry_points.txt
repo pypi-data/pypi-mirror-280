@@ -1,0 +1,2 @@
+[console_scripts]
+jsonpath-ext = src.jsonpath_ext.cli:main
