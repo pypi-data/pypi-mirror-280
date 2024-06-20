@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: oira.statistics.tools
+Version: 1.0.0
+Summary: Statistics tools for OSHA OiRA
+Home-page: http://www.oira.osha.europa.eu/
+Author: syslab.com
+Author-email: info@syslab.com
+License: GPL
+Keywords: euphorie osha oira
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: 5.2
+Classifier: Framework :: Plone :: 6.0
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE.txt
+Requires-Dist: osha.oira
+Requires-Dist: oira.statistics.deployment
+Requires-Dist: setuptools
+Provides-Extra: tests
+Requires-Dist: alchemy-mock ; extra == 'tests'
+
+Statistics tools for OSHA OiRA
+
+Changelog
+=========
+
+1.0.0 (2024-06-19)
+------------------
+
+
+* Initial release
