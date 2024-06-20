@@ -1,0 +1,52 @@
+[project]
+name = "pychronicles"
+version = "0.1.3"
+description = "A package for chronicle recognition"
+authors = [
+  {name = "Thomas Guyet", email = "thomas.guyet@inria.fr"},
+]
+maintainers = [
+  {name = "Thomas Guyet", email = "thomas.guyet@inria.fr"}
+]
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent", 
+]
+keywords = ["data analysis", "pattern", "timed sequence", "temporal data"]
+
+license = {file = "LICENCE.txt"}
+
+dependencies=[
+    "pandas>=1.5.1",
+    "numpy>=1.23.4",
+    "scipy>=1.9.3",
+    "lazr.restfulclient>=0.14.5",
+    "lazr.uri>=1.0.6",
+    "typing-extensions>=4.4.0",
+    "metric-temporal-logic>=0.4.0",
+    "lark>=1.1.4",
+    "multiset>=3.0.1",
+]
+
+[project.optional-dependencies]
+build = [
+    "build",
+    "twine"
+]
+dev = ["pytest"]
+
+[project.urls]
+homepage = "https://gitlab.inria.fr/tguyet/pychronicles"
+documentation = "https://tguyet.gitlabpages.inria.fr/pychronicles/"
+repository = "https://gitlab.inria.fr/tguyet/pychronicles"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["pychronicles"]

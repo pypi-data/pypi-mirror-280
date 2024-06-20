@@ -1,0 +1,16 @@
+pandas>=1.5.1
+numpy>=1.23.4
+scipy>=1.9.3
+lazr.restfulclient>=0.14.5
+lazr.uri>=1.0.6
+typing-extensions>=4.4.0
+metric-temporal-logic>=0.4.0
+lark>=1.1.4
+multiset>=3.0.1
+
+[build]
+build
+twine
+
+[dev]
+pytest
