@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: lexy-py
+Version: 0.0.2
+Summary: A Python client for Lexy. Lexy is a data framework for building AI applications.
+License: Apache 2.0
+Author: Reza Shabani
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Pillow (>=10.0.1,<11.0.0)
+Requires-Dist: httpx (>=0.24.1,<0.25.0)
+Requires-Dist: pydantic (>=2.0.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Lexy Python SDK
+
+This is the Python SDK for Lexy.
+
+## Usage
+
+### Initiate client
+
+```python
+from lexy_py import LexyClient
+
+lexy = LexyClient()
+```
+
+### Add documents
+
+```python
+lexy.add_documents([
+    {"content": "This is a test document"},
+    {"content": "This is another one!"},
+])
+```
+
+### Query index
+
+```python
+lexy.query_index("test query", index_id="default_text_embeddings", k=5)
+```
+
+## Testing
+
+```bash
+pytest sdk-python
+```
+

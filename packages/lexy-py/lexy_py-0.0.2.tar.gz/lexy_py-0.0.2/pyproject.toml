@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "lexy-py"
+version = "0.0.2"
+description = "A Python client for Lexy. Lexy is a data framework for building AI applications."
+authors = ["Reza Shabani"]
+license = "Apache 2.0"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Database",
+    "Topic :: Database :: Database Engines/Servers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+httpx = "^0.24.1"
+pydantic = ">=2.0.0,<3.0.0"
+Pillow = "^10.0.1"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.1"
+pytest-asyncio = "^0.21.1"
+pytest-httpx = "^0.24.0"
+pytest-mock = "^3.11.1"
+
+[build-system]
+requires = ["poetry>=1.2"]
+build-backend = "poetry.core.masonry.api"
