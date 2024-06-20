@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+setup.py
+scTail/__init__.py
+scTail/version.py
+scTail.egg-info/PKG-INFO
+scTail.egg-info/SOURCES.txt
+scTail.egg-info/dependency_links.txt
+scTail.egg-info/entry_points.txt
+scTail.egg-info/requires.txt
+scTail.egg-info/top_level.txt
+scTail/bin/__init__.py
+scTail/bin/callPeak.py
+scTail/bin/count.py
+scTail/bin/peakMerge.py
+scTail/bin/scTail_main.py
