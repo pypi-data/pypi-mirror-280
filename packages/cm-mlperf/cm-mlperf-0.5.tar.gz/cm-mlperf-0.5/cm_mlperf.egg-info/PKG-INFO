@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: cm-mlperf
+Version: 0.5
+Summary: CM interface to prepare and run MLPerf inference benchmarks
+License: Apache Software License (Apache 2.0)
+Project-URL: Homepage, https://access.cKnowledge.org
+Project-URL: Source, https://github.com/mlcommons/cm4mlops
+Keywords: cmind,cm_mlperf,cm4mlperf,automation,portability,modularity,cknowledge,ctuning,mlcommons,mlperf
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Software Development
+Classifier: Topic :: System
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CM interface to prepare and run MLPerf inference benchmarks
+
+* You can learn more about MLPerf inference benchmark [here](https://github.com/mlcommons/inference).
+* You can learn more about CM automation framework [here](https://doi.org/10.5281/zenodo.8105339).
