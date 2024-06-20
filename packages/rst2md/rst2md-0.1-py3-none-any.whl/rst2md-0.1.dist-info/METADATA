@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: rst2md
+Version: 0.1
+Summary: A utility and library to convert a reStructuredText document to Markdown.
+Author-email: Stephen Finucane <stephen@that.guru>
+Requires-Python: >= 3.9
+Requires-Dist: docutils
+Project-URL: Home, https://github.com/stephenfin/rst2md
