@@ -1,0 +1,10 @@
+dagpipe/__init__.py,sha256=dGmilE6kFgZxTZ5K2ntk67YB03ZiCfY4u7Iy10B6mNc,1322
+dagpipe/pipeline.py,sha256=kXnxI_eouqbL1wl2cpgewLo5gV_Y9aRzf1pTGhwuM9k,7888
+dagpipe/task_core.py,sha256=-qEufF64ZPUVKui_3u-f6WYupvqIM7yE2ItbBOg89EE,9783
+dagpipe/task_decorators.py,sha256=VIMAPwI2f6oZVrPahZ8zJL2-c-Bezj_nFYliW5QlOkE,1897
+dagpipe/visualization.py,sha256=3WvbqSGh6tDhNwsVvXgKvpXe01TEXOjEr96JrmMxbqw,3046
+dagpipe-0.2.8.dist-info/LICENCE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+dagpipe-0.2.8.dist-info/METADATA,sha256=wetk59jnEBYP0Q27apCXG4UPRjwfarb3DJKF3fXnZkw,11308
+dagpipe-0.2.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dagpipe-0.2.8.dist-info/top_level.txt,sha256=rmDDITGvLrRcwKszrPQfm4X_LH7vQrq-Dcn5N54zgWQ,8
+dagpipe-0.2.8.dist-info/RECORD,,
