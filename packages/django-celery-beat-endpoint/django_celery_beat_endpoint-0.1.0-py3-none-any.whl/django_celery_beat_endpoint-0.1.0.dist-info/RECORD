@@ -1,0 +1,11 @@
+django_celery_beat_endpoint/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+django_celery_beat_endpoint/beat.py,sha256=XdpXFIxsGDQBfv0IiUJqxPEUdKaAnY36MkiEJI7PLSQ,2793
+django_celery_beat_endpoint/celery.py,sha256=d0600Z1_9AnDDttEAlLYvHfb3dTL5EFDt3jPw_oKx-8,412
+django_celery_beat_endpoint/defaults.py,sha256=6CEwslAXVLk7183XeoR3wSTEg-UMeTjp0tTyEsm-rAY,184
+django_celery_beat_endpoint/backends/__init__.py,sha256=zgPOwh5Nj5dovtOZdsDrV7WCVgrfZT3VVAEEUz4_N-U,56
+django_celery_beat_endpoint/backends/base.py,sha256=XK2Gfx_y0vHquV69FofVWyYMDbfejSoxShhE4TNZgNE,2047
+django_celery_beat_endpoint-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+django_celery_beat_endpoint-0.1.0.dist-info/METADATA,sha256=2dfArD4iDvr2sfWqe8Zxdvil6lo_lMCpj_1Fk06t7To,4003
+django_celery_beat_endpoint-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_celery_beat_endpoint-0.1.0.dist-info/top_level.txt,sha256=Us8xuDXSAivVxD-BFpiKxyhzSS_a9bqyTkdaY78fPyU,28
+django_celery_beat_endpoint-0.1.0.dist-info/RECORD,,
