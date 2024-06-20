@@ -1,0 +1,7 @@
+LICENSE
+pyproject.toml
+src/engineDuplicate.py
+src/python_pptx_duplication_slide.egg-info/PKG-INFO
+src/python_pptx_duplication_slide.egg-info/SOURCES.txt
+src/python_pptx_duplication_slide.egg-info/dependency_links.txt
+src/python_pptx_duplication_slide.egg-info/top_level.txt
