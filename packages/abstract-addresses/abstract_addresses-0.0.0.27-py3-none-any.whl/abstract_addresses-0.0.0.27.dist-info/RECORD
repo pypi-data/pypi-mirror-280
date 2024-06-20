@@ -1,0 +1,10 @@
+abstract_addresses/__init__.py,sha256=0iYvBUvhY1KD60HhYgSvaqEqoh55WLWfjKFK4u9BR2A,53
+abstract_addresses/add_addresses.py,sha256=-ebLzDelJw7k9-L05cwq6_GoeTTOxUAwiYvywn5VmYg,2222
+abstract_addresses/california_municipalities.py,sha256=D16Ovivte0o8MAJkDZ0KNvbuQ0gf_myHttID7GHgsVY,66055
+abstract_addresses/db_utils.py,sha256=tzglMsB04s1i_xtPGlnDnMJD8RQ0xqezX9qaJt0d6WY,10844
+abstract_addresses/pre_parse.py,sha256=mFQba1nomR_wxcIPnUQ3KZhXEn5XemG1d0yg9qKEsCA,4001
+abstract_addresses/update_db.py,sha256=7PDmtI0NzMWos2hHOb46CivRLeitOcywEHBo4x2XkwQ,2030
+abstract_addresses-0.0.0.27.dist-info/METADATA,sha256=iELhcz0D36Y1e_eYrQOyEIFaQDXLdimOuAbgryG4ZF4,531
+abstract_addresses-0.0.0.27.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+abstract_addresses-0.0.0.27.dist-info/top_level.txt,sha256=PzKo_NBle4vfl-M3xbmcyaSEM-rYHFmqgSbxcYul0Ec,19
+abstract_addresses-0.0.0.27.dist-info/RECORD,,
