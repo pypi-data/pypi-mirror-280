@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: wetsuite
+Version: 0.1.2
+Summary: A library that helps to explore dutch legal data, and to apply language processing on it
+Home-page: https://github.com/WetSuiteLeiden/wetsuite-core.git
+Author: Wetsuite team
+Author-email: alewijnse.bart@gmail.com
+Project-URL: Project home, https://wetsuite.nl
+Project-URL: API docs, https://wetsuite.knobs-dials.com/apidocs/
+Project-URL: Source code, https://github.com/WetSuiteLeiden/wetsuite-core.git
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: lxml
+Requires-Dist: bs4
+Requires-Dist: msgpack
+Requires-Dist: requests
+Requires-Dist: python-dateutil
+Requires-Dist: numpy>=1.11.1
+Requires-Dist: matplotlib>=1.5.1
+Requires-Dist: spacy
+Requires-Dist: pillow
+Requires-Dist: pysftp
+Requires-Dist: easyocr
+Requires-Dist: wordcloud
+Requires-Dist: PyMuPDF
+Provides-Extra: spacy-cpu
+Requires-Dist: spacy; extra == "spacy-cpu"
+Provides-Extra: spacy-cuda90
+Requires-Dist: spacy[cuda90]; extra == "spacy-cuda90"
+Provides-Extra: spacy-cuda91
+Requires-Dist: spacy[cuda91]; extra == "spacy-cuda91"
+Provides-Extra: spacy-cuda92
+Requires-Dist: spacy[cuda92]; extra == "spacy-cuda92"
+Provides-Extra: spacy-cuda100
+Requires-Dist: spacy[cuda100]; extra == "spacy-cuda100"
+Provides-Extra: spacy-cuda101
+Requires-Dist: spacy[cuda101]; extra == "spacy-cuda101"
+Provides-Extra: spacy-cuda102
+Requires-Dist: spacy[cuda102]; extra == "spacy-cuda102"
+Provides-Extra: spacy-cuda110
+Requires-Dist: spacy[cuda110]; extra == "spacy-cuda110"
+Provides-Extra: spacy-cuda111
+Requires-Dist: spacy[cuda111]; extra == "spacy-cuda111"
+Provides-Extra: spacy-cuda112
+Requires-Dist: spacy[cuda112]; extra == "spacy-cuda112"
+Provides-Extra: spacy-cuda113
+Requires-Dist: spacy[cuda113]; extra == "spacy-cuda113"
+Provides-Extra: spacy-cuda114
+Requires-Dist: spacy[cuda114]; extra == "spacy-cuda114"
+Provides-Extra: spacy-cuda115
+Requires-Dist: spacy[cuda115]; extra == "spacy-cuda115"
+Provides-Extra: spacy-cuda116
+Requires-Dist: spacy[cuda116]; extra == "spacy-cuda116"
+Provides-Extra: spacy-cuda117
+Requires-Dist: spacy[cuda117]; extra == "spacy-cuda117"
+Provides-Extra: spacy-cuda11x
+Requires-Dist: spacy[cuda11x]; extra == "spacy-cuda11x"
+Provides-Extra: spacy-cuda12x
+Requires-Dist: spacy[cuda12x]; extra == "spacy-cuda12x"
+Provides-Extra: extras
+Provides-Extra: fastlang
+Requires-Dist: spacy_fastlang; extra == "fastlang"
+Requires-Dist: fasttext; extra == "fastlang"
