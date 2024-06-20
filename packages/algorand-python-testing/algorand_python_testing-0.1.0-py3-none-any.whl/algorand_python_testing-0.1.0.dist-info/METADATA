@@ -1,0 +1,29 @@
+Metadata-Version: 2.3
+Name: algorand-python-testing
+Version: 0.1.0
+Summary: Algorand Python testing library
+Project-URL: Documentation, https://github.com/algorandfoundation/puya/tree/main/algopy_testing#README.md
+Project-URL: Issues, https://github.com/algorandfoundation/puya/issues
+Project-URL: Source, https://github.com/algorandfoundation/puya/tree/main/algopy_testing
+Author-email: Algorand Foundation <contact@algorand.foundation>
+License-Expression: AGPL-3.0-or-later
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.12
+Requires-Dist: coincurve>=19.0.1
+Requires-Dist: ecdsa>=0.17.0
+Requires-Dist: pycryptodomex<4,>=3.6.0
+Requires-Dist: pynacl<2,>=1.4.0
+Requires-Dist: algorand-python>=1,<1.2.0
+Description-Content-Type: text/markdown
+
+# Algorand Python Testing framework
+
+Test your Algorand Python smart contracts using your favorite python testing tools.
+
+## Contributing
+
+We welcome contributions to this project! Read the [contributing guide](CONTRIBUTING.md) to get started.
