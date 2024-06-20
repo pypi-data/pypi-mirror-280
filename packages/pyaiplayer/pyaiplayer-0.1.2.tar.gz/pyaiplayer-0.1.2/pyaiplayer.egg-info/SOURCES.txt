@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+pyaiplayer/EnvironmentWrapper.py
+pyaiplayer/__init__.py
+pyaiplayer/demo_human_vs_ai.py
+pyaiplayer/main.py
+pyaiplayer.egg-info/PKG-INFO
+pyaiplayer.egg-info/SOURCES.txt
+pyaiplayer.egg-info/dependency_links.txt
+pyaiplayer.egg-info/requires.txt
+pyaiplayer.egg-info/top_level.txt
+test/test.py
