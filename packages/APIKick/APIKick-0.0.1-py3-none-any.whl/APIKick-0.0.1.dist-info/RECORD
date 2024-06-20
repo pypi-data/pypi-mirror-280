@@ -1,0 +1,12 @@
+apikick/__init__.py,sha256=0k5wLJtvUKySa69Tw7HoBFkLp0q7S33Tm4XZr1zLC8E,53
+apikick/apikick.py,sha256=GxOTOzXhfr9h43mzafGSOcuegcZhWxyDpFJzKZgvM9k,2400
+apikick/channel_data.py,sha256=ePa9gy4t54c4g032GXfRmsng3ZhT8fs0umEP6ouK9Mw,6848
+apikick/chat_data.py,sha256=aXjDCN5uhVQ5U47BNlMNQgQYz9HNCHQ-XFH9wSkWo3c,705
+apikick/video_data.py,sha256=zYmawbpGA4G0MZfS3cTa8DcU7fyDxguDvGkPKWJ5Rsk,879
+apikick/utils/__init__.py,sha256=olpZ6oiDAmlnczDBhWmH1gkdPWlXcbKMKuQvJDZJLoE,76
+apikick/utils/validate.py,sha256=VHx3cc-ZIWEvp_Pwrafp8XdwfCPhCnN6P9GcSJQHxeE,450
+APIKick-0.0.1.dist-info/LICENSE,sha256=Q1R6GooflFPTIvB9n9wEca3Q86q_fwuEjGp06Kcavhw,1104
+APIKick-0.0.1.dist-info/METADATA,sha256=8-j3v9GZSdQBLsePy-Ltk48f67mCyq5Hiff_IKO6_KM,6864
+APIKick-0.0.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+APIKick-0.0.1.dist-info/top_level.txt,sha256=G0iAo3qWgRpXKvZ2GA5fxfsNrNlbNUh3xti9NQ_Btdg,8
+APIKick-0.0.1.dist-info/RECORD,,
