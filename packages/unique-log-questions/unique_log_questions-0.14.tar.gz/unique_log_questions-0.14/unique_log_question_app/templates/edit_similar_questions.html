@@ -1,0 +1,14 @@
+<!-- app1/templates/app1/edit_similar_question.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Edit Similar Question</title>
+  </head>
+  <body>
+    <h1>Edit Similar Question</h1>
+    <form method="post">
+      {% csrf_token %} {{ form.as_p }}
+      <button type="submit">Save</button>
+    </form>
+  </body>
+</html>
