@@ -1,0 +1,5 @@
+pywinrm>=0.4.1
+plogger>=1.0.8
+requests-credssp>=1.1.1
+requests>=2.31.0
+xmltodict
