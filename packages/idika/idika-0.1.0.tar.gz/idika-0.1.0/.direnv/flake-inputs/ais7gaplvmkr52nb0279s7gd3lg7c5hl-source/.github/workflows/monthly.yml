@@ -1,0 +1,34 @@
+name: monthly
+
+on:
+  schedule:
+    - cron: "0 8 1 * *"
+
+jobs:
+  monthly:
+    name: monthly
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: monthly
+
+      - name: Merge main into monthly
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+          git push -f
+
+  flakehub:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@v9
+      - uses: DeterminateSystems/flakehub-push@v3
+        with:
+          visibility: public
+          rolling: true

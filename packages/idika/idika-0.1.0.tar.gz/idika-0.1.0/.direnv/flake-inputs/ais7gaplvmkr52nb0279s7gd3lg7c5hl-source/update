@@ -1,0 +1,143 @@
+#!/usr/bin/env python3
+
+import datetime
+import json
+import tomllib
+from typing import Any, Optional
+from urllib.error import HTTPError
+from urllib.request import urlopen
+
+targets = [
+    "aarch64-apple-darwin",
+    "aarch64-unknown-linux-gnu",
+    "i686-unknown-linux-gnu",
+    "x86_64-apple-darwin",
+    "x86_64-unknown-linux-gnu",
+]
+profiles = ["minimal", "default", "complete"]
+
+dist_root = "https://static.rust-lang.org/dist"
+one_day = datetime.timedelta(days=1)
+
+nightly = {target: {"latest": {}} for target in targets}
+
+
+def write_json(channel: str, content: Any) -> None:
+    with open(f"data/{channel}.json", "w") as file:
+        json.dump(content, file, indent=0)
+        file.write("\n")
+
+
+def fetch_nightly(d: Optional[datetime.date] = None) -> None:
+    date_path = f"/{d}" if d else ""
+
+    try:
+        resp = urlopen(f"{dist_root}{date_path}/channel-rust-nightly.toml")
+    except HTTPError as e:
+        if e.code == 404 and d:
+            fetch_nightly(d - one_day)
+        else:
+            raise e
+    else:
+        manifest = tomllib.load(resp)
+        components = manifest["profiles"]
+        date_str = manifest["date"]
+        date = datetime.date.fromisoformat(date_str)
+        pkgs = manifest["pkg"]
+        skipped = False
+
+        for target in targets:
+            if not d:
+                nightly[target]["latest"] = {
+                    "date": date_str,
+                    "components": {},
+                }
+
+            for component in components["complete"]:
+                if component in nightly[target]["latest"]["components"]:
+                    continue
+
+                pkg = pkgs[component]["target"]
+                src = pkg.get("*") or pkg.get(target)
+                if src and src["available"]:
+                    nightly[target]["latest"]["components"][component] = {
+                        "date": date_str,
+                        "url": src["url"],
+                        "sha256": src["hash"],
+                    }
+
+            for profile in profiles:
+                if profile in nightly[target]:
+                    continue
+
+                result = {"date": date_str, "components": {}}
+                success = True
+
+                for component in components[profile]:
+                    pkg = pkgs[component]["target"]
+                    src = pkg.get("*") or pkg.get(target)
+                    if not src:
+                        continue
+
+                    if src["available"]:
+                        result["components"][component] = {
+                            "url": src["url"],
+                            "sha256": src["hash"],
+                        }
+                    # rustc-docs is only available on x86_64-unknown-linux-gnu
+                    # and it is causing complete toolchains to be a lot older
+                    # than they need to be
+                    elif component == "rustc-docs":
+                        continue
+                    else:
+                        skipped = True
+                        success = False
+                        break
+
+                if success:
+                    nightly[target][profile] = result
+
+        for target, src in pkgs["rust-std"]["target"].items():
+            if target not in nightly:
+                if src["available"]:
+                    nightly[target] = {
+                        "latest": {
+                            "date": date_str,
+                            "components": {
+                                "rust-std": {
+                                    "date": date_str,
+                                    "url": src["url"],
+                                    "sha256": src["hash"],
+                                },
+                            },
+                        },
+                    }
+
+        if skipped:
+            fetch_nightly(date - one_day)
+
+
+fetch_nightly()
+write_json("nightly", nightly)
+
+for channel in "stable", "beta":
+    manifest = tomllib.load(urlopen(f"{dist_root}/channel-rust-{channel}.toml"))
+    data = {
+        "date": manifest["date"],
+        "pkg": {},
+        "profiles": manifest["profiles"],
+    }
+
+    for component, pkg in manifest["pkg"].items():
+        data["pkg"][component] = {"target": {}}
+        for target, src in pkg["target"].items():
+            if src.get("available"):
+                data["pkg"][component]["target"][target] = {
+                    "available": True,
+                    "url": src["url"],
+                    "hash": src["hash"],
+                }
+        if data["pkg"][component]["target"] == {}:
+            del data["pkg"][component]
+
+    write_json(channel, data)
