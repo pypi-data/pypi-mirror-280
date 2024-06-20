@@ -1,0 +1,16 @@
+torch>=2.0.0
+numpy
+matplotlib
+qiskit
+pylatexenc
+scipy
+sympy
+svgwrite
+bayesian-optimization
+thewalrus
+networkx
+tqdm
+
+[dev]
+pytest
+perceval-quandela
