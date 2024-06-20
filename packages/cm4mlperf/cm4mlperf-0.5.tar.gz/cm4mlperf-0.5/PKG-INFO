@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: cm4mlperf
+Version: 0.5
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+CM interface to prepare and run MLPerf inference benchmarks
