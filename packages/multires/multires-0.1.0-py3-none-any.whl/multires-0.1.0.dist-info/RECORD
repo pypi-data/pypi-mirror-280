@@ -1,0 +1,10 @@
+multires/__init__.py,sha256=ufc6vf85d4tHkZ31DS6PLHIltAzLEHpb4m0C4OA2VAs,146
+multires/euler.py,sha256=dPk1YlJs3FqYNt2qcos4w1U-o_S3vPuPsaQTXexS7yw,1865
+multires/hmra.py,sha256=Z8XzkZ0CIjqRLMw3fmpfOFvTLd_psIaJkSmaACzyrGY,4581
+multires/increase_resolution.py,sha256=IGX9X9dZZgw4MSihE1r4gVIQ4l35F_cvePzjpCrL1Js,1733
+multires/smra.py,sha256=r1lHGDdm7jDeQXhYybURqsTFU30zJduPOUvxyxjcb5o,4185
+multires-0.1.0.dist-info/LICENSE,sha256=eU9EdrkgSdfuXkB0fByhYEX2QdSSE-KQvoJpZtLUDuU,1070
+multires-0.1.0.dist-info/METADATA,sha256=W6IHQ_HxcPOr4tT0RwXEetYb0dySoRdy98P11icNqrA,6425
+multires-0.1.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+multires-0.1.0.dist-info/top_level.txt,sha256=Qzub7l25lgk6gDHSpuQpdNMp1dF9jq1HzFuKReE5JnU,9
+multires-0.1.0.dist-info/RECORD,,
