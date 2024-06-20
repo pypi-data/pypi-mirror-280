@@ -1,0 +1,18 @@
+[project]
+name = "basile"
+version = "1.0.0"
+authors = [
+  { name="Thomas VIAL" },
+]
+description = "A lightweight, brute-force framework for discrete code-based experimentations"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/tvial/basile"
+Issues = "https://github.com/tvial/basile/issues"

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/basile/__init__.py
+src/basile/basile.py
+src/basile.egg-info/PKG-INFO
+src/basile.egg-info/SOURCES.txt
+src/basile.egg-info/dependency_links.txt
+src/basile.egg-info/top_level.txt
+tests/test_basile.py
