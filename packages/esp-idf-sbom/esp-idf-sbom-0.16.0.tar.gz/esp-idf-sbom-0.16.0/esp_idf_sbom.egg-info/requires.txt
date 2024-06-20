@@ -1,0 +1,9 @@
+PyYAML
+schema
+license-expression
+rich
+
+[dev]
+pytest
+commitizen
+spdx-tools>=v0.8.0rc1
