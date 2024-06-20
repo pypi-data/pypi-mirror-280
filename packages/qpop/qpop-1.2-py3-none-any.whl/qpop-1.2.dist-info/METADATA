@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: qpop
+Version: 1.2
+Summary: qpop --queue queue.txt --gpus 0,1,2,3
+Requires-Dist: inputimeout
+
