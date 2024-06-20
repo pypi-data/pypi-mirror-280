@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: aws-jmespath-utils
+Version: 0.1.6
+Summary: jmespath custom functions for filtering AWS resources by tag
+License: Apache-2.0
+Author: Oguzhan Yilmaz
+Author-email: oguzhanylmz271@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: jmespath (>=1.0.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# aws-jmespath-utils
+
+## Installation
+
+```bash
+pip3 install aws_jmespath_utils
+```
+
+## Usage
+
+```python
+import jmespath
+from aws_jmespath_utils import jmespath_options
+
+print(
+    jmespath.search(
+        'filter_tags(`["[!Na.]*="]`, @)',
+        {
+            "a":"b",
+            "Tags": [
+                {"Key": "Name", "Value": "jmespath-utils"},
+                {"Key": "Nam", "Value": "jmespath-utils-nam"},
+                {"Key": "Ebcd", "Value": "edfg"},
+            ]    
+        },
+        options=jmespath_options
+    )
+)
+```
+
