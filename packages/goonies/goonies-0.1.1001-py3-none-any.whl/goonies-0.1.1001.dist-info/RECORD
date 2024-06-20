@@ -1,0 +1,10 @@
+goonies/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+goonies/backyard.py,sha256=4CIHW_XL9jbxONvpdp-83qECQiXNtSutAfO9YpqDbtU,3119
+goonies/base.py,sha256=WsGRiFt5xW9FOgSxqGrvM0viXsmfPXw3zIiaqWQjZn4,1811
+goonies/thinker.py,sha256=5uTMIIy6EHN-qSU3Buy5JioN1e0dERlz__5dg8Z8kDA,10252
+goonies/toolbox/web.py,sha256=cC_vM0LIzeg1N6OS7aJSSzJSy9kitv_RJkZU5AyaKQ0,4058
+goonies/tools.py,sha256=tlsNvY_NQq57ORjWCVCMghilnZ91pdTeWxQD2n3oEWs,3306
+goonies-0.1.1001.dist-info/METADATA,sha256=Hi3lhubLzYT6AiFDRlEsRIY5FZhIqmm7Ij3jXX35nj0,1559
+goonies-0.1.1001.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+goonies-0.1.1001.dist-info/entry_points.txt,sha256=pLms9jvfOtqvFYNU8NZKBRsjhVI4V7VWBmecQ8yWEY0,49
+goonies-0.1.1001.dist-info/RECORD,,
