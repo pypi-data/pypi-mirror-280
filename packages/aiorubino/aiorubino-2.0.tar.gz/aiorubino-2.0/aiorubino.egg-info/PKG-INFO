@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: aiorubino
+Version: 2.0
+Summary: aiorubino is an api-based library for Rubino messengers
+Home-page: https://github.com/irvanyamirali
+Author: AmirAli Irvany
+Author-email: irvanyamirali@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+
+# AIORubino
+### AIORubino is an api-based library for Rubino messengers
+
+# Install
+```bash
+pip install -U aiorubino
+```
+
+# Start
+```python
+from aiorubino import Client
+import asyncio
+
+client = Client('your-auth-here')
+
+async def main():
+    result = await client.get_my_profile_info()
+    print(result)
+    
+
+if __name__ == '__main__':
+    asyncio.run(main())
+```
+
+## Examples
+- [Go to the examples directory](https://github.com/irvanyamirali/myrino/tree/main/examples)
