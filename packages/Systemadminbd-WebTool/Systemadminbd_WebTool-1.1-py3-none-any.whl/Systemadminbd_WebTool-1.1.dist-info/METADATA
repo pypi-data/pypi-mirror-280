@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: Systemadminbd-WebTool
+Version: 1.1
+Summary: A Powerful webtool from Systemadminbd
+Home-page: https://systemadminbd.com
+Author: Red hair shanks
+Author-email: admin@systemadminbd.com
+Project-URL: Documentation, https://systemadminbd.com/
+Project-URL: Tracker, https://t.me/systemadminbdbot
+Keywords: webtool systemadminbd development Abir
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: asyncio
+Requires-Dist: requests
+Requires-Dist: colorama
+Requires-Dist: rich
+Requires-Dist: lolcat
+Requires-Dist: tqdm
+Requires-Dist: termcolor
+Requires-Dist: fake-useragent
+Requires-Dist: beautifulsoup4
+Requires-Dist: chardet
+Requires-Dist: urllib3
+Requires-Dist: aiofiles
+
+# Systemadminbd-WebTool
+
+Systemadminbd-WebTool is a command-line tool for managing system administration tasks efficiently.
+
+## Installation
+
+Before running the tool, ensure you have Python installed on your system. You can download Python from [python.org](https://www.python.org/downloads/).
+
+### Install Systemadminbd-WebTool
+
+You can install Systemadminbd-WebTool using pip. Open your terminal or command prompt and execute the following command:
+
+```bash
+pip install Systemadminbd-WebTool
+
+```
+Run programme
+
+```bash
+systemadminbd-webtool
