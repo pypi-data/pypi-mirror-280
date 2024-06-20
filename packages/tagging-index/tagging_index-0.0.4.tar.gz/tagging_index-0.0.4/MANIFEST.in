@@ -1,0 +1,1 @@
+include tagging_index/schemas/json/*.json
