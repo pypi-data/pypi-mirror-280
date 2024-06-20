@@ -1,0 +1,15 @@
+textual_serve/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+textual_serve/app_service.py,sha256=qNIQwj7BmG3mjq15QusL5pIFqLrJtMteIx0lPi0gw7U,8041
+textual_serve/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+textual_serve/server.py,sha256=NeP-MeQzMfpwPrDNJeDDoOpPwKStDmNsxTSvrN9RX28,8872
+textual_serve/static/index.html,sha256=izZQVPO_7TjQV28JHUlitHWdHCRnMpVPpKsIGAICseg,27
+textual_serve/static/css/xterm.css,sha256=DqDjydvBbDt3NsHGCruP-EPpqp1a2qi1c91r688CysU,4619
+textual_serve/static/fonts/RobotoMono-Italic-VariableFont_wght.ttf,sha256=xAUGliJukGjyiK9tA8xHOz_WQv1d1TMWoO4DD-Nmu8k,197012
+textual_serve/static/fonts/RobotoMono-VariableFont_wght.ttf,sha256=FzoUoNYIUHLLZVo4Gq55SWEsDXbB5954Aoi3STk2P9s,184172
+textual_serve/static/images/background.png,sha256=ePq2275EqDsrHtrAWkAIANwEhOe5dNsgZfqdEwcfFNA,59616
+textual_serve/static/js/textual.js,sha256=eQyMlD7rKlFpgGgTeVyFbpa-9a8oJLdVMdXAyRMY7gE,512635
+textual_serve/templates/app_index.html,sha256=GE1tG7HtcLwk53Sw9_uIiiIoS4V0jEwBrPgU6JS9gFE,4348
+textual_serve-1.0.1.dist-info/METADATA,sha256=76VYPD-6gUp9UBP5LYpNlg-FEcZ5kYK8Vnbdq3Sl5G0,3878
+textual_serve-1.0.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+textual_serve-1.0.1.dist-info/licenses/LICENSE,sha256=G0PZRtEVOF42se1uB_GcBAHVhl5fyi609Gc3uz4_ffA,1067
+textual_serve-1.0.1.dist-info/RECORD,,
