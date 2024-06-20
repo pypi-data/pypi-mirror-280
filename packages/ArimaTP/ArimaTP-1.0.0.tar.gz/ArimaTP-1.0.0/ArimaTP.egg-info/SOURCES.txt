@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+ArimaTP/__init__.py
+ArimaTP/version.py
+ArimaTP.egg-info/PKG-INFO
+ArimaTP.egg-info/SOURCES.txt
+ArimaTP.egg-info/dependency_links.txt
+ArimaTP.egg-info/requires.txt
+ArimaTP.egg-info/top_level.txt
+ArimaTP.egg-info/zip-safe
