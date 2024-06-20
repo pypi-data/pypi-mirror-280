@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+sysspeaker/__init__.py
+sysspeaker/sysspeaker.py
+sysspeaker.egg-info/PKG-INFO
+sysspeaker.egg-info/SOURCES.txt
+sysspeaker.egg-info/dependency_links.txt
+sysspeaker.egg-info/top_level.txt

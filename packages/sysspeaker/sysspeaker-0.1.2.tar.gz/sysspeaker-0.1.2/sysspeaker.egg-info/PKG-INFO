@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sysspeaker
+Version: 0.1.2
+Summary: A simple python package to get the system speak output.
+Home-page: https://github.com/pandarudra/sysspeaker
+Author: rudra_826
+Author-email: rudrapanda8206@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
