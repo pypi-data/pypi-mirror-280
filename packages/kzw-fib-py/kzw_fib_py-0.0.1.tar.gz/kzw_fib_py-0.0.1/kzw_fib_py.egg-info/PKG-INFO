@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: kzw-fib-py
+Version: 0.0.1
+Summary: Calculates a Fibonacci number
+Home-page: https://github.com/kzw3933/kzw-fib-py
+Author: kzw3933
+Author-email: 3099097649@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# kzw-fib-py
+Practice building a pip module in Python, uploading it to PyPI, and using GitHub Actions for continuous integration.
+The module is a basic library that calculates Fibonacci numbers.
+
+
