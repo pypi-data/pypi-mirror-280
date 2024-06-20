@@ -1,0 +1,4 @@
+    stage: deploy
+    script:
+        - git checkout develop
+        - git merge $CI_COMMIT_BRANCH
