@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dyn-plot
+Version: 0.1.0
+Summary: 
+Author: Cristian Garcia
+Author-email: cgarcia.e88@gmail.com
+Requires-Python: >=3.9,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib (>=2)
+Description-Content-Type: text/markdown
+
+
