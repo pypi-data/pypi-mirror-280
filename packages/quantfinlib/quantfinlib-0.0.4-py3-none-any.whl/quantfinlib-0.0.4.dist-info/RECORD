@@ -1,0 +1,9 @@
+quantfinlib/__init__.py,sha256=1mptEzQihbdyqqzMgdns_j5ZGK9gz7hR2bsgA_TnjO4,22
+quantfinlib/sim/__init__.py,sha256=md4DVkWJqzIIJ8JJLf04HdQK1r7QyN0WX2KXG9rIdUs,46
+quantfinlib/sim/bm.py,sha256=Ng5KlzsVY5KgveTnQlj5H23gbvmBxIRsduCoJzFhtQ8,2857
+quantfinlib/util/__init__.py,sha256=ADdefXJKdngXmdNhqNfDOHxRXwUdM4UeXPeEgNmNqrI,92
+quantfinlib/util/timeseries.py,sha256=WBFO7e1wFicCa_8UcjKlZ9qD6nBri3wMvDr0Cv1RAU4,4715
+quantfinlib-0.0.4.dist-info/LICENSE,sha256=v9GvnYeuSCVr-X-qaooLIJG6msRa40TV5uKC_njbe_8,1068
+quantfinlib-0.0.4.dist-info/METADATA,sha256=HTLGk2MoMKzY7FBjV22yohAhcod560FOc0TZVP2kpKg,3631
+quantfinlib-0.0.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+quantfinlib-0.0.4.dist-info/RECORD,,
