@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+rmq_interface/__init__.py
+rmq_interface/rmq_interface.py
+rmq_interface.egg-info/PKG-INFO
+rmq_interface.egg-info/SOURCES.txt
+rmq_interface.egg-info/dependency_links.txt
+rmq_interface.egg-info/requires.txt
+rmq_interface.egg-info/top_level.txt
