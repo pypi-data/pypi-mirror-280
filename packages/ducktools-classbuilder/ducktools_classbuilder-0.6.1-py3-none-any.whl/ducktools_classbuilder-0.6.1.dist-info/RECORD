@@ -1,0 +1,12 @@
+ducktools/classbuilder/__init__.py,sha256=i0NqVICBsMUBQtxX_2UsnETE9y0X15cwTSoSlE6_fJI,30820
+ducktools/classbuilder/__init__.pyi,sha256=tdYtI5Wqn-iur-MGGSpk4EbQTtl91F_MOGHXwYf4BYo,7656
+ducktools/classbuilder/annotations.py,sha256=17g1WnWfyMWBHKQp2HD_hvV-n7CKXy_zv8NTODpOsuU,5437
+ducktools/classbuilder/annotations.pyi,sha256=cTZQ-pp2IkfdvwHiU3pIySUzzBKxfOtO-e5PkA8TNwo,520
+ducktools/classbuilder/prefab.py,sha256=LCrnS2zKADX5FS0SdzCYLF4n5yR43CIlv2QLL6PDjl4,23292
+ducktools/classbuilder/prefab.pyi,sha256=1YkrSSTcjzhNn_AXSYiGIaX7kLm3DFckCR_zytFp0PE,4307
+ducktools/classbuilder/py.typed,sha256=la67KBlbjXN-_-DfGNcdOcjYumVpKG_Tkw-8n5dnGB4,8
+ducktools_classbuilder-0.6.1.dist-info/LICENSE.md,sha256=6Thz9Dbw8R4fWInl6sGl8Rj3UnKnRbDwrc6jZerpugQ,1070
+ducktools_classbuilder-0.6.1.dist-info/METADATA,sha256=7sRGN_m6jeEKYCdajAu8NN-7cs3U4E7s6YUdEj643m4,10911
+ducktools_classbuilder-0.6.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+ducktools_classbuilder-0.6.1.dist-info/top_level.txt,sha256=uSDLtio3ZFqdwcsMJ2O5yhjB4Q3ytbBWbA8rJREganc,10
+ducktools_classbuilder-0.6.1.dist-info/RECORD,,
