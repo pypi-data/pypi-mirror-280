@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: qpop
+Version: 1.5
+Summary: qpop -q queue.txt -g 0,1,2,3
+Requires-Dist: inputimeout
+
+qpop -q queue.txt -g 0,1,2,3

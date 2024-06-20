@@ -1,0 +1,10 @@
+README.md
+setup.py
+qpop/__init__.py
+qpop/runner.py
+qpop.egg-info/PKG-INFO
+qpop.egg-info/SOURCES.txt
+qpop.egg-info/dependency_links.txt
+qpop.egg-info/entry_points.txt
+qpop.egg-info/requires.txt
+qpop.egg-info/top_level.txt
