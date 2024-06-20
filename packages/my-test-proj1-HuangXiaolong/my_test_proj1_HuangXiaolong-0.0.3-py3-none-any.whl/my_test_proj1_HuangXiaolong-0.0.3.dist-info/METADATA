@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: my_test_proj1_HuangXiaolong
+Version: 0.0.3
+Summary: example test project 1
+Author-email: Xiaolong Huang <hxl65536@gmail.com>
+Requires-Python: >=3.8
+License-File: LICENSE
+
