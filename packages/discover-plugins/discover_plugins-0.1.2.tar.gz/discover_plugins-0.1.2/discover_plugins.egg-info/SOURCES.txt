@@ -1,0 +1,9 @@
+.gitignore
+README.md
+discover_plugins.py
+pyproject.toml
+.github/workflows/main.yml
+discover_plugins.egg-info/PKG-INFO
+discover_plugins.egg-info/SOURCES.txt
+discover_plugins.egg-info/dependency_links.txt
+discover_plugins.egg-info/top_level.txt
