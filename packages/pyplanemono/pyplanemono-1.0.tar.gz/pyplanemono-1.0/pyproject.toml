@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyplanemono"
+version = "1.0"
+authors = [
+  { name="Patrick Wang", email="patrick.wang@diamond.ac.uk" },
+]
+description = "X-ray tracing for plane grating monochromator"
+readme = "README.md"
+requires-python = ">=3.8.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "numpy >= 1.21",
+    "scipy >= 1.8.1",
+    "matplotlib <=3.5.3, >=3.3.2",
+    "dill >= 0.3.6",
+    "colorama >= 0.4.4",
+    "pyrsistent >= 0.19.3"
+]
+
+[tool.setuptools]
+
+packages = ["pyplanemono", "pyplanemono.gui", "pyplanemono.elements", "pyplanemono.geometry", "pyplanemono.shadow"]
