@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: carcraft_ads_downloader
+Version: 1.0.1
+Home-page: https://gitlab.com/codasteroid/basicpkg
+Author: Artyom Suhov
+Author-email: rock4ts@gmail.com
+Project-URL: Bug Tracker, https://gitlab.com/codasteroid/basicpkg/-/issues
+Project-URL: repository, https://gitlab.com/codasteroid/basicpkg
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
