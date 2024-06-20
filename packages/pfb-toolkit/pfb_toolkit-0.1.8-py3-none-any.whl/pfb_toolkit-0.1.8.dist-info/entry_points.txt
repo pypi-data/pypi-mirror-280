@@ -1,0 +1,3 @@
+[console_scripts]
+portable-app-framework=portable_app_framework:cli_entry_point
+
