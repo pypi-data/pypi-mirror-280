@@ -1,0 +1,16 @@
+trixelmanagementclient-0.0.0.dist-info/METADATA,sha256=ansK-0MO2VlTG54eHw_MAIQXumYaHtFHbV73gKouW30,6155
+trixelmanagementclient-0.0.0.dist-info/WHEEL,sha256=SOP-4bEE0jbVaCHQGVvF08uWxk5rcSsfEybvoQVHlD8,90
+trixelmanagementclient-0.0.0.dist-info/licenses/LICENSE,sha256=25k89XYJWV6SBtzMQm3lnb0_6_9Jtx--9IGNUX6DkAs,1075
+trixelmanagementclient/__init__.py,sha256=8IvPTvA8OMTKOx10lxN7n2G0WlAAtrHt1aNr9omvuVc,170
+trixelmanagementclient/api/__init__.py,sha256=87ApBzKyGb5zsgTMOkQXDqsLZCmaSFoJMwbGzCDQZMw,47
+trixelmanagementclient/api/default/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trixelmanagementclient/api/default/ping_ping_get.py,sha256=XC9XsR06UO7fK-G-oDm_Gy1PxBIF3K5HglkU02aEai8,3378
+trixelmanagementclient/api/default/version_version_get.py,sha256=cUbPaYhCc1uieTTKt_8-vM1GQdV5FL9-uNUlXZGwUBc,3632
+trixelmanagementclient/client.py,sha256=uRvzE9SBVAnGemJOUFXn_9wPSpLEbHt0CpaxjzeWaGs,12417
+trixelmanagementclient/errors.py,sha256=trp-p5qn1_JLRxGZhdHtICaNPaCrcDCe4TgIihBravk,546
+trixelmanagementclient/models/__init__.py,sha256=9KGBGGrY4fq9QB6p-10_87-m6Zxk6ZJukvX51M9NfM8,155
+trixelmanagementclient/models/ping.py,sha256=_4wT27jK2dIlcriExmGtNrPFjl391iJfQtLtScC0Qio,1671
+trixelmanagementclient/models/version.py,sha256=lRsqcPHFNVOlNjWl1Af1wsUDYGaPj5_S6bGESknngw0,1557
+trixelmanagementclient/py.typed,sha256=8ZJUsxZiuOy1oJeVhsTWQhTG_6pTVHVXk5hJL79ebTk,25
+trixelmanagementclient/types.py,sha256=qCXPeAPkr87pxSCNy3Mr8FVNjxaFefifST7-KrMoQac,997
+trixelmanagementclient-0.0.0.dist-info/RECORD,,
