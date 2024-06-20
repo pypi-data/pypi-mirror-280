@@ -1,0 +1,8 @@
+README.md
+setup.py
+stockPricePredictor/__init__.py
+stockPricePredictor/stockpricepredictor.py
+stockPricePredictor.egg-info/PKG-INFO
+stockPricePredictor.egg-info/SOURCES.txt
+stockPricePredictor.egg-info/dependency_links.txt
+stockPricePredictor.egg-info/top_level.txt

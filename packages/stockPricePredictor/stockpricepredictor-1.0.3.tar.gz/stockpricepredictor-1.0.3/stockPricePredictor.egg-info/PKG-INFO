@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: stockPricePredictor
+Version: 1.0.3
+Summary: LSTM 모델을 사용한 주식 가격 예측하기
+Home-page: 
+Author: jiwonchoi
+Author-email: chooijuwonwon1123456@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
