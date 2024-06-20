@@ -1,0 +1,46 @@
+[project]
+name = "ahi"
+version = "0.19.28"
+description = "Application Hacking Interface. An HTTP API client helper for \"unofficial\" APIs."
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)"
+]
+[project.urls]
+Repository = "https://gitlab.com/unsanctioned/ahi"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.setuptools]
+packages = [
+    "ahi",
+    "ahi.cli",
+]
+
+[tool.poetry]
+name = "ahi"
+version = "0.19.28"
+description = "Application Hacking Interface. An HTTP API client helper for \"unofficial\" APIs."
+readme = "README.md"
+authors = ["beruu <18537787-beruu@users.noreply.gitlab.com>"]
+license = "LGPLv3+"
+homepage = "https://gitlab.com/unsanctioned/ahi"
+
+[tool.poetry.dependencies]
+redis = "^3.5.3"
+hiredis = "^2.0.0"
+urllib3 = "^1.26.6"
+requests = "^2.26.0"
+PySocks = "^1.7.1"
+parsel = "^1.6.0"
+selenium = {version = "^3.141.0", optional = true}
+
+[tool.poetry.extras]
+browser_emulation = ["selenium"]
+
+[tool.poetry.scripts]
+girl = "ahi:command_line_entrypoint"
+ahi = "ahi:command_line_entrypoint"
