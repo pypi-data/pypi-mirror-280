@@ -1,0 +1,32 @@
+[project]
+name='omniblack.secret'
+version='0.0.6'
+license={text='MIT License'}
+readme={file="README.md", content-type="text/markdown"}
+
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: POSIX :: Linux',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.12',
+    'Programming Language :: Python :: Implementation :: CPython',
+    'Topic :: Security',
+    'Topic :: Software Development',
+]
+
+[project.urls]
+Homepage='https://gitlab.com/terryp/secret'
+Repository='https://gitlab.com/terryp/secret.git'
+
+[[project.authors]]
+name='Terry Patterson'
+email='terryp@wegrok.net'
+
+[tool.setuptools]
+py-modules=[]
+
+[build-system]
+requires = ["setuptools >= 68.2"]
+build-backend = "setuptools.build_meta"
