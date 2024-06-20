@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: PandoraBox
+Version: 0.4.0
+Summary: Python Box Is All You Need. You Can Create Python Environment, Execut Python, Close Python Environment Freely and Easily.
+Home-page: https://github.com/pydaxing/PythonBox
+Author: pydaxing
+Author-email: pydaxing@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pydantic
+Requires-Dist: jupyter-client
+Requires-Dist: ipython
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: loguru
+Requires-Dist: jsonlines
+
+Python Box
