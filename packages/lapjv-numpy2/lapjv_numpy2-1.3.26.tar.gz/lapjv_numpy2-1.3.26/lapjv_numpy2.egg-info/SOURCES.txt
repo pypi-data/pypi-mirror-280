@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+cpuid.h
+lap.h
+pyproject.toml
+python.cc
+setup.py
+lapjv_numpy2.egg-info/PKG-INFO
+lapjv_numpy2.egg-info/SOURCES.txt
+lapjv_numpy2.egg-info/dependency_links.txt
+lapjv_numpy2.egg-info/requires.txt
+lapjv_numpy2.egg-info/top_level.txt
