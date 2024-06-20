@@ -1,0 +1,48 @@
+#========================================================================================================================================
+# CyborgAI CC BY-NC-ND 4.0 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 Internation	https://github.com/cyborg-ai-git # 
+#========================================================================================================================================
+
+# TYPE:
+#   STRING [DEFAULT_VALUE]
+#   LANGUAGE [DEFAULT_VALUE]
+#   INT [DEFAULT_VALUE]
+#   LONG [DEFAULT_VALUE]
+#   FLOAT [DEFAULT_VALUE]
+#   DOUBLE [DEFAULT_VALUE]
+#   BYTE
+#   BYTES
+#   BOOL [DEFAULT_VALUE]
+#   EOBJECT EOBJECT_CLASS
+#   MAP EOBJECT_CLASS
+#   ENUM ENUM_CLASS .ENUM_DEFAULT
+package: evo_package_openai
+
+entity:
+  
+  EOpenaiModelMap:
+    _DOC_: "EOpenaiModel DESCRIPTION"
+    mapEModel: MAP EOpenaiModel
+
+
+  EOpenaiModel:
+    _DOC_: "EOpenaiModel DESCRIPTION"
+    name : STRING
+    created: INT
+
+  EOpenaiInput:
+    _DOC_: "EOpenaiInput DESCRIPTION"
+    openaiToken: STRING #REQUIRED
+    model: STRING #REQUIRED
+    eAssistantID : STRING #REQUIRED
+    eAssistantSessionID : STRING #OPTIONAL
+    eAssistantRagID : STRING #OPTIONAL
+    language: LANGUAGE #OPTIONAL
+    text: STRING #REQUIRED
+    mapEApiFile: MAP evo_framework.core.evo_core_api.entity.EApiFile #OPTIONAL
+
+  EOpenaiOutput:
+    _DOC_: "EOpenaiInput DESCRIPTION"
+    eAssistantSessionID : STRING #OPTIONAL
+    eApiText: EOBJECT evo_framework.core.evo_core_api.entity.EApiText
+    isError: BOOL
+    error: STRING
