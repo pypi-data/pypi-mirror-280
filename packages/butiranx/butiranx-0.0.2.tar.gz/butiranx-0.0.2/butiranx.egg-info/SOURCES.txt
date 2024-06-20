@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+butiranx.egg-info/PKG-INFO
+butiranx.egg-info/SOURCES.txt
+butiranx.egg-info/dependency_links.txt
+butiranx.egg-info/top_level.txt
