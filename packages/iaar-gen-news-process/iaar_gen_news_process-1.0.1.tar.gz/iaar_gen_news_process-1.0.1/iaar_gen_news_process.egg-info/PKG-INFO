@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: iaar-gen-news-process
+Version: 1.0.1
+Summary: this is a tool package for iaar
+Home-page: https://github.com/pypa/sampleproject
+Author: Gie
+Author-email: 593443714@qq.com
+License: MIT
+Keywords: iaar utils
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+
+1: cd to setup.py
+2: python3 setup.py sdist build
+3: twine upload dist/*
