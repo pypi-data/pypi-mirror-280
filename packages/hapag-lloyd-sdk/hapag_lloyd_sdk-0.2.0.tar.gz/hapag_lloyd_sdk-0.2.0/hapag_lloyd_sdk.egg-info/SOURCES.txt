@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+hapag_lloyd_sdk/__init__.py
+hapag_lloyd_sdk/api.py
+hapag_lloyd_sdk/client.py
+hapag_lloyd_sdk/models.py
+hapag_lloyd_sdk.egg-info/PKG-INFO
+hapag_lloyd_sdk.egg-info/SOURCES.txt
+hapag_lloyd_sdk.egg-info/dependency_links.txt
+hapag_lloyd_sdk.egg-info/requires.txt
+hapag_lloyd_sdk.egg-info/top_level.txt
+tests/__init__.py
+tests/test_api.py
