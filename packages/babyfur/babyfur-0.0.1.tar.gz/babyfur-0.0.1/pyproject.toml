@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "babyfur"
+version = "0.0.1"
+authors = ["idkwhttph"]
+description = "Description"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+]
+license = "MIT"
+repository = "https://github.com/author/your-package"
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/author/your-package/issues"
+Replit = "https://replit.com/@author/your-package"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
