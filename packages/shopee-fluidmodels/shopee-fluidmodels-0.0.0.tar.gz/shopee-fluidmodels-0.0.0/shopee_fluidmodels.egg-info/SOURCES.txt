@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_fluidmodels.egg-info/PKG-INFO
+shopee_fluidmodels.egg-info/SOURCES.txt
+shopee_fluidmodels.egg-info/dependency_links.txt
+shopee_fluidmodels.egg-info/top_level.txt
