@@ -1,0 +1,10 @@
+django_version_checks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_version_checks/apps.py,sha256=_h4Ysw56uwj6VlX8FPHm--ftGjK1OR76M5ECqpFIhCo,655
+django_version_checks/checks.py,sha256=j8I8vPDRl6uD-PBrwtAjDMDBq2Z6WIB1TDGzb8RX9jI,8811
+django_version_checks/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_version_checks/typing.py,sha256=-OqSRGeVbpFEJVa0JvpsubOtGQAXD99sqJKwSoqgSZg,180
+django_version_checks-1.12.0.dist-info/LICENSE,sha256=pNIRZwlAza4kfutPU0BQkoJsPWl23NHnCMrbAC0INHk,1069
+django_version_checks-1.12.0.dist-info/METADATA,sha256=3ZBZzZrHWyjd9DloXJWcHr4pcewrf9kAmxzh9i4Y76c,8646
+django_version_checks-1.12.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+django_version_checks-1.12.0.dist-info/top_level.txt,sha256=vdpJjeml8R7o3oFjivoIWnGXNZLlNQ8t8KMpf8P7Qyc,22
+django_version_checks-1.12.0.dist-info/RECORD,,
