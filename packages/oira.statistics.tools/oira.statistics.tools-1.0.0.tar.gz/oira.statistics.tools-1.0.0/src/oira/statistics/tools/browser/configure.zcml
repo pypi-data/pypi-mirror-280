@@ -1,0 +1,13 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    >
+
+  <browser:page
+      name="update-statistics"
+      for="plone.app.layout.navigation.interfaces.INavigationRoot"
+      class=".views.UpdateStatistics"
+      permission="cmf.ManagePortal"
+      />
+
+</configure>

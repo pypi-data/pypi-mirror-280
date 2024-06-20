@@ -1,0 +1,2 @@
+[console_scripts]
+update_statistics = oira.statistics.tools.scripts:update_statistics

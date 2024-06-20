@@ -1,0 +1,6 @@
+osha.oira
+oira.statistics.deployment
+setuptools
+
+[tests]
+alchemy_mock

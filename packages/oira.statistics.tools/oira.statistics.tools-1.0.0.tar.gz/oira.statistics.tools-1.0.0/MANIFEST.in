@@ -1,0 +1,5 @@
+exclude *.yaml
+exclude .isort.cfg
+exclude .pep8
+recursive-include docs *.rst
+recursive-include src *.zcml
