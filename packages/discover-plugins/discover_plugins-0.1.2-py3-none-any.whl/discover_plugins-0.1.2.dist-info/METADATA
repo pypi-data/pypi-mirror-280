@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: discover-plugins
+Version: 0.1.2
+Summary: Discover installed plugins
+Author-email: Felix Scherz <felixwscherz@gmail.com>
+Project-URL: Documentation, https://github.com/felixscherz/discover-plugins#readme
+Project-URL: Issues, https://github.com/felixscherz/discover-plugins/issues
+Project-URL: Source, https://github.com/felixscherz/discover-plugins
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# discover-plugins
