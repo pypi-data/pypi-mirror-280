@@ -1,0 +1,2 @@
+[console_scripts]
+qpop = qpop.runner:main
