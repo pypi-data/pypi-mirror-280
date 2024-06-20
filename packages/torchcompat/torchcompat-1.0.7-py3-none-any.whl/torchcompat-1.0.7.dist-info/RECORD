@@ -1,0 +1,13 @@
+torchcompat/core/__init__.py,sha256=DmrBYCNI6xBc5xXXK0ijDhDlbwLxib1dFzqs5Z9c4L0,1766
+torchcompat/core/errors.py,sha256=RYkKJNainUSrIrE8a0tkNWjKMXpg_varZtsrP9ckx90,40
+torchcompat/core/load.py,sha256=1CSMKZE4iaJMDOt0ptBDqrc4XHGUU0Troy6RAdzTLIo,2635
+torchcompat/plugins/cpu/__init__.py,sha256=pwnYxXzC8NGWhG9R_PGQRsMGfmVheBaPsaoI2l3MkkY,275
+torchcompat/plugins/cuda/__init__.py,sha256=qLzhWz210ZFkdaxGG5eRR9hCzZHQknuGMtro8VDAQPU,596
+torchcompat/plugins/gaudi/__init__.py,sha256=9TJgQ6UFANSs0FfReKKP46XNadhJBDdg3NYVmT7IRGk,3524
+torchcompat/plugins/rocm/__init__.py,sha256=EtayNZrq4nNEv9YZZlbcXagH75YqhlKdQ1JIS13p_CQ,398
+torchcompat/plugins/xpu/__init__.py,sha256=diDDugK8YZdiP1miW2yY_p4Wr3ouG235sz8X2ifpei0,1161
+torchcompat-1.0.7.dist-info/LICENSE,sha256=LvE_L-WWO38i_TQfJpzw2CoZ-CmNjrjTgWzDe3OwclM,1558
+torchcompat-1.0.7.dist-info/METADATA,sha256=MrEkXsAXwWE4SOR84pPNnAXEE1g2CHuersLitruaAcs,2775
+torchcompat-1.0.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+torchcompat-1.0.7.dist-info/top_level.txt,sha256=7MKwmh6WqKPjPXxRZssFrbPGbC_Jpyuiex9o6uHZoT4,12
+torchcompat-1.0.7.dist-info/RECORD,,
