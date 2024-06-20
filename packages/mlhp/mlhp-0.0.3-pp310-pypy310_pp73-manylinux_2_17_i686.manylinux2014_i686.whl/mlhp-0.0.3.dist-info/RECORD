@@ -1,0 +1,8 @@
+mlhp.py,sha256=ZD1icMMWvvgkRMXUgOmlNa9KLPE9EwsBnS5669WDnXk,5783
+pymlhpcore.pypy310-pp73-x86-linux-gnu.so,sha256=NUvHITPUhtJ7HolW3XPofHSuRS7lzMRrL9N3K1JMEGo,4979781
+mlhp-0.0.3.dist-info/WHEEL,sha256=oTMqElnqx-iem4BFPVSN9-IaGu2l8WWkeLUM7TDThNY,165
+mlhp-0.0.3.dist-info/METADATA,sha256=Cw0GUZQWkMrVjWSH7-OO4AJvy3SFueVqltbqqB5hZ_M,2949
+mlhp-0.0.3.dist-info/RECORD,,
+mlhp-0.0.3.dist-info/licenses/LICENSE,sha256=RBgqXwGdDsQvESWxDXke48oOqLmbxw0VUKBIGGhxUwc,1069
+lib/libmlhpcore.a,sha256=oCSblV_WOjj1Q4_zKxQGu65_2NLG9bD5uXCEgjLRpco,5968200
+mlhp.libs/libgomp-65f46eca.so.1.0.0,sha256=Zagab9rFQS08rPfVDR82oGJr9kuKwgrJok-GGlFBdCo,172293
