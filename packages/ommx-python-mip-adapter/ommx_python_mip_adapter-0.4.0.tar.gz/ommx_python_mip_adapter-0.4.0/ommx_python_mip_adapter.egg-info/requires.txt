@@ -1,0 +1,14 @@
+ommx<0.5.0,>=0.4.0
+mip
+
+[dev]
+markdown-code-runner
+mypy
+numpy
+pyright
+pytest
+ruff
+sphinx
+sphinx-autoapi
+sphinx_fontawesome
+sphinx_rtd_theme
