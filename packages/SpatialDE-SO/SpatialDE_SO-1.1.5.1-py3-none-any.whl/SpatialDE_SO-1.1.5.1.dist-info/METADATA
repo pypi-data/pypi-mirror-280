@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: SpatialDE-SO
+Version: 1.1.5.1
+Summary: Spatial and Temporal DE test. This is a fork containing some bug fixes.
+Home-page: https://github.com/Mena-SA-Kamel/SpatialDE-SO
+Author: Valentine Svensson
+Author-email: valentine@nxn.se
+Maintainer: Mena Kamel
+Maintainer-email: mena.kamel@sanofi.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy >=1.0
+Requires-Dist: pandas >=0.23
+Requires-Dist: tqdm
+Requires-Dist: NaiveDE
+Requires-Dist: Click
+
+ # SpatialDE
+
+This package wraps SpatialDE so it can be installed and used using PyPI after fixing some bugs.
+
+All SpatialDE credit goes to the SpatialDE authors. Please check the original publication for more details: [Nature Methods](https://www.nature.com/articles/nmeth.4636).
+
+If you use this package, please cite the original SpatialDE publication.
+
+ 
