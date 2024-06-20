@@ -1,0 +1,2 @@
+[console_scripts]
+spots2cells = spot2cell.scripts.spots2cells:main
