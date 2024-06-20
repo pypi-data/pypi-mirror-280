@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+app/dist/index.html
+app/dist/assets/index-DcsT-qWp.css
+app/dist/assets/index-N7v-x3k6.js
+src/input_validation/__init__.py
+src/input_validation/main.py
+src/input_validation_moveread.egg-info/PKG-INFO
+src/input_validation_moveread.egg-info/SOURCES.txt
+src/input_validation_moveread.egg-info/dependency_links.txt
+src/input_validation_moveread.egg-info/top_level.txt
