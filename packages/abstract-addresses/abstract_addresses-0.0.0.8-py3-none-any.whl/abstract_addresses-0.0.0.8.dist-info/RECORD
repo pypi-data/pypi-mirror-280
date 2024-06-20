@@ -1,0 +1,9 @@
+abstract_addresses/__init__.py,sha256=0iYvBUvhY1KD60HhYgSvaqEqoh55WLWfjKFK4u9BR2A,53
+abstract_addresses/add_addresses.py,sha256=LckvBECzsa3aDl6OBvk3Y1EJTDxiXIvWQ6L9eDef60Q,2250
+abstract_addresses/db_utils.py,sha256=yV-DCe6JFPRgTt68FHQyeeJ-5ON9ElBtsy20NB-zdCA,9326
+abstract_addresses/pre_parse.py,sha256=wz6AvvhbbJuMF9qaIrFOt9UM6FzLDnTYUwmGSMqg2AI,3936
+abstract_addresses/update_db.py,sha256=7PDmtI0NzMWos2hHOb46CivRLeitOcywEHBo4x2XkwQ,2030
+abstract_addresses-0.0.0.8.dist-info/METADATA,sha256=gLp1eLcL_euP_ygjPJ4kSbBTu-qetG-c9MDnkx2cIZQ,530
+abstract_addresses-0.0.0.8.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+abstract_addresses-0.0.0.8.dist-info/top_level.txt,sha256=PzKo_NBle4vfl-M3xbmcyaSEM-rYHFmqgSbxcYul0Ec,19
+abstract_addresses-0.0.0.8.dist-info/RECORD,,
