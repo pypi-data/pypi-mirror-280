@@ -1,0 +1,9 @@
+gradescalculator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gradescalculator/main.py,sha256=fy0W5rxw6nuu6iuQkqadaXAiTaiPXEoF7a8Fhy-Adcc,1413
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_calculations.py,sha256=FTipSEqGlYHYgnf3ZGmDqDegVsiuMGrK5jK4D76QGGs,481
+gradescalculator-0.3.dist-info/METADATA,sha256=D9tH89UIhkPd0TUDH_1y65Kn3AGNt_w1KlD2iXzoyWc,464
+gradescalculator-0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gradescalculator-0.3.dist-info/entry_points.txt,sha256=41B-0rjOcwhDz1Zl5VcMs72lS3X1-qdFCLO7-0Fxrac,62
+gradescalculator-0.3.dist-info/top_level.txt,sha256=j7GcOHv7PV0XnGxIz5gP2P2IfB-C7ckiQDm0JjerUSw,23
+gradescalculator-0.3.dist-info/RECORD,,
