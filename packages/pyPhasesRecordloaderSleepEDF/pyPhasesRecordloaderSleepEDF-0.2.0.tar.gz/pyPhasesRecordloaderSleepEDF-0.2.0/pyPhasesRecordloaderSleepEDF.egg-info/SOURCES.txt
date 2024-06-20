@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyPhasesRecordloaderSleepEDF/Plugin.py
+pyPhasesRecordloaderSleepEDF/__init__.py
+pyPhasesRecordloaderSleepEDF/config.yaml
+pyPhasesRecordloaderSleepEDF.egg-info/PKG-INFO
+pyPhasesRecordloaderSleepEDF.egg-info/SOURCES.txt
+pyPhasesRecordloaderSleepEDF.egg-info/dependency_links.txt
+pyPhasesRecordloaderSleepEDF.egg-info/requires.txt
+pyPhasesRecordloaderSleepEDF.egg-info/top_level.txt
+pyPhasesRecordloaderSleepEDF/recordLoaders/RecordLoaderSleepEDF.py
+pyPhasesRecordloaderSleepEDF/recordLoaders/__init__.py

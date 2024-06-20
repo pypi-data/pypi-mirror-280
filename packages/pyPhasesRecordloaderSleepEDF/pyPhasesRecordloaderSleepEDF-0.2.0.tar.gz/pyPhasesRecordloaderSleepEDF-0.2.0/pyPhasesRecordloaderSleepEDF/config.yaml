@@ -1,0 +1,40 @@
+loader:
+  sleepedf: &physio
+    dataBase: pyPhasesRecordloaderSleepEDF
+    dataBaseVersion: 1.0.0
+    filePath: ./datasets/sleepEDF
+    dataIsFinal: True
+
+    dataset:
+      name: sleepEDF
+      loaderName: RecordLoaderSleepEDF
+      fromFiles: False
+      downloader:
+        type: html-directory
+        idPattern: .*/(.[^-]*)(?=..-PSG.edf)
+        basePath: https://physionet.org/files/sleep-edfx/1.0.0
+      filePattern: "*.edf" # if there is
+
+    sourceChannels:
+    # 'EOG horizontal', 'Resp oro-nasal', 'EMG submental', 'Temp rectal', 'Event marker'
+      - name: EEG Fpz-Cz
+        type: eeg
+      - name: EEG Pz-Oz
+        type: eeg
+      - name: EOG horizontal
+        type: eog
+      - name: Resp oro-nasal
+        type: flow
+        optional: True
+      - name: EMG submental
+        type: emg
+      - name: Temp rectal
+        type: temperature
+        optional: True
+      # - name: Event marker
+      #   type: events
+
+    combineChannels: []
+
+useLoader: sleepedf
+sleepedf-path: ./datasets/sleepEDF
