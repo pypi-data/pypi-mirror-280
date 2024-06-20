@@ -1,0 +1,112 @@
+# Python ICD10
+
+Python-icd10 can be used to download icd10 diagnoses codes from the US CDC website. The data is reformatted and
+validated using Pydantic, to ensure all notes and additional information is captured. 
+
+Once downloaded, the data can be accessed to locate codes via their descriptions, via their partial code, or
+you can pull specific records using the exact icd10 code.
+
+## Installing Python-icd10
+
+To install Python-icd10 from PyPI, run
+```shell
+pip install python_icd10
+```
+
+# Basic Usage
+
+Python-icd10 comes in two main classes. One to download and build the database, and one used to read/extract data
+from it.
+
+### Creating/Updating the ICD10 database
+
+```python
+import pathlib
+from python_icd10.icd10_load import ICD10Load
+
+ICD10Load(pathlib.Path("/path/tp/save/db/")).load_from_cdc()
+```
+The above code will download the ICD10 codes from the CDC and create the database. The path does not need to exist
+before running this command. The code will create directories etc for you, as long as it has access to do so. This class
+will examine the CDC website and download the most recent file, based on the year. It will not take any notice of minor
+update files though.
+
+### Using the database
+
+```python
+import pathlib
+from python_icd10.icd10_warehouse import ICD10Warehouse
+
+icd10 = ICD10Warehouse(pathlib.Path("/path/to/the/database/"))
+```
+This will create an object with access to the database. 
+
+
+A single record can be fetched by find a record by its direct ICD10 code.
+```python
+record = icd10.get_by_code("M30")
+```
+It should be noted that the returned value is a TinyDB Document object. This is a child of a Dictionary with some
+additions such as obj.doc_id
+
+
+Finding records via the diagnosis description can be done like this:
+```python
+records = icd10.search_by_descriptipn("arthritis")
+```
+The search is case insensitive and will return a list of Document objects
+
+
+You can also search by partial icd10 code
+```python
+records = icd10.search_by_code("M30")
+```
+
+All ICD10 codes can be returned in a list of strings using:
+```python
+codes = icd10.get_all_codes()
+```
+
+### Directly accessing the database
+
+The TinyDB database is accessable via this object, so you can run custom queries directlt against the database
+
+```python
+import pathlib
+from tinydb import Query
+from python_icd10.icd10_warehouse import ICD10Warehouse
+
+icd10 = ICD10Warehouse(pathlib.Path("/path/to/db/"))
+q = Query()
+
+recs = icd10.db.search(q.section_name.matches("*hand*"))
+```
+
+See TinyDB for details on creating your own queries.
+
+
+### Record format
+
+Data from the CDC comes as a multi level XML file with lots of embedded and additional data. Python-icd10 flattens
+this and makes it more accessible. Each record is shaped as follows
+
+* name: ICD10 code as a string
+* description: Description attached to the code
+* inclusion_term: Notes on inclusion terms for the code. List of Strings
+* excludes1: Exclusion details(1). List of Strings
+* excludes2: Exclusion details(2). List of Strings
+* includes: Inclusion notes. List of Strings
+* code_first: List of Strings
+* additional_codes: List of Strings
+* parent: Parent code. String or None
+* section_name: string
+* section_description: String or None
+* chapter: String
+
+A lot of this data, I am unsure of its use, but it's included in the CDC data, so I have included it here
+
+
+
+
+
+
