@@ -1,0 +1,15 @@
+astmain/__init__.py,sha256=yM3dSVhBGAyecvXd7OvopA33usxqqMefcWmQVVFvN0k,154
+astmain/cmd/__init__.py,sha256=7pKD-fTki6sYswyNIboV71w1dma3DYvtYR67CuuJ0j4,22
+astmain/cmd/run.py,sha256=CTPQDS1U77ClN7t64xsv3bMkPJtmtOjpFr7AFW-1DAY,494
+astmain/fs/__init__.py,sha256=dj8Hc88O0XmsMo7KtY_a_ReI2icHqboGS61yIlYY5vw,52
+astmain/fs/aaa.txt,sha256=gHrl8420e_-LCbN62APLEO9RR1Z6iaM6Zrsygt9K2WY,16
+astmain/fs/delete.py,sha256=1vHPIgelF992BnpqnWceDXdNo5ifNDQEoeSxhSmjGLw,881
+astmain/fs/fff.py,sha256=0gePKDwC6gT8v3k_KFOFyc-afLX-aoe6q3IwolwwwEk,939
+astmain/fs/fff222.py,sha256=lwiYguVSvMCEQ5lN5LvZxCxdneScQP7JNLeSmxoS1kc,591
+astmain/fs/fff333.py,sha256=QnbxpvrXB3cPEXberepjgb0UEx4scREjrBOPhmRf7tQ,1481
+astmain/fs/fff444.py,sha256=JxkhdeoykMabA86IXzG7PjPMcs0Wljp_SK_DiaBKt4s,620
+astmain/fs/read.py,sha256=mQoJFn2v4kBFNy93KxC7OS8tcyR4bk33d21OLaIFros,1186
+astmain/fs/write.py,sha256=cl9qITmSDrXpic7-hleHNtqp3MODFnMF-D88_akljrc,821
+astmain-0.0.30.dist-info/WHEEL,sha256=Sgu64hAMa6g5FdzHxXv9Xdse9yxpGGMeagVtPMWpJQY,99
+astmain-0.0.30.dist-info/METADATA,sha256=TzqwsLUGZFbOPkNn96WFcTDrTybzPxuyHFWOBFh3AQQ,544
+astmain-0.0.30.dist-info/RECORD,,
