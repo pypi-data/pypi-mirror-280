@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+multires/__init__.py
+multires/euler.py
+multires/hmra.py
+multires/increase_resolution.py
+multires/smra.py
+multires.egg-info/PKG-INFO
+multires.egg-info/SOURCES.txt
+multires.egg-info/dependency_links.txt
+multires.egg-info/requires.txt
+multires.egg-info/top_level.txt
