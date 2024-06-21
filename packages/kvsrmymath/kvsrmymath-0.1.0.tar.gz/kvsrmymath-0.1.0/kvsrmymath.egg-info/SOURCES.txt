@@ -1,0 +1,9 @@
+setup.py
+kvsrmymath/__init__.py
+kvsrmymath/basic_2_math.py
+kvsrmymath/basic_math.py
+kvsrmymath.egg-info/PKG-INFO
+kvsrmymath.egg-info/SOURCES.txt
+kvsrmymath.egg-info/dependency_links.txt
+kvsrmymath.egg-info/top_level.txt
+kvsrmymath/other_math/__init__.py
