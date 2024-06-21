@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: torch-streamer
+Version: 0.0.1
+Summary: Streaming convolutions for PyTorch
+Author-email: "Brent M. Spell" <brent@brentspell.com>
+License: MIT License
+        
+        Copyright (c) 2024 Brent M. Spell
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/brentspell/torch-streamer
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy<2
+Requires-Dist: torch
+Requires-Dist: torchaudio
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pytest-watch; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: setuptools; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: wheel; extra == "dev"
+Requires-Dist: coveralls; extra == "dev"
+Requires-Dist: hypothesis; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-benchmark; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: mkdocs~=1.6; extra == "docs"
+Requires-Dist: mkdocstrings[python]~=0.25; extra == "docs"
+
+# Torch-Streamer
+This package implements a framework for streaming 1D convolutions in PyTorch
+without padding or pseudo-streaming/cross-fading.
+
+## Status
+[![PyPI](https://badge.fury.io/py/torch-streamer.svg)](https://badge.fury.io/py/torch-streamer)
+![Tests](https://github.com/brentspell/torch-streamer/actions/workflows/test.yml/badge.svg)
+[![Coveralls](https://coveralls.io/repos/github/brentspell/torch-streamer/badge.svg?branch=main)](https://coveralls.io/repos/github/brentspell/torch-streamer/badge.svg?branch=main)
+[![Docs](https://readthedocs.org/projects/torch-streamer/badge/?version=latest)](https://torch-streamer.readthedocs.io/en/latest/?badge=latest)
+
+## Usage
+
+### Install with pip
+```bash
+pip install torch-streamer
+```
+
+### Documentation
+
+Docs are available at
+[torch-streamer.readthedocs.io](https://torch-streamer.readthedocs.io/en/latest).
+
+## License
+Copyright © 2024 Brent M. Spell
+
+Licensed under the MIT License (the "License"). You may not use this
+package except in compliance with the License. You may obtain a copy of the
+License at
+
+    https://opensource.org/licenses/MIT
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
