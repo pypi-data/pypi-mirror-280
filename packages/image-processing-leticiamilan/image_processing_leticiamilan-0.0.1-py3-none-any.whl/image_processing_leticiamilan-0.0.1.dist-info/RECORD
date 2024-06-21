@@ -1,0 +1,12 @@
+image-processing-leticiamilan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image-processing-leticiamilan/processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image-processing-leticiamilan/processing/combination.py,sha256=5dHgzGGcd0ha8u51BoDy321507b-v1CpNcGjjX3Ai5I,1030
+image-processing-leticiamilan/processing/transformation.py,sha256=mi6rpmaQcVQ1GHa5E0BBQikoMsvpsKhBi0DAx4kB2lg,368
+image-processing-leticiamilan/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image-processing-leticiamilan/utils/io.py,sha256=tp5RzFsbG7COSH-g0uNUR_a-DtcNe19brtlrsYMLhtM,233
+image-processing-leticiamilan/utils/plot.py,sha256=_JlLwbg0iCrhRE2eC19Q5ZDhcFiViYVRb2ZBobGdCwE,1127
+image_processing_leticiamilan-0.0.1.dist-info/LICENSE,sha256=-R3MyvEoZqr9l__FSGULmERqrXKigexlirv0eK0xk88,1092
+image_processing_leticiamilan-0.0.1.dist-info/METADATA,sha256=n6o_i8UXoRJOLr_MguAzp20NeAtF6r_5K1AQ2WCXLoU,3533
+image_processing_leticiamilan-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+image_processing_leticiamilan-0.0.1.dist-info/top_level.txt,sha256=_vtyp_-gn1Te3LPzbEzwzM1QSv5Z0P7DcQUnPcDKobg,30
+image_processing_leticiamilan-0.0.1.dist-info/RECORD,,
