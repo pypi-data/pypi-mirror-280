@@ -1,0 +1,7 @@
+gisflu-0.1.0.dist-info/METADATA,sha256=spfsf2sSObqPT99wvGPguxrjgZdYNIjJPoMLanjWUXQ,327
+gisflu-0.1.0.dist-info/WHEEL,sha256=SOP-4bEE0jbVaCHQGVvF08uWxk5rcSsfEybvoQVHlD8,90
+gisflu/__init__.py,sha256=1oVH8iEP0ib1-_nkwXGge4Go7QfccHUqmTjUZ2Dy1ZI,93
+gisflu/credentials.py,sha256=xlpSOXKA1x7NhUd5faonFxNudhwJr9BsqFSmURp_40E,1369
+gisflu/login.py,sha256=bAMhQG_iFIf1HmchVqe3dxx53XhGIPV47sYhZBSqlsI,6152
+gisflu/utils.py,sha256=MOVVKP-nJ6y6umFJzQitlquzVTUL4Sqi38gTiHM1mdI,2823
+gisflu-0.1.0.dist-info/RECORD,,
