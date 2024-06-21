@@ -1,0 +1,150 @@
+Metadata-Version: 2.1
+Name: dualmcu
+Version: 0.0.4
+Summary: The Pin Remapping Library dualmcu v0.0.4 for the DualMCU ONE board ensures compatibility with Arduino shields when using MicroPython. Version 0.0.4 also adds compatibility with the OLED SSD1306 display.
+Author: Mrju10
+Author-email: name@email.com
+License: License
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+
+# DualMCU v0.0.4
+
+The Pin Remapping Library dualmcu v0.0.4 for the DualMCU ONE board ensures compatibility with Arduino shields when using MicroPython. This version includes a driver compatible with SSD1306 OLED displays.
+
+
+## Installation
+
+1. Open [Thonny](https://thonny.org/).
+2. Go to **Tools** -> **Manage Packages**.
+3. Enter `dualmcu` in the search bar and click **Install**.
+
+
+## Example of use
+
+1. Connect Multi-purpose Shield to DualMCU ONE
+2. Open Thonny and connect to the DualMCU ONE board.
+3. Run the following code:
+
+```python
+
+from machine import Pin, PWM
+from dualmcu import D5
+import time
+
+# Configuración del pin D5 para PWM
+buzzer = PWM(Pin(D5))
+
+def play_tone(frequency, duration):
+    buzzer.freq(frequency)
+    buzzer.duty_u16(32768)  # Configura el duty cycle al 50%
+    time.sleep(duration)
+    buzzer.duty_u16(0)  # Apaga el buzzer
+
+try:
+    while True:
+        # Toca una secuencia de tonos
+        play_tone(262, 0.5)  # Do
+        time.sleep(0.1)
+        play_tone(294, 0.5)  # Re
+        time.sleep(0.1)
+        play_tone(330, 0.5)  # Mi
+        time.sleep(0.1)
+        play_tone(349, 0.5)  # Fa
+        time.sleep(0.1)
+        play_tone(392, 0.5)  # Sol
+        time.sleep(0.1)
+        play_tone(440, 0.5)  # La
+        time.sleep(0.1)
+        play_tone(494, 0.5)  # Si
+        time.sleep(0.1)
+        play_tone(523, 0.5)  # Do
+        time.sleep(0.1)
+except KeyboardInterrupt:
+    # Detener el buzzer cuando se interrumpe el programa
+    buzzer.deinit()
+
+
+
+```
+
+4. You should hear a sequence of tones.
+
+
+## Ejemplo de uso con la clase Shield
+
+```python
+from pins_lib import D5, D9, D10, D11, Shield
+
+# Crear una instancia de Shield
+my_shield = Shield(pin_red=D9, pin_green=D10, pin_blue=D11, pin_buzzer=D5)
+
+try:
+    while True:
+        # Toca una secuencia de tonos y cambia los colores del LED
+        my_shield.set_led('red')
+        my_shield.play_tone(262, 0.5)  # Do
+        time.sleep(0.1)
+
+        my_shield.set_led('green')
+        my_shield.play_tone(294, 0.5)  # Re
+        time.sleep(0.1)
+
+        my_shield.set_led('blue')
+        my_shield.play_tone(330, 0.5)  # Mi
+        time.sleep(0.1)
+
+        my_shield.set_led('yellow')
+        my_shield.play_tone(349, 0.5)  # Fa
+        time.sleep(0.1)
+
+        my_shield.set_led('cyan')
+        my_shield.play_tone(392, 0.5)  # Sol
+        time.sleep(0.1)
+
+        my_shield.set_led('magenta')
+        my_shield.play_tone(440, 0.5)  # La
+        time.sleep(0.1)
+
+        my_shield.set_led('white')
+        my_shield.play_tone(494, 0.5)  # Si
+        time.sleep(0.1)
+
+        my_shield.set_led('off')
+        my_shield.play_tone(523, 0.5)  # Do
+        time.sleep(0.1)
+except KeyboardInterrupt:
+    # Detener el shield cuando se interrumpe el programa
+    my_shield.deinit()
+```
+Code example I2C
+```python
+Code example
+'''
+    Unit Electronics 2024
+           (o_
+    (o_    //\
+    (/)_   V_/_ 
+    tested code mark
+
+'''
+
+import machine
+from dualmcu import SSD1306_I2C
+
+i2c = machine.I2C(0,sda=machine.Pin(21), scl=machine.Pin(22))
+
+oled = SSD1306_I2C(128, 32, i2c)
+
+oled.fill(1)
+oled.show()
+
+oled.fill(0)
+oled.show()
+oled.text('UNIT', 50, 10)
+oled.text('ELECTRONICS', 25, 20)
+
+oled.show()
+```
