@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+intellibot/__init__.py
+intellibot/api.py
+intellibot/cli.py
+intellibot.egg-info/PKG-INFO
+intellibot.egg-info/SOURCES.txt
+intellibot.egg-info/dependency_links.txt
+intellibot.egg-info/entry_points.txt
+intellibot.egg-info/requires.txt
+intellibot.egg-info/top_level.txt
