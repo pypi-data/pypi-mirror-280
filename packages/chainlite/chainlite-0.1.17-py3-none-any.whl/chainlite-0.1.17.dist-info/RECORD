@@ -1,0 +1,13 @@
+chainlite/__init__.py,sha256=7pby0jd8KUKCZPRSqd68UB96IEDfCRYsTbuD8tWa-Qc,400
+chainlite/llm_config.py,sha256=DB6uTc3msZOi0WIXYYyAO-UZbzJcqLI0ODrjVhrzPkk,6365
+chainlite/llm_generate.py,sha256=iC7TLuMGdWrgPs4dIkb5yV5ZFZW1zP7glWurLliax-I,14289
+chainlite/load_prompt.py,sha256=w-BIV0RP1o_wmMrKcIwUSucP9eWLWJfjYZNfmL-rPaI,8021
+chainlite/mock_llm.py,sha256=mdvNKdw1X_gYJODBRT6vGFcu3wssLWVnZiT1vJoHEN8,4358
+chainlite/utils.py,sha256=QevrGVFMI3FgoFwY9cUAcPRdhLZfyry5-HWZAMpG1mQ,463
+tasks/__init__.py,sha256=v74d_-amPXewBQaZE7ndsudqw7OrdXKMM-iybpcn7Jo,24
+tasks/main.py,sha256=0cxM3WCcx5Xe9m2EguzHLqlYplaAR8k1gkyBbRjou08,1656
+chainlite-0.1.17.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+chainlite-0.1.17.dist-info/METADATA,sha256=DVR4lcyxBl4nH6OtLW3LZks7Jt-k7kYy1XM7axv9w5k,5860
+chainlite-0.1.17.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+chainlite-0.1.17.dist-info/top_level.txt,sha256=16SbMmSx4c-Y2kssdpiwVJqE_UJHBuZcmdqcUlDgvIs,16
+chainlite-0.1.17.dist-info/RECORD,,
