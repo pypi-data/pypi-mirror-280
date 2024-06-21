@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+ducle_package/__init__.py
+ducle_package/module.py
+ducle_package.egg-info/PKG-INFO
+ducle_package.egg-info/SOURCES.txt
+ducle_package.egg-info/dependency_links.txt
+ducle_package.egg-info/requires.txt
+ducle_package.egg-info/top_level.txt
