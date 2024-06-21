@@ -1,0 +1,7 @@
+/*! (c) Andrea Giammarchi - ISC */
+
+/*! Bundled license information:
+
+coincident/esm/index.js:
+  (*! (c) Andrea Giammarchi - ISC *)
+*/
