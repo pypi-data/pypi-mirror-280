@@ -1,0 +1,7 @@
+hapiclient
+kamodo
+plasmapy
+pysat
+pyspedas
+spacepy
+sunpy
