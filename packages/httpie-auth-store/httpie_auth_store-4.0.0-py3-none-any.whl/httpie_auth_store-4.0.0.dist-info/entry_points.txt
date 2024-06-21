@@ -1,0 +1,3 @@
+[httpie.plugins.auth.v1]
+store=httpie_auth_store:StoreAuthPlugin
+
