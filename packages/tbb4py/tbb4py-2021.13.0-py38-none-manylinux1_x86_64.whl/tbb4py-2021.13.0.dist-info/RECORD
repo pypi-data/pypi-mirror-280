@@ -1,0 +1,14 @@
+TBB.py,sha256=5hyVHcXom7bZsMk2QBHbNFSayO4UBzlqaU-WtSEwEV0,734
+tbb/__init__.py,sha256=LpTDE1pBwJpb5zCVpf9holYQB-gD7V5THjbV9sXA8UY,13120
+tbb/__main__.py,sha256=qy4I4uXY4ZRgs4xxT-IC4E-TK4UfjvePCTEYDMN61oQ,647
+tbb/_api.cpython-38-x86_64-linux-gnu.so,sha256=nRUoAW5T4CtIuiymARZM1eZgZsbzxUBzP47i9Kmdil0,701760
+tbb/api.py,sha256=2auvjI0a7E7CjVspl0ukEqZeBA6_u0CmmEbnhNNMy9E,5455
+tbb/pool.py,sha256=jaMoLgsASZIcVWg-Mzisma4k3Fn9kTP7bibBGqY4OTQ,24993
+tbb/test.py,sha256=FvU8ulB3wCms9n9WEq1xu-SD5OEs9ojoXC55sGz9vrc,7111
+tbb4py-2021.13.0.data/data/lib/libirml.so,sha256=HmodtHCQwQGOYaafzuFBFrHG-B1NGTkd8xW4mgFCn0s,409304
+tbb4py-2021.13.0.data/data/lib/libirml.so.1,sha256=HmodtHCQwQGOYaafzuFBFrHG-B1NGTkd8xW4mgFCn0s,409304
+tbb4py-2021.13.0.dist-info/LICENSE.txt,sha256=dyFjPQ3f9D-uJev9QF-BZqDOcwy87ETy862dXrismm8,4105
+tbb4py-2021.13.0.dist-info/METADATA,sha256=9Vjgh9LPR3p_T_UEruXGzGNS6g2SfDpVarI-G3iFzBM,1005
+tbb4py-2021.13.0.dist-info/WHEEL,sha256=KUw5v0OkIti_FPHYLEMiqSBmUFpuC4n7PHRMpplWaA4,107
+tbb4py-2021.13.0.dist-info/top_level.txt,sha256=T-8RFHelnNCm5tGd4pCE4B1dIiGh5j5ETTdGl1hTBPA,8
+tbb4py-2021.13.0.dist-info/RECORD,,
