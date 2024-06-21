@@ -1,0 +1,10 @@
+OperationBattleshipJobCategoryClassifier/JobCategoryClassifierBertInference.py,sha256=m2it9CPe3P8yBGAVXod615b2pq_tCIfAg-S6a4u5tLQ,4351
+OperationBattleshipJobCategoryClassifier/JobCategoryClassifierBertTraining.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+OperationBattleshipJobCategoryClassifier/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=oKtE58fdIcgrBbvo6BIFgOw4vEOet3T3byCsLQ4S92s,410
+OperationBattleshipJobCategoryClassifier-0.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+OperationBattleshipJobCategoryClassifier-0.1.0.dist-info/METADATA,sha256=_poeTOX3qrlVGxdIKRzZry5taRRdvsvo0aPX3fgpyHs,537
+OperationBattleshipJobCategoryClassifier-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+OperationBattleshipJobCategoryClassifier-0.1.0.dist-info/top_level.txt,sha256=c7Pj9D_7DuCcA-dCyRDKKRgKClUuS4fyASg9YuXGI6g,47
+OperationBattleshipJobCategoryClassifier-0.1.0.dist-info/RECORD,,
