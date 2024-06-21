@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: qsreplace
+Version: 0.0.1
+Summary: A utility to replace query parameters in URLs
+Home-page: https://github.com/basedygt/qsreplace
+Author: basedygt
+Author-email: basedygt@gmail.com
+Keywords: qsreplace,url editor,params editor
+License-File: LICENSE
