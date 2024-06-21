@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: vec64
+Version: 0.0.3
+Summary: C extension functions to make DOM tokenizers faster
+Author-email: Gary Benson <gary@gbenson.net>
+Project-URL: Homepage, https://github.com/gbenson/vec64
+Project-URL: Source, https://github.com/gbenson/vec64
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![version badge]](https://pypi.org/project/vec64/)
+[![license badge]](https://github.com/gbenson/vec64/blob/main/LICENSE)
+
+[version badge]: https://img.shields.io/pypi/v/vec64?color=limegreen
+[license badge]: https://img.shields.io/github/license/gbenson/vec64.svg?color=blue
+
+# C extensions for DOM tokenizers
+
+C extension functions to make [dom-tokenizers] faster.
+
+[dom-tokenizers]: https://pypi.org/project/dom-tokenizers/
