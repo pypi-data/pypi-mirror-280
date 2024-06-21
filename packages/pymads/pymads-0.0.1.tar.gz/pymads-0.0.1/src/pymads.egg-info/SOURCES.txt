@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/mads/__init__.py
+src/mads/agent_manager.py
+src/mads/chat_manager.py
+src/mads/config.py
+src/pymads.egg-info/PKG-INFO
+src/pymads.egg-info/SOURCES.txt
+src/pymads.egg-info/dependency_links.txt
+src/pymads.egg-info/requires.txt
+src/pymads.egg-info/top_level.txt
+tests/test_configs.py
