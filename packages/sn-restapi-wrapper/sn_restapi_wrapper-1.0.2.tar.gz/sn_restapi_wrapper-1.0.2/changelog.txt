@@ -1,0 +1,15 @@
+Change Log 
+
+=============================
+
+1.0.0 (2024-06-20)
+------------------
+- First release for pre-release testing 
+
+1.0.1 (2024-06-20)
+------------------
+- Second release for pre-release model with updated README.md with use case
+
+1.0.2 (2024-06-20)
+------------------
+- Third release for pre-release model with updated README.md with use case
