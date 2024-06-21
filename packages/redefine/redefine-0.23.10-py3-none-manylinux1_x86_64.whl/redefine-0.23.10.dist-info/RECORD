@@ -1,0 +1,10 @@
+redefine/__init__.py,sha256=cNEc5IsNzxoOeMvLQiZFo8LBW1kFDFeUpj1iYhTm6EQ,1079
+redefine/__main__.py,sha256=Tky4flqW7NJraDF-1ztlfIKPEE1qnR1tdRRGR2sW28Q,440
+redefine/redefine_installer,sha256=HOd8o96zIBh3-dQ8EwMXn-cLyRB51pgJrY-10_G0d7s,37116608
+redefine/version_info.txt,sha256=kS7ia4vjhrmgL4Nl5x8GG-DMHYijNBybWpD3BcxwBz8,49
+redefine-0.23.10.dist-info/LICENSE,sha256=2kWAZykIcttwlTugwpJkXsdcmYdIVzhCTI0AZPkTjww,11356
+redefine-0.23.10.dist-info/METADATA,sha256=d8d_HIP__eBpB_odEwFTM4nD-Ed82Hxf9vJXLhWPb4k,849
+redefine-0.23.10.dist-info/WHEEL,sha256=Bk22TbuisWAzwBPgwD9EeHWUrCwPt2F-ZT2P7e0SoqI,106
+redefine-0.23.10.dist-info/entry_points.txt,sha256=yKvRf9MLm009N9d25lpoGKDRlU2Qh5Dgrq8Cj9J_3lo,55
+redefine-0.23.10.dist-info/top_level.txt,sha256=RLY5cSggEIm7ippgLU0yYXdVGW4ckCQ2KhZvle5nsBw,9
+redefine-0.23.10.dist-info/RECORD,,
