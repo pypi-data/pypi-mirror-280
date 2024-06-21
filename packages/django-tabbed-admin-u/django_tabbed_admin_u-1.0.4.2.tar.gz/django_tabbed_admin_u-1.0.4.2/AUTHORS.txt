@@ -1,0 +1,7 @@
+The primary author of gipsy_tabbed_admin is Guillaume Pousseo 
+
+email: guillaumepousseo@revsquare.com
+
+The author of patched version is intp1
+
+email: intp1@protonmail.com
