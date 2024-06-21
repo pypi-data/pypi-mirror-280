@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ThaiAddressParser/__init__.py
+ThaiAddressParserPlus.egg-info/PKG-INFO
+ThaiAddressParserPlus.egg-info/SOURCES.txt
+ThaiAddressParserPlus.egg-info/dependency_links.txt
+ThaiAddressParserPlus.egg-info/requires.txt
+ThaiAddressParserPlus.egg-info/top_level.txt
