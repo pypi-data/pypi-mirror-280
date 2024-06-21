@@ -1,0 +1,53 @@
+# complete example config: https://github.com/stellar/stellar-core/blob/master/docs/stellar-core_example.cfg
+LOG_FILE_PATH="{{ log_dir }}/stellar-core.log"
+BUCKET_DIR_PATH="{{ bucket_dir }}"
+DATABASE="postgresql://dbname={{ db_name }} user={{ db_user }} password={{ db_password }} host={{ db_host }} port={{ db_port }}"
+NODE_SEED="{{ node_seed }} self"
+NODE_HOME_DOMAIN="example.com"
+NODE_IS_VALIDATOR=true
+CATCHUP_COMPLETE=true
+DEPRECATED_SQL_LEDGER_STATE=false
+HTTP_PORT={{ http_port }}
+PUBLIC_HTTP_PORT=false
+WORKER_THREADS=2
+MAX_CONCURRENT_SUBPROCESSES=4
+NETWORK_PASSPHRASE="Test SDF Network ; September 2015"
+
+# don't use maintenance during catchup
+AUTOMATIC_MAINTENANCE_PERIOD=0
+AUTOMATIC_MAINTENANCE_COUNT=0
+UNSAFE_QUORUM=true
+
+[[HOME_DOMAINS]]
+HOME_DOMAIN="testnet.stellar.org"
+QUALITY="HIGH"
+
+[[HOME_DOMAINS]]
+HOME_DOMAIN = "example.com"
+QUALITY = "LOW"
+
+[[VALIDATORS]]
+NAME="sdf_testnet_1"
+HOME_DOMAIN="testnet.stellar.org"
+PUBLIC_KEY="GDKXE2OZMJIPOSLNA6N6F2BVCI3O777I2OOC4BV7VOYUEHYX7RTRYA7Y"
+ADDRESS="core-testnet1.stellar.org"
+HISTORY="curl -sf http://history.stellar.org/prd/core-testnet/core_testnet_001/{0} -o {1}"
+
+[[VALIDATORS]]
+NAME="sdf_testnet_2"
+HOME_DOMAIN="testnet.stellar.org"
+PUBLIC_KEY="GCUCJTIYXSOXKBSNFGNFWW5MUQ54HKRPGJUTQFJ5RQXZXNOLNXYDHRAP"
+ADDRESS="core-testnet2.stellar.org"
+HISTORY="curl -sf http://history.stellar.org/prd/core-testnet/core_testnet_002/{0} -o {1}"
+
+[[VALIDATORS]]
+NAME="sdf_testnet_3"
+HOME_DOMAIN="testnet.stellar.org"
+PUBLIC_KEY="GC2V2EFSXN6SQTWVYA5EPJPBWWIMSD2XQNKUOHGEKB535AQE2I6IXV2Z"
+ADDRESS="core-testnet3.stellar.org"
+HISTORY="curl -sf http://history.stellar.org/prd/core-testnet/core_testnet_003/{0} -o {1}"
+
+[HISTORY.local]
+get="cp {{ history_dir }}/{0} {1}"
+put="cp {0} {{ history_dir }}/{1}"
+mkdir="mkdir -p {{ history_dir }}/{0}"
