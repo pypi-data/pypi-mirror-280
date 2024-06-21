@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+gree_air_purifier.egg-info/PKG-INFO
+gree_air_purifier.egg-info/SOURCES.txt
+gree_air_purifier.egg-info/dependency_links.txt
+gree_air_purifier.egg-info/requires.txt
+gree_air_purifier.egg-info/top_level.txt
