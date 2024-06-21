@@ -1,0 +1,29 @@
+name: Dev requirements for target python
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  test_python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: Install package (no deps)
+        run: |
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          uv pip install --system --no-deps .[fitting,dev]
+      - name: Install dev requirements
+        run: |
+          uv pip install --system -r requirements/dev-requirements.txt
+      - name: Test with pytest
+        run: |
+          pytest --nbmake
