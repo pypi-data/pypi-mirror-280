@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: momentum_cli
+Version: 0.0.1
+Summary: A CLI app for momentum.sh web interface to talk to your IDE
+Author-email: Dhiren Mathur <dhiren@momentum.sh>
+Requires-Dist: fastapi
+Requires-Dist: tree-sitter-languages
+Requires-Dist: typer
+Description-Content-Type: text/markdown
+
+#README

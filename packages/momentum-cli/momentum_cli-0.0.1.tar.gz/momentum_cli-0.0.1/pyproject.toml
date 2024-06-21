@@ -1,0 +1,28 @@
+[project]
+name = "momentum_cli"
+version = "0.0.1"
+description = "A CLI app for momentum.sh web interface to talk to your IDE"
+authors = [
+  { name="Dhiren Mathur", email="dhiren@momentum.sh" },
+]
+readme = "README.md"
+
+dependencies=[
+"fastapi",
+"tree-sitter-languages",
+"typer"
+]
+
+[project.scripts]
+momentum = "momentum_cli.cli:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+
+
+
+
+

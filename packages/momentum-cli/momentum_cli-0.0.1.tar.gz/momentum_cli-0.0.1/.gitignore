@@ -1,0 +1,17 @@
+.DS_Store
+.vscode
+*__pycache__
+.venv
+projects
+data
+server/firebase_service_account.json
+cli/dist
+cli/.venv
+venv/
+.env
+*.json
+.momentum
+db
+/server/.hypothesis
+cli/momentum_cli/.momentum
+.hypothesis
