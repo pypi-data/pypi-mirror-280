@@ -1,0 +1,6 @@
+README.md
+setup.py
+fluidmodels.egg-info/PKG-INFO
+fluidmodels.egg-info/SOURCES.txt
+fluidmodels.egg-info/dependency_links.txt
+fluidmodels.egg-info/top_level.txt
