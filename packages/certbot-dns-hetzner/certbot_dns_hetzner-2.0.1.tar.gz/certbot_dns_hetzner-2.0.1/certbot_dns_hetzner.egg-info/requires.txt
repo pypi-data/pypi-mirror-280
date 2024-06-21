@@ -1,0 +1,8 @@
+certbot>=2.0.0
+setuptools
+requests
+requests-mock
+dns-lexicon>=3.11.6
+
+[:python_version < "3.0"]
+parsedatetime<=2.5
