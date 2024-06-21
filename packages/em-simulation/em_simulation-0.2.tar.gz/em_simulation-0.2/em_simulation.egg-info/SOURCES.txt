@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+em_simulation/__init__.py
+em_simulation/create_gpr_image.py
+em_simulation/global_constants.py
+em_simulation/main_example.py
+em_simulation/object_creation.py
+em_simulation/propagator_2D.py
+em_simulation/user_messages.py
+em_simulation/visualization.py
+em_simulation/waveform.py
+em_simulation.egg-info/PKG-INFO
+em_simulation.egg-info/SOURCES.txt
+em_simulation.egg-info/dependency_links.txt
+em_simulation.egg-info/requires.txt
+em_simulation.egg-info/top_level.txt
