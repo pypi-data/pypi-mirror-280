@@ -1,0 +1,4 @@
+flask
+tokenizers
+torch
+loguru
