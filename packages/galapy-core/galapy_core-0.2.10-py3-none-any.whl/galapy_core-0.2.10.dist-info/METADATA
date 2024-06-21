@@ -1,0 +1,12 @@
+Metadata-Version: 2.3
+Name: galapy-core
+Version: 0.2.10
+Summary: The backend and DB interactive layer for the GalaPy project
+Author-email: Kevin Hill <kivo360@gmail.com>
+Requires-Python: <=3.12,>=3.10
+Requires-Dist: ccxt<5.0.0,>=4.2.93
+Requires-Dist: decorator<6.0.0,>=5.1.1
+Requires-Dist: devtools<0.13.0,>=0.12.2
+Requires-Dist: faker<25.0.0,>=24.8.0
+Requires-Dist: supabase<3.0.0,>=2.5.1
+Requires-Dist: supamodel<0.7.0,>=0.6.2
