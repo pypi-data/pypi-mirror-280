@@ -1,0 +1,17 @@
+aiohttp
+requests
+
+[dev]
+build
+twine
+
+[lint]
+black>=23.10.0
+isort
+
+[test]
+coverage
+pytest
+pytest-asyncio
+pytest-cov
+gevent
