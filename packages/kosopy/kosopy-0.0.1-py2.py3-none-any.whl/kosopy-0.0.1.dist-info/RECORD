@@ -1,0 +1,11 @@
+kosopy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kosopy/cli.py,sha256=j9zeqHzXn95gJtQXfJIQfdbOO9tiqhfJeDSFZ1HLECs,433
+kosopy/common.py,sha256=Si4ZvbkkaVGyKrOa7gmsVNWS2Abtji-V5nEsJhrIM3M,188
+kosopy/kosopy.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+kosopy/wlbinary.py,sha256=Yu9MvexjTWRaP5Tibx-9UZ0Jh08fR1zt5iH7TkaQnpM,11783
+kosopy-0.0.1.dist-info/LICENSE,sha256=oH-BP7kPa9GnKakUjPO1cQgV1KyFTQIaEfsW713IvJA,1076
+kosopy-0.0.1.dist-info/METADATA,sha256=FLDZ9HGfOGEeWlA45_eUArZuMGTRnnSXb2dnk_A634o,1266
+kosopy-0.0.1.dist-info/WHEEL,sha256=pOwdCRdxkCaq8tWTvnGIC-q_meWYHwmqvvQPkeaM2I4,109
+kosopy-0.0.1.dist-info/entry_points.txt,sha256=2tVhNdL1tdSsmeLvtfUeTys3t7ZaYsSUTVCwlK9dlZA,43
+kosopy-0.0.1.dist-info/top_level.txt,sha256=QQLFtE_tuPyQeXuEJQkT5QWZd7SPrxW_wdGPthbp2Yk,7
+kosopy-0.0.1.dist-info/RECORD,,
