@@ -1,0 +1,11 @@
+setup.py
+hackfunc/__init__.py
+hackfunc/infoga.py
+hackfunc/network_scans.py
+hackfunc/utils.py
+hackfunc/vuln.py
+hackfunc.egg-info/PKG-INFO
+hackfunc.egg-info/SOURCES.txt
+hackfunc.egg-info/dependency_links.txt
+hackfunc.egg-info/requires.txt
+hackfunc.egg-info/top_level.txt
