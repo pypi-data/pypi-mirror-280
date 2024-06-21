@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pdf_ocr_txt/__init__.py
+pdf_ocr_txt/main.py
+pdf_ocr_txt/requirements.txt
+pdf_ocr_txt.egg-info/PKG-INFO
+pdf_ocr_txt.egg-info/SOURCES.txt
+pdf_ocr_txt.egg-info/dependency_links.txt
+pdf_ocr_txt.egg-info/not-zip-safe
+pdf_ocr_txt.egg-info/requires.txt
+pdf_ocr_txt.egg-info/top_level.txt
