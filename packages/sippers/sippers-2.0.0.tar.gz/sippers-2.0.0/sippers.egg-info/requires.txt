@@ -1,0 +1,5 @@
+raven
+pymongo<3.0
+osconf
+marshmallow<3.0
+click
