@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pydevroutes/__init__.py
+pydevroutes/add_path.py
+pydevroutes/script.py
+pydevroutes.egg-info/PKG-INFO
+pydevroutes.egg-info/SOURCES.txt
+pydevroutes.egg-info/dependency_links.txt
+pydevroutes.egg-info/top_level.txt
