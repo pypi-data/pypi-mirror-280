@@ -1,0 +1,11 @@
+instantview/__init__.py,sha256=naVUDki_fWbaOp-jg8d9MUn5isox_SSALjJElFMPo_4,194
+instantview/__main__.py,sha256=tbrAm5NgIAEkslMiMFKt7ilxQgO6NQdDm-RLBuwGm8E,59
+instantview/_version.py,sha256=IMl2Pr_Sy4LVRKy_Sm4CdwUl1Gryous6ncL96EMYsnM,411
+instantview/hooks.py,sha256=J-_-vONJkCofOhszFesa5ZjtiILRGbAGajWw-6DXr14,3116
+instantview/web.py,sha256=ciRsfQHzzBv9kPoR6s7IjFS53EGPwpsNIhiES_rGLLM,4898
+instantview-0.1.0.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+instantview-0.1.0.dist-info/METADATA,sha256=7-Ba3DbE6f1fd6IhRMf5dmxcaIoSGj7sUMCsj-DPJWg,2022
+instantview-0.1.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+instantview-0.1.0.dist-info/entry_points.txt,sha256=ZUQfLXkBgwBw9LV8pRWe0OqDgVqYwJ__PDWJlxiFJFc,53
+instantview-0.1.0.dist-info/top_level.txt,sha256=Zrk5xl0szs9Q-0GltxrqMTaYc_qwVKLxi_u4VTFrkhU,12
+instantview-0.1.0.dist-info/RECORD,,

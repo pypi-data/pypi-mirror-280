@@ -1,0 +1,2 @@
+[console_scripts]
+instantview-bot = instantview:main
