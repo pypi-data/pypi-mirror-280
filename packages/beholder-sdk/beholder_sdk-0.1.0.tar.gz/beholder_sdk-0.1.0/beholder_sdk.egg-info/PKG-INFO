@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: beholder-sdk
+Version: 0.1.0
+Summary: A tool for collecting information about errors in web applications and displaying the data flow
+Home-page: https://github.com/Marcusfam-RB/beholder_sdk
+Author: Browin Roman
+Author-email: roman.browin@yandex.ru
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
