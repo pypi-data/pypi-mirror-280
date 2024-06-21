@@ -1,0 +1,12 @@
+README.md
+setup.py
+CLIGIF/__init__.py
+CLIGIF/assign_form.py
+CLIGIF/converter.py
+CLIGIF/display.py
+CLIGIF/main.py
+CLIGIF.egg-info/PKG-INFO
+CLIGIF.egg-info/SOURCES.txt
+CLIGIF.egg-info/dependency_links.txt
+CLIGIF.egg-info/requires.txt
+CLIGIF.egg-info/top_level.txt
