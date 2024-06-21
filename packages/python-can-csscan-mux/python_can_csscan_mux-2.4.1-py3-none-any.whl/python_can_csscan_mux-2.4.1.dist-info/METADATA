@@ -1,0 +1,21 @@
+Metadata-Version: 2.3
+Name: python-can-csscan-mux
+Version: 2.4.1
+Summary: Mux/demux data from the CSS Electronics' CANmod.router device through Python
+Project-URL: Homepage, https://canlogger.csselectronics.com/tools-docs/csscan_mux/python_csscan/
+Author: CSS Electronics
+Author-email: contact@csselectronics.com
+License: MIT
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: python-can>=4.0.0
+Description-Content-Type: text/markdown
+
+# python-can-csscan-mux
+
+The **python-can-csscan-mux** package allows for muxing/demuxing data from [CSS Electronics'](https://www.csselectronics.com/) CANmod.router devices over USB.
+
+For usage guidelines, consult the manual or the documentation for the [**python-can**](https://python-can.readthedocs.io/en/stable/) package.
