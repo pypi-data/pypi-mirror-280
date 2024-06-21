@@ -1,0 +1,6 @@
+kabaret>=2.2.0rc7
+
+[dev]
+twine
+flake8
+black
