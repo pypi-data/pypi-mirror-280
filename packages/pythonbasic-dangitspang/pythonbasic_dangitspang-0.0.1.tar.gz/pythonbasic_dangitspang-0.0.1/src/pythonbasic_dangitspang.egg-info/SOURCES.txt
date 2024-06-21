@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/pythonbasic_dangitspang/__init__.py
+src/pythonbasic_dangitspang/pythonbasic.py
+src/pythonbasic_dangitspang.egg-info/PKG-INFO
+src/pythonbasic_dangitspang.egg-info/SOURCES.txt
+src/pythonbasic_dangitspang.egg-info/dependency_links.txt
+src/pythonbasic_dangitspang.egg-info/top_level.txt
