@@ -1,0 +1,12 @@
+beautifulsoup4
+requests
+selenium
+webdriver_manager
+fastapi
+aiohttp
+asyncpg
+aiodataloader
+sqlalchemy
+sqlalchemy_utils
+uvicorn
+gunicorn
