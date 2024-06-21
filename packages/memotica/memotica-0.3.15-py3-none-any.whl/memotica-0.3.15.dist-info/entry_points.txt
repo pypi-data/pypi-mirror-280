@@ -1,0 +1,3 @@
+[console_scripts]
+memotica=memotica.cli:cli
+
