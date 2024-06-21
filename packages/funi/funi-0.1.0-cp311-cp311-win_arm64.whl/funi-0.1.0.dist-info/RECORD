@@ -1,0 +1,11 @@
+funi.cp311-win_amd64.pyd,sha256=yTtEZQfgFz5XABhQ0rdNUTeN4bEE1XHxIoqj9m9-kr4,175104
+include/axis.hpp,sha256=I4Ai3VA9SMaXyXQTi4P3BoisWaZoSJ4qOCl88cYpjIU,6296
+include/lexi.hpp,sha256=rnVFPRca0M6qhBDAq-9QfJkDzZ33mvboCZK4e-_mf5M,7233
+include/pyfuni.hpp,sha256=qAQlnt_hwNb1kdqznhG5wygKK4jhroWUxd4xWbU6R1c,6140
+lib/cmake/funi/funiConfig.cmake,sha256=h0XCaHhPaJBiIDYguDYho6MVoNDamFL1k_nsum5U5v0,991
+lib/cmake/funi/funiConfigVersion.cmake,sha256=xibfgNUfJqRQ7jauR-RmEhsy8KmpiJRofAt-3DMhcMQ,2827
+lib/cmake/funi/funiTargets.cmake,sha256=Zr6jUnldgIKcqdShdliaUcEK1mJB2lO0F9ULBXAs034,4245
+funi-0.1.0.dist-info/METADATA,sha256=j0fN0H32QdyIadqYb9GkHy7dKxDmvaDhgWWp7BKxERQ,2971
+funi-0.1.0.dist-info/WHEEL,sha256=KaeODfwi7qGxP13Xb2FzBLsM_5AZQwv_jwlZ-Vi7Nk0,105
+funi-0.1.0.dist-info/licenses/LICENSE,sha256=w4d7AMaxw-7JsClDSGPA2Gld694zgKPgDEdG7h4sNKo,1087
+funi-0.1.0.dist-info/RECORD,,
