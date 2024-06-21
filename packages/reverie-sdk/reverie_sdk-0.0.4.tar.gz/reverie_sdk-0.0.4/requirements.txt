@@ -1,0 +1,7 @@
+build
+pandas
+pip-chill
+pydub
+stream2sentence
+twine
+websocket-client

@@ -1,0 +1,4 @@
+pandas
+pydub
+stream2sentence
+websocket-client
