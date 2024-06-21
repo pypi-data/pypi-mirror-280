@@ -1,0 +1,14 @@
+projectcard/__init__.py,sha256=nexWzo4LmhAZzNleWeg4PTNfk8Y6fZlTUx-hTMOTF0o,284
+projectcard/io.py,sha256=qX5eFmJkt_4rkgXs0-JZfmbZz_shNRtb0rX3dzuaPUo,7453
+projectcard/logger.py,sha256=qlKpkFwDKTU8v3oZwv_r3MM_wu4LfmBubrKKOtehXs0,2360
+projectcard/projectcard.py,sha256=JCe6Bba0kWVTYYxMTUkdUNVJeJuh5yJZ9EHjaFwS71Q,8716
+projectcard/update.py,sha256=_uwgSyY5NOMYGc93v0URhatNQnL__LOPHJY0Ktxu_eo,16036
+projectcard/utils.py,sha256=ID3Tcjds972SESfQU4YuBAKzw6XPZAhWqkWYL9W4AYo,1357
+projectcard/validate.py,sha256=sTlQ80W4Frxq0c9MBmXDtKAY93GexP_OD-McLQcZDic,6911
+projectcard-0.1.1.data/scripts/update_projectcard_schema,sha256=nnPo6cOkKHBw4N9tzrLAr4u4GD_IqoGHVa5_IIQzShY,1115
+projectcard-0.1.1.data/scripts/validate_card,sha256=okrPIkHYZ7RnAcsacwkNfnBlnMbHyTlTwM54e18IFmA,1138
+projectcard-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+projectcard-0.1.1.dist-info/METADATA,sha256=mLx7VoRnNeewzM1uwA8y_qMbc9ZiOD4s41e8pMAZqbY,16106
+projectcard-0.1.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+projectcard-0.1.1.dist-info/top_level.txt,sha256=dAvxy-Hd2mFXxC3Hw9sTxVNTLqdbVW2ktNwpO1LdUd4,12
+projectcard-0.1.1.dist-info/RECORD,,
