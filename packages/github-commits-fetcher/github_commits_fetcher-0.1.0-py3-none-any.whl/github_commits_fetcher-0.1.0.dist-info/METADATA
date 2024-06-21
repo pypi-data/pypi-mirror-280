@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: github_commits_fetcher
+Version: 0.1.0
+Summary: A tool to fetch and process GitHub commits
+Home-page: https://github.com/chenxingqiang/github_commits_fetcher
+Author: xingqing chen
+Author-email: joy6677@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: python-dotenv
+
+# GitHub Commits Fetcher
+
+A Python package for fetching and processing GitHub commits.
+
+## Installation
+
+```
+pip install github-commits-fetcher
+```
+
+## Usage
+
+```python
+from github_commits_fetcher import GitHubCommitsFetcher
+
+fetcher = GitHubCommitsFetcher(
+    repo_owner='owner',
+    repo_name='repo',
+    github_token='your_token'
+)
+
+fetcher.process_commits()
+```
+
+For command-line usage:
+
+```
+github-commits-fetcher --repo_owner owner --repo_name repo --github_token your_token
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.

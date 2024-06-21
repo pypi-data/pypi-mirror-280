@@ -1,0 +1,2 @@
+[console_scripts]
+github-commits-fetcher = github_commits_fetcher.fetcher:main
