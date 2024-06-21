@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: tla
+Version: 0.0.2
+Summary: Parser and syntax tree for TLA+, the temporal logic of actions.
+Home-page: https://github.com/johnyf/tla
+Author: Ioannis Filippidis
+Author-email: jfilippidis@gmail.com
+License: BSD
+Keywords: TLA+,TLA,temporal logic of actions,formal,specification,expression,formula,module,mathematics,theorem,proof,parser,lexer,parsing,ast,abstract syntax tree,syntax tree
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Compilers
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: parstools>=0.0.3
+
+About
+=====
+
+A parser for the Temporal Logic of Actions (TLA+). The parser
+is based on the [LR(1) algorithm](
+    https://en.wikipedia.org/wiki/LR_parser)
+with state merging, and has time complexity [linear](
+    https://en.wikipedia.org/wiki/Time_complexity#Linear_time)
+in the size of the input. The lexer and parser are generated using
+[`parstools`](https://pypi.org/project/parstools).
+
+The syntax tree is represented as named-tuples, using
+`typing.NamedTuple`.
+
+
+To install:
+
+```shell
+pip install tla
+```
+
+To parse a string:
+
+```python
+import tla
+
+module_text = r'''
+    ---- MODULE name ----
+    operator == TRUE
+    ====================
+    '''
+
+tree = tla.parse(module_text)
+print(tree)
+text = tla.pformat_ast(tree)
+print(text)
+```
+
+More examples can be found in the directory `examples/`.
+To implement a new translator of TLA+, as example the
+module `tla._pprint` can be used.
+
+
+Documentation
+=============
+
+In the [Markdown](https://en.wikipedia.org/wiki/Markdown) file `doc.md`.
+
+
+Tests
+=====
+
+Use [`pytest`](https://pypi.org/project/pytest). Run with:
+
+```shell
+cd tests/
+pytest -v --continue-on-collection-errors .
+```
+
+Read also the file `tests/README.md`.
+
+
+License
+=======
+[BSD-3](https://opensource.org/licenses/BSD-3-Clause), read `LICENSE` file.
