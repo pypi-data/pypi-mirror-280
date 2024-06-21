@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+BlackJackTable/__init__.py
+BlackJackTable/main.py
+BlackJackTable.egg-info/PKG-INFO
+BlackJackTable.egg-info/SOURCES.txt
+BlackJackTable.egg-info/dependency_links.txt
+BlackJackTable.egg-info/top_level.txt
