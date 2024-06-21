@@ -1,0 +1,26 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "twine"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Smartbill.py"
+version = "0.0.1"
+authors = [
+  { name="Andrej Granec", email="granec@awinter.sk" },
+]
+description = "Smartbill Connector"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/awinter/smartbill"
+Issues = "https://github.com/pypa/smartbill/issues"
