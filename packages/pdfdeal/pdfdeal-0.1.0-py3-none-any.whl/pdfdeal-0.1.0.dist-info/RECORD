@@ -1,0 +1,11 @@
+pdfdeal/__init__.py,sha256=p90BYY6xdnmnhyMLvrU8a7I0ZqJ7ZEFJLbVD_Ar3mlM,54
+pdfdeal/doc2x.py,sha256=BGgO__ZsFTWvjfcGDYONNVSBpdtNe9Uwy2Bq1xg_KHU,14238
+pdfdeal/doc2x_old.py,sha256=xYMfoJCD5g67HyrpzPDe5mHqcPBG0WnniYeL_-8sYDw,18228
+pdfdeal/file_tools.py,sha256=SQOADnxLlAwSxg21ZZg-XsxnRUDtFLSk9L8WWaMrAhU,6129
+pdfdeal/get_file.py,sha256=O-5maK0Pa2FZAdi_2_vEpObw00cNQr3n0OnhTR-rGiw,4276
+pdfdeal/Doc2X/Convert.py,sha256=1opgJDZGuXxcL7nhVmdkRV9qHsZ_q_Prc6NAxQdyxTc,9684
+pdfdeal/Doc2X/Exception.py,sha256=emSPOSMzhrPYpOnZrB7L7AB2k5XJBhZPu6hSHYNX96Y,90
+pdfdeal-0.1.0.dist-info/METADATA,sha256=PbCAMHem7LBg_88-HWYVK8FsYv0H-gKMErI-LhkJMOw,6772
+pdfdeal-0.1.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+pdfdeal-0.1.0.dist-info/licenses/LICENSE,sha256=t9HEODO-QtQU4wXEz2WAOH1-z3dZ3IYt-folHx3enwo,1069
+pdfdeal-0.1.0.dist-info/RECORD,,
