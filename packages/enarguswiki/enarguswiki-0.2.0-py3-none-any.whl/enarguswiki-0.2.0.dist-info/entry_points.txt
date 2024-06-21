@@ -1,0 +1,3 @@
+[console_scripts]
+enarguswiki=enarguswiki.__main__:app
+
