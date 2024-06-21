@@ -1,0 +1,13 @@
+LICENSE
+README.md
+requirements.txt
+setup.py
+deep_rewire/__init__.py
+deep_rewire/converter.py
+deep_rewire/optimizer.py
+deep_rewire/utils.py
+deep_rewire.egg-info/PKG-INFO
+deep_rewire.egg-info/SOURCES.txt
+deep_rewire.egg-info/dependency_links.txt
+deep_rewire.egg-info/requires.txt
+deep_rewire.egg-info/top_level.txt
