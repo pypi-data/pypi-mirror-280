@@ -1,0 +1,3 @@
+[console_scripts]
+tabeltekstilo=tabeltekstilo.cli:main
+
