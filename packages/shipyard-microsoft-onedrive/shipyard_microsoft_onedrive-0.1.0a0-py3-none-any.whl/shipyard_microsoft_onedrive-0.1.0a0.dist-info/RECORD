@@ -1,0 +1,11 @@
+shipyard_microsoft_onedrive/__init__.py,sha256=Bn742TWAO46bdWT5FaANrD7ylIf0qzQAYO51HJdRNDg,41
+shipyard_microsoft_onedrive/cli/authtest.py,sha256=rRNWbetBGxZGB9MMcGrPepBwxNUp6_FBTsR8Y_NXBnU,991
+shipyard_microsoft_onedrive/cli/onedrive_download.py,sha256=gQ5pL7ja9ef8tGWfaxObe_Ayqou6X1pPnimzamr54vo,4735
+shipyard_microsoft_onedrive/cli/onedrive_move.py,sha256=I-eAG6mdWgHgmRkrLP8n75ur_jGRW8z3wedShBKszFU,4269
+shipyard_microsoft_onedrive/cli/onedrive_remove.py,sha256=31lvgDEd75KiO8SjRxB5-mEim1GcxK0oVqu-ZZRaBxA,3343
+shipyard_microsoft_onedrive/cli/onedrive_upload.py,sha256=7qqWg3UEJm9-0d7LNkMQ6bpZrIFMNjlwvB23ZJfzIAY,4280
+shipyard_microsoft_onedrive/drive_client.py,sha256=14hpyuAItsSYkg-5MSCLAwsuU8-0jitfgKH9rZZJ-q4,15828
+shipyard_microsoft_onedrive/errors.py,sha256=HRp61wQx3zLuZkawF1AZWFp2rZmIG7k_NiyMSc0U8JI,101
+shipyard_microsoft_onedrive-0.1.0a0.dist-info/METADATA,sha256=C8pzTavkLu9NLx2Da6XMJ8xpYPTHEOnjtm2k1luLKL4,667
+shipyard_microsoft_onedrive-0.1.0a0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+shipyard_microsoft_onedrive-0.1.0a0.dist-info/RECORD,,
