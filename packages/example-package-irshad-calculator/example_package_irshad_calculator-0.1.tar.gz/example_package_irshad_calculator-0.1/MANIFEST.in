@@ -1,0 +1,3 @@
+include README.md
+include example_package_irshad_calculator/*.c
+exclude example_package_irshad_calculator/*.py

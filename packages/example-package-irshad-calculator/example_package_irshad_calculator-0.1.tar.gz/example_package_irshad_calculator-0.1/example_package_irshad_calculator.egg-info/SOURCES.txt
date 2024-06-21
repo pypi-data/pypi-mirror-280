@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+example_package_irshad_calculator/add.c
+example_package_irshad_calculator.egg-info/PKG-INFO
+example_package_irshad_calculator.egg-info/SOURCES.txt
+example_package_irshad_calculator.egg-info/dependency_links.txt
+example_package_irshad_calculator.egg-info/top_level.txt
