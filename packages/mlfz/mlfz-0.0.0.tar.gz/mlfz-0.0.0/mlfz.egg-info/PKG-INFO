@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mlfz
+Version: 0.0.0
+Summary: An educational machine learning library.
+Home-page: https://github.com/yourusername/my_pypi_package
+Author: Tivadar Danka
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mlfz
+An educational machine learning library.
+
+## Installation
+
+You can install the package with
+
+```
+pip install mlfz
+```
+
+To play around with the code, you can clone the repository and install locally via
+```
+pip install -e .
+```
