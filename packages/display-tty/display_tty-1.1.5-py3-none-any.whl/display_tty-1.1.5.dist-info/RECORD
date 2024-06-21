@@ -1,0 +1,10 @@
+display_tty/__init__.py,sha256=5ajzdA_tY0WO31kPC1HjqZQAXs5Dy2Yh5h4NQkHk5yA,1033
+display_tty/__main__.py,sha256=6TWGK8O-XlZYrvxOSo7ldBMXd3DVrd5Q6E78NfeL2is,233
+display_tty/my_disp.py,sha256=sR3S7Mf7Y-xzpnQIdW31C4UAjQ9tmKbuM_S52p4H2sg,37106
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_disp.py,sha256=pmOYJvJgFG5U-cpszL1Xzz5N4PcJfp5_B-nHPMpXOQk,2342
+display_tty-1.1.5.dist-info/LICENSE,sha256=RpOKrzZvggUTOcul2W-d2BwZKagqMz4wmp3a7BSGyYw,1069
+display_tty-1.1.5.dist-info/METADATA,sha256=q9oFfGsxhR8_Mmbsetn1v9cXgBorJA9b68j-jUMQC30,16670
+display_tty-1.1.5.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+display_tty-1.1.5.dist-info/top_level.txt,sha256=mHIQa_7YjC6NkZmGIbSuMZBTP00aLCBEk0bS45tCiUA,18
+display_tty-1.1.5.dist-info/RECORD,,
