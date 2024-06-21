@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: qcircpy
+Version: 0.1.1
+Summary: A package for Python Quantum Circuit Simulation and Benchmarking
+Author-email: Jake Lu <jylu1205@outlook.com>
+License: BSD 2-Clause License
+        
+        Copyright (c) 2024, Jake Lu
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Homepage, https://github.com/Deftioon/qcircpy
+Project-URL: Issues, https://github.com/Deftioon/qcircpy/issues
+Keywords: quantum,circuit,simulation,benchmarking
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: GPU :: NVIDIA CUDA :: 11
+Classifier: Environment :: GPU :: NVIDIA CUDA :: 12
+Classifier: Natural Language :: English
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# QCircPy
+
+QCircPy is a Quantum Computer Simulation and Benchmarking package on Python with GPU and CPU flexibility and performance. It allows the user to benchmark and run simple Quantum Circuits on a GPU or CPU with `numpy` and `cupy`.
+
+This project is for educational purposes.
+
+
+
+
+## Installation
+
+### Prerequisites
+
+QCircPy requires `numpy`, which is installed automatically, and `cupy`, which the user should install manually based on their CUDA version.
+
+For users using CUDA 11.x:
+
+```cmd
+pip install cupy-cuda11x
+```
+
+or:
+
+```cmd
+py -m pip install cupy-cuda11x
+```
+
+For users using CUDA 12.x:
+
+```cmd
+pip install cupy-cuda12x
+```
+
+or:
+
+```cmd
+py - m pip install cupy-cuda12x
+```
+
+Then, finally:
+
+### Installation
+
+```cmd
+pip install qcircpy
+```
+
+or:
+
+```cmd
+py -m pip install qcircpy
+```
+
+
+
+## Usage
+
+It is recommended to use the `engine` subpackage as an interface to QCircPy's functionalities. 
+
+```py
+import qcircpy.engine as qp
+```
+
+Detailed usage can be found in [USAGE.md](USAGE.md)
