@@ -1,0 +1,47 @@
+---
+actor:
+  name: apo
+  host: 0.0.0.0
+  port: 9990
+  tron_host: ${TRON_HOST}
+  tron_port: ${TRON_PORT}
+  log_dir: /data/logs/actors/apo
+
+wx_server:
+  host: 10.25.1.254
+  port: 6251
+  timeout: 15.0
+  keys:
+    - pressure
+    - windd
+    - winds
+    - gustd
+    - gusts
+    - airtemp
+    - dewpoint
+    - dpErr
+    - humidity
+    - dusta
+    - dustb
+    - dustc
+    - dustd
+    - dimmflux1
+    - dimmflux2
+    - irscmean
+    - irscsd
+
+volumes:
+  - /data
+  - /home
+
+tcc:
+  send_to_tcc: true
+  wx_to_tcc_names:
+    truss25m: sectrusstemp
+    airTempPT: airtemp
+    winds: wspeed
+    windd: wdir
+    pressure: pressure
+    humidPT: humid
+
+status_delay: 60

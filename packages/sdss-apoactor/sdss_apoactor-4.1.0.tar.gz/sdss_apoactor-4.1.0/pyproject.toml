@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "sdss-apoactor"
+version = "4.1.0"
+description = "APO weather and enclosure package"
+authors = ["José Sánchez-Gallego <gallegoj@uw.edu>"]
+license = "BSD 3-Clause"
+readme = "README.md"
+packages = [
+    { include = "apoactor", from = "src" }
+]
+include = ["src/apoactor/etc/*"]
+
+[tool.poetry.dependencies]
+python = "^3.11,<3.13"
+sdss-clu = "^2.0.0"
+sdsstools = "^1.0.0"
+sdss-tpm-multicast-client = "^0.3.0"
+asyncudp = ">=0.11.0"
+numpy = "^1.26.1"
+
+[tool.poetry.group.dev.dependencies]
+ipython = ">=8.0.0"
+ipdb = ">=0.13.3"
+ruff = ">=0.4.0"
+
+[tool.poetry.scripts]
+apoactor = "apoactor.__main__:apoactor"
+
+[tool.ruff]
+line-length = 88
+target-version = 'py312'
+exclude = ["typings/"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+unfixable = ["F841"]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401", "F403", "E402"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["apoactor"]
+lines-after-imports = 2
+section-order = ["future", "standard-library", "typing", "third-party", "sdss", "first-party", "local-folder"]
+
+[tool.ruff.lint.isort.sections]
+typing = ["typing"]
+sdss = ["sdsstools", "clu"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
