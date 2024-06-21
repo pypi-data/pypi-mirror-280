@@ -1,0 +1,3 @@
+include painter.py
+include painter-tk-resources\images\*
+include painter-tk-resources\examples\*
