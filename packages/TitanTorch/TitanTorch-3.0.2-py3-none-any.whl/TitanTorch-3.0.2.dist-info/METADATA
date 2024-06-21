@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: TitanTorch
+Version: 3.0.2
+Summary: Python 3 library for short text
+Home-page: https://github.com/alexjszamora78
+Author: RayServer
+Author-email: alexjszamora78@gmail.com
+License: The Unlicense (Unlicense)
+Keywords: chatbot,torch,IA
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+License-File: LICENSE
+Requires-Dist: certifi
+Requires-Dist: charset-normalizer
+Requires-Dist: click
+Requires-Dist: cmake
+Requires-Dist: filelock
+Requires-Dist: idna
+Requires-Dist: Jinja2
+Requires-Dist: joblib
+Requires-Dist: lit
+Requires-Dist: MarkupSafe
+Requires-Dist: mpmath
+Requires-Dist: networkx
+Requires-Dist: nltk
+Requires-Dist: numpy
+Requires-Dist: nvidia-cublas-cu11
+Requires-Dist: nvidia-cuda-cupti-cu11
+Requires-Dist: nvidia-cuda-nvrtc-cu11
+Requires-Dist: nvidia-cuda-runtime-cu11
+Requires-Dist: nvidia-cudnn-cu11
+Requires-Dist: nvidia-cufft-cu11
+Requires-Dist: nvidia-curand-cu11
+Requires-Dist: nvidia-cusolver-cu11
+Requires-Dist: nvidia-cusparse-cu11
+Requires-Dist: nvidia-nccl-cu11
+Requires-Dist: nvidia-nvtx-cu11
+Requires-Dist: Pillow
+Requires-Dist: regex
+Requires-Dist: requests
+Requires-Dist: sympy
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: tqdm
+Requires-Dist: triton
+Requires-Dist: typing-extensions
+Requires-Dist: urllib3
+
