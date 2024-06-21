@@ -1,0 +1,3 @@
+[console_scripts]
+apoactor=apoactor.__main__:apoactor
+

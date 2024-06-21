@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sdss-apoactor
+Version: 4.1.0
+Summary: APO weather and enclosure package
+License: BSD 3-Clause
+Author: José Sánchez-Gallego
+Author-email: gallegoj@uw.edu
+Requires-Python: >=3.11,<3.13
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: asyncudp (>=0.11.0)
+Requires-Dist: numpy (>=1.26.1,<2.0.0)
+Requires-Dist: sdss-clu (>=2.0.0,<3.0.0)
+Requires-Dist: sdss-tpm-multicast-client (>=0.3.0,<0.4.0)
+Requires-Dist: sdsstools (>=1.0.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# apoActor
+
+Actor that outputs weather information.
+

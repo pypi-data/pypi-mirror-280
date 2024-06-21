@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "pressure": { "type": "number" },
+    "windd": { "type": "number" },
+    "winds": { "type": "number" },
+    "gustd": { "type": "number" },
+    "gusts": { "type": "number" },
+    "airtemp": { "type": "number" },
+    "dewpoint": { "type": "number" },
+    "dpErr": { "type": "string" },
+    "humidity": { "type": "number" },
+    "dusta": { "type": "number" },
+    "dustb": { "type": "number" },
+    "dustc": { "type": "number" },
+    "dustd": { "type": "number" },
+    "windd25m": { "type": "number" },
+    "winds25m": { "type": "number" },
+    "encl25m": { "type": "integer" },
+    "truss25m": { "type": "number" },
+    "airTempPT": { "type": "number" },
+    "dpTempPT": { "type": "number" },
+    "humidPT": { "type": "number" },
+    "dimmflux1": { "type": "number" },
+    "dimmflux2": { "type": "number" },
+    "irscmean": { "type": "number" },
+    "irscsd": { "type": "number" },
+    "diskspace": {
+      "type": "array",
+      "items": [
+        { "type": "string", "$name": "hostname" },
+        { "type": "string", "$name": "filesystem" },
+        { "type": "number", "$name": "used" },
+        { "type": "number", "$name": "available" }
+      ]
+    }
+  },
+  "additionalProperties": false
+}
