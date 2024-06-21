@@ -1,0 +1,2 @@
+[console_scripts]
+midas = midas.__main__:main

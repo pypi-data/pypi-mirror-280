@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: midasv3
+Version: 1.0.0
+Summary: https://midas2.readthedocs.io/en/latest/
+Home-page: https://github.com/czbiohub/MIDAS
+Author: Chunyu Zhao and Boris Dimitrov
+Author-email: chunyu.zhao@czbiohub.org
+License: MIT
+Project-URL: Bug Tracker, https://github.com/czbiohub/MIDAS/issues
+Project-URL: Documentation, https://midas2.readthedocs.io/en/latest/#
+Project-URL: Source Code, https://github.com/czbiohub/MIDAS
+Keywords: strain-level,metagenomics,pangenome,genotyping,MIDAS
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+Requires-Dist: biopython <=1.83
+Requires-Dist: numpy >=1.26.4
+Requires-Dist: pysam >=0.22.0
+Requires-Dist: gffutils >=0.12
+Requires-Dist: pandas >=2.2.0
+Requires-Dist: pybedtools >=0.9.1
+
