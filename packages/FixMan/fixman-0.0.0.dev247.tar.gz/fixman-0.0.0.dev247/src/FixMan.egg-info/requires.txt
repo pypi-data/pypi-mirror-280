@@ -1,0 +1,6 @@
+pre-commit==3.3.3
+gittidy
+markitup
+loggerman
+pyserials
+PyShellMan
