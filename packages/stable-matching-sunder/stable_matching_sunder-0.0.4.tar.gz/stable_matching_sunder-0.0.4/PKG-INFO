@@ -1,0 +1,20 @@
+Metadata-Version: 2.3
+Name: stable_matching_sunder
+Version: 0.0.4
+Summary: Defereed acceptence algorithm in python
+Author-email: Sunder Oyunbaatar <sunderee240@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Stable Matching
+
+A Python package to perform stable matching using the Gale-Shapley algorithm.
+
+## Installation
+
+```bash
+pip install stable_matching_sunder
