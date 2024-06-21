@@ -1,0 +1,199 @@
+.unravelled-diagrams polyline {
+    fill: none;
+}
+
+.unravelled-diagrams polyline:nth-of-type(odd) {
+    marker: url(#marker-disc);
+}
+
+.unravelled-diagrams polyline:nth-of-type(even) {
+    marker: url(#marker-x);
+}
+
+.tint-blue {
+  color: #007AFF;
+}
+.tint-green {
+  color: #34C759;
+}
+.tint-indigo {
+  color: #5856D6;
+}
+.tint-orange {
+  color: #FF9500;
+}
+.tint-pink {
+  color: #FF2D55;
+}
+.tint-purple {
+  color: #AF52DE;
+}
+.tint-red {
+  color: #FF3B30;
+}
+.tint-teal {
+  color: #5AC8FA;
+}
+.tint-yellow {
+  color: #DEAE00;
+}
+
+@media (prefers-color-scheme: dark) {
+    .tint-blue {
+        color: #0A84FF;
+    }
+    .tint-green {
+        color: #30D158;
+    }
+    .tint-indigo {
+        color: #6b67f3;
+    }
+    .tint-orange {
+        color: #FF9F0A;
+    }
+    .tint-pink {
+        color: #FF375F;
+    }
+    .tint-purple {
+        color: #BF5AF2;
+    }
+    .tint-red {
+        color: #FF453A;
+    }
+    .tint-teal {
+        color: #64D2FF;
+    }
+    .tint-yellow {
+        color: #FFD60A;
+    }
+}
+
+.shade-000 {
+  color: #000000;
+}
+.shade-005 {
+  color: #0D0D0D;
+}
+.shade-010 {
+  color: #1A1A1A;
+}
+.shade-015 {
+  color: #262626;
+}
+.shade-020 {
+  color: #333333;
+}
+.shade-025 {
+  color: #404040;
+}
+.shade-030 {
+  color: #4C4C4C;
+}
+.shade-035 {
+  color: #595959;
+}
+.shade-040 {
+  color: #666666;
+}
+.shade-045 {
+  color: #737373;
+}
+.shade-050 {
+  color: #808080;
+}
+.shade-055 {
+  color: #8C8C8C;
+}
+.shade-060 {
+  color: #999999;
+}
+.shade-065 {
+  color: #A6A6A6;
+}
+.shade-070 {
+  color: #B2B2B2;
+}
+.shade-075 {
+  color: #BFBFBF;
+}
+.shade-080 {
+  color: #CCCCCC;
+}
+.shade-085 {
+  color: #D9D9D9;
+}
+.shade-090 {
+  color: #E6E6E6;
+}
+.shade-095 {
+  color: #F2F2F2;
+}
+.shade-100 {
+  color: #FFFFFF;
+}
+
+@media (prefers-color-scheme: dark) {
+    .shade-000 {
+        color: #FFFFFF;
+    }
+    .shade-005 {
+        color: #F4F4F4;
+    }
+    .shade-010 {
+        color: #E8E8E8;
+    }
+    .shade-015 {
+        color: #DDDDDD;
+    }
+    .shade-020 {
+        color: #D2D2D2;
+    }
+    .shade-025 {
+        color: #C7C7C7;
+    }
+    .shade-030 {
+        color: #BCBCBC;
+    }
+    .shade-035 {
+        color: #B0B0B0;
+    }
+    .shade-040 {
+        color: #A5A5A5;
+    }
+    .shade-045 {
+        color: #9A9A9A;
+    }
+    .shade-050 {
+        color: #8E8E8E;
+    }
+    .shade-055 {
+        color: #838383;
+    }
+    .shade-060 {
+        color: #787878;
+    }
+    .shade-065 {
+        color: #6D6D6D;
+    }
+    .shade-070 {
+        color: #626262;
+    }
+    .shade-075 {
+        color: #565656;
+    }
+    .shade-080 {
+        color: #4B4B4B;
+    }
+    .shade-085 {
+        color: #404040;
+    }
+    .shade-090 {
+        color: #343434;
+    }
+    .shade-095 {
+        color: #292929;
+    }
+    .shade-100 {
+        color: #1E1E1E;
+    }
+}
