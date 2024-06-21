@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+chessanalytics_st/__init__.py
+chessanalytics_st/chessanalytics_st.py
+chessanalytics_st.egg-info/PKG-INFO
+chessanalytics_st.egg-info/SOURCES.txt
+chessanalytics_st.egg-info/dependency_links.txt
+chessanalytics_st.egg-info/requires.txt
+chessanalytics_st.egg-info/top_level.txt
