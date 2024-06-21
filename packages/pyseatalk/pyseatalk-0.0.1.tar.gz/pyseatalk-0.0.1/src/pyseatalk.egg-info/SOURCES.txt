@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyseatalk/__init__.py
+src/pyseatalk.egg-info/PKG-INFO
+src/pyseatalk.egg-info/SOURCES.txt
+src/pyseatalk.egg-info/dependency_links.txt
+src/pyseatalk.egg-info/top_level.txt

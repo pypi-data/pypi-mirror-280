@@ -1,0 +1,48 @@
+[project]
+name = "pyseatalk"
+version = "0.0.1"
+description = ""
+authors = [
+    {name = "Garena SH Web", email = "web_dev_sh@garena.com"},
+]
+dependencies = []
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "Apache License 2.0"}
+
+#[build-system]
+#requires = ["pdm-backend"]
+#build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+lint = [
+    "ruff>=0.4.9",
+    "mypy>=1.10.0",
+]
+
+
+[tool.mypy]
+strict = true
+
+
+[tool.ruff]
+select = [
+    "B", # flake8-bugbear
+    "C4", # flake8-comprehensions
+    "E", # pycodestyle - Error
+    "F", # Pyflakes
+    "I", # isort
+    "W", # pycodestyle - Warning
+    "UP", # pyupgrade
+]
+ignore = []
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
