@@ -1,0 +1,10 @@
+build==1.2.1
+certifi==2024.6.2
+charset-normalizer==3.3.2
+idna==3.7
+packaging==24.1
+-e git+https://github.com/uwmadison-chm/pyostrap.git@b87843bf238eb9b79fbc444a44f7d75cc2348f2a#egg=pyostrap
+pyproject_hooks==1.1.0
+python-dotenv==1.0.1
+requests==2.32.3
+urllib3==2.2.2
