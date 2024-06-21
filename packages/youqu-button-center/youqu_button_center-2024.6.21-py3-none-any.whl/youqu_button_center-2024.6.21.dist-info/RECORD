@@ -1,0 +1,9 @@
+youqu_button_center/__init__.py,sha256=eF6b5OPgabmMECYi2DHOIdFuUe7Hl0Xi4f-LDql2MqI,26175
+youqu_button_center/__version__.py,sha256=UYepZfnkZU1Yhh9NUnDTvxOOB2jEk43_QzvYidGKS3s,26
+youqu_button_center/conf.py,sha256=7KDxz8187_YYSA9x1bQ4nJkvZzzaeFB4MLNOeBA6I68,703
+youqu_button_center/install_depends.py,sha256=rfPV91EjbhSl0fF9K8ixsv-K64Lgt3pFeZK7gT6MsnI,741
+youqu_button_center/wayland_wininfo.py,sha256=oq5zr2AFHs6cVnChyNCMBMk9btgdfskN7uzNDWyod2E,5108
+youqu_button_center-2024.6.21.dist-info/METADATA,sha256=bouboiKTr6Y_cNv74hzaHbTOnuZVnkU2yskPVXGdqDs,322
+youqu_button_center-2024.6.21.dist-info/WHEEL,sha256=KGYbc1zXlYddvwxnNty23BeaKzh7YuoSIvIMO4jEhvw,87
+youqu_button_center-2024.6.21.dist-info/licenses/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+youqu_button_center-2024.6.21.dist-info/RECORD,,
