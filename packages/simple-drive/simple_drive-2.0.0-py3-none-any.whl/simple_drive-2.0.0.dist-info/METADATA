@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: simple-drive
+Version: 2.0.0
+Summary: Use Google Drive API in the simplest way
+Home-page: https://github.com/tranngocminhhieu/simple-drive
+Author: Tran Ngoc Minh Hieu
+Author-email: tnmhieu@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorama
+Requires-Dist: pydrive2
+Requires-Dist: google-api-python-client
+Requires-Dist: oauth2client
+
+# simple-drive
+[![Downloads](https://img.shields.io/pypi/dm/simple-drive)](https://pypi.org/project/simple-drive)
+[![Pypi](https://img.shields.io/pypi/v/simple-drive?label=pip&logo=PyPI&logoColor=white)](https://pypi.org/project/simple-drive)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/tranngocminhhieu/simple-drive/issues)
+[![MIT](https://img.shields.io/github/license/tranngocminhhieu/simple-drive)](https://github.com/tranngocminhhieu/simple-drive/blob/main/LICENSE)
+
+
+Use Google Drive API in the simplest way
+
+## Installation
+### Install from GitHub
+```shell
+pip install --upgrade git+https://github.com/tranngocminhhieu/simple-drive.git
+```
+### Install from PyPI
+```shell
+pip install --upgrade simple-drive
+```
+
+##  User manual
+
+Read the [Documents](https://tranngocminhhieu.gitbook.io/simple-drive)
+
+I welcome your contributions!

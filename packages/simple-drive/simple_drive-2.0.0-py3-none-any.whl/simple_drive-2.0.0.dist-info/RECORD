@@ -1,0 +1,16 @@
+simple_drive/__init__.py,sha256=fQeGjgZFRR6Y2utodseuXNmlemN17xKQzt0fYEx8wNo,100
+simple_drive/auth.py,sha256=8SflUA7x5BJ4PDlKhMttJZDDVM7vsHTEWCvAeidP-G4,1721
+simple_drive/constants.py,sha256=0-Hk3LN5Fa_1ctOJp6PqLJ7d8aHtBrOcUHE1SJlIfeQ,7034
+simple_drive/main.py,sha256=LClSp6UsdDTWA8ZpOwEBfiqS302hzgp5lT5OLb101-k,10324
+simple_drive/drive/__init__.py,sha256=HpRJLdPDhWEpYVzWnp4fGxksYGU3tNs68WElKNEdSDU,1124
+simple_drive/drive/about.py,sha256=V6iDTrRG8y0cgCB1SWBU_ac0Rr9r3VZ8-ifHqsLh4cs,1150
+simple_drive/drive/comments.py,sha256=7SPbMclsdwDOlr2eiaPniDtaUBH2VEaIvem-roRTwgA,2399
+simple_drive/drive/files.py,sha256=2UMHNXjzSTRMc5DkODW55Tyg-z_MHXeEb3ZVfpMCVi8,14917
+simple_drive/drive/permissions.py,sha256=Zp2QRLi033_JEeOvdm4nS6SmQuzKDVILrtp6yKNeom8,6370
+simple_drive/drive/replies.py,sha256=RVTSl9ohX3-CHGwbciTfWCYo_56WIho7bwVZKa17Ot0,2664
+simple_drive/drive/revisions.py,sha256=eZ37GnUOSvcUqaELav4GmR5h4wq8iGa71T5p1rffhc0,1023
+simple_drive-2.0.0.dist-info/LICENSE,sha256=EQ_4xpjaKHYxJ67eJg7MIbcwj9j0tp7_-JKMFJDROek,1075
+simple_drive-2.0.0.dist-info/METADATA,sha256=aEPd70pRNfiz_KSkGjxGfV-P-yzHhBO_UIufChSE1g0,1312
+simple_drive-2.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+simple_drive-2.0.0.dist-info/top_level.txt,sha256=GBAEquFxKO6hjV9Z0D1yyJJkSJvFE_2YJsBVa-Ak804,13
+simple_drive-2.0.0.dist-info/RECORD,,
