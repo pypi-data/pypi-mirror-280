@@ -1,0 +1,8 @@
+[console_scripts]
+slitherin = slitherin.cli:main
+
+[napalm.collection]
+slitherin = slitherin.napalm:entry_point
+
+[slither_analyzer.plugin]
+slither slitherin-plugins = slitherin:make_plugin
