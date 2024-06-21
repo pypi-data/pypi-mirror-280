@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pytorchfire/__init__.py
+pytorchfire.egg-info/PKG-INFO
+pytorchfire.egg-info/SOURCES.txt
+pytorchfire.egg-info/dependency_links.txt
+pytorchfire.egg-info/top_level.txt
