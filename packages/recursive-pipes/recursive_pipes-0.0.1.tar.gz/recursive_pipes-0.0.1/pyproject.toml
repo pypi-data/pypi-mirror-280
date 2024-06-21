@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "recursive_pipes"
+version = "0.0.1"
+authors = [
+  { name="Benjamin Schnitzler", email="regenbogenbauer@web.de" },
+]
+description = "Recursive Pipes for Python"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/bschnitz/python_recursive_pipes"
+Issues = "https://github.com/bschnitz/python_recursive_pipes/issues"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "./tests/",
+]
+pythonpath = "./src/"
