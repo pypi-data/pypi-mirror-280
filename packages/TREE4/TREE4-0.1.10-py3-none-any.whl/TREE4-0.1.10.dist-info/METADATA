@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: TREE4
+Version: 0.1.10
+Summary: Standard and Non-Standard Tree Based Methods
+Author: Daniel Fynn
+Author-email: <df390@uowmail.edu.au>
+Keywords: python,tree,CART
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+The library contains standard CART based methologies for growing trees, includind twoing, as well as non standard techniques two-stage techniques like fast and latent-budget tree. There is also cross validation methods for pruning the tree, and k-folds implementation. As well as a graphical interface to view the tree and information about the nodes, including visual pruning by viewing thhe decrease in deviance created by a split relative to other splits in the grown tree, and an output table containing useful information. For more information and examples please see: https://github.com/danielchfynn/TREE4
