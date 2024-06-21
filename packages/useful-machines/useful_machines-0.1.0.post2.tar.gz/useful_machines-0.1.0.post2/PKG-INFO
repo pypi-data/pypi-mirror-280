@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: useful-machines
+Version: 0.1.0.post2
+Summary: The python sdk for useful.
+Home-page: https://github.com/level-vc/useful-lite-client
+License: MIT
+Author: Leo Scholler
+Author-email: leonardo.scholler@poatek.com
+Requires-Python: >=3.9.0,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pydantic (>=2.5.2,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Repository, https://github.com/level-vc/useful-lite-client.git
+Description-Content-Type: text/markdown
+
+# useful
+
+![ci workflow badge](https://github.com/level-vc/useful-lite-client/actions/workflows/ci.yml/badge.svg?branch=main)
+
+<img alt="useful-logo" src="./useful-machines-logo-large.png" width="60">
+
+<h1>Emails whenever, wherever, and however, your Python code fails</h1>
+No limits, free forever. Easily integrate with a decorator. No B.S.
+
+<br>
+> Get your API key <a href="https://usefulmachines.dev/">here</a>. <br><br>
+> Learn more about Level Ventures and the team behind Useful, read about us <a href="https://levelvc.com/">here</a>.
+
+## Installation
+
+To install Useful, you can run:
+
+```bash
+poetry add useful-machines
+```
+
+```bash
+pip install useful-machines
+```
+
+For the library to work successfully and to access the Useful tool, please reach out to us at <liam@levelvc.com>.
+
