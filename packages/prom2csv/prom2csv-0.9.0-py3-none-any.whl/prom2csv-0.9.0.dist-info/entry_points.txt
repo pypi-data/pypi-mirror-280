@@ -1,0 +1,2 @@
+[console_scripts]
+prom2csv = prom2csv.prom2csv:main
