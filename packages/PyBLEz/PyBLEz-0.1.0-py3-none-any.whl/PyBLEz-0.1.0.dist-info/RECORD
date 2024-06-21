@@ -1,0 +1,13 @@
+PyBLEz/__init__.py,sha256=9ORHzs3efkkZo-up0ycFJvB4urIfpHOyxBvGv4Y3fnU,88
+PyBLEz/advertisement.py,sha256=eTeRB1qF7D97A_3KxOLIkSAm-HELxIJtSZeWjKT0QEk,1199
+PyBLEz/agent.py,sha256=XKHB1DmJr36Q2lCaf53xCf5i5fu4n_KZ0pV6XyWCY5w,2721
+PyBLEz/application.py,sha256=DYVm8ppv27ZgaSRZsmLwaZz6rXrfJKzo6as2n5V2tp0,737
+PyBLEz/characteristic.py,sha256=DJHBbiUU-mvwFqR6eYorRUCTuhRwYU-D0E9GooIA4Ks,2325
+PyBLEz/core.py,sha256=hup2ckanWoIzDYiP6Bj6OINICqrXY8AgNtwRTQL41-8,2876
+PyBLEz/descriptor.py,sha256=TlI8YuhUodVOolHCBPGFBwXeM1KILJ6bKBx9eX3tWTU,1187
+PyBLEz/service.py,sha256=R9Am50E04Dr5ZDHKk_ett-c_-aGIkItnYr_TF6W-9aI,1215
+PyBLEz-0.1.0.dist-info/LICENSE,sha256=4xraYyJ7wzMHGwr1b0KsqIAgzjX2BI9Gkbe-RMM3yqQ,1070
+PyBLEz-0.1.0.dist-info/METADATA,sha256=7GUvSKWanbt07JvCRCVc_7q1lvm_ezIAfbkJI2a5wN0,3375
+PyBLEz-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+PyBLEz-0.1.0.dist-info/top_level.txt,sha256=n5cJX5TRMPmMf4yN_yJsRzrj63QoWIAbSTNPcmLzZsc,7
+PyBLEz-0.1.0.dist-info/RECORD,,
