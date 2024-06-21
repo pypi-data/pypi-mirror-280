@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d01e7cae-d866-4ed0-aaf6-509a35d7ebd7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/constructterms/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/constructterms/calculations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/constructterms/field.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/constructterms/group.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/constructterms/groups/groups.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/doctrees/constructterms.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/doctrees/environment.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/doctrees/index.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/doctrees/modelfitting.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/doctrees/modules.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/.buildinfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_modules/constructterms/calculations.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_modules/constructterms/field.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_modules/constructterms/group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_modules/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_sources/constructterms.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_sources/index.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_sources/modelfitting.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_sources/modules.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/basic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/doctools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/documentation_options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/language_data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/pygments.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/scripts/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/scripts/pydata-sphinx-theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/searchtools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/sphinx_highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/styles/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/styles/pydata-sphinx-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/styles/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/vendor/fontawesome/6.1.2/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/vendor/fontawesome/6.1.2/css/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/vendor/fontawesome/6.1.2/webfonts/fa-v4compatibility.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/vendor/fontawesome/6.1.2/webfonts/fa-v4compatibility.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/_static/webpack-macros.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/constructterms.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/genindex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/modelfitting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/modules.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/objects.inv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/py-modindex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/_build/html/searchindex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/constructterms.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/index.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/make.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/modelfitting.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/development/docs/modules.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.buildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.buildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_modules/constructterms/calculations.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_modules/constructterms/calculations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_modules/constructterms/field.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_modules/constructterms/field.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_modules/constructterms/group.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_modules/constructterms/group.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_modules/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_modules/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_modules/modelfitting/experimentaldata.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_modules/modelfitting/experimentaldata.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_modules/modelfitting/fit.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_modules/modelfitting/fit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_modules/modelfitting/mixingcalculations.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_modules/modelfitting/mixingcalculations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_modules/modelfitting/model.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_modules/modelfitting/model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_modules/modelfitting/parameterspace.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_modules/modelfitting/parameterspace.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_sources/constructterms.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_sources/constructterms.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_sources/examples/detailedexample_modelfitting.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_sources/examples/detailedexample_modelfitting.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_sources/examples/examples_page.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_sources/examples/examples_page.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_sources/examples/simpleexample_modelfitting.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_sources/examples/simpleexample_modelfitting.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_sources/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_sources/index.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_sources/modelfitting.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_sources/modelfitting.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_static/documentation_options.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_static/documentation_options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/constructterms.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/constructterms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/examples/detailedexample_modelfitting.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/examples/detailedexample_modelfitting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/examples/examples_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/examples/examples_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/examples/simpleexample_modelfitting.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/examples/simpleexample_modelfitting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/genindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modelfitting.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modelfitting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/objects.inv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/py-modindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/py-modindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/searchindex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/constructterms/calculations.py" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/constructterms/calculations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/constructterms/field.py" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/constructterms/field.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/constructterms/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/constructterms/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/constructterms/groups/groups.py" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/constructterms/groups/groups.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/doctrees/constructterms.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/doctrees/constructterms.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/doctrees/environment.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/doctrees/environment.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/doctrees/examples/detailedexample_modelfitting.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/doctrees/examples/detailedexample_modelfitting.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/doctrees/examples/examples_page.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/doctrees/examples/examples_page.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/doctrees/examples/simpleexample_modelfitting.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/doctrees/examples/simpleexample_modelfitting.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/doctrees/index.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/doctrees/index.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/doctrees/modelfitting.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/doctrees/modelfitting.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/.buildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/.buildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/_modules/constructterms/calculations.html" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/_modules/constructterms/calculations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/_modules/constructterms/field.html" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/_modules/constructterms/field.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/_modules/constructterms/group.html" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/_modules/constructterms/group.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/_modules/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/_modules/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/_modules/modelfitting/experimentaldata.html" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/_modules/modelfitting/experimentaldata.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/_modules/modelfitting/fit.html" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/_modules/modelfitting/fit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/_modules/modelfitting/mixingcalculations.html" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/_modules/modelfitting/mixingcalculations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/_modules/modelfitting/model.html" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/_modules/modelfitting/model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/_modules/modelfitting/parameterspace.html" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/_modules/modelfitting/parameterspace.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/_sources/constructterms.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/_sources/constructterms.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/_sources/examples/detailedexample_modelfitting.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/_sources/examples/detailedexample_modelfitting.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/_sources/examples/examples_page.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/_sources/examples/examples_page.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/_sources/examples/simpleexample_modelfitting.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/_sources/examples/simpleexample_modelfitting.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/_sources/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/_sources/index.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/_sources/modelfitting.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/_sources/modelfitting.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/_static/documentation_options.js" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/_static/documentation_options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/constructterms.html" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/constructterms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/examples/detailedexample_modelfitting.html" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/examples/detailedexample_modelfitting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/examples/examples_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/examples/examples_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/examples/simpleexample_modelfitting.html" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/examples/simpleexample_modelfitting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/genindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/modelfitting.html" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/modelfitting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/objects.inv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/py-modindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/py-modindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/_build/html/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/_build/html/searchindex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/constructterms.rst" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/constructterms.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/examples/detailedexample_modelfitting.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/examples/detailedexample_modelfitting.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/examples/detailedexample_modelfitting.rst" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/examples/detailedexample_modelfitting.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/examples/examples_page.rst" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/examples/examples_page.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/examples/simpleexample_modelfitting.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/examples/simpleexample_modelfitting.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/examples/simpleexample_modelfitting.rst" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/examples/simpleexample_modelfitting.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/docs/modelfitting.rst" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/docs/modelfitting.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/modelfitting/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/modelfitting/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/modelfitting/experimental_data/NuFit53/nufit53_chisqprofiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/modelfitting/experimental_data/NuFit53/nufit53_chisqprofiles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/modelfitting/experimentaldata.py" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/modelfitting/experimentaldata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/modelfitting/fit.py" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/modelfitting/fit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/modelfitting/mixingcalculations.py" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/modelfitting/mixingcalculations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/modelfitting/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flavorpy/modelfitting/parameterspace.py" beforeDir="false" afterPath="$PROJECT_DIR$/flavorpy/modelfitting/parameterspace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2MndkBv77lVUiFFRH1o1xXTZVEW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alex/GitRepos/FlavorPy/flavorpy/modelfitting&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/flavorpy/modelfitting" />
+      <recent name="$PROJECT_DIR$/flavorpy/modelfitting/experimental_data/NuFit53" />
+      <recent name="$PROJECT_DIR$/src/modelfitting/old" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d01e7cae-d866-4ed0-aaf6-509a35d7ebd7" name="Changes" comment="" />
+      <created>1678407420942</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678407420942</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
