@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+ezelpylib.egg-info/PKG-INFO
+ezelpylib.egg-info/SOURCES.txt
+ezelpylib.egg-info/dependency_links.txt
+ezelpylib.egg-info/top_level.txt
