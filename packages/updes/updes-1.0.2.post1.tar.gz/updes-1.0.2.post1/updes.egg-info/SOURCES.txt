@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+docs/assets/README_PyPI.md
+updes/__init__.py
+updes/assembly.py
+updes/cloud.py
+updes/config.py
+updes/operators.py
+updes/utils.py
+updes/visualise.py
+updes.egg-info/PKG-INFO
+updes.egg-info/SOURCES.txt
+updes.egg-info/dependency_links.txt
+updes.egg-info/requires.txt
+updes.egg-info/top_level.txt
