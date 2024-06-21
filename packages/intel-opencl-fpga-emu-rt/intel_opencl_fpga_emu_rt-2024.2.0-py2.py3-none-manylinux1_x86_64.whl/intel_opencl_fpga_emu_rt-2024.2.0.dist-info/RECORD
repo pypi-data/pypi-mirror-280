@@ -1,0 +1,8 @@
+intel_opencl_fpga_emu_rt-2024.2.0.data/data/lib/cl.fpga_emu.cfg,sha256=7yHCnYBtpi4SXa6NW4XYv3sRm_JM2g3aDPXDu99zokY,11376
+intel_opencl_fpga_emu_rt-2024.2.0.data/data/lib/libintelocl_emu.so,sha256=HFnHrSzb2QgLd5jMVIR9oyo8mKjQSPqtZZ0FBFWKOdA,103027536
+intel_opencl_fpga_emu_rt-2024.2.0.data/data/lib/libintelocl_emu.so.2024.18.6.0,sha256=HFnHrSzb2QgLd5jMVIR9oyo8mKjQSPqtZZ0FBFWKOdA,103027536
+intel_opencl_fpga_emu_rt-2024.2.0.dist-info/LICENSE.txt,sha256=TyK6HfzztsNLyEwvmp1-Ba2ER1VYu0RXTae2w4ESb9c,26661
+intel_opencl_fpga_emu_rt-2024.2.0.dist-info/METADATA,sha256=WcNh_qLJztQcAZ4-xaMYFxSvQjfTjLg4EDN2N8F9VDU,1026
+intel_opencl_fpga_emu_rt-2024.2.0.dist-info/WHEEL,sha256=dNxT-MG8LzRaqJYFQzfes411XUTOrT0gsWYZz0BoKLo,138
+intel_opencl_fpga_emu_rt-2024.2.0.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+intel_opencl_fpga_emu_rt-2024.2.0.dist-info/RECORD,,
