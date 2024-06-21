@@ -1,0 +1,5 @@
+#!/bin/bash
+ri_lint_config_path=$(get_ri_lint_config_path)
+echo "$@" | xargs ruff --config=$(get_ri_ruff_config_path) --fix-only
+echo "$@" | xargs isort -rc -sp=$ri_lint_config_path
+echo "$@" | xargs black

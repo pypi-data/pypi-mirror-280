@@ -1,0 +1,10 @@
+#!python
+try:
+    # Python <= 3.8
+    import importlib_resources as ilr
+except ImportError:
+    import importlib.resources as ilr
+
+file_ref = ilr.files('ri_python_linter') / '.ruff.toml'
+with ilr.as_file(file_ref) as file_path:
+    print(file_path)

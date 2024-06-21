@@ -1,0 +1,13 @@
+#!/bin/bash
+
+function find_files() {
+    # Use absolute paths instead of relative paths to get around problems
+    # with "ri_common".
+    toplevel=$(git rev-parse --show-toplevel)
+    files=$(git ls-files --full-name \*.py | uniq)
+    for f in $files; do
+        echo "${toplevel}/${f}" | filter_files
+    done
+}
+
+echo "$(find_files)"

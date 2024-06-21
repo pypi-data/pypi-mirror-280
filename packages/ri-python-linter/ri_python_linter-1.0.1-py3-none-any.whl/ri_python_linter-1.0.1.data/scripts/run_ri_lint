@@ -1,0 +1,6 @@
+#!/bin/bash
+# Exit with error if any commands fail
+set -eu
+# Prevent use of deprecated modules
+files=$(list_files)
+lint_files $files
