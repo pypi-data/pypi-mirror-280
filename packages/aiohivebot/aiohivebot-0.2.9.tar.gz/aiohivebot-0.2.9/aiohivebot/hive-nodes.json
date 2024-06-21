@@ -1,0 +1,69 @@
+{
+  "api.hive.blog": {
+    "policies": [
+	    {"w": 60, "v": 2400}
+    ]
+  },
+  "api.deathwing.me": {
+    "policies": [
+            {"w": 60, "v": 2400}
+    ]
+  },
+  "hive-api.arcange.eu": {
+    "policies": [
+            {"w": 60, "v": 2400}
+    ]
+  },
+  "hived.emre.sh": {
+    "policies": [
+            {"w": 60, "v": 2400}
+    ]
+  },
+  "api.openhive.network": {
+    "policies": [
+            {"w": 60, "v": 2400}
+    ]
+  },
+  "rpc.ausbit.dev": {
+    "policies": [
+            {"w": 60, "v": 2400}
+    ]
+  },
+  "rpc.mahdiyari.info": {
+    "policies": [
+            {"w": 60, "v": 2400}
+    ]
+  },
+  "hive-api.3speak.tv": {
+    "policies": [
+            {"w": 60, "v": 2400}
+    ]
+  },
+  "anyx.io": {
+    "single_block": true,
+    "policies": [
+            {"w": 60, "v": 2400}
+    ]
+  },
+  "techcoderx.com": {
+    "policies": [
+            {"w": 60, "v": 2400}
+    ]
+  },
+  "api.hive.blue": {
+    "policies": [
+            {"w": 60, "v": 2400}
+    ]
+  },
+  "hived.privex.io": {
+    "policies": [
+            {"w": 60, "v": 2400}
+    ]
+  },
+  "hive.roelandp.nl": {
+    "single_block": true,
+    "policies": [
+            {"w": 60, "v": 2400}
+    ]
+  }
+}
