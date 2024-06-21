@@ -1,0 +1,24 @@
+{% if sizes.width and sizes.height %}
+<svg viewBox="{{ min_x }} {{ min_y }} {{ vb_width }} {{ vb_height }}"
+     width="{{ sizes.width }}"
+     height="{{ sizes.height }}"
+     xmlns="http://www.w3.org/2000/svg">
+{% elif sizes.width %}
+<svg viewBox="{{ min_x }} {{ min_y }} {{ vb_width }} {{ vb_height }}"
+     width="{{ sizes.width }}"
+     xmlns="http://www.w3.org/2000/svg">
+{% elif sizes.height %}
+<svg viewBox="{{ min_x }} {{ min_y }} {{ vb_width }} {{ vb_height }}"
+     height="{{ sizes.height }}"
+     xmlns="http://www.w3.org/2000/svg">
+{% else %}  
+<svg viewBox="{{ min_x }} {{ min_y }} {{ vb_width }} {{ vb_height }}"
+     xmlns="http://www.w3.org/2000/svg">
+{% endif %}
+  {{ background }}
+  <g class="unravelled-diagrams">
+    {% for str_dgm in str_dgms %}
+    <polyline points="{{ str_dgm }}" />
+    {% endfor %}
+  </g>
+</svg>
