@@ -1,0 +1,17 @@
+AUTHORS.md
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+lib/django_dbshell_plus/__init__.py
+lib/django_dbshell_plus/management/__init__.py
+lib/django_dbshell_plus/management/commands/__init__.py
+lib/django_dbshell_plus/management/commands/dbshell_plus.py
+lib/htk_django_dbshell_plus.egg-info/PKG-INFO
+lib/htk_django_dbshell_plus.egg-info/SOURCES.txt
+lib/htk_django_dbshell_plus.egg-info/dependency_links.txt
+lib/htk_django_dbshell_plus.egg-info/not-zip-safe
+lib/htk_django_dbshell_plus.egg-info/requires.txt
+lib/htk_django_dbshell_plus.egg-info/top_level.txt
