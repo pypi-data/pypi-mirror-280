@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pdsuax4/__init__.py
+src/pdsuax4/example.py
+src/pdsuax4.egg-info/PKG-INFO
+src/pdsuax4.egg-info/SOURCES.txt
+src/pdsuax4.egg-info/dependency_links.txt
+src/pdsuax4.egg-info/requires.txt
+src/pdsuax4.egg-info/top_level.txt
