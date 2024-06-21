@@ -1,0 +1,9 @@
+rkan/__init__.py,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+rkan/jacobi_polynomials.py,sha256=didn22iHijZZiutJLy7hpQDzZA_qPeYAlkudY0pMO50,11738
+rkan/tensorflow.py,sha256=6B9-m1TqzA_X34rPLiJvmXvZQ-q-qM6MbXFQTSIcWmE,5397
+rkan/torch.py,sha256=9j-KbTfN9XRsy13OtswXktNjaLuAJbHtuCDflSUTHjg,2586
+rkan-0.0.1.dist-info/LICENSE,sha256=_kEdUcWFJsxb1NCaqU4tXBW9dNPXLuBewN-uNKBBx1Q,1507
+rkan-0.0.1.dist-info/METADATA,sha256=DejRMsug8VRMAnub6xxJOkptYtnmquDe98FDuWhjNf8,539
+rkan-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+rkan-0.0.1.dist-info/top_level.txt,sha256=nBWcT1iutXXhGXxyRl9db5fT60arpzqrKMCH3BjiaLQ,5
+rkan-0.0.1.dist-info/RECORD,,
