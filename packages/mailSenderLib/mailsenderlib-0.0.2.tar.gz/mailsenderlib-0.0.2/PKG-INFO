@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: mailSenderLib
+Version: 0.0.2
+Summary: Эта библиотека позволит Вам легко обновлять эл. почту.
+Home-page: https://github.com/borshcode/mailSenderLib.git
+Author: BorshCode
+Author-email: rechkinnm@yandex.ru
+Project-URL: GitHub, https://github.com/borshcode/mailSenderLib
+Keywords: mail sender
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# verifySender.py
+
+РЎР»СѓР¶РёС‚ РґР»СЏ РѕС‚РїСЂР°РІРєРё РєРѕРґР° РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ РЅР° РїРѕС‡С‚Сѓ.
+
+## class Message
+
+```python
+def __init__(self,
+    from_mail: str,
+    from_password: str,
+    to_mail: str,
+    subject: str,
+    text: str,
+    to_name: str = ''
+):
+...
+```
+
+from_email - email Р°РґСЂРµСЃ РѕС‚РїСЂР°РІРёС‚РµР»СЏ  
+from_password - РїР°СЂРѕР»СЊ email РѕС‚РїСЂР°РІРёС‚РµР»СЏ  
+to_mail - email Р°РґСЂРµСЃ РїРѕР»СѓС‡Р°С‚РµР»СЏ  
+subject - С‚РµРјР° СЃРѕРѕР±С‰РµРЅРёСЏ  
+text - С‚РµРєСЃС‚ СЃРѕРѕР±С‰РµРЅРёСЏ, РїРѕРґ С„РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ  
+(РїСЂРёРјРµСЂ: `'Р—РґСЂР°РІСЃС‚РІСѓР№С‚Рµ, {}! {} Р­С‚Рѕ Р’Р°С€ РєРѕРґ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ!'`,  
+РІС‹РІРѕРґ: `Р—РґСЂР°РІСЃС‚РІСѓР№С‚Рµ, РёРјСЏ! 111111 Р­С‚Рѕ Р’Р°С€ РєРѕРґ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ!`)  
+to_name - РёРјСЏ РѕС‚РїСЂР°РІРёС‚РµР»СЏ (РЅРµРѕР±СЏР·Р°С‚РµР»СЊРЅРѕ)  
+
+***
+
+```python
+def send_verify_message(
+    self,
+    smtp_host: str,
+    smtp_port: int
+): # РІРѕР·РІСЂР°С‰Р°РµС‚ РєРѕРґ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ (str)
+```
+
+smtp_host - Р°РґСЂРµСЃ SMTP СЃРµСЂРІРµСЂР°  
+smtp_port - РїРѕСЂС‚ SMTP СЃРµСЂРІРµСЂР°
+
+## function getSMTPServer (РІ СЂР°Р·СЂР°Р±РѕС‚РєРµ)
+
+```python
+def getSMTPServer(mail_service: str): # РІРѕР·РІСЂР°С‰Р°РµС‚ РґРІР° РїР°СЂР°РјРµС‚СЂР° - Р°РґСЂРµСЃ Рё РїРѕСЂС‚ SMTP СЃРµСЂРІРµСЂР°
+```
+
+mail_service - РЅР°Р·РІР°РЅРёРµ РїРѕС‡С‚РѕРІРѕРіРѕ РєР»РёРµРЅС‚Р°
