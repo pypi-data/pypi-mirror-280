@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: alienGame
+Version: 1.0.0
+Summary: This is a Alien Game
+Author-email: Gavin <otnw_bsj@163.com>
+Requires-Dist: pygame ; python_version == "2.5.2"
+
