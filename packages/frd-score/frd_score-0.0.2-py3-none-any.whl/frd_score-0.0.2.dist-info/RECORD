@@ -1,0 +1,12 @@
+frd/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+frd/__main__.py,sha256=TzePkd76cFDYZJ52otMT__W_Tw4AKA7Ma7nWnTzSJq8,37
+frd/frd_score.py,sha256=jJqJKhoqRl6boZKMlQkDYMNsOFcoCDmwipQyekp-L_Q,38795
+frd_score/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+frd_score/__main__.py,sha256=WJpe4FVwXt4a2PERvRNhbZG3_LpwqE0Qu-hrklup0kc,43
+frd_score/frd.py,sha256=usToRfj_4lf9kVvadDA5YBsHz8bTwYPNLx2yyc2EZLQ,40685
+frd_score-0.0.2.dist-info/LICENSE,sha256=6wO8Macl58Za0stvqLfMGcIIrNAqv4BBx8r4pLb4lFA,11376
+frd_score-0.0.2.dist-info/METADATA,sha256=vTn9XIFXbueCLBWqyxEG0AsRRsYUT0TDmwfeuZ-EeBY,7114
+frd_score-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+frd_score-0.0.2.dist-info/entry_points.txt,sha256=OHbsN5cvO5um3D10y6bBmEP3nyyA0kItuYDbvfJFC80,49
+frd_score-0.0.2.dist-info/top_level.txt,sha256=I7ycRN8Hp-ZG3TwwJk40iDCnaGkZkZCKadnb1wMWZaY,10
+frd_score-0.0.2.dist-info/RECORD,,
