@@ -1,0 +1,119 @@
+# Financials Module
+
+The Financial Module is a Python library that is used to retrieve financials data. The module has various functions exposed to the clients like :
+
+- get_income_statement_pit (token, identifiers, properties={}, proxy=None)
+- get_income_statement_historical (token, identifiers, properties={}, proxy=None)
+- get_balance_sheet_pit (token, identifiers, properties={}, proxy=None)
+- get_balance_sheet_historical (token, identifiers, properties={}, proxy=None)
+- get_cash_flow_pit (token, identifiers, properties={}, proxy=None)
+- get_cash_flow_historical (token, identifiers, properties={}, proxy=None)
+- get_financials_pit (token, identifiers, mnemonics, properties={}, proxy=None)
+- get_financials_historical (token, identifiers, mnemonics, properties={}, proxy=None)
+
+
+
+## Features
+
+- The module provides eight main functions as entry points for accessing financial data.
+- It offers methods to retrieve financial statements, ratios, and other financial information about companies, making it an invaluable tool for analysts and developers.
+- Each method includes robust error handling to ensure reliable and accurate data retrieval.
+- The functions return data in the form of dataframes, which are easy to read and manipulate for further analysis.
+
+## Pre-requisite
+To access financial data, you must install the authentication and dataservices libraries, as they are essential for obtaining authentication tokens and retrieving the data. Please use the following commands:
+```sh
+! pip install authtestdistribution==1.0.2
+! pip install dataservicestestdistribution==1.0.2
+```
+Ensure these libraries are installed before attempting to fetch financial data. The authentication library is required to obtain the necessary token, and the dataservices library is needed to access the actual data.
+
+## Installation
+
+You can install the package using pip. Ensure you have Python 3.12+ installed.
+
+```sh
+pip install financialstestdistribution==1.0.3
+```
+
+## Basic Usage
+Here's a brief example of how to Initialize required instances and use this package:
+### Required Instances
+```sh
+from IPython.core.display_functions import display
+from Financials.services.impl.sdk_financial_services_impl import SDKFinancialServices
+from Authentication.services.impl.sdk_authenticate_service_impl import User
+from DataServices.model.sdk_proxy import SDKProxy
+
+#Authentication service for getting token
+user = User()
+username = "your_username"
+password = "your password"
+# Initialize proxy settings (if needed) 
+sdk_proxy_object = SDKProxy(proxy_username="", proxy_password="", proxy_host=None, proxy_port=None, proxy_domain="")
+token_response = user.get_token(username, password, proxy=sdk_proxy_object)
+bearer_token = token_response.get("access_token")
+
+financial_services = SDKFinancialServices()
+```
+
+## Fetching Financial Data
+Use the following methods from the SDKFinancialServices class to fetch financial data:
+
+Note: All these functions of the financial services will accept identifiers with a maximum of 10. Additionally, if you need to use a proxy, provide the sdk_proxy_object as a parameter; otherwise, you can ignore the proxy parameter.
+
+### get_income_statement_pit
+Fetches income statement data for a given point in time.
+```sh
+response = financial_services.get_income_statement_pit(token=bearer_token, identifiers=["I_US5949181045","2588173","EG1320"],properties={"asOfDate": "12/31/2020", "currencyId": "USD","currencyConversionModeId": "HISTORICAL"}, proxy=sdk_proxy_object)
+display(response.data)
+```
+
+### get_income_statement_historical
+Fetches historical income statement data.
+```sh
+response = financial_services.get_income_statement_historical(token=bearer_token, identifiers=["GV012141","MSFT:NasdaqGS","DB649496569"], properties={"periodType":"IQ_FQ-4"}, proxy=sdk_proxy_object)
+display(response.data)
+```
+
+### get_balance_sheet_pit
+Fetches balance sheet data for a given point in time.
+```sh
+response = financial_services.get_balance_sheet_pit(token=bearer_token, identifiers=["RX309198","MMM:"], properties={"asOfDate": "12/31/2020", "currencyId": "USD","currencyConversionModeId": "HISTORICAL"}, proxy=sdk_proxy_object)
+display(response.data)
+```
+### get_balance_sheet_historical
+Fetches historical balance sheet data.
+```sh
+response = financial_services.get_balance_sheet_historical(token=bearer_token, identifiers=["I_US5949181045","2588173"], properties={"periodType":"IQ_FQ-2"}, proxy=sdk_proxy_object)
+display(response.data)
+```
+
+### get_cash_flow_pit
+Fetches cash flow data for a given point in time.
+```sh
+response = financial_services.get_cash_flow_pit(token=bearer_token, identifiers=["2588173","EG1320"], properties={"asOfDate": "12/31/2020", "currencyId": "USD","currencyConversionModeId": "HISTORICAL"}, proxy=sdk_proxy_object)
+display(response.data)
+```
+
+### get_cash_flow_historical
+Fetches historical cash flow data.
+```sh
+response = financial_services.get_cash_flow_historical(token=bearer_token, identifiers=["MSFT:NasdaqGS","DB649496569"], properties={"asOfDate": "12/31/2020", "currencyId": "USD","currencyConversionModeId": "HISTORICAL"}, proxy=sdk_proxy_object)
+display(response.data)
+```
+
+### get_financials_pit
+Fetches financial data (income statement, balance sheet, cash flow) for a given point in time based on specified mnemonics. This function will accept a maximum of 10 mnemonics.
+```sh
+response = financial_services.get_financials_pit(token=bearer_token, identifiers=["I_US5949181045","2588173","EG1320","CSP_594918104","IQT2630413","GV012141","MSFT:NasdaqGS","DB649496569","RX309198"], mnemonics=["IQ_CASH_INVEST_NAME_AP"], properties={"asOfDate": "12/31/2020", "currencyId": "USD","currencyConversionModeId": "HISTORICAL"}, proxy=sdk_proxy_object)
+display(response.data)
+```
+### get_financials_historical
+Fetches historical financial data based on specified mnemonics. This function will accept a maximum of 10 mnemonics.
+```sh
+response = financial_services.get_financials_historical(token=bearer_token, identifiers=["I_US5949181045","2588173","EG1320","CSP_594918104","IQT2630413","GV012141","MSFT:NasdaqGS","DB649496569","RX309198"], mnemonics=["IQ_CASH_INVEST_NAME_AP"], properties={"asOfDate": "12/31/2020", "currencyId": "USD","currencyConversionModeId": "HISTORICAL"}, proxy=sdk_proxy_object)
+display(response.data)
+```
+
+By using these methods and the IPython.display.display function, you can efficiently retrieve and display various types of financials data in a human-readable format, whether you need information for PIT or HISTORICAL.
