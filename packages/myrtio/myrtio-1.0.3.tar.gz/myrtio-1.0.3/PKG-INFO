@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: myrtio
+Version: 1.0.3
+Summary: MyrtIO protocol support for Python
+Author-email: Mikhael Khrustik <misha@myrt.co>
+License: MIT
+Keywords: data-protocol
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# MyrtIO [![PyPI version](https://badge.fury.io/py/myrtio.svg)](https://badge.fury.io/py/myrtio)
+
+Library for MyrtIO protocol support in Python.
+
+Allows you to format and parse messages, as well as use ready-made transports.
