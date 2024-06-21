@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+OperationBattleshipJobCategoryClassifier/JobCategoryClassifierBertInference.py
+OperationBattleshipJobCategoryClassifier/JobCategoryClassifierBertTraining.py
+OperationBattleshipJobCategoryClassifier/__init__.py
+OperationBattleshipJobCategoryClassifier.egg-info/PKG-INFO
+OperationBattleshipJobCategoryClassifier.egg-info/SOURCES.txt
+OperationBattleshipJobCategoryClassifier.egg-info/dependency_links.txt
+OperationBattleshipJobCategoryClassifier.egg-info/top_level.txt
+tests/__init__.py
+tests/test.py
