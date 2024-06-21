@@ -1,0 +1,2 @@
+Version: 1.6.0
+Arguments: ['C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-o3r7_5z2\\cp311-win_amd64\\build\\venv\\Scripts\\delvewheel', 'repair', '--add-path', 'c://glpk//w64;c://lpsolve', '-w', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-o3r7_5z2\\cp311-win_amd64\\repaired_wheel', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-o3r7_5z2\\cp311-win_amd64\\built_wheel\\pywr-1.25.0-cp311-cp311-win_amd64.whl']
