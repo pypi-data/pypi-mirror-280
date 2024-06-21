@@ -1,0 +1,14 @@
+bpkcat/OWDuplicateChecker.py,sha256=53kEeZmDXU13sdMfZ5GApGAnQhJqbB_lcJkFiEBwCiE,2361
+bpkcat/OWSequenceChecker.py,sha256=btOxRVwiNIqYNBMgomRzJFyZbNZM3Ytp1PMJiXhznoQ,1993
+bpkcat/__init__.py,sha256=lJ65xxUjIGK4SM9o-Zg6fMNWgzgMVbrCdPfdzbOEcI4,46
+bpkcat/icons/1.svg,sha256=-DBR_1ow7PEeZDuxQwIYC-2K3LDydRQrvJG-iArj6jQ,1143
+bpkcat/icons/2.svg,sha256=u2txJAqnei-1I7Jh-khua_dA2eL83ZLboKsiLVGK0Uo,1919
+bpkcat/icons/bpkcat-01.svg,sha256=f01G8cSCNK2LkM6wUzOS0_9VafbBdJQr0ZEsJbN_wZ4,702150
+bpkcat/icons/bpkcat.svg,sha256=YnxQMMwpL5Z5U_YNukjAPJtBSTyJDLrPz2RFN2IRd2s,3737
+bpkcat/icons/duplicate.svg,sha256=uT5iUHXmHSqMpPHTyXd9aMfpC45X2WeRXcjL6Zr5fHU,73697
+bpkcat/icons/sequence.svg,sha256=fE8WoUIgokKtwxwGIL_6wwggZM5pW97KbRWLXYju_a8,64163
+BPK_CAT-2.1.4.dist-info/METADATA,sha256=u5iufmtto-oseFUeaclQig59MQsJ-FJrkEil1eiUcU8,200
+BPK_CAT-2.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+BPK_CAT-2.1.4.dist-info/entry_points.txt,sha256=gRxC7ItSMmrdybGvFwrYE_y1TzpJaqsPLvswY636zQU,34
+BPK_CAT-2.1.4.dist-info/top_level.txt,sha256=iX_Mm0lJf7TxwjV91fbkibyz9FR4G1ObFLRpsH_f_yY,7
+BPK_CAT-2.1.4.dist-info/RECORD,,
