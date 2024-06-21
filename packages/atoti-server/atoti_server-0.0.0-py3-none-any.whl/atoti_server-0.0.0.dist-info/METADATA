@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: atoti-server
+Version: 0.0.0
+Summary: Embed the JAR required to start a new Atoti session
+Home-page: https://www.atoti.io
+Author: ActiveViam
+Author-email: dev@atoti.io
+Requires-Python: >=3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Bug Tracker, https://github.com/atoti/atoti/issues
