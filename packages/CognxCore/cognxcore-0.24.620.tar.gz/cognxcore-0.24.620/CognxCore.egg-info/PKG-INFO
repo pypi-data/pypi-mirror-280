@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: CognxCore
+Version: 0.24.620
+Summary: A small gemini-python package for Cognito or Cogni.
+Author-email: Conradium <leiconrad5@gmail.com>
+Project-URL: Homepage, https://github.com/Conradium/CogniCore
+Project-URL: Issues, https://github.com/Conradium/CogniCore/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: google.generativeai

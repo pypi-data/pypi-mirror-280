@@ -1,0 +1,7 @@
+pyproject.toml
+CognxCore.egg-info/PKG-INFO
+CognxCore.egg-info/SOURCES.txt
+CognxCore.egg-info/dependency_links.txt
+CognxCore.egg-info/requires.txt
+CognxCore.egg-info/top_level.txt
+tests/test.py
