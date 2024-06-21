@@ -1,0 +1,22 @@
+Metadata-Version: 2.3
+Name: python-can-csscan-serial
+Version: 2.4.1
+Summary: Interact with CSS Electronics USB devices through Python
+Project-URL: Homepage, https://canlogger.csselectronics.com/tools-docs/csscan_serial/python_csscan/
+Author: CSS Electronics
+Author-email: contact@csselectronics.com
+License: MIT
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: pyserial>=3.5.0
+Requires-Dist: python-can>=4.3.1
+Description-Content-Type: text/markdown
+
+# python-can-csscan-serial
+
+The **python-can-csscan-serial** package allows for communication over USB with devices from [CSS Electronics](https://www.csselectronics.com/).
+
+For usage guidelines, consult the manual or the documentation for the [**python-can**](https://python-can.readthedocs.io/en/stable/) package.
