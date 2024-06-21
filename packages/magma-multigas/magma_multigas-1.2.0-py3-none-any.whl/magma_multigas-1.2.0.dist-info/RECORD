@@ -1,0 +1,17 @@
+magma_multigas/__init__.py,sha256=CSqor9GH8HIZD8EnqVj8XfoA47nSqZXA1PeYvwMgn2c,716
+magma_multigas/diagnose.py,sha256=agmy4ahOlJ66eXn9O29lNW80fO3tV7BxZNlrotbPwfw,4000
+magma_multigas/multigas.py,sha256=y1pRCUKOb9AiXdDDoSm6bAjj6AsOyHILz1p8lPvwNQQ,6406
+magma_multigas/multigas_data.py,sha256=qrRsKPcRPOyb67czpRX6wLMnMAD-bVuoJGhB_YnoFRM,6684
+magma_multigas/plot.py,sha256=KRxQmK7ooYJ0tptvEHYKsVW5jGlymejWObLN7oSf-cc,8552
+magma_multigas/query.py,sha256=IHQn096VG7gtgWx-Dh8YQK6JWx7tmV0fj4NwrlxXqik,11294
+magma_multigas/validator.py,sha256=40XwwFuF2nME-hkGAwuJWrhGEi7oWEk4E9GGwUou3Qg,4828
+magma_multigas/variables.py,sha256=ZOm8yiw3EfnbyA306572ahWGmGiY9QNIgNGFNfuP3sA,1068
+magma_multigas/resources/__init__.py,sha256=TZFhcBmr1u6OvbBn7XEqFf4f7Cu_f-sTHvQR1Ks7-Q8,840
+magma_multigas/resources/colors.py,sha256=k8ZmjngwjztsO2sKGo4S8BYEpJiZtl_B-BRDRa4dars,433
+magma_multigas/resources/columns_explanations.csv,sha256=8RWN4yweKVdMY-NeoZUBWrP5vcGfdcRUaR3kCgH6yjU,6450
+magma_multigas/resources/material-colors.json,sha256=3gBgqqgIiy06fLgVSneG5PNXXC9jjKfsQMzEZ9U9u-w,2155
+magma_multigas/resources/metadata_v4.xml,sha256=zjFhkgpcgGqhI0fUBsTa5Bp24wkPpcmN6UJ7QvdXnJs,85510
+magma_multigas-1.2.0.dist-info/LICENSE,sha256=rwlxGtynWEDB7R6X-_XixZ-h9xCROlLhZaVabjIulas,1085
+magma_multigas-1.2.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+magma_multigas-1.2.0.dist-info/METADATA,sha256=NXxJk2XCG6RCo0lBDanyzxUsh1amBRx8ABS9e6F9mkI,8585
+magma_multigas-1.2.0.dist-info/RECORD,,
