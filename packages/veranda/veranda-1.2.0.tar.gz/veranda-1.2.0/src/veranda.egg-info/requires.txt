@@ -1,0 +1,14 @@
+numpy
+pandas
+pyproj
+netCDF4
+xarray
+rioxarray
+toolz
+dask
+geospade
+
+[testing]
+pytest
+pytest-cov
+coverage
