@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gree_air_purifier
+Version: 0.0.6
+Summary: GREE air purifier controller
+Home-page: https://github.com/windztrumpet/gree_air_purifier
+Author: WindzTrumpet
+Author-email: chinapat.dev@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pycryptodome ==3.20.0
+
+# gree_air_purifier
+GREE air purifier controller
