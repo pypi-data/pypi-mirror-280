@@ -1,0 +1,49 @@
+,Case1,Case2
+General,,
+Quality,N-60,N-60
+Operational quantity,H*(10),H*(10)
+Irradiation angle (deg),0,0
+Number of simulations,3,3
+Values,,
+Al filter width (mm),4,4
+Cu filter width (mm),0.6,0.6
+Sn filter width (mm),0,0
+Pb filter width (mm),0,0
+Be filter width (mm),0,0
+Air gap width (mm),1000,1000
+Peak kilovoltage (kV),60,60
+Anode angle (deg),20,20
+Mass energy transfer coefficients of air file (keV and cm²/g),data/mu_tr_rho.csv,data/mu_tr_rho.csv
+Mono-energetic K to H conversion coefficients file (keV and Sv/Gy),data/h_k_h_amb_10.csv,data/h_k_h_amb_10.csv
+Relative uncertainties (k=1),,
+Al filter width (fraction of one),0.01,0.01
+Cu filter width (fraction of one),0.01,0.01
+Sn filter width (fraction of one),0,0
+Pb filter width (fraction of one),0,0
+Be filter width (fraction of one),0,0
+Air gap width (fraction of one),0.01,0.01
+Peak kilovoltage (fraction of one),0.01,0.01
+Anode angle (fraction of one),0.01,0.01
+Mass energy transfer coefficients of air (fraction of one),0.01,0.01
+Results,,
+HVL1 Al  Mean (mm),5.8958189086961985,5.931132559842237
+HVL1 Al  Standard deviation (mm),0.02047711174060341,0.022358629343646443
+HVL1 Al  Relative uncertainty (fraction of one),0.003473158191884106,0.003769706564144161
+HVL2 Al  Mean (mm),6.238906940244141,6.275384109154552
+HVL2 Al  Standard deviation (mm),0.017694002760262464,0.02430334544837817
+HVL2 Al  Relative uncertainty (fraction of one),0.002836074160062734,0.0038728060347611813
+HVL1 Cu  Mean (mm),0.2346310993184101,0.23673178425206629
+HVL1 Cu  Standard deviation (mm),0.0011604275428318902,0.0013508496213578412
+HVL1 Cu  Relative uncertainty (fraction of one),0.004945753338763982,0.0057062452582180056
+HVL2 Cu  Mean (mm),0.2626714711333354,0.26511125422691706
+HVL2 Cu  Standard deviation (mm),0.0010645328924036158,0.001672921802323041
+HVL2 Cu  Relative uncertainty (fraction of one),0.004052716070803309,0.006310263240998191
+Mean energy  Mean (keV),47.81527425248073,47.96842887480958
+Mean energy  Standard deviation (keV),0.06703395098098443,0.10471784738908323
+Mean energy  Relative uncertainty (fraction of one),0.0014019359300758713,0.002183057687012871
+Air kerma  Mean (uGy),1.6090834147728226,1.6226375515603098
+Air kerma  Standard deviation (uGy),0.03908870994865351,0.02972297645191963
+Air kerma  Relative uncertainty (fraction of one),0.02429253175427964,0.01831769295819535
+Mean conv. coeff.  Mean (Sv/Gy),1.5898668105745921,1.592053713813425
+Mean conv. coeff.  Standard deviation (Sv/Gy),0.0013070164729199467,0.0012740599607470634
+Mean conv. coeff.  Relative uncertainty (fraction of one),0.0008220918030533509,0.0008002619193640927
