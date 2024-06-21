@@ -1,0 +1,6 @@
+print("Functions:")
+print("    convertTime()")
+print("    stress()")
+print("Commands:")
+print("    list")
+print("    stress")
