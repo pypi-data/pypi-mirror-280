@@ -1,0 +1,17 @@
+CrystalStructure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CrystalStructure/atomic_site.py,sha256=6gQr2KIUPTODIoJUFKdUutoRHMfTJfcRc7c2ppCZxUI,3321
+CrystalStructure/base.py,sha256=5KM_VgUMKI9KCW-ai1hUVqksbe34p8_eURobQ29X2tA,3130
+CrystalStructure/crystal.py,sha256=wxn32180kcgv9HDeoPeMeuVNFuaTdwyR95Vf4fpwGtU,5687
+CrystalStructure/examples.py,sha256=sqb81y4oNdeAi3iv_oclO8fSNpGlcyybBEJR9VYzgaE,1805
+CrystalStructure/lattice.py,sha256=2YLrIyyatdNvkxyFcrZaBsrht-dz36Gx7mxRMFOIwIM,1821
+CrystalStructure/atomic_constants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CrystalStructure/atomic_constants/atomic_constants.py,sha256=SI-kzXqVNBo4ydP4FZWicd2qdxVALQWsrdg8KyQT7G0,2391
+CrystalStructure/atomic_constants/atomic_scattering_params.json,sha256=xnUwEki7huo1lCjyDDmH1xmxrBp3kWbvJ-HQ9lJGfZM,6825
+CrystalStructure/atomic_constants/covalent_radius.json,sha256=5_VwH0slvXe_9KpeLe3K30wouPnh-kYtxh7U_7dh64E,1228
+CrystalStructure/atomic_constants/vdw_radius.json,sha256=jHx-tHlZiZ_cs_ugq8C6n9olP6bVsUpSAGC-O30q7VI,1196
+CrystalStructure/cifs/test1.cif,sha256=GUIomMeKIdoTIKtijTZhHZWIlzqXAHssKDKmAivrRXU,1845
+CrystalStructure/cifs/test2.cif,sha256=_ENP_1JLiernygnkD3u9qg8ei7IsbAn5JV1jGhSqdgI,992
+CrystalStructure-0.1.0.dist-info/METADATA,sha256=7sO2wMpln_PNs91GKxCtoukF1abXztbChwMjyuVcW0w,1069
+CrystalStructure-0.1.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+CrystalStructure-0.1.0.dist-info/top_level.txt,sha256=1tiCJsvUqMmopA5SGTubv1lcZxul_FNS_ul2o7MIZrE,17
+CrystalStructure-0.1.0.dist-info/RECORD,,
