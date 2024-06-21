@@ -1,0 +1,15 @@
+alive_progress
+astropy
+cartopy
+cdasws
+configparser
+h5py
+matplotlib
+pandas
+progressbar
+pyhdf
+pyspedas
+pytest
+spacepy
+sunpy
+xarray==0.20.2
