@@ -1,0 +1,13 @@
+COPYING
+MANIFEST.in
+NEWS
+README.md
+pyproject.toml
+sopel_inclusivity/__init__.py
+sopel_inclusivity/plugin.py
+sopel_inclusivity.egg-info/PKG-INFO
+sopel_inclusivity.egg-info/SOURCES.txt
+sopel_inclusivity.egg-info/dependency_links.txt
+sopel_inclusivity.egg-info/entry_points.txt
+sopel_inclusivity.egg-info/requires.txt
+sopel_inclusivity.egg-info/top_level.txt
