@@ -1,0 +1,4 @@
+[console_scripts]
+getencoding = piidigger.getencoding:main
+getmime = piidigger.getmime:main
+piidigger = piidigger.piidigger:main
