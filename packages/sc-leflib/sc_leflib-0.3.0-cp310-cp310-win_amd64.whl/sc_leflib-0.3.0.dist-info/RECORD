@@ -1,0 +1,7 @@
+sc_leflib/__init__.py,sha256=e2qN__LKnKMvpnyv_o8ivbP8QplAOXnRivh703kY07M,6466
+sc_leflib/_leflib.cp310-win_amd64.pyd,sha256=9CUARbz0Agbf4m6rOji96Y1SxE5LldXzInzT9uYqW5Q,458752
+sc_leflib-0.3.0.dist-info/LICENSE,sha256=UJh7mqgsPZN3gg37jhwYnrtCUs1m19vkIA6Px7jAOPY,10956
+sc_leflib-0.3.0.dist-info/METADATA,sha256=xsf1KTQCypaSHKKTPq0irZ5zjd53W8D96OosYhpZfGg,2027
+sc_leflib-0.3.0.dist-info/WHEEL,sha256=wUIouuIHFqRckGKsgk22M6XNSH8sVWKH16ZX06368Dg,96
+sc_leflib-0.3.0.dist-info/top_level.txt,sha256=TeIqIjsM6BvEIrDCWj56HWRo6tAF44TFTzWlu76Op5M,10
+sc_leflib-0.3.0.dist-info/RECORD,,
