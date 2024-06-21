@@ -1,0 +1,7 @@
+#!/bin/bash
+# Exit with error if any commands fail
+set -eu
+# Prevent use of deprecated modules
+test -z "$(git grep pkg_resources)" || (echo "Import pkg_resources not allowed" && false)
+files=$(list_files)
+lint_files $files

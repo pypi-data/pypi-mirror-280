@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ri_python_linter
+Version: 1.0.0
+Summary: Linting for all projects
+Home-page: https://github.com/RobustIntelligence/rime/python/ri_python_linter/
+Requires-Dist: ansiwrap ==0.8.4
+Requires-Dist: black <24.1.0,>=22.3.0
+Requires-Dist: isort ==4.3.21
+Requires-Dist: numpy <2.0.0
+Requires-Dist: ruff ==0.0.275
+Requires-Dist: scipy
+Requires-Dist: importlib-resources ==3.0.0 ; python_version < "3.9"
+

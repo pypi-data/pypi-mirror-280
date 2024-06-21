@@ -1,0 +1,11 @@
+#!/bin/bash
+# Exit with error if any commands fail
+set -eu
+ri_lint_config_path=$(get_ri_lint_config_path)
+echo "$@" | xargs ruff --config=$(get_ri_ruff_config_path)
+echo -e "\033[38;2;0;128;0mYou're a beast!\033[0m";
+echo "$@" | xargs isort --recursive --check-only --diff -sp=$ri_lint_config_path
+echo -e "\033[38;2;0;128;0mYou did it!\033[0m";
+echo "$@" | xargs black --check --diff
+echo -e "\033[38;2;0;128;0mFelicitations!\033[0m";
+echo -e "\033[38;2;0;128;0mWay to go, champ!\033[0m";

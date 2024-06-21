@@ -1,0 +1,16 @@
+ri_python_linter/.ruff.toml,sha256=yjGYq3h54mLKLRjBGLsHi7wiJtHik18J1jf_IiQ8G1w,3660
+ri_python_linter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ri_python_linter/setup.cfg,sha256=sol6lvhj4zMFM9JZLmMdTZvu1x0NWdYtlJrUDcbdt_k,159
+ri_python_linter-1.0.0.data/scripts/filter_files,sha256=4XyFReRnboxTJsNCnTtqkgGAsiYj6NbN8sq4JUcOXnI,271
+ri_python_linter-1.0.0.data/scripts/format_files,sha256=VsgWX_AVvWqwrJ7I73ug78kBdKd2JLoGofB7_plhWTQ,206
+ri_python_linter-1.0.0.data/scripts/get_ri_lint_config_path,sha256=QdIjxwFgizS2OLxaBo7UTKHIHeyWTbEWhsQ6XOtV8Es,249
+ri_python_linter-1.0.0.data/scripts/get_ri_ruff_config_path,sha256=KR-2ByaH9yoIC2WZR9qYRouG7Sp2RMH3ob8Q95voUhk,249
+ri_python_linter-1.0.0.data/scripts/inc_cov,sha256=LGq5wO71wdQ8sa-FAAEQRwtMPKe4XtoTaAi5_h2-A2A,25299
+ri_python_linter-1.0.0.data/scripts/lint_files,sha256=lK6m2SlouUrtE9UkOCu6hwfFfbxF3WJQ1ta7mps7qrk,490
+ri_python_linter-1.0.0.data/scripts/list_files,sha256=nD0c47xietxEeM6OmGkzJH7qX7Wzn4Z21Qq41PWgWsY,336
+ri_python_linter-1.0.0.data/scripts/run_ri_format,sha256=ckDYFSHB_u18ixKS4vPb98KF9_BwCqiakecel4gYr7k,52
+ri_python_linter-1.0.0.data/scripts/run_ri_lint,sha256=xUDarVvjKxXShk7Xd_UL__74bjwAgNmut-GyGFVxZyY,223
+ri_python_linter-1.0.0.dist-info/METADATA,sha256=2ZnGiqVWkqlOiQRSJAMcpZ2k7Gp7gmytkJ2DC2xfECo,421
+ri_python_linter-1.0.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+ri_python_linter-1.0.0.dist-info/top_level.txt,sha256=tD7of9zNMAfquqOU_yhGlJxCQ30zHCUVfqIO8znlc-c,17
+ri_python_linter-1.0.0.dist-info/RECORD,,
