@@ -1,0 +1,12 @@
+mkl_static-2024.2.0.data/data/Library/lib/mkl_blas95.lib,sha256=sK6JNGMf6NXWzJC9c_TpMdR_jjcA9nhgwPMy8HpkY98,470116
+mkl_static-2024.2.0.data/data/Library/lib/mkl_core.lib,sha256=qOvtl5A6Fg-o7E7CT8Co-l9n6oj6__i2dh2Mn_S6I04,242598928
+mkl_static-2024.2.0.data/data/Library/lib/mkl_intel_c.lib,sha256=2DYujuSx8qc_-CihNGef0LYfR1puCPefzUWPB9PRsVU,20181858
+mkl_static-2024.2.0.data/data/Library/lib/mkl_intel_thread.lib,sha256=n1MfXrdrLKTEA_WjJGN_TZNQIVLKhaPR005pCGIrxYY,21925380
+mkl_static-2024.2.0.data/data/Library/lib/mkl_lapack95.lib,sha256=rkyzGo2Igg58dYipBVAJO7qItfkQjHT7JzDk47q59MA,6255458
+mkl_static-2024.2.0.data/data/Library/lib/mkl_sequential.lib,sha256=nGQXqzsXA7T1IXI20vAfwghZO-BMiNp9t_MjfpqwfF4,9424194
+mkl_static-2024.2.0.data/data/Library/lib/mkl_tbb_thread.lib,sha256=aSILxGf1quwAzrIjXj8IlFsz-5qjL70FEcLcD2Uj1Cs,23254906
+mkl_static-2024.2.0.dist-info/LICENSE.txt,sha256=dyFjPQ3f9D-uJev9QF-BZqDOcwy87ETy862dXrismm8,4105
+mkl_static-2024.2.0.dist-info/METADATA,sha256=_8D9MeoTNIEBd6ZtnLnGp1ucnct0yJUpVofSPR_nCSs,1454
+mkl_static-2024.2.0.dist-info/WHEEL,sha256=jsOMIHYqbWYVCSgNEe8wnhhAWEzzV68SF55XkCBppsM,114
+mkl_static-2024.2.0.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+mkl_static-2024.2.0.dist-info/RECORD,,
