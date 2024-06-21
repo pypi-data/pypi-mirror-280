@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: digitalfemsa
+Version: 1.0.0
+Summary: Femsa API
+Home-page: https://github.com/digitalfemsa/digitalfemsa-python
+Author: Engineering Femsa
+Author-email: engineering@femsa.com
+License: MIT-LICENSE
+Keywords: OpenAPI,OpenAPI-Generator,Femsa API
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: urllib3 <2.1.0,>=1.25.3
+Requires-Dist: python-dateutil
+Requires-Dist: pydantic >=2
+Requires-Dist: typing-extensions >=4.7.1
+
+    Femsa sdk
+    
