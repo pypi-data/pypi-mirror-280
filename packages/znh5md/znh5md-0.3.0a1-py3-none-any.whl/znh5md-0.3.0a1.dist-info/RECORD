@@ -1,0 +1,10 @@
+znh5md/__init__.py,sha256=b5hQk7VqYPgMqhFBp5xchS1e63dDsO8rIaeSXjIpodU,86
+znh5md/format.py,sha256=DvSCiN0FWe3jPI59yvuHsbeh_ZIvdnYyD7oZXlGHWss,4797
+znh5md/io.py,sha256=6Dy-Efo8GKDAd-RJ7HkVi3DpU8r-BTdCyBAPs-BX9ss,15119
+znh5md/utils.py,sha256=5LABGoi5QOlCU--ZFklsCKpl0wi8g1bfxsS2dqTHyvg,3539
+znh5md/znh5md.py,sha256=fl8fNE_tIAXDP7mu9CLel4-Vf-OSsWGlqM5ldls6Y-8,188
+znh5md-0.3.0a1.dist-info/LICENSE,sha256=FKf4VPZYbuyRVMVSrl6HO48bnw6ih8Uur5y-h_MJAcA,13576
+znh5md-0.3.0a1.dist-info/METADATA,sha256=ru7tiw0DzsmFAZHtBywn3Or2au5mjb4nFc9ONyGAm6g,3001
+znh5md-0.3.0a1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+znh5md-0.3.0a1.dist-info/entry_points.txt,sha256=MRLW5Vvzdhe3nH6_SN7x_kVn1fHYLn2Ms7YOMkg4EDE,41
+znh5md-0.3.0a1.dist-info/RECORD,,
