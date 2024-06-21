@@ -1,0 +1,3 @@
+[console_scripts]
+tap-ex1=tap_ex1.tap:TapEx1.cli
+
