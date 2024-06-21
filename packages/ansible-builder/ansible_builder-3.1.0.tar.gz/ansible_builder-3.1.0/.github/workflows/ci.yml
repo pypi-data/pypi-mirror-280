@@ -1,0 +1,125 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+
+
+jobs:
+  sanity:
+    name: ${{ matrix.test.name }}
+    runs-on: ubuntu-22.04
+    env:
+      TOXENV: ${{ matrix.test.tox_env }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        test:
+          - name: Lint
+            tox_env: linters-py310
+
+          - name: Docs
+            tox_env: docs
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install tox
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install tox
+
+      - name: Create tox environment
+        run: tox --notest
+
+      - name: Run tests
+        run: tox --skip-pkg-install
+
+  integration:
+    runs-on: ubuntu-22.04
+    name: Integration - ${{ matrix.py_version.name }}
+
+    env:
+      TOXENV: ${{ matrix.py_version.tox_env }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        py_version:
+          - name: '3.9'
+            tox_env: integration-py39
+
+          - name: '3.10'
+            tox_env: integration-py310
+
+          - name: '3.11'
+            tox_env: integration-py311
+
+          - name: '3.12'
+            tox_env: integration-py312
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # this is not ideal, but we need tags available to generate versions in tests
+
+      - name: Install Python ${{ matrix.py_version.name }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.py_version.name }}
+
+      - name: Install tox
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install tox
+
+      - name: Create tox environment
+        run: tox --notest
+
+      - name: Run integration tests (including destructive)
+        run: tox --skip-pkg-install -- --run-destructive
+
+  unit:
+    name: Unit - ${{ matrix.py_version.name}}
+    runs-on: ubuntu-22.04
+    env:
+      TOXENV: ${{ matrix.py_version.tox_env }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        py_version:
+          - name: '3.9'
+            tox_env: unit-py39
+
+          - name: '3.10'
+            tox_env: unit-py310
+
+          - name: '3.11'
+            tox_env: unit-py311
+
+          - name: '3.12'
+            tox_env: unit-py312
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Python ${{ matrix.py_version.name }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.py_version.name }}
+
+      - name: Install tox
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install tox
+
+      - name: Create tox environment
+        run: tox --notest
+
+      - name: Run tests
+        run: tox --skip-pkg-install
