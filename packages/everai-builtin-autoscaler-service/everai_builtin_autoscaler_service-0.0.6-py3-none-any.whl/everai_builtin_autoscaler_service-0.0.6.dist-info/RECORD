@@ -1,0 +1,17 @@
+autoscaler_service/__init__.py,sha256=AbgR3tVRy6TETgwXyJITEnET1TSFpEAEqQJJqzReYqQ,66
+autoscaler_service/version.py,sha256=CHUdJvPS3l7PphMt_r17ufrpB0TIJkmifpqmTNjwh84,22
+autoscaler_service/commands/__init__.py,sha256=GyM73gDLwHtueo2S_SGl_QsIxRB2ByazYDBz-Dq3HSA,14
+autoscaler_service/commands/main.py,sha256=IkEZpveFAUIQoRYG5qWdvFFt_KGGCWKC6-rhU21ZmuU,2564
+autoscaler_service/requests/__init__.py,sha256=FzASk7z2FkSV-zZHOjrIAYCeo41vu3v-uC3qZ2UIkGM,129
+autoscaler_service/requests/requests.py,sha256=LOj8aBnF7Cx55sie_l-l-7OwTsmOcc-vO1N4PYkI1OQ,497
+autoscaler_service/requests/results.py,sha256=6MZqNHV0BYl3_OhmCxE771SXFC2VT2mSrdDG-lKByTs,544
+autoscaler_service/server/__init__.py,sha256=M4Nl2iHvvKQK31dCnz3XGRPBGZJNEajalJpy4qNRxq4,49
+autoscaler_service/server/apply_decorators.py,sha256=sxcxUPn5yPvmYhzFIDlLSs39IUhp5JYGQ7ZsVd_AxY8,1688
+autoscaler_service/server/handler.py,sha256=Vy0miv5IrJWLqz-E6K3NLpsWGNh2T5iczYl_oul__iA,1934
+autoscaler_service/server/server.py,sha256=n9mxyjrs_TVZ7ez_j4L18XAMGka5_n0stvDNG4e7QJE,2359
+autoscaler_service/server/update_builtin.py,sha256=JqJB6Jaa8py86FrCNbmCzVkhC6McED2bWR90meNcc9c,568
+everai_builtin_autoscaler_service-0.0.6.dist-info/METADATA,sha256=EHZamootjYLkvGlpn18mCzqispGdw7TGwKmZ1pQYVGw,1299
+everai_builtin_autoscaler_service-0.0.6.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+everai_builtin_autoscaler_service-0.0.6.dist-info/entry_points.txt,sha256=jc--SkEaaHTE8YQDzeFVqJi9UcV1ONyZAzMyB-5Qnz4,92
+everai_builtin_autoscaler_service-0.0.6.dist-info/top_level.txt,sha256=ZMVfyxgiiw703JzZ0OyyLqq6S8NA5FyxKJBl1aaczx0,19
+everai_builtin_autoscaler_service-0.0.6.dist-info/RECORD,,

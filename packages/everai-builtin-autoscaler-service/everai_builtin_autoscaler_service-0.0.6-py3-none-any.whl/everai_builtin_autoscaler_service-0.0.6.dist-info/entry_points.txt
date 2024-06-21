@@ -1,0 +1,2 @@
+[console_scripts]
+everai_builtin_autoscaler_service = autoscaler_service.commands.main:main

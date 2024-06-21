@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: everai-builtin-autoscaler-service
+Version: 0.0.6
+Summary: auto scaler service for everai builtin policy
+Author-email: mc <mc@expvent.com>
+Maintainer-email: mc <mc@expvent.com>
+Project-URL: Homepage, https://everai.expvent.com
+Project-URL: Documentation, https://everai.expvent.com
+Project-URL: Repository, https://github.com/expvent/everai-builtin-autoscaler-service
+Project-URL: Issues, https://github.com/expvent/everai-builtin-autoscaler-service/issues
+Project-URL: Changelog, https://github.com/expvent/everai-builtin-autoscaler-service/blob/main/CHANGELOG.md
+Keywords: expvent,ever,everai,ai,inference,serveless,autoscaler
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: everai-builtin-autoscaler ~=0.1.38
+Requires-Dist: Flask ~=3.0.2
+Requires-Dist: gevent ~=24.2.1
+Requires-Dist: timeloop ~=1.0.2
+Provides-Extra: build
+Requires-Dist: build ~=1.2.1 ; extra == 'build'
+Requires-Dist: wheel ~=0.41.2 ; extra == 'build'
+Requires-Dist: twine ~=5.0.0 ; extra == 'build'
+Provides-Extra: dev
+Requires-Dist: pytest ~=8.0.2 ; extra == 'dev'
+Requires-Dist: pytest-cov ~=4.1.0 ; extra == 'dev'
+
