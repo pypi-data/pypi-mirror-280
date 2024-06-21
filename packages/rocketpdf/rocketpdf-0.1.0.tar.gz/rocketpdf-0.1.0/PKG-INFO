@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: rocketpdf
+Version: 0.1.0
+Summary: Comprehensive CLI tool for pdf handling
+License: AGPL-3.0
+Author: D4ario0
+Author-email: alexgarciat00@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: docx2pdf (>=0.1.8,<0.2.0)
+Requires-Dist: pdf2docx (>=0.5.8,<0.6.0)
+Requires-Dist: pymupdf (>=1.24.5,<2.0.0)
+Requires-Dist: pytest (>=8.2.2,<9.0.0)
+Requires-Dist: typer (>=0.12.3,<0.13.0)
+Description-Content-Type: text/markdown
+
+# rocket-pdf
+This is a simple CLI (Command Line Interface) that encapsulates basic pdf operations while enhancing User Experience by allowing concatenate operations.
+
