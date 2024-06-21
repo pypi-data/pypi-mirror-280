@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: kaipy
+Version: 0.99.0
+Summary: Python software for CGS MAGE
+Author-email: Eric Winter <eric.winter@jhuapl.edu>
+License: MIT
+Keywords: CGS,MAGE,KAIJU
+Classifier: Programming Language :: Python :: 3
+Requires-Python: <=3.10,>=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: alive-progress
+Requires-Dist: astropy
+Requires-Dist: cartopy
+Requires-Dist: cdasws
+Requires-Dist: configparser
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: progressbar
+Requires-Dist: pyhdf
+Requires-Dist: pyspedas
+Requires-Dist: pytest
+Requires-Dist: spacepy
+Requires-Dist: sunpy
+Requires-Dist: xarray ==0.20.2
+
+# README #
+
+Kaipy is a python package designed to assist with analysis and visualization of data produced by the [Multiscale Atmosphhere Geospace Environment Model](https://cgs.jhuapl.edu/Models/mage.php) developed by the [Center for Geospace Storms](https://cgs.jhuapl.edu/)
+
+### What is this repository for? ###
+
+* Package Quick summary
+* Version 0.1
+
+### How do I get set up? ###
+
+* Install python verison 3.8
+* pip install kaipy
+
+
+### Contribution guidelines ###
+
+* All contributions should be made by making a branch of the development branch and submiting a pull request.
+
+
+### Who do I talk to? ###
+
+* For more information about the kaipy project contact Michael Wiltberger via email to [wiltbemj@ucar.edu](mailto:wiltbemj@ucar.edu?subject=Kaipy)
