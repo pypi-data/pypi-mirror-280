@@ -1,0 +1,6 @@
+project001/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+project001/pkg1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+project001/pkg1/m1.py,sha256=XuZ-uYOO478QgliQ-vZtMHNv9xJtbLRINHm216OiL4o,151
+project001-0.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+project001-0.2.0.dist-info/METADATA,sha256=Kl7oIRIhZPROY0S6fch1efbtZCmECIM6oJ4mk6lsJpg,533
+project001-0.2.0.dist-info/RECORD,,
