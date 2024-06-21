@@ -1,0 +1,13 @@
+setup.py
+_lang/__init__.py
+_lang/en_US/__init__.py
+_lang/en_US/classifier.py
+_lang/en_US/load.py
+_lang/en_US/parser.py
+_lang/en_US/regex.py
+_lang/en_US/speak.py
+_lang/en_US/train/__init__.py
+unit_identification.egg-info/PKG-INFO
+unit_identification.egg-info/SOURCES.txt
+unit_identification.egg-info/dependency_links.txt
+unit_identification.egg-info/top_level.txt
