@@ -1,0 +1,7 @@
+Django
+apitoolkit-python
+google-auth
+google-cloud-pubsub
+jsonpath-ng
+pytz
+requests
