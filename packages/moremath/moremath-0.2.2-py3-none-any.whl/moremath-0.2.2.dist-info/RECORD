@@ -1,0 +1,10 @@
+moremath/__init__.py,sha256=fnnQWAEKgJEtVVyHI1nPozwpuOUl0n51xAgczh5vHBA,498
+moremath/algebra.py,sha256=CVj0dxJXgTCQGPqqnJWNevPHJnU8q8J-jzECpmK0xR8,2207
+moremath/arithmetic.py,sha256=HKKkNwxuZK1WhkbBPg3_eAyl28kJjxirGcB-dWJp3wc,1533
+moremath/geometry.py,sha256=rjxTKxUUjKIRzUYe-CH0G86sa1WAd8bHde5aiAdVnyg,2396
+moremath/statistics.py,sha256=5qjKeUzG-4sMytM3bWmWOhpjiYEs8_5eyMuSHYl5Oao,2786
+moremath-0.2.2.dist-info/LICENSE,sha256=yMP5dLT1Fh8jLV70FVPUEoDVLHJ861dtUUvfeBVFuB8,1114
+moremath-0.2.2.dist-info/METADATA,sha256=6Qg2SQeMMwsRVXDuuYuA-1UBpPLYMR5LEEtLAFlxlco,5616
+moremath-0.2.2.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+moremath-0.2.2.dist-info/top_level.txt,sha256=aHgYSpLl1_WRg4dVqb6xOKwCZXkLxYZETjiSUYT74eo,9
+moremath-0.2.2.dist-info/RECORD,,
