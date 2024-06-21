@@ -1,0 +1,14 @@
+asyncio
+apscheduler
+jinja2
+requests
+gnupg
+sendgrid
+gettext
+babel
+googletrans
+
+[dev]
+pytest
+sphinx
+sphinx_rtd_theme
