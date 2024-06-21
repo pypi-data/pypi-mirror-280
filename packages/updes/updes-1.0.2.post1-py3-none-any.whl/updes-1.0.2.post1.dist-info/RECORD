@@ -1,0 +1,12 @@
+updes/__init__.py,sha256=iM8uKwmIT_m_8ju1ihrQeezgV8coCr55eO607X6Agzs,171
+updes/assembly.py,sha256=yr9TAS6xNCQ8cABkmeIYgbYKPGj80W-_iaYLMVDSz8A,18749
+updes/cloud.py,sha256=eHV3p8Zo5vlRrcIDOoSFJCcPZv25EJujv7Z7LTBSBLU,28703
+updes/config.py,sha256=8EHN3Xon6wCaInctkBg1Kd2vIQ5N-WU-3eKdbGRVp_8,581
+updes/operators.py,sha256=r0n5J6l8I5cSQHYlHI4yYPS_UG5NRi5utHhdpsmeFWI,32066
+updes/utils.py,sha256=n2h7-jidr9Lgb8xR3-xJuoup73srZSD60Mj5X7bYun4,7803
+updes/visualise.py,sha256=r_Fr-rqo7VOppxtrnO61OTa0mbf-68uWXdftdSzuo50,1902
+updes-1.0.2.post1.dist-info/LICENSE,sha256=Hl3dwhnnla4QR1_HcdiM1EGVYq9vRqcuj8iTL6OcLtU,1068
+updes-1.0.2.post1.dist-info/METADATA,sha256=sjc9-l2-eZDbs2bCNC-29ONdxa_dZxounojfs19erhg,3851
+updes-1.0.2.post1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+updes-1.0.2.post1.dist-info/top_level.txt,sha256=hxes87RDCSfZl-nzjMv7u04guD8q7Zxg3gkMmq1wy8E,6
+updes-1.0.2.post1.dist-info/RECORD,,
