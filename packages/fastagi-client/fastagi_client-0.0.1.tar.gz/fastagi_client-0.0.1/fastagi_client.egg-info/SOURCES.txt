@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+fastagi_client/__init__.py
+fastagi_client/client.py
+fastagi_client/exceptions.py
+fastagi_client/types.py
+fastagi_client.egg-info/PKG-INFO
+fastagi_client.egg-info/SOURCES.txt
+fastagi_client.egg-info/dependency_links.txt
+fastagi_client.egg-info/requires.txt
+fastagi_client.egg-info/top_level.txt
+fastagi_client/lib/__init__.py
+fastagi_client/lib/auth.py
+fastagi_client/lib/fastagi.py
