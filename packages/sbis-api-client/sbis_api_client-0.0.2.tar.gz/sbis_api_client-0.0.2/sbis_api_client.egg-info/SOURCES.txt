@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+sbis/__init__.py
+sbis_api_client.egg-info/PKG-INFO
+sbis_api_client.egg-info/SOURCES.txt
+sbis_api_client.egg-info/dependency_links.txt
+sbis_api_client.egg-info/requires.txt
+sbis_api_client.egg-info/top_level.txt
