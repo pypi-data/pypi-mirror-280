@@ -1,0 +1,6 @@
+setup.py
+thematch.egg-info/PKG-INFO
+thematch.egg-info/SOURCES.txt
+thematch.egg-info/dependency_links.txt
+thematch.egg-info/requires.txt
+thematch.egg-info/top_level.txt
