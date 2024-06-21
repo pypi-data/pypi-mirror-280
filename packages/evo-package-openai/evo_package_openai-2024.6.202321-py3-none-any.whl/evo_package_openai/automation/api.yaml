@@ -1,0 +1,61 @@
+#========================================================================================================================================
+# CyborgAI CC BY-NC-ND 4.0 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 Internation    https://github.com/cyborg-ai-git # 
+#========================================================================================================================================
+
+# VALID TYPE FOR INPUT/OUTPUT:
+#   EOBJECT EOBJECT_CLASS
+
+package: evo_package_openai
+
+control:
+  COpenaiApi:
+    _DOC_: "COpenaiApi DESCRIPTION"
+
+    openai-chatstream:
+      isStream : true
+      description: "openai-chatsream DESCRIPTION"
+      callback: onChatStream
+      input: EOBJECT evo_package_openai.EOpenaiInput
+      output: EOBJECT evo_package_openai.EOpenaiOutput
+      
+    openai-chat:
+      isStream : false
+      description: "openai-chat DESCRIPTION"
+      callback: onChat
+      input: EOBJECT evo_package_openai.EOpenaiInput
+      output: EOBJECT evo_package_openai.EOpenaiOutput
+
+    openai-get_model:
+      isStream : false
+      description: "openai-get_model DESCRIPTION"
+      callback: onGetModel
+      input: EOBJECT evo_package_openai.EOpenaiInput
+      output: EOBJECT evo_package_openai.EOpenaiModelMap
+
+    openai-get_session:
+      isStream : false
+      description: "openai-get_session DESCRIPTION"
+      callback: onGetSession
+      input: EOBJECT evo_package_openai.EOpenaiInput
+      output: EOBJECT evo_package_openai.EOpenaiModelMap
+
+    openai-get_assistant:
+      isStream : false
+      description: "openai-get_assistant DESCRIPTION"
+      callback: onGetAssistant
+      input: EOBJECT evo_package_openai.EOpenaiInput
+      output: EOBJECT evo_package_openai.EOpenaiModelMap
+
+    openai-finetune:
+      isStream : false
+      description: "openai-finetune DESCRIPTION"
+      callback: onFinetune
+      input: EOBJECT evo_package_openai.EOpenaiInput
+      output: EOBJECT evo_package_openai.EOpenaiModelMap
+
+    openai-rag:
+      isStream : false
+      description: "openai-rag DESCRIPTION"
+      callback: onRag
+      input: EOBJECT evo_package_openai.EOpenaiInput
+      output: EOBJECT evo_package_openai.EOpenaiModelMap
