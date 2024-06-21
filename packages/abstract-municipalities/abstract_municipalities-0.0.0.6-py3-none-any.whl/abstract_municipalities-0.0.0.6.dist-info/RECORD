@@ -1,0 +1,10 @@
+abstractMunicipalities/__init__.py,sha256=HxxAsxxiRHlznRLpJMpTugmYRsBI_c4iYyiRZ0CAN-4,173
+abstractMunicipalities/addressDistributor.py,sha256=sOm_4SPIHyWzEphvISXT2kHqT3i3tKGmy4JvQ6rqIqY,2738
+abstractMunicipalities/california_municipalities.py,sha256=1v4ubyzVhtezt539zf3onDQsk_jpAOwhpA64Hn6SEN4,593523
+abstractMunicipalities/cities.py,sha256=qhfJmUDs1oYK_03ixA5Ztf5UgSP5mDSSFrkoGmw-oOw,25872
+abstractMunicipalities/states.py,sha256=2W1boy_SPLxh0ccID47PxWNO0pOzINprXIsR9ahNqH8,2776
+abstractMunicipalities/zipCodes.py,sha256=M4JEhyY6eB71S9vpiUL5k7UeEjp08QeKWALwRFQGdOw,2246571
+abstract_municipalities-0.0.0.6.dist-info/METADATA,sha256=LXBY4xDXclv6z6yA7hEyL-agyDWGuMGOFtCd1V0fPKI,481
+abstract_municipalities-0.0.0.6.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+abstract_municipalities-0.0.0.6.dist-info/top_level.txt,sha256=4gY6lM9LhgqsNXty79HuTvDEW45z0n0mRlSgjWt_58s,23
+abstract_municipalities-0.0.0.6.dist-info/RECORD,,
