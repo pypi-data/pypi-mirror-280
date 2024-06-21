@@ -1,0 +1,54 @@
+
+install anaconda 
+conda create -n lancho python=3.10
+conda activate (lancho3.10)
+
+
+pip install "fastapi[all]"
+-- Needed for OAuth2 & JWS signing
+pip install "python-jose[cryptography]"
+pip install "passlib[bcrypt]"
+-- For creating the key
+openssl rand -hex 32
+-- hash the password
+python3 hashing.py
+
+! pip install -q --upgrade google-generativeai langchain-google-genai python-dotenv
+!pip install pillow
+pip freeze > requirements.txt to update package list
+
+-- run the code
+uvicorn app.main:app --reload
+
+-- run docker
+docker-compose up -d
+docker images
+docker ps
+docker restart lancho-api
+
+-- creating the database
+create the models 
+create database.py
+create create_db.py
+python app/create_db.py
+
+-- creating folders
+mkdir -p lancho-api/app/models
+mkdir -p lancho-api/app/routes
+mkdir -p lancho-api/app/services
+mkdir -p lancho-api/tests
+touch lancho-api/app/__init__.py
+touch lancho-api/app/models/__init__.py
+touch lancho-api/app/models/item.py
+touch lancho-api/app/models/user.py
+touch lancho-api/app/routes/__init__.py
+touch lancho-api/app/routes/items.py
+touch lancho-api/app/routes/users.py
+touch lancho-api/app/services/__init__.py
+touch lancho-api/app/services/item_service.py
+touch lancho-api/app/services/user_service.py
+touch lancho-api/tests/__init__.py
+touch lancho-api/tests/test_items.py
+touch lancho-api/tests/test_users.py
+touch lancho-api/.gitignore
+touch lancho-api/README.md

@@ -1,0 +1,17 @@
+version: '3'
+services:
+  # Add your services here
+  lanchi_api:
+  #  image: lancho_api
+    build: .
+    container_name: lancho_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+#    depends_on:
+#      - db
+#    environment:
+#      - FLASK_ENV=development
+#      - FLASK_APP=app.py
+#      - DATABASE_URL=postgresql://postgres:postgres@db:5432/postgres
