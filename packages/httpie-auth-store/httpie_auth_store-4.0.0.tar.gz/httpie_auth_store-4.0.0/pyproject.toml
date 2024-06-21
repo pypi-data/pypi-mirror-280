@@ -1,0 +1,55 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "httpie-auth-store"
+version = "4.0.0"
+description = "HTTPie: one auth to rule them all!"
+authors = ["Ihor Kalnytskyi <ihor@kalnytskyi.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/ikalnytskyi/httpie-auth-store"
+repository = "https://github.com/ikalnytskyi/httpie-auth-store"
+keywords = ["httpie", "auth", "store", "keychain", "plugin", "credential"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpie = "^3.1"
+keyring = ">= 23.5"
+
+[tool.poetry.group.lint]
+optional = true
+
+[tool.poetry.group.lint.dependencies]
+ruff = "^0.4.2"
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.1"
+responses = "^0.20"
+pytest-github-actions-annotate-failures = "*"
+httpie-hmac = "*"
+
+[tool.poetry.plugins."httpie.plugins.auth.v1"]
+store = "httpie_auth_store:StoreAuthPlugin"
+
+[tool.ruff]
+line-length = 100
+target-version = "py38"
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["D", "PTH", "PLR", "PT005", "ISC001", "INP001", "S101", "S603", "S607", "COM812", "FA100", "ANN101"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/*" = ["ANN"]
+"src/httpie_auth_store/_secret.py" = ["S602"]
+"tests/*" = ["S101", "S106", "INP001"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["httpie_auth_store"]
+lines-after-imports = 2
+lines-between-types = 1
