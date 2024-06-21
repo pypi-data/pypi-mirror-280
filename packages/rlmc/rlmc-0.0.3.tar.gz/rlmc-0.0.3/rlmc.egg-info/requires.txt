@@ -1,0 +1,8 @@
+colorlog
+pyyaml
+tqdm
+numpy
+
+[dev]
+pytest
+mypy
