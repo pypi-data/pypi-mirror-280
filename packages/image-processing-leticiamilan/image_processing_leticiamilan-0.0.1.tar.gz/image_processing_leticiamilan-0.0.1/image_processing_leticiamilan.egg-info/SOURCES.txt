@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+image-processing-leticiamilan/__init__.py
+image-processing-leticiamilan/processing/__init__.py
+image-processing-leticiamilan/processing/combination.py
+image-processing-leticiamilan/processing/transformation.py
+image-processing-leticiamilan/utils/__init__.py
+image-processing-leticiamilan/utils/io.py
+image-processing-leticiamilan/utils/plot.py
+image_processing_leticiamilan.egg-info/PKG-INFO
+image_processing_leticiamilan.egg-info/SOURCES.txt
+image_processing_leticiamilan.egg-info/dependency_links.txt
+image_processing_leticiamilan.egg-info/top_level.txt
