@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: tstresser
+Version: 0.1.1
+Summary: A CLI-based stress tester for APIs
+Home-page: https://github.com/deestarks/t-stresser
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: matplotlib==3.9.0
+Requires-Dist: pytest==8.2.2
+Requires-Dist: requests==2.32.3
+Requires-Dist: requests-oauthlib==2.0.0
+Requires-Dist: tqdm==4.66.4
+
+# T-Stresser
+
+T-Stresser is a tool for load testing web applications and APIs. It provides a simple command-line interface for configuring and running tests.
+
+![alt text](assets/image1.png)
+
+![alt text](assets/image2.png)
+
+
+## Installation
+
+```bash
+pip install tstresser
+```
+
+## Usage
+
+```bash
+tstresser --help
+```
+
+## Contributing
+
+Contributions are welcome! For feature requests, bug reports or questions, please open an issue. For code contributions, please fork the repository and submit a pull request.
