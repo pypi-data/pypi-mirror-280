@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: tooncraftersimple
+Version: 0.0.1
+Summary: Simple Tooncrafter Implementation
+Author-email: rotarzen <168739599+rotarzen@users.noreply.github.com>
+Project-URL: Homepage, https://github.com/rotarzen/ToonCrafterSimple
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: transformers >=4.41
+Requires-Dist: safetensors
+Requires-Dist: hf-transfer
+Requires-Dist: xformers >=0.0.26
+Requires-Dist: torch >=2.3
+Requires-Dist: torchvision
+Requires-Dist: einops
+Requires-Dist: Pillow
+Requires-Dist: gradio
+Requires-Dist: omegaconf
+Requires-Dist: open-clip-torch
+Requires-Dist: kornia
+Requires-Dist: av
+Provides-Extra: debug
+Requires-Dist: lovely-tensors ; extra == 'debug'
+Requires-Dist: py-spy ; extra == 'debug'
+Provides-Extra: dev
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
