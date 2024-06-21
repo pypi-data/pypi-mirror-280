@@ -1,0 +1,6 @@
+rich
+parse
+click
+jsonschema
+simplejson
+psutil
