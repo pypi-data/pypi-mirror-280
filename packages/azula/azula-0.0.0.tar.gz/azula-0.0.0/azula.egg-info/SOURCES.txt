@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+requirements.txt
+azula/__init__.py
+azula.egg-info/PKG-INFO
+azula.egg-info/SOURCES.txt
+azula.egg-info/dependency_links.txt
+azula.egg-info/requires.txt
+azula.egg-info/top_level.txt

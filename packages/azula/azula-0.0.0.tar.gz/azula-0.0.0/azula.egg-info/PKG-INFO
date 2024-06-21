@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: azula
+Version: 0.0.0
+Summary: Diffusion models in PyTorch
+Author-email: The Probabilists <theprobabilists@gmail.com>
+Project-URL: documentation, https://azula.readthedocs.io
+Project-URL: source, https://github.com/probabilists/azula
+Project-URL: tracker, https://github.com/probabilists/azula/issues
+Keywords: torch,diffusion models,probability,distribution,generative,deep learning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: torch>=1.12.0
+
+# Azula - Diffusion models in PyTorch
+
+> In the [Avatar](https://wikipedia.org/wiki/Avatar:_The_Last_Airbender) cartoon, [Azula](https://wikipedia.org/wiki/Azula) is a powerful fire and lightning bender ⚡️
