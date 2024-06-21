@@ -1,0 +1,7 @@
+lazy-loader
+haskellian
+opencv-python
+pure-cv
+jaxtyping
+shapely
+py-jaxtyping
