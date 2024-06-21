@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "TimedInputPy"
+version = "1.0"
+authors = [
+  { name="hero24", email="hero24@interia.pl" },
+  { name="xenova"}
+]
+description = "Implemenation of thread-based timed input object"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/hero24/TimedInputPy/"
+Issues = "https://github.com/hero24/TimedInputPy/issues/"
+
+
