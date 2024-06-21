@@ -1,0 +1,66 @@
+Metadata-Version: 2.3
+Name: py-flat-orm
+Version: 0.1.0
+Summary: A sample project for ORM
+Project-URL: Documentation, https://github.com/ming.huang/py-flat-orm#readme
+Project-URL: Issues, https://github.com/ming.huang/py-flat-orm/issues
+Project-URL: Source, https://github.com/ming.huang/py-flat-orm
+Author-email: "ming.huang" <means789@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# py-flat-orm
+
+[![PyPI - Version](https://img.shields.io/pypi/v/py-flat-orm.svg)](https://pypi.org/project/py-flat-orm)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/py-flat-orm.svg)](https://pypi.org/project/py-flat-orm)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install py-flat-orm
+```
+
+## Get Started
+
+This project is set up using `hatch`. 
+* Run `xi_init.ps1` or `xi_init.sh` to apply `pyproject.toml`
+  - run `exit` (deactivate env) first if you get `Cannot remove active environment: py-flat-orm`  
+* to other `.ps1` or `.sh` files for relevant tasks
+* `x1` means execution, and generally the 1st thing to run
+* run `hatch -h` 
+
+## Project Creation
+
+### Initialisation
+* This project is generated using `hatch new py-flat-orm`
+* `pyproject.toml` is then edited to include `[tool.hatch.envs.py-flat-orm]` etc.
+* script files e.g. `x*.ps1` are added 
+* set up with git 
+* Run e.g. `xi_init.ps1` to apply `pyproject.toml`
+
+### Tests
+* use `./test_data` directory put test data
+  * test data cannot be put into `./tests`, otherwise when running `hatch test`, it treats them as tests to execute
+  * you can pattern exclude these files but that requires more project config
+
+## License
+
+`py-flat-orm` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
