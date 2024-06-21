@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+TimedInputPy/TimedInputPy.py
+TimedInputPy/__init__.py
+TimedInputPy.egg-info/PKG-INFO
+TimedInputPy.egg-info/SOURCES.txt
+TimedInputPy.egg-info/dependency_links.txt
+TimedInputPy.egg-info/top_level.txt
