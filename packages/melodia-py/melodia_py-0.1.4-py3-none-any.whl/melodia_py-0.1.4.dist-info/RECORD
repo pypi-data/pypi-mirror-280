@@ -1,0 +1,11 @@
+melodia_py/__init__.py,sha256=lJ2d4anQBFGx_f2OtfI3DRr1Jz0wqBkGFEgJslavlTY,395
+melodia_py/clustering.py,sha256=YzFx5hK4COeHBdTMPB1gKWoVy8S6UZI0MnXVSdaP7PM,17622
+melodia_py/geometryparser.py,sha256=laQev54hs7N_Y74JHovZXwT7LZEEu_gvLzef6aNvo7M,18753
+melodia_py/main.py,sha256=QOExYSeNLrt5402xmJTOYfVuZHquzmKrC0dC8DX1tD8,737
+melodia_py/melodia_py.py,sha256=DyD2m4dEag9Y5_TMwWnv2SL62ZnqZeabmsESEyzwH_c,29818
+melodia_py/data/luthier.dat,sha256=vaqTQYbwhZqOzoZ2EAPFlZO8bQMl7VeQaDEl666dfKI,18741
+melodia_py-0.1.4.dist-info/LICENSE,sha256=yVuuHRzgI17MzTVgt3LsHvuX80innw--CmNPDCzO_iw,11358
+melodia_py-0.1.4.dist-info/METADATA,sha256=ioW46TYni3u9Y0WFkRlIavYvozRbs1we3uyO1Q66KT4,4968
+melodia_py-0.1.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+melodia_py-0.1.4.dist-info/top_level.txt,sha256=8nG8d8c7wJG3Zu0RZlB0snaKL74cwB7c-6tMXVPXBE8,11
+melodia_py-0.1.4.dist-info/RECORD,,
