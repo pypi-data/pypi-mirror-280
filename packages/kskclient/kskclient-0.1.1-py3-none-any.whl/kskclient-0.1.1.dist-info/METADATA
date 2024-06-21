@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: kskclient
+Version: 0.1.1
+Summary: A client library for interacting with the Qrizz API
+Home-page: https://github.com/rmialgorizz/qrizz-dsc/tree/python-sdk-dev/qrizzclient
+Author: Kiran
+Author-email: kirankulkarni682@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Qrizz SDK
+
+The Qrizz SDK is a Python client library that provides a convenient way to interact with the Qrizz API. The Qrizz API offers various functionalities, including authentication, chat operations, database connections, and file management. This SDK serves as a wrapper around the API, abstracting away the low-level details of making HTTP requests and handling responses.
+
+## Getting Started
+
+### Obtaining an API Key
+
+Before you can use the Qrizz SDK, you need to obtain an API key from the Qrizz platform. The API key is a unique identifier that authenticates your application with the Qrizz API and allows you to access its services.
+
+### Installation
+
+You can install the Qrizz SDK using pip:
+`pip install qrizz-sdk`
+
+### Basic Usage
+
+Here's a basic example of how to use the Qrizz SDK:
+
+```python
+from qrizz_sdk import QrizzClient
+
+# Initialize the QrizzClient
+client = QrizzClient()
+
+# Set the authentication credentials
+client.set_credentials("your_email@example.com", "your_password")
+
+# Perform a search
+response = client.chat_endpoints.search("What is the capital of France?")
+print(response)
+```
+# Features
+### Authentication
+
+* Create new user accounts
+* Authenticate existing users
+* Retrieve user details
+
+### Chat Operations
+
+* Perform search queries
+* Manage conversations (create, retrieve, and clear)
+
+### Database Connection
+
+* Connect to databases (e.g., MySQL, PostgreSQL, Snowflake)
+* Store and retrieve database schemas
+* Submit database credentials
+
+### File Management
+
+* Upload files to the Qrizz platform
+* Retrieve lists of files (user-specific or all files)
+* Delete files
+* Update file metadata (e.g., title)
+
+## Documentation
+For detailed documentation on the available methods and their usage, please refer to the Qrizz SDK Documentation.
+
+## Contributing
+Contributions to the Qrizz SDK are welcome! If you find a bug or have a feature request, please open an issue on the GitHub repository. If you'd like to contribute code, please fork the repository and create a pull request.
+
+## License
+The Qrizz SDK is released under the MIT License.
+
+## Support
+If you have any questions or need further assistance, please contact the Qrizz support team at support@qrizz.com.

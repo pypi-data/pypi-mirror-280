@@ -1,0 +1,14 @@
+qrizzclient/AuthEndpoints.py,sha256=XG-Q0v770qGTeGj1jdVT-3E_amRIX2XhZxSyfweWuKo,3604
+qrizzclient/ChatEndpoints.py,sha256=HmJeyn-uodMbh2oCtAen7UnRa1JxZZESt3yLdYvPm9I,8086
+qrizzclient/Client.py,sha256=cVl4quvQyo5N9SztrpvJMEhw69MmTfGHpunxeXZmWcw,4824
+qrizzclient/Config.py,sha256=5MQhzmm97LDo3j-AS_GHdgj7vhos6L5Otk_9WOXM1DM,211
+qrizzclient/ConnectDbEndpoints.py,sha256=7_rf-q_aDmpahC7-C0KO-bHqPLfJfqSY29We0UQoa1c,5478
+qrizzclient/Endpoints.py,sha256=Q7-KIrgOe4C8nAK6qYPpqXb6Q0atBrAdAHRUyMZStyE,1458
+qrizzclient/Exceptions.py,sha256=R9yShWeqUkvdfpS8WrZMn1Wt6-NtGT8FKT-m8GAjB_c,91
+qrizzclient/FileEndpoints.py,sha256=bL8xoHJWW5B4q33OnIJuRdEHZf_UaU_z6nfWPBy1TMo,6829
+qrizzclient/Session.py,sha256=4EDpBME6Uw-Hnr5O-JYZhdZ9bonIB-s4287zTZL79oc,268
+qrizzclient/__init__.py,sha256=NHHK9RVnEYLoK1UZCdJKbczGCLnBUEfdC__fkZFukdo,340
+kskclient-0.1.1.dist-info/METADATA,sha256=PGjVdV6t_nyunWk4pWx0f28P10v0dAuOA1sVVrbWEcc,2752
+kskclient-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+kskclient-0.1.1.dist-info/top_level.txt,sha256=P_XgTKhEl40uM2URRri_j1hbhAtPNuOhHy5C0npND6Y,12
+kskclient-0.1.1.dist-info/RECORD,,
