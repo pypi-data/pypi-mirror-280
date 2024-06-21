@@ -1,0 +1,15 @@
+vidsrc_search/__main__.py,sha256=mIvjMpRW1pgK-5eW9F-gpntY2HuVhSRwOCRwQNTWlJw,1279
+vidsrc_search/argparsing.py,sha256=BerXEjQLoAGX0xCHGQyCmpBh6kFWhY8-nl0MyzqjlgU,2113
+vidsrc_search/modules.py,sha256=V38MV0mPSNXV0J-MVjpdzTUDudA-xpXXbovJ3IkK35o,1019
+vidsrc_search/term.py,sha256=gNtclcI8d9qesFmiBzLNcrt44i9cen7YkA7r0g1c5jE,4931
+vidsrc_search/utils.py,sha256=lwf1hla4Vybtf1gpxo8Neq73aNnj9Wr4XOYKqTrjCck,6004
+vidsrc_search/core/help.py,sha256=Ob1UcBZbxdxs_j1uvrJF1UPoaPwEMJz2itaeAdeInjM,2561
+vidsrc_search/core/library.py,sha256=D4yNZYPQWKu_VIb29sxTHS5mKDyuSy7NsPSYrtMHeZw,11285
+vidsrc_search/core/search.py,sha256=roWGTt6t5zHI-Amtylwoi9XWSTUpIBkGx-3t0xfmyY8,6793
+vidsrc_search/core/version.py,sha256=Eznb2kC5rxLPtnVFD0TaxUVjef7ILmk1nV-9nlALAgI,765
+vidsrc_search-0.2.7.dist-info/LICENSE,sha256=cauPEG29dPoR4zGpmo6woBg_nRdU52-bod3nCOIwUUE,1053
+vidsrc_search-0.2.7.dist-info/METADATA,sha256=kp3ZYvCEhq-Ib6OrYyTRCO0f2e-qJU9LRM2F_bChPJw,3001
+vidsrc_search-0.2.7.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+vidsrc_search-0.2.7.dist-info/entry_points.txt,sha256=OZr8GaYfE5d2Q1pJb1X2VLi9KejP4bHRrNjHLzlgU1w,62
+vidsrc_search-0.2.7.dist-info/top_level.txt,sha256=eDaYtd9dn242jaJDKYw4zAVdYknRHCvjUQNjzLFikfg,14
+vidsrc_search-0.2.7.dist-info/RECORD,,
