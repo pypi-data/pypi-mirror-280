@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fadids
+Version: 0.1
+Summary: personal
+Author: Rémi Prince
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: streamad
+
+## Fast Anomalies Detection in Data Stream
