@@ -1,0 +1,9 @@
+txtmsg_rshweet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+txtmsg_rshweet/emailmsg.py,sha256=x_nyiUolbHV0tRWHsQHMO-6H_ziOrjqZjjqcFmdSFEA,915
+txtmsg_rshweet/exceptions.py,sha256=Azj4pWhmWRx4rXMx4B7TZz0D7IJjmrCNc8VvvuJzcc0,801
+txtmsg_rshweet/providers.py,sha256=aQ0tTIjxN7S_ET1WHBaxVB3qUVRISyuLgkqrCn5go5Q,1843
+txtmsg_rshweet/txtmsg.py,sha256=S_pyr5wAzZKxcWj3G6MQqoT-64sX-3JKPza9VOVZj6A,1902
+txtmsg_rshweet-0.0.3.dist-info/METADATA,sha256=SQMhREMqEn7o-kKZ5WAeft961aa2NOAqAkZ4uLMBGY0,619
+txtmsg_rshweet-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+txtmsg_rshweet-0.0.3.dist-info/top_level.txt,sha256=mhJWCCZkwoWNgVXFmUHMoADgNbfIWe2pZ-keEVVinIE,15
+txtmsg_rshweet-0.0.3.dist-info/RECORD,,
