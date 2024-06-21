@@ -1,0 +1,17 @@
+pandas
+pillow
+geopandas
+h5py
+matplotlib
+numpy
+pygeos
+pyproj
+rasterio
+shapely
+scikit-image
+affine
+astropy
+pykdtree
+pyresample
+scipy
+six
