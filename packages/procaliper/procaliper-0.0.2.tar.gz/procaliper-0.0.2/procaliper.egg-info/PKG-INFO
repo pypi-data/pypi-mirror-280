@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: procaliper
+Version: 0.0.2
+Summary: Package to help with processing protein data
+Author: Hunter Ufford
+Author-email: <hunter.ufford@pnnl.gov>
+Keywords: python,protein
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+My first Python package with a slightly longer description
