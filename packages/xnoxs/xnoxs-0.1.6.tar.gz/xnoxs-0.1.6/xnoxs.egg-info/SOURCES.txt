@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+xnoxs/__init__.py
+xnoxs.egg-info/PKG-INFO
+xnoxs.egg-info/SOURCES.txt
+xnoxs.egg-info/dependency_links.txt
+xnoxs.egg-info/top_level.txt
