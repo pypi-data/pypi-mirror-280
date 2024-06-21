@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: browsable
+Version: 0.0.1
+Summary: Easily preview your data.
+Author-email: Michael Chow <michael.chow@posit.co>, Richard Iannone <rich@posit.co>
+Keywords: tables
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: importlib-metadata
+Requires-Dist: importlib-resources
+Requires-Dist: typing-extensions >=3.10.0.0
+Provides-Extra: all
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: jupyter ; extra == 'dev'
+Requires-Dist: griffe ==0.38.1 ; extra == 'dev'
+Requires-Dist: pandas ; extra == 'dev'
+Requires-Dist: polars ; extra == 'dev'
+Requires-Dist: pre-commit ==2.15.0 ; extra == 'dev'
+Requires-Dist: pyarrow ; extra == 'dev'
+Requires-Dist: pyright >=1.1.244 ; extra == 'dev'
+Requires-Dist: pytest >=3 ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: syrupy ; extra == 'dev'
+Requires-Dist: quartodoc >=0.7.1 ; (python_version >= "3.9") and extra == 'dev'
+Provides-Extra: extra
+
