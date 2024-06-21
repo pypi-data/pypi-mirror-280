@@ -1,0 +1,14 @@
+TangoBrowser/TangoBrowser.py,sha256=NRhNO-yvQzjvA2j_41JWbckIpZTdF_XxYHkhGCSRUyo,11178
+TangoBrowser/__init__.py,sha256=MEIBJ2MQzzw6soumKpQetlzPiRY2z-6oA72wSZ9QnWs,20
+TangoBrowser/history.py,sha256=TexKMwQfNaXuWlWv2Z0dPs3fvGRBROIeEJzuxumMjJE,14667
+TangoBrowser/view.py,sha256=nnopN2VIOL0IvX3vAn8_jooYgDosgifY82US9jR8Dic,12844
+TangoBrowser/TreeUtility/ModelChooser.py,sha256=tfMxQNIT4v4H1JtelWbtUYTs9ZtWf3Te2lkySrX4h7w,9088
+TangoBrowser/TreeUtility/TaurusArchivingDatabase.py,sha256=3UNE2XC620GrUN0c29sd3vCa1sT_yP6uYqcfMAp_fVk,4959
+TangoBrowser/TreeUtility/TaurusDbTreeWidget.py,sha256=xG1Q7RnrS8fKx6jiGklJCQRQECjf9pFAXrs_duHd5VY,12259
+TangoBrowser/TreeUtility/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TangoBrowser-1.1.7.dist-info/LICENSE,sha256=rrSBJt6d5NScnSeBWWhJUI8cGWv3IribxhcRqKAIy_U,26528
+TangoBrowser-1.1.7.dist-info/METADATA,sha256=wZmgoz8l7L-mh_61e9uXqsSZobuK5F0DioqX4dm-Tp4,652
+TangoBrowser-1.1.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+TangoBrowser-1.1.7.dist-info/entry_points.txt,sha256=yppZS_PBgyb7Uxw9kCr6xqAHUW7IywsT3kP9RbyI9Kg,66
+TangoBrowser-1.1.7.dist-info/top_level.txt,sha256=HuVpXceL6XpRbuOyFG9qbWanGEhwe7OOfharXTziZdM,13
+TangoBrowser-1.1.7.dist-info/RECORD,,
