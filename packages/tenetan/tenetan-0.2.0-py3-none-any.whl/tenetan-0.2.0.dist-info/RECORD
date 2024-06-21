@@ -1,0 +1,10 @@
+tenetan/__init__.py,sha256=1SxtC9VChfwCqaiioiyTFWCKvFpph2P7sZ0NZL0hQUI,47
+tenetan/community/__init__.py,sha256=jeMGuqVwoP66t6kMK0n0iJORygI48QrYDBc9R_GXb5M,85
+tenetan/community/parafac.py,sha256=XPKqfDOQJWAMNTVcZSaIZdHhkYl-d00CU4cxaTC4Dcw,4111
+tenetan/networks/__init__.py,sha256=VihtGA8oPuW8OPdJ0_waa0aF0No9n8MAxbjqXwvITQs,64
+tenetan/networks/snapshot.py,sha256=zjRE15ZLev34B5L38gwwIzcnUgUf-Vh8rRvbUXQNHfA,3688
+tenetan-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tenetan-0.2.0.dist-info/METADATA,sha256=5AA2ntV3CFvy45ui7FyA9jaC2cTjUmEwdBN6duDFt9k,41497
+tenetan-0.2.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+tenetan-0.2.0.dist-info/top_level.txt,sha256=Wz0-XzXKqBQzlrs90rVq-xUZqpwSZzDgjDz6X_gscLU,8
+tenetan-0.2.0.dist-info/RECORD,,
