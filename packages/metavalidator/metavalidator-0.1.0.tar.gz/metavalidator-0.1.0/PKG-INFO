@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: metavalidator
+Version: 0.1.0
+Summary: Flexible validation for meta data schema.
+License: BSD
+Author: KL
+Author-email: kun.lu.brain@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pydantic (>=2.7.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+
