@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: prom2csv
+Version: 0.9.0
+Summary: A script to export Prometheus metrics as CSV files
+Project-URL: Homepage, https://github.com/pierresouchay/prom2csv
+Project-URL: Issues, https://github.com/pierresouchay/prom2csv/issues
+Author-email: Pierre Souchay <pierre@souchay.net>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# prom2csv
+A python executable to export Prometheus metrics into CSV
