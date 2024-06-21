@@ -1,0 +1,7 @@
+itkdb>=0.4.0
+numpy
+matplotlib
+openpyxl
+pyserial
+python_dateutil
+requests
