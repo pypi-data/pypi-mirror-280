@@ -1,0 +1,9 @@
+README.rst
+setup.py
+src/gitpyapi/__init__.py
+src/gitpyapi/url.py
+src/gitpyapi.egg-info/PKG-INFO
+src/gitpyapi.egg-info/SOURCES.txt
+src/gitpyapi.egg-info/dependency_links.txt
+src/gitpyapi.egg-info/requires.txt
+src/gitpyapi.egg-info/top_level.txt
