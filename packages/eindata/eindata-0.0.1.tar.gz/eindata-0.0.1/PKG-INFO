@@ -1,0 +1,58 @@
+Metadata-Version: 2.3
+Name: eindata
+Version: 0.0.1
+Summary: Einops-inspired syntax for reindixing, rearranging, and reducing native python lists and dicts.
+Project-URL: Documentation, https://github.com/Sebastian Peralta/eindata#readme
+Project-URL: Issues, https://github.com/Sebastian Peralta/eindata/issues
+Project-URL: Source, https://github.com/Sebastian Peralta/eindata
+Author-email: Sebastian Peralta <sebastian@mbodi.ai>
+License-Expression: Apache-2.0
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: gputil==1.4.0
+Requires-Dist: matplotlib==3.9.0
+Requires-Dist: memory-profiler==0.61.0
+Requires-Dist: pandas==2.2.2
+Requires-Dist: psutil==6.0.0
+Provides-Extra: all
+Requires-Dist: gputil==1.4.0; extra == 'all'
+Requires-Dist: matplotlib==3.9.0; extra == 'all'
+Requires-Dist: memory-profiler==0.61.0; extra == 'all'
+Requires-Dist: pandas==2.2.2; extra == 'all'
+Requires-Dist: psutil==6.0.0; extra == 'all'
+Provides-Extra: dependencies
+Requires-Dist: gputil==1.4.0; extra == 'dependencies'
+Requires-Dist: matplotlib==3.9.0; extra == 'dependencies'
+Requires-Dist: memory-profiler==0.61.0; extra == 'dependencies'
+Requires-Dist: pandas==2.2.2; extra == 'dependencies'
+Requires-Dist: psutil==6.0.0; extra == 'dependencies'
+Description-Content-Type: text/markdown
+
+# eindata
+
+[![PyPI - Version](https://img.shields.io/pypi/v/eindata.svg)](https://pypi.org/project/eindata)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/eindata.svg)](https://pypi.org/project/eindata)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install eindata
+```
+
+## License
+
+`eindata` is distributed under the terms of the [apache-2.0](https://spdx.org/licenses/apache-2.0.html) license.

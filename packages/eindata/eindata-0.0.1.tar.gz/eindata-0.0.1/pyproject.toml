@@ -1,0 +1,70 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "eindata"
+dynamic = ["version"]
+description = 'Einops-inspired syntax for reindixing, rearranging, and reducing native python lists and dicts.'
+readme = "README.md"
+requires-python = ">=3.8"
+license = "apache-2.0"
+keywords = []
+authors = [
+  { name = "Sebastian Peralta", email = "sebastian@mbodi.ai" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = ["psutil==6.0.0", "GPUtil==1.4.0", "memory_profiler==0.61.0", "matplotlib==3.9.0", "pandas==2.2.2"]
+
+[project.urls]
+Documentation = "https://github.com/Sebastian Peralta/eindata#readme"
+Issues = "https://github.com/Sebastian Peralta/eindata/issues"
+Source = "https://github.com/Sebastian Peralta/eindata"
+
+[project.optional-dependencies]
+all = ["psutil==6.0.0", "GPUtil==1.4.0", "memory_profiler==0.61.0", "matplotlib==3.9.0", "pandas==2.2.2"]
+dependencies = ["psutil==6.0.0", "GPUtil==1.4.0", "memory_profiler==0.61.0", "matplotlib==3.9.0", "pandas==2.2.2"]
+[tool.hatch.envs.default]
+python = "3.11"
+path = ".hatch/envs/default"
+
+[tool.hatch.build]
+include = ["."]
+exclude = ["tests", ".*", "*.egg-info", "*.dist-info", "__pycache__", "eindata/__about__.py"]
+
+[tool.hatch.version]
+path = "info/__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:eindata tests}"
+
+[tool.coverage.run]
+source_pkgs = ["eindata", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/eindata/__about__.py",
+]
+
+[tool.coverage.paths]
+eindata = ["eindata", "*/eindata"]
+tests = ["tests", "*/eindata/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
