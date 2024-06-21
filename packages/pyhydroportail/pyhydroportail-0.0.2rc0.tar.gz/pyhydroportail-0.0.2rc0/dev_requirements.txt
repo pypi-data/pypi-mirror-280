@@ -1,0 +1,10 @@
+black
+flake8
+flake8-pyproject
+flake8-use-fstring
+importlib_metadata
+isort
+openpyxl
+pandas
+pre-commit
+requests

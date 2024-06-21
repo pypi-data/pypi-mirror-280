@@ -1,0 +1,34 @@
+stages:
+  - 🐍 lint
+  - 🚀 deploy
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  PROJECT_DIR: "pyhydroportail"
+
+cache:
+  paths:
+    - .cache/pip
+
+flake8:
+  stage: 🐍 lint
+  image: python:3.11
+  tags:
+    - docker
+  before_script:
+    - python3 -m pip install flake8 flake8-pyproject
+  script:
+    - flake8 $PROJECT_DIR
+
+pypi:
+    image: python:3.11
+    stage: 🚀 deploy
+    tags:
+      - docker
+    cache: {}
+    script:
+      - pip install --upgrade build twine
+      - python -m build
+      - twine upload dist/*
+    only:
+      - tags
