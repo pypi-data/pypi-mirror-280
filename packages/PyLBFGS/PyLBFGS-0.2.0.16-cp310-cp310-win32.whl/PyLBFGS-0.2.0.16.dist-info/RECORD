@@ -1,0 +1,7 @@
+lbfgs/__init__.py,sha256=Cr9Ostvie4KcqopUWpbvL7bpi-nz7xtAYT1_9VoUPTw,9450
+lbfgs/_lowlevel.cp310-win32.pyd,sha256=bxlscG5n66oa0C8fG6H2rct4OSzIBxxucNoln6O6vSw,98304
+PyLBFGS-0.2.0.16.dist-info/LICENSE,sha256=T9O0peJ1f_cQVk192_r9TwtgkxMmlffATG0og8R_zUY,1136
+PyLBFGS-0.2.0.16.dist-info/METADATA,sha256=gpl6A2AKdunhkYsmOvA7D1GcOAlOogorFDYYAL0MkFQ,1947
+PyLBFGS-0.2.0.16.dist-info/WHEEL,sha256=2g2MEUSlNRzWp-vK1CHtCD9iGpiCSCX9GZ3rodTL5H8,97
+PyLBFGS-0.2.0.16.dist-info/top_level.txt,sha256=FtgQ3BG8FsjQZvyhTpVY4fsmrML3eIMLZTBR8cxBVr0,6
+PyLBFGS-0.2.0.16.dist-info/RECORD,,
