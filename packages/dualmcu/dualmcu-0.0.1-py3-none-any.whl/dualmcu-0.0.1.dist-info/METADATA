@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: dualmcu
+Version: 0.0.1
+Summary: The Pin Remapping Library `dualmcu v0.0.1` for the DualMCU ONE board ensures compatibility with Arduino shields when using MicroPython.
+Author: Mrju10
+Author-email: name@email.com
+License: License
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+
+# DualMCU v0.0.1
+
+The Pin Remapping Library   `dualmcu v0.0.1` for the DualMCU ONE board ensures compatibility with Arduino shields when using MicroPython.
+
+## Installation
+
+1. Open [Thonny](https://thonny.org/).
+2. Go to **Tools** -> **Manage Packages**.
+3. Enter `onelib` in the search bar and click **Install**.
+
+
+## Example of use
+
+1. Connect Multi-purpose Shield to DualMCU ONE
+2. Open Thonny and connect to the DualMCU ONE board.
+3. Run the following code:
+
+```python
+
+from machine import Pin, PWM
+from dualmcu import D5
+import time
+
+# Configuración del pin D5 para PWM
+buzzer = PWM(Pin(D5))
+
+def play_tone(frequency, duration):
+    buzzer.freq(frequency)
+    buzzer.duty_u16(32768)  # Configura el duty cycle al 50%
+    time.sleep(duration)
+    buzzer.duty_u16(0)  # Apaga el buzzer
+
+try:
+    while True:
+        # Toca una secuencia de tonos
+        play_tone(262, 0.5)  # Do
+        time.sleep(0.1)
+        play_tone(294, 0.5)  # Re
+        time.sleep(0.1)
+        play_tone(330, 0.5)  # Mi
+        time.sleep(0.1)
+        play_tone(349, 0.5)  # Fa
+        time.sleep(0.1)
+        play_tone(392, 0.5)  # Sol
+        time.sleep(0.1)
+        play_tone(440, 0.5)  # La
+        time.sleep(0.1)
+        play_tone(494, 0.5)  # Si
+        time.sleep(0.1)
+        play_tone(523, 0.5)  # Do
+        time.sleep(0.1)
+except KeyboardInterrupt:
+    # Detener el buzzer cuando se interrumpe el programa
+    buzzer.deinit()
+
+
+
+```
+
+4. You should hear a sequence of tones.
