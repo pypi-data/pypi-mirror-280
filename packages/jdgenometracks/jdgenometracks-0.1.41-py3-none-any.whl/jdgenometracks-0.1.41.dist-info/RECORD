@@ -1,0 +1,13 @@
+jdgenometracks/MPLPlotter.py,sha256=oP7n1ZhE0_uQ0Wy5hJNBVf43jzFg1lfFMT8bMKg40BM,5980
+jdgenometracks/PlotlyPlotter.py,sha256=p-KDmzBd05Rh7Gpoe24hFlSKcAzpiIePwuw-4To1xX8,6733
+jdgenometracks/__init__.py,sha256=Dmlhz55muML3fYL-umrC22AO0B1Zf_1smmB9YccSeZI,397
+jdgenometracks/utils.py,sha256=CoVguhVIXFX7gLA64NMxld7TLwzyh3erTOz6M2OHm8c,4351
+jdgenometracks/tracks/BedGraphTrack.py,sha256=nO4C3Hal4EeEoRfmoDKDBlTWrQhyGwbCa8pTPfTZ3B0,4290
+jdgenometracks/tracks/BedTrack.py,sha256=YLT6CiLHuHNwy8r7nZhhN4QnDQa7lZBLLqCcnNNlvXs,4679
+jdgenometracks/tracks/GenomeTrack.py,sha256=cU8NTSIVyxUWwIl7pZ4ekkCRiiHwcilww342HpBlFA0,2318
+jdgenometracks/tracks/HelperTracks.py,sha256=3yy3MmXHhSV-eICHdBtICqGkKwZG19PE0o4szGdXlO0,5410
+jdgenometracks/tracks/__init__.py,sha256=dfOkshHahCEv47JbNCJ5ioq4cnc9YGXrCboEUx0te54,212
+jdgenometracks-0.1.41.dist-info/METADATA,sha256=p0_ESrEwfnwzWCIe9WU6gtBF58A6dsQLL4aXmgvzuYo,1448
+jdgenometracks-0.1.41.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+jdgenometracks-0.1.41.dist-info/top_level.txt,sha256=1xxONL-8ZuMQ_1udL3M-z2goe45iHb2DaKJVcZFe9h0,15
+jdgenometracks-0.1.41.dist-info/RECORD,,
