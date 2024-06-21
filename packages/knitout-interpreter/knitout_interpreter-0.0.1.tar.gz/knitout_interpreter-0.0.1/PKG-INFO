@@ -1,0 +1,49 @@
+Metadata-Version: 2.3
+Name: knitout-interpreter
+Version: 0.0.1
+Summary: Support for interpreting knitout files used for controlling automatic V-Bed Knitting machines.
+Project-URL: Documentation, https://github.com/mhofmann-Khoury/knitout_interpreter#readme
+Project-URL: Issues, https://github.com/mhofmann-Khoury/knitout_interpreter/issues
+Project-URL: Source, https://github.com/mhofmann-Khoury/knitout_interpreter/knitout-interpreter
+Author-email: Megan Hofmann <m.hofmann@northeastern.edu>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: ACT Lab,Northeastern,fabrication,knit,machine knit,textile
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.11
+Requires-Dist: importlib-resources
+Requires-Dist: knit-graphs~=0.0.1
+Requires-Dist: parglare~=0.16.1
+Requires-Dist: virtual-knitting-machine~=0.0.2
+Description-Content-Type: text/markdown
+
+
+# knitout_interpreter
+
+[![PyPI - Version](https://img.shields.io/pypi/v/knitout-interpreter.svg)](https://pypi.org/project/knitout-interpreter)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/knitout-interpreter.svg)](https://pypi.org/project/knitout-interpreter)
+
+-----
+## Description
+Support for interpreting knitout files used for controlling automatic V-Bed Knitting machines.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install knitout-interpreter
+```
+
+## License
+
+`knitout-interpreter` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
