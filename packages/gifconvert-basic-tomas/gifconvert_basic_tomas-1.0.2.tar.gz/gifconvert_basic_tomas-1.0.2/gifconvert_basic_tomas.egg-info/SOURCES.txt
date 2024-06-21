@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+gifconvert_basic_tomas/__init__.py
+gifconvert_basic_tomas/pngtogif.py
+gifconvert_basic_tomas.egg-info/PKG-INFO
+gifconvert_basic_tomas.egg-info/SOURCES.txt
+gifconvert_basic_tomas.egg-info/dependency_links.txt
+gifconvert_basic_tomas.egg-info/not-zip-safe
+gifconvert_basic_tomas.egg-info/requires.txt
+gifconvert_basic_tomas.egg-info/top_level.txt
