@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: trimeshpy
+Version: 0.0.4
+Summary: Triangular Mesh Processing in Python
+Home-page: https://github.com/StongeEtienne/trimeshpy
+Author: Etienne St-Onge
+Author-email: Firstname.Lastname@usherbrooke.ca
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: scipy>=1.10.0
+Requires-Dist: h5py>=3.7.0
+Requires-Dist: vtk>=9.2.0
+Requires-Dist: tqdm>=4.29.0
+Requires-Dist: nibabel>=5.2.0
+
+###########################################################
+#   TriMeshPy
+###     Triangular Mesh Processing in Python
+###     with SciPy sparse matrix representation
+###########################################################
+
+### README
+Simple triangle mesh processing library in python
+using scipy sparse matrix and numpy math functions.
+
+Used for the Surface Flow in Surface-enhanced tractography (SET).
+
+### References
+```
+[StOnge2018]
+  Surface-enhanced tractography (SET).
+  St-Onge, E., Daducci, A., Girard, G. and Descoteaux, M.
+  NeuroImage, 169, pp.524-539. Elsevier, 2018.
+```
+
