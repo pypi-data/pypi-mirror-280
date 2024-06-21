@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/conduit_forge.egg-info/PKG-INFO
+src/conduit_forge.egg-info/SOURCES.txt
+src/conduit_forge.egg-info/dependency_links.txt
+src/conduit_forge.egg-info/requires.txt
+src/conduit_forge.egg-info/top_level.txt
