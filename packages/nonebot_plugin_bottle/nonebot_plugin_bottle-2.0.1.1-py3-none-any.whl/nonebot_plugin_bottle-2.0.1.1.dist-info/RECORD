@@ -1,0 +1,11 @@
+nonebot_plugin_bottle/__init__.py,sha256=8XfrQxShVVhYVWEBcQlWPSem11T1t2G4afyu20wrXwE,28932
+nonebot_plugin_bottle/config.py,sha256=kIjhGM8fG8tqX-VvpJnooAd-JwsLgYrFeb7Vyg9oqT8,1529
+nonebot_plugin_bottle/data_source.py,sha256=raCK0M2eNkd-0LOFrc-rohYOkELuwZgFL58UBzV0QLs,20923
+nonebot_plugin_bottle/exception.py,sha256=KuOaK1HmZJL5n-EZ51P1_u6t_937lR3aKkMV8bW-RLM,167
+nonebot_plugin_bottle/migrations/01a750736ea0_add_like.py,sha256=SaMdBNKCESbT-z_AhvrsrKj5AHm4qLI9ZeP7UHfFQP0,1379
+nonebot_plugin_bottle/migrations/449e066410fd_init_db.py,sha256=3S3oBisykD9mqXRAR5vZ3pwzqJhVPc9oNtsaCAauaXo,2646
+nonebot_plugin_bottle/model.py,sha256=ENzq7PDmtv3UFVC8UPBW5gmjlAdFbb9DVzSFTUoQz4E,1695
+nonebot_plugin_bottle-2.0.1.1.dist-info/LICENCE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+nonebot_plugin_bottle-2.0.1.1.dist-info/METADATA,sha256=mipEOgva1Bpy5uz2ynY38vWsfGel8SHeqOAm1xLqofw,11634
+nonebot_plugin_bottle-2.0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+nonebot_plugin_bottle-2.0.1.1.dist-info/RECORD,,
