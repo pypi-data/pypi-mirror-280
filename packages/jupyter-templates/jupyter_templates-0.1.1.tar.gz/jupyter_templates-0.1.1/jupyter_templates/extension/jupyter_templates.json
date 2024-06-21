@@ -1,0 +1,12 @@
+{
+  "ServerApp": {
+    "jpserver_extensions": {
+      "jupyter_templates": true
+    }
+  },
+  "NotebookApp": {
+    "nbserver_extensions": {
+      "jupyter_templates": true
+    }
+  }
+}
