@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyseatalk
+Version: 0.0.1
+Author-email: Garena SH Web <web_dev_sh@garena.com>
+License: Apache License 2.0
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyseatalk
+
+version: 0.0.1
