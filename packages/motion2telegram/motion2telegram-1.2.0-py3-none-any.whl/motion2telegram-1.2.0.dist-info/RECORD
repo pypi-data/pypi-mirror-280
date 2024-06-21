@@ -1,0 +1,14 @@
+motion2telegram/__init__.py,sha256=6GsXPQdWMjF2IR9jEqDH008pfxz9RsWnEuuIRT-4kKk,84
+motion2telegram/cli.py,sha256=hGyVFSjDVepT4SwYyl79xRORxf7xdilffySPpBZiGGM,2405
+motion2telegram/configure.py,sha256=P6_kpcLvgbmi9iyY7SmFS6SkMKmxQb0OtZLTb08v06Y,2951
+motion2telegram/send.py,sha256=WONDcf0NCeCZNul3IYX-8IQyfrT4A3DR26J1c-vRv24,293
+motion2telegram/template.mobile_phone_scan.service,sha256=1DIvlV4mMT4HasajTDwdArIna_Og4Lw84xoNsR7mwfs,216
+motion2telegram/template.motion.conf,sha256=VWfDysfDBHa5hp4BbxnzitajK-sUU8U_pHFCsIBjv4E,5477
+motion2telegram/template.motion.env,sha256=8LDNNxUVippaCrKA09a3TDStWkuSqgM2FPCiJzwYN0g,98
+motion2telegram/template.motion.service,sha256=K6yLnon3GV7HSKDIUEnHg5j9C5NiE0qBe8PnOBcS5_I,271
+motion2telegram-1.2.0.dist-info/LICENSE,sha256=tSdSrR17ntQr69YwcJBVmF09B6fx46U75mFnTIkLegc,1062
+motion2telegram-1.2.0.dist-info/METADATA,sha256=41VbYM0f_v5qvdGL5RakNH3PbpDgS_CMsq8Q0lojLUY,4866
+motion2telegram-1.2.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+motion2telegram-1.2.0.dist-info/entry_points.txt,sha256=I4frFWmrkX50E9q-ulyA-QwWMN5XMzAhObKDXc7v7SM,60
+motion2telegram-1.2.0.dist-info/top_level.txt,sha256=-mbGLVuuptD4r9X7Im337h25A-x_-lrLUWZFCO6Dfrc,16
+motion2telegram-1.2.0.dist-info/RECORD,,
