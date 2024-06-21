@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sippers
+Version: 2.0.0
+Summary: sippers
+Home-page: https://github.com/gisce/sippers
+Author: GISCE-TI, S.L.
+Author-email: devel@gisce.net
+License: GPLv3
+License-File: LICENSE
+Requires-Dist: raven
+Requires-Dist: pymongo <3.0
+Requires-Dist: osconf
+Requires-Dist: marshmallow <3.0
+Requires-Dist: click
+
+sippers
