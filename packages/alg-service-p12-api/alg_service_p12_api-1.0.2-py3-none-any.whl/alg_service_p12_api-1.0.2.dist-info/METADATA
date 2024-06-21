@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: alg-service-p12-api
+Version: 1.0.2
+Summary: alg service grpc api (for python3.7 )
+Home-page: 
+Author: L.K
+Author-email: L.K@idontwant.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: grpcio ==1.64.1
+Requires-Dist: grpcio-tools ==1.64.1
+Requires-Dist: protobuf ==5.27.1
+Requires-Dist: setuptools ==70.1.0
+
+# Alg-service-api
+
+
+
+
+
+## Install 
+
+### Upgrade pip 
+
+```shell
+
+ python.exe -m pip install --upgrade pip
+
+```
+
+### Install basic package 
+
+```commandline
+pip install  grpcio grpcio-tools protobuf 
+
+```
+
+
+## Grpc tools 
+
+cd $project 
+
+```shell
+
+.\tools\create_grpc_proto.cmd
+
+```
