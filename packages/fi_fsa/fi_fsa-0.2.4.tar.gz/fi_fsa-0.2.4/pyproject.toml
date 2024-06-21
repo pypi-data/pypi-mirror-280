@@ -1,0 +1,22 @@
+[project]
+name = "fi_fsa"
+version = "0.2.4"
+description = "Fourier Smart Actuator (FSA) Python SDK"
+authors = [
+    { name = "FFTAI", email = "huigang.wang@fftai.com" },
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
