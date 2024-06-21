@@ -1,0 +1,12 @@
+logdetective/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logdetective/constants.py,sha256=-3rjDzpEkovqqU6PEY4-g4wk-Vlpyp5wbCoyxQ8pDu4,561
+logdetective/drain3.ini,sha256=ni91eCT1TwTznZwcqWoOVMQcGEnWhEDNCoTPF7cfGfY,1360
+logdetective/extractors.py,sha256=_fuiYK_6UtA8GPZrzL_v--sC4mV_2l-ea1kA_QABbWw,3089
+logdetective/logdetective.py,sha256=5jWTWYMh4gR0tY5FibuT73QahLoqwTs0Qt7lCULKBJo,3213
+logdetective/server.py,sha256=JyM4gJQFLIDiZmcrDyMpyg-2hx4zavd5ldVSGu8vpxQ,1727
+logdetective/utils.py,sha256=SSUC_2okilIyRgYdxR259AdZDdsb35zFoA0YVJNpvB8,2716
+logdetective-0.2.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+logdetective-0.2.1.dist-info/METADATA,sha256=-OeiJjqzTxcdM3PH_WwDrXZtmIDilEnpvoHftZo-M1U,8061
+logdetective-0.2.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+logdetective-0.2.1.dist-info/entry_points.txt,sha256=3K_vXja6PmcA8sNdUi63WdImeiNhVZcEGPTaoJmltfA,63
+logdetective-0.2.1.dist-info/RECORD,,
