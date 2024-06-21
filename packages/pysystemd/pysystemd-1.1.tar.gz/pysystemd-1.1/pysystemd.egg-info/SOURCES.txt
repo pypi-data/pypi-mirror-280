@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pysystemd/__init__.py
+pysystemd/systemd.py
+pysystemd.egg-info/PKG-INFO
+pysystemd.egg-info/SOURCES.txt
+pysystemd.egg-info/dependency_links.txt
+pysystemd.egg-info/top_level.txt

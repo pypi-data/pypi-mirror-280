@@ -1,0 +1,88 @@
+# PySystemd
+
+PySystemd is a Python library for managing and interacting with system services using `systemd`. This library provides functionality to check the status of services, manage service states, list services, manage power operations, and retrieve system status information.
+
+## Features
+
+- **ServiceStatus**: Check if a service is running or enabled, and retrieve detailed status information.
+- **ServiceManager**: Start, stop, restart, reload, enable, and disable services.
+- **ServiceLister**: List all services, running services, not running services, enabled services, and disabled services.
+- **PowerManager**: Perform power operations like power off, reboot, rescue, and suspend.
+- **SystemStatus**: Get system uptime and load average.
+
+## Installation
+
+```python
+pip install pysystemd
+```
+or simply clone this repository and import the required classes into your project.
+
+## Usage
+
+### Checking Service Status
+
+```python
+from pysystemd import ServiceStatus
+
+service = ServiceStatus('apache2')
+print(service.is_running())  # Check if the service is running
+print(service.is_enabled())  # Check if the service is enabled
+print(service.get_status())  # Get detailed status of the service
+
+### Managing Services
+
+```python
+from pysystemd import ServiceManager
+
+manager = ServiceManager('apache2')
+manager.start()    # Start the service
+manager.stop()     # Stop the service
+manager.restart()  # Restart the service
+manager.reload()   # Reload the service
+manager.enable()   # Enable the service
+manager.disable()  # Disable the service
+```
+
+### Listing Services
+
+```python
+from pysystemd import ServiceLister
+
+print(ServiceLister.list_all())          # List all services
+print(ServiceLister.list_running())      # List all running services
+print(ServiceLister.list_not_running())  # List all not running services
+print(ServiceLister.list_enabled())      # List all enabled services
+print(ServiceLister.list_disabled())     # List all disabled services
+```
+
+### Power Management
+
+```python
+from pysystemd import PowerManager
+
+PowerManager.poweroff()  # Power off the system
+PowerManager.reboot()    # Reboot the system
+PowerManager.rescue()    # Boot to rescue mode
+PowerManager.suspend()   # Suspend the system
+```
+
+### System Status
+
+```python
+from pysystemd import SystemStatus
+
+print(SystemStatus.uptime())        # Get system uptime
+print(SystemStatus.load_average())  # Get system load average
+```
+
+### Logging
+
+PySystemd uses Python's built-in `logging` module to provide detailed logs of its operations. By default, the logging level is set to `INFO` and the format includes the timestamp, log level, and message.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit pull requests for any features, bug fixes, or improvements.
+
+### License
+
+This project is licensed under the LGPL v3 License.
