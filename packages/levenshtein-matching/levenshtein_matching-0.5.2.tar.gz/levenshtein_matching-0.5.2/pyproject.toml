@@ -1,0 +1,20 @@
+[build-system]
+requires = ["maturin>=1.5,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "levenshtein_matching"
+version = "0.5.2"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+description = "A library for string matching between two lists."
+authors = [{name = "Benjamin Chandler"}]
+readme = "README.md"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+
