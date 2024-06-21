@@ -1,0 +1,7 @@
+MANIFEST.in
+pyproject.toml
+tooncraftersimple.egg-info/PKG-INFO
+tooncraftersimple.egg-info/SOURCES.txt
+tooncraftersimple.egg-info/dependency_links.txt
+tooncraftersimple.egg-info/requires.txt
+tooncraftersimple.egg-info/top_level.txt
