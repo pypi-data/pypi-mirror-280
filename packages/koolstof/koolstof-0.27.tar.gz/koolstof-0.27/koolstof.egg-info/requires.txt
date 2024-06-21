@@ -1,0 +1,8 @@
+calkulate
+matplotlib
+numpy<=1.23
+pandas
+PyCO2SYS
+scikit-learn
+scipy
+seaborn
