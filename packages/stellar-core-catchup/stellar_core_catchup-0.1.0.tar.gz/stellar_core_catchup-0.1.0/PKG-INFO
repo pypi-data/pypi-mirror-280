@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: stellar-core-catchup
+Version: 0.1.0
+Summary: Efficiently synchronize a Stellar Core validator node
+Author: overcat
+Author-email: 4catcode@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: dataclasses-json (>=0.6.7,<0.7.0)
+Requires-Dist: jinja2 (>=3.1.4,<4.0.0)
+Description-Content-Type: text/markdown
+
+# stellar-core-catchup
+Efficiently synchronize a Stellar Core validator node,
+
+> [!WARNING]  
+>  This project is under development and not ready for production use.
+
+## Requirements
+
+- Python 3.8+
+- Ubuntu 22.04 LTS
+- Stellar Core
+- PostgreSQL
+
+## Installation
+
+```
+pip install stellar-core-catchup
+```
+
+## Usage
+
+```
+stellar-core-catchup --help
+```
+
+- First, you need to run `stellar-core-catchup init` to initialize the configuration file.
+- Second, you need to run `stellar-core-catchup catchup` to start the catchup process.
+- Finally, you need to run `stellar-core-catchup merge` to merge databases, buckets, and history archives.

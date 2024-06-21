@@ -1,0 +1,103 @@
+# complete example config: https://github.com/stellar/stellar-core/blob/master/docs/stellar-core_example.cfg
+LOG_FILE_PATH="{{ log_dir }}/stellar-core.log"
+BUCKET_DIR_PATH="{{ bucket_dir }}"
+DATABASE="postgresql://dbname={{ db_name }} user={{ db_user }} password={{ db_password }} host={{ db_host }} port={{ db_port }}"
+NODE_SEED="{{ node_seed }} self"
+NODE_HOME_DOMAIN="example.com"
+NODE_IS_VALIDATOR=true
+CATCHUP_COMPLETE=true
+DEPRECATED_SQL_LEDGER_STATE=false
+HTTP_PORT={{ http_port }}
+PUBLIC_HTTP_PORT=false
+WORKER_THREADS=2
+MAX_CONCURRENT_SUBPROCESSES=4
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+# don't use maintenance during catchup
+AUTOMATIC_MAINTENANCE_PERIOD=0
+AUTOMATIC_MAINTENANCE_COUNT=0
+UNSAFE_QUORUM=true
+
+[[HOME_DOMAINS]]
+HOME_DOMAIN = "www.stellar.org"
+QUALITY = "HIGH"
+
+[[HOME_DOMAINS]]
+HOME_DOMAIN = "publicnode.org"
+QUALITY = "HIGH"
+
+[[HOME_DOMAINS]]
+HOME_DOMAIN = "stellar.blockdaemon.com"
+QUALITY = "HIGH"
+
+[[HOME_DOMAINS]]
+HOME_DOMAIN = "example.com"
+QUALITY = "LOW"
+
+[[VALIDATORS]]
+NAME = "SDF 1"
+PUBLIC_KEY = "GCGB2S2KGYARPVIA37HYZXVRM2YZUEXA6S33ZU5BUDC6THSB62LZSTYH"
+ADDRESS = "core-live-a.stellar.org:11625"
+HISTORY = "curl -sf http://history.stellar.org/prd/core-live/core_live_001/{0} -o {1}"
+HOME_DOMAIN = "www.stellar.org"
+
+[[VALIDATORS]]
+NAME = "SDF 2"
+PUBLIC_KEY = "GCM6QMP3DLRPTAZW2UZPCPX2LF3SXWXKPMP3GKFZBDSF3QZGV2G5QSTK"
+ADDRESS = "core-live-b.stellar.org:11625"
+HISTORY = "curl -sf http://history.stellar.org/prd/core-live/core_live_002/{0} -o {1}"
+HOME_DOMAIN = "www.stellar.org"
+
+[[VALIDATORS]]
+NAME = "SDF 3"
+PUBLIC_KEY = "GABMKJM6I25XI4K7U6XWMULOUQIQ27BCTMLS6BYYSOWKTBUXVRJSXHYQ"
+ADDRESS = "core-live-c.stellar.org:11625"
+HISTORY = "curl -sf http://history.stellar.org/prd/core-live/core_live_003/{0} -o {1}"
+HOME_DOMAIN = "www.stellar.org"
+
+[[VALIDATORS]]
+NAME = "Hercules by OG Technologies"
+PUBLIC_KEY = "GBLJNN3AVZZPG2FYAYTYQKECNWTQYYUUY2KVFN2OUKZKBULXIXBZ4FCT"
+ADDRESS = "hercules.publicnode.org:11625"
+HISTORY = "curl -sf https://hercules-history.publicnode.org/{0} -o {1}"
+HOME_DOMAIN = "publicnode.org"
+
+[[VALIDATORS]]
+NAME = "Lyra by BP Ventures"
+PUBLIC_KEY = "GCIXVKNFPKWVMKJKVK2V4NK7D4TC6W3BUMXSIJ365QUAXWBRPPJXIR2Z"
+ADDRESS = "lyra.publicnode.org:11625"
+HISTORY = "curl -sf https://lyra-history.publicnode.org/{0} -o {1}"
+HOME_DOMAIN = "publicnode.org"
+
+[[VALIDATORS]]
+NAME = "Boötes"
+PUBLIC_KEY = "GCVJ4Z6TI6Z2SOGENSPXDQ2U4RKH3CNQKYUHNSSPYFPNWTLGS6EBH7I2"
+ADDRESS = "bootes.publicnode.org:11625"
+HISTORY = "curl -sf https://bootes-history.publicnode.org/{0} -o {1}"
+HOME_DOMAIN = "publicnode.org"
+
+[[VALIDATORS]]
+NAME = "Blockdaemon Validator 1"
+PUBLIC_KEY = "GAAV2GCVFLNN522ORUYFV33E76VPC22E72S75AQ6MBR5V45Z5DWVPWEU"
+ADDRESS = "stellar-full-validator1.bdnodes.net:11625"
+HISTORY = "curl -sf https://stellar-full-history1.bdnodes.net/{0} -o {1}"
+HOME_DOMAIN = "stellar.blockdaemon.com"
+
+[[VALIDATORS]]
+NAME = "Blockdaemon Validator 2"
+PUBLIC_KEY = "GAVXB7SBJRYHSG6KSQHY74N7JAFRL4PFVZCNWW2ARI6ZEKNBJSMSKW7C"
+ADDRESS = "stellar-full-validator2.bdnodes.net:11625"
+HISTORY = "curl -sf https://stellar-full-history2.bdnodes.net/{0} -o {1}"
+HOME_DOMAIN = "stellar.blockdaemon.com"
+
+[[VALIDATORS]]
+NAME = "Blockdaemon Validator 3"
+PUBLIC_KEY = "GAYXZ4PZ7P6QOX7EBHPIZXNWY4KCOBYWJCA4WKWRKC7XIUS3UJPT6EZ4"
+ADDRESS = "stellar-full-validator3.bdnodes.net:11625"
+HISTORY = "curl -sf https://stellar-full-history3.bdnodes.net/{0} -o {1}"
+HOME_DOMAIN = "stellar.blockdaemon.com"
+
+[HISTORY.local]
+get="cp {{ history_dir }}/{0} {1}"
+put="cp {0} {{ history_dir }}/{1}"
+mkdir="mkdir -p {{ history_dir }}/{0}"
