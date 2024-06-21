@@ -1,0 +1,16 @@
+pyvista
+networkx
+geopandas
+scipy
+python-ternary
+pyperclip
+pyqt5
+openpyxl
+seaborn
+trame
+
+[all]
+fracability[jupyter]
+
+[jupyter]
+jupyter
