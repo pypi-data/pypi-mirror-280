@@ -1,0 +1,9 @@
+rail_tpu_utils/__init__.py,sha256=uBWvE_Q-22F-aFX1_TPEHc2oVrUX86lwXfTFU5y0q_c,23
+tpu_utils/__init__.py,sha256=al_-syb9Us5RX6yngUKJSDagfTbLO4px8MQ4LW8bbiE,97
+tpu_utils/jax_utils.py,sha256=3fewkWXxdaEtmCst0bOskPGEhBWgC1gKxT_efVHonAo,534
+tpu_utils/networking.py,sha256=DptPGoyUZV3Vg2GBeMtW-HjxQLh_9pPK5HMfjnHsbxg,2293
+rail_tpu_utils-0.0.3.dist-info/LICENSE,sha256=pecL6x6k3IpdtNh-ixRV3-3CV0aN4hjtIIuFmiBKILw,1067
+rail_tpu_utils-0.0.3.dist-info/METADATA,sha256=koYrAiSyAtMXL2tbpQFnI6fSVuOf3R1vpvdIximN6os,1011
+rail_tpu_utils-0.0.3.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+rail_tpu_utils-0.0.3.dist-info/top_level.txt,sha256=BJH_rHYLs6uh8JYUu_HkG75K5lDDxm9sMlN8rK-ZUTA,25
+rail_tpu_utils-0.0.3.dist-info/RECORD,,
