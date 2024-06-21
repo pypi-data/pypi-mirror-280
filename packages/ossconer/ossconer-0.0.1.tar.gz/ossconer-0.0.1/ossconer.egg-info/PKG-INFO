@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ossconer
+Version: 0.0.1
+Summary: Python交互OSS，更方便地使用一些常用功能
+Author: WangTuo
+Author-email: markadc@126.com
+License: MIT
+Keywords: Python,OSS
+Requires-Dist: oss2
