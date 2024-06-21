@@ -1,0 +1,7 @@
+README.md
+setup.py
+alg_service_p12_api.egg-info/PKG-INFO
+alg_service_p12_api.egg-info/SOURCES.txt
+alg_service_p12_api.egg-info/dependency_links.txt
+alg_service_p12_api.egg-info/requires.txt
+alg_service_p12_api.egg-info/top_level.txt
