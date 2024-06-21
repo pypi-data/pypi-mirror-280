@@ -1,0 +1,12 @@
+npc_ephys/__init__.py,sha256=MyfMLv-xBNHxTpLWvCYOwNsati98Dr8PwZhbvVytlZM,1113
+npc_ephys/barcodes.py,sha256=ujrsYkXPQhqbr_JSvxCfxAWCYQiUc-tkauvTFFzh50A,13092
+npc_ephys/openephys.py,sha256=L8_D3osNEOOj4BSA1uo1NqG0breTM0M-yHUvB7__k-U,33172
+npc_ephys/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npc_ephys/settings_xml.py,sha256=dOnCvlihJknj_ZcG-rEee9DAyRpbvOgLoYT-tAfbzPA,7775
+npc_ephys/spikeinterface.py,sha256=l6-DUwoF9hiUSrlWt4ai3qPy24J8Q3GdJInkKrbPe8o,17294
+npc_ephys/units.py,sha256=r7BgUKhkKMs_2Hop9ER0NKXeG2COdA-z-rkMR_aElYU,12870
+npc_ephys-0.1.16.dist-info/LICENSE,sha256=mtlEo7YLDjglqRsGRRZolan__6RMODXtSu-KOpO7I98,1085
+npc_ephys-0.1.16.dist-info/METADATA,sha256=aQMGqYndOrmFNBu5nX9I4MNFg6spM1SgS08fmRJ2C3k,4330
+npc_ephys-0.1.16.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+npc_ephys-0.1.16.dist-info/top_level.txt,sha256=SA_Ekv7qR1is0kSOuO36Zvicn7Idav0cssAc9TK-iSA,10
+npc_ephys-0.1.16.dist-info/RECORD,,
