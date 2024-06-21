@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+vec64.c
+vec64.egg-info/PKG-INFO
+vec64.egg-info/SOURCES.txt
+vec64.egg-info/dependency_links.txt
+vec64.egg-info/top_level.txt
