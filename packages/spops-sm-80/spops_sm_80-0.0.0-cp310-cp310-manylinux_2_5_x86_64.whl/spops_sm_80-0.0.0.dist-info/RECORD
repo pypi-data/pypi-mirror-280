@@ -1,0 +1,12 @@
+spops_backend.cpython-310-x86_64-linux-gnu.so,sha256=skRD7hvTAi-17b_bwJ16_JAfZv6SgYuhZAxXk4pQrfg,2257096
+spops_backend_cpu.cpython-310-x86_64-linux-gnu.so,sha256=du6839AIgqjs19WnOzRjknw-EFbk6IVvMIRiDx8BXfQ,280608
+spops/__init__.py,sha256=HWyqMhE4lm_fEJMG4R55iUzrpGHZ0TMx5BWjYv4gUo8,236
+spops/csr_add.py,sha256=qdx9tPCaan2Hp9YnPxVkWC1T8FnQMx4EI45eB7SHKY0,1227
+spops/csr_transpose.py,sha256=WzW3kIws9-8p8SRZL3Pr_k2_hZRGl67pdkgu9JWO07c,1717
+spops/sddmm.py,sha256=4-72ciawdTfegu7cKPfmHpF5Cf8_eF3k2NuUVP85J3U,1584
+spops/spmm.py,sha256=Y1wPvn1cLb_ixrjqWemHjK4zlDeFiD1129bJCJerOSE,1462
+spops_sm_80-0.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+spops_sm_80-0.0.0.dist-info/METADATA,sha256=g03q7akFYEPW_pCisJjkV6gN-SrLrEyogXfrTLcUnbI,189
+spops_sm_80-0.0.0.dist-info/WHEEL,sha256=z7jxKkYRKKJ7SfPfMKwPqpTzAxGIqIt5_V74YUShghE,105
+spops_sm_80-0.0.0.dist-info/top_level.txt,sha256=_eMW0UdoDPwbBSl6H5PG4shx8UVPZC5qpClfZXfKJTA,38
+spops_sm_80-0.0.0.dist-info/RECORD,,
