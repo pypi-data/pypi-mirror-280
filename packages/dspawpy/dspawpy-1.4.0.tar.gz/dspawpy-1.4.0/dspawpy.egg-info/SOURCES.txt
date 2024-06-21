@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+dspawpy/__init__.py
+dspawpy/plot.py
+dspawpy.egg-info/PKG-INFO
+dspawpy.egg-info/SOURCES.txt
+dspawpy.egg-info/dependency_links.txt
+dspawpy.egg-info/entry_points.txt
+dspawpy.egg-info/requires.txt
+dspawpy.egg-info/top_level.txt

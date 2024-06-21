@@ -1,0 +1,66 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+
+requires = [
+  "setuptools>=42",
+  "wheel",
+]
+
+[project]
+name = "dspawpy"
+version = "1.4.0"
+description = "Tools for dspaw"
+license = { file = "lICENSE.txt" }
+authors = [
+  { name = "Hzwtech", email = "ZhengZhilin@hzwtech.com" },
+]
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+  "h5py",           # parse h5
+  "loguru",         # log
+  "polars",         # speed up pandas, write_csv starts from 0.18
+  "prompt-toolkit", # cli completer
+  "pymatgen",
+  "ruamel-yaml",    # ordered yaml
+  "statsmodels",
+]
+
+optional-dependencies.dev = [
+  "autoflake",
+  "pre-commit",
+  "pyproject-fmt",
+  "pytest-cov",
+  "pytest-html",
+  "pytest-instafail",
+  "ruff",
+  "twine",
+  "typos",
+  "build"
+]
+optional-dependencies.manual = [
+  "docutils",
+  "jieba",
+  "sphinx",
+  "sphinx-copybutton",
+  "sphinx-design",
+  "sphinx-multiversion",
+  "sphinx-rtd-theme",
+  "sphinxcontrib-bibtex",
+]
+
+readme = "README.md"
+urls."Homepage" = "https://cloud.hzwtech.com"
+scripts.cli = "dspawpy.cli.cli:main"
+
+[tool.setuptools]
+packages = [
+  "dspawpy",
+]
