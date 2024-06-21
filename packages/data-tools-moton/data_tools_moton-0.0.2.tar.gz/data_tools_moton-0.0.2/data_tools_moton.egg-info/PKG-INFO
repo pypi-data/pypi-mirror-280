@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: data_tools_moton
+Version: 0.0.2
+Summary: Standalone tools package for ETL development
+Author: Rick Moton
+License: MIT
+License-File: LICENSE

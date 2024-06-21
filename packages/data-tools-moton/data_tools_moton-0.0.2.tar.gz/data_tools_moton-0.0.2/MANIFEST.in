@@ -1,0 +1,2 @@
+include requirements.txt
+include data_tools/io/spark_bq/spark-bigquery-latest_2.12.jar
