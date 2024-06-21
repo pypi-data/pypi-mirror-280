@@ -1,0 +1,2 @@
+[console_scripts]
+is3_analyse = is3_analyse:main
