@@ -1,0 +1,3 @@
+[console_scripts]
+poojith=poozzzith:print_name
+
