@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: python-libeconf
+Version: 0.7.0
+Summary: Python bindings for libeconf
+Author-email: nkrapp <nico.krapp@suse.com>
+Provides-Extra: doc-requires
+Requires-Dist: sphinx; extra == "doc-requires"
+Requires-Dist: sphinx-rtd-theme; extra == "doc-requires"
+Provides-Extra: test-requires
+Requires-Dist: pytest; extra == "test-requires"
