@@ -1,0 +1,17 @@
+alien/__init__.py,sha256=ahL-NUi7GE-mdNwDsEJuR9wne-C6Kok1tMpjO8QhF8M,22
+alien/alien.py,sha256=kXC6XHia0DaZvZL-vFiept-y6s4GRZobv0xmt9iJBxs,1599
+alien/alien_invasion.py,sha256=kOaRi0FsbxxfMuQ0H28v0ahful5uX1Aod7J4462MNM4,1737
+alien/bullet.py,sha256=AhC3SVY9seB28RyoNx0IPynElZxDgD1KLdMXlLeZi8w,1160
+alien/button.py,sha256=hX35OCtBLAPT5SR9l8DEqPVoMgNqFAuRatXcx5s02P4,1318
+alien/game_fuctions.py,sha256=fbI-MJKwGNZ-x5ZY-72QvYTkYVbN-U8IrVw4QLqx75M,8652
+alien/game_stats.py,sha256=AwXQIo-KhvTIureem7NLLYOIoNqwdwp4FHjGZHSKfys,662
+alien/scoreboard.py,sha256=KlHwdk8KsaoayDPEoCNhuTtUrSIIRThjGdBShwgbND0,3033
+alien/settings.py,sha256=yeiLR5n2HC1BhfGbewL4HKfu5rzLQf-dBMfG-Sij0aA,1506
+alien/ship.py,sha256=t-NJWe7eFC4LvDDq0V74aCO04LIhNvEDkbYUxL1ydyY,1664
+alien/font/freesansbold.ttf,sha256=v5JRJp8R5LNVgqmTdglt7uPQxJc6RZy9l7C-vAH0QK0,98600
+alien/image/alien.bmp,sha256=3sRNxhASF1ceLe4Z9QKJjYIl3PRiL1Hgpx1stnJ1Byo,10494
+alien/image/ship.bmp,sha256=kk3ah-ZiopbXDy4Qv5uWqbtHC9BW_1trThaVVut0Fqs,8694
+alienGame-1.1.0.dist-info/METADATA,sha256=u7k2NlY57HK_h2QCQe0jrlXtbBtyGot1zZUvEIknooE,173
+alienGame-1.1.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+alienGame-1.1.0.dist-info/top_level.txt,sha256=MGjC2y8W3ys3oQg3FAoNnmF_j2h8r1UOu4XfzuygkSs,6
+alienGame-1.1.0.dist-info/RECORD,,
