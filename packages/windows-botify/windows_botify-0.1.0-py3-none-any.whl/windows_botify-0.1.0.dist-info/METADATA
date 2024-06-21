@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: windows_botify
+Version: 0.1.0
+Summary: A simple libary to control windows
+Home-page: https://github.com/Cavecake/windows-botify
+Author: cavecake
+Author-email: cavecake@web.de
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+

@@ -1,0 +1,9 @@
+windows_botify/__init__.py,sha256=03xAXdDtxUVHjmiOLVtihoKMGZEIaxg663cURou2dYs,103
+windows_botify/mouse.py,sha256=UoIDSFwrKg3De0qToP8eUGhQ1jQcdMKbEEkn9i1Lbf8,4406
+windows_botify/rectangle.py,sha256=bJsGFvXtErZxal5ZNrooG7vzuXeBjoCR8jVEsmjuVaA,1746
+windows_botify/window_api.py,sha256=Ge4SsO95TVlD9gN0xrA6l1tP2fRdk91s7gYIhFluOmU,9730
+windows_botify-0.1.0.dist-info/LICENSE,sha256=IQFFTdJqS3ZgfvtF9e6JV_BMKH_9MDvIewMZ623hEs0,1065
+windows_botify-0.1.0.dist-info/METADATA,sha256=q95KGXjqRKG8QbUBpYPtDRjB84o4DNLZYkp4ZeU6aCs,279
+windows_botify-0.1.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+windows_botify-0.1.0.dist-info/top_level.txt,sha256=UYBTS0a2Ht63yM_hXCKzzczKrv3Bj9IydwXY97-JPdM,15
+windows_botify-0.1.0.dist-info/RECORD,,
