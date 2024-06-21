@@ -1,0 +1,18 @@
+[project]
+name = "pyiArduinoI2Ckeyboard"
+version = "0.1.1"
+description = "iarduino.ru module for Raspberry Pi"
+authors = [
+    {name = "dron distortion", email = "cancelbutton@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pdm]
+distribution = true
