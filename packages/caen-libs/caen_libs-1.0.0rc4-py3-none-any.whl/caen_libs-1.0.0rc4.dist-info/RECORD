@@ -1,0 +1,15 @@
+caen_libs/__init__.py,sha256=OVMwmIGX4ONAuh4Rp-ecEwyAjrCay8lwyysRF-0SaTo,332
+caen_libs/_caendigitizer.py,sha256=OCqn2b_cDAQr9pPBwO5o4pm778pb_S5BoOIOirCW_FE,22398
+caen_libs/_utils.py,sha256=SuSzWOE22-cZV3zz4UKxOAdP34oMxeyHlJ_Zrh291n0,8224
+caen_libs/caencomm.py,sha256=ftkBSms6wBvTfYJZ8m3fhjJR04n_pAHiFRSsgVD-0Xs,15230
+caen_libs/caenhvwrapper.py,sha256=MHm8A0oyh6vt7TSB1znY3BbToiiP4zeFQdHfCVXIcqk,44568
+caen_libs/caenhvwrapperflags.py,sha256=HkQ0OxxB3J18Gk81erOsL45jsE5r4KK1f5JozMZ4Zz8,5440
+caen_libs/caenplu.py,sha256=1AA9Bj_WyABKHtJTMrLyjk_KX93mZn-8y0eD1XJNEbA,13957
+caen_libs/caenvme.py,sha256=PGE7zT2_QB5RqowY59vyroWDWOh0ECsuzBALdr6efTA,44174
+caen_libs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caen_libs-1.0.0rc4.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+caen_libs-1.0.0rc4.dist-info/COPYING.LESSER,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+caen_libs-1.0.0rc4.dist-info/METADATA,sha256=IkxYuy3l9tcqf3_Sh_gKIZakNHPUAA88bd8ffgeu6so,2176
+caen_libs-1.0.0rc4.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+caen_libs-1.0.0rc4.dist-info/top_level.txt,sha256=frDLnQiDsvoSH_7Prg8WU1rCSRcaP2rs7owlOdKrORk,10
+caen_libs-1.0.0rc4.dist-info/RECORD,,
