@@ -1,0 +1,10 @@
+souperscraper/__init__.py,sha256=tnGCLDOZcYdmgYF5t3FYD1HwKfiE1_OoPc_6h38sIFM,133
+souperscraper/_version.py,sha256=IIj5MPQqf7H30zvHF3gsfSLSw1SsdlKYR9SngW-9GC8,411
+souperscraper/getchromedriver.py,sha256=DgTXjlBbSF0e2sD-ZcgBLjG3TcFc3tShkv8iF__0SNk,6736
+souperscraper/souperscraper.py,sha256=qCrTK3rNR95zBMmUZ10yKKgprWfmK_uFuFdCzggVO0U,20939
+souperscraper-1.0.1.dist-info/LICENSE,sha256=GQBkXhYzvt3JMcnrk2j-mJzOnkphAUMsxGOKdsazI0o,1070
+souperscraper-1.0.1.dist-info/METADATA,sha256=KHJhui7twubQckmdGJal1L5b0ptoIs1sd2fKpS3TFw4,5622
+souperscraper-1.0.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+souperscraper-1.0.1.dist-info/entry_points.txt,sha256=YbWni5GHYlmPwILPfXqYpJfoCn9iVJDzvHFA-MkdAb0,71
+souperscraper-1.0.1.dist-info/top_level.txt,sha256=k0Gjr2Gp1AsR84lMjT-7aI-atY8i-auyAyhDv7GXIys,14
+souperscraper-1.0.1.dist-info/RECORD,,
