@@ -1,0 +1,47 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - staging
+  workflow_run:
+    workflows:
+      - update
+    types:
+      - completed
+
+jobs:
+  build:
+    name: build
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macos-latest, ubuntu-latest]
+        build-flags:
+          - ""
+          - --override-input nixpkgs github:nixos/nixpkgs/nixpkgs-unstable
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: staging
+
+      - name: Install nix
+        uses: cachix/install-nix-action@v25
+
+      - name: Set up cachix
+        uses: cachix/cachix-action@v14
+        with:
+          name: nix-community
+          authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+
+      - name: Check with nix
+        run: |
+          nix flake check
+
+      - name: Build with nix
+        run: |
+          nix build ${{ matrix.build-flags }} .#{{stable,beta,minimal,default,complete}.toolchain,rust-analyzer{,-vscode-extension}}
+          ./test
+
+          nix build ${{ matrix.build-flags }} .#latest.toolchain

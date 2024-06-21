@@ -1,0 +1,31 @@
+name: update
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+
+jobs:
+  update:
+    name: update
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: staging
+
+      - name: Install nix
+        uses: cachix/install-nix-action@v25
+
+      - name: Update everything
+        run: |
+          git config --local user.name "github-actions"
+          git config --local user.email "action@github.com"
+
+          nix shell nixpkgs#python311 -c ./update
+          nix flake update
+          curl -fLSso data/rust-analyzer-vsix.zip \
+            https://github.com/rust-lang/rust-analyzer/releases/download/nightly/rust-analyzer-no-server.vsix || true
+
+          git commit -am "update: rust toolchains, rust analyzer, flake.lock"
+          git push

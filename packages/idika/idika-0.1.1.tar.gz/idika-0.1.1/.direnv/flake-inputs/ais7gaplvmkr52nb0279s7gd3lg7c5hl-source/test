@@ -1,0 +1,23 @@
+#!/bin/sh
+
+set -e
+
+for bin in result*/bin/*; do
+    echo "$bin"
+    case "$(basename "$(basename "$bin")")" in
+        cargo-miri)
+            "$bin" miri -h > /dev/null;;
+        miri)
+            "$bin" --help --sysroot /dev/null > /dev/null;;
+        rls)
+            ;;
+        rust-demangler)
+            ;;
+        rust-gdb)
+            ;;
+        rust-lldb)
+            ;;
+        *)
+            "$bin" --help > /dev/null
+    esac
+done
