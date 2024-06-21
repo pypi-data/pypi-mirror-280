@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+fibretracker/__init__.py
+fibretracker.egg-info/PKG-INFO
+fibretracker.egg-info/SOURCES.txt
+fibretracker.egg-info/dependency_links.txt
+fibretracker.egg-info/requires.txt
+fibretracker.egg-info/top_level.txt
+fibretracker/io/__init__.py
+fibretracker/io/read_file.py
+fibretracker/models/__init__.py
+fibretracker/models/detector.py
+fibretracker/models/tracker.py
+fibretracker/viz/__init__.py
+fibretracker/viz/plotting.py
+fibretracker/viz/visualize.py
