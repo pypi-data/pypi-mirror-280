@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+django_celery_beat_endpoint/__init__.py
+django_celery_beat_endpoint/beat.py
+django_celery_beat_endpoint/celery.py
+django_celery_beat_endpoint/defaults.py
+django_celery_beat_endpoint.egg-info/PKG-INFO
+django_celery_beat_endpoint.egg-info/SOURCES.txt
+django_celery_beat_endpoint.egg-info/dependency_links.txt
+django_celery_beat_endpoint.egg-info/requires.txt
+django_celery_beat_endpoint.egg-info/top_level.txt
+django_celery_beat_endpoint/backends/__init__.py
+django_celery_beat_endpoint/backends/base.py
