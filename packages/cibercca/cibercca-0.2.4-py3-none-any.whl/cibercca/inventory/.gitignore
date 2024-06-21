@@ -1,0 +1,8 @@
+# ignorar todo dentro de la carpeta
+*
+# excepto
+!.gitignore
+!dbconnect.yaml
+!defaults.yaml
+!groups.yaml
+!hosts.yaml
