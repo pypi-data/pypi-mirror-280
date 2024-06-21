@@ -1,0 +1,14 @@
+em_simulation/__init__.py,sha256=JfqIo3fHxSTMWHcMBYVoMbjccr3bghB3WFuQhmECEDs,325
+em_simulation/create_gpr_image.py,sha256=_Y9LWNkIXgRKt-PRgkH9oneSpQ8dD0aV6eneqtW0ZFM,1639
+em_simulation/global_constants.py,sha256=dTnrQYA5ZKaXpjOoGAsfCC0b_94JPvDeuBLMgjhjlA4,360
+em_simulation/main_example.py,sha256=GOyzBSKLb8DygJvR7yGRlETyXdkngpRPgYTT1kS-qmA,1119
+em_simulation/object_creation.py,sha256=i5aUNaEOU5eEnmKUdq0Cw2yOQb7FRC-tRox5OYp44cY,3838
+em_simulation/propagator_2D.py,sha256=cp4n_MOuJoXh1EyYMJJlCOPm7GphCPALjahcB4OT_9U,6239
+em_simulation/user_messages.py,sha256=9mYnzen5Afl7iRxdwaqDJYHrYRqjEYQENv-UCO2XiyY,3853
+em_simulation/visualization.py,sha256=SQqnXIse_ZxrtzB1SvzKKCQRi0KGGkia0byuDlwT3Wc,501
+em_simulation/waveform.py,sha256=OxOSBaW1K0ntG7KBGc3SxXnNxQYH1bJcQxUNELvQL_4,1308
+em_simulation-0.5.dist-info/LICENSE,sha256=IYxlC-oENDwqtzoojl4cGBybRT7VJMSvxymPRfRgtW0,1106
+em_simulation-0.5.dist-info/METADATA,sha256=utkyX1h5K4Jxa9hIyr1zqskOEPHJOEFv5dhQR9lomws,3764
+em_simulation-0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+em_simulation-0.5.dist-info/top_level.txt,sha256=ig6oyFUdy73vV7X3eB2fq1IZtW60tX2RHyTLOttKd_o,14
+em_simulation-0.5.dist-info/RECORD,,
