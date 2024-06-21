@@ -1,0 +1,33 @@
+{
+  "initializeCommand": "${localWorkspaceFolder}/init_host.sh", // executed on HOST system
+  "postCreateCommand": "./init_container.sh",
+  "image": "registry.gitlab.com/roxautomation/images/python-dev",
+  "runArgs": ["--network", "host"],
+  "mounts": [
+    "source=/var/tmp/container-extensions,target=/home/dev/.vscode-server/extensions,type=bind,consistency=cached"
+  ],
+
+  "containerEnv": {
+    "GPS_REF": "51.45716554, 6.08207121"
+  },
+
+  // Configure tool-specific properties.
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "shardulm94.trailing-spaces",
+        "njpwerner.autodocstring",
+        "mhutchie.git-graph",
+        "doi.fileheadercomment",
+        "donjayamanne.githistory",
+        "ms-python.pylint",
+        "ms-python.black-formatter"
+      ]
+    }
+  }
+
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  // "remoteUser": "root"
+}

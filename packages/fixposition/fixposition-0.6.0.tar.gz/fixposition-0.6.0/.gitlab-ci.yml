@@ -1,0 +1,21 @@
+image: roxauto/python-ci
+
+stages:
+  - test_package
+
+before_script:
+  - python --version
+
+lint_and_test:
+  stage: test_package
+  script:
+    - pip install -r requirements-ci.txt
+    - pip install .
+    - pylint -E src
+    - mypy src
+    - pytest -v tests
+  only:
+    changes:
+      - src/**/*
+      - .gitlab-ci.yml
+# packages moved to pypi. Use `invoke publish`  to upload
