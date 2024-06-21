@@ -1,0 +1,16 @@
+bioregistry
+requests
+pydantic
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx_automodapi
+autodoc_pydantic
+
+[fastapi]
+fastapi
+
+[tests]
+pytest
+coverage
