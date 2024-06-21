@@ -1,0 +1,6 @@
+wheel>=0.34
+numpy==2.0.0
+typing>=3.7
+casadi>=3.6.5
+matplotlib>=3.9.0
+scipy>=1.13.1
