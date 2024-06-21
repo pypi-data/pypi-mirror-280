@@ -1,0 +1,10 @@
+sinlib/__init__.py,sha256=29QYDyu6_eBYM1rhbNbgeaRNWHzqLrsD6-K7AeRzoMQ,194
+sinlib/romanize.py,sha256=bpJf27qx1ZVH4Lg_y6XprVQZ_GEdlz_DsyFiaooMbQw,1758
+sinlib/tokenizer.py,sha256=R8Dh_YQDryZA6OF5EYPAuG85sgTb_dNoT7cXLg4lXlA,4985
+sinlib/utils/__init__.py,sha256=WysNr3vvOG3BRZVCTAVTghuEfZzoGlmLr-rzyqLO5OM,214
+sinlib/utils/chars.py,sha256=tUdz0r5KHvvppIf2mlG1-HbfsGgD7nJJqqgWN4bZA_Q,4014
+sinlib/utils/preprocessing.py,sha256=GHkkmA4_MUc-YYc_7a4bSQSrJSIh1Mw66D5a7dQgYHM,6849
+sinlib-0.0.8.6.dist-info/METADATA,sha256=PbJKp0kMSj6kdOGKzPiSuI6jMyiOCwMgrK4Z3XKr9-A,4958
+sinlib-0.0.8.6.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+sinlib-0.0.8.6.dist-info/licenses/LICENSE,sha256=0YQTe7S3O_TSJHLVbnFRwjFOE6oXtNMYmNvv8DeF0sU,1077
+sinlib-0.0.8.6.dist-info/RECORD,,
