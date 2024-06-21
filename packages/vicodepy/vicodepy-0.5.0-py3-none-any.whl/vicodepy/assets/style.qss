@@ -1,0 +1,9 @@
+QScrollBar:horizontal {
+    height: 15px;
+}
+
+QSplitter::handle {
+    background-color: cornflowerblue;
+    image: url(handle.png);
+    height: 10px;
+}
