@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+jmeter_metrics_visualizer/__init__.py
+jmeter_metrics_visualizer/generate_report.py
+jmeter_metrics_visualizer.egg-info/PKG-INFO
+jmeter_metrics_visualizer.egg-info/SOURCES.txt
+jmeter_metrics_visualizer.egg-info/dependency_links.txt
+jmeter_metrics_visualizer.egg-info/requires.txt
+jmeter_metrics_visualizer.egg-info/top_level.txt
+jmeter_metrics_visualizer/template/template.html

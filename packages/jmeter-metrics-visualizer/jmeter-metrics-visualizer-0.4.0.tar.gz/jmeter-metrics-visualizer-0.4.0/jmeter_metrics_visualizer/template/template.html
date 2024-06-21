@@ -1,0 +1,149 @@
+<!-- template.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Metrics Comparison</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #03bbe3;
+            margin-bottom: 40px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            color: #03bbe3;
+            border-bottom: 2px solid #03bbe3;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .error-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .error-table th,
+        .error-table td {
+            padding: 12px 15px;
+            text-align: left;
+        }
+        .error-table th {
+            background-color: #03bbe3;
+            color: white;
+            font-weight: bold;
+        }
+        .error-table tr:nth-child(even) {
+            background-color: #f9fafb;
+        }
+        .error-table tr:hover {
+            background-color: #e0f7fa;
+        }
+        .dropdown {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .dropdown label {
+            font-weight: bold;
+            margin-right: 10px;
+            color: #333;
+        }
+        .dropdown select {
+            padding: 10px 15px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            background-color: #ffffff;
+        }
+        .plot-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .plot-container > div {
+            flex: 1 1 45%;
+            min-width: 300px;
+        }
+    </style>
+    <script>
+        function updatePlot(selectedLabel) {
+            var responseTimePlotDivs = document.getElementsByClassName('response-time-plot-div');
+            var errorRatePlotDivs = document.getElementsByClassName('error-rate-plot-div');
+
+            for (var i = 0; i < responseTimePlotDivs.length; i++) {
+                responseTimePlotDivs[i].style.display = 'none';
+            }
+            for (var i = 0; i < errorRatePlotDivs.length; i++) {
+                errorRatePlotDivs[i].style.display = 'none';
+            }
+            document.getElementById('response-time-plot-' + selectedLabel).style.display = 'block';
+            document.getElementById('error-rate-plot-' + selectedLabel).style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Historical Load Testing Metrics Comparison</h1>
+        {% for virtual_users, table_data in virtual_user_tables.items() %}
+        <h2>Virtual Users: {{ virtual_users }}</h2>
+        <table class="error-table">
+            <thead>
+                <tr>
+                    <th>Date of Execution</th>
+                    <th>Overall Error Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in table_data %}
+                <tr>
+                    <td>{{ row.date }}</td>
+                    <td>{{ row.error_rate | round(2) }}%</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% endfor %}
+        <div class="dropdown">
+            <label for="label-select">Select Label (Scenario):</label>
+            <select id="label-select" onchange="updatePlot(this.value)">
+                {% for option in label_options %}
+                <option value="{{ option['value'] }}">{{ option['label'] }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="plot-container">
+            {% for label in labels %}
+            <div id="response-time-plot-{{ label }}" class="response-time-plot-div" style="display: none;">
+                {{ response_time_plots[label] | safe }}
+            </div>
+            <div id="error-rate-plot-{{ label }}" class="error-rate-plot-div" style="display: none;">
+                {{ error_rate_plots[label] | safe }}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <script>
+        document.getElementById('response-time-plot-{{ labels[0] }}').style.display = 'block';
+        document.getElementById('error-rate-plot-{{ labels[0] }}').style.display = 'block';
+    </script>
+</body>
+</html>

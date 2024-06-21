@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: jmeter-metrics-visualizer
+Version: 0.4.0
+Summary: A package to generate HTML reports from JMeter CSV files for Historical Data Comparision
+Home-page: https://github.com/yourusername/jmeter-metrics-visualizer
+Author: Pavan Kumar
+Author-email: pavankumar.qae@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: pandas
+Requires-Dist: plotly
+Requires-Dist: jinja2
