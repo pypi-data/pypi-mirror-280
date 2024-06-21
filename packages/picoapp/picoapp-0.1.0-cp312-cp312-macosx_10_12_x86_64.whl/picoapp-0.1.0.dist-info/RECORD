@@ -1,0 +1,9 @@
+picoapp-0.1.0.dist-info/METADATA,sha256=q6Rh_BD37_opMz69aM2KCq9wLuzRURFo0Zmx0Bj7AzI,256
+picoapp-0.1.0.dist-info/WHEEL,sha256=3Ss6rc0xfcNQos_Mql495zvCDmGXDmHOnDuvj70ymfI,106
+picoapp/__init__.py,sha256=qm1Ugfb7nmh9sB7-LQ1rVCYaY-yVm5P8Uq-Ju9D4DQM,283
+picoapp/core.py,sha256=nvnareolF6J8l8rRL_FohrRzObFo8U2FoQJI1sk_hww,186
+picoapp/types.py,sha256=0w__-pdU1rIk7sKv5V7FWo_tJ5TYRsN8OkixcWsCS0k,1452
+picoapp/_picoapp.pyi,sha256=7-3bXydzC-ew21ld1RTpvAyHuS036-1CO7l74IPAxBo,145
+picoapp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+picoapp/_picoapp.cpython-312-darwin.so,sha256=KgdxakKI_goT_CZCRTEK4OMtO2c7Pdi_XsyHMGtpaPI,12433088
+picoapp-0.1.0.dist-info/RECORD,,
