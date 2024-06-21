@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: PyAviationWeather
+Version: 0.0.1
+Summary: An aviation weather information python package
+Home-page: UNKNOWN
+Author: William Ng
+Author-email: Williamntw.Website@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyAviationWeather
+A python package for Aviation Weather service. Get METAR and TAF for specific airport.
+
+
+## Usage
+
+## Install
+
+```{bash}
+pip install git+https://github.com/twn-wi11i4m/PyAviationWeather.git
+```
+or
+```{bash}
+pip install PyAviationWeather
+```
+
+## Data Source
+http://aviationweather.gov/
+
+
