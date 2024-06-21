@@ -1,0 +1,14 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_get_extra_apt_packages_for_matlab.py,sha256=exikMHdEaIm2OZi4GJx950xF31eShzB-6iNOdIUiulc,2290
+tljh_matlab/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tljh_matlab/get_extra_apt_packages_for_matlab.py,sha256=49TSlQa_5BJVibS6yfKhBRZYLmuouJAEXLh9PRo8dIo,3375
+tljh_matlab/install_matlab.py,sha256=jklqe7zIznEpMJTwq8CpNa7OAeiGN64F8k1z2mPsFi4,1201
+tljh_matlab/tljh_matlab.py,sha256=RUAUxOfayQGYm4ONroeI8rgpZcKQS6kkpJlYA8PPxv8,1206
+tljh_matlab/bash_scripts/get-matlab-deps.sh,sha256=a7LjotWQ3uLiJjQawHlQp-3L4Cb-eD2IsCR-MFpK3fs,799
+tljh_matlab/bash_scripts/install-matlab.sh,sha256=MqjTRQDS0iXZp6xhjL_-4uy_7BHQeJ1lcZGBGu0icys,1229
+tljh_matlab-0.0.1.dist-info/LICENSE,sha256=Z3T9WyDSk2pWEjpwf4t-zX1JrTo2EJgWJBPAd-obVsY,2329
+tljh_matlab-0.0.1.dist-info/METADATA,sha256=HfRhY8KzG6d7NieYK7hsfotuPtEH9sFTxoSXS7FQiIk,175
+tljh_matlab-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tljh_matlab-0.0.1.dist-info/entry_points.txt,sha256=ePD1V9M2V005qvqsCOtWu2pnt_fHgzVmpjC-vDx0nlY,41
+tljh_matlab-0.0.1.dist-info/top_level.txt,sha256=eSRYU0Ky9Lr3XPMnMhfTIL6E0TjRXtN6JWdljuudao4,18
+tljh_matlab-0.0.1.dist-info/RECORD,,
