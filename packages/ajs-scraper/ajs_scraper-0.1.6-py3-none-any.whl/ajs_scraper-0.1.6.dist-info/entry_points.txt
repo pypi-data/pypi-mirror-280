@@ -1,0 +1,2 @@
+[console_scripts]
+ajs-scraper = src.web_scraper:main
