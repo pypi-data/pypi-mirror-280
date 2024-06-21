@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: painter-tk
+Version: 1.4.2
+Summary: 使用tkinter的Canvas控件制作的画板程序, 支持编辑、保存文档以及文档属性等功能。 A painter with tkinter.Canvas, supporting editing and saving documents and document attributes,etc.
+Home-page: https://github.com/qfcy/Python/tree/main/painter
+Author: 七分诚意 qq:3076711200
+Author-email: 3076711200@qq.com
+Keywords: simple,text,editor,notepad,tkinter
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Desktop Environment
+Classifier: Topic :: Software Development :: User Interfaces
+License-File: LICENSE
+
+应用tkinter的Canvas控件开发的画板程序, 
+
+支持绘制丰富多样的图形，并支持撤销、重做，
+
+支持打开、编辑和保存文档，以及设置文档属性功能，可自定义画笔粗细和颜色，以及背景颜色，
+
+支持保存为vec, json, jpg, png等多种文件格式，其中.vec为默认的格式。
+
+
+最近更新 v1.4.2: 修复bug，并精简了部分源代码, 使程序更加可读。
+
+更新 v1.4.1: 添加了保存为jpg, png等图像文件的功能。
+
+截图: 
+
+.. image:: https://img-blog.csdnimg.cn/direct/d873c69c909245049235ad0c79fc313c.png
+    :alt: 截图
+
+项目已发布在github上: https://github.com/qfcy/Python/tree/main/painter
+
+作者CSDN主页: https://blog.csdn.net/qfcy\_/
