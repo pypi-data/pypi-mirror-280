@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: souperscraper
+Version: 1.0.1
+Summary: A simple web scraper base combining Beautiful Soup and Selenium
+Home-page: https://github.com/LucasFaudman/souper-scraper.git
+Author: Lucas Faudman
+Author-email: Lucas Faudman <lucasfaudman@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Lucas Faudman
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/LucasFaudman/souper-scraper.git
+Project-URL: Repository, https://github.com/LucasFaudman/souper-scraper.git
+Keywords: web-scraping,scraping,easy,beautifulsoup4,beautifulsoup,bs4,selenium,selenium-webdriver
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: selenium
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+
+# SouperScraper
+
+> A simple web scraper base that combines BeautifulSoup and Selenium to scrape dynamic websites.
+
+
+## Setup
+1. Install with pip
+```bash
+pip install souperscraper
+```
+
+2. Download the appropriate [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads) for your Chrome version using [getchromedriver.py](https://github.com/LucasFaudman/souper-scraper/blob/main/src/souperscraper/getchromedriver.py) (command below) or manually from the [ChromeDriver website](https://sites.google.com/a/chromium.org/chromedriver/downloads).
+> To find your Chrome version, go to [`chrome://settings/help`](chrome://settings/help) in your browser.
+```bash
+getchromedriver
+```
+
+3. Create a new SouperScaper object using the path to your ChromeDriver
+```python
+from souperscraper import SouperScraper
+
+scraper = SouperScraper('/path/to/your/chromedriver')
+```
+
+4. Start scraping using BeautifulSoup and/or Selenium methods
+```python
+scraper.goto('https://github.com/LucasFaudman')
+
+# Use BeautifulSoup to search for and extract content
+# by accessing the scraper's 'soup' attribute
+# or with the 'soup_find' / 'soup_find_all' methods
+repos = scraper.soup.find_all('span', class_='repo')
+for repo in repos:
+    repo_name = repo.text
+    print(repo_name)
+
+# Use Selenium to interact with the page such as clicking buttons
+# or filling out forms by accessing the scraper's
+# find_element_by_* / find_elements_by_* / wait_for_* methods
+repos_tab = scraper.find_element_by_css_selector("a[data-tab-item='repositories']")
+repos_tab.click()
+
+search_input = scraper.wait_for_visibility_of_element_located_by_id('your-repos-filter')
+search_input.send_keys('souper-scraper')
+search_input.submit()
+```
+
+## BeautifulSoup Reference
+- [Quick Start](https://beautiful-soup-4.readthedocs.io/en/latest/#quick-start)
+- [Types of Objects](https://beautiful-soup-4.readthedocs.io/en/latest/#kinds-of-objects)
+- [The BeautifulSoup object](https://beautiful-soup-4.readthedocs.io/en/latest/#beautifulsoup)
+- [Navigating the HTML tree](https://beautiful-soup-4.readthedocs.io/en/latest/#navigating-the-tree)
+- [Searching for HTML Elements](https://beautiful-soup-4.readthedocs.io/en/latest/#searching-the-tree)
+- [Modifying the tree](https://beautiful-soup-4.readthedocs.io/en/latest/#modifying-the-tree)
+
+## Selenium Reference
+- [Quick Start](https://selenium-python.readthedocs.io/getting-started.html)
+- [Navigating the Web](https://selenium-python.readthedocs.io/getting-started.html#)
+- [Locating HTML Elements](https://selenium-python.readthedocs.io/locating-elements.html)
+- [Interacting with HTML elements on the page](https://selenium-python.readthedocs.io/navigating.html#interacting-with-the-page)
+- [Filling in Forms](https://selenium-python.readthedocs.io/navigating.html#filling-in-forms)
+- [Waiting (for page to load, element to be visible, etc)](https://selenium-python.readthedocs.io/waits.html)
+- [Full Webdriver API Reference](https://selenium-python.readthedocs.io/api.html)

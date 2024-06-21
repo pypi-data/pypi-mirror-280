@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+version = "1.0.1"
+authors = [{name = "Lucas Faudman", email = "lucasfaudman@gmail.com"}]
+dynamic = ["classifiers"]
+name = "souperscraper"
+requires-python = ">=3.8"
+readme = "README.md"
+license = { file = "LICENSE" }
+description = "A simple web scraper base combining Beautiful Soup and Selenium"
+keywords = ["web-scraping", "scraping", "easy", "beautifulsoup4", "beautifulsoup", "bs4", "selenium", "selenium-webdriver"]
+dependencies = [
+    "selenium",
+    "beautifulsoup4",
+    "requests",
+]
+
+[project.urls]
+Homepage = "https://github.com/LucasFaudman/souper-scraper.git"
+Repository = "https://github.com/LucasFaudman/souper-scraper.git"
+
+[project.scripts]
+getchromedriver = "souperscraper.getchromedriver:main"
+
+[tool.setuptools]
+
+[tool.setuptools_scm]
+version_file = "src/souperscraper/_version.py"
+
+[tool.black]
+line-length = 120
