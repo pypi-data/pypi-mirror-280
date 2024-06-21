@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: lom-api
+Version: 0.1.0
+Summary: A client library for the LoM API
+Home-page: https://github.com/lom/lom-api
+Author: Eiki Nishi
+Author-email: nishi@lom-inc.jp
+Maintainer: LoM.inc.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# lom-api
+
+A client library for the LoM API.
+
+## Installation
+
+```bash
+pip install lom-api
