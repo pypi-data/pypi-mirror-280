@@ -1,0 +1,8 @@
+README.md
+setup.py
+findpyx/__init__.py
+findpyx/main.py
+findpyx.egg-info/PKG-INFO
+findpyx.egg-info/SOURCES.txt
+findpyx.egg-info/dependency_links.txt
+findpyx.egg-info/top_level.txt
