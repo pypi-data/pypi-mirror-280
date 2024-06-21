@@ -1,0 +1,25 @@
+[package]
+name = "picoapp"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "picoapp"
+crate-type = ["cdylib"]
+
+[dependencies]
+
+cushy = { version = "0.3", features = ["plotters"] }
+kludgine = "0.8.0"
+plotters = { version = "0.3.6", features = ["fontconfig-dlopen"] }
+pyo3 = "0.21.1"
+
+# Note: fontconfig-dlopen should lead to forwarding of feature flag chain:
+# - https://docs.rs/crate/plotters/latest/features
+# - https://docs.rs/crate/font-kit/latest/features
+# - https://docs.rs/fontconfig/latest/fontconfig/
+
+# https://github.com/khonsulabs/cushy/discussions/148
+[profile.dev.package."*"]
+opt-level = 2
