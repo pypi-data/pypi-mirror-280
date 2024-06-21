@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+include parstools/py.typed
+include tests/*_test.py
+include examples/*.py
