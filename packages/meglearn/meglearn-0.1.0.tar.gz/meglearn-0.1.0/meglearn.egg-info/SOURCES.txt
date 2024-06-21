@@ -1,0 +1,7 @@
+setup.py
+libname/__init__.py
+libname/cloud4c.py
+meglearn.egg-info/PKG-INFO
+meglearn.egg-info/SOURCES.txt
+meglearn.egg-info/dependency_links.txt
+meglearn.egg-info/top_level.txt
