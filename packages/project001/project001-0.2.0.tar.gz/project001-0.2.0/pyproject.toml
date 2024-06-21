@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "project001"
+version = "0.2.0"
+description = "project001 is used for simple test"
+authors = ["johnypeng <2651903873@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.32.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
