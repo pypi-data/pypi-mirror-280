@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: twerkpool
+Version: 0.0.1
+Summary: Worker pool in Python with size and rate bounding options
+License: MIT
+Author: FlexDW
+Author-email: 22373561+FlexDW@users.noreply.github.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# py-workers
+
+Worker pool in Python with size and rate bounding options.
+

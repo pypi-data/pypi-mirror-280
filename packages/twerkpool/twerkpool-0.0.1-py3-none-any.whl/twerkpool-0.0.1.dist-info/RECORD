@@ -1,0 +1,5 @@
+src/worker_pool.py,sha256=3osC_quuhkcR6Un3alEwJrTeyc6DZKBbiXrUEog4z9o,6084
+src/worker_pool_test.py,sha256=9NLs2AYU422kBeGhGazkkXEWMVKqqZrKAMN7iiJLYLg,3041
+twerkpool-0.0.1.dist-info/METADATA,sha256=qze3C9X-INLFJl3DIpLc-URPkWWi-mgYuRxwcCQuZjs,497
+twerkpool-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+twerkpool-0.0.1.dist-info/RECORD,,
