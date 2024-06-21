@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ml-lib-remla"
+version = "1.1.1"
+description = ""
+authors = ["oltremare <oncwnuHZnY0Uo1jEvpEs9s-sZa78@git.weixin.qq.com>"]
+readme = "README.md"
+include = ["resources/tokenizer.pkl", "resources/label_encoder.pkl"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.41.2"
+scikit-learn = "^1.4.2"
+importlib-resources = "^6.4.0"
+numpy = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
