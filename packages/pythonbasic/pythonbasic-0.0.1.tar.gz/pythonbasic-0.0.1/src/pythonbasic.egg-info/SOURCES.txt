@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/pythonbasic/__init__.py
+src/pythonbasic/pythonbasic.py
+src/pythonbasic.egg-info/PKG-INFO
+src/pythonbasic.egg-info/SOURCES.txt
+src/pythonbasic.egg-info/dependency_links.txt
+src/pythonbasic.egg-info/top_level.txt
