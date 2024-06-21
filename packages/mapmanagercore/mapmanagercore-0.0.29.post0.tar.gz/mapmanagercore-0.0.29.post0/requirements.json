@@ -1,0 +1,12 @@
+{
+  "micropip": ["plotly", "dataclasses_json"],
+  "loadPackage": [
+    "numpy",
+    "pandas",
+    "scikit-image",
+    "geopandas",
+    "shapely",
+    "scikit-image",
+    "zarr"
+  ]
+}
