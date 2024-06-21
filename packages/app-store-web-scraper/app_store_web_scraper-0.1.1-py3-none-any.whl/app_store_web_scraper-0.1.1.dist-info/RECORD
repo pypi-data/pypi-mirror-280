@@ -1,0 +1,10 @@
+app_store_web_scraper/__about__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+app_store_web_scraper/__init__.py,sha256=K5tdwtQLqDE9pghK7fBaiJLrIrYu2X1ujHjrGRIB0E0,310
+app_store_web_scraper/_entry.py,sha256=q7g2BYigbi0MM1MPpnYzNiHgRHclN9G0Jkb41SH54Lw,5556
+app_store_web_scraper/_errors.py,sha256=O3nilHPoz4BFEJ18w7FCQIew2AdExkU2boBrofj5LuA,489
+app_store_web_scraper/_session.py,sha256=oaGHShqB0HopB9Y64GuaHKLwAsh88hNGfjYh3BuAB-E,4306
+app_store_web_scraper/_utils.py,sha256=0bBs2A6AE_YIhIJ2sElcJVJPVFOaH3VasM-T5Wq7_Ag,363
+app_store_web_scraper-0.1.1.dist-info/METADATA,sha256=M1CqepBECkCmaoxO6HAz4tg59fEnYCevDCuDAxHYBho,6992
+app_store_web_scraper-0.1.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+app_store_web_scraper-0.1.1.dist-info/licenses/LICENCE,sha256=RFhQPdSOiMTguUX7JSoIuTxA7HVzCbj_p8WU36HjUQQ,10947
+app_store_web_scraper-0.1.1.dist-info/RECORD,,
