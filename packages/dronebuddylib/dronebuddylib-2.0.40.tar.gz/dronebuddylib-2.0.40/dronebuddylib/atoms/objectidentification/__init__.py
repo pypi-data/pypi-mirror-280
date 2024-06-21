@@ -1,0 +1,9 @@
+__version__ = "2.0.33"
+
+from .i_object_identification import IObjectIdentification
+from .mp_object_detection_impl import MPObjectDetectionImpl
+from .object_identification_result import IdentifiedObjectObject
+from .object_identification_result import IdentifiedObjectObject
+from .object_identification_engine import ObjectIdentificationEngine
+from .object_identification_siamese_impl import ObjectIdentificationSiameseSiamese
+from .object_identification_resnet_impl import ObjectIdentificationResnetImpl
