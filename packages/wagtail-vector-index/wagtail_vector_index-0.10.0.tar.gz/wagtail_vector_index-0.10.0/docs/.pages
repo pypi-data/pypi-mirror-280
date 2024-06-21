@@ -1,0 +1,7 @@
+nav:
+    - installation.md
+    - quick-start.md
+    - using-indexes.md
+    - vector-indexes.md
+    - storage-providers.md
+    - architecture.md
