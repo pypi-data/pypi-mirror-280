@@ -1,0 +1,5 @@
+[console_scripts]
+generate_hmmtable = kegg_pathways_completeness.bin.generate_hmmtable.hmmscan_tab:main
+give_pathways = kegg_pathways_completeness.bin.give_pathways:main
+parsing_hmmscan = kegg_pathways_completeness.bin.generate_hmmtable.parsing_hmmscan:main
+plot_completeness_graphs = kegg_pathways_completeness.bin.plot_completeness_graphs:main
