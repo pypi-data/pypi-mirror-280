@@ -1,0 +1,15 @@
+xmltodict==0.13.0
+
+[:python_version <= "3.9"]
+pint<0.24,>=0.17
+numpy<2.0.0
+
+[:python_version >= "3.10"]
+pint>=0.24
+numpy>=1.21.2
+
+[dev]
+pytest
+ruff
+pre-commit
+structlog==22.3.0
