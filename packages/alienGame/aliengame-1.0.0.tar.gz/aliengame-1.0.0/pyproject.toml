@@ -1,0 +1,15 @@
+[build-system]
+requires = ['setuptools']
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alienGame"
+authors = [
+    { name = "Gavin", email = "otnw_bsj@163.com"}
+]
+description = "This is a Alien Game"
+version = "1.0.0"
+# 依赖
+dependencies = [
+    'pygame; python_version=="2.5.2"',
+]
