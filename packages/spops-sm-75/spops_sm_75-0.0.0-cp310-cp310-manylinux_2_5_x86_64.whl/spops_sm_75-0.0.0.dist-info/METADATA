@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: spops-sm-75
+Version: 0.0.0
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: ninja
+Requires-Dist: pybind11
+
