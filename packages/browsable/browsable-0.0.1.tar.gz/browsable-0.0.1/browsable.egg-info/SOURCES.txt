@@ -1,0 +1,8 @@
+.gitignore
+pyproject.toml
+browsable.egg-info/PKG-INFO
+browsable.egg-info/SOURCES.txt
+browsable.egg-info/dependency_links.txt
+browsable.egg-info/requires.txt
+browsable.egg-info/top_level.txt
+viewer/__init__.py

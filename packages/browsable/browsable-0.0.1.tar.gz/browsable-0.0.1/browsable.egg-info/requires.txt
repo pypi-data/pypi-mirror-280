@@ -1,0 +1,23 @@
+importlib-metadata
+importlib-resources
+typing_extensions>=3.10.0.0
+
+[all]
+
+[dev]
+black
+jupyter
+griffe==0.38.1
+pandas
+polars
+pre-commit==2.15.0
+pyarrow
+pyright>=1.1.244
+pytest>=3
+pytest-cov
+syrupy
+
+[dev:python_version >= "3.9"]
+quartodoc>=0.7.1
+
+[extra]
