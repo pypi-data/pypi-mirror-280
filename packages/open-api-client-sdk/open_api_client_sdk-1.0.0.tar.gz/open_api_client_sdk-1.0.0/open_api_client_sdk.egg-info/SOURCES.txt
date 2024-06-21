@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+open_api_client_sdk/__init__.py
+open_api_client_sdk/open_client.py
+open_api_client_sdk/utils.py
+open_api_client_sdk.egg-info/PKG-INFO
+open_api_client_sdk.egg-info/SOURCES.txt
+open_api_client_sdk.egg-info/dependency_links.txt
+open_api_client_sdk.egg-info/requires.txt
+open_api_client_sdk.egg-info/top_level.txt
