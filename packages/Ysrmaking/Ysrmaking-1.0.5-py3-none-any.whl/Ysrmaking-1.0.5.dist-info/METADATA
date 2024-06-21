@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Ysrmaking
+Version: 1.0.5
+Summary: this is for making the sample test on openjudge to testing coding probelm
+Home-page: https://github.com/cloudann/YSRmaking
+Author: Cloud_Ann
+Author-email: 383067040@qq.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+Requires-Dist: cyaron
+Requires-Dist: importlib
+
+# Compress_cyaron
+A tool for using cyaron further
