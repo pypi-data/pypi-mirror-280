@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: evalmyai
+Version: 0.1.0a0
+Summary: EVALMY.AI Python library
+Requires-Dist: requests
+Requires-Dist: pandas
+
