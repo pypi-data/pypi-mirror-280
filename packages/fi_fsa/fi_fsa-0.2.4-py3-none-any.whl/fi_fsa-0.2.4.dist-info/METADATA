@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: fi_fsa
+Version: 0.2.4
+Summary: Fourier Smart Actuator (FSA) Python SDK
+Author-Email: FFTAI <huigang.wang@fftai.com>
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# fi_fsa
