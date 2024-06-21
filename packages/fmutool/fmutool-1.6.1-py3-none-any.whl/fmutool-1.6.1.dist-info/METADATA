@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fmutool
+Version: 1.6.1
+Summary: FMUTool is a python application which help to modify a Functional Mock-up Units (FMUs) without recompilation
+Home-page: https://github.com/grouperenault/fmutool/
+Author: Nicolas.LAURENT@Renault.com
+License-File: LICENSE.txt
+
+FMUTool is a python application which help to modify a Functional Mock-up Units (FMUs) 
+without recompilation. It mainly modifies the `modelDescription.xml` file. It is highly customizable.
+
+Manipulating the `modelDescription.xml` can be a dangerous thing! Communicating with the FMU-developer and adapting
+the way the FMU is generated, is the preferable when possible.
+    
