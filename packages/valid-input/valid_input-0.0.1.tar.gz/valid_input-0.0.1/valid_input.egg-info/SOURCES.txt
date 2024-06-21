@@ -1,0 +1,8 @@
+README.md
+setup.py
+valid_input/__init__.py
+valid_input/tools.py
+valid_input.egg-info/PKG-INFO
+valid_input.egg-info/SOURCES.txt
+valid_input.egg-info/dependency_links.txt
+valid_input.egg-info/top_level.txt
