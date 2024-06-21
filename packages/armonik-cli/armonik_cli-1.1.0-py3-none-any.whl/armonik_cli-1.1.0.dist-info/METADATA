@@ -1,0 +1,137 @@
+Metadata-Version: 2.1
+Name: armonik-cli
+Version: 1.1.0
+Summary: A CLI to administrate ArmoniK orchestrator
+License: MIT License
+        
+        Copyright (c) 2024, Jeremy Zynger
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+        
+Project-URL: Homepage, https://github.com/jeremyzyngeraneo/rncp
+Keywords: cloud,HTC
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: armonik >=3.15.0
+Requires-Dist: sqlalchemy
+Requires-Dist: psycopg2-binary
+Requires-Dist: python-dotenv
+Requires-Dist: alembic
+Provides-Extra: dev
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: coverage ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: requests ; extra == 'tests'
+Requires-Dist: pytest-benchmark[histogram] ; extra == 'tests'
+
+# ArmoniK.Admin.CLI
+
+This project is part of the [ArmoniK](https://github.com/aneoconsulting/ArmoniK) project.
+In particular it is a consitutent of its [Core](https://github.com/aneoconsulting/ArmoniK.Core)
+component which, among its main functionalities, implements several gRPC services aiming to
+provide a user with a robust task scheduler for a high throughput computing application.
+
+The .proto files in the directory [./Protos/V1](https://github.com/aneoconsulting/ArmoniK.Api/tree/main/Protos/V1) 
+provide the core data model and functionalities for ArmoniK and are used to generate the different SDKs.
+
+## Requirements
+
+In order to install the ArmoniK CLI in an isolated environment, you must have python3-venv installed on your machine.
+
+```bash
+sudo apt install python3-venv
+```
+
+## Installation
+
+### Prerequisites
+
+- Python 3.10
+- pip (Python package installer)
+
+### Setting up a Virtual Environment
+
+It's a good practice to use a virtual environment to isolate your project dependencies. Create a virtual environment using `venv`:
+
+```bash
+python3 -m venv .venv
+```
+
+Activate the virtual environment:
+
+* On Windows:
+
+```powershell
+.\.venv\Scripts\activate
+```
+
+* On Unix or MacOS:
+
+```bash
+source .venv/bin/activate
+```
+
+### Installing the project using pip
+
+Once the virtual environment is activated, you can install the project using pip.
+
+```bash
+pip install armonik_cli
+```
+
+This will install the project and its dependencies.
+
+### Installing the project from sources
+
+You can also intall the project from sources by cloning the repository.
+
+```bash
+git clone git@github.com:aneoconsulting/ArmoniK.Admin.CLI.git
+```
+
+Navigate to the project directory and run:
+
+```bash
+pip install .
+```
+
+For development, you might want to install additional packages for testing, linting, etc. Install the development dependencies using:
+
+```bash
+pip install -e .[dev,tests]
+```
+
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for ways to get started.
+
+## License
+
+[Apache Software License 2.0](LICENSE)
