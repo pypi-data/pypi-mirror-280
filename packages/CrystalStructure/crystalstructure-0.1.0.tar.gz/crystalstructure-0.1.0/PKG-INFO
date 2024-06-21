@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: CrystalStructure
+Version: 0.1.0
+Summary: A python implementation of a Crystal Structure based on pymatgen
+Author-email: Daniel Hollarek <daniel.hollarek@googlemail.com>
+Project-URL: repository, https://github.com/aimat-lab/CrystalStructure
+Description-Content-Type: text/markdown
+Requires-Dist: numpy<2.0.0
+Requires-Dist: holytools
+Requires-Dist: pymatgen
+
+## About
+
+A python implementation of Crystal structures based on pymatgen which supports:
+- importing crystal structures via .cif
+- representation of Lattice Parameters and Crystal Base as easily accessible Pythonic objects
+- Saving crystal structures as .json files 
+- Scaling the dimensions of a structure
+- Determining an estimate of atomic volume in unit cell
+- Standardizing the Lattice parameter ordering and ordering of atoms within the unit cell
+- Finding scattering parameters of atoms in the crystal
+- Representing partially labeled crystal structures with unknown data points
+
+
+
+## Setup:
+The library can be installed using pip
+
+```bash
+pip install CrystalStructure 
+```
+
