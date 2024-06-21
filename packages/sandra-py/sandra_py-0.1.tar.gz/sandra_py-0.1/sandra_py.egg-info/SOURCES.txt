@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+sandra/__init__.py
+sandra/ontology.py
+sandra/reasoner.py
+sandra/torch.py
+sandra_py.egg-info/PKG-INFO
+sandra_py.egg-info/SOURCES.txt
+sandra_py.egg-info/dependency_links.txt
+sandra_py.egg-info/requires.txt
+sandra_py.egg-info/top_level.txt

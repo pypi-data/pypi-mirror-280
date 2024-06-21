@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sandra-py
+Version: 0.1
+License-File: LICENSE
+Requires-Dist: rdflib>=7.0.0
+Requires-Dist: numpy>=1.26.2
+Provides-Extra: torch
+Requires-Dist: torch>=2.1.1; extra == "torch"
