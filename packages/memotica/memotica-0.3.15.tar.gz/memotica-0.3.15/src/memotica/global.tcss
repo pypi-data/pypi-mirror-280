@@ -1,0 +1,152 @@
+Screen {
+  layout: horizontal;
+  height: auto;
+  width: auto;
+}
+
+AddDeckModal,
+DeleteDeckModal,
+EditDeckModal,
+AddFlashcardModal,
+DeleteFlashcardModal,
+EditFlashcardModal,
+HelpModal {
+  align: center middle;
+}
+
+.modal {
+  background: $surface;
+  border: solid $secondary;
+  height: auto;
+  max-height: 30;
+  max-width: 90;
+  width: auto;
+}
+
+.modal--add-deck,
+.modal--edit-deck {
+  height: 12;
+  width: 60;
+}
+
+.modal--delete-deck,
+.modal--delete-flashcard {
+  height: 12;
+  width: 60;
+}
+
+.modal--add-card,
+.modal--edit-card {
+  layout: grid;
+  grid-columns: 1fr;
+  grid-rows: auto 1fr auto;
+}
+
+.modal--delete-deck Static,
+.modal--delete-flashcard Static {
+  padding: 1;
+}
+
+.modal--help {
+  height: 1fr;
+  max-height: 12;
+  max-width: 60;
+  width: 1fr;
+}
+
+.modal__reversible {
+  layout: grid;
+  grid-columns: auto auto;
+  grid-size: 2 1;
+  grid-gutter: 1;
+}
+
+.modal__reversible Static {
+  content-align: center middle;
+  height: 3;
+}
+
+.modal__options {
+  layout: horizontal;
+}
+
+.modal__options--delete {
+  grid-columns: 1fr 1fr;
+  grid-gutter: 1;
+  grid-size: 2 1;
+  layout: grid;
+  padding: 1;
+}
+
+.modal__options--delete Button {
+  width: 100%;
+}
+
+.modal__reversible {
+  width: auto;
+}
+
+.modal__options Select {
+  width: 1fr;
+}
+
+.modal__review {
+  grid-columns: 100%;
+  grid-rows: 1fr 1fr;
+  height: auto;
+  layout: grid;
+  width: auto;
+}
+
+.modal__front,
+.modal__back {
+  margin-bottom: 1;
+}
+
+.modal__front Static,
+.modal__back Static {
+  padding-left: 1;
+}
+
+.modal__buttons {
+  align: center middle
+}
+
+DeckTree {
+  width: 40;
+}
+
+DeckTree,
+FlashcardsTable {
+  border-title-align: left;
+  border: solid $secondary-darken-3;
+  height: 100%;
+}
+
+.focused {
+  border: solid $secondary;
+}
+
+FlashcardsTable {
+  width: 1fr;
+}
+
+.review__screen {
+  align: center middle;
+}
+
+.review__screen__question,
+.review__screen__front,
+.review__screen__back {
+  border: solid $secondary;
+  padding: 1;
+}
+
+.review__screen__controls {
+  layout: horizontal;
+  align: center middle;
+}
+
+.hide {
+  display: none;
+}
