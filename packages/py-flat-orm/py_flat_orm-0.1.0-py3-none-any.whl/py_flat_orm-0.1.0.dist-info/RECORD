@@ -1,0 +1,10 @@
+py_flat_orm/__about__.py,sha256=sdjZ7VZaar-Z9Dwt6CXqkvVTMDVCgPxohjkVEV_ioGk,130
+py_flat_orm/__init__.py,sha256=YwNiwkw20JWD8T6CvSxnUKVIk_9Y2HY5YoMFWoRf8vE,107
+py_flat_orm/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_flat_orm/util/base_util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_flat_orm/util/base_util/in_fn.py,sha256=quMQrQhKv07Zt0tD9XXtA9o7mCI1YIEJzVNVIXfE-No,7848
+py_flat_orm/util/base_util/value_util.py,sha256=_wXbdyVd1TbCiorJJ7QuEZ8A0Sd4oLARbroCCUid6yc,93
+py_flat_orm-0.1.0.dist-info/METADATA,sha256=0xlJOw0dZZuHQIVA4ihDKdNHhg3FkqLGhTaI4-wJDVs,2325
+py_flat_orm-0.1.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+py_flat_orm-0.1.0.dist-info/licenses/LICENSE.txt,sha256=J515y4Pc_-nRvmRR7qdWO-PR3VnB38vnvC8quS54UP0,1105
+py_flat_orm-0.1.0.dist-info/RECORD,,
