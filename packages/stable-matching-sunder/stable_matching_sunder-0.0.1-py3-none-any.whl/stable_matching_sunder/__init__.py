@@ -1,0 +1,1 @@
+from stable_matching import stable_matching_from_csv
