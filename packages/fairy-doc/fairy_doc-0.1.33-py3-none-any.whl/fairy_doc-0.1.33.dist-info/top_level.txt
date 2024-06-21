@@ -1,0 +1,2 @@
+magic_doc
+magic_doc/contrib/magic_html/mmltex
