@@ -1,0 +1,87 @@
+Metadata-Version: 2.3
+Name: pywavers
+Version: 0.1.0
+Requires-Dist: numpy >=1.21
+Requires-Dist: soundfile >=0.10 ; extra == 'test'
+Provides-Extra: test
+License-File: LICENSE
+Summary: A mixed Rust and Python crate/package for reading and writing WAVE files. Exposes the Rust crate Wavers to Python.
+Author: Jack Geraghty (jmg049)
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/jmg049/PyWavers/
+
+
+<div style="text-align: center;" align="center">
+<h1>PyWaveRS - WaveRs but for Python</h1>
+
+
+**<p style="text-align: center;"> [![crate-pywavers-img]][crate-pywavers] [![crate-pywavers-docrs-img]][pywavers-docrs] [![crate-pywavers-readdocs-img]][pywavers-readdocs] [![Crates.io][crate-img]][crate] [![Documentation][docs-img]][docs] </p>**
+
+[crate-pywavers]: https://github.com/jmg049/pywavers
+
+[crate-pywavers-img]: https://img.shields.io/badge/PyWavers-56B4E9?style=for-the-badge&labelColor=gray
+
+[crate-pywavers-docrs-img]: https://img.shields.io/badge/Docs-56B4E9?style=for-the-badge&labelColor=gray
+
+
+[crate-pywavers-readdocs-img]:  https://img.shields.io/badge/Read_The_Docs-56B4E9?style=for-the-badge&labelColor=gray
+
+[crate]:         https://crates.io/crates/wavers
+
+[crate-img]:     https://img.shields.io/badge/WaveRs-009E73?style=for-the-badge&labelColor=gray
+
+
+[docs-img]:      https://img.shields.io/badge/docs-009E73.svg?style=for-the-badge&labelColor=gray
+
+[docs]:          https://docs.rs/wavers
+
+[pywavers-readdocs]: https://readthedocs.org/projects/pywavers
+
+[pywavers-docrs]: https://docs.rs/pywavers
+
+<p>
+    <strong>
+	WaveRs (pronounced wavers) is a Wav file reader/writer written in Rust and designed to fast and easy to use. WaveRs is also available in Python through the PyWaveRs package. 
+    </strong>
+</p>
+
+<p>
+    <h3>
+        <a href="https://docs.rs/wavers">Getting Started</a>
+        <span> · </span>
+        <a href="">Benchmarks</a>
+    </h3>
+</p>
+</div>
+
+---
+
+# Getting Started
+
+## Benchmarks
+
+<div align=center>
+
+| dtype   |   PyWavers |   SoundFile |    SciPy |   TorchAudio (Sox) |   TorchAudio (SoundFile) |   TensorFlow Audio-IO |
+|---------|------------|-------------|----------|--------------------|--------------------------|-----------------------|
+| int16   |    18.0455 |      31.505 |  16.8316 |            195.954 |                  191.826 |               49.0038 |
+| int32   |    35.8505 |     141.546 | nan      |            nan     |                  nan     |              nan      |
+| float32 |    43.3757 |     203.17  | nan      |            228.13  |                  225.659 |              nan      |
+| float64 |    81.4131 |     206.821 | nan      |            324.17  |                  315.95  |              nan      |
+
+All times are in **microseconds μs**  and are the time taken (on average) to load a single file from the set of test files. Timings were only taken when the library could load and automatically convert the file to another type of sampled audio data. Only ``PyWavers`` and ``Soundfile`` have this functionality built in. For the cases of ``f32`` and ``f64`` the conversion involves just casting to the other type therefore the times are included where applicable. 
+</div>
+
+The NaNs present in the benchmarks table incidate the the library could not automatically load and convert to that data type. For example, ``SciPy`` loads the native encoding of the file, it isn't that it can't load a file, it just can't convert it to another type of sampled audio data. The same occurs with ``Tensorflow``. ``PyTorch`` has the options of normalizing or not normalizing the data (as ``f32`` or native encoding), but it doesn't have the option to convert to another type of sampled audio data, such as between ``i16`` and ``i32``.
+
+The wav files included in the test set are between 7 and 15 seconds long. They are all encoded as PCM-16. The benchmarks were taken using Wavers v1.4.3. 
+
+<div align=center>
+<figure>
+    <img src="readme_images/benchmarks.png" alt="Reading i16" width="1920"/>
+    <figcaption>Benchmark results for reading PCM-16 encoded wav files.</figcaption>
+</figure>
+</div>
+

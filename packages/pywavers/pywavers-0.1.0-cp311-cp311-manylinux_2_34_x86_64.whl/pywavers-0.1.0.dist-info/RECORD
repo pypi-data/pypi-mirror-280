@@ -1,0 +1,11 @@
+pywavers-0.1.0.dist-info/METADATA,sha256=ylIdglr-saOPZlCxO3TXEynpRMbHvgzEcHd0Nsb4C40,4164
+pywavers-0.1.0.dist-info/WHEEL,sha256=-uS3zuN2doHqZEYNDtrODwIpS2TbPVj8Gzsk549lbFo,108
+pywavers-0.1.0.dist-info/license_files/LICENSE,sha256=TTQ2zBcPh7drNhpvo9jWIBeTtIwURl4Z84ZtJObCkQ0,1063
+pywavers/test_resources/one_channel_f64.wav,sha256=jDsxITuj5SvMNj6jTaRO2lNn_qT4my5HdKogVC2CXGg,1280080
+pywavers/test_resources/one_channel_i32.wav,sha256=HVujmBicx3PN_5QX_6KzUSNS02RP3Fcc2Kxv_vBQ0J8,640044
+pywavers/test_resources/one_channel_i16.wav,sha256=D7bxOESi5619oCI4fNgJxuHSq8EDz2QrA_hDpzC8mmY,320044
+pywavers/test_resources/one_channel_f32.wav,sha256=s3zMGisR8UrMFhQ-jCw4G2idxVYdND8pSbQBZ5m3Tp4,640080
+pywavers/__init__.py,sha256=fxpjF9O-JYPhNrvVi4uAIfaDrHWX_ZHO2FKGXHzK58g,46
+pywavers/wavers.py,sha256=MTt4oAYGMakupxTjYcYPNhEJNArFkEv-xCa7JKPgLBw,8132
+pywavers/pywavers.cpython-311-x86_64-linux-gnu.so,sha256=Tx_FS5FU0X1CfcEXwDyzew8BUXjvsxOeKkzriDcr1TM,630424
+pywavers-0.1.0.dist-info/RECORD,,
