@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+torch_pgn/__init__.py
+torch_pgn/args.py
+torch_pgn/load_data.py
+torch_pgn.egg-info/PKG-INFO
+torch_pgn.egg-info/SOURCES.txt
+torch_pgn.egg-info/dependency_links.txt
+torch_pgn.egg-info/requires.txt
+torch_pgn.egg-info/top_level.txt
