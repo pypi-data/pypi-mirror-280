@@ -1,0 +1,4 @@
+include Fay/*
+include Fay/gui/*
+include Fay/gui/templates/*
+include Fay/gui/static/*
