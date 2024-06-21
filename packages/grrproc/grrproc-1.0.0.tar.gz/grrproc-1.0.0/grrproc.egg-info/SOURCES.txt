@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+grrproc/__about__.py
+grrproc/__init__.py
+grrproc/grp.py
+grrproc.egg-info/PKG-INFO
+grrproc.egg-info/SOURCES.txt
+grrproc.egg-info/dependency_links.txt
+grrproc.egg-info/requires.txt
+grrproc.egg-info/top_level.txt
