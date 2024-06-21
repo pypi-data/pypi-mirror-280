@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "clasaua"
+version = "0.4.7"
+description = "Clasificacions circuito galego augas abertas"
+authors = ["Dani MF <dani@damufo.eu>"]
+repository = "https://github.com/damufo/clasaua/"
+license = "GPLv3"
+readme = "README.md"
+packages = [
+    {include = "clasaua"},
+    ]
+
+include = [
+    {path = "fonts/open-sans/"},
+    {path = "images/logo_left.png"},
+    {path = "images/logo_right.png"},
+    {path = "images/logo_foot.png"},
+    {path = "locale/messages_gl.mo"},
+    {path = "VERSION.txt"},
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8.0,<3.13"
+odfpy = "^1.4.1"
+reportlab = "^4.2.0"
+
+
+[[tool.poetry.source]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+clasauaa = "clasaua.launcher:clasaua"
+
+
+[tool.poetry-pyinstaller-plugin]
+# Pyinstaller version (Optional, latest if not set)
+# Does not support version constraint (eg: ^6.4)
+version = "6.7.0"
+
+# Disable UPX compression
+disable-upx = true
+
+
+[tool.poetry-pyinstaller-plugin.scripts]
+myclas = { source = "clasaua/launcher.py", type = "onedir", bundle = false }
+
+[tool.poetry-pyinstaller-plugin.collect]
+# Collect all submodules, data files & binaries for 'package_A' and 'package_B'
+all = ['odf', 'reportlab']
