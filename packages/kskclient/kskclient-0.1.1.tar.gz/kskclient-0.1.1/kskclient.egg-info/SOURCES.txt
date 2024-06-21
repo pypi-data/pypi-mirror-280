@@ -1,0 +1,16 @@
+README.md
+setup.py
+kskclient.egg-info/PKG-INFO
+kskclient.egg-info/SOURCES.txt
+kskclient.egg-info/dependency_links.txt
+kskclient.egg-info/top_level.txt
+qrizzclient/AuthEndpoints.py
+qrizzclient/ChatEndpoints.py
+qrizzclient/Client.py
+qrizzclient/Config.py
+qrizzclient/ConnectDbEndpoints.py
+qrizzclient/Endpoints.py
+qrizzclient/Exceptions.py
+qrizzclient/FileEndpoints.py
+qrizzclient/Session.py
+qrizzclient/__init__.py
