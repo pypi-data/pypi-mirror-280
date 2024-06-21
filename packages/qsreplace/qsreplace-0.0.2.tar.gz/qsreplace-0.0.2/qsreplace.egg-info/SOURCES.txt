@@ -1,0 +1,9 @@
+LICENSE
+README.md
+qsreplace.py
+setup.py
+qsreplace.egg-info/PKG-INFO
+qsreplace.egg-info/SOURCES.txt
+qsreplace.egg-info/dependency_links.txt
+qsreplace.egg-info/requires.txt
+qsreplace.egg-info/top_level.txt
