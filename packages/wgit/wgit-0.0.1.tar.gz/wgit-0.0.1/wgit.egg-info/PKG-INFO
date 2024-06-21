@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: wgit
+Version: 0.0.1
+Author: Marcello De Giorgi
+Author-email: degiorgimarcello@gmail.com
+License-File: LICENSE
+Requires-Dist: pyyaml
