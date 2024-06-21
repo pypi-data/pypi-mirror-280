@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sievedata
+Version: 1.2.0
+Summary: Sieve CLI and Python Client
+Home-page: https://github.com/sieve-data/sieve
+Author: Sieve Team
+Author-email: developer@sievedata.com
+License: unlicensed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Sieve
+
+The Sieve package and Python client. See the [Sieve Documentation](https://docs.sievedata.com/guide/intro) for usage information.
+
