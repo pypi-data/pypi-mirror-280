@@ -1,0 +1,6 @@
+dotnest/__init__.py,sha256=yLlY4J9DAwKLplv_o-F7XDV64kkaSXqiv2CV1uym1tE,4902
+dotnest/tests/test_dotnest.py,sha256=LVBYTojd6bkKvLM7j5WPvDefoScsyyyfgetQToeW7Bg,3776
+dotnest-1.1.dist-info/METADATA,sha256=NrhkB5vtN5zAL6Ob5HCdHH3G-XgsAXhY8lqI6gR3y1Q,1843
+dotnest-1.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+dotnest-1.1.dist-info/licenses/LICENSE,sha256=VTmZoIeoKzTtlSoM_Auo4n8gx2RIDZzxLH93QR4JKFE,1127
+dotnest-1.1.dist-info/RECORD,,
