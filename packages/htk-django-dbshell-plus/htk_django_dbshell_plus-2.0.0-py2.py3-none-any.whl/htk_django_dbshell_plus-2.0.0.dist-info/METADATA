@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: htk-django-dbshell-plus
+Version: 2.0.0
+Summary: A dbshell_plus management command for Django that selects pgcli or mycli when available.
+Home-page: https://github.com/hacktoolkit/django-dbshell-plus
+Author: Hacktoolkit
+Author-email: hello@hacktoolkit.com
+License: BSD
+Keywords: django-dbshell-plus
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+License-File: AUTHORS.md
+Requires-Dist: Django
+
+# Django DB Shell Plus
+
+**NOTE:**
+This is a fork from
+https://github.com/simonpercivall/django-dbshell-plus, which has not
+been maintained for over 9 years.
+
+
+[https://badge.fury.io/py/htk_django_dbshell_plus.png](http://badge.fury.io/py/htk-django-dbshell-plus)
+
+[https://pypip.in/d/htk_django_dbshell_plus/badge.png](https://crate.io/packages/htk-django-dbshell-plus?version=latest)
+
+
+A dbshell_plus management command for Django that selects `pgcli` or `mycli` when available.
+
+* Free software: BSD license
+* Documentation: http://django-dbshell-plus.rtfd.org.
+
+
+
+
+Here's the recent changes to Django DB Shell Plus.
+
+---
+
+Version: 2.0.0
+Released: 2024-06-20
+
+Updates for Python 3
+
+---
+
+Version: 1.0.1
+Released: 2015-08-12
+
+Initial version, use `pgcli` or `mycli` when available.
+
+---
+
+
+

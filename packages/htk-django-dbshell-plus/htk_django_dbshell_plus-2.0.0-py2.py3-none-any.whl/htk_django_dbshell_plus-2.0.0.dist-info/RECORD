@@ -1,0 +1,10 @@
+django_dbshell_plus/__init__.py,sha256=E71JLIdQ76NU_smj6F_4DB66dSverQ2b-iVUa6Xa6b4,38
+django_dbshell_plus/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_dbshell_plus/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_dbshell_plus/management/commands/dbshell_plus.py,sha256=Bedia1b4Dx1_f6aJcxfnnlQKJ7N30uVxdiN0eeETDqE,2115
+htk_django_dbshell_plus-2.0.0.dist-info/AUTHORS.md,sha256=u80iej1g4TuDkwneiYZa1U8SSxIaYIHX561G1EGsKjE,139
+htk_django_dbshell_plus-2.0.0.dist-info/LICENSE,sha256=yTFQjuTSHq8F1fYNTSnDuPAoyGQkx8lwFeEUIMIaskc,1482
+htk_django_dbshell_plus-2.0.0.dist-info/METADATA,sha256=vlst8UiiiSLWpgJGaZ1y0uDUBl21HUnPDt4i0yIFRXw,1435
+htk_django_dbshell_plus-2.0.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+htk_django_dbshell_plus-2.0.0.dist-info/top_level.txt,sha256=HvfXIqys8zcEnDt1jnSnfPh9Mesku5NNQopHjr2j6IA,20
+htk_django_dbshell_plus-2.0.0.dist-info/RECORD,,
