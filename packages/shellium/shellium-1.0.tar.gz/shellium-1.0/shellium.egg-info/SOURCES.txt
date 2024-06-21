@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+shellium/__init__.py
+shellium/options.py
+shellium/service.py
+shellium/webdriver.py
+shellium.egg-info/PKG-INFO
+shellium.egg-info/SOURCES.txt
+shellium.egg-info/dependency_links.txt
+shellium.egg-info/top_level.txt
