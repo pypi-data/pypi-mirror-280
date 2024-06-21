@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pydevroutes
+Version: 0.1.2
+Summary: A simple package for add dev source paths to sys.path.
+Author: Luis Enrique Quispe Paredes (lquispe@transmin.com)
+License-File: LICENSE
