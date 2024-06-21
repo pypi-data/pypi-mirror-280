@@ -1,0 +1,6 @@
+recursive-include sciby/data *
+exclude sciby/__process (2).py
+exclude sciby/language/__tokenize_.py
+exclude sciby/language/__vocab_.py
+exclude sciby/neuralnet/__attention (2).py
+exclude sciby/neuralnet/__dataset (2).py
