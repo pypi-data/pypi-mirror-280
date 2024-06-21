@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rkan
+Version: 0.0.1
+Summary: Rational Kolmogorov-Arnold Network (rKAN)
+Home-page: https://github.com/alirezaafzalaghaei/rkan
+Author: Alireza Afzal Aghaei
+Author-email: alirezaafzalaghaei@gmail.com
+License: BSD
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: BSD License
+License-File: LICENSE

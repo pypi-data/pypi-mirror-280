@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+rkan/__init__.py
+rkan/jacobi_polynomials.py
+rkan/tensorflow.py
+rkan/torch.py
+rkan.egg-info/PKG-INFO
+rkan.egg-info/SOURCES.txt
+rkan.egg-info/dependency_links.txt
+rkan.egg-info/top_level.txt
