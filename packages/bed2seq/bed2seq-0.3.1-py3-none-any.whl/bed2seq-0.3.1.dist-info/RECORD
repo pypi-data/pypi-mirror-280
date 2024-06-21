@@ -1,0 +1,9 @@
+bed2seq/__init__.py,sha256=GzvTnN2t-sVZs1tRz4em8R_yLAmi0SaLWRY5SuuocJY,152
+bed2seq/bed2seq.py,sha256=cmUEOlgVGB7kUNCDg0iG1XDuWX_AnMEsk0aMSTlUZG4,7343
+bed2seq/info.py,sha256=zz5haxvv5jwGQv8vmPU7Ji_zgHBgaRfaxds3BvOFVWY,217
+bed2seq-0.3.1.dist-info/LICENCE.md,sha256=M7wm1EmMGDtwPRdg7kW4d00h1uAXjKOT3HFScYQMeiE,34916
+bed2seq-0.3.1.dist-info/METADATA,sha256=oukXAMBYFP1R0dUkAfQcowyZzpMhkvW-qge7WcXrs9w,1626
+bed2seq-0.3.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bed2seq-0.3.1.dist-info/entry_points.txt,sha256=SiA2om5ccjOq7ROfgQbgXYxFnuBaOtSunGVkFpXYRD4,49
+bed2seq-0.3.1.dist-info/top_level.txt,sha256=J--rZcviYUnjGKkRI3EMWzVutN8s7lvtYGr8CFE0MBU,8
+bed2seq-0.3.1.dist-info/RECORD,,
