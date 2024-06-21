@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+wgit/__init__.py
+wgit/extensions.py
+wgit/main.py
+wgit/precommand.py
+wgit/utils.py
+wgit.egg-info/PKG-INFO
+wgit.egg-info/SOURCES.txt
+wgit.egg-info/dependency_links.txt
+wgit.egg-info/entry_points.txt
+wgit.egg-info/requires.txt
+wgit.egg-info/top_level.txt
