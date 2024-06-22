@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: microscope-napari
+Version: 0.0.1
+Summary: Nanobiosensorics microscopic napari plugin.
+Home-page: https://github.com/Nanobiosensorics/microscope-napari
+Author: Nanobiosensorics
+Author-email: horvath.robert@energia.mta.hu
+License: BSD-3
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Framework :: napari
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: napari
+Requires-Dist: napari-plugin-engine>=0.1.4
+Requires-Dist: cellpose>0.6.3
+Requires-Dist: imagecodecs
+Provides-Extra: docs
+Requires-Dist: sphinx>=3.0; extra == "docs"
+Requires-Dist: sphinxcontrib-apidoc; extra == "docs"
+Requires-Dist: sphinx_rtd_theme; extra == "docs"
+Requires-Dist: sphinx-prompt; extra == "docs"
+Requires-Dist: sphinx-autodoc-typehints; extra == "docs"
+Provides-Extra: testing
+Requires-Dist: tox; extra == "testing"
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: pytest-cov; extra == "testing"
+Requires-Dist: pytest-qt; extra == "testing"
+Requires-Dist: napari; extra == "testing"
+Requires-Dist: pyqt5; extra == "testing"
