@@ -1,0 +1,13 @@
+ldrb/__init__.py,sha256=ZF2aaxvmXzytspJXOzgTgwZIratvCN_MVGcz8g5gfss,535
+ldrb/__main__.py,sha256=MHKZ_ae3fSLGTLUUMOx15fWdeOnJSHhq-zslRP5F5Lc,79
+ldrb/calculus.py,sha256=iOCvAUVysF5MDvWoVuEUr9QGJArwaxiir63kBVdkHnQ,10009
+ldrb/cli.py,sha256=vYeNP9HCLlGCeChS_uZOjilWDMXxIdTg5sqJQGqKZnw,5695
+ldrb/io.py,sha256=4XfndDhBkabREZZq-9mkoummhBHY-9w3M3VUKXrcTyI,2830
+ldrb/ldrb.py,sha256=lK4Oxq50rAXZjRrPvQ6iNOLJ5NmuDi58E6isHX3qJC0,20851
+ldrb/utils.py,sha256=QZybKXsfz6LC1bbNoKlbIVv_2_eK4C0xe-3rjAVDQEI,2791
+fenicsx_ldrb-0.1.2.dist-info/LICENSE,sha256=f07dU5JUDgFf0HlJbzrhbpsD36EMkv_Lvxwe4V1WxJo,1072
+fenicsx_ldrb-0.1.2.dist-info/METADATA,sha256=oi6OB4n4zk72P8j6Xk6_2ZfOgxMRKnQ8MC6P7NqDlp8,2500
+fenicsx_ldrb-0.1.2.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+fenicsx_ldrb-0.1.2.dist-info/entry_points.txt,sha256=eUdm6YHG4c6c9Or9RVL9jwWvuFqxZqpXzSSfZdJOdKM,39
+fenicsx_ldrb-0.1.2.dist-info/top_level.txt,sha256=x2EeQXRDlukjWZyfEuJ_TvPSa6lVTYmSX7DR8ukJc2s,5
+fenicsx_ldrb-0.1.2.dist-info/RECORD,,
