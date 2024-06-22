@@ -1,0 +1,7 @@
+diffify_lib/__init__.py,sha256=lqQJQ2AiJ-kxGffHpUjx-MhACkd34CnuTBPkCV9lHdA,120
+diffify_lib/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diffify_lib/storage/__init__.py,sha256=vXB_bVU0jELu4B-W9OJEa3ViaxeDnLhoe-9Qok6QNw0,148
+diffify_lib/storage/s3.py,sha256=4wZ59_L-TyvRYdcxSN4GDVv_aFDIiDDBbkwD8-JCRFc,6009
+diffify_lib-0.1.2.dist-info/METADATA,sha256=l1SWPwuOWqvnuUcZiGEnxx6FeEfEZJ9xebCiOZyuWWU,2541
+diffify_lib-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+diffify_lib-0.1.2.dist-info/RECORD,,
