@@ -1,0 +1,19 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Ger\u00e4t ist bereits konfiguriert"
+        },
+        "error": {
+            "invalid_token": "Ung\u00fcltiges Token",
+            "unknown": "Unerwarteter Fehler"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "name": "Name",
+                    "token": "Authentifizierungstoken (OTP)"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "services": {
+        "enable_timer": {
+            "fields": {
+                "minutes": {
+                    "description": "Odbrojavanje za tajmer (za stanje tajmera uklju\u010deno)."
+                }
+            }
+        }
+    }
+}
