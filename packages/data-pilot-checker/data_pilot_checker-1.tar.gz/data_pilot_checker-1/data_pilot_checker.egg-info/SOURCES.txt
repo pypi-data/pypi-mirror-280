@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+data_pilot_checker.egg-info/PKG-INFO
+data_pilot_checker.egg-info/SOURCES.txt
+data_pilot_checker.egg-info/dependency_links.txt
+data_pilot_checker.egg-info/requires.txt
+data_pilot_checker.egg-info/top_level.txt
+datapilot/__init__.py
+datapilot/checker.py
+tests/test_checker.py
