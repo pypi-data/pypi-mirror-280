@@ -1,0 +1,13 @@
+knita/__init__.py,sha256=dbmclz1yQM-JimbnVZ5gj9Ch6jsx3yYMsipgbsN-tdE,213
+knita/client.py,sha256=FQj5YAu2u0-vizn6FsueOdr6zqHUF5Tc180H0hjE6mA,3342
+knita/director_pb2.py,sha256=LSRu4eq6_oC4IYhnIpEw1o-FZED1wOf6GAZFzne2HXU,4357
+knita/director_pb2.pyi,sha256=8vCJrDfjIKLvzDP9oFeGJVkAeTg5cUsm1S8cWjAY4Wc,4004
+knita/director_pb2_grpc.py,sha256=-mkpeKllwwDcyj6McphCDRBGBxo8gVvTxizBD7tqEXs,10703
+knita/executor_pb2.py,sha256=Dqyq4m9QxG7EwtFe4FEL88jqceiaX7KU0gRtpeyIjjg,16044
+knita/executor_pb2.pyi,sha256=DFxi6YECxQevOnbd4IDQqOLR5G4L6TS5Y-NvLMwUwkU,21586
+knita/executor_pb2_grpc.py,sha256=Uz79cL6EJPy2UaNCyu197vTxW7fSDf_9HMWn99e3tsw,15995
+knita/runtime.py,sha256=uN9Vwi70vdMALLYeX2JxmIKSoG9Nb1fyRTjtvaKbKxU,5468
+knita-0.0.3.dist-info/METADATA,sha256=UHwp1Kb-gON9aiU4oUVjpM87G36HIjxpLs132cZinBA,424
+knita-0.0.3.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+knita-0.0.3.dist-info/licenses/LICENSE,sha256=jTmKFTY8Af-q6KzDCGYK5oyCkrOFPULmUXI92AvJIT4,1058
+knita-0.0.3.dist-info/RECORD,,
