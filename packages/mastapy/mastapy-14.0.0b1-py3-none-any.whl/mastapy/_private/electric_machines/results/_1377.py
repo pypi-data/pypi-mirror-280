@@ -1,0 +1,420 @@
+"""ElectricMachineResultsForPhase"""
+from __future__ import annotations
+
+from typing import TYPE_CHECKING, ClassVar
+
+from mastapy._private._internal.dataclasses import extended_dataclass
+from mastapy._private._internal.type_enforcement import enforce_parameter_types
+from mastapy._private._internal import constructor, conversion, utility
+from mastapy._private import _0
+from mastapy._private._internal.cast_exception import CastException
+from mastapy._private._internal.python_net import python_net_import
+
+_ELECTRIC_MACHINE_RESULTS_FOR_PHASE = python_net_import(
+    "SMT.MastaAPI.ElectricMachines.Results", "ElectricMachineResultsForPhase"
+)
+
+if TYPE_CHECKING:
+    from typing import Any, Type, List, TypeVar
+
+    from mastapy._private.electric_machines.load_cases_and_analyses import _1409
+
+    Self = TypeVar("Self", bound="ElectricMachineResultsForPhase")
+    CastSelf = TypeVar(
+        "CastSelf",
+        bound="ElectricMachineResultsForPhase._Cast_ElectricMachineResultsForPhase",
+    )
+
+
+__docformat__ = "restructuredtext en"
+__all__ = ("ElectricMachineResultsForPhase",)
+
+
+@extended_dataclass(frozen=True, slots=True, weakref_slot=True)
+class _Cast_ElectricMachineResultsForPhase:
+    """Special nested class for casting ElectricMachineResultsForPhase to subclasses."""
+
+    __parent__: "ElectricMachineResultsForPhase"
+
+    @property
+    def electric_machine_results_for_phase(
+        self: "CastSelf",
+    ) -> "ElectricMachineResultsForPhase":
+        return self.__parent__
+
+    def __getattr__(self: "CastSelf", name: str) -> "Any":
+        try:
+            return self.__getattribute__(name)
+        except AttributeError:
+            class_name = utility.camel(name)
+            raise CastException(
+                f'Detected an invalid cast. Cannot cast to type "{class_name}"'
+            ) from None
+
+
+@extended_dataclass(frozen=True, slots=True, weakref_slot=True)
+class ElectricMachineResultsForPhase(_0.APIBase):
+    """ElectricMachineResultsForPhase
+
+    This is a mastapy class.
+    """
+
+    TYPE: ClassVar["Type"] = _ELECTRIC_MACHINE_RESULTS_FOR_PHASE
+
+    wrapped: "Any"
+
+    def __post_init__(self: "Self") -> None:
+        """Override of the post initialisation magic method."""
+        if not hasattr(self.wrapped, "reference_count"):
+            self.wrapped.reference_count = 0
+
+        self.wrapped.reference_count += 1
+
+    @property
+    def name(self: "Self") -> "str":
+        """str
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.Name
+
+        if temp is None:
+            return ""
+
+        return temp
+
+    @property
+    def phase(self: "Self") -> "int":
+        """int
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.Phase
+
+        if temp is None:
+            return 0
+
+        return temp
+
+    @property
+    def phase_current_peak(self: "Self") -> "float":
+        """float
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.PhaseCurrentPeak
+
+        if temp is None:
+            return 0.0
+
+        return temp
+
+    @property
+    def phase_current_rms(self: "Self") -> "float":
+        """float
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.PhaseCurrentRMS
+
+        if temp is None:
+            return 0.0
+
+        return temp
+
+    @property
+    def phase_current_harmonic_distortion(self: "Self") -> "float":
+        """float
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.PhaseCurrentHarmonicDistortion
+
+        if temp is None:
+            return 0.0
+
+        return temp
+
+    @property
+    def phase_reactive_voltage_rms(self: "Self") -> "float":
+        """float
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.PhaseReactiveVoltageRMS
+
+        if temp is None:
+            return 0.0
+
+        return temp
+
+    @property
+    def phase_resistive_voltage_peak(self: "Self") -> "float":
+        """float
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.PhaseResistiveVoltagePeak
+
+        if temp is None:
+            return 0.0
+
+        return temp
+
+    @property
+    def phase_resistive_voltage_rms(self: "Self") -> "float":
+        """float
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.PhaseResistiveVoltageRMS
+
+        if temp is None:
+            return 0.0
+
+        return temp
+
+    @property
+    def phase_terminal_voltage_peak(self: "Self") -> "float":
+        """float
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.PhaseTerminalVoltagePeak
+
+        if temp is None:
+            return 0.0
+
+        return temp
+
+    @property
+    def phase_terminal_voltage_rms(self: "Self") -> "float":
+        """float
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.PhaseTerminalVoltageRMS
+
+        if temp is None:
+            return 0.0
+
+        return temp
+
+    @property
+    def power_factor(self: "Self") -> "float":
+        """float
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.PowerFactor
+
+        if temp is None:
+            return 0.0
+
+        return temp
+
+    @property
+    def power_factor_angle(self: "Self") -> "float":
+        """float
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.PowerFactorAngle
+
+        if temp is None:
+            return 0.0
+
+        return temp
+
+    @property
+    def power_factor_direction(self: "Self") -> "_1409.LeadingOrLagging":
+        """mastapy._private.electric_machines.load_cases_and_analyses.LeadingOrLagging
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.PowerFactorDirection
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_enum(
+            temp, "SMT.MastaAPI.ElectricMachines.LoadCasesAndAnalyses.LeadingOrLagging"
+        )
+
+        if value is None:
+            return None
+
+        return constructor.new_from_mastapy(
+            "mastapy._private.electric_machines.load_cases_and_analyses._1409",
+            "LeadingOrLagging",
+        )(value)
+
+    @property
+    def power_factor_with_harmonic_distortion_adjustment(self: "Self") -> "float":
+        """float
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.PowerFactorWithHarmonicDistortionAdjustment
+
+        if temp is None:
+            return 0.0
+
+        return temp
+
+    @property
+    def terminal_voltage_harmonic_distortion(self: "Self") -> "float":
+        """float
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.TerminalVoltageHarmonicDistortion
+
+        if temp is None:
+            return 0.0
+
+        return temp
+
+    @property
+    def report_names(self: "Self") -> "List[str]":
+        """List[str]
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.ReportNames
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp, str)
+
+        if value is None:
+            return None
+
+        return value
+
+    @enforce_parameter_types
+    def output_default_report_to(self: "Self", file_path: "str") -> None:
+        """Method does not return.
+
+        Args:
+            file_path (str)
+        """
+        file_path = str(file_path)
+        self.wrapped.OutputDefaultReportTo(file_path if file_path else "")
+
+    def get_default_report_with_encoded_images(self: "Self") -> "str":
+        """str"""
+        method_result = self.wrapped.GetDefaultReportWithEncodedImages()
+        return method_result
+
+    @enforce_parameter_types
+    def output_active_report_to(self: "Self", file_path: "str") -> None:
+        """Method does not return.
+
+        Args:
+            file_path (str)
+        """
+        file_path = str(file_path)
+        self.wrapped.OutputActiveReportTo(file_path if file_path else "")
+
+    @enforce_parameter_types
+    def output_active_report_as_text_to(self: "Self", file_path: "str") -> None:
+        """Method does not return.
+
+        Args:
+            file_path (str)
+        """
+        file_path = str(file_path)
+        self.wrapped.OutputActiveReportAsTextTo(file_path if file_path else "")
+
+    def get_active_report_with_encoded_images(self: "Self") -> "str":
+        """str"""
+        method_result = self.wrapped.GetActiveReportWithEncodedImages()
+        return method_result
+
+    @enforce_parameter_types
+    def output_named_report_to(
+        self: "Self", report_name: "str", file_path: "str"
+    ) -> None:
+        """Method does not return.
+
+        Args:
+            report_name (str)
+            file_path (str)
+        """
+        report_name = str(report_name)
+        file_path = str(file_path)
+        self.wrapped.OutputNamedReportTo(
+            report_name if report_name else "", file_path if file_path else ""
+        )
+
+    @enforce_parameter_types
+    def output_named_report_as_masta_report(
+        self: "Self", report_name: "str", file_path: "str"
+    ) -> None:
+        """Method does not return.
+
+        Args:
+            report_name (str)
+            file_path (str)
+        """
+        report_name = str(report_name)
+        file_path = str(file_path)
+        self.wrapped.OutputNamedReportAsMastaReport(
+            report_name if report_name else "", file_path if file_path else ""
+        )
+
+    @enforce_parameter_types
+    def output_named_report_as_text_to(
+        self: "Self", report_name: "str", file_path: "str"
+    ) -> None:
+        """Method does not return.
+
+        Args:
+            report_name (str)
+            file_path (str)
+        """
+        report_name = str(report_name)
+        file_path = str(file_path)
+        self.wrapped.OutputNamedReportAsTextTo(
+            report_name if report_name else "", file_path if file_path else ""
+        )
+
+    @enforce_parameter_types
+    def get_named_report_with_encoded_images(self: "Self", report_name: "str") -> "str":
+        """str
+
+        Args:
+            report_name (str)
+        """
+        report_name = str(report_name)
+        method_result = self.wrapped.GetNamedReportWithEncodedImages(
+            report_name if report_name else ""
+        )
+        return method_result
+
+    @property
+    def cast_to(self: "Self") -> "_Cast_ElectricMachineResultsForPhase":
+        """Cast to another type.
+
+        Returns:
+            _Cast_ElectricMachineResultsForPhase
+        """
+        return _Cast_ElectricMachineResultsForPhase(self)

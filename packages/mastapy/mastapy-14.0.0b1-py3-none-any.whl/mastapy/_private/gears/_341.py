@@ -1,0 +1,163 @@
+"""GearSetOptimisationResults"""
+from __future__ import annotations
+
+from typing import TYPE_CHECKING, ClassVar
+from datetime import datetime
+
+from mastapy._private._internal.dataclasses import extended_dataclass
+from mastapy._private._internal.type_enforcement import enforce_parameter_types
+from mastapy._private._internal import conversion, utility
+from mastapy._private import _0
+from mastapy._private._internal.cast_exception import CastException
+from mastapy._private._internal.python_net import python_net_import
+
+_GEAR_SET_OPTIMISATION_RESULTS = python_net_import(
+    "SMT.MastaAPI.Gears", "GearSetOptimisationResults"
+)
+
+if TYPE_CHECKING:
+    from typing import Any, Type, List, TypeVar
+
+    from mastapy._private.gears import _340
+
+    Self = TypeVar("Self", bound="GearSetOptimisationResults")
+    CastSelf = TypeVar(
+        "CastSelf", bound="GearSetOptimisationResults._Cast_GearSetOptimisationResults"
+    )
+
+
+__docformat__ = "restructuredtext en"
+__all__ = ("GearSetOptimisationResults",)
+
+
+@extended_dataclass(frozen=True, slots=True, weakref_slot=True)
+class _Cast_GearSetOptimisationResults:
+    """Special nested class for casting GearSetOptimisationResults to subclasses."""
+
+    __parent__: "GearSetOptimisationResults"
+
+    @property
+    def gear_set_optimisation_results(self: "CastSelf") -> "GearSetOptimisationResults":
+        return self.__parent__
+
+    def __getattr__(self: "CastSelf", name: str) -> "Any":
+        try:
+            return self.__getattribute__(name)
+        except AttributeError:
+            class_name = utility.camel(name)
+            raise CastException(
+                f'Detected an invalid cast. Cannot cast to type "{class_name}"'
+            ) from None
+
+
+@extended_dataclass(frozen=True, slots=True, weakref_slot=True)
+class GearSetOptimisationResults(_0.APIBase):
+    """GearSetOptimisationResults
+
+    This is a mastapy class.
+    """
+
+    TYPE: ClassVar["Type"] = _GEAR_SET_OPTIMISATION_RESULTS
+
+    wrapped: "Any"
+
+    def __post_init__(self: "Self") -> None:
+        """Override of the post initialisation magic method."""
+        if not hasattr(self.wrapped, "reference_count"):
+            self.wrapped.reference_count = 0
+
+        self.wrapped.reference_count += 1
+
+    @property
+    def name(self: "Self") -> "str":
+        """str"""
+        temp = self.wrapped.Name
+
+        if temp is None:
+            return ""
+
+        return temp
+
+    @name.setter
+    @enforce_parameter_types
+    def name(self: "Self", value: "str") -> None:
+        self.wrapped.Name = str(value) if value is not None else ""
+
+    @property
+    def optimiser_settings_report_table(self: "Self") -> "str":
+        """str
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.OptimiserSettingsReportTable
+
+        if temp is None:
+            return ""
+
+        return temp
+
+    @property
+    def report(self: "Self") -> "str":
+        """str
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.Report
+
+        if temp is None:
+            return ""
+
+        return temp
+
+    @property
+    def results(self: "Self") -> "List[_340.GearSetOptimisationResult]":
+        """List[mastapy._private.gears.GearSetOptimisationResult]
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.Results
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    def run_time(self: "Self") -> "datetime":
+        """datetime
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.RunTime
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_datetime(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    def delete_all_results(self: "Self") -> None:
+        """Method does not return."""
+        self.wrapped.DeleteAllResults()
+
+    @property
+    def cast_to(self: "Self") -> "_Cast_GearSetOptimisationResults":
+        """Cast to another type.
+
+        Returns:
+            _Cast_GearSetOptimisationResults
+        """
+        return _Cast_GearSetOptimisationResults(self)
