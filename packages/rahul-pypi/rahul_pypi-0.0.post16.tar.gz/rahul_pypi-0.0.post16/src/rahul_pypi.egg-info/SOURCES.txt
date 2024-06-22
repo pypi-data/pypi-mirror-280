@@ -1,0 +1,15 @@
+.gitignore
+.gitlab-ci.yml
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/hello_world_lib/__init__.py
+src/hello_world_lib/main.py
+src/hello_world_lib/version.py
+src/rahul_pypi.egg-info/PKG-INFO
+src/rahul_pypi.egg-info/SOURCES.txt
+src/rahul_pypi.egg-info/dependency_links.txt
+src/rahul_pypi.egg-info/requires.txt
+src/rahul_pypi.egg-info/top_level.txt
+tests/test_hello_world.py
