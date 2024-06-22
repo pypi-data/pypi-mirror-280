@@ -1,0 +1,14 @@
+python_sdk_local/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_sdk_local/constants.py,sha256=_IeYjaR9LW8UsDCMmrIX9xjpYaxFhnSvnJaA2xkfI0o,750
+python_sdk_local/http_response.py,sha256=hcKpl5LGJVbqDj_hKp65opReoZhNBop9ZJZBTT8fGRw,6109
+python_sdk_local/item.py,sha256=HnSLHkZTKTLNhlaZoPhKAwqG-yHPsd7zvqPPOqnrKVg,287
+python_sdk_local/mini_logger.py,sha256=E6OUZ39uBkPN_cjemO6hfJcRcYtP1xh1ZwaCFyZYsXA,4132
+python_sdk_local/our_object.py,sha256=ASD_Pfk1mIqAuHDAsfsWpIhwhRvSwhhwSWRHZcfrGgU,2101
+python_sdk_local/unified_json.py,sha256=tLkikIVpFAtpioYwtovkGX8-3U9YElGWe4Ph34qDTq4,837
+python_sdk_local/utilities.py,sha256=O02QqYqN-s3AZ3OC3-oYHOljZQgEA32Kcl-YzBs02DA,15100
+python_sdk_local/valid_json_versions.py,sha256=-ZU65JYI6gTEfK8o6gu9Dmm9SQmwzj5pDbEXiyUbBhQ,138
+python_sdk_local/validate_environment.py,sha256=nzCHZDw56G56ekrTQT3gG48utjsU4VCwQi9dVsBDas0,2268
+python_sdk_local-0.0.130.dist-info/METADATA,sha256=xoZ8uYSsAiyuJtQ289RhXTRiCtD2NQgj6vvie99FKtE,604
+python_sdk_local-0.0.130.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+python_sdk_local-0.0.130.dist-info/top_level.txt,sha256=9MVrcsynSYg1-wsmAz7JKjcPdSy9H2sPikDDPR-oYpI,17
+python_sdk_local-0.0.130.dist-info/RECORD,,
