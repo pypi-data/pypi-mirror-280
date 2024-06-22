@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+dobby_storage/__init__.py
+dobby_storage/storage.py
+dobby_storage/storage_example.py
+dobby_storage.egg-info/PKG-INFO
+dobby_storage.egg-info/SOURCES.txt
+dobby_storage.egg-info/dependency_links.txt
+dobby_storage.egg-info/requires.txt
+dobby_storage.egg-info/top_level.txt

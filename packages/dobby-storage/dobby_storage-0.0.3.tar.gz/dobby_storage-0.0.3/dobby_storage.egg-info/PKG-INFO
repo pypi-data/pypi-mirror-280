@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dobby_storage
+Version: 0.0.3
+Summary: A storage handling package
+Author: Ting-Yu, Wang
+Author-email: g66341x@gmail.com
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3
+Requires-Dist: pydrive
+
+# python-storage-package
+
+https://github.com/Ting-Yu/python-storage-package.git
