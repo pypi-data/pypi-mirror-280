@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+uniprot_meta_tool/__init__.py
+uniprot_meta_tool/data_parser.py
+uniprot_meta_tool/utils.py
+uniprot_meta_tool.egg-info/PKG-INFO
+uniprot_meta_tool.egg-info/SOURCES.txt
+uniprot_meta_tool.egg-info/dependency_links.txt
+uniprot_meta_tool.egg-info/requires.txt
+uniprot_meta_tool.egg-info/top_level.txt
