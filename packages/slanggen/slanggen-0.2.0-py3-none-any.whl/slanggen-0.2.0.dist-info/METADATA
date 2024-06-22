@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: slanggen
+Version: 0.2.0
+Summary: generate slang
+Author-email: Raoul Grouls <Raoul.Grouls@han.nl>
+Requires-Python: >=3.11
+Requires-Dist: loguru>=0.7.2
+Requires-Dist: numpy>=2.0.0
+Requires-Dist: tokenizers>=0.19.1
+Requires-Dist: torch>=2.3.1
+Provides-Extra: scrape
+Requires-Dist: beautifulsoup4>=4.12.3; extra == 'scrape'
+Description-Content-Type: text/markdown
+
+# straattaal
+
+Describe your project here.
