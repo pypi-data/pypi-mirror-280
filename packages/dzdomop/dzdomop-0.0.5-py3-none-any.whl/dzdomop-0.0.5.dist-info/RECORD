@@ -1,0 +1,13 @@
+OMOPModel/OMOP_5_3_dataclasses.py,sha256=V9qUMsQURqIGLKmlIV0wm3CXvWBT5a5vDgzRtuvk8k4,247080
+OMOPModel/OMOP_5_3_declarative.py,sha256=sGUODGu2d2SNC3nD_aZPYTQ37Cvwf1tsWwWvorzwzPU,247042
+OMOPModel/OMOP_5_3_sqlmodels.py,sha256=9IuEUVSinePOyYVE7Nz7FRln5I4gx-hH1wzowu0sB78,245589
+OMOPModel/OMOP_5_3_tables.py,sha256=esDQ3s_ZsB10KZV8--F5-fa06jkSrVBHYdHPX_aWRDQ,182299
+OMOPModel/OMOP_5_4_dataclasses.py,sha256=kc1BNrFDkl5zsZLe9y_9V_eerokoQDzFCtMDPfxHT24,274542
+OMOPModel/OMOP_5_4_declarative.py,sha256=dDHoI6u3ECfPYgXtG88VZYGxkgBi22ZtH0_f9YXR3O4,274504
+OMOPModel/OMOP_5_4_sqlmodels.py,sha256=HgECT-S6RYYE0XNT6tHm8joryWImA9Th4GCstOUTrS0,272582
+OMOPModel/OMOP_5_4_tables.py,sha256=BCfvYk9pyAH_DGvAe5LeDX7-8uu6hhcoRLCoJ2t-iAQ,203186
+OMOPModel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dzdomop-0.0.5.dist-info/METADATA,sha256=oW3Og0oK1IxdFfwNLBApgl4RL5pFLJyeRswwUn9T2Aw,1128
+dzdomop-0.0.5.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+dzdomop-0.0.5.dist-info/top_level.txt,sha256=45uk-xx_oBpmPxgknNyIKxEBn5L-LMQgE-rvRXhSJK0,10
+dzdomop-0.0.5.dist-info/RECORD,,
