@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+spell_checker/__init__.py
+spell_checker/dictionary.py
+spell_checker/main.py
+spell_checker/spellchecker.py
+spell_checker/utils.py
+spell_checker/dictionaries/english.txt
+spell_checker_KERMSHAD.egg-info/PKG-INFO
+spell_checker_KERMSHAD.egg-info/SOURCES.txt
+spell_checker_KERMSHAD.egg-info/dependency_links.txt
+spell_checker_KERMSHAD.egg-info/top_level.txt
+tests/test_spellchecker.py

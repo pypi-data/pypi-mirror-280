@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: spell_checker_KERMSHAD
+Version: 0.1.1
+Summary: Spell checker library
+Author: Kermshad
+Author-email: Mehrshad Firouzian <mrfirouz007@gmail.com>
+Project-URL: Homepage, https://github.com/KH4St3H/spell-checker
+Project-URL: Issues, https://github.com/KH4St3H/spell-checker/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SpellChecker
+Simple and easy to use spell checker library written in python
+
+
+## Usage
+```python
+# With built-in engilsh dictionary
+from spell_checker.spellchecker import SpellChecker
+sp = SpellChecker()
+
+print(sp.slice_n_check('tost'))
+```
+```python
+# With custom engilsh dictionary
+from spell_checker.spellchecker import SpellChecker
+from spell_checker.dictionary import Dictionary
+custom_dictionary = Dictionary()
+custom_dictionary.add_from_file('example_dict_es.txt')
+sp = SpellChecker(dictionary=custom_dictionary)
+
+print(sp.slice_n_check('holo'))
+```
