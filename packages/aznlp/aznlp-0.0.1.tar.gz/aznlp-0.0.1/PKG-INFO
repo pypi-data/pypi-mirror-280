@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: aznlp
+Version: 0.0.1
+Summary: 🇦🇿 AZNLP - Natural Language Processing (NLP) library for Azerbaijani Language
+Home-page: https://github.com/tifosiai/aznlp
+Author: Tifosi AI
+Author-email: abdullahkazimov@icloud.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 🇦🇿 AZNLP - Natural Language Processing (NLP) library for Azerbaijani Language
+
+## Quick links:
+
+⚡️ GitHub Page: https://github.com/tifosiai/aznlp
+
+🚀 PyPI Page: https://pypi.org/project/aznlp
+
+☕️ Buy us a coffee: https://kofe.al/@tifosiai
+
+You should have python 3.6 or higher version to use this library.
+
+```python
+pip install aznlp
+```
+
+| Date       | Version | Update                                                                                   |
+|------------|---------|------------------------------------------------------------------------------------------|
+| 22 Jun 2024| 0.0.1   | stopwords and core tokenize functions added                                                             |
