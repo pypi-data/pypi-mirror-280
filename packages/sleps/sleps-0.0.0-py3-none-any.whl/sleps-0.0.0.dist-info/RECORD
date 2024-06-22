@@ -1,0 +1,12 @@
+sleps/__init__.py,sha256=iM9B7nJDWKaA6x9ZjFLiX1g5hhtrVL0AfUidmbIeEgI,45
+sleps/utils.py,sha256=BL6tsO38eQeV0oXkZhGn_S-fd3v6HPwrIyBVUG85Sdw,1530
+sleps/version.py,sha256=Qu90HlFbsjA7WK3xY7zBSBvy_8Ay7IausVPYsIs3C88,29
+sleps/eclusters/__init__.py,sha256=9eqSdUwlYTTMZbTmw4R680zLLAEUCWQfmkfXD2ETcbc,49
+sleps/eclusters/base.py,sha256=qNmx5cZPgxC_a2cfoVTD5FGV6LkeJp26iv80HE5iuoA,154
+sleps/eclusters/cluster.py,sha256=WR-YhpOfrOHjhgNXJWaw57cc312vAj46IfyrCPXf9Jc,8113
+sleps/eclusters/embedding.py,sha256=t1jI4HqjMbyuX1zb0ZCllsxBheERv2EW3xKqWLOY7K8,5655
+sleps-0.0.0.dist-info/LICENSE,sha256=FMD8EOjbK6FKZpuZOaafIucpza7Owei95H0rlZrFvjg,1056
+sleps-0.0.0.dist-info/METADATA,sha256=BHOkLyzVazN-ZU_3-09YWBUut19pZ8jw3W5FC-JQTPY,4340
+sleps-0.0.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+sleps-0.0.0.dist-info/top_level.txt,sha256=m2hnUVESyTnldMQXGqBXo7psxGTpN3o5t2eBoP7Onx4,6
+sleps-0.0.0.dist-info/RECORD,,
