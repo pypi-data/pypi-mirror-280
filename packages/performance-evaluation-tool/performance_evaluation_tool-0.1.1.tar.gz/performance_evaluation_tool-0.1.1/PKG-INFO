@@ -1,0 +1,218 @@
+Metadata-Version: 2.1
+Name: performance-evaluation-tool
+Version: 0.1.1
+Summary: Performance Evaluation for Perception Pipeline
+Author: umandavia
+Author-email: umandavia@forterra.com
+Requires-Python: >=3.8.10,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=2.0.0,<3.0.0)
+Requires-Dist: opencv-python (>=4.10.0.84,<5.0.0.0)
+Requires-Dist: scikit-learn (>=1.5.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Performance Evaluation Package
+
+1. This package provides tools for evaluating the performance of perpcetion pipeline using two output PNG driectories with query and reference images.
+2. This package computes precision, recall and iou score across all the classes and saves the output in a .csv file.
+3. The code implements functionality for evaluating semantic segmentation results using image keys, instances, match calculation, and metric summarization. 
+
+# Overview:
+
+The code consists of several classes and functions designed to perform semantic segmentation evaluation tasks. These tasks include loading image instances, calculating matches between query and reference images, and summarizing evaluation metrics. 
+
+# Components
+
+1. EvaluationKey: 
+    1. Abstract base class representing keys used for evaluation. 
+    2. Contains an abstract method __hash__() to be implemented by subclasses. 
+
+
+2. ImageKey: 
+    1. Subclass of EvaluationKey representing keys for image file paths. 
+    2. Implements __hash__() method to hash based on the relative file path of images. 
+
+
+3. EvaluationInstance: 
+    1. Abstract base class representing instances used for evaluation. 
+    2. Contains an abstract method load() to be implemented by subclasses. 
+
+
+4. ImageInstance: 
+    1. Subclass of EvaluationInstance representing instances of image data. 
+    2. Loads image data using OpenCV (cv2) library based on the file path provided by ImageKey. 
+
+
+5. SemanticSegmentationMatchCalculator: 
+    1. Class responsible for calculating matches between query and reference instances. 
+    2. Uses numpy operations to compute matching pixels and unmatched counts for semantic segmentation evaluation. 
+
+
+6. SummarizeMetrics: 
+    1. Class responsible for summarizing evaluation metrics. 
+    2. Calculates precision, recall, and intersection over union (IoU) metrics based on accumulated match results. 
+    3. Writes metrics to a CSV file and prints them to the console. 
+
+
+7. Additional Functions: 
+    1. add_dict_value(): Function to add values to a dictionary, used for accumulating match results. 
+    2. parse_args(): Function to parse command-line arguments for specifying input directories and output file. 
+
+# High Level Design
+
+The provided code is a tool for evaluating the output of semantic segmentation models, prim map, etc. We primarily evaluate them on output 2D color(multi-channel) Images while it can be further extended to be used on grayscale images as well
+1. Query and Reference Images:
+
+    1. Query Images: These are the images produced by the semantic segmentation model being evaluated. Each pixel in these images is assigned a class label indicating the predicted category.
+
+    2. Reference Images: These are the ground truth images where each pixel has a known and correct class label.
+
+2. Objective:
+
+    1. The main objective of the tool is to compare the segmentation results (query images) produced by a semantic segmentation model with the ground truth (reference images) to assess the model's performance. The evaluation involves metrics such as precision, recall, and Intersection over Union (IoU), which provide insights into how well the model is able to segment objects in the images.
+
+3. Generalization:
+
+    1. While the tool is designed with semantic segmentation, prim map and other kinds of evaluation in mind, it could potentially be adapted for evaluating other types of image-based classification tasks where ground truth labels are available. However, its current implementation is tailored specifically for semantic segmentation and prim map evaluation.
+
+4. Key Components:
+
+    1. SemanticSegmentationMatchCalculator: This component computes matching pixels and unmatched counts between query and reference images, forming the basis for evaluation.
+
+    2. MetricsSummarizer: Responsible for summarizing the evaluation metrics such as precision, recall, and IoU calculated based on the matching results.
+
+    3. ImageKey and ImageInstance: These classes handle the representation and loading of image data, ensuring consistency and ease of use.
+
+5. Conclusion:
+
+    In summary, the provided tool serves as a comprehensive solution for assessing the performance of semantic segmentation models by comparing their predictions with ground truth annotations. Its modular design and extensible nature make it suitable for use in various machine vision applications where accurate segmentation is critical.
+
+# Structure of Input Images
+
+1. In the context of semantic segmentation:
+
+    1. Single-Class Pixel Representation: Each pixel in the image typically represents a single class or category. This means that a pixel is assigned a unique integer value corresponding to its class label. For example, in an image of a street scene, pixels belonging to the "car" class might be labeled with the integer value 1, pixels representing "pedestrians" might be labeled with 2, and so on.
+
+    2. Multi-Class Pixel Representation: Some datasets or scenarios might allow for multi-class pixel representation, where a single pixel can be assigned multiple class labels. This is less common in traditional semantic segmentation tasks but might be encountered in certain specialized applications. I don't think so we are applying such case here.
+
+2. Definition of Classes:
+
+    1. Unique Integer Values: Classes are typically represented by unique integer values. Each integer corresponds to a specific class label, and the mapping between integers and class labels needs to be predefined.
+
+    2. Class Definition: The definition of classes, along with their corresponding integer labels, should be provided externally. This information is crucial for interpreting the results of the evaluation and understanding which classes are being evaluated.
+
+3. Source of Images:
+
+    1. Dataset: The input images, both query and reference, are typically obtained from a dataset. Datasets for semantic segmentation tasks often come with ground truth annotations, providing reference images with correct class labels for evaluation.
+
+    2. Model Predictions: Query images, representing the segmentation results produced by a semantic segmentation model, are generated by applying the model to input images. These predictions are then compared against the reference images during evaluation.
+
+    3. Prim Map Evaluation: Query images, representing the set of 2D color(multi-channel) images generated using prim map generator. Then these query images are compared againt another set of prim images which are marked as reference images and the the relative evaluation is done for those query images against these reference images
+
+4. Conclusion:
+
+    Understanding the structure of input images, the representation of classes, and the source of images is essential for using the evaluation tool effectively. Whether you're working with datasets, custom annotations, or model predictions, ensuring consistency and accuracy in class labels is critical for meaningful evaluation results. Additionally, having predefined class definitions helps in interpreting the evaluation metrics and understanding the performance of the semantic segmentation model.
+
+# Algorithmic Overview:
+
+1. Input Image Loading and Preparation:
+
+    1. Load query and reference images from their respective directories.
+    2. Ensure consistency in image dimensions and format.
+
+2. Key Creation and Matching:
+
+    1. Create unique keys (ImageKeys) for each query and reference image pair based on their relative file paths.
+    2. Match query and reference images based on their keys to ensure they are aligned for evaluation.
+
+3. Semantic Segmentation Matching:
+
+    1. For each matched query and reference image pair:
+        1. Compute matching pixels and unmatched pixel counts for semantic segmentation evaluation.
+        2. Iterate over each class present in the images:
+                
+            1. Calculate the number of matched pixels, unmatched query pixels, and unmatched reference pixels for each class.
+            2. Accumulate these values to compute overall metrics.
+
+4. Metrics Calculation and Summarization:
+
+    1. Calculate evaluation metrics such as precision, recall, and IoU based on the matching results.
+    2. Aggregate metrics for each class and compute overall metrics across all classes.
+    3. Also accumulate the image wise evaluations, like precision, recall and IoUs of each class present in an image.
+    4. Summarize the metrics for easy interpretation and comparison.
+    5. Write the metrics to a CSV file for further analysis and reporting.
+    6. Write per-image evaluations into two separate files with one file saving per-image metrics with each class wise evaluation for each image and the second csv file stores the per-image overall evaluation.
+
+5. Detailed Description:
+
+    1. Image Loading and Preparation:
+        1. Query and reference images are loaded using their file paths.
+        2. Both images are checked for consistency in dimensions and format to ensure accurate evaluation.
+
+    2. Key Creation and Matching:
+        1. Unique keys are generated for each image pair based on their relative file paths within their respective directories.
+        2. Query and reference images are matched based on these keys, ensuring alignment for evaluation.
+        3. Based on the provided excerpt, the matching process is done using unique keys generated for each image pair based on their relative file paths within their respective directories. This means that the matching is not solely      based on the filename, but also takes into account the directory structure.
+
+            1. Here's a step-by-step breakdown of the matching process:
+
+                1. Unique keys are generated for each image pair: The algorithm creates a unique key for each image by considering its relative file path within its directory. This key serves as an identifier for the image.
+                2. Query and reference images are matched based on these keys: The algorithm compares the keys of the query and reference images to find matching pairs. If a query image has a matching reference image with the same key, they are considered a match.
+                3. Alignment for evaluation: Once a matching pair is found, the query and reference images are aligned for evaluation. This alignment ensures that the corresponding pixels in the query and reference images are compared accurately.
+                4. If one file is present but it doesn't have a matching file, it will not be considered a match. The algorithm relies on finding matching pairs based on the generated keys. If a query image does not have a corresponding reference image with the same key, it will not be included in the matching process.
+
+    3. Semantic Segmentation Matching:
+        1. For each matched pair of query and reference images:
+            1. Matching pixels and unmatched counts are computed for semantic segmentation evaluation.
+            2. The number of matched pixels, unmatched query pixels, and unmatched reference pixels are calculated for each class.
+            3. These values are accumulated across all classes to compute overall metrics.
+
+    4. Metrics Calculation and Summarization:
+        1. Evaluation metrics such as precision, recall, and IoU are calculated based on the matching results.
+        2. Metrics are aggregated for each class, providing insights into the model's performance on individual classes.
+        3. Metrics are aggregated image-wise as well by evaluation precision, recall and IoU for each class present in an image and an overall per-image evaluation, providing more insight into each image.
+        3. Overall metrics are computed by aggregating metrics across all classes, giving a holistic view of the model's performance.
+        4. Image wise metrics are computed by aggregating metrics accross all classes for a single image, giving more detailed granular look to per-image performance.
+        4. All these metrics are summarized and presented in a readable format for easy interpretation and comparison.
+
+6. Conclusion:
+
+    The algorithmic overview provides a structured approach to evaluating semantic segmentation models, prim map images, etc. outlining the steps involved from loading input images to summarizing evaluation metrics. By following this algorithmic flow, users can assess the performance of their models accurately and efficiently, gaining valuable insights into their segmentation capabilities.
+
+# Usage
+
+The main usage of the code involves: 
+
+1. Parsing command-line arguments to specify input directories and output file. 
+
+2. Creating image keys from file paths in the query and reference directories. 
+
+3. Computing intersected keys between query and reference sets. 
+
+4. Creating image instances for intersected keys. 
+
+5. Calculating matches between query and reference instances using SemanticSegmentationMatchCalculator. 
+
+6. Accumulating match results and summarizing metrics using SummarizeMetrics. 
+
+7. Writing evaluation results to a CSV file and printing them to the console. 
+
+# Example Usage
+
+To test the pipeline, run the run.py with these command line arguments to compute the query images performance against reference/ground_truth images.
+
+1. This lines below will save the output to metrics.csv file as a default file name unless specified with a particular output file name.
+
+`poetry shell`
+
+`poetry install`
+
+`python run.py --query_image_dir "/path_to_query_image_directory" --reference_image_dir "/paht_to_reference_image_directory"`
+
+2. To save with a particular output filename run the following way.
+
+`python run.py --query_image_dir "/path_to_query_image_directory" --reference_image_dir "/paht_to_reference_image_directory" --output_file "your_specified_file_name.csv"`
