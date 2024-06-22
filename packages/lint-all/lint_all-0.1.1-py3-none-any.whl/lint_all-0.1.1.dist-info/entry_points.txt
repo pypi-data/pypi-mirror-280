@@ -1,0 +1,2 @@
+[console_scripts]
+lint_all = lint_all.lint_all:parse_args_and_run
