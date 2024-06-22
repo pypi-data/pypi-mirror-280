@@ -1,0 +1,11 @@
+cogs/core.py,sha256=bWKdsH0So5VaB00DRug89pbdOfMDVu5QZkBtWEZJSZI,12022
+cogs/fs.py,sha256=EbgdEQsPAXu7MiHtR7vDTDX7ljT21RXAkNo-nUB97_I,3292
+cogs/log.py,sha256=ifTlDAeFNunrRtbqeZGO50_ncx6e7sTSKsDoav7jGkk,2454
+cogs/run.py,sha256=GdiecSm102f_E-TDHKAZVTZtUZtiWbd2FRXDFtTFcsI,13393
+cogs/std.py,sha256=Xzlmxs_kMdr0zNwL-RP7Fw2eaHS1iTVWgUzLGZCCciQ,7238
+NeoCogs-0.4.5a0.dist-info/LICENSE,sha256=tGhnhGWTXZXSUY4MV9RbaQRzyDVOfz9j7eclp8BUDL0,1054
+NeoCogs-0.4.5a0.dist-info/METADATA,sha256=mtI9Hv5WMb63M98z5wm0kspwEgLqlwqytumrO8kPUrw,18231
+NeoCogs-0.4.5a0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+NeoCogs-0.4.5a0.dist-info/entry_points.txt,sha256=HvCMjNSTtqCEN6B-u6osIyg6Bj1pj94FbnFD6Gkn8hI,45
+NeoCogs-0.4.5a0.dist-info/top_level.txt,sha256=dAAGN-CjbvExcfrvs57gYU2Xu8vbBHpPph7DrAiPNRY,5
+NeoCogs-0.4.5a0.dist-info/RECORD,,
