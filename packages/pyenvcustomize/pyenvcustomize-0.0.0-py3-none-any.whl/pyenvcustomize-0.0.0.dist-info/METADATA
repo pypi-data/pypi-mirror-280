@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyenvcustomize
+Version: 0.0.0
+Summary: Automatically create or update sitecustomize.py in the Python environment
+Home-page: https://github.com/jaygarage/pyenvcustomize
+Author: Jay
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+解决linux服务器部署项目时，python不能像PyCharm的导包路径问题
+如有问题请留言：https://github.com/JayCool6/pyenvcustomize.git
