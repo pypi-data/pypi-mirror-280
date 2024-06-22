@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pysigma-backend-khulnasoft
+Version: 0.1.0
+Summary: pySigma KhulnaSoft backend
+Home-page: https://github.com/khulnasoft/pySigma-backend-khulnasoft
+License: LGPL-2.1-only
+Author: NxPKG
+Author-email: 116948796+NxPKG@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pySigma (>=0.11.1,<0.12.0)
+Project-URL: Repository, https://github.com/khulnasoft/pySigma-backend-khulnasoft
+Description-Content-Type: text/markdown
+
+![Tests](https://github.com/khulnasoft/pySigma-backend-khulnasoft/actions/workflows/test.yml/badge.svg)
+![Status](https://img.shields.io/badge/Status-pre--release-orange)
+
+# pySigma Khulnasoft Backend
+
+This is the Khulnasoft backend for pySigma. It provides the package `sigma.backends.khulnasoft` with the `KhulnasoftBackend` class.
+Further, it contains the following processing pipelines in `sigma.pipelines.khulnasoft`:
+
+* khulnasoft_windows_pipeline: Khulnasoft Windows log support
+* khulnasoft_windows_sysmon_acceleration_keywords: Adds fiels name keyword search terms to generated query to accelerate search.
+
+It supports the following output formats:
+
+* default: plain Khulnasoft queries
+* savedsearches: Khulnasoft savedsearches.conf format.
+
