@@ -1,0 +1,17 @@
+brd_client/__init__.py,sha256=1CU7eUB7ptZAxCQwYUteq7F3uM2HEo_wh4j3XvHyj_I,211
+brd_client/example.py,sha256=s7j5A9FKiyuMLEmDb1NlM5s1agpFQcKZ3eqE6fChdi0,148
+brd_client/scripts.py,sha256=vLExIAC4fHunPae3c99rEXEsx1IBvsZ5SSrT7o9iwOk,463
+brd_client/scraper_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brd_client/scraper_api/core.py,sha256=QvjYzYZDNwL_fk1WNG04uUtTV-lfsWr_dtXiJD4ZnWE,2775
+brd_client/scraper_api/facebook.py,sha256=AW_mSelZoiukR2N0FZ7rj8uSBUvq2dKMhF-sLyV5AjQ,873
+brd_client/scraper_api/instagram.py,sha256=XK7crwRsWoMGx3iTN4vrtPQbG8D9x5h-ukkWjdm_I8k,747
+brd_client/scraper_api/tiktok.py,sha256=U_cOInbxvqM6Y0KDIPBPTiS-w5hOwQZmtLFbOfelyRY,745
+brd_client/scraper_api/youtube.py,sha256=Av0FFRuwQpYUFgEWoyLdg8cMEHoIp3OPvgZd9UTeEyY,857
+brd_client/serp/__init__.py,sha256=mAUnVzec2vOyomkaGZxiYYUB5ysnM-GV0BEGg3IR6SU,36
+brd_client/serp/core.py,sha256=7-LcGISMcl2nHEcWxb3lnHpz8XIomZ15UsLCZi-KKDM,1121
+brd_client/serp/google.py,sha256=-eOqxq8ltJ0q4I_LugNRInk1NSSLHuSQ7DhHe7J9k6s,6700
+brd_client-0.0.6.dist-info/METADATA,sha256=6xModlOwS0tsRMz0fgg3KXi8I8KU-hChblixb9yWPds,261
+brd_client-0.0.6.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+brd_client-0.0.6.dist-info/entry_points.txt,sha256=5iMnYXFwaJG9tKEoJGX2JxTfcfB_NVlaw4fJMEDseSs,61
+brd_client-0.0.6.dist-info/top_level.txt,sha256=2YduDH6_rvPBYWwJFUOJQHl-O7XG344y-8uWNQWlR_M,11
+brd_client-0.0.6.dist-info/RECORD,,
