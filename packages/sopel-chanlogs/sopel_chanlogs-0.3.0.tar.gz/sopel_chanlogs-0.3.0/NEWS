@@ -1,0 +1,54 @@
+## Changelog
+
+### 0.3.0
+
+First release as `sopel-chanlogs`, replacing `sopel_modules.chanlogs`.
+
+Changed:
+* Modernize packaging, target Sopel 8.0+, take advantage of new Sopel API
+  features, and support only Python 3.8+
+
+Meta:
+* Fixed package metadata to credit the original author(s) and current
+  maintainer(s) correctly
+
+
+### 0.2.3
+
+Fixed:
+* Switch from obsolete `clock.tz` setting to `core.default_timezone` (#11)
+
+Meta:
+* Greatly improved documentation of settings (#12)
+
+
+### 0.2.2
+
+Changed:
+* Replaced deprecated call to `SopelMemory.contains()` (#8)
+
+
+### 0.2.1
+
+Meta:
+* Added project README file
+* Use README as project's PyPI description
+
+
+### 0.2.0
+
+Changed:
+* Target Sopel 7.x (#5)
+
+Added:
+* Support for logging topic changes (#3)
+* Support for echo-message (#4)
+
+Fixed:
+* Install errors (#1)
+* Startup/config glitches (#2)
+
+
+### 0.1.0
+
+First release of `sopel_modules.chanlogs`.
