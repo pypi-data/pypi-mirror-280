@@ -1,0 +1,6 @@
+protocolmodel/__about__.py,sha256=W5bQCxyoRGXUomiL1sNvDl1gCFfpgYhFTjCAGTYjhg0,23
+protocolmodel/__init__.py,sha256=PblOMIq9GIPAZcduBC1f8BRGHZfaW-E7MS5JpRyYGKc,44
+protocolmodel/http.py,sha256=t4TskI0hX9vnsQpeIR_txGjArUYemJl970_ajFNYblU,14987
+protocolmodel-0.0.1b2.dist-info/METADATA,sha256=IP2gGP5tP2nULE5k1-aWU8WvNyR1soQRZmmIVTbjxHo,1805
+protocolmodel-0.0.1b2.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+protocolmodel-0.0.1b2.dist-info/RECORD,,
