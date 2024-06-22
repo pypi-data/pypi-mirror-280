@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: onnxllm
+Version: 0.0.0
+Summary: OnnxLLM: A collection of Onnx Large Language Models.
+Home-page: https://github.com/inisis/OnnxLLM
+Author: inisis
+Author-email: desmond.yao@buaa.edu.cn
+License: MIT
+Project-URL: Bug Tracker, https://github.com/inisis/OnnxLLM/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
