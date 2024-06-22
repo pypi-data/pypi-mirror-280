@@ -1,0 +1,2 @@
+[console_scripts]
+list-availability-zones = wolfsoftware.list_availability_zones.main:main
