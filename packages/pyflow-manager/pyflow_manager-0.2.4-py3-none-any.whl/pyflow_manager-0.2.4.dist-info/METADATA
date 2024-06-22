@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: pyflow_manager
+Version: 0.2.4
+Summary: A workflow management system based on YAML dependencies
+Home-page: https://github.com/HuzeyfeAyaz/pyflow_manager
+Author: Huzeyfe Ayaz
+Author-email: huzeyfeayaz23@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: networkx
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+
+# Pyflow Manager
+
+A Python package to manage and execute workflows based on YAML-defined input/output dependencies.
+
+## Installation
+
+```bash
+pip install pyflow-manager
+```
+
+## Usage
+
+```bash
+pyflow-manager <path/to/your/tasks.yaml> --skip-existing
+```
+
+## Sample .yaml File
+
+```yaml
+tasks:
+    task1:
+        command: "echo 'Task 1' > output1.txt"
+        inputs: []
+        outputs: ["output1.txt"]
+    task2:
+        command: "python sample_script.py" # generates output2.txt
+        inputs: ["output1.txt"]
+        outputs: ["output2.txt"]
+    task3:
+        command: "sbatch -W slurm_script.sh" # Sample Slurm usage. Use -W to wait for the job execution
+        inputs: ["output2.txt"]
+        outputs: ["output3.txt"]
+```
