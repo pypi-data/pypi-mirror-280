@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: coinconverter
+Version: 0.0.1
+Summary: Real-time currency converter
+Author: EdexCode
+Author-email: edexcode@gmail.com
+Keywords: python,currency,converter,realtime,convert
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: bs4
+Requires-Dist: requests
+
