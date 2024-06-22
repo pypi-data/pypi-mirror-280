@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+multimodal_files/__init__.py
+multimodal_files/dependency_requirements.py
+multimodal_files/file_conversion.py
+multimodal_files.egg-info/PKG-INFO
+multimodal_files.egg-info/SOURCES.txt
+multimodal_files.egg-info/dependency_links.txt
+multimodal_files.egg-info/requires.txt
+multimodal_files.egg-info/top_level.txt
+multimodal_files/core/__init__.py
+multimodal_files/core/audio_file.py
+multimodal_files/core/image_file.py
+multimodal_files/core/multimodal_file.py
+multimodal_files/core/video_file.py
+test/test.py
