@@ -1,0 +1,7 @@
+setup.py
+Dimtry/Dimtry.py
+Dimtry/__init__.py
+Dimtry.egg-info/PKG-INFO
+Dimtry.egg-info/SOURCES.txt
+Dimtry.egg-info/dependency_links.txt
+Dimtry.egg-info/top_level.txt
