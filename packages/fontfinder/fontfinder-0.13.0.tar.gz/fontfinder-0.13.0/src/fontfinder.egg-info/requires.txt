@@ -1,0 +1,17 @@
+platformdirs>=4.2.1
+requests>=2.31
+semver>=3.0.2
+unicodedataplus>=15.1.0
+
+[:platform_system == "Windows"]
+comtypes>=1.2.0
+
+[docs]
+pdoc
+
+[test]
+pytest
+
+[unihan]
+unihan-etl>=0.34
+typing_extensions
