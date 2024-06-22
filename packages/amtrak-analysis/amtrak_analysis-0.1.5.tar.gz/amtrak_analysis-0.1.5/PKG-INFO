@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: amtrak_analysis
+Version: 0.1.5
+Summary: A library for Amtrak data analysis and smoothing methods
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: statsmodels
+
+# Amtrak Analysis
+
+Amtrak 데이터 분석과 평활법을 적용하는 파이썬 라이브러리입니다.
