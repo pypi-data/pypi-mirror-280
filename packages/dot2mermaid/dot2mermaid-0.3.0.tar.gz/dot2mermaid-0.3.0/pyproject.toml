@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "dot2mermaid"
+version = "0.3.0"
+description = "A library for converting dot file to mermaid and markdown."
+authors = ["Hoseyn A. Amiri"]
+license = "MIT"
+readme = "README.md"
+
+documentation = "https://www.youtube.com/@hoseynamiri"
+repository  = "https://github.com/HoseynAAmiri/dot2mermaid"
+homepage  = "https://github.com/HoseynAAmiri"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+code2flow = "^2.5.1"
+pygraphviz = "^1.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
