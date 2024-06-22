@@ -1,0 +1,12 @@
+projects:
+  vox:
+    members:
+      - vex
+      - vax
+      - pike
+      - linderp
+  mighty:
+    members:
+      - fjord
+      - beau
+      - jester
