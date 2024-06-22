@@ -1,0 +1,13 @@
+multimodal_files/__init__.py,sha256=2Fstbc5soVBn9Ftq29LN6qOs6NHNnDSMEl1gDKJjcNA,83
+multimodal_files/dependency_requirements.py,sha256=5siVgZOug0YolU3-gEkq8ZhgKB7Otn3AKp8UIWJnOCc,1516
+multimodal_files/file_conversion.py,sha256=Q6cgFp4z32Hf1JmLOlORJvERO2A1v9Hp8eOibcoBBww,1949
+multimodal_files/core/__init__.py,sha256=L2k7edvw_E330z0qxULts__Z9ren9sNwG3hjV_Dej30,150
+multimodal_files/core/audio_file.py,sha256=Ph_yeGnxA1Ove6m45cRaLqLiKo31lli0bfAHXX7goIo,1281
+multimodal_files/core/image_file.py,sha256=KmTRLdFUkC8shDdAB3xLtNQbXDj9tpXjl4l0iHikWQU,3345
+multimodal_files/core/multimodal_file.py,sha256=MLrKkI_GkdbO120Sh6nQZXIKao0IBaXJENjnQZ4YQog,8311
+multimodal_files/core/video_file.py,sha256=s6nDyJKImEQixptvNL2H-YW7yLx0Y2xxsymO1cEDdyY,1471
+multimodal_files-0.0.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+multimodal_files-0.0.0.dist-info/METADATA,sha256=GfyIh8AI--rcJodcC91u46fn8hfEIPFeQvAgDLHY8w0,3828
+multimodal_files-0.0.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+multimodal_files-0.0.0.dist-info/top_level.txt,sha256=OKBlA8RTw_sflpecyE_L3UrEDHnndk9WPYtXMnp5r-U,17
+multimodal_files-0.0.0.dist-info/RECORD,,
