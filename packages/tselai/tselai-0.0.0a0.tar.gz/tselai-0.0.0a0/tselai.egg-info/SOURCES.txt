@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+tests/test_tsellm.py
+tselai/__init__.py
+tselai/__main__.py
+tselai/cli.py
+tselai.egg-info/PKG-INFO
+tselai.egg-info/SOURCES.txt
+tselai.egg-info/dependency_links.txt
+tselai.egg-info/entry_points.txt
+tselai.egg-info/requires.txt
+tselai.egg-info/top_level.txt
