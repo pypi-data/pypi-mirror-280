@@ -1,0 +1,3 @@
+[console_scripts]
+fdal = files_dal.cli:fdal
+files-dal = files_dal.cli:fdal

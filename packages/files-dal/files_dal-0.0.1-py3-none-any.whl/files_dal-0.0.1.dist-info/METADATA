@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: files_dal
+Version: 0.0.1
+Summary: Abstract data access to files stored in different storages.
+Author-email: Sergey Motornyuk <sergey.motornyuk@linkdigital.com.au>
+License: AGPL
+Project-URL: Homepage, https://github.com/DataShades/files-dal
+Keywords: DAL,file,cloud,filesystem
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: faker ; extra == 'test'
+
