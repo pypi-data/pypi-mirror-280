@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: esch
+Version: 0.1.32
+Summary: A tool for converting markdown files with frontmatter
+Home-page: https://github.com/syrkis/esch
+Author: Noah Syrkis
+Author-email: noah@syrkis.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: markdown-analysis (>=0.0.5,<0.0.6)
+Requires-Dist: python-frontmatter (>=1.1.0,<2.0.0)
+Project-URL: Repository, https://github.com/syrkis/esch
+Description-Content-Type: text/markdown
+
+# esch
+
+Streamlined document conversion using Pandoc and LaTeX.
+
+## Features
+
+- Convert Markdown to various document types (letter, paper, slides, etc.)
+- Customizable templates and filters
+- YAML frontmatter support
+- Zotero integration for citations
+
+## Installation
+
+```bash
+pip install esch
+```
+
+## Usage
+
+```bash
+esch letter document.md
+esch slides presentation.md
+esch paper research.md
+```
+
+## Configuration
+
+Edit `config.json` to set paths for Zotero, templates, and filters.
+
+## Requirements
+
+- Python 3.11+
+- Pandoc
+- LaTeX
+- Zotero (optional, for citations)
+
+## License
+
+MIT
