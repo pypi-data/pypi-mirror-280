@@ -1,0 +1,246 @@
+Metadata-Version: 2.1
+Name: mocker_db
+Version: 0.1.2
+Summary: A mock handler for simulating a vector database.
+Author: Kyrylo Mordan
+Author-email: parachute.repo@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Mocker db
+
+MockerDB
+
+A python module that contains mock vector database like solution built around
+dictionary data type. It contains methods necessary to interact with this 'database',
+embed, search and persist.
+
+# Mocker DB
+
+This class is a mock handler for simulating a vector database, designed primarily for testing and development scenarios.
+It offers functionalities such as text embedding, hierarchical navigable small world (HNSW) search,
+and basic data management within a simulated environment resembling a vector database.
+
+
+
+```python
+import sys
+import numpy as np
+sys.path.append('../')
+from python_modules.mocker_db import MockerDB, SentenceTransformerEmbedder, MockerSimilaritySearch
+```
+
+## Usage examples
+
+The examples contain:
+1. Basic data insertion and retrieval
+2. Text embedding and searching
+3. Advanced filtering and removal
+4. Testing the HNSW search algorithm
+5. Simulating database connection and persistence
+
+
+### 1. Basic Data Insertion and Retrieval
+
+
+```python
+# Initialization
+handler = MockerDB(
+    # optional
+    embedder_params = {'model_name_or_path' : 'paraphrase-multilingual-mpnet-base-v2',
+                        'processing_type' : 'batch',
+                        'tbatch_size' : 500},
+    embedder = SentenceTransformerEmbedder,
+    ## optional/ for similarity search
+    similarity_search_h = MockerSimilaritySearch,
+    return_keys_list = [],
+    search_results_n = 3,
+    similarity_search_type = 'linear',
+    similarity_params = {'space':'cosine'},
+    ## optional/ inputs with defaults
+    file_path = "./mock_persist",
+    persist = True,
+    embedder_error_tolerance = 0.0
+)
+# Initialize empty database
+handler.establish_connection()
+
+# Insert Data
+values_list = [
+    {"text": "Sample text 1"},
+    {"text": "Sample text 2"}
+]
+handler.insert_values(values_list, "text")
+print(f"Items in the database {len(handler.data)}")
+
+# Retrieve Data
+handler.filter_keys(subkey="text", subvalue="Sample text 1")
+handler.search_database_keys(query='text')
+results = handler.get_dict_results(return_keys_list=["text"])
+print(results)
+
+```
+
+    Items in the database 3
+    [{'text': 'Sample text 1'}]
+
+
+### 2. Text Embedding and Searching
+
+
+```python
+ste = SentenceTransformerEmbedder(# optional / adaptor parameters
+                                  processing_type = '',
+                                  tbatch_size = 500,
+                                  max_workers = 2,
+                                  # sentence transformer parameters
+                                  model_name_or_path = 'paraphrase-multilingual-mpnet-base-v2',)
+```
+
+
+```python
+# Single Text Embedding
+query = "Sample query"
+embedded_query = ste.embed(query,
+                           # optional
+                           processing_type='')
+print(embedded_query[0:50])
+```
+
+    [-0.04973586  0.09520271 -0.01219508  0.09253868 -0.02301829 -0.02721021
+      0.05683944  0.09710986  0.10683879  0.05812281  0.1322755   0.01142838
+     -0.06957251  0.06980741 -0.05259361 -0.05755987  0.00816179 -0.0083684
+     -0.00861259  0.01442069  0.01188816 -0.09503669  0.07125735 -0.04827787
+      0.01473163  0.01084182 -0.10482487  0.07012529 -0.04720649  0.10030047
+      0.04455935  0.02131893  0.00667916 -0.05259186  0.06822994 -0.09520471
+     -0.00581367 -0.0245188  -0.00384988  0.02750719  0.06960273  0.2401374
+     -0.01220021  0.05890934 -0.08468664  0.11379704 -0.03594773 -0.05652965
+     -0.01621818  0.09546728]
+
+
+
+```python
+# Batch Text Embedding
+queries = ["Sample query", "Sample query 2"]
+embedded_query = ste.embed(queries,
+                           # optional
+                           processing_type='batch')
+print(embedded_query[0][0:50])
+print("---")
+print(embedded_query[1][0:50])
+```
+
+    [-0.04973587  0.09520268 -0.01219508  0.09253863 -0.02301828 -0.02721019
+      0.05683948  0.09710983  0.10683877  0.05812275  0.13227554  0.01142835
+     -0.06957251  0.0698074  -0.05259359 -0.05755989  0.00816178 -0.00836837
+     -0.00861255  0.01442071  0.01188814 -0.09503672  0.07125732 -0.04827785
+      0.01473167  0.01084183 -0.10482489  0.07012529 -0.04720643  0.10030049
+      0.04455935  0.02131888  0.00667915 -0.0525919   0.06822994 -0.09520471
+     -0.00581362 -0.02451884 -0.00384985  0.02750718  0.06960283  0.24013746
+     -0.01220023  0.05890931 -0.08468661  0.11379693 -0.03594768 -0.05652963
+     -0.01621819  0.09546733]
+    ---
+    [-0.05087027  0.12317685 -0.0139253   0.10524715 -0.07614326 -0.02349633
+      0.0582977   0.15128359  0.18119799  0.03745934  0.12174655  0.00639841
+     -0.04045051  0.12758307 -0.06155455 -0.06736138  0.04713943 -0.04134273
+     -0.1216595   0.04409876  0.01834144 -0.04796624  0.04922181 -0.00641206
+      0.01420632 -0.0360294  -0.01026764  0.0923226  -0.04927175  0.03985449
+      0.03566911  0.08338928  0.049226   -0.09951881  0.05138117 -0.13344647
+      0.01626781 -0.01189727  0.00599228  0.05663403  0.04282103  0.2643278
+     -0.01122816  0.07177627 -0.11822139  0.08731954 -0.04965358  0.03697523
+      0.08965264  0.03107015]
+
+
+
+```python
+# Search Database
+search_results = handler.search_database(query, return_keys_list=["text"])
+
+# Display Results
+print(search_results)
+
+```
+
+    [{'text': 'Sample text 1'}]
+
+
+### 3. Advanced Filtering and Removal
+
+
+```python
+# Advanced Filtering
+filter_criteria = {"text": "Sample text 1"}
+handler.filter_database(filter_criteria)
+filtered_data = handler.filtered_data
+print(f"Filtered data {len(filtered_data)}")
+
+# Data Removal
+handler.remove_from_database(filter_criteria)
+print(f"Items left in the database {len(handler.data)}")
+
+```
+
+    Filtered data 1
+    Items left in the database 2
+
+
+### 4. Testing the HNSW Search Algorithm
+
+
+```python
+mss = MockerSimilaritySearch(
+    # optional
+    search_results_n = 3,
+    similarity_params = {'space':'cosine'},
+    similarity_search_type ='linear'
+)
+```
+
+
+```python
+# Create embeddings
+embeddings = [ste.embed("example1"), ste.embed("example2")]
+
+
+# Assuming embeddings are pre-calculated and stored in 'embeddings'
+data_with_embeddings = {"record1": {"embedding": embeddings[0]}, "record2": {"embedding": embeddings[1]}}
+handler.data = data_with_embeddings
+
+# HNSW Search
+query_embedding = embeddings[0]  # Example query embedding
+labels, distances = mss.hnsw_search(query_embedding, np.array(embeddings), k=1)
+print(labels, distances)
+
+```
+
+    [0] [1.1920929e-07]
+
+
+### 5. Simulating Database Connection and Persistence
+
+
+```python
+# Establish Connection
+handler.establish_connection()
+
+# Change and Persist Data
+handler.insert_values([{"text": "New sample text"}], "text")
+handler.save_data()
+
+# Reload Data
+handler.establish_connection()
+print(f"Items in the database {len(handler.data)}")
+
+```
+
+    Items in the database 2
+
