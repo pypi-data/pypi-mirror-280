@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "py-apibase"
+version = "0.1.0"
+description = "is a lightweight Python library that simplifies the creation of API clients"
+authors = ["Basri <h@basri.me>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "apibase"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
