@@ -1,0 +1,2 @@
+[console_scripts]
+list-regions = wolfsoftware.list_regions.main:main
