@@ -1,0 +1,10 @@
+Runespoor/__init__.py,sha256=7IedXGqKhjjT-vnrEJwyrrPTZ_J-zejMZUeNvQAkj1g,28
+Runespoor/core.cp311-win_amd64.pyd,sha256=oc8CoD4Y6fhILviX3XTIG7H5MQHeJiyWKK_nmmFIk3M,7351808
+Runespoor/core.pxd,sha256=ZdzS0w-oZixK1lL55hMdQmUk4G3h2Sbn-Q7vxiXHdFg,15130
+Runespoor/core.pyi,sha256=4Ah2hQxfCRWlkPFV1aNjVxB_BaWm_B1YxVuQbZ4xRNg,12453
+Runespoor/core.pyx,sha256=SXETRzWi9gdj3169F1wQXEKNy9Kq8zxgfFhi-G5or1Y,20366
+Runespoor-1.0.0.dev9.dist-info/LICENSE,sha256=kFWpeNoYjfwrGE2Z7zY6s0WBYIdnN06uhTci0y5pzeo,1071
+Runespoor-1.0.0.dev9.dist-info/METADATA,sha256=WiSOOK7WKjHmdOBealcsAN2BX7_ehjD5dCVWcAtDdE0,6532
+Runespoor-1.0.0.dev9.dist-info/WHEEL,sha256=nSybvzWlmdJnHiUQSY-d7V1ycwEVUTqXiTvr2eshg44,102
+Runespoor-1.0.0.dev9.dist-info/top_level.txt,sha256=3MxCZZz_VimNf5gk3ym8WfGyfr951wT6JawdQDEU82A,10
+Runespoor-1.0.0.dev9.dist-info/RECORD,,
