@@ -1,0 +1,17 @@
+britive>=2.25.0rc5
+click
+cryptography>=41.0.0
+jmespath
+merge-args
+pyjwt
+python-dateutil
+PyYAML
+requests>=2.31.0
+tabulate
+toml
+
+[aws]
+boto3
+
+[openshift]
+beautifulsoup4
