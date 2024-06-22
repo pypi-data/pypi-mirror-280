@@ -1,0 +1,4 @@
+openpyxl
+pnu-libpnu
+prettytable
+rich
