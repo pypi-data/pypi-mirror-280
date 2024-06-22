@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: "anywidget"
+authors:
+  - given-names: "Trevor"
+    family-names: "Manz"
+    orcid: "https://orcid.org/0000-0001-7694-5164"
+    affiliation: "Harvard Medical School"
+url: "https://github.com/manzt/anywidget"
+keywords:
+  - Jupyter Notebooks
+  - Jupyter Widgets
+  - Data Visualization
+  - Interactive Computing
+  - Data Analysis
+license: MIT
+preferred-citation:
+  type: article
+  title: "anywidget: reusable widgets for interactive analysis and visualization in computational notebooks"
+  authors:
+    - given-names: "Trevor"
+      family-names: "Manz"
+      orcid: "https://orcid.org/0000-0001-7694-5164"
+      affiliation: "Harvard Medical School"
+    - given-names: "Nezar"
+      family-names: "Abdennur"
+      affiliation: "University of Massachusetts Chan Medical School"
+      orcid: "https://orcid.org/0000-0001-5814-0864"
+    - given-names: "Nils"
+      family-names: "Gehlenborg"
+      affiliation: "Harvard Medical School"
+      orcid: "https://orcid.org/0000-0003-0327-8297"
+  doi: "10.31219/osf.io/tw9sg"
+  journal: "OSF preprint"
+  month: 6
+  year: 2024
