@@ -1,0 +1,14 @@
+# Examples
+uvicorn
+fastapi
+python-dotenv
+
+# Testing
+pytest
+pytest-httpx
+trio
+pytest-asyncio
+
+# Building and packaging
+build
+twine
