@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "yhfin"
+version = "0.1.0"
+description = ""
+authors = ["lockermanwxlf <95518889+lockermanwxlf@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fake-useragent = "^1.5.1"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
