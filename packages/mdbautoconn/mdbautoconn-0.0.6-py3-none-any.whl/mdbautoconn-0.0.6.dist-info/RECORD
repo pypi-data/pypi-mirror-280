@@ -1,0 +1,6 @@
+mdbautoconn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mdbautoconn/mongo_crud.py,sha256=XcNP3RcFoVehxINKKwxa1kJE63ACiJKaKWJweYv4aTU,2464
+mdbautoconn-0.0.6.dist-info/METADATA,sha256=bKfffClWvFk4Py7xKCNod_w3IYGSr0PGACR4iqkHG8E,2429
+mdbautoconn-0.0.6.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+mdbautoconn-0.0.6.dist-info/top_level.txt,sha256=gc1O5sORA7Hg6Fu1ss_0dvAJXPFzgjElP1e59j9-HHY,12
+mdbautoconn-0.0.6.dist-info/RECORD,,
