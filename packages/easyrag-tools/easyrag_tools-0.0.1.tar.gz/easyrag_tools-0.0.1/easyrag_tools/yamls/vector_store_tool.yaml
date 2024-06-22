@@ -1,0 +1,34 @@
+easyrag_tools.tools.vector_store_tool.MyVectorStoreIndex.build_index:
+  name: Index Building Tool
+  type: python
+  inputs:
+    embed_conn:
+      type:
+        - CustomConnection
+    storage:
+      type:
+        - string
+    content_path:
+      type:
+        - string
+  description: This is llama_index index building tool.
+  module: easyrag_tools.tools.vector_store_tool
+  class_name: MyVectorStoreIndex
+  function: build_index
+easyrag_tools.tools.vector_store_tool.MyVectorStoreIndex.retrieve:
+  name: Retrieve Tool
+  type: python
+  inputs:
+    embed_conn:
+      type:
+        - CustomConnection
+    storage:
+      type:
+        - string
+    query:
+      type:
+        - string
+  description: This is llama_index vector store retrieve tool.
+  module: easyrag_tools.tools.vector_store_tool
+  class_name: MyVectorStoreIndex
+  function: retrieve
