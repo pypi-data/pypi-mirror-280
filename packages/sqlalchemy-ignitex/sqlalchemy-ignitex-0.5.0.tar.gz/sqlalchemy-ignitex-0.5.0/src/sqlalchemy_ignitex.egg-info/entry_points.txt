@@ -1,0 +1,3 @@
+[sqlalchemy.dialects]
+igniteworks = igniteworks.sqlalchemy.dialect:IgniteDialect
+

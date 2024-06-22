@@ -1,0 +1,6 @@
+pyignite>=0.5.2
+sqlalchemy>=1.2.0
+
+[test]
+mock>=1.0.1
+pytest>=2.5.2

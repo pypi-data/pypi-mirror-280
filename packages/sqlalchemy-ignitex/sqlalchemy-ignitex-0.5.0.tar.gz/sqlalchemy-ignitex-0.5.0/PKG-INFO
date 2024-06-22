@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: sqlalchemy-ignitex
+Version: 0.5.0
+Summary: SQLAlchemy dialect for Apache Ignite
+Home-page: https://github.com/matsvitt/sqlalchemy-ignitex/
+Author: Dr. Matthias Vitt
+Author-email: matthias.vitt@gmail.com
+License: Apache License Version 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: SQL
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: test
+License-File: LICENSE
+License-File: LICENSE.txt
+
+UNKNOWN
+
