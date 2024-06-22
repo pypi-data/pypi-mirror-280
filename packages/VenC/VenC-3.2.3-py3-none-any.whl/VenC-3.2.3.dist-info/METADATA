@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: VenC
+Version: 3.2.3
+Summary: A static blog generator.
+Home-page: https://framagit.org/denissalem/VenC
+Author: Denis Salem
+Author-email: denissalem@tuxfamily.org
+License: GNU/GPLv3
+Platform: Linux
+Classifier: Environment :: Console
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pyyaml
+Requires-Dist: unidecode
+
+A static and light blog generator, that aim to be damn fast and easy to use.
+
+
