@@ -1,0 +1,33 @@
+[project]
+name = "ipnet"
+version = "0.1.1a0"
+description = "A CLI tool for IP subnet calculation and network information. It is minimal and compact, your network info Swiss Army knife. More info at https://github.com/nicanorflavier/ipnet"
+readme = "README.md"
+authors = [
+    { name = "Nicanor II Flavier" },
+]
+license = { file = "LICENSE.txt" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+keywords = ["networking", "ip", "subnet", "cli"]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/nicanorflavier/ipnet"
+Repository = "https://github.com/nicanorflavier/ipnet"
+Issues = "https://github.com/nicanorflavier/ipnet/issues"
+Changelog = "https://github.com/nicanorflavier/ipnet/blob/master/CHANGELOG.md"
+GitHub_Statistics = "https://github.com/nicanorflavier/ipnet/pulse"
+GitHub_Profile = "https://github.com/nicanorflavier"
+X = "https://x.com/nicanorflavier"
+Mastodon = "https://mastodon.social/@nicanorflavier"
+
+[project.entry-points."console_scripts"]
+ipnet = "ipnet.ipnet:main"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+colorama = "^0.4.6"
