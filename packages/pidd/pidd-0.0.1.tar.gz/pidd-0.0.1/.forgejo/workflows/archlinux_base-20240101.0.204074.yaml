@@ -1,0 +1,16 @@
+on: [push]
+jobs:
+  job:
+    container:
+      image: archlinux:base-20240101.0.204074
+    steps:
+    - name: pidd
+      run: >
+        ${{vars.PIDD}}
+        "${{secrets.PIDD_SSH_KEY}}"
+        "${{vars.PIDD_SSH_HOSTS}}"
+
+    - run: pidd-list-environment
+    - run: pidd-clone-branch
+    - run: pidd-build-project
+    - run: pidd-browse-workspace

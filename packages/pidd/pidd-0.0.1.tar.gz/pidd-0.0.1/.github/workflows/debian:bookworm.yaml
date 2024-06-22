@@ -1,0 +1,18 @@
+on: [push]
+jobs:
+  job:
+    runs-on: ubuntu-latest
+    container:
+      image: debian:bookworm
+    steps:
+    - name: pidd
+      run: >
+        echo '${{vars.PIDD}}' | tr -d '\r' | sh -s
+        "${{secrets.PIDD_SSH_KEY}}"
+        "${{vars.PIDD_SSH_HOSTS}}"
+
+    - run: pidd-list-environment
+    - run: pidd-clone-branch
+    - run: pidd-build-project
+    - run: pidd-browse-workspace
+    - run: pidd-synchronize

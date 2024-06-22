@@ -1,0 +1,12 @@
+image: debian:bookworm
+job:
+  script:
+  - >
+    sh ${PIDD}
+    ${PIDD_SSH_KEY}
+    ${PIDD_SSH_HOSTS}
+
+  - pidd-list-environment
+  - pidd-clone-branch
+  - pidd-build-project
+  - pidd-browse-workspace
