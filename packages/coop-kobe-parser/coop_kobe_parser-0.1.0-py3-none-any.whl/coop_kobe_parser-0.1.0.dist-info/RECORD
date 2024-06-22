@@ -1,0 +1,11 @@
+coop_kobe_parser/__init__.py,sha256=OOAroEp1ofFfsoXEYSH1OaIXX1tLGVpkOzfTqxzy9yA,3448
+coop_kobe_parser/__main__.py,sha256=9eSBwXdS1f-Pg8fNnnNT1J_TiDj1Xjeefq2V7czS0aI,70
+coop_kobe_parser/logger.py,sha256=hYTlW1zdrJyt181ZranotdftpEyJ2XDvd2iCVcF9tfI,531
+coop_kobe_parser/parsers/__init__.py,sha256=39uhNRWpa2dElTXnGzM79MNCenkKGbLLtZdjW5WY9pI,112
+coop_kobe_parser/parsers/product.py,sha256=HEXTQAnxxeXNPqPDxJr60m7HZ8OzpDyEfovVl6Kx0bg,2257
+coop_kobe_parser/parsers/summary.py,sha256=HeTH36vwFGHOvvCCMUDfECDw70UjSF-lORs-YHvWjzM,2216
+coop_kobe_parser-0.1.0.dist-info/METADATA,sha256=_cbOGAg98wj-zHZD8ff3YWNpjhp4HLeOU2PYvfhYtWs,5282
+coop_kobe_parser-0.1.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+coop_kobe_parser-0.1.0.dist-info/entry_points.txt,sha256=a2Hbm1COZNa9rG2saaWuTw7jHfPIGKCWGJw_yG07770,59
+coop_kobe_parser-0.1.0.dist-info/licenses/LICENSE,sha256=kxv3W2fjM2v7cZSnwRRoTHp5J8RH23-uijc_cSZfaWM,1067
+coop_kobe_parser-0.1.0.dist-info/RECORD,,

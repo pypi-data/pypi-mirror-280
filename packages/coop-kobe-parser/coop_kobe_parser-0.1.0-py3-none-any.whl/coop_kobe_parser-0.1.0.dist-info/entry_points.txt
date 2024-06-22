@@ -1,0 +1,2 @@
+[console_scripts]
+coop-kobe-parser = coop_kobe_parser:main
