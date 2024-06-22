@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: rlmc
+Version: 0.0.6
+Summary: Python utils for AI
+Author: Ray Lam
+Maintainer: Ray Lam
+License: MIT
+Project-URL: Source, https://github.com/RayLam2022/rlmc
+Keywords: machine-learning,deep-learning,ML,DL,AI
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorlog
+Requires-Dist: pyyaml
+Requires-Dist: tqdm
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+
+### rlmc
+```
+Python utils for AI projects
+```
+
+### 1. 安装
+```
+pip install rlmc
+```
+
+### 2. 导入
+```
+import rlmc
+```
+
+### 3. 示例
+```
+
