@@ -1,0 +1,6 @@
+numpy>=1.19.0
+
+[dev]
+pytest>=6.0
+anytree>=2.8.0
+sentence-transformers>=2.0.0

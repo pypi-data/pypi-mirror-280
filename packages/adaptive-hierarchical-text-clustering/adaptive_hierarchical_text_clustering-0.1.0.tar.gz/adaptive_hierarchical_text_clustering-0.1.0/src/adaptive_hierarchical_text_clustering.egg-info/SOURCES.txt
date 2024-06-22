@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+src/adaptive_hierarchical_text_clustering/__init__.py
+src/adaptive_hierarchical_text_clustering/clustering.py
+src/adaptive_hierarchical_text_clustering.egg-info/PKG-INFO
+src/adaptive_hierarchical_text_clustering.egg-info/SOURCES.txt
+src/adaptive_hierarchical_text_clustering.egg-info/dependency_links.txt
+src/adaptive_hierarchical_text_clustering.egg-info/requires.txt
+src/adaptive_hierarchical_text_clustering.egg-info/top_level.txt
+tests/test_clustering.py
