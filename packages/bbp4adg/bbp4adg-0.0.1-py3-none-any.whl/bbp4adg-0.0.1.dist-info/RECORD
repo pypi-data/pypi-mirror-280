@@ -1,0 +1,15 @@
+bbp4adg/__init__.py,sha256=5Z2Vr76OXPatLKSKPF-cetXEkssJbP9FeIOItH-DVoQ,58
+bbp4adg/estimators/__init__.py,sha256=4MB4eK-JbXry0c6zePOCTht7lxa3RG1e9VNm0rz2sec,272
+bbp4adg/estimators/adg.py,sha256=xpa0dZZSKp1s5Syqq3UW5q9PGgC-nnAYBcAhMN_4GrU,5925
+bbp4adg/estimators/base.py,sha256=xclxawQ9BGIpoWDuCX3qlRC9uuz37E-w6zaxU5my4q0,4105
+bbp4adg/estimators/bbp.py,sha256=p_4vizRQW9Q-t_ZIV1dTrIEt5Ff5qN6uIcWpnnFlN7E,4489
+bbp4adg/estimators/model.py,sha256=HPtyibe16MUz7pnLi9ZN5giLxYxytKNQCkXNeCfaROM,753
+bbp4adg/estimators/semantics.py,sha256=zKfVSnp5F2iPfTX4aB1Aue1HnLqNbvoUUwwCaDZmP0U,4743
+bbp4adg/utils/__init__.py,sha256=Cfo7p2WAcVGFDJTDbhgR6_FTsPTb-Yp8DE1UpKqrIIk,150
+bbp4adg/utils/data.py,sha256=y2SbxCZ8AOONaCC6QrUier5QDtF0PfJbfRtK0PDFcDk,1005
+bbp4adg/utils/logger.py,sha256=k_7lln9hptHe6NMuBkFm6ZPOcyU5-Xb_EWvyKqKHYTY,571
+bbp4adg-0.0.1.dist-info/LICENSE,sha256=o-UN2HtauKymopUFtbaAx97fhdDNtYrqr2fGIs8aLxw,1064
+bbp4adg-0.0.1.dist-info/METADATA,sha256=oBfQA1XseXkC7pvIo9CwgZCLsg_O87AhyZAtAH4wimU,515
+bbp4adg-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bbp4adg-0.0.1.dist-info/top_level.txt,sha256=uzZsyDGA8U7wVVthQtOOxigW78tTbU60EDF4lQx6_tM,8
+bbp4adg-0.0.1.dist-info/RECORD,,
