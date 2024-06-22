@@ -1,0 +1,14 @@
+tolerance 2.0
+output packmol.pdb
+filetype pdb
+connect yes
+structure input_1.pdb
+   inside cube 0.0 0.0 0.0 29.2609
+   center
+   fixed 14.6244 14.6137 14.6231 0.0 0.0 0.0
+   number 1
+end structure
+structure input_2.pdb
+   inside cube 0.0 0.0 0.0 29.2609
+   number 829
+end structure
