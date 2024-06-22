@@ -1,0 +1,30 @@
+name: mvp
+channels:
+  - bioconda
+  - conda-forge
+  - biocore
+  - defaults
+dependencies:
+  - importlib_resources
+  - tqdm
+  - genomad
+  - pandas
+  - checkv
+  - bowtie2
+  - minimap2
+  - samtools
+  - seqtk
+  - scikit-learn==0.23
+  - numpy==1.23
+  - parallel
+  - coverm
+  - python[version='>=3.7']
+  - dos2unix
+  - mmseqs2
+  - mafft
+  - trimal
+  - fasttree
+  - vRhyme
+  - taxopy
+  - table2asn
+  - flit
