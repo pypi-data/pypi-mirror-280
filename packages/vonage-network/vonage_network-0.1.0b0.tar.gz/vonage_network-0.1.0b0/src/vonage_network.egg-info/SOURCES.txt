@@ -1,0 +1,11 @@
+README.md
+backend_shim.py
+pyproject.toml
+src/vonage_network/__init__.py
+src/vonage_network/_version.py
+src/vonage_network/vonage_network.py
+src/vonage_network.egg-info/PKG-INFO
+src/vonage_network.egg-info/SOURCES.txt
+src/vonage_network.egg-info/dependency_links.txt
+src/vonage_network.egg-info/requires.txt
+src/vonage_network.egg-info/top_level.txt
