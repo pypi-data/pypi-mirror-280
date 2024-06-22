@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+cell_stamp.egg-info/PKG-INFO
+cell_stamp.egg-info/SOURCES.txt
+cell_stamp.egg-info/dependency_links.txt
+cell_stamp.egg-info/not-zip-safe
+cell_stamp.egg-info/requires.txt
+cell_stamp.egg-info/top_level.txt
+stamp/DataSet.py
+stamp/Modules.py
+stamp/STAMP.py
+stamp/__init__.py
+stamp/utils.py
+stamp/version.py
