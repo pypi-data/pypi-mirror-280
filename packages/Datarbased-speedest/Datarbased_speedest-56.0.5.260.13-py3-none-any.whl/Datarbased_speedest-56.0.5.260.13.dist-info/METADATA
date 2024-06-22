@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: Datarbased-speedest
+Version: 56.0.5.260.13
+Summary: This is the simplest module for quick work with databases3.
+Home-page: https://github.com/UserSal1/
+Author: romaska555
+Author-email: example@gmail.com
+Project-URL: GitHub, https://github.com/UserSal1/
+Keywords: datas databased
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests >=2.25.1
+
+# Databased #
+### a powerfull database module! ###
+___
+
+## you can add people data! ##
+```python 
+import databased
+
+# databased.create_data(enter data)
+
+```
+### see you created data
+
+```python
+...
+
+#databased.browse_data(enter data name)
+
+```
+рџ’Ў **tip:** you can use database for your sites!
+
+
+> вљ пёЏ<p style="color: red;">Warning!</p> this module don't released and  version not working!!
+
+| commands   | status       | command info            |
+|------------|--------------|-------------------------|
+| `PitBase`  | not released | shows you all databases |
+| `commands` | not released | shows list of commands  |
+| `Help`     | not released | help command            |
+| `version`  | not released | shows module version    |
+
+[![pypi supported versions](https://img.shields.io/pypi/pyversions/kubernetes.svg)](https://badge.fury.io/py/kubernetes)
