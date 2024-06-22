@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "watr-rat"
+version = "0.1.0"
+description = ""
+authors = ["moose23967 <moose23967@gmail.com>"]
+packages = [{ include = "rat", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
