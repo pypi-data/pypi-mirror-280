@@ -1,0 +1,55 @@
+
+
+## 开发与发布
+
+### 启动 venv 环境
+```bash
+python3 -m venv venv
+source ./venv/bin/activate
+pip install maturin
+```
+
+### 开发 
+#### 编译
+```bash
+# 开发
+maturin develop
+```
+
+#### 测试
+
+```bash
+# 测试
+python
+>>> import ba_rocket
+>>> ba_rocket.download_files([("https://tosv.byted.org/obj/labcv.ftp/tests/output1.mp4", "./test.jpg")], 1024 * 1024, 10)
+Successfully downloaded https://tosv.byted.org/obj/labcv.ftp/tests/output1.mp4 in 5.63s
+```
+
+## 发布
+
+### 构建 for mac
+```bash
+# 编译
+maturin build --release
+```
+
+### 构建 for linux
+
+#### 构建 Docker 镜像
+
+
+```bash
+cd dockerfiles
+docker build -t manylinux_maturin .
+docker run --rm -v $(pwd):/io manylinux_maturin build --release  
+```
+
+
+### publish
+
+```bash
+# 发布
+pip install --index-url https://test.pypi.org/simple/
+maturin publish
+```
