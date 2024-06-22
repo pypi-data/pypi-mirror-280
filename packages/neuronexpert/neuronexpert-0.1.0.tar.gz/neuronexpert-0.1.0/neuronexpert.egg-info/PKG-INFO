@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: neuronexpert
+Version: 0.1.0
+Summary: This is the lib to use Neuron Expert Assistant
+Home-page:  https://neuron.expert
+Author: percyve11e
+Author-email: percyve11e.me@gmail.com
+Project-URL: GitHub, https://github.com/nnevdokimov
+Keywords: neuron expert
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.1
+Requires-Dist: aiohttp
+
+```markdown
+# Neuron Chat Client
+
+This is a Python client library for interacting with the Neuron chat API. It allows you to easily send messages to the API and receive responses.
+
+## Installation
+
+You can install the library using pip:
+
+```bash
+pip install neuronexpert
+```
+
+## Usage
+
+Here is an example of how to use the `Neuron` class to interact with the Neuron chat API:
+
+### Basic Usage
+
+First, import the `Neuron` class and create an instance of it with your `chat_id` and `api_key`.
+
+```python
+from neuronexpert import Neuron
+
+# Initialize the Neuron client
+client = Neuron(chat_id=12345, api_key='your-api-key')
+
+# Ask a question
+answer = client.ask("Hello, how are you?")
+print(answer)
+```
+
+### Detailed Example
+
+Here is a more detailed example demonstrating how to handle errors and format the response:
+
+```python
+from neuronexpert import Neuron
+
+def main():
+    # Replace with your actual chat_id and API key
+    chat_id = 12345
+    api_key = 'your-api-key'
+    
+    # Initialize the Neuron client
+    client = Neuron(chat_id=chat_id, api_key=api_key)
+    
+    # Ask a question
+    question = "What is the weather like today?"
+    
+    try:
+        # Get the answer from the Neuron API
+        answer = client.ask(question)
+        print(f"Question: {question}")
+        print(f"Answer: {answer}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+if __name__ == "__main__":
+    main()
+```
+
+### Class Documentation
+
+#### `Neuron` Class
+
+**Initialization**:
+
+```python
+client = Neuron(chat_id: int, api_key: str)
+```
+
+- `chat_id`: The ID of the chat session.
+- `api_key`: Your API key for accessing the Neuron chat API.
+
+**Methods**:
+
+- `ask(message: str) -> str`: Sends a message to the Neuron chat API and returns the response.
+  - `message`: The message you want to send to the API.
+
+### Error Handling
+
+The `ask` method includes error handling for various types of errors that might occur during the request. If an error occurs, it will be printed to the console.
+
+### Dependencies
+
+This library depends on `aiohttp` for making asynchronous HTTP requests. The dependency is listed in `setup.py` and will be installed automatically when you install the package.
+
+## Development
+
+If you want to contribute to the development of this library, you can clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/nnevdokimov/neuronexpert.git
+cd neuronexpert
+pip install -r requirements.txt
+```
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+---
+
+Feel free to customize the examples and usage instructions to better fit your needs. If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request on GitHub.
+
+```
