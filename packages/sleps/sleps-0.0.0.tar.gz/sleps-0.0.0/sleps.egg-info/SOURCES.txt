@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+sleps/__init__.py
+sleps/utils.py
+sleps/version.py
+sleps.egg-info/PKG-INFO
+sleps.egg-info/SOURCES.txt
+sleps.egg-info/dependency_links.txt
+sleps.egg-info/requires.txt
+sleps.egg-info/top_level.txt
+sleps/eclusters/__init__.py
+sleps/eclusters/base.py
+sleps/eclusters/cluster.py
+sleps/eclusters/embedding.py

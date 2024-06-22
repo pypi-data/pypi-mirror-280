@@ -1,0 +1,135 @@
+Metadata-Version: 2.1
+Name: sleps
+Version: 0.0.0
+Summary: Some Pipelines
+License: MIT License
+        
+        Copyright (c) 2024 
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy==1.26.4
+Requires-Dist: pandas==2.2.2
+Requires-Dist: gensim==4.3.2
+Requires-Dist: psutil==5.9.5
+Requires-Dist: scikit-learn==1.3.2
+Requires-Dist: scipy==1.11.3
+Requires-Dist: sentence-transformers==2.3.1
+Requires-Dist: tqdm==4.66.4
+Requires-Dist: umap-learn==0.5.6
+
+# sleps
+
+sleps is a collection of some simple NLP pipelines
+- ecluster: cluster word embeddings
+- llmclf: binary and multiclass classification using LLM
+
+## Installation 
+```bash
+pip install sleps
+```
+
+
+## Example usage
+
+### embed documents and cluster its embeddings
+
+Cluster some word with chosen embedding and clustering models
+
+```py
+from sleps.eclusters import load_embedding_model, get_clustering_model_dict, load_clustering_model, cluster
+import numpy as np 
+
+# load documents
+
+with open('sample_documents.txt', 'r') as file:
+	documents = np.array([line.strip() for line in file.readlines()])
+
+# embedding model
+embedding_model = load_embedding_model(
+	model_name = 'all-MiniLM-L6-v2', mode = 'huggingface',
+)
+# embedding_model = load_model(model_name='word2vec') 
+
+# obtain embeddings 
+embeddings = embedding_model.encode(documents)
+
+# clustering model
+clustering_model = load_clustering_model('kmeans')
+clustering_model = clustering_model.set_params(n_clusters=3)
+
+# fit the model and retrieve labels and metrics
+labels, metrics = cluster(
+	embeddings, clustering_model, 
+	metrics = ['dbs', 'calinski'],
+)
+print(metrics)
+
+# print sample result
+n_samples = 10
+for documents, label in zip(documents[:n_samples], labels[n_samples]):
+	print(f'{document} -> label {label}')
+```
+
+## Find the best algorithm and num_cluster 
+```py
+# define a list of clustering models to evaluate
+# all default models are included in get_clustering_model_dict
+model_names = ['kmeans', 'agglomerative_clustering', 'spectral_clustering']
+
+# find best algo and num_cluster using test_metric
+results = find_best_algorithm(
+	embeddings, model_names=model_names,
+	test_metric='dbs', metrics = ['dbs', 'silhouette'],
+	min_cluster_num=2, max_cluster_num=10,
+	result_filepath='sample_result_metrics.csv',
+	print_topk=True,
+)
+
+# view all results
+pd.DataFrame(results)
+```
+
+## Installation
+### PyPI
+```bash
+$ pip install sleps
+```
+
+## Supported models
+### 
+
+| embedding model | model_name | mode |
+| :- | :-: | :-: |
+| sklearn.feature.extraction.text.TfidfVectorizer | tfidf | None | 
+| gensim.models.Word2Vec | word2vec | None | 
+| gensim.models.Doc2Vec | doc2vec | None |
+| sentence_transformers.SentenceTransformer | Any | huggingface | 
+
+
+| clustering model | model_name | default params |
+| :- | :-: | :-: |
+| sklearn.cluster.KMeans | kmeans | n_init='auto' | 
+| sklearn.cluster.AgglomerativeClustering | agglomerative_clustering | None | 
+| sklearn.cluster.SpectralClustering | spectral_clustering | None | 
+| sklearn.cluster.MeanShift | mean_shift | None | 
+| sklearn.cluster.AffinityPropagation | affinity_propagation | None | 
+| sklearn.cluster.Birch | birch | threshold=0.2 | 
