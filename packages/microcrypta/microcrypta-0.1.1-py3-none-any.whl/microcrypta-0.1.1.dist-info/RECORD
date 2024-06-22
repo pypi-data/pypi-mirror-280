@@ -1,0 +1,17 @@
+microcrypta/__init__.py,sha256=iiU3Eg7kEgS7BiDooKDrAA5RUqcUlfYegQ_rZiMnsGc,256
+microcrypta/account.py,sha256=FJbicnEMFsJRrsopUQTOmXe3ROdakmdQ2FfKsRuUqHo,2057
+microcrypta/backtest.py,sha256=MgHEwpJl-phL9Xkk4bq5Jm8TOMjcpX6LwVrUsvW4SlE,5265
+microcrypta/bsh.py,sha256=lLHqAy9BvvUowvT0BbELV3espzTsmij1y42YcqxPrHw,10038
+microcrypta/coin.py,sha256=pBxEOhOsc1qAzPSSRcdgq77TPWMPY6byFYnfg4EyJVg,1426
+microcrypta/coinmarket.py,sha256=6uNxZ8wXqMTJwz3r2nXzlL5TIKyTiLbtUYPNOE9Eskc,22168
+microcrypta/config.py,sha256=wEdYXgW9JlMA9682klTl89eJO-VwuhW7FID1z2IqMFc,206
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_account.py,sha256=TaEZswijUgIbuN86b1KreHPaaahyJhwic3zmXjy27hw,500
+tests/test_backtest.py,sha256=HKGtUE6QUrbrsKXgRgOxs7oC6CNJL44N7xDcWMwmRaY,874
+tests/test_bsh.py,sha256=OqfdATYjnqN9K84Lqu0fXLg3iEMNitYMAo4RLpx-iso,562
+tests/test_coin.py,sha256=ZPAOb5lFaAPwxCayiLHEZ7YMyGVEbwBl3s1pWPelB2k,415
+tests/test_coinmarket.py,sha256=NeUh3iRYpDYW0CjlmiHDfcjEMBAOstwbSLgLKRqo-PM,767
+microcrypta-0.1.1.dist-info/METADATA,sha256=69VpoqmjNnfTwjPgndBYRPv298XhocWnEob5HFyzMU0,3078
+microcrypta-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+microcrypta-0.1.1.dist-info/top_level.txt,sha256=qAb2Y9RwG7Kl-cRMlC2m4IPkxb0P2Mbf64hSsg2HnmE,18
+microcrypta-0.1.1.dist-info/RECORD,,
