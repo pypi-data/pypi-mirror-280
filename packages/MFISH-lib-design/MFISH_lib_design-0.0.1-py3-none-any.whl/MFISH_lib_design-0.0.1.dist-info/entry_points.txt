@@ -1,0 +1,2 @@
+[console_scripts]
+design_probes = library_design:main
