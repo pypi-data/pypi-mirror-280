@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "precisetranscribe"
+version = "0.1.7"
+description = "Utilities for transcribing audio files using the Whisper API."
+readme = "README.md"
+authors = [{ name = "Aeron Laffere", email = "ajlaffere@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["transcription"]
+dependencies = [
+    "openai",
+        "numpy",
+        "ffmpeg-python",
+        "pydub",
+        "tiktoken",
+        "python-dotenv"
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-cov"]
+
+[project.urls]
+Homepage = "https://github.com/aeronjl/transcribe"
+Documentation = "https://transcribe.readthedocs.io/"
+Repository = "https://github.com/aeronjl/transcribe.git"
+
+[project.scripts]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["precisetranscribe*"]
+exclude = ["tests*"]
+
+[tool.pytest.ini_options]
+addopts = ""
+testpaths = [
+    "tests",
+]
