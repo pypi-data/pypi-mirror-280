@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: prompt-defender-llm-defences
+Version: 0.1.26
+Summary: Prompt Defender. A package to help you defend against prompt injection attacks.
+Author: Daniel Llewellyn
+Author-email: admin@safetorun.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: bleach (>=6.1.0,<7.0.0)
+Requires-Dist: dataclasses-json (>=0.6.4,<0.7.0)
+Requires-Dist: langchain (>=0.2.1,<0.3.0)
+Requires-Dist: prompt-defender (>=0.1.3,<0.2.0)
+Requires-Dist: pydantic (>=2.6.3,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Prompt Defender
+![PyPI](https://img.shields.io/pypi/v/prompt-defender)
+![PyPI](https://img.shields.io/pypi/v/prompt-defender-llm-defences)
+
+Read the documentation at [Prompt Defender - Docs](https://promptshield.readme.io/docs)
+
+## Installation
+
+```pip install prompt-defender prompt-defender-llm-defences```
+
+## Running tests
+
+
+To the run the tests, you'll need an openAI API Key. 
+
+```bash
+export OPENAI_API_KEY=<your API key>
+make test
+```
