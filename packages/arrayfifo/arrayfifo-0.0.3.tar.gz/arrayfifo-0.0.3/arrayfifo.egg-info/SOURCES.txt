@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+setup.py
+arrayfifo/__init__.py
+arrayfifo.egg-info/PKG-INFO
+arrayfifo.egg-info/SOURCES.txt
+arrayfifo.egg-info/dependency_links.txt
+arrayfifo.egg-info/top_level.txt
