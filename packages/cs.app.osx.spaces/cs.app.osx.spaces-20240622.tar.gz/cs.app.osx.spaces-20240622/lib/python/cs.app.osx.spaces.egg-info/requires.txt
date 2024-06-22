@@ -1,0 +1,9 @@
+cs.app.osx.misc>=20240622.1
+cs.app.osx.objc>=20240622
+cs.cmdutils>=20240519
+cs.context>=20240412
+cs.delta>=20240622
+cs.logutils>=20230212
+cs.pfx>=20240412
+pyobjc
+typeguard

@@ -1,0 +1,128 @@
+Access to the MacOS X display spaces.
+
+*Latest release 20240622*:
+* New SpacesCommand with a "wp" command to report or set wallpaper configs.
+* Assorted other updates.
+
+## Function `main(argv=None)`
+
+cs.app.osx.spaces command line mode.
+
+## Class `Spaces`
+
+The spaces for a particular display.
+
+*Method `Spaces.__init__(self, display_index=0, *, cg_conn: Optional[inspect._empty] = <objc.function '_CGSDefaultConnection' at 0x11f739f70>)`*:
+Initialise.
+
+Parameters:
+* `display_index`: optional display index, default `0`
+* `cg_conn`: optional CoreGraphics connection,
+  default from `CoreGraphics._CGSDefaultConnection()`
+
+*Method `Spaces.__getitem__(self, space_index)`*:
+Return the space at index `space_index`.
+Note that the index counts from `0`, while the desktop space
+number counts from `1`.
+
+*Property `Spaces.current`*:
+The current space.
+
+*Property `Spaces.current_index`*:
+The index of the current space, found by scanning the spaces
+for the current space UUID.
+Returns `None` if not found.
+
+*Property `Spaces.current_uuid`*:
+The UUID of the current space.
+
+*Property `Spaces.display_id`*:
+The display identifier of the display.
+
+*Property `Spaces.display_uuid`*:
+The UUID of the display.
+
+*Method `Spaces.forget(self)`*:
+Forget the current spaces information.
+This will cause it to be obtained anew.
+
+*Method `Spaces.get_wp_config(self, space_index: int)`*:
+Get the desktop picture configuration of the space at `space_index`.
+
+*Method `Spaces.monitor_current(self, **kw)`*:
+Return a `cs.delta.monitor` generator for changes to the
+"current" space i.e. changes representing a desktop space switch.
+
+*Method `Spaces.monitor_wp_config(self, space_index=None, **kw)`*:
+Return a `cs.delta.monitor` generator for the wallpaper
+configuration of a specific space (default `self.current_index`
+at the time of call).
+
+*Method `Spaces.popindices(self, argv)`*:
+Pop a leading spaces specification from `argv` if present,
+return a list of the indices it represents.
+If there is no spaces specification, return `None`.
+
+Note that space indices count from `0`, and space numbers count from `1`.
+
+The following spaces specifications are recognised:
+* `.`: the current space index
+* `*`: all the space indices
+* a positive integer `spn`: `spn-1`
+
+*Method `Spaces.set_wp_config(self, space_index: int, wp_config: dict)`*:
+Set the desktop picture configuration of the space at
+`space_index` using the `dict` `wp_config`.
+
+## Class `SpacesCommand(cs.cmdutils.BaseCommand)`
+
+A command line implementation for manipulating spaces.
+
+Command line implementation.
+
+Usage summary:
+
+    Usage: spaces subcommand [...]
+      Subcommands:
+        help [-l] [subcommand-names...]
+          Print help for subcommands.
+          This outputs the full help for the named subcommands,
+          or the short help for all subcommands if no names are specified.
+          -l  Long help even if no subcommand-names provided.
+        monitor
+          Monitor space switches.
+        shell
+          Run a command prompt via cmd.Cmd using this command's subcommands.
+        wp [{.|space#|*} [wp-path]]
+          Set or query the wallpaper for a space.
+          The optional space number may be "." to indicate the
+          current space or "*" to indicate all spaces.
+        wpm [{.|space#}]
+          Monitor the wallpaper settings of a particular space.
+
+*`SpacesCommand.Options`*
+
+*Method `SpacesCommand.cmd_monitor(self, argv)`*:
+Usage: {cmd}
+Monitor space switches.
+
+*Method `SpacesCommand.cmd_wp(self, argv)`*:
+Usage: {cmd} [{{.|space#|*}} [wp-path]]
+Set or query the wallpaper for a space.
+The optional space number may be "." to indicate the
+current space or "*" to indicate all spaces.
+
+*Method `SpacesCommand.cmd_wpm(self, argv)`*:
+Usage: {cmd} [{{.|space#}}]
+Monitor the wallpaper settings of a particular space.
+
+*Method `SpacesCommand.run_context(self, **kw)`*:
+Set `options.spaces` to a `Spaces` instnace during a command run.
+
+# Release Log
+
+
+
+*Release 20240622*:
+* New SpacesCommand with a "wp" command to report or set wallpaper configs.
+* Assorted other updates.

@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+pyproject.toml
+lib/python/cs.app.osx.spaces.egg-info/PKG-INFO
+lib/python/cs.app.osx.spaces.egg-info/SOURCES.txt
+lib/python/cs.app.osx.spaces.egg-info/dependency_links.txt
+lib/python/cs.app.osx.spaces.egg-info/entry_points.txt
+lib/python/cs.app.osx.spaces.egg-info/requires.txt
+lib/python/cs.app.osx.spaces.egg-info/top_level.txt
+lib/python/cs/app/osx/spaces.py
