@@ -1,0 +1,11 @@
+piqp/piqp_python.pypy39-pp73-x86_64-linux-gnu.so,sha256=bfciXBsTd2qdPM0nKdWrG8Yqq7Y-zP6u1clU05XcoDA,635112
+piqp/instruction_set.pypy39-pp73-x86_64-linux-gnu.so,sha256=852blla2otgUjfG6v5KsIP9Ew5K7oZ2y76K7rfxR79I,204712
+piqp/piqp_python_avx512.pypy39-pp73-x86_64-linux-gnu.so,sha256=8X0dwoXMbfj7kuswelk5SY2kshQalMnKUvj81-5efT0,741608
+piqp/__init__.pyi,sha256=IEuEhOIQ5uaeXDBePPiIS_Byzpn5_rIVxX6c222I4co,7739
+piqp/piqp_python_avx2.pypy39-pp73-x86_64-linux-gnu.so,sha256=ijEr9usbp68G9oyMKdfh3fl3EjoSvLHTysxo3TEl6tM,700648
+piqp/__init__.py,sha256=Wjb2QcsWaVeit-n248L7l7u603eEeamLdQOmJPjiE2Q,965
+piqp-0.4.0.dist-info/LICENSE,sha256=Ql0WXOWsYrw_0c74NzT6Z4C8hEZYv8XpBMpFoBHf7HA,1313
+piqp-0.4.0.dist-info/WHEEL,sha256=EsLB3v8aEBKqMsnOPgW3KzfOJJ5bx6hV7A2gfveF67k,161
+piqp-0.4.0.dist-info/top_level.txt,sha256=F-GFRluNmn1bIS3npWT9LVAqKKnPzP4_LX_vULOXLnE,5
+piqp-0.4.0.dist-info/RECORD,,
+piqp-0.4.0.dist-info/METADATA,sha256=BCiybEK4S3HHzjp7zeD6lNOe-EzLm_en5qxfoCf6-Ek,4891
