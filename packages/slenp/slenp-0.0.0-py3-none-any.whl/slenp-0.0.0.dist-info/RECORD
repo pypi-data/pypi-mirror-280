@@ -1,0 +1,12 @@
+slenp/__init__.py,sha256=zPdhicPgilBa0AowyNlFozYpCn1SP5CWEZ-8YHxdUBM,46
+slenp/utils.py,sha256=BL6tsO38eQeV0oXkZhGn_S-fd3v6HPwrIyBVUG85Sdw,1530
+slenp/version.py,sha256=E9mBeAGEUcd45E0L9DSxtmVJcweyFhpEhuF1O-376cA,31
+slenp/eclusters/__init__.py,sha256=gbmVRbJXloUKDtaxwsLgsCAPYopDik39B9jPNb-HtwM,51
+slenp/eclusters/base.py,sha256=1X-DkuauQWwOF5gaotXUSE6bR_t9q91ItMwHt7_Eoyg,162
+slenp/eclusters/cluster.py,sha256=YiNHBU459XK5YM2fa2dloPqUCIsVgMS1Tiaas1Y8D54,8091
+slenp/eclusters/embedding.py,sha256=VQFJ3Q_vM_BcdItF-IBXXLoc6m7gzFdofbb2vOMqRRc,5645
+slenp-0.0.0.dist-info/LICENSE,sha256=wUzm0WrFHXwFcGiwIb4wgEKTkHlRljzsmhznZdNT5aY,1076
+slenp-0.0.0.dist-info/METADATA,sha256=Xsu2uc-H4vhEFtylmuuga934fQoXrcqSb08ugjD_w84,1797
+slenp-0.0.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+slenp-0.0.0.dist-info/top_level.txt,sha256=hOIRDn3YP9oRneTE1lUuPobWwk2aq7XYouyqHExrmGI,6
+slenp-0.0.0.dist-info/RECORD,,
