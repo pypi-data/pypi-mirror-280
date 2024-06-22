@@ -1,0 +1,4 @@
+pytest
+sqlalchemy
+aiohttp
+pandas

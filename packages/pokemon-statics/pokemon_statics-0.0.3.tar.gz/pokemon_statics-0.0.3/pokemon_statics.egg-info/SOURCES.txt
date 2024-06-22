@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+pokemon_statics.egg-info/PKG-INFO
+pokemon_statics.egg-info/SOURCES.txt
+pokemon_statics.egg-info/dependency_links.txt
+pokemon_statics.egg-info/requires.txt
+pokemon_statics.egg-info/top_level.txt
