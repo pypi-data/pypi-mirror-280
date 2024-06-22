@@ -1,0 +1,18 @@
+[project]
+name = "vkernelrs"
+description = "A Rust library for the vkernel project"
+authors = [
+    { name = "Guillaume Boyé" },
+]
+dependencies = ["cffi"]
+
+[build-system]
+requires=["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[package.metadata.maturin]
+name = "vkernelrs"
+
+[tool.maturin]
+compatibility = "linux"
+features = ["pybinding"]
