@@ -1,0 +1,2 @@
+[console_scripts]
+topusers = myredditbot2.topusers:main
