@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+pyproject.toml
+src/transrot/__init__.py
+src/transrot/_version.py
+src/transrot/transrot.py
+src/transrot.egg-info/PKG-INFO
+src/transrot.egg-info/SOURCES.txt
+src/transrot.egg-info/dependency_links.txt
+src/transrot.egg-info/requires.txt
+src/transrot.egg-info/top_level.txt
+tests/test_transrot.py
