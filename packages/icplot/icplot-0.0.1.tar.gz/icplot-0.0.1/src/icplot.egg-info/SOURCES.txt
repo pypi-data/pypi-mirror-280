@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/icplot/__init__.py
+src/icplot/cairo_interface.py
+src/icplot/gantt.py
+src/icplot/geometry.py
+src/icplot/project_elements.py
+src/icplot.egg-info/PKG-INFO
+src/icplot.egg-info/SOURCES.txt
+src/icplot.egg-info/dependency_links.txt
+src/icplot.egg-info/requires.txt
+src/icplot.egg-info/top_level.txt
+test/test_cairo_interface.py

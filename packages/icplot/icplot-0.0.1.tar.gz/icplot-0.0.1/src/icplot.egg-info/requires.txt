@@ -1,0 +1,10 @@
+
+[cairo]
+pycairo
+
+[test]
+pytest
+pytest-cov
+pytest-sugar
+black
+mypy
