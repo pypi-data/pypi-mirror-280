@@ -1,0 +1,9 @@
+pyproject.toml
+setup.py
+coinconverter/__init__.py
+coinconverter/coinconverter.py
+coinconverter.egg-info/PKG-INFO
+coinconverter.egg-info/SOURCES.txt
+coinconverter.egg-info/dependency_links.txt
+coinconverter.egg-info/requires.txt
+coinconverter.egg-info/top_level.txt
