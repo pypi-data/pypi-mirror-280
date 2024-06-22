@@ -1,0 +1,11 @@
+tap_workato/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tap_workato/client.py,sha256=ZIcuRbtS0Llm8pbZE3mve2wDeHKUgnZ4OVak6QheRhw,2138
+tap_workato/streams.py,sha256=nI_fQRU5MTui8LUB3eBpIOOOTxSYlEMgIquOSgbh7Xk,22884
+tap_workato/tap.py,sha256=auXp5qqheWa9SGZy39WCvxh3iv3bkVh5ZhpIaWFBEMM,2039
+tap_workato/tests/__init__.py,sha256=Mr-Y-V1F5KjCPTzfdIAB-fcy9iPe5B5tDH49Uk4MTV8,34
+tap_workato/tests/test_core.py,sha256=m8n6dscPzDuulaQ-cMsNT7whtNRWlGreRDPAepHolr0,1977
+tap_workato-0.1.1.dist-info/entry_points.txt,sha256=jDwSZQvCgh8Uqr1y0KyKs3ymMUk_3r6ufQho30Fg7KE,62
+tap_workato-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tap_workato-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+tap_workato-0.1.1.dist-info/METADATA,sha256=JmqxBDOMKVfoMQMCZ6wKIiB4TjxTUAle70xoR77F-WM,4190
+tap_workato-0.1.1.dist-info/RECORD,,
