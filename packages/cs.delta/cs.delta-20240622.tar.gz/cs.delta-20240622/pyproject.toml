@@ -1,0 +1,112 @@
+[project]
+name = "cs.delta"
+description = "Utility functions around state changes."
+authors = [
+    { name = "Cameron Simpson", email = "cs@cskk.id.au" },
+]
+keywords = [
+    "python2",
+    "python3",
+]
+dependencies = [
+    "cs.obj>=20220918",
+    "cs.resources>=20240522",
+    "icontract",
+]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+]
+version = "20240622"
+
+[project.license]
+text = "GNU General Public License v3 or later (GPLv3+)"
+
+[project.urls]
+"Monorepo Hg/Mercurial Mirror" = "https://hg.sr.ht/~cameron-simpson/css"
+"Monorepo Git Mirror" = "https://github.com/cameron-simpson/css"
+"MonoRepo Commits" = "https://bitbucket.org/cameron_simpson/css/commits/all"
+Source = "https://github.com/cameron-simpson/css/blob/main/lib/python/cs/delta.py"
+
+[project.readme]
+text = """
+Utility functions around state changes.
+
+*Latest release 20240622*:
+Changes to accomodate dropping BaseCommandOptions.runstate.
+
+## Function `delta(old, new, keys=None)`
+
+Return a mapping representing differences between the mappings
+`old` and `new` for the specified `keys`.
+If `keys` is not specified, the union of the keys of `old`
+and `new` is used.
+
+The returned mapping has a key for each changed value.
+If the key does not exist in `new` the value is the `MISSING`
+sentinel object otherwise it is `new[key]`.
+Values are compared using `==`; if that raises `TypeError`
+the values are considered not equal.
+
+Example:
+
+  >>> d1 = {1: 2, 3: 4, 5: 6}
+  >>> d2 = {1: 2, 3: 44, 7: 8}
+  >>> diff = delta(d1, d2)
+  >>> diff  # doctest: +ELLIPSIS
+  {3: 44, 5: <object object at ...>, 7: 8}
+  >>> diff[5] is MISSING
+  True
+
+## Function `monitor(get_state, keys=None, *, ifunchanged=False, interval=0.3, runstate: Optional[cs.resources.RunState] = <function uses_runstate.<locals>.<lambda> at 0x1072e81f0>)`
+
+A generator yielding 3-tuples of `(old,new,delta(old,new,keys))`
+at poll intervals of `interval` seconds.
+
+Parameters:
+* `get_state`: a callable which polls the current state,
+  returning a mapping
+* `keys`: an optional iterable of keys of interest;
+  if omitted, all the old and new mapping keys are examined
+* `ifunchanged`: optional flag, default `False`;
+  if true yield a tuple on every poll instead of only when a
+  state change is seen
+* `interval`: an optional interpoll `time.sleep` period,
+  default `0.3`s
+* `runstate`: an optional `RunState`, whose `cancelled`
+  attribute will be polled for loop termination
+
+# Release Log
+
+
+
+*Release 20240622*:
+Changes to accomodate dropping BaseCommandOptions.runstate.
+
+*Release 20240316*:
+Fixed release upload artifacts.
+
+*Release 20240214*:
+Initial PyPI release."""
+content-type = "text/markdown"
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools >= 61.2",
+    "trove-classifiers",
+    "wheel",
+]
+
+[tool.setuptools]
+py-modules = [
+    "cs.delta",
+]
+
+[tool.setuptools.package-dir]
+"" = "lib/python"
