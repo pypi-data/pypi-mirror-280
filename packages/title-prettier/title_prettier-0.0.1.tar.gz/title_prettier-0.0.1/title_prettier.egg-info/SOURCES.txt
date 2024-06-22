@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+tests/test.py
+title_prettier/__init__.py
+title_prettier/titles.py
+title_prettier/web.py
+title_prettier.egg-info/PKG-INFO
+title_prettier.egg-info/SOURCES.txt
+title_prettier.egg-info/dependency_links.txt
+title_prettier.egg-info/requires.txt
+title_prettier.egg-info/top_level.txt
