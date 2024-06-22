@@ -1,0 +1,42 @@
+"""
+CLASH_PROXY
+
+
+"""
+
+_clash_proxy = "http://127.0.0.1:7890"
+CLASH_PROXY = {
+    "http": _clash_proxy,
+    "https": _clash_proxy,
+    "socks5": _clash_proxy,
+    "http://": _clash_proxy,
+    "https://": _clash_proxy,
+    "socks5://": _clash_proxy,
+}
+
+
+def cookie2dict(cookie_str: str) -> dict:
+    """
+    把 cookie 字符串转换为字典
+
+    cookie_str: str
+
+    return: dict
+
+    例如
+
+    auth_token=824f3b553233b3f95436414e38d68e2c8a2380e7; ct0=6d9a80641d43b17852fda03513f200d2b3be76cba4c5b210326eb1689854553ddfa878424fe7517462a619268a9489a08a961c41e006722e0077f9bb2cc20830b943e50c4fabbf3158b42de5221c3f07
+
+    ↓
+
+    {'auth_token': '824f3b553233b3f95436414e38d68e2c8a2380e7', 'ct0': '6d9a80641d43b17852fda03513f200d2b3be76cba4c5b210326eb1689854553ddfa878424fe7517462a619268a9489a08a961c41e006722e0077f9bb2cc20830b943e50c4fabbf3158b42de5221c3f07'}
+    """
+    cookie_dict = {}
+    for cookie in cookie_str.split(";"):
+        cookie = cookie.strip()
+        key, value = cookie.split("=")
+        cookie_dict[key] = value
+    return cookie_dict
+
+if __name__ == "__main__":
+    print(cookie2dict("auth_token=824f3b553233b3f95436414e38d68e2c8a2380e7; ct0=6d9a80641d43b17852fda03513f200d2b3be76cba4c5b210326eb1689854553ddfa878424fe7517462a619268a9489a08a961c41e006722e0077f9bb2cc20830b943e50c4fabbf3158b42de5221c3f07"))
