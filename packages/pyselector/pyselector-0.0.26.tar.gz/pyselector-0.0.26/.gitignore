@@ -1,0 +1,14 @@
+.ropeproject
+dist
+.coverage
+.dmypy.json
+examples
+.env
+.venv
+.mypy_cache
+.pytest_cache
+.ropeproject
+.ruff_cache
+/src/pyselector/menus/interface.py
+/src/pyselector/menus/rofi_beta.py
+/node_modules/
