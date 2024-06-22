@@ -1,0 +1,6 @@
+vital-model-paraphrase-MiniLM-onnx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vital-model-paraphrase-MiniLM-onnx/model/paraphrase-MiniLM-L3-v2.onnx,sha256=s4iBb0_kvszyEGWJp4ZURZbrE4XKwMV8ak4qZ1ghWxY,69060623
+vital_model_paraphrase_MiniLM_onnx-0.2.1.dist-info/METADATA,sha256=bJTOBWqKNvYZgSLMQRShLV-SMHS9nvLgpc3AFcFYprY,530
+vital_model_paraphrase_MiniLM_onnx-0.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+vital_model_paraphrase_MiniLM_onnx-0.2.1.dist-info/top_level.txt,sha256=IyKE3oiPlvRFnsarughLmtae_W3pPMRI6fbNFGaSJS0,35
+vital_model_paraphrase_MiniLM_onnx-0.2.1.dist-info/RECORD,,

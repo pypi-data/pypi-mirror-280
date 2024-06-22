@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: vital-model-paraphrase-MiniLM-onnx
+Version: 0.2.1
+Summary: Vital Onnx version of paraphrase-MiniLM-L3-v2
+Home-page: https://github.com/vital-ai/vital-onnx-model-packages
+Author: Marc Hadfield
+Author-email: marc@vital.ai
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# vital-onnx-model-packages
