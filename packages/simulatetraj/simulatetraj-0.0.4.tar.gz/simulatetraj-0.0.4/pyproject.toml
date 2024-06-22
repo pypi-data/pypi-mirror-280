@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "simulatetraj"
+version = "0.0.4"
+description = "a class to integrate ordinary differential equation"
+authors = ["sandeep <rskravi15@gmail.com>"]
+license = "LGPL V3"
+readme = "README.md"
+homepage = "http://simulatetraj.rtfd.io/"
+repository = "https://github.com/sandeep026/simulatetraj"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+casadi = "^3.6.5"
+matplotlib = "^3.9.0"
+scipy = "^1.13.1"
+numpy = "^2.0.0"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+pipdeptree = "^2.23.0"
+
+[tool.poetry.group.docs]
+optional=true
+
+[tool.poetry.group.docs.dependencies]
+Sphinx = "^7.3.7"
+nbsphinx = "^0.9.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
