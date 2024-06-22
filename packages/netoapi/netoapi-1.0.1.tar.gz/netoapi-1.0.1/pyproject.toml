@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "netoapi"
+version = "1.0.1"
+description = "A Python3 API Client for the Neto (Maropost) Ecommerce platform"
+authors = [
+  { name="Dan Hobday", email="support@netoapi.org" },
+]
+dependencies = ["requests"]
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dan-hobday/netoapi"
+"Bug Tracker" = "https://github.com/dan-hobday/netoapi/issues"

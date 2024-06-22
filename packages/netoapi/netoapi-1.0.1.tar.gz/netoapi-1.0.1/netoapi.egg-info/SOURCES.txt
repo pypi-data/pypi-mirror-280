@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+netoapi/__init__.py
+netoapi/api_client.py
+netoapi/api_session.py
+netoapi/errors.py
+netoapi.egg-info/PKG-INFO
+netoapi.egg-info/SOURCES.txt
+netoapi.egg-info/dependency_links.txt
+netoapi.egg-info/requires.txt
+netoapi.egg-info/top_level.txt
+tests/test_api_client.py
+tests/test_api_session.py
