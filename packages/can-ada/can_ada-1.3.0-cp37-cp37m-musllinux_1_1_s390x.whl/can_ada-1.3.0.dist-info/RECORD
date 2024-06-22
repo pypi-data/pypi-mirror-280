@@ -1,0 +1,9 @@
+can_ada.cpython-37m-s390x-linux-gnu.so,sha256=KW9GU4t1DdYLB3xoXHBZXNMPg47jgm6aEnPkc9yUvWw,936009
+can_ada.libs/libstdc++-abeb3405.so.6.0.28,sha256=bxztkdoQqkzBL0JLq4l6Vn5KCc9L3PONwSztsgh8pWo,2822409
+can_ada.libs/libgcc_s-26206cc5.so.1,sha256=ALOPNPn3d1oTFenflA0KOhAuUr_r-CXvl6TfNCJUCUA,64257
+can_ada-stubs/__init__.pyi,sha256=bV_5R8d3XJBYKXWtarQQ-5dxiJ4_vJRyYpLrgL13Y7k,2417
+can_ada-1.3.0.dist-info/LICENSE,sha256=IFjnfSzD5bYwlTr52-gGujEL7n7IOLUMh1TDk5JxWq0,2413
+can_ada-1.3.0.dist-info/WHEEL,sha256=QVltaia0L31Q2JBTCIFk_084i841P9vzoWgPZkQqsOc,111
+can_ada-1.3.0.dist-info/top_level.txt,sha256=nDjfJLeMtS44bZ9vFZ1BmGuLCghLtduYEcuPUlVJprU,22
+can_ada-1.3.0.dist-info/RECORD,,
+can_ada-1.3.0.dist-info/METADATA,sha256=C8L4GhxSyAXB-Ms0aejQpaxBKQ4fJDWrtVxLfVCnY5U,2670
