@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/mdbautoconn/__init__.py
+src/mdbautoconn/mongo_crud.py
+src/mdbautoconn.egg-info/PKG-INFO
+src/mdbautoconn.egg-info/SOURCES.txt
+src/mdbautoconn.egg-info/dependency_links.txt
+src/mdbautoconn.egg-info/requires.txt
+src/mdbautoconn.egg-info/top_level.txt
