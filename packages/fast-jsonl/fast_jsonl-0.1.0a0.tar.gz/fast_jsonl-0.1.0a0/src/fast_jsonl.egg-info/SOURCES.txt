@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/fast_jsonl/__init__.py
+src/fast_jsonl/cache.py
+src/fast_jsonl/constants.py
+src/fast_jsonl/lock.py
+src/fast_jsonl/reader.py
+src/fast_jsonl.egg-info/PKG-INFO
+src/fast_jsonl.egg-info/SOURCES.txt
+src/fast_jsonl.egg-info/dependency_links.txt
+src/fast_jsonl.egg-info/requires.txt
+src/fast_jsonl.egg-info/top_level.txt
+tests/test_cache.py
+tests/test_lock.py
+tests/test_reader.py

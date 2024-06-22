@@ -1,0 +1,9 @@
+filelock
+
+[dev]
+pytest
+black
+sphinx
+sphinx_copybutton
+pydata_sphinx_theme
+myst_parser
