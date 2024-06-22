@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+checkers_imp_adv_coding_proj.egg-info/PKG-INFO
+checkers_imp_adv_coding_proj.egg-info/SOURCES.txt
+checkers_imp_adv_coding_proj.egg-info/dependency_links.txt
+checkers_imp_adv_coding_proj.egg-info/entry_points.txt
+checkers_imp_adv_coding_proj.egg-info/requires.txt
+checkers_imp_adv_coding_proj.egg-info/top_level.txt
+checkers_main/__init__.py
+checkers_main/game.py
+checkers_main/utility.py
+checkers_main/static/fonts/DaniloCatalina.ttf
+checkers_main/static/images/checkers.png
