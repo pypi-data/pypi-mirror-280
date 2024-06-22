@@ -1,0 +1,7 @@
+LICENCE
+README.md
+setup.py
+cabot_alert_mattermost.egg-info/PKG-INFO
+cabot_alert_mattermost.egg-info/SOURCES.txt
+cabot_alert_mattermost.egg-info/dependency_links.txt
+cabot_alert_mattermost.egg-info/top_level.txt
