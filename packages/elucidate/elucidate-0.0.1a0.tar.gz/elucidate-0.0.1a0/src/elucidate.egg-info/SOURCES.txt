@@ -1,0 +1,13 @@
+.gitignore
+LICENSE.md
+README.md
+pyproject.toml
+requirements.txt
+.github/workflows/workflow.yml
+src/__init__.py
+src/version.py
+src/elucidate.egg-info/PKG-INFO
+src/elucidate.egg-info/SOURCES.txt
+src/elucidate.egg-info/dependency_links.txt
+src/elucidate.egg-info/top_level.txt
+tests/passing.py
