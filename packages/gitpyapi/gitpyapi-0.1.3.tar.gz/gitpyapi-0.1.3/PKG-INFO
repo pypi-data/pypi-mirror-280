@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: gitpyapi
+Version: 0.1.3
+Summary: Python GitHub API Client
+Author: pyrootcpp
+Author-email: pyrootcpp <pyrootcpp@outlook.de>
+License: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/x-rst
+Requires-Dist: requests
+Requires-Dist: json5
+
+pygithub
+========
+
+Python GitHub API, for Working with GitHub from Python.
+
+install
+=======
+
+.. code-block:: bash
+
+   python3 -m pip install gitpyapi
+
+.. code-block:: bash
+
+   python3 -m pip install git+https://github.com/pyrootcpp/gitpyapi
+
+.. code-block:: bash
+
+   python3 -m pip install https://github.com/pyrootcpp/gitpyapi/archive/master.zip
+
+functions
+=========
+
+Following Actions allows you pygithub:
+
+1. Cloning GitHub Repositorys Local.
+2. Sending Reqeusts to Repository.
+3. Upload Releases to Repositorys.
+4. Trigger CI Workflow Dispatch.
+5. And many, many, more.
+
+
