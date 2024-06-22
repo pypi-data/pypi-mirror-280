@@ -1,0 +1,12 @@
+girona_donostia/__init__.py,sha256=plyCa5vI8YHCx1tJ8WQi6qptxK9-m4W8q472gjkETmc,709
+girona_donostia/curve_fit.py,sha256=lGXzxoCr_zvSRZJJ93P5lSzHD4Ps5rFd2TFkAnHP8r8,2219
+girona_donostia/functions_for_library.py,sha256=l-aolMlaHJnU61Z8Nxpmst7GN6ad3YuGbL2rx4lxxyw,120650
+girona_donostia/hyperpolarizabilities.py,sha256=79hNsNE6uIgLd4StqhGy62YanwBOcVbQnLix4w2VqJo,20934
+girona_donostia/objects_for_library.py,sha256=K0QpkREZxhVMn7M4FyKliMlxnC_DmnuYkogdhnpNHYA,6295
+girona_donostia/romberg.py,sha256=nWXZwxWF9tSxEBhC2Lt99VyNqHrIZR3GPE79zOYKDWA,8950
+girona_donostia/statistic.py,sha256=hxT13i6lpRc2MW0JVJzaZDPmLJaZhvhr4iCsHYlf7Cw,869
+girona_donostia-0.1.14.dist-info/LICENSE,sha256=YylfwJg0tG1JNvXJ7syzAtzUJbKdzwv2XFXRJhBiMc0,1068
+girona_donostia-0.1.14.dist-info/METADATA,sha256=I89Ptlepxy1qp-Y2YSuDfb20HyE98wy14k86Mehpz8I,2194
+girona_donostia-0.1.14.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+girona_donostia-0.1.14.dist-info/top_level.txt,sha256=RFN_yoqCHJC8-S4EbLQZU4b8kjCEIXt9rLBi_9Sx2IU,16
+girona_donostia-0.1.14.dist-info/RECORD,,
