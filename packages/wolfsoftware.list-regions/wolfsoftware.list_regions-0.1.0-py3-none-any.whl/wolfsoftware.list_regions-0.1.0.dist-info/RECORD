@@ -1,0 +1,14 @@
+wolfsoftware/list_regions/__init__.py,sha256=Ed36vVm2_cTe0s91TAq9NeYHShcKjmnpm0JfgI8zGpo,482
+wolfsoftware/list_regions/cli.py,sha256=Ne8NzFXJn5GAfdMFJl6IO1fQahdk5RZU69nSJMiZQ-U,3722
+wolfsoftware/list_regions/config.py,sha256=Bha0zOjNTBdoCO_r9JjmLOGGd8XMzyEwz8ZFeck0P8c,1201
+wolfsoftware/list_regions/exceptions.py,sha256=7c9VPzlBTFNfzZJNRsYl1RjxoinrqfHsOuiv3Bdwp54,690
+wolfsoftware/list_regions/globals.py,sha256=k-zU1zBo4S2VdFrpW09voZnaXbGGM_l4Barmxu7fjr0,731
+wolfsoftware/list_regions/main.py,sha256=dy6epxcy9dljNuECetHI8Q7da94qDkXsv0K1ItVD21I,1025
+wolfsoftware/list_regions/regions.py,sha256=BI8XF3nLyefFtOe20vkuVgwTfN7-rBm2DjkKjrvrRS4,6234
+wolfsoftware/list_regions/results.py,sha256=41kHu84_zDbD8z5JNtWYUDBq37gRsaz9ii03XPR3c2o,1474
+wolfsoftware.list_regions-0.1.0.dist-info/LICENSE.md,sha256=lGeU8YsP7-Ty2Mf5d_qmyYrdhBahKio3jhRcsKkW3nw,1118
+wolfsoftware.list_regions-0.1.0.dist-info/METADATA,sha256=HVzhY4uqD9I3Uh2qvgXw2ACjs_lR5S9OFpBIwaewPQ8,7551
+wolfsoftware.list_regions-0.1.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+wolfsoftware.list_regions-0.1.0.dist-info/entry_points.txt,sha256=R0FaEYqsXI3QR4ELTtDBxcY5jWMoBsmSEunM9zmPHd4,69
+wolfsoftware.list_regions-0.1.0.dist-info/top_level.txt,sha256=fseJlDQdZOeclXNvg0wy0fFFgxsKIMhQDo5jMxmyrV4,13
+wolfsoftware.list_regions-0.1.0.dist-info/RECORD,,
