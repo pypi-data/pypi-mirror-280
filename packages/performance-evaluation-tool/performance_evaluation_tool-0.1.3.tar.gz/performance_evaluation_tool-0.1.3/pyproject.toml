@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "performance-evaluation-tool"
+version = "0.1.3"
+description = "Performance Evaluation for Perception Pipeline"
+authors = ["umandavia <umandavia@forterra.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.24.3"
+opencv-python = "^4.7.0.72"
+scikit-learn = "^1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
