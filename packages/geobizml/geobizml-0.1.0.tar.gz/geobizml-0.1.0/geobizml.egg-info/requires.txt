@@ -1,0 +1,9 @@
+IPython
+geopandas
+shapely
+scikit-learn
+matplotlib
+numpy
+scipy
+cartopy
+requests
