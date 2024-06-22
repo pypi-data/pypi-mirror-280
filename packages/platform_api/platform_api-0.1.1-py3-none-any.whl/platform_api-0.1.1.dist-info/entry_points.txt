@@ -1,0 +1,3 @@
+[console_scripts]
+rootshell_platform=platform_api.cli:cli
+
