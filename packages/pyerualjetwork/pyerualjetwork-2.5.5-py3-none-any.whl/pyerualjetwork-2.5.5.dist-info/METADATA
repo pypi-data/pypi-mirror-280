@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pyerualjetwork
+Version: 2.5.5
+Summary: standard_scaler function improved. Changes possibily nan values to 0
+Author: Hasan Can Beydili
+Author-email: tchasancan@gmail.com
+Keywords: model evaluation,classifcation,pruning learning artficial neural networks
+
