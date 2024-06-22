@@ -1,0 +1,66 @@
+{
+  "@context": [
+    "https://doi.org/10.5063/schema/codemeta-2.0",
+    "https://w3id.org/software-iodata",
+    "https://raw.githubusercontent.com/jantman/repostatus.org/master/badges/latest/ontology.jsonld",
+    "https://schema.org",
+    "https://w3id.org/software-types"
+  ],
+  "@type": "SoftwareSourceCode",
+  "author": [
+    {
+      "@id": "https://orcid.org/0009-0005-0109-6598",
+      "@type": "Person",
+      "email": "jan-michael.rye@inria.fr",
+      "familyName": "Rye",
+      "givenName": "Jan-Michael"
+    }
+  ],
+  "codeRepository": "https://gitlab.inria.fr/jrye/requests-file-adapter.git",
+  "contributor": [
+    {
+      "@id": "https://orcid.org/0009-0005-0109-6598",
+      "@type": "Person",
+      "email": "jan-michael.rye@inria.fr",
+      "familyName": "Rye",
+      "givenName": "Jan-Michael"
+    }
+  ],
+  "description": "File adapter for the Requests library.",
+  "identifier": "requests-file-adapter",
+  "issueTracker": "https://gitlab.inria.fr/jrye/requests-file-adapter/-/issues",
+  "license": "http://spdx.org/licenses/MIT",
+  "maintainer": {
+    "@id": "https://orcid.org/0009-0005-0109-6598",
+    "@type": "Person",
+    "email": "jan-michael.rye@inria.fr",
+    "familyName": "Rye",
+    "givenName": "Jan-Michael"
+  },
+  "name": "Requests_File_Adapter",
+  "operatingSystem": "OS Independent",
+  "programmingLanguage": "Python",
+  "readme": "https://gitlab.inria.fr/jrye/requests-file-adapter/-/blob/main/README.md",
+  "runtimePlatform": "Python 3",
+  "softwareHelp": "https://jrye.gitlabpages.inria.fr/requests-file-adapter",
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "psutil",
+      "name": "psutil",
+      "runtimePlatform": "Python 3"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "requests",
+      "name": "requests",
+      "runtimePlatform": "Python 3"
+    }
+  ],
+  "targetProduct": {
+    "@type": "SoftwareLibrary",
+    "name": "requests-file-adapter"
+  },
+  "url": "https://gitlab.inria.fr/jrye/requests-file-adapter",
+  "version": "2024.3"
+}
