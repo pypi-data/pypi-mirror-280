@@ -1,0 +1,79 @@
+[project]
+name = "hdate"
+version = "0.10.11"
+description = "Jewish/Hebrew date and Zmanim in native Python 2.7/3.x"
+authors = [
+    { name = "Royi Reshef", email = "roy.myapp@gmail.com" },
+]
+maintainers = [
+    { name = "Tsvi Mostovicz", email = "ttmost@gmail.com" },
+]
+readme = "README.rst"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Topic :: Software Development :: Libraries",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "astral<3.0,>=2.2",
+    "backports-zoneinfo>=0.2.1; python_version < '3.9'",
+]
+
+[project.license]
+text = "GPL-3.0-or-later"
+
+[project.urls]
+repository = "https://github.com/py-libhdate/py-libhdate"
+documentation = "https://py-libhdate.readthedocs.io/en/latest/"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint.format]
+max-line-length = "88"
+
+[tool.pytest.ini_options]
+addopts = "-ra --doctest-modules --doctest-glob=*.rst"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "tox>=4.15.1",
+    "pylint>=3.2.3",
+    "isort>=5.13.2",
+    "black>=24.4.2",
+    "pytest>=8.2.2",
+    "tox-pdm>=0.7.2",
+    "pre-commit>=3.5.0",
+    "Sphinx>=7.1.2",
+    "flake8>=5.0.4",
+]
+test = [
+    "pytest>=8.2.2",
+    "pytest-coverage>=0.0",
+]
+
+[tool.bumpversion]
+current_version = "0.10.11"
+parse = "(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+)"
+serialize = [
+    "{major}.{minor}.{patch}",
+]
+search = "{current_version}"
+replace = "{new_version}"
+regex = false
+ignore_missing_version = false
+ignore_missing_files = false
+tag = true
+sign_tags = false
+tag_name = "v{new_version}"
+tag_message = "Release: {current_version} → {new_version}"
+allow_dirty = true
+commit = true
+message = "Release version: {current_version} → {new_version}"
+commit_args = ""
