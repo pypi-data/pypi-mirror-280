@@ -1,0 +1,11 @@
+wfrappi/__init__.py,sha256=tIzDi-mnnEGJBKFMooLuj1OS-pYgFKKDxZYwrS_xCA8,61
+wfrappi/data_processing.py,sha256=JulMr7v6UbNZxtnS99d5rYG6ZoJAUrDEZ_-fsi5QBx8,7812
+wfrappi/dbconn.py,sha256=PwVHFBENJGbHSVE12VM_2dzvrhTl4GeJF7kyLyeYhM4,1396
+wfrappi/fetch_data.py,sha256=BOKtLIXGk580fEwzAVrnVjciVPmseKNm2HcgjBTEwUw,15858
+wfrappi/main.py,sha256=BcVHXfmavPlCoYPI1eno8BDxNVUcYK4xkobUCRqAkro,63
+wfrappi/modeling.py,sha256=DIzpsM1hkaUjVVyWKSVgCzv-bsHL6_AIElT0Nl5s-o0,1815
+wfrappi/order_distribution.py,sha256=XLNtZbzGAwFU6PtK-1fMqi9xDnHtdM2p80ehV8aJpRM,22446
+wfm_rappi_co-0.1.0.dist-info/METADATA,sha256=-WGPDDMFaOFx8-kEQiaitN890G7mPpncsfqpRNDq2sE,3606
+wfm_rappi_co-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+wfm_rappi_co-0.1.0.dist-info/top_level.txt,sha256=h2ryCc00YvU_EZCIJQYlaFQi8wXabQf3KNMJKmHWsIE,8
+wfm_rappi_co-0.1.0.dist-info/RECORD,,
