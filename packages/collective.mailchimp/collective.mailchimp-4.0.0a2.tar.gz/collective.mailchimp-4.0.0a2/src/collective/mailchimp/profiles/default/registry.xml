@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<registry>
+ <records interface="collective.mailchimp.interfaces.IMailchimpSettings" />
+     <record name="collective.mailchimp.cache.lists">
+        <field type="plone.registry.field.Tuple">
+            <title>Mailchimp Lists</title>
+            <value_type type="plone.registry.field.Dict" />
+        </field>
+    </record>
+    <record name="collective.mailchimp.cache.groups">
+        <field type="plone.registry.field.Dict">
+            <title>Mailchimp Groups</title>
+        </field>
+    </record>
+    <record name="collective.mailchimp.cache.account">
+        <field type="plone.registry.field.Dict">
+            <title>Mailchimp account details</title>
+        </field>
+    </record>
+
+ <records prefix="plone.bundles/collective.mailchimp"
+          interface='Products.CMFPlone.interfaces.IBundleRegistry'>
+    <value key="depends"></value>
+    <value key="enabled">True</value>
+    <value key="load_defer">True</value>
+    <value key="jscompilation"></value>
+    <value key="csscompilation">++resource++collective.mailchimp.stylesheets/mailchimp.css</value>
+ </records>
+
+</registry>
