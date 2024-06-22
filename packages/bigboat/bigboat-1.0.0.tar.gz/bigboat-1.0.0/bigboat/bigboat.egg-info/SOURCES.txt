@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+bigboat/bigboat.egg-info/PKG-INFO
+bigboat/bigboat.egg-info/SOURCES.txt
+bigboat/bigboat.egg-info/dependency_links.txt
+bigboat/bigboat.egg-info/requires.txt
+bigboat/bigboat.egg-info/top_level.txt
