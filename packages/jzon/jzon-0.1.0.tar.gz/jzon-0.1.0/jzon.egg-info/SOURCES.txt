@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+jzon/__init__.py
+jzon/jzon.py
+jzon.egg-info/PKG-INFO
+jzon.egg-info/SOURCES.txt
+jzon.egg-info/dependency_links.txt
+jzon.egg-info/top_level.txt
+tests/test_jzon.py
