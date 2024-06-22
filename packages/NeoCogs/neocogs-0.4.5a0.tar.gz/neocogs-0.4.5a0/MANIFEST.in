@@ -1,0 +1,4 @@
+# README files.
+include README LICENSE
+# Include demo files.
+recursive-include demo *.py Makefile
