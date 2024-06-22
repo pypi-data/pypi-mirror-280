@@ -1,0 +1,8 @@
+overcluster/__init__.py,sha256=U8Si-vKTfJlqeNsuwUcQ-hSDky5ZRh3IGmJrpOuGUBU,295
+overcluster/bisect_q_means.py,sha256=Y2iEkhJ_ubA1EDddOs60mZ5Tuvd1nnMIk_hVw_JUf4g,20625
+overcluster/utils.py,sha256=bjKFFpZiiazYIisDx42PN6EvD0enVisCDPZWlnUhBMg,11080
+overcluster-0.1.2.dist-info/LICENSE,sha256=yF1KrGpkvgRpmFExxXV7HmQzU_nyPl5io0FGw_ehKcE,1500
+overcluster-0.1.2.dist-info/METADATA,sha256=YX5ixaJBGM5StBCbh8LPyL5j-6uzC-m39cgfhrKW9_0,2061
+overcluster-0.1.2.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+overcluster-0.1.2.dist-info/top_level.txt,sha256=1o76cPt65Jjq6QR9-ZUBIlWasYZ_rfbgjQ2kuHjJgAE,12
+overcluster-0.1.2.dist-info/RECORD,,
