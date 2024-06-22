@@ -1,0 +1,2 @@
+[console_scripts]
+mlogium = mlogium.cli:main
