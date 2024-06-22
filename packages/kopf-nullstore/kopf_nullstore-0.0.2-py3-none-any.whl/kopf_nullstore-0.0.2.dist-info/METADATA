@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: kopf-nullstore
+Version: 0.0.2
+Summary: A Null Store package for kopf.
+Home-page: https://github.com/davidcollom/kopf-nullstore
+Author: David Collom
+Author-email: david@collom.co.uk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: kopf
+
+# kopf-nullstore
+
+A utility package for kopf.
+
+## Installation
+
+```sh
+pip install kopf-nullstore
+```
