@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyeventhub
+Version: 0.1.1
+Summary: This Python module implements an event handling framework (`EventEmitter`) with support for prioritization (`PriorityEvent`), event filtering, and processing using threading, queues (`queue` module), heap operations (`heapq` module), and logging (`logging` module) capabilities.
+Home-page: https://github.com/fadedreams/pyeventhub
+License: MIT
+Keywords: event emitter,event hub,utilities
+Author: fadedreams7
+Author-email: fadedreams7@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Project-URL: Repository, https://github.com/fadedreams/pyeventhub
