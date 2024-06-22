@@ -1,0 +1,2 @@
+[console_scripts]
+dynamic-scraper = src.web_scraper:main
