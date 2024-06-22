@@ -1,0 +1,8 @@
+haystack_integrations/components/generators/anthropic/__init__.py,sha256=55DRyzjGAFjohPqH0w9s52JEMKuTUFo-ZeqhdSugzok,268
+haystack_integrations/components/generators/anthropic/generator.py,sha256=e3bpynA57l9TUkVpdDo5VQTIPhB9Voh_895BnXTju2Y,8188
+haystack_integrations/components/generators/anthropic/chat/__init__.py,sha256=6GZ8Y3Lw0rLOsOAqi6Tu5mZC977UzQvgDxKpOWr8IQw,110
+haystack_integrations/components/generators/anthropic/chat/chat_generator.py,sha256=FJfzi3APOebIvI8XubK7vki7xhbJcjol0YrhTR3aCk0,13938
+anthropic_haystack-0.4.0.dist-info/METADATA,sha256=IpPMczdXSE1dFO4LCAiq3kxfs3Y8cdaIf68PbsTnFNQ,2292
+anthropic_haystack-0.4.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+anthropic_haystack-0.4.0.dist-info/licenses/LICENSE.txt,sha256=B05uMshqTA74s-0ltyHKI6yoPfJ3zYgQbvcXfDVGFf8,10280
+anthropic_haystack-0.4.0.dist-info/RECORD,,
