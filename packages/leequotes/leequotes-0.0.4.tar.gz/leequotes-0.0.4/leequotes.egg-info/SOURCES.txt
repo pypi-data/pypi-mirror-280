@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+dev-requirements.txt
+pyproject.toml
+update_quotes.py
+leequotes/__init__.py
+leequotes/leequotes.py
+leequotes.egg-info/PKG-INFO
+leequotes.egg-info/SOURCES.txt
+leequotes.egg-info/dependency_links.txt
+leequotes.egg-info/entry_points.txt
+leequotes.egg-info/top_level.txt
+leequotes/data/__init__.py
+leequotes/data/quotes.tsv
+tests/test_leequotes.py

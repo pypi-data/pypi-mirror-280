@@ -1,0 +1,2 @@
+[console_scripts]
+leequote = leequotes.leequotes:random
