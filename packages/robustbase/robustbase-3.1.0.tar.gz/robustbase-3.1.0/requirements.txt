@@ -1,0 +1,4 @@
+numpy>=1.18.0
+scipy
+statistics>=1.0.3.5
+
