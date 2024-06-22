@@ -1,0 +1,3 @@
+[console_scripts]
+pr-assistant=pr_assistant_pkg.main:main
+
