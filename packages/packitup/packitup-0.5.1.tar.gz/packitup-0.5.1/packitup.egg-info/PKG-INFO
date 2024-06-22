@@ -1,0 +1,128 @@
+Metadata-Version: 2.1
+Name: packitup
+Version: 0.5.1
+Summary: A tool to generate project structure and contents as Markdown
+Home-page: https://github.com/jamesfincher/packitup
+Author: James Fincher
+Author-email: jamesfincher@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyperclip
+Requires-Dist: colorama
+
+# PackItUp
+
+PackItUp is a command-line tool that generates a project structure and contents as Markdown. It's designed to help developers quickly document their project structure, including file contents, making it easier to share or review project layouts.
+
+## Features
+
+- Generate a Markdown representation of your project structure
+- Option to include file contents or generate a tree-only view
+- Handle large files by splitting them into parts
+- Copy the generated Markdown to clipboard automatically
+- Save output both locally and in the user's home directory
+- Color-coded console output for better readability
+- List files and directories in the specified path
+- Purge all saved PackItUp data
+
+## Installation
+
+You can install PackItUp using pip:
+
+```
+pip install packitup
+```
+
+## Usage
+
+```
+packitup [OPTIONS] [PATH]
+```
+
+If no path is specified, PackItUp will use the current directory.
+
+### Options
+
+- `-t`, `--tree`: Generate file tree only (no file contents)
+- `-l`, `--list`: List files and directories in the specified directory
+- `-s`, `--singlefile`: Ignore file splitting and return as a single file
+- `-p`, `--purge`: Purge all saved PackItUp data
+
+### Examples
+
+1. Generate full project structure and contents for the current directory:
+   ```
+   packitup
+   ```
+
+2. Generate only the file tree for a specific directory:
+   ```
+   packitup /path/to/your/project -t
+   ```
+
+3. List files and directories in the current directory:
+   ```
+   packitup -l
+   ```
+
+4. Generate project structure without splitting large files:
+   ```
+   packitup -s
+   ```
+
+5. Purge all saved PackItUp data:
+   ```
+   packitup -p
+   ```
+
+## Output
+
+PackItUp generates two types of output:
+
+1. A local output directory in the current working directory
+2. A directory in the user's home folder (`.packitup`)
+
+Both directories contain:
+- A Markdown file with the project structure
+- Subdirectories for split large files (if any)
+
+The Markdown content is also automatically copied to the clipboard.
+
+## Configuration
+
+PackItUp skips the following folders by default:
+`node_modules`, `venv`, `.venv`, `env`, `.env`, `pycache`, `dist`, `build`, `.git`, `.idea`, `.vscode`, `vendor`, `bower_components`, `jspm_packages`, `packages`
+
+## Requirements
+
+- Python 3.6+
+- pyperclip
+- colorama
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Author
+
+James Fincher
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Support
+
+If you encounter any problems or have any questions, please open an issue on the GitHub repository.
