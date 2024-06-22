@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "wyntemplate"
+version = "0.1.1"
+description = "This is a template python library."
+authors = ["Yiqiao Yin <eagle0504@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.0.0"
+pandas = "^2.2.2"
+matplotlib = "^3.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
