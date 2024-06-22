@@ -1,0 +1,7 @@
+README
+setup.py
+ymscript.py
+ymscript.egg-info/PKG-INFO
+ymscript.egg-info/SOURCES.txt
+ymscript.egg-info/dependency_links.txt
+ymscript.egg-info/top_level.txt
