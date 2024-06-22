@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: oknlabel
+Version: 1.1.0
+Summary: Python program to label signal data
+Author-email: Zaw Lin Tun <zawlintun1511@gmail.com>
+Project-URL: Homepage, https://github.com/jtur044/oknlabel
+Project-URL: Bug Tracker, https://github.com/jtur044/oknlabel/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools >=61.0
+Requires-Dist: commentjson
+
+# oknlabel
+Python program to label the signal.csv
