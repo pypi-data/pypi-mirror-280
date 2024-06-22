@@ -1,0 +1,2 @@
+[console_scripts]
+key_encryption_gui = key_encryption_gui:main_entry

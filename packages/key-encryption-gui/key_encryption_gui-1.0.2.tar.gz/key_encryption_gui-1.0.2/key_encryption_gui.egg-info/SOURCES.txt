@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+key_encryption_gui.py
+setup.py
+key_encryption_gui.egg-info/PKG-INFO
+key_encryption_gui.egg-info/SOURCES.txt
+key_encryption_gui.egg-info/dependency_links.txt
+key_encryption_gui.egg-info/entry_points.txt
+key_encryption_gui.egg-info/requires.txt
+key_encryption_gui.egg-info/top_level.txt
