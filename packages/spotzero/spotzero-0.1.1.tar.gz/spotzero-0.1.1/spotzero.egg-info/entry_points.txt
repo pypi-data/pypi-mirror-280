@@ -1,0 +1,2 @@
+[console_scripts]
+spotzero = spotzero.cli:cli

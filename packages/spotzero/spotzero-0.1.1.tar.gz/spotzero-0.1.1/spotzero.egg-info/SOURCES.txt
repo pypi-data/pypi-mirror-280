@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+spotzero/__init__.py
+spotzero/cli.py
+spotzero/dbus_handler.py
+spotzero/linux.py
+spotzero.egg-info/PKG-INFO
+spotzero.egg-info/SOURCES.txt
+spotzero.egg-info/dependency_links.txt
+spotzero.egg-info/entry_points.txt
+spotzero.egg-info/requires.txt
+spotzero.egg-info/top_level.txt
