@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pr-assistant-pkg
+Version: 0.1.1
+Summary: 
+Author: Ahmed Abdul Saad
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: argparse (>=1.4.0,<2.0.0)
+Requires-Dist: chevron (>=0.14.0,<0.15.0)
+Requires-Dist: openai (>=1.35.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Performance Review CLI Assistant
+## Installation
+
+To install `pr-assistant`, run the following commands in your terminal:
+
+```bash
+chmod +x install.sh
+./install.sh
+```
+## Getting Started
+The application is run using the following command:
+```pr-assistant {--arg}```
+## Arguments
+* ```init``` initializes the assistant, makes the nominations and saves them to state.
+* ```list``` lists the nominations 
+* ```email``` allows for sending emails. User is prompted to approve each email before it is sent. 
+## Options for email approval
+* ```y``` - approve and send email
+* ```n``` - do not send the email
+* ```change email``` - change the email address to whom the email is sent
+* ```x``` - close execution
+
+
+
