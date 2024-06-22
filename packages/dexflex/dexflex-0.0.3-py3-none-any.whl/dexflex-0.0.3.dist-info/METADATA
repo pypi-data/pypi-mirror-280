@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: dexflex
+Version: 0.0.3
+Summary: Spacy plugin working based on dexonline database
+Author: Cristea Petru-Theodor
+Author-email: petru.theodor@outlook.com
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (==1.26.4)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: mariadb
+Requires-Dist: zipp (==3.17.0)
+Requires-Dist: tqdm (==4.66.1)
+Requires-Dist: torch
+Requires-Dist: spacy (==3.7.2)
+Requires-Dist: transformers (==4.36.2)
+
+# dexflex
+## Romanian language plugin
+
+Dexflex leverages the [SpaCy] package by adding new features for the Romanian language:
+- Synonym suggestion sorted by simplicity
+- Automatic change for vebrs from past perfect to past simple in Romanian 
+- Extracting all inflected forms available for a word
+
+
+ The dexflex package is open source with a [public repository][cpt]
+ on GitHub.
+
+
+## License
+
+MIT
+
+
+[//]: 
+   [spacy]: <https://spacy.io>
+   [cpt]: <https://github.com/PetruTH/nlp_lic/tree/dev>
+   
