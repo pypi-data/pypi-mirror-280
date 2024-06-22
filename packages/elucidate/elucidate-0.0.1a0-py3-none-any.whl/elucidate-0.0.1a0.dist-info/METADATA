@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: elucidate
+Version: 0.0.1a0
+Summary: Smarter Translations through LLM Self-Evaluation
+Author-email: Bikatr7 <Bikatr7@proton.me>
+Project-URL: Homepage, https://github.com/Kakusui/Elucidate
+Project-URL: Issues, https://github.com/Kakusui/Elucidate/issues
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+**Table of Contents**
+- [**Notes**](#notes)
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+## **Notes**<a name="notes"></a>
+
+Elucidate
+
+Smarter Translations through LLM Self-Evaluation
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
