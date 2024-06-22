@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "zanj"
+version = "0.3.0"
+description = "save and load complex objects to disk without pickling"
+license = "GPL-3.0-only"
+authors = ["mivanit <mivanits@umich.edu>"]
+readme = "README.md"
+classifiers=[
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+repository = "https://github.com/mivanit/ZANJ"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+muutils = {version = "^0.6.0", extras = ["array"]}
+pandas = {version = ">=1.5.3", optional = true}
+
+[tool.poetry.extras]
+pandas = ["pandas"]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+black = "^24.4.2"
+pylint = "^2.16.4"
+pycln = "^2.4.0"
+isort = "^5.13.2"
+mypy = "^1.0.1"
+pytest-cov = "^4.1.0"
+coverage-badge = "^1.1.1"
+ipykernel = "^6.23.2"
+
+[[tool.poetry.source]]
+name = "torch_cpu"
+url = "https://download.pytorch.org/whl/cpu"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pycln]
+all = true
+
+[tool.isort]
+profile = "black"
+ignore_comments = false
+extend_skip = ["_wip"]
+
+[tool.mypy]
+show_error_codes = true
