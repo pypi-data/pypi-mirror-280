@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+nacos-python/__init__.py
+nacos-python/client.py
+nacos_python.egg-info/PKG-INFO
+nacos_python.egg-info/SOURCES.txt
+nacos_python.egg-info/dependency_links.txt
+nacos_python.egg-info/top_level.txt
