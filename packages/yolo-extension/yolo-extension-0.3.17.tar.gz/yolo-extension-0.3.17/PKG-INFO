@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: yolo-extension
+Version: 0.3.17
+Summary: Manage AWS infrastructure and microservices across multiple stages/accounts
+Home-page: UNKNOWN
+Maintainer: Akshaya PS
+Maintainer-email: akshaya.ps@rackspace.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Build Tools
+License-File: LICENSE
+
+UNKNOWN
+

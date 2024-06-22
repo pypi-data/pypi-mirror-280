@@ -1,0 +1,12 @@
+awscli
+boto3
+botocore>=1.7.18
+click
+docker==3.4.0
+jinja2
+keyring==15.0.0
+keyrings.alt
+requests
+ruamel.yaml==0.17.21
+tabulate
+voluptuous
