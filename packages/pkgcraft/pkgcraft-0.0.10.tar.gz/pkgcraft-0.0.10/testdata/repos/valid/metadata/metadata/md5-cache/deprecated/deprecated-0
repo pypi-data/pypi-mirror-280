@@ -1,0 +1,5 @@
+DEFINED_PHASES=-
+DESCRIPTION=ebuild globally deprecated by the repo
+EAPI=8
+SLOT=0
+_md5_=54a115639ff50b3d3b35fee2655e40eb

@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Ebuild with stale EAPI
+EAPI=7
+HOMEPAGE=https://pkgcraft.pkgcraft
+LICENSE=MIT
+PROPERTIES=live
+SLOT=0
+_md5_=6fd1cb4441c280729f83c4357e6ff48f

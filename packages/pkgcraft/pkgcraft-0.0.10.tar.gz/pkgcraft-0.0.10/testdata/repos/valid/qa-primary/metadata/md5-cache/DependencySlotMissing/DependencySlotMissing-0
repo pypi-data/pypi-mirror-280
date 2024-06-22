@@ -1,0 +1,10 @@
+DEFINED_PHASES=-
+DEPEND=stub/slotted
+DESCRIPTION=Ebuild with dependency missing a slot dep
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+RDEPEND=stub/slotted
+SLOT=0
+_md5_=3f4fd6536a94e1c1dd681b15a00d33c7

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<use>
+		<flag name="used">used flag description</flag>
+		<flag name="unused">unused flag description</flag>
+		<flag name="missing"></flag>
+		<flag name="global">global flag</flag>
+	</use>
+</pkgmetadata>

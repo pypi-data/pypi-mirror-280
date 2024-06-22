@@ -1,0 +1,9 @@
+--- a/DependencySlotMissing-0.ebuild
++++ b/DependencySlotMissing-0.ebuild
+@@ -5,5 +5,5 @@ HOMEPAGE="https://pkgcraft.pkgcraft"
+ LICENSE="MIT"
+ SLOT="0"
+ KEYWORDS="amd64"
+-RDEPEND="stub/slotted"
++RDEPEND="stub/slotted:1"
+ DEPEND="${RDEPEND}"

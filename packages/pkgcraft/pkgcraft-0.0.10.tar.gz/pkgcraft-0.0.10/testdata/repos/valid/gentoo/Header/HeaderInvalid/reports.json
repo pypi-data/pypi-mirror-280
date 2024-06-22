@@ -1,0 +1,6 @@
+{"kind":"HeaderInvalid","scope":{"Version":["Header/HeaderInvalid-2",null]},"message":"invalid copyright holder: Gentoo Foundation"}
+{"kind":"HeaderInvalid","scope":{"Version":["Header/HeaderInvalid-3",null]},"message":"invalid copyright: # Copyright Gentoo Authors"}
+{"kind":"HeaderInvalid","scope":{"Version":["Header/HeaderInvalid-4",null]},"message":"invalid license: # MIT"}
+{"kind":"HeaderInvalid","scope":{"Version":["Header/HeaderInvalid-5",null]},"message":"missing license header"}
+{"kind":"HeaderInvalid","scope":{"Version":["Header/HeaderInvalid-6",null]},"message":"missing copyright header"}
+{"kind":"HeaderInvalid","scope":{"Version":["Header/HeaderInvalid-6",null]},"message":"missing license header"}

@@ -1,0 +1,8 @@
+--- a/EapiDeprecated-0.ebuild
++++ b/EapiDeprecated-0.ebuild
+@@ -1,4 +1,4 @@
+-EAPI=6
++EAPI=8
+ 
+ DESCRIPTION="Ebuild with deprecated EAPI"
+ HOMEPAGE="https://pkgcraft.pkgcraft"

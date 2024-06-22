@@ -1,0 +1,6 @@
+{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",{"line":3,"column":21}]},"message":"character '\\u{2000}'"}
+{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",{"line":3,"column":28}]},"message":"character '\\u{2001}'"}
+{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",{"line":3,"column":38}]},"message":"character '\\u{2002}'"}
+{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",{"line":3,"column":48}]},"message":"character '\\u{2003}'"}
+{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",{"line":4,"column":37}]},"message":"character '\\u{2004}'"}
+{"kind":"WhitespaceInvalid","scope":{"Version":["Whitespace/WhitespaceInvalid-0",{"line":7,"column":0}]},"message":"missing ending newline"}

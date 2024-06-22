@@ -1,0 +1,4 @@
+{"kind":"DependencyDeprecated","scope":{"Version":["Dependency/DependencyDeprecated-0",null]},"message":"DEPEND: stub/deprecated"}
+{"kind":"DependencyDeprecated","scope":{"Version":["Dependency/DependencyDeprecated-1",null]},"message":"DEPEND: >=stub/deprecated-0"}
+{"kind":"DependencyDeprecated","scope":{"Version":["Dependency/DependencyDeprecated-1",null]},"message":"DEPEND: stub/deprecated"}
+{"kind":"DependencyDeprecated","scope":{"Version":["Dependency/DependencyDeprecated-1",null]},"message":"RDEPEND: stub/deprecated"}

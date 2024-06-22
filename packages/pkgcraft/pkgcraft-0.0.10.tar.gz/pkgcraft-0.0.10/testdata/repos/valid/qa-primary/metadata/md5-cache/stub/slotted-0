@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Stub ebuild with different SLOTs
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+SLOT=0
+_md5_=72b6d35d07146e71dea2713001ea4245

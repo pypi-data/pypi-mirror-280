@@ -1,0 +1,1 @@
+Invalid ebuild repo due to not supporting EAPI 0 set via a missing profiles/eapi file.

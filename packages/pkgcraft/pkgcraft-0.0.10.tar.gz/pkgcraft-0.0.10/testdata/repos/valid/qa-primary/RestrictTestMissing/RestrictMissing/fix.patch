@@ -1,0 +1,7 @@
+--- a/RestrictMissing-0.ebuild
++++ b/RestrictMissing-0.ebuild
+@@ -6,3 +6,4 @@ LICENSE="MIT"
+ SLOT="0"
+ KEYWORDS="amd64"
+ IUSE="test"
++RESTRICT="!test? ( test )"

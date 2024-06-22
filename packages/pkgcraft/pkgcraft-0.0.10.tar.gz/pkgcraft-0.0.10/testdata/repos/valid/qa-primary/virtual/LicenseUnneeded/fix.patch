@@ -1,0 +1,9 @@
+--- a/LicenseUnneeded-1.ebuild
++++ b/LicenseUnneeded-1.ebuild
+@@ -2,6 +2,5 @@
+ 
+ DESCRIPTION="Virtual ebuild with a license"
+ HOMEPAGE="https://pkgcraft.pkgcraft"
+-LICENSE="MIT"
+ SLOT="0"
+ KEYWORDS="amd64"

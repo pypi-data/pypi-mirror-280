@@ -1,0 +1,8 @@
+--- a/KeywordsOverlapping-0.ebuild
++++ b/KeywordsOverlapping-0.ebuild
+@@ -4,4 +4,4 @@
+ HOMEPAGE="https://pkgcraft.pkgcraft"
+ LICENSE="MIT"
+ SLOT="0"
+-KEYWORDS="-* amd64 ~amd64 -amd64 ~x86 x86"
++KEYWORDS="-* amd64 x86"

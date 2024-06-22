@@ -1,0 +1,11 @@
+DEFINED_PHASES=-
+DEPEND=u1? ( stub/deprecated ) u2? ( >=stub/deprecated-0 )
+DESCRIPTION=Ebuild with multiple, nested deprecated dependencies
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+IUSE=u1 u2
+KEYWORDS=amd64
+LICENSE=MIT
+RDEPEND=stub/deprecated
+SLOT=0
+_md5_=93ecebcb4695cdd3344f3be62339ab63

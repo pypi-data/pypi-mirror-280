@@ -1,0 +1,10 @@
+BDEPEND=a/pkg b/pkg
+DEFINED_PHASES=-
+DEPEND=a/pkg b/pkg
+DESCRIPTION=ebuild with single-line dependencies
+EAPI=8
+IDEPEND=a/pkg b/pkg
+PDEPEND=a/pkg b/pkg
+RDEPEND=a/pkg b/pkg
+SLOT=0
+_md5_=25a1752c7bfce9134dab7c8362a1cf85

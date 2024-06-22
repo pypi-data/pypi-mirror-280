@@ -1,0 +1,10 @@
+DEFINED_PHASES=-
+DESCRIPTION=Ebuild with conditional test RESTRICT
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+IUSE=test
+KEYWORDS=amd64
+LICENSE=MIT
+RESTRICT=!test? ( test )
+SLOT=0
+_md5_=b226bf602b9a4228aa35073b1721d18b

@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DEPEND==stub/revisioned-1
+DESCRIPTION=Ebuild with dependency missing a revision
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+SLOT=0
+_md5_=e3c0735e62beb4a3fa43b486de79b84a

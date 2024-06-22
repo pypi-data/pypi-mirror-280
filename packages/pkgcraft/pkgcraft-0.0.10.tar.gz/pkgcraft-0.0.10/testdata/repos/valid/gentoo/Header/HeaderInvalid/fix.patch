@@ -1,0 +1,42 @@
+--- a/HeaderInvalid-2.ebuild
++++ b/HeaderInvalid-2.ebuild
+@@ -1,4 +1,4 @@
+-# Copyright 1999-2024 Gentoo Foundation
++# Copyright 1999-2024 Gentoo Authors
+ # Distributed under the terms of the GNU General Public License v2
+ 
+ EAPI=8
+--- a/HeaderInvalid-3.ebuild
++++ b/HeaderInvalid-3.ebuild
+@@ -1,4 +1,4 @@
+-# Copyright Gentoo Authors
++# Copyright 1999-2024 Gentoo Authors
+ # Distributed under the terms of the GNU General Public License v2
+ 
+ EAPI=8
+--- a/HeaderInvalid-4.ebuild
++++ b/HeaderInvalid-4.ebuild
+@@ -1,5 +1,5 @@
+ # Copyright 1999-2019 Gentoo Authors
+-# MIT
++# Distributed under the terms of the GNU General Public License v2
+ 
+ EAPI=8
+ 
+--- a/HeaderInvalid-5.ebuild
++++ b/HeaderInvalid-5.ebuild
+@@ -1,4 +1,5 @@
+ # Copyright 1999-2019 Gentoo Authors
++# Distributed under the terms of the GNU General Public License v2
+ 
+ EAPI=8
+ 
+--- a/HeaderInvalid-6.ebuild
++++ b/HeaderInvalid-6.ebuild
+@@ -1,3 +1,6 @@
++# Copyright 1999-2024 Gentoo Authors
++# Distributed under the terms of the GNU General Public License v2
++
+ EAPI=8
+ 
+ DESCRIPTION="Package with missing header"

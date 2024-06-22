@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DESCRIPTION=Live ebuild with keywords
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+PROPERTIES=live
+SLOT=0
+_md5_=8b39d0f9a694781c76055affa50ac3a8

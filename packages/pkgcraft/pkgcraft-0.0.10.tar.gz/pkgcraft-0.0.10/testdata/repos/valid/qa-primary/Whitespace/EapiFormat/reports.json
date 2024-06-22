@@ -1,0 +1,3 @@
+{"kind":"EapiFormat","scope":{"Version":["Whitespace/EapiFormat-0",{"line":1,"column":0}]},"message":"non-standard EAPI assignment"}
+{"kind":"EapiFormat","scope":{"Version":["Whitespace/EapiFormat-1",{"line":2,"column":0}]},"message":"non-standard EAPI assignment"}
+{"kind":"EapiFormat","scope":{"Version":["Whitespace/EapiFormat-2",{"line":3,"column":0}]},"message":"non-standard EAPI assignment"}

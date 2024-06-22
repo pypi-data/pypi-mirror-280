@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Package with invalid copyright header before GLEP 76 was approved
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+SLOT=0
+_md5_=904fc06e5d83fe9a2afe532d7afa9747

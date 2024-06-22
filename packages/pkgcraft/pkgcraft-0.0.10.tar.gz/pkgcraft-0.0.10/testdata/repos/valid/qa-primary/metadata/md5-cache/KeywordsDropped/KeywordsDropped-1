@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Ebuild with dropped keyword ~arm64
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+SLOT=0
+_md5_=e204baff164f05395fbde1978b4f9066

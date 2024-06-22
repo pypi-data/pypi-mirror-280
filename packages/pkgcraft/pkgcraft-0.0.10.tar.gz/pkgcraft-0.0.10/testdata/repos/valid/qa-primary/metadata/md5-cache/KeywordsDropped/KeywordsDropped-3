@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Ebuild with explicitly disabled keywords
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=-* ~amd64
+LICENSE=MIT
+SLOT=0
+_md5_=198501f56b122408782e86e06aeb05d3

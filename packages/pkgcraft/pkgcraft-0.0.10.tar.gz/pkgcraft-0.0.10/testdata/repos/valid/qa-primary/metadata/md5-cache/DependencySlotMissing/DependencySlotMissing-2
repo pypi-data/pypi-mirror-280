@@ -1,0 +1,10 @@
+DEFINED_PHASES=-
+DEPEND=!stub/slotted
+DESCRIPTION=Ebuild with blocker missing a slot dep
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+RDEPEND=!stub/slotted
+SLOT=0
+_md5_=0387567e933956c828c267e97de9afc2

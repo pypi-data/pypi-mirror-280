@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DESCRIPTION=Package with unused local USE flag
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+IUSE=global missing used
+KEYWORDS=amd64
+LICENSE=MIT
+SLOT=0
+_md5_=4b368682060b86beeca0b97decc6db71

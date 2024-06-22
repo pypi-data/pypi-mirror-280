@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Ebuild with unstable only keyword
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=~amd64 ~arm64
+LICENSE=MIT
+SLOT=0
+_md5_=fb3bcd116fc4c7c335b6329fbfc6e6c0

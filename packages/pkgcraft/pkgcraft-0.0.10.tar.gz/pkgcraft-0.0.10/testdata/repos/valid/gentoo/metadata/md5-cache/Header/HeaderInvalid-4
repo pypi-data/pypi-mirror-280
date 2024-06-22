@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Package with invalid license header
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+SLOT=1
+_md5_=aee2b6e3e6193e1e0e20b4a075427510

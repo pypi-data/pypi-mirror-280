@@ -1,0 +1,13 @@
+--- a/metadata.xml
++++ b/metadata.xml
+@@ -2,9 +2,7 @@
+ <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+ <pkgmetadata>
+ 	<use>
++		<flag name="missing">missing flag description</flag>
+ 		<flag name="used">used flag description</flag>
+-		<flag name="unused">unused flag description</flag>
+-		<flag name="missing"></flag>
+-		<flag name="global">global flag</flag>
+ 	</use>
+ </pkgmetadata>

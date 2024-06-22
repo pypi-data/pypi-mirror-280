@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Ebuild with overlapping keywords
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=-* amd64 ~amd64 -amd64 ~x86 x86
+LICENSE=MIT
+SLOT=0
+_md5_=45dedc877ef1b1ee32aafc62283895bb

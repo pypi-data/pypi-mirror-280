@@ -1,0 +1,8 @@
+--- a/EapiBanned-0.ebuild
++++ b/EapiBanned-0.ebuild
+@@ -1,4 +1,4 @@
+-EAPI=5
++EAPI=8
+ 
+ DESCRIPTION="Ebuild with banned EAPI"
+ HOMEPAGE="https://pkgcraft.pkgcraft"

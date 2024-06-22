@@ -1,0 +1,11 @@
+BDEPEND=a/pkg u? ( b/pkg )
+DEFINED_PHASES=-
+DEPEND=a/pkg u? ( b/pkg )
+DESCRIPTION=ebuild with multi-line dependencies
+EAPI=8
+IDEPEND=a/pkg u? ( b/pkg )
+IUSE=u
+PDEPEND=a/pkg u? ( b/pkg )
+RDEPEND=a/pkg u? ( b/pkg )
+SLOT=0
+_md5_=82748d5c48d29dfbc17c318b8e677db6

@@ -1,0 +1,26 @@
+--- a/EapiFormat-0.ebuild
++++ b/EapiFormat-0.ebuild
+@@ -1,4 +1,5 @@
+ EAPI=8
++
+ DESCRIPTION="Ebuild missing empty line after EAPI"
+ HOMEPAGE="https://pkgcraft.pkgcraft"
+ LICENSE="MIT"
+--- a/EapiFormat-1.ebuild
++++ b/EapiFormat-1.ebuild
+@@ -1,4 +1,5 @@
+ # comment
++
+ EAPI=8
+ 
+ DESCRIPTION="Ebuild missing empty line before EAPI"
+--- a/EapiFormat-2.ebuild
++++ b/EapiFormat-2.ebuild
+@@ -1,6 +1,6 @@
+ # comment
+ 
+- EAPI=8
++EAPI=8
+ 
+ DESCRIPTION="Ebuild with whitespace before EAPI"
+ HOMEPAGE="https://pkgcraft.pkgcraft"

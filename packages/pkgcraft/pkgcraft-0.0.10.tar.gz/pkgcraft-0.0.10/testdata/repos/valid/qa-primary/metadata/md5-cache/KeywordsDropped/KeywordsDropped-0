@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Ebuild with all keywords
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64 arm64 x86
+LICENSE=MIT
+SLOT=0
+_md5_=26113f86244a6a6fa65b59c41639180e

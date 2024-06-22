@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Stub ebuild that is deprecated
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+SLOT=0
+_md5_=6d5a7b8ac43cc69eaf3790a892bb2e10

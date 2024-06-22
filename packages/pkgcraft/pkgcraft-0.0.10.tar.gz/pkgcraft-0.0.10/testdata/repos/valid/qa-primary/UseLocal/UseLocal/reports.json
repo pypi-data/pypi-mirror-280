@@ -1,0 +1,4 @@
+{"kind":"UseLocalDescMissing","scope":{"Package":"UseLocal/UseLocal"},"message":"missing"}
+{"kind":"UseLocalGlobal","scope":{"Package":"UseLocal/UseLocal"},"message":"global"}
+{"kind":"UseLocalUnsorted","scope":{"Package":"UseLocal/UseLocal"},"message":"unsorted flag: used (sorted: global)"}
+{"kind":"UseLocalUnused","scope":{"Package":"UseLocal/UseLocal"},"message":"unused"}

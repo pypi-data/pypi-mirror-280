@@ -1,0 +1,10 @@
+DEFINED_PHASES=-
+DESCRIPTION=Ebuild with unused eclass in parent repo
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+INHERIT=unused
+KEYWORDS=amd64
+LICENSE=MIT
+SLOT=0
+_eclasses_=unused	97e3c27299146d51f781fe7497063a41
+_md5_=f5934f1e108f532a3656c13ff1f1f871

@@ -1,0 +1,8 @@
+--- a/EapiStale-9999.ebuild
++++ b/EapiStale-9999.ebuild
+@@ -1,4 +1,4 @@
+-EAPI=7
++EAPI=8
+ 
+ DESCRIPTION="Ebuild with stale EAPI"
+ HOMEPAGE="https://pkgcraft.pkgcraft"

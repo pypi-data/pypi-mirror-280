@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Stub ebuild that is live
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+LICENSE=MIT
+PROPERTIES=live
+SLOT=0
+_md5_=534246317c338c7d3377b18842536ca2

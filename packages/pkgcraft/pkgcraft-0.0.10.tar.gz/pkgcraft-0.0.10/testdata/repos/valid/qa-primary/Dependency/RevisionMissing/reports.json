@@ -1,0 +1,3 @@
+{"kind":"RevisionMissing","scope":{"Version":["Dependency/RevisionMissing-0",null]},"message":"DEPEND: =stub/revisioned-1"}
+{"kind":"RevisionMissing","scope":{"Version":["Dependency/RevisionMissing-1",null]},"message":"DEPEND: =stub/revisioned-1"}
+{"kind":"RevisionMissing","scope":{"Version":["Dependency/RevisionMissing-1",null]},"message":"RDEPEND: =stub/revisioned-1"}

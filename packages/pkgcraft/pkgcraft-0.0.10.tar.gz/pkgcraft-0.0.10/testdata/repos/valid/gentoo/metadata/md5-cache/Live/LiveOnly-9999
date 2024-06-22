@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Package with only live ebuilds
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+LICENSE=MIT
+PROPERTIES=live
+SLOT=0
+_md5_=e8e5d90dc822efbd7c567295a6e8f4d1

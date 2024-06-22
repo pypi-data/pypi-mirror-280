@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DESCRIPTION=Ebuild with missing conditional test RESTRICT
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+IUSE=test
+KEYWORDS=amd64
+LICENSE=MIT
+SLOT=0
+_md5_=22cbfe363f40aac1f4b1d994f9785fb1

@@ -1,0 +1,10 @@
+DEFINED_PHASES=-
+DEPEND=stub/slotted:1
+DESCRIPTION=Ebuild with slotted dep
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=MIT
+RDEPEND=stub/slotted:1
+SLOT=0
+_md5_=8ec43e6d1b905b47567fc57e4fe89c64

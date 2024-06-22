@@ -1,0 +1,5 @@
+DEFINED_PHASES=-
+DESCRIPTION=ebuild not globally masked by the repo
+EAPI=8
+SLOT=0
+_md5_=4f396ac14fb0a1d35873586057cfa2e0

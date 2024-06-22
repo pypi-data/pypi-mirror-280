@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Ebuild with deprecated license
+EAPI=8
+HOMEPAGE=https://pkgcraft.pkgcraft
+KEYWORDS=amd64
+LICENSE=deprecated
+SLOT=0
+_md5_=2a77a81c82e7567ab02c2eafb7ec5d4c
