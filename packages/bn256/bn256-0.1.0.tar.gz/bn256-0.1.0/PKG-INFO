@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: bn256
+Version: 0.1.0
+Summary: python bn256
+Home-page: https://github.com/hanzhichao/bn256.git
+Author: Han Zhichao
+Author-email: superhin@126.com
+License: MIT License
+Keywords: bn256,python-bn256,hibe
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Bn256 of Python
+
+This package is a fully tested python edition of Golang crypto/bn256.
+
+## How to install
+```shell
+pip install bn256
+```
+
+## How to Use
+
+```python
+from bn256 import G1, G2, GT
+
+k1, g1 = G1.random_g1()
+k2, g2 = G2.random_g2()
+
+gt = GT.pair(g1, g2)
+
+print(gt.marshal().hex())
+```
+
+## Refer
+
+- [crypto/bn256](https://pkg.go.dev/golang.org/x/crypto/bn256)
+- [randombit/pairings.py](https://github.com/randombit/pairings.py/blob/master/bn256.py)
