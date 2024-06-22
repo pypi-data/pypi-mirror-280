@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: fenicsx-ldrb
+Version: 0.1.2
+Summary: Laplace-Dirichlet Rule-based algorithm for assigning myocardial fiber orientations.
+Author-email: Henrik Finsberg <henriknf@simula.no>
+License: MIT
+Project-URL: Homepage, https://finsberg.github.io/fenicsx-ldrb
+Project-URL: Documentation, https://finsberg.github.io/fenicsx-ldrb
+Project-URL: Source, https://github.com/finsberg/fenicsx-ldrb
+Project-URL: Tracker, https://github.com/finsberg/fenicsx-ldrb/issues
+Keywords: cardiac,electrophysiology
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: numba
+Requires-Dist: adios4dolfinx
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: cardiac-geometriesx; extra == "test"
+Provides-Extra: dev
+Requires-Dist: pdbpp; extra == "dev"
+Requires-Dist: ipython; extra == "dev"
+Requires-Dist: bump2version; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Provides-Extra: pypi
+Requires-Dist: twine; extra == "pypi"
+Requires-Dist: build; extra == "pypi"
+Provides-Extra: demos
+Requires-Dist: cardiac-geometriesx; extra == "demos"
+Provides-Extra: docs
+Requires-Dist: jupyter-book; extra == "docs"
+Requires-Dist: jupytext; extra == "docs"
+Requires-Dist: fenicsx-ldrb[demos]; extra == "docs"
+Provides-Extra: all
+Requires-Dist: fenicsx-ldrb[test]; extra == "all"
+Requires-Dist: fenicsx-ldrb[docs]; extra == "all"
+Requires-Dist: fenicsx-ldrb[pypi]; extra == "all"
+Requires-Dist: fenicsx-ldrb[dev]; extra == "all"
+Requires-Dist: fenicsx-ldrb[demos]; extra == "all"
+
+<p align="center">
+  <img width="300" height="300" src="https://raw.githubusercontent.com/finsberg/fenicsx-ldrb/main/docs/_static/fenicsx-ldrb-logo.png">
+</p>
+
+
+
+# Laplace-Dirichlet Rule-Based (LDRB) algorithm for assigning myocardial fiber orientations
+
+
+A software for assigning myocardial fiber orientations based on the Laplace Dirichlet Ruled-Based algorithm based on FEniCSx.
+
+> Bayer, J.D., Blake, R.C., Plank, G. and Trayanova, N.A., 2012.
+> A novel rule-based algorithm for assigning myocardial fiber orientation
+>to computational heart models. Annals of biomedical engineering, 40(10),
+pp.2243-2254.(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3518842/)
+
+
+
+# Installation
+
+## pip
+```
+python3 -m pip install fenicsx-ldrb
+```
+
+## Conda
+TBW
+
+## Docker
+TBW
+
+# Documentation
+TBW
+# Getting started
+TBW
+
+# License
+MIT
+
+# Contributors
+Henrik Finsberg (henriknf@simula.no)
