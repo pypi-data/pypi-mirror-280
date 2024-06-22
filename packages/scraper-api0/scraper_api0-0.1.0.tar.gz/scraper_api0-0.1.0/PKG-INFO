@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: scraper-api0
+Version: 0.1.0
+Summary: 
+Author: Varunravi205
+Author-email: 143930661+Varunravi205@users.noreply.github.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi (>=0.111.0,<0.112.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: uvicorn (>=0.30.1,<0.31.0)
+Description-Content-Type: text/markdown
+
+
