@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+cfspeedtest/__init__.py
+cfspeedtest/__main__.py
+cfspeedtest/cloudflare.py
+cfspeedtest/logger.py
+cfspeedtest/version.py
+cloudflarepycli.egg-info/PKG-INFO
+cloudflarepycli.egg-info/SOURCES.txt
+cloudflarepycli.egg-info/dependency_links.txt
+cloudflarepycli.egg-info/entry_points.txt
+cloudflarepycli.egg-info/requires.txt
+cloudflarepycli.egg-info/top_level.txt
