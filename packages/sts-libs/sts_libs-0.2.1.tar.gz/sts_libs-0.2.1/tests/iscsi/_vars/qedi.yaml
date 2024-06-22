@@ -1,0 +1,7 @@
+initiatorname: 'iqn.1994-05.com.redhat:storageqe-86'
+ifaces:
+  - iscsi_ifacename: 'qedi.00:0e:1e:f1:9c:f1'
+    ipaddress: '172.16.1.86'
+targets:
+  - portal: '172.16.1.10'
+    interface: 'qedi.00:0e:1e:f1:9c:f1'

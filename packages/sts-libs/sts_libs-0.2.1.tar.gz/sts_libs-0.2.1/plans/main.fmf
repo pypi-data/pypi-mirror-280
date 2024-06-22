@@ -1,0 +1,45 @@
+prepare:
+  - name: 'Install pipx'
+    how: install
+    package: pipx
+    order: 45
+  - name: 'Prepare pytest environment'
+    how: shell
+    script:
+      - pipx install pytest --force
+      - pipx inject pytest sts-libs pytest-variables[yaml]
+    order: 50
+adjust:
+  - when: distro != fedora or distro is not defined
+    prepare+:
+      - name: 'Enable epel'
+        how: feature
+        epel: enabled
+        order: 40
+  - when: distro == rhel-10  # TODO Remove once EPEL-10 is available
+    prepare:
+      - how: install
+        package: python3-pip
+        order: 40
+      - how: shell
+        script:
+          - python3 -m pip install --user pipx
+          - python3 -m pipx install pytest
+          - python3 -m pipx inject pytest sts-libs pytest-variables[yaml]
+        order: 45
+  - when: distro ~= rhel-8
+    prepare:
+      - name: 'Prepare pytest environment'
+        how: shell
+        script:
+          - dnf install -y python3.11-pip
+          - pip3.11 install --user pipx
+          - python3.11 -m pipx install pytest
+          - python3.11 -m pipx inject pytest sts-libs pytest-variables[yaml]
+        order: 45
+    because: 'pipx rpm, Python>=3.9 not available on RHEL-8 by default'
+  - when: distro < rhel-8.8
+    enabled: false
+    because: "sts tests require RHEL-8.8"
+execute:
+  how: tmt

@@ -1,0 +1,11 @@
+summary: iSCSI tests running on Intel adapter
+discover:
+  - name: iscsi-offload
+    how: fmf
+    filter: tag:iscsi-offload
+environment:
+  PYTEST_VARS: 'intel.yaml'
+provision:
+  how: beaker
+  hardware:
+    hostname: storageqe-82.lab.eng.brq2.redhat.com

@@ -1,0 +1,8 @@
+initiatorname: 'iqn.1994-05.com.redhat:storageqe-82'
+ifaces:
+  - iscsi_ifacename: 'intel-e810-p1'
+    hwaddress: 'b4:96:91:a0:68:8b'
+    ipaddress: '172.16.1.82'
+targets:
+  - portal: '172.16.1.10'
+    interface: 'intel-e810-p1'

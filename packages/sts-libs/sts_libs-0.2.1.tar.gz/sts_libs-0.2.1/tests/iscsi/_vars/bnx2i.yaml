@@ -1,0 +1,7 @@
+initiatorname: 'iqn.1994-05.com.redhat:storageqe-83'
+ifaces:
+  - iscsi_ifacename: 'bnx2i.ac:16:2d:85:64:bd'
+    ipaddress: '172.16.1.83'
+targets:
+  - portal: '172.16.1.10'
+    interface: 'bnx2i.ac:16:2d:85:64:bd'

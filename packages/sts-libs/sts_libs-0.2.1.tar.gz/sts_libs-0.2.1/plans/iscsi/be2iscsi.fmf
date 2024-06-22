@@ -1,0 +1,11 @@
+summary: iSCSI tests using interfaces using be2iscsi driver
+discover:
+  - name: iscsi-offload
+    how: fmf
+    filter: tag:iscsi-offload
+environment:
+  PYTEST_VARS: 'be2iscsi.yaml'
+provision:
+  how: beaker
+  hardware:
+    hostname: storageqe-84.lab.eng.brq2.redhat.com

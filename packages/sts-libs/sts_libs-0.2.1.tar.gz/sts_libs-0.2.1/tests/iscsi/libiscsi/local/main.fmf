@@ -1,0 +1,16 @@
+summary: Use libiscsi test suite against local LIO target
+description: >
+  The test creates a target using targetcli and runs libiscsi
+  tests with iscsi-test-cu utility.
+  Bi-directional CHAP credentials needs to be specified as
+  env variables, normally by a tmt plan.
+test: /root/.local/bin/pytest libiscsi-local.py
+tag+:
+  - local
+tier: 0
+enabled: true
+adjust+:
+  enabled: false
+  when: distro >= rhel-10, fedora-41
+  because: Test requires package libiscsi-utils, but no one for
+    rhel-10 and fedora-41 yet.

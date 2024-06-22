@@ -1,0 +1,7 @@
+initiatorname: 'iqn.1994-05.com.redhat:storageqe-87'
+ifaces:
+  - iscsi_ifacename: 'cxgb4i.00:07:43:73:04:b8.ipv4.0'
+    ipaddress: '172.16.1.82'
+targets:
+  - portal: '172.16.1.10'
+    interface: 'cxgb4i.00:07:43:73:04:b8.ipv4.0'
