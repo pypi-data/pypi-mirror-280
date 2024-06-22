@@ -1,0 +1,12 @@
+sqlmodel
+sqlalchemy
+
+[docs]
+mkdocs
+mkdocstrings[python]
+mkdocs-autorefs
+mkdocs-material
+
+[test]
+pytest
+deepdiff
