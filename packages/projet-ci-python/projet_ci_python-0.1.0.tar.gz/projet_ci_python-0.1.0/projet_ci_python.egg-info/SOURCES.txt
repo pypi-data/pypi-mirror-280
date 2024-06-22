@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+expenses.json
+setup.py
+projet_ci_python.egg-info/PKG-INFO
+projet_ci_python.egg-info/SOURCES.txt
+projet_ci_python.egg-info/dependency_links.txt
+projet_ci_python.egg-info/top_level.txt
+templates/index.html
+templates/login.html
+templates/style.css
+tests/test_app.py

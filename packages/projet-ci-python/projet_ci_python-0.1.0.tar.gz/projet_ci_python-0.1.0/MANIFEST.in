@@ -1,0 +1,4 @@
+include README.md
+include expenses.json
+include templates/*.html
+include templates/*.css
