@@ -1,0 +1,6 @@
+numpy>=1.23.0
+ndindex
+msgpack
+numexpr
+py-cpuinfo
+httpx
