@@ -1,0 +1,12 @@
+graph_store/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graph_store/base.py,sha256=igVmIbOK5OfJNbs51omdx7ZzZpu-WOfsC6K1BJokd_0,115
+graph_store/neo4j_store.py,sha256=3_ouZVIhEJ5dXQDCcLwvsQX_u8WSHT4UzJHe9ZMbm00,3029
+memory/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+memory/entity_memory.py,sha256=HAXa9TmG2CenwxMM26Ooupn0q4aCy7rEEPJDX46MDl0,2206
+memory/memory_base.py,sha256=8Ax_8aFg4enaddwZGtdVdE4Ka6j-bvof3Wm3_4_6mF0,940
+memory/semantic_memory.py,sha256=iKvslJMRGJqtbYxbFkyJuXhvDL0Se5xn7bB8hbaHwWY,1430
+simplememory-0.0.2.dist-info/LICENSE,sha256=iy_ilAEHxDDKgwYKH_6tz_CbStbHjt-JzXMfH6h9P18,1069
+simplememory-0.0.2.dist-info/METADATA,sha256=rlc1l2o9u3FzBMUOcLq5JbN7PYHn7PWGFj1ib6btkjE,2163
+simplememory-0.0.2.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+simplememory-0.0.2.dist-info/top_level.txt,sha256=9qrKO8VgCHUVBRGWyVh61VKesUdutb18D4670buwsAg,19
+simplememory-0.0.2.dist-info/RECORD,,
