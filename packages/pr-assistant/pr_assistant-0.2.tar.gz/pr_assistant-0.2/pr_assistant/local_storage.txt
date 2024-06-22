@@ -1,0 +1,191 @@
+user: /init true
+user: 
+    /init true
+    
+assistant: Initializing the nomination process with verbose output enabled...
+
+### Nominations:
+
+#### Adnan Aji
+1. Ahmed Saad (3)
+2. Al-Baraa Bakri (3)
+3. Hasan Assi (3)
+4. Ahmad Akilan (2)
+5. Nizar Shehada (1)
+
+#### Ahmed Saad
+1. Adnan Aji (3)
+2. Dema Dada (2)
+3. Al-Baraa Bakri (3)
+4. Hasan Assi (3)
+5. Jacqueline Lim (3)
+
+#### Abdulsalam Aljamal
+1. huthefa alfararjeh (3)
+2. Dema Dada (2)
+3. Raghad Wahhab (3)
+4. Sanad Albahti (2)
+5. Al-Baraa Bakri (1)
+
+#### huthefa alfararjeh
+1. Abdulsalam Aljamal (3)
+2. Raghad Wahhab (3)
+3. Sanad Albahti (2)
+4. Laith Hussein (2)
+5. Malak Hasan (2)
+
+#### Dema Dada
+1. Ahmed Saad (2)
+2. Abdulsalam Aljamal (2)
+3. huthefa alfararjeh (1)
+4. Ayham Al Attar (1)
+5. Natasha Madhu (3)
+
+#### Raghad Wahhab
+1. Abdulsalam Aljamal (3)
+2. huthefa alfararjeh (3)
+3. Sanad Albahti (3)
+4. Ahmad Akilan (9) - Excluded
+5. Jacqueline Lim (1)
+
+#### Sanad Albahti
+1. Abdulsalam Aljamal (2)
+2. huthefa alfararjeh (2)
+3. Dema Dada (2)
+4. Raghad Wahhab (3)
+5. Al-Baraa Bakri (3)
+
+#### Al-Baraa Bakri
+1. Adnan Aji (3)
+2. Ahmed Saad (3)
+3. Sanad Albahti (3)
+4. Ayham Al Attar (3)
+5. Laith Hussein (3)
+
+#### Ayham Al Attar
+1. Sanad Albahti (3)
+2. Al-Baraa Bakri (3)
+3. Laith Hussein (3)
+4. Malak Hasan (2)
+5. Hasan Assi (2)
+
+#### Laith Hussein
+1. Abdulsalam Aljamal (1)
+2. huthefa alfararjeh (2)
+3. Dema Dada (1)
+4. Sanad Albahti (3)
+5. Al-Baraa Bakri (3)
+
+#### Malak Hasan
+1. Abdulsalam Aljamal (2)
+2. huthefa alfararjeh (2)
+3. Sanad Albahti (3)
+4. Al-Baraa Bakri (3)
+5. Ayham Al Attar (2)
+
+#### Abdulrahaman Abo Srour
+1. Dema Dada (3)
+2. Sanad Albahti (1)
+3. Al-Baraa Bakri (1)
+4. Ayham Al Attar (1)
+5. Laith Hussein (2)
+
+#### Hasan Assi
+1. Adnan Aji (3)
+2. Ahmed Saad (3)
+3. Abdulsalam Aljamal (2)
+4. huthefa alfararjeh (2)
+5. Al-Baraa Bakri (3)
+
+#### Joel D'Souza
+1. Abdulsalam Aljamal (2)
+2. huthefa alfararjeh (2)
+3. Laith Hussein (2)
+4. Abdulrahaman Abo Srour (2)
+5. Hasan Assi (8) - Excluded
+
+#### Natasha Madhu
+1. Dema Dada (3)
+2. Abdulrahaman Abo Srour (3)
+3. Laith Hussein (2)
+4. Hasan Assi (2)
+5. Joel D'Souza (2)
+
+#### Rawan Alakhras
+1. Abdulsalam Aljamal (1)
+2. huthefa alfararjeh (1)
+3. Dema Dada (1)
+4. Sanad Albahti (1)
+5. Al-Baraa Bakri (1)
+
+#### Ghaith Salloom
+1. Abdulsalam Aljamal (3)
+2. huthefa alfararjeh (3)
+3. Sanad Albahti (1)
+4. Al-Baraa Bakri (3)
+5. Laith Hussein (3)
+
+#### Bilal Hassan
+1. Malak Hasan (1)
+2. Muhammed Zeeshan (9) - Excluded
+3. Wardah Aamer (3)
+4. Nizar Shehada (1)
+5. Ahmad Akilan (0) - Excluded
+
+#### Muhammed Zeeshan
+1. huthefa alfararjeh (1)
+2. Laith Hussein (1)
+3. Malak Hasan (3)
+4. Abdulrahaman Abo Srour (1)
+5. Hasan Assi (1)
+
+#### Wardah Aamer
+1. Malak Hasan (2)
+2. Bilal Hassan (3)
+3. Muhammed Zeeshan (9) - Excluded
+4. Nizar Shehada (3)
+5. Ahmad Akilan (0) - Excluded
+
+#### Ahsan Ahmad
+1. Dema Dada (1)
+2. Abdulrahaman Abo Srour (1)
+3. Hasan Assi (1)
+4. Joel D'Souza (1)
+5. Natasha Madhu (1)
+
+#### Ahmad Akilan
+1. Adnan Aji (2)
+2. Abdulrahaman Abo Srour (2)
+3. Hasan Assi (3)
+4. Joel D'Souza (2)
+5. Ghaith Salloom (3)
+
+#### Jacqueline Lim
+1. Adnan Aji (9) - Excluded
+2. Ahmed Saad (3)
+3. Dema Dada (3)
+4. Abdulrahaman Abo Srour (9) - Excluded
+5. Hasan Assi (9) - Excluded
+
+#### Nizar Shehada
+1. Adnan Aji (1)
+2. Abdulsalam Aljamal (1)
+3. huthefa alfararjeh (1)
+4. Raghad Wahhab (1)
+5. Sanad Albahti (1)
+
+#### Ehab Raafat
+1. Ahmad Akilan (3)
+2. Jacqueline Lim (3)
+3. Nizar Shehada (3)
+4. Gaith Haboub (0) - Excluded
+5. -
+
+#### Gaith Haboub
+1. Ahsan Ahmad (1)
+2. Ahmad Akilan (2)
+3. Jacqueline Lim (1)
+4. Nizar Shehada (3)
+5. -
+
+Nominations have been stored in the state.
