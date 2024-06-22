@@ -1,0 +1,2 @@
+[console_scripts]
+yeadon = yeadon.app:run
