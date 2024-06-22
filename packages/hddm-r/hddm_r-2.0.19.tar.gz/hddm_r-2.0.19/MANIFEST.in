@@ -1,0 +1,2 @@
+include hddm_r/*.xml
+include scripts/*.bat
