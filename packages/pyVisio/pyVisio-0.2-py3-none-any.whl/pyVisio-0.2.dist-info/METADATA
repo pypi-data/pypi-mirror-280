@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pyVisio
+Version: 0.2
+Summary: An interactive and dynamic data visualization and analysis library
+Home-page: https://github.com/kayahuseyinn/pyVisio
+Author: Hüseyin Kaya
+Author-email: kaya87826@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: plotly
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: statsmodels
+
+# pyVisio
+
+pyVisio, interaktif ve dinamik veri gÃ¶rselleÅŸtirme ve analiz kÃ¼tÃ¼phanesidir. Bu kÃ¼tÃ¼phane ile veri analizlerinizi modern ve etkileÅŸimli grafiklerle gÃ¶rselleÅŸtirebilir ve analiz edebilirsiniz.
+
+## Ä°Ã§indekiler
+
+1. [KullanÄ±m KÄ±lavuzu](docs/usage.md)
+2. [API ReferansÄ±](docs/api_reference.md)
+3. [KatkÄ±da Bulunma](docs/contributing.md)
+4. [Lisans](LICENSE)
+
+## Kurulum
+
+pyVisio'i pip ile kurabilirsiniz:
+
+```bash
+pip install pyVisio
