@@ -1,0 +1,4 @@
+colcon-core>=0.12.0
+colcon-package-selection>=0.2.10
+colcon-ros>=0.4.1
+rosdep>=0.22.1
