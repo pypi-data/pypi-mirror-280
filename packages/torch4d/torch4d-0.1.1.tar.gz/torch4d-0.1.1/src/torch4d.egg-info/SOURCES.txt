@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/torch4d/functional.py
+src/torch4d/torch4d.py
+src/torch4d.egg-info/PKG-INFO
+src/torch4d.egg-info/SOURCES.txt
+src/torch4d.egg-info/dependency_links.txt
+src/torch4d.egg-info/requires.txt
+src/torch4d.egg-info/top_level.txt
+tests/test_functional.py
+tests/test_torch4d.py
