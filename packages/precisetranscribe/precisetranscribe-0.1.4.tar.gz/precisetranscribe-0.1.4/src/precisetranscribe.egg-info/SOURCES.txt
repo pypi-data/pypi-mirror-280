@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/precisetranscribe/__init__.py
+src/precisetranscribe/__main__.py
+src/precisetranscribe/gpt.py
+src/precisetranscribe/openai.py
+src/precisetranscribe/utils.py
+src/precisetranscribe/whisper.py
+src/precisetranscribe.egg-info/PKG-INFO
+src/precisetranscribe.egg-info/SOURCES.txt
+src/precisetranscribe.egg-info/dependency_links.txt
+src/precisetranscribe.egg-info/requires.txt
+src/precisetranscribe.egg-info/top_level.txt
+tests/test_utils.py
