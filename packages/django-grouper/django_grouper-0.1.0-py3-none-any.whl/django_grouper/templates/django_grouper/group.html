@@ -1,0 +1,52 @@
+{% extends "webpage/base.html" %}
+{% block content %}
+    {% if merged_ids %}
+        {% for merge_id in merged_ids %}Merged {{ merge_id }}{% endfor %}
+    {% else %}
+        <style>
+.checkbox:checked ~ .card{
+  background: #ffc107;
+}
+.checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    cursor: pointer;
+}
+.card_area{
+  position: relative;
+  margin-bottom: 30px;
+}
+        </style>
+        <div class="container">
+            <form class="mt-5" method="post">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-primary">Merge selected</button>
+                <input type="hidden"
+                       name="content_type"
+                       value="{{ content_type.app_label }}.{{ content_type.model }}">
+                <div class="card-columns mt-5">
+                    {% for object in object_list %}
+                        <div class="card_area">
+                            <input class="checkbox"
+                                   type="checkbox"
+                                   id="to_merge"
+                                   name="to_merge"
+                                   value="{{ object.pk }}" />
+                            <div class="card border" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ object }}</h5>
+                                    <p class="card-text">Details</p>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </form>
+        </div>
+    {% endif %}
+{% endblock content %}
