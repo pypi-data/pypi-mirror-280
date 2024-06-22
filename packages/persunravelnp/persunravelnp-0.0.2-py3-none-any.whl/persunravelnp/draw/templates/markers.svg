@@ -1,0 +1,22 @@
+<marker id="marker-disc"
+        markerUnits="userSpaceOnUse"
+        viewBox="-0.02 -0.02 0.04 0.04"
+        markerWidth="0.04"
+        markerHeight="0.04">
+  <circle r="0.015"
+          fill="currentColor"
+          class="tint-red" />
+</marker>
+<marker id="marker-x"
+        markerUnits="userSpaceOnUse"
+        viewBox="-0.03 -0.03 0.06 0.06"
+        markerWidth="0.06"
+        markerHeight="0.06">
+  <g fill="currentColor"
+     class="tint-green">
+    <rect width="0.01" height="0.04"
+          transform="rotate(-45) translate(-0.005 -0.02)" />
+    <rect width="0.01" height="0.04"
+          transform="rotate(45) translate(-0.005 -0.02)" />
+  </g>
+</marker>

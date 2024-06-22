@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: persunravelnp
+Version: 0.0.2
+Summary: Kernel and Utilities for Unravelled Persistence Diagrams Using NumPy
+Home-page: https://git.sr.ht/~bfluhr/persunravelnp
+License: BSD-3-Clause
+Author: Benedikt Fluhr
+Author-email: pypi@bfluhr.com
+Requires-Python: >=3.12
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: draw
+Requires-Dist: jinja2 (>=3.1) ; extra == "draw"
+Requires-Dist: numpy (>=1.16)
+Project-URL: Repository, https://git.sr.ht/~bfluhr/persunravelnp
+Description-Content-Type: text/markdown
+
+# `persunravelnp`: Kernel and Utilities for Unravelled Persistence Diagrams Using NumPy
+
+`persunravelnp` provides a kernel and utilities
+for *unravelled persistence diagrams*
+that can be used in conjunction with Scikit-Learn
+and from Jupyter Notebooks.
+
+## Installation
+
+To install `persunravelnp` including the optional
+`jinja2` dependency for drawing unravelled persistence diagrams
+e.g. using [Poetry](https://python-poetry.org/) run
+
+    $ poetry add persunravelnp[draw]
+    
+or with `pip`
+
+    $ pip install persunravelnp[draw]
+    
+## Examples
+
+There are two Jupyter Notebooks in the
+[`examples` directory](https://git.sr.ht/~bfluhr/persunravelnp/tree/master/item/examples)
+and at <https://bfluhr.com/bucket/persunravelnp-notebooks/>.
+
