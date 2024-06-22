@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+flomo/__init__.py
+flomo/cli.py
+flomo/debug.py
+flomo/ui.py
+flomodoro.egg-info/PKG-INFO
+flomodoro.egg-info/SOURCES.txt
+flomodoro.egg-info/dependency_links.txt
+flomodoro.egg-info/entry_points.txt
+flomodoro.egg-info/requires.txt
+flomodoro.egg-info/top_level.txt
