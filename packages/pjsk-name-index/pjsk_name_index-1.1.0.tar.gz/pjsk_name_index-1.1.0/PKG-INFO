@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pjsk_name_index
+Version: 1.1.0
+Summary: A library for indexing names from the game Project Sekai.
+Home-page: https://github.com/yourusername/your_package_name
+Author: YuxiangWang0525
+Author-email: yuxiangwang0525@gmail.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+﻿# pjsk-name-index
+> A library for indexing names from the game Project Sekai. (Python achieve)
+
+# Index
+## sekai_index() method
+### Field Name Table
+| Field       | Field Meaning                          |
+| ------------ |---------------------------------------|
+| full_name    | Team English Name/Role English Name    |
+| full_name_cn | Team Chinese Name/Role Chinese Name    |
+| simple_name  | Team Abbreviation/Role Abbreviation   |
+| joke_name_cn | (For roles only) Role Nickname (Alias) |
+| full_name_cn_official | (For teams only) Team Official Chinese Name |
+The `pjsk-name-index` library provides the `sekai_index()` method, which can quickly index to other names of the corresponding role based on the provided parameters.
+### Usage:
+`sekai_index('Full Role Name/Full Team Name','Team Type (team or individual)').expected field`
+### Example:
+``` Python
+from pjsk_name_index import sekai_index
+print(sekai_index("knd","individual")['full_name_cn'])
+// Output Result: > 宵崎奏
+print(sekai_index("狮雨星绊","team")['full_name'])
+// Output Result: > Leo/need
+```
+# License
+MIT License
