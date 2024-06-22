@@ -1,0 +1,8 @@
+pytest_apiver-0.1.0.dist-info/METADATA,sha256=xKrKXtaJmr05Ua39TWqfPyyNMnFn0RkyJ97O5bNakII,3643
+pytest_apiver-0.1.0.dist-info/WHEEL,sha256=SOP-4bEE0jbVaCHQGVvF08uWxk5rcSsfEybvoQVHlD8,90
+pytest_apiver-0.1.0.dist-info/entry_points.txt,sha256=xuHIeyCByBXaUi4Ivv6mStugPUbOqAhS4sgSqcyDsSg,42
+pytest_apiver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_apiver/_internal/__init__.py,sha256=UkyXxPYM4XouYq4M1Js3KBG6UtXikemSautUa5mmjZg,1890
+pytest_apiver/plugin.py,sha256=LjbKuha3hvVzESaIODOv54O4S6DBQNnPNE6zuAOANsI,2944
+pytest_apiver/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_apiver-0.1.0.dist-info/RECORD,,
