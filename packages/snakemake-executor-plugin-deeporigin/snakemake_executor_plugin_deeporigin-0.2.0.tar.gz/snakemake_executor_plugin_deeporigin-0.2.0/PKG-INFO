@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: snakemake-executor-plugin-deeporigin
+Version: 0.2.0
+Summary: A snakemake executor plugin for submission of jobs to Kubernetes
+Home-page: https://github.com/deeporiginbio/snakemake-executor-plugin-deeporigin
+License: MIT
+Keywords: snakemake,plugin,executor,cloud,kubernetes
+Author: Bilal Shaikh
+Author-email: bilalshaikh42@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: kubernetes (>=27.2.0,<30)
+Requires-Dist: snakemake-executor-plugin-kubernetes (>=0.1.5,<0.2.0)
+Requires-Dist: snakemake-interface-common (>=1.14.1,<2.0.0)
+Requires-Dist: snakemake-interface-executor-plugins (>=9.0.0,<10.0.0)
+Project-URL: Documentation, https://snakemake.github.io/snakemake-plugin-catalog/plugins/executor/deeporigin.html
+Project-URL: Repository, https://github.com/deeporiginbio/snakemake-executor-plugin-deeporigin
+Description-Content-Type: text/markdown
+
+# snakemake-executor-plugin-deeporigin
+
+A snakemake executor plugin for submission of jobs to Kubernetes.
