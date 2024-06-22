@@ -1,0 +1,39 @@
+[build-system]
+requires = [
+    "setuptools>=45",
+    "setuptools_scm[toml]>=6.2",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint.messages_control]
+disable = [
+  # Ignore refactor and convention categories
+  "R",
+  "C",
+  # Do not warn about TODO and FIXME comments
+  "fixme",
+  "E1136"
+]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+
+[project]
+name = "lshmm"
+dynamic = [
+    "version",
+    "license",
+    "dependencies",
+    "readme",
+    "classifiers",
+    "requires-python",
+]
+[tool.setuptools_scm]
+write_to = "lshmm/_version.py"
+
