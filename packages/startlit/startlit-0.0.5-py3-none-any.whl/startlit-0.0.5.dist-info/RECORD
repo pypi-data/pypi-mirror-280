@@ -1,0 +1,11 @@
+startlit/__init__.py,sha256=KJmkn1ZIc2MUS0mdoWeU8wd9iOz_VsrAVTT_7BWECjg,202
+startlit/help.py,sha256=4YZMWETgrKCk-7m63d6Ud_5oQEKzcfeAUHY_ovwwCR0,899
+startlit/kill.py,sha256=h7HhygcOU0BD6WNoGalxGmVcKV0sCkd8Cb2tqSqxGk0,582
+startlit/list.py,sha256=9KStAYvUBbHYXqYBBjW0Jo2PgLszEambBYyHXRrcHq0,2323
+startlit/snowflake.py,sha256=X2b2MZ97Xo-OPmoEIjJiQCu85iX7B1GRlrPyqAW00N8,3246
+startlit/start.py,sha256=FOOoeV0vskwrWDtDvhKo209MGosxeEjavfBkGXMDGcE,3218
+startlit-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+startlit-0.0.5.dist-info/METADATA,sha256=dfl4cy-BxK-KXCQ_a1vD086vHLrkH9bpliEqC4sYOh8,6556
+startlit-0.0.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+startlit-0.0.5.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+startlit-0.0.5.dist-info/RECORD,,
