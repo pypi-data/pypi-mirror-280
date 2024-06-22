@@ -1,0 +1,2 @@
+[console_scripts]
+pyflow-manager = pyflow_manager.pyflow_manager:main
