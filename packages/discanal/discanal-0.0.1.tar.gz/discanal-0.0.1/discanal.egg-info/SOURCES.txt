@@ -1,0 +1,9 @@
+setup.py
+discanal/__init__.py
+discanal/ida.py
+discanal/qda.py
+discanal.egg-info/PKG-INFO
+discanal.egg-info/SOURCES.txt
+discanal.egg-info/dependency_links.txt
+discanal.egg-info/requires.txt
+discanal.egg-info/top_level.txt
