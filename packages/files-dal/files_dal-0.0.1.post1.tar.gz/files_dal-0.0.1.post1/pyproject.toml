@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "files_dal"
+
+authors = [
+    {name = "Sergey Motornyuk", email = "sergey.motornyuk@linkdigital.com.au"},
+]
+description = "Abstract data access to files stored in different storages."
+requires-python = ">=3.8"
+keywords = ["DAL", "file", "cloud", "filesystem"]
+license = {text = "AGPL"}
+classifiers = [
+        "Development Status :: 3 - Alpha",
+        "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    # "requests",
+    # 'importlib-metadata; python_version<"3.10"',
+]
+dynamic = ["version", "readme"]
+
+[project.optional-dependencies]
+test = ["pytest", "faker"]
+
+
+[project.scripts]
+fdal = "files_dal.cli:fdal"
+files-dal = "files_dal.cli:fdal"
+
+[project.urls]
+Homepage = "https://github.com/DataShades/files-dal"
+
+[tool.setuptools]
+packages = ["files_dal"]
+
+[tool.setuptools.dynamic]
+version = {attr = "files_dal.__version__"}
+readme = {file = ["README.md"], content-type = "text/markdown"}

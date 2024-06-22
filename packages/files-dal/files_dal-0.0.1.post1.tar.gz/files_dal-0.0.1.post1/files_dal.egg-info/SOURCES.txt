@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+files_dal/__init__.py
+files_dal.egg-info/PKG-INFO
+files_dal.egg-info/SOURCES.txt
+files_dal.egg-info/dependency_links.txt
+files_dal.egg-info/entry_points.txt
+files_dal.egg-info/requires.txt
+files_dal.egg-info/top_level.txt
