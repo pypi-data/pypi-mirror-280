@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling","cvxopt","matplotlib","numpy","pandas","scipy","scikit-learn","tqdm"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "kernel_quantile_regression"
+version = "0.0.14"
+authors = [
+  { name="Luca Pernigo", email="luca.pernigo@usi.ch" },
+]
+description = "Kernel quantile regression"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+# name it kernel_quantile_regression
+[tool.hatch.build.targets.wheel]
+packages = ["src/kernel_quantile_regression"]
+
+# where to get data
+[tool.hatch.build]
+include = ['src/kernel_quantile_regression/*']
+
+
+[project.urls]
+Homepage = "https://github.com/luca-pernigo/kernel_quantile_regression"
