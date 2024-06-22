@@ -1,0 +1,3 @@
+include GAMES.pgn
+include data/GAMES.pgn
+include randomcg/GAMES.pgn
