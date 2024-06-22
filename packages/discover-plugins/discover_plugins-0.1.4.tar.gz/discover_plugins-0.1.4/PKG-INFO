@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: discover-plugins
+Version: 0.1.4
+Summary: Discover installed plugins
+Author-email: Felix Scherz <felixwscherz@gmail.com>
+Project-URL: Documentation, https://github.com/felixscherz/discover-plugins#readme
+Project-URL: Issues, https://github.com/felixscherz/discover-plugins/issues
+Project-URL: Source, https://github.com/felixscherz/discover-plugins
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# discover-plugins
+
+- should be given a python interpreter path to figure out plugins for that interpreter
+- execute code on that python interpreter?
+
+
+- two modes:
+    - running within the active interperter
+    - injecting code into another interpreter

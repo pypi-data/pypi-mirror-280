@@ -1,0 +1,16 @@
+[project]
+name = "myplugin"
+version = "0.1.0"
+requires-python = ">=3.9"
+authors = [
+  { name = "Felix Scherz", email = "felixwscherz@gmail.com" },
+]
+
+[build-system]
+requires = [
+    "setuptools>=61.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project.entry-points."entry_point_name"]
+name = "myplugin:main"
