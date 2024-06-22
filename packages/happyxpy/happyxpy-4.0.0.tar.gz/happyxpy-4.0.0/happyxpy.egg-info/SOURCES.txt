@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+happyxpy/__init__.py
+happyxpy/constants.py
+happyxpy/happyx.pyd
+happyxpy/happyx.so
+happyxpy/server.py
+happyxpy.egg-info/PKG-INFO
+happyxpy.egg-info/SOURCES.txt
+happyxpy.egg-info/dependency_links.txt
+happyxpy.egg-info/requires.txt
+happyxpy.egg-info/top_level.txt
