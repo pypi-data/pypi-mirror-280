@@ -1,0 +1,9 @@
+README.md
+setup.py
+memory_manager/__init__.py
+memory_manager/core.py
+memory_manager.egg-info/PKG-INFO
+memory_manager.egg-info/SOURCES.txt
+memory_manager.egg-info/dependency_links.txt
+memory_manager.egg-info/requires.txt
+memory_manager.egg-info/top_level.txt
