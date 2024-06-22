@@ -1,0 +1,6 @@
+numpy
+platypus-opt
+scipy
+pandas
+matplotlib
+pymoo
