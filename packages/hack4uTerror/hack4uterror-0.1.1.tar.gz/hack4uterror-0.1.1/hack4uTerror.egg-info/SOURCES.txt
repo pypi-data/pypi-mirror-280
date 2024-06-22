@@ -1,0 +1,9 @@
+README.md
+setup.py
+hack4uTerror/__init__.py
+hack4uTerror/courses.py
+hack4uTerror/utils.py
+hack4uTerror.egg-info/PKG-INFO
+hack4uTerror.egg-info/SOURCES.txt
+hack4uTerror.egg-info/dependency_links.txt
+hack4uTerror.egg-info/top_level.txt
