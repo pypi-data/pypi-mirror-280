@@ -1,0 +1,10 @@
+numpy>=1.22,<2
+networkx>3.0
+quimb>=1.4.0
+autoray>=0.6.0
+opt_einsum>=3.2
+galois>=0.3.0
+sympy>=1.9
+matplotlib
+pydantic
+scipy
