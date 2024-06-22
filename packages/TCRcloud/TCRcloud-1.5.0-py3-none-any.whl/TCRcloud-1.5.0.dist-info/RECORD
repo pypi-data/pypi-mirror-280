@@ -1,0 +1,16 @@
+tcrcloud/TCRcloud.py,sha256=EnailqAZThIyWjiSwPgdLlTwr6TmXyXQe_besNthGyQ,19974
+tcrcloud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tcrcloud/aminoacids.py,sha256=Jm8Jneq6DeeHF4GcwxPvp0WiFFjtYypiFnkaTmc6Mvo,13225
+tcrcloud/cloud.py,sha256=qc94TV0Jv9nJ-7___6eAFo6tQuZHvtGyQv1BL005_E4,5754
+tcrcloud/colours.py,sha256=vWOoHUBU4dBDNAjBx41UcVTwOZrLab73uOOtUAjCe5Q,14337
+tcrcloud/download.py,sha256=eubcaL26sfFnZcE_mJjil8nQsB_5sR74msXdapead68,5561
+tcrcloud/format.py,sha256=uubzGEHt-mhNmckHj6zSCLxDmGLhxSkmbA2j0dDjEyk,7163
+tcrcloud/radar.py,sha256=jsgLbSkvj3jdY3WJg7yZIrSv3GmYAuZJQ_AIow9LCFE,20069
+tcrcloud/testdata.py,sha256=H3Jx2rAfsAJNaZ4kl3Qkc5NiUx8_1NGbjgxtvQROfok,3154
+tcrcloud/vgenes.py,sha256=mvCvcYMokEakg5qBG5VZ2TjAlK9lefKtojv-tqu-Cxk,14985
+TCRcloud-1.5.0.dist-info/LICENSE,sha256=KTvcjhO4O8kGLEfKxAW2tvMxzTsxySjtrMk7KWkBHcI,1069
+TCRcloud-1.5.0.dist-info/METADATA,sha256=W-gr6WQ_mn1py4cTa44rO5t46aiWytuH_bJRz2dDU4U,6433
+TCRcloud-1.5.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+TCRcloud-1.5.0.dist-info/entry_points.txt,sha256=eNy23yFJ-EmUoojZm2qesxsCMiq0TRldPzKb-M11tnQ,52
+TCRcloud-1.5.0.dist-info/top_level.txt,sha256=vmKQ3NnmCas-qytbbHZi1BypYa1tL4Qlny-XMFonXXM,9
+TCRcloud-1.5.0.dist-info/RECORD,,
