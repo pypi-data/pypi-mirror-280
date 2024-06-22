@@ -1,0 +1,8 @@
+staff_view/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+staff_view/version.py,sha256=P3HEkYrQY_hgsiUjRF3VD8nV-e_18eXM3t8rxd0ShxY,266
+staff_view/views.py,sha256=vIrLjcYeu9K2inz__OlKZ_DKTkkaX5TmZlyYSOS0n5M,2328
+staff_view/templates/staff_view.html,sha256=Bqnm8G_zSeNX5mdFdMt-v_C2F61HyUGTK1Kv_BIIGYU,668
+django_staff_view-1.0.3.dist-info/METADATA,sha256=gJN41hwKyidmspIDj38k8pCxsAnCxw0jevI7KxguJuE,1218
+django_staff_view-1.0.3.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+django_staff_view-1.0.3.dist-info/top_level.txt,sha256=HxOZkHbc-U6jzY09OaD-adeSN-EvKvbs2Hpvb0qpFWY,11
+django_staff_view-1.0.3.dist-info/RECORD,,
