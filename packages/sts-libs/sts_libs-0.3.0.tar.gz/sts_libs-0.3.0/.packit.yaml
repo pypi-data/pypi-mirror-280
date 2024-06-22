@@ -1,0 +1,32 @@
+specfile_path: python-sts-libs.spec
+
+upstream_package_name: sts-libs
+downstream_package_name: sts-libs
+
+upstream_project_url: https://gitlab.com/rh-kernel-stqe/sts
+
+srpm_build_deps:
+  - hatch
+  - python3-hatch-vcs
+
+actions:
+  create-archive:
+    - hatch build -t sdist
+    - bash -c "ls dist/sts_libs-*.tar.gz"
+  get-current-version:
+    - hatch version
+
+jobs:
+  # Build pull requests
+  - job: copr_build
+    trigger: pull_request
+    targets:
+      - fedora-latest
+      - epel-9
+
+  # Release to copr
+  - job: copr_build
+    trigger: release
+    targets:
+      - fedora-all
+      - epel-9

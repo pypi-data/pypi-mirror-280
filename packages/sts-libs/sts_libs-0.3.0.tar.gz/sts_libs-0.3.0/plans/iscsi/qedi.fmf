@@ -1,0 +1,11 @@
+summary: iSCSI tests using interfaces using qedi driver
+discover:
+  - name: iscsi-offload
+    how: fmf
+    filter: tag:iscsi-offload
+environment:
+  PYTEST_VARS: 'qedi.yaml'
+provision:
+  how: beaker
+  hardware:
+    hostname: storageqe-86.lab.eng.brq2.redhat.com

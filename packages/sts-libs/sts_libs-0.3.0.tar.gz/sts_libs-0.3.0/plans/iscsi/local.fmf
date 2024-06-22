@@ -1,0 +1,12 @@
+summary: iSCSI tests running on single host
+prepare+:
+  - how: install
+    copr: mhoyer/libiscsi
+    package: libiscsi-utils
+    order: 47
+discover:
+  - name: iscsi-local
+    how: fmf
+    filter:
+      - tag:iscsi
+      - tag:local

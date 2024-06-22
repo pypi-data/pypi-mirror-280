@@ -1,0 +1,10 @@
+prepare+:
+  - how: install
+    copr: mhoyer/libiscsi
+    package: libiscsi-utils
+discover:
+  how: fmf
+  filter:
+    - tag:libiscsi
+context:
+  component: targetcli

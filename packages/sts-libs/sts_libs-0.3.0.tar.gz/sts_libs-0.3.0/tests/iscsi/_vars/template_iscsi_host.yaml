@@ -1,0 +1,83 @@
+initiatorname: <initiator_name>
+targets:
+  - name: str
+    interface: str
+    portal: str
+    type: str  # discovery type
+  # Add more targets as needed
+ifaces:
+  - hwaddress: str
+    iscsi_ifacename: str
+    net_ifacename: str
+    transport_name: str
+    initiatorname: str
+    isid: str
+    bootproto: str
+    ipaddress: str
+    prefix_len: str
+    subnet_mask: str
+    gateway: str
+    primary_dns: str
+    secondary_dns: str
+    vlan_id: str
+    vlan_priority: str
+    vlan_state: str
+    ipv6_linklocal: str
+    ipv6_router: str
+    ipv6_autocfg: str
+    linklocal_autocfg: str
+    router_autocfg: str
+    state: str
+    iface_num: str
+    mtu: str
+    port: str
+    delayed_ack: str
+    tcp_nagle: str
+    tcp_wsf_state: str
+    tcp_wsf: str
+    tcp_timer_scale: str
+    tcp_timestamp: str
+    dhcp_dns: str
+    dhcp_slp_da: str
+    tos_state: str
+    tos: str
+    gratuitous_arp: str
+    dhcp_alt_client_id_state: str
+    dhcp_alt_client_id: str
+    dhcp_req_vendor_id_state: str
+    dhcp_vendor_id_state: str
+    dhcp_vendor_id: str
+    dhcp_learn_iqn: str
+    fragmentation: str
+    incoming_forwarding: str
+    ttl: str
+    gratuitous_neighbor_adv: str
+    redirect: str
+    ignore_icmp_echo_request: str
+    mld: str
+    flow_label: str
+    traffic_class: str
+    hop_limit: str
+    nd_reachable_tmo: str
+    nd_rexmit_time: str
+    nd_stale_tmo: str
+    dup_addr_detect_cnt: str
+    router_adv_link_mtu: str
+    def_task_mgmt_timeout: str
+    header_digest: str
+    data_digest: str
+    immediate_data: str
+    initial_r2t: str
+    data_seq_inorder: str
+    data_pdu_inorder: str
+    erl: str
+    max_receive_data_len: str
+    first_burst_len: str
+    max_outstanding_r2t: str
+    max_burst_len: str
+    chap_auth: str
+    bidi_chap: str
+    strict_login_compliance: str
+    discovery_auth: str
+    discovery_logout: str
+  # Add more interfaces as needed
