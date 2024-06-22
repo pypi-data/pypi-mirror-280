@@ -1,0 +1,369 @@
+image: gitlab.kwant-project.org:5005/kwant/kwant
+
+stages:
+  - build-env
+  - build
+  - test
+  - deploy
+  - release
+
+variables:
+  # rsync is used to send documentation to our web servers: we never send any
+  # secret information, and using 'ssh-keyscan' causes the CI server's IP to be blacklisted
+  SSH_COMMAND: "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
+
+## Building Docker environments
+## Only runs when docker specifications change
+
+.build-env:
+  stage: build-env
+  when: manual
+  image:
+    name: gcr.io/kaniko-project/executor:debug
+    entrypoint: [""]
+  before_script:
+    - mkdir -p /kaniko/.docker
+    - echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
+
+build-env:ubuntu:
+  extends: .build-env
+  script:
+    - /kaniko/executor
+      --context $CI_PROJECT_DIR/docker
+      --dockerfile $CI_PROJECT_DIR/docker/Dockerfile.ubuntu
+      --destination $CI_REGISTRY_IMAGE/ubuntu
+
+build-env:debian:
+  extends: .build-env
+  script:
+    - /kaniko/executor
+      --context $CI_PROJECT_DIR/docker
+      --dockerfile $CI_PROJECT_DIR/docker/Dockerfile.debian
+      --destination $CI_REGISTRY_IMAGE/debian
+
+build-env:default:
+  extends: .build-env
+  script:
+    - /kaniko/executor
+      --context $CI_PROJECT_DIR/docker
+      --dockerfile $CI_PROJECT_DIR/docker/Dockerfile.conda
+      --destination $CI_REGISTRY_IMAGE
+
+
+## Build environment specifications
+
+.build:
+  stage: build
+  script:
+    - echo -e "[DEFAULT]\ndefine_macros = CYTHON_TRACE=1 NPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION" >build.conf
+    - ./setup.py build
+    - ./setup.py build_ext -i
+  artifacts:
+    untracked: true
+    expire_in: 2 hour
+
+
+.stable-env:
+  before_script:
+    - eval "$(micromamba shell hook --shell bash)"
+    - micromamba activate kwant-stable
+
+.no-extras-env:
+  before_script:
+    - eval "$(micromamba shell hook --shell bash)"
+    - micromamba activate kwant-stable-no-extras
+
+# Note that this is 'latest' as of when the image was last built
+.latest-env:
+  before_script:
+    - eval "$(micromamba shell hook --shell bash)"
+    - micromamba activate kwant-latest
+
+.bleeding-edge-env:
+  before_script:
+    - eval "$(micromamba shell hook --shell bash)"
+    - micromamba activate kwant-latest
+    - micromamba update --all
+
+.ubuntu-env:
+  image: gitlab.kwant-project.org:5005/kwant/kwant/ubuntu
+
+.debian-env:
+  image: gitlab.kwant-project.org:5005/kwant/kwant/debian
+
+## Build Jobs
+
+build:ubuntu:
+  extends:
+    - .build
+    - .ubuntu-env
+
+build:debian:
+  extends:
+    - .build
+    - .debian-env
+
+build:stable:
+  extends:
+    - .build
+    - .stable-env
+
+build:no-extras:
+  extends:
+    - .build
+    - .no-extras-env
+
+build:latest:
+  extends:
+    - .build
+    - .latest-env
+
+build:bleeding-edge:
+  extends:
+    - .build
+    - .bleeding-edge-env
+  only:
+    - schedules
+  allow_failure: true
+
+## Test Jobs
+
+check whitespace style:
+  stage: test
+  script: ./check_whitespace
+  allow_failure: true
+
+check for dependencies installed:
+  stage: test
+  script:
+    - if [ -d .eggs ]; then echo "$(ls -d .eggs/*/) downloaded by build, update build environment" >&2; fi
+  allow_failure: true
+
+
+.test:
+  stage: test
+  script:
+    - py.test -r w --flakes kwant --junitxml=tests.xml --durations=10
+  artifacts:
+    reports:
+      junit: tests.xml
+
+.coverage:
+  stage: test
+  script:
+    - py.test -r w --cov=kwant --cov-report term --cov-report html --flakes kwant --junitxml=tests.xml --durations=10
+  artifacts:
+    paths:
+      - htmlcov
+    reports:
+      junit: tests.xml
+
+
+test:stable:
+  extends:
+    - .test
+    - .stable-env
+  dependencies:
+    - build:stable
+
+test:no-extras:
+  extends:
+    - .test
+    - .no-extras-env
+  dependencies:
+    - build:no-extras
+
+test:ubuntu:
+  extends:
+    - .test
+    - .ubuntu-env
+  dependencies:
+    - build:ubuntu
+
+test:debian:
+  extends:
+    - .test
+    - .debian-env
+  dependencies:
+    - build:debian
+
+test:latest:
+  extends:
+    - .test
+    - .latest-env
+  dependencies:
+    - build:latest
+
+test:bleeding-edge:
+  extends:
+    - .test
+    - .bleeding-edge-env
+  dependencies:
+    - build:bleeding-edge
+  only:
+    - schedules
+  allow_failure: true
+
+test:python-mumps:
+  extends:
+    - .test
+    - .latest-env
+  dependencies:
+    - build:latest
+  script:
+    - micromamba install -y -c conda-forge python-mumps
+    - py.test -r w --flakes kwant --junitxml=tests.xml --durations=10
+
+coverage:latest:
+  extends:
+    - .coverage
+    - .latest-env
+  dependencies:
+    - build:latest
+  only:
+    - schedules
+
+## Documentation building
+
+build documentation:
+  extends: .latest-env
+  dependencies:
+    - build:latest
+  stage: test
+  script:
+    - pip install --editable .  # Makefile executes from folders
+    - python -c 'from matplotlib import pyplot'  # Pre-generate font cache
+    - pip install ipykernel  # Temporary, should be removed after a jupyter-sphinx feedstock update.
+    - python -m ipykernel install --user --name kwant-latest  # Register the kernel
+    - make -C doc clean; make -C doc html SPHINXOPTS='-A website_deploy=True -n -D jupyter_execute_default_kernel=kwant-latest' SOURCE_LINK_TEMPLATE="$CI_PROJECT_URL"/blob/\$\$r/\$\$f
+  artifacts:
+    paths:
+      - doc/build/html/
+    expire_in: 1 month
+
+build PDF documentation:
+  extends: .latest-env
+  dependencies:
+    - build:latest
+  stage: test
+  script:
+    - pip install --editable .  # Makefile executes from folders
+    - python -c 'from matplotlib import pyplot'  # Pre-generate font cache
+    - pip install ipykernel  # Temporary, should be removed after a jupyter-sphinx feedstock update.
+    - python -m ipykernel install --user --name kwant-latest  # Register the kernel
+    - make -C doc latex SPHINXOPTS='-n -D jupyter_execute_default_kernel=kwant-latest'
+    - cd doc/build/latex
+    - make all-pdf
+  artifacts:
+    paths:
+      - doc/build/latex/kwant.pdf
+    expire_in: 1 month
+
+check for broken links in doc:
+  extends: .latest-env
+  dependencies:
+    - build:latest
+  stage: test
+  script:
+    - pip install --editable .  # Makefile executes from folders
+    - pip install ipykernel  # Temporary, should be removed after a jupyter-sphinx feedstock update.
+    - python -m ipykernel install --user --name kwant-latest  # Register the kernel
+    - make -C doc linkcheck SPHINXOPTS='-n -D jupyter_execute_default_kernel=kwant-latest'
+  allow_failure: true
+
+
+## Upload coverage reports and dev documentation
+
+upload coverage:
+  stage: deploy
+  only:
+    - schedules
+  dependencies:
+    - coverage:latest
+  environment:
+    name: coverage/$CI_COMMIT_REF_NAME
+    url: https://kwant-project.org/coverage/$CI_COMMIT_REF_SLUG
+    on_stop: remove_coverage
+  script:
+    - eval $(ssh-agent -s)
+    - echo $MASTER_WEBSITE_KEY | base64 -d | ssh-add -
+    - mv htmlcov $CI_COMMIT_REF_SLUG
+    - rsync -rlv -e "$SSH_COMMAND" --delete --relative $CI_COMMIT_REF_SLUG kwant@kwant-project.org:coverage/
+
+
+remove_coverage:
+  stage: deploy
+  only:
+    - branches@kwant/kwant
+  when: manual
+  environment:
+    name: coverage/$CI_COMMIT_REF_NAME
+    action: stop
+  script:
+    - eval $(ssh-agent -s)
+    - echo $MASTER_WEBSITE_KEY | base64 -d | ssh-add -
+    - mkdir empty/
+    - rsync -rlv -e "$SSH_COMMAND" --delete empty/ kwant@kwant-project.org:coverage/$CI_COMMIT_REF_SLUG
+
+
+upload documentation to the test server:
+  stage: deploy
+  environment:
+    name: docs review/$CI_COMMIT_REF_NAME
+    url: https://test.kwant-project.org/doc/$CI_COMMIT_REF_SLUG
+    on_stop: remove_docs
+  only:
+    - branches@kwant/kwant
+  script:
+    - eval $(ssh-agent -s)
+    - echo $TEST_WEBSITE_KEY | base64 -d | ssh-add -
+    - rsync -rlv -e "$SSH_COMMAND" --delete doc/build/html/* kwant2@test.kwant-project.org:doc/$CI_COMMIT_REF_SLUG
+
+
+remove_docs:
+  stage: deploy
+  when: manual
+  only:
+    - branches@kwant/kwant
+  environment:
+    name: docs review/$CI_COMMIT_REF_NAME
+    action: stop
+  script:
+    - eval $(ssh-agent -s)
+    - echo $TEST_WEBSITE_KEY | base64 -d | ssh-add -
+    - mkdir empty
+    - rsync -arv -e "$SSH_COMMAND" --delete empty/ kwant2@test.kwant-project.org:doc/$CI_COMMIT_REF_SLUG/
+
+
+upload dev version docs:
+  stage: deploy
+  environment:
+    name: production
+    url: https://kwant-project.org/doc/dev
+  only:
+    - master@kwant/kwant
+  script:
+    - eval $(ssh-agent -s)
+    - echo $MASTER_WEBSITE_KEY | base64 -d | ssh-add -
+    - rsync -rlv -e "$SSH_COMMAND" --delete doc/build/html/* kwant@kwant-project.org:doc/dev
+
+
+## Build documentation for tagged releases
+
+.tagged-version:
+    only:
+       - /^v[0-9]+\.[0-9]+.[0-9]+$/@kwant/kwant
+
+gather release artifacts:
+  extends: .tagged-version
+  stage: release
+  script:
+    - ./setup.py sdist
+    - mkdir docs
+    - mv doc/build/latex/kwant.pdf docs/kwant-doc-${CI_COMMIT_TAG//v}.pdf
+    - mv doc/build/html docs/html
+    - zip -r docs/kwant-doc-${CI_COMMIT_TAG//v}.zip docs/html
+  artifacts:
+    paths:
+      - docs
+      - dist
