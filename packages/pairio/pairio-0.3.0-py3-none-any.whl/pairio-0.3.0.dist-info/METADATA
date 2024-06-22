@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pairio
+Version: 0.3.0
+Summary: Web framework for neurophysiology data analysis
+Home-page: https://github.com/magland/pairio
+Author: Jeremy Magland, Luiz Tauffer
+Author-email: jmagland@flatironinstitute.org
+Requires-Dist: click
+Requires-Dist: simplejson
+Requires-Dist: numpy
+Requires-Dist: PyYAML
+Requires-Dist: pydantic
+Requires-Dist: psutil
+Requires-Dist: requests
+Provides-Extra: compute_client
+Requires-Dist: pubnub >=7.2.0 ; extra == 'compute_client'
+
