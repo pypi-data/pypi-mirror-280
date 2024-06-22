@@ -1,0 +1,10 @@
+icplot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+icplot/cairo_interface.py,sha256=55JqNKmZ-KeN0nEHEmCxZcioP7aTJtRp-gdW-Sqi4fM,2105
+icplot/gantt.py,sha256=L6yHrFYRyIc0f9KjTomX1TOjAX680K_2QnVpDuh8RKw,106
+icplot/geometry.py,sha256=C8y3u2oBnGNL7o1gqb-JotH7zOwH9iRSUB811OycYMc,1033
+icplot/project_elements.py,sha256=bIMbiAucpIMZ_xeipJr-V6NwXLPc8DhvV7OdEL7lHXA,993
+icplot-0.0.1.dist-info/LICENSE,sha256=JedcPd23DfREo3CH5_Sc8He0jmmbOWIm1_sQaisXZ9E,34592
+icplot-0.0.1.dist-info/METADATA,sha256=Xs5PVUwTR4q6ZvnvTlPYGRV2Pb1RgWQEtQZkaiz-0iI,1413
+icplot-0.0.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+icplot-0.0.1.dist-info/top_level.txt,sha256=T_ecIGmXlOO4_xP86S-OFL8nnoxmDQFXjcDoIwpiHQk,7
+icplot-0.0.1.dist-info/RECORD,,
