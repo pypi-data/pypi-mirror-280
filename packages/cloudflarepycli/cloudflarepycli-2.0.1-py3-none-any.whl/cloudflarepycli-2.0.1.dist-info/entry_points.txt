@@ -1,0 +1,2 @@
+[console_scripts]
+cfspeedtest = cfspeedtest.__main__:cfspeedtest

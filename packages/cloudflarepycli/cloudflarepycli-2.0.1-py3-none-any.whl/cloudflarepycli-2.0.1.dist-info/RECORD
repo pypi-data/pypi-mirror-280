@@ -1,0 +1,11 @@
+cfspeedtest/__init__.py,sha256=oI2XOzW2VzOmSTvpBYzVVu03rVgzta6SEei2fOTE-wE,194
+cfspeedtest/__main__.py,sha256=T_Fw9nDyXJ9zLf5JzTWTEzynktJqrSfgSSosh6CLBCQ,1327
+cfspeedtest/cloudflare.py,sha256=Dv9srK3BkA-6B02heEvTzv2BwzC3-WtCyCaDsygBff0,8517
+cfspeedtest/logger.py,sha256=S96-pmbtVBpyZwGoPAGkPSrWEigNvWbGG7Xf_gwTSlM,753
+cfspeedtest/version.py,sha256=AULpZtXxkydM3s_tc4ozV6nsxpK_ecAVm_1Jjy68D9k,61
+cloudflarepycli-2.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cloudflarepycli-2.0.1.dist-info/METADATA,sha256=sXmsSdBQ82SAAOCNcT7T8onY25Phnz4C9dPW36ZXsWg,46320
+cloudflarepycli-2.0.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+cloudflarepycli-2.0.1.dist-info/entry_points.txt,sha256=jQoMPsT4_CDA_Exr3vN6T8vaaG3C6QCk_HQeYiHSEcE,65
+cloudflarepycli-2.0.1.dist-info/top_level.txt,sha256=EAFkwV9B_Paoe3FKbsoNQM3QKnsMAZySMevmy_JfJmo,12
+cloudflarepycli-2.0.1.dist-info/RECORD,,
