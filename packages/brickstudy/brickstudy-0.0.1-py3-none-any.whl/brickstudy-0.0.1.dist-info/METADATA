@@ -1,0 +1,118 @@
+Metadata-Version: 2.1
+Name: brickstudy
+Version: 0.0.1
+Summary: A package for analysis of MRI
+Home-page: https://github.com/brickstudymasons/brickstudy
+Author: BRICK team at Rotterdam University Medical Center
+Author-email: c.moore@esciencecenter.nl
+License: Apache 2.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: numpy <2.0.0
+Requires-Dist: pyxdf
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: SimpleITK
+Requires-Dist: seaborn
+Requires-Dist: nibabel
+Requires-Dist: ipywidgets
+Requires-Dist: imageio <=2.31.5
+Requires-Dist: scikit-image
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: codestyle ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: jupyter ; extra == 'dev'
+Requires-Dist: ipympl ; extra == 'dev'
+
+# brickstudy
+
+<p align="center">
+    <img style="width: 35%; height: 35%" src="image011.png">
+</p>
+
+brickstudy is an open source collaborative python library for analysis of data related to pediatric hematology patients, including and especially the neuroradiology data.
+
+brickstudy will include a main code library where the user can access the code.
+
+The library is under construction.
+
+Program files
+The core functions of brickstudy are in the folder brickstudy.
+
+Our guide to notebooks is under construction. To look around keep in mind the following distinction on folders:
+
+notebooks:
+
+These are a growing series of interactive notebooks that allow researchers to investigate questions about their own data
+
+notebooks/experi:
+
+This folder contains experimental work by core members of the BRICK team (Drs Candace Makeda Moore, Melanie Bruinooge and Aida Gebremeksel)
+Data sets:
+The notebooks are configured to run on various datasets. Contact Dr. Melanie Bruinooge( 📫 m.bruinooge@erasmusmc.nl) to discuss any questions on data configuration for your datasets.
+
+notebooks/teaching:
+
+This folder contains teaching materials for learning the most basic basics of handeling data.
+
+A standardized dataset is under development.
+
+### Documentation
+Documentation is available at https://brickstudymasons.github.io/brickstudy/
+
+### Supported Platforms
+
+brickstudy is a pure Python package. Below is the list of
+platforms that should work. Other platforms may work, but have had less extensive testing.
+Please note that where
+python.org Python or Anaconda Python stated as supported, it means
+that versions 3.10 or 3.11 (depending on the release) are supported.
+
+#### AMD64 (x86)
+
+|                             | Linux     | Win       | OSX       |
+|:---------------------------:|:---------:|:---------:|:---------:|
+| ![p](etc/python-logo.png)   | Supported | Unknown   | Unknown   |
+| ![a](etc/anaconda-logo.png) | Supported | Supported | Supported |
+
+
+Installation with Anaconda/conda and/or mamba are the preffered methods. They are covered in the "Getting Started" section. 
+
+### Getting started
+Create and activate a virtual environment (see developer setup section for more details)
+Install brickstudy package by running pip install brickstudy.
+Getting Started
+with the reccomended Conda setup
+How to get the notebooks running? Assuming the raw data set and metadata is available. Note for non-conda installations see next sections.
+
+Assuming you are using conda for package management:
+Make sure you are in no environment:
+
+```conda deactivate````
+(optional repeat if you are in the base environment)
+
+You can build on your base environment if you want, or if you want to not use option A, you can go below it (no environment)
+
+Option A: Fastest option: In a base-like environment with mamba installed, you can install all Python packages required, using mamba and the environment.yml file.
+
+The command for Windows/Anaconda/Mamba users can be something like:
+
+```mamba env create -f environment.yml```
+
+Option B: To work with the most current versions with the possibility for development: Install all Python packages required, using conda and the environment.yml file.
+
+The command for Windows/Anaconda users can be something like:
+
+```conda env create -f environment.yml```
+
+Linux users can create their own environment by hand (use install_dev as in setup).
+
+Make sure to enter your newly created environment.
+
+
+Open a notebook (we use Jupyter notebooks) in the notebooks folder and interactively run the cells. You can use the command jupyter lab to open a browser window on the folders of notebooks. Note, if you run with an installed library import appropriately. The teaching notebooks can be used to understand how to use the package.
