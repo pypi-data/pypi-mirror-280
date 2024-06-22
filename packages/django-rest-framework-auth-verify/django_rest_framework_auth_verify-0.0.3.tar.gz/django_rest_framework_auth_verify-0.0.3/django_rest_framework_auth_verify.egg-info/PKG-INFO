@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: django-rest-framework-auth-verify
+Version: 0.0.3
+Summary: This module for auth regiters in django
+Home-page: https://github.com/baxtdev/django_rest_framework_auth_verify
+Author: xwbxtdev
+Author-email: example@gmail.com
+Project-URL: GitHub, https://github.com/baxtdev
+Keywords: files speedfiles
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: django
+Requires-Dist: djangorestfarmework
+Requires-Dist: markdown
+Requires-Dist: django-rest-registration
+
+# REST Framework Auth Verify
+
+This module for auth regiters in django

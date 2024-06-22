@@ -1,0 +1,4 @@
+django
+djangorestfarmework
+markdown
+django-rest-registration

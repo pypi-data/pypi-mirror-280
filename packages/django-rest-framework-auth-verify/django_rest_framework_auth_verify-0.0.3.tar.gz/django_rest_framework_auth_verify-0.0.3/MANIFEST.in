@@ -1,0 +1,4 @@
+include README.md
+recursive-include api *.py
+recursive-include users *.py
+recursive-include utils *.py
