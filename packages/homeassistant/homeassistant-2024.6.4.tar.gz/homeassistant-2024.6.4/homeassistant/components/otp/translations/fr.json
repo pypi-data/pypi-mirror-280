@@ -1,0 +1,19 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "L'appareil est d\u00e9j\u00e0 configur\u00e9"
+        },
+        "error": {
+            "invalid_token": "Jeton non valide",
+            "unknown": "Erreur inattendue"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "name": "Nom",
+                    "token": "Jeton d'authentification (OTP)"
+                }
+            }
+        }
+    }
+}

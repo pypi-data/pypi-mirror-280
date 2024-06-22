@@ -1,0 +1,19 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "\u8bbe\u5907\u5df2\u914d\u7f6e"
+        },
+        "error": {
+            "invalid_token": "\u4ee4\u724c\u65e0\u6548",
+            "unknown": "\u610f\u5916\u9519\u8bef"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "name": "\u540d\u79f0",
+                    "token": "\u8eab\u4efd\u9a8c\u8bc1\u5668\u4ee4\u724c (OTP)"
+                }
+            }
+        }
+    }
+}

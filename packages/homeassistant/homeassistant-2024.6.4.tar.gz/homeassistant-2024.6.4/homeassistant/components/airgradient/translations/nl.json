@@ -1,0 +1,43 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Apparaat is al geconfigureerd"
+        },
+        "error": {
+            "cannot_connect": "Kan geen verbinding maken",
+            "unknown": "Onverwachte fout"
+        },
+        "flow_title": "{model}",
+        "step": {
+            "discovery_confirm": {
+                "description": "Wil je {model} instellen?"
+            },
+            "user": {
+                "data": {
+                    "host": "Host"
+                }
+            }
+        }
+    },
+    "entity": {
+        "select": {
+            "display_pm_standard": {
+                "state": {
+                    "ugm3": "\u00b5g/m\u00b3"
+                }
+            },
+            "display_temperature_unit": {
+                "state": {
+                    "c": "Celsius",
+                    "f": "Fahrenheit"
+                }
+            },
+            "led_bar_mode": {
+                "state": {
+                    "co2": "Koolstofdioxide",
+                    "off": "Uit"
+                }
+            }
+        }
+    }
+}

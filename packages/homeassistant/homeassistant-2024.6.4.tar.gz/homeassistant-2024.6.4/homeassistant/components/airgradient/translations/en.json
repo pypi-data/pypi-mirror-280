@@ -1,0 +1,82 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device is already configured",
+            "invalid_version": "This firmware version is unsupported. Please upgrade the firmware of the device to at least version 3.1.1."
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "unknown": "Unexpected error"
+        },
+        "flow_title": "{model}",
+        "step": {
+            "discovery_confirm": {
+                "description": "Do you want to setup {model}?"
+            },
+            "user": {
+                "data": {
+                    "host": "Host"
+                },
+                "data_description": {
+                    "host": "The hostname or IP address of the Airgradient device."
+                }
+            }
+        }
+    },
+    "entity": {
+        "select": {
+            "configuration_control": {
+                "name": "Configuration source",
+                "state": {
+                    "both": "Both",
+                    "cloud": "Cloud",
+                    "local": "Local"
+                }
+            },
+            "display_pm_standard": {
+                "name": "Display PM standard",
+                "state": {
+                    "ugm3": "\u00b5g/m\u00b3",
+                    "us_aqi": "US AQI"
+                }
+            },
+            "display_temperature_unit": {
+                "name": "Display temperature unit",
+                "state": {
+                    "c": "Celsius",
+                    "f": "Fahrenheit"
+                }
+            },
+            "led_bar_mode": {
+                "name": "LED bar mode",
+                "state": {
+                    "co2": "Carbon dioxide",
+                    "off": "Off",
+                    "pm": "Particulate matter"
+                }
+            }
+        },
+        "sensor": {
+            "nitrogen_index": {
+                "name": "NOx index"
+            },
+            "pm003_count": {
+                "name": "PM0.3"
+            },
+            "raw_nitrogen": {
+                "name": "Raw NOx"
+            },
+            "raw_total_volatile_organic_component": {
+                "name": "Raw VOC"
+            },
+            "total_volatile_organic_component_index": {
+                "name": "VOC index"
+            }
+        }
+    },
+    "exceptions": {
+        "no_local_configuration": {
+            "message": "Device should be configured with local configuration to be able to change settings."
+        }
+    }
+}
