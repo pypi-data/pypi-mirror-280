@@ -1,0 +1,13 @@
+magic_profanity/__init__.py,sha256=Q6ttcZ2Lr4ymZ5KC09ndp8SJdHKhITLjRyOV_4RUKNs,172
+magic_profanity/constants.py,sha256=cWeQueg0IKPXyOXWIg9oaOIPw1UlK-I_fO0kwNm4nAQ,918
+magic_profanity/magic_profanity.py,sha256=MW4vfz2slqEPuSXhDfjFl3hihUSakbxe6fa5HAioL6w,6951
+magic_profanity/unicode.json,sha256=cChow2XXtliXIIiDE6OB04nEO6Ie5_7Gmwhb0AgqsY0,71076
+magic_profanity/utils.py,sha256=MqNPYA51yrG4OcZtTcwK_nzIwLxACtyyPLgnzaJaRqc,1056
+magic_profanity/variant.py,sha256=wAfhnfUBMORSzMvmJKhCzdENTzNoMpcZ-MMEGbHrhkA,2274
+magic_profanity/wordlist.txt,sha256=gSw3qKyXAzm3WQCIhSSIAH6AvCnGfnVLA-m8xGvzlbM,7583
+magic_profanity-1.1.1.data/data/unicode_characters/unicode.json,sha256=cChow2XXtliXIIiDE6OB04nEO6Ie5_7Gmwhb0AgqsY0,71076
+magic_profanity-1.1.1.data/data/wordlist/wordlist.txt,sha256=gSw3qKyXAzm3WQCIhSSIAH6AvCnGfnVLA-m8xGvzlbM,7583
+magic_profanity-1.1.1.dist-info/METADATA,sha256=K6dWYKWyLQj47ZIImFb4EA54CbqutjgpjUSOW2jZ7p8,2847
+magic_profanity-1.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+magic_profanity-1.1.1.dist-info/top_level.txt,sha256=ysjTjtiuDnNfWsJOYMdGE61CYMrPC0cThdhNDUxFKEI,16
+magic_profanity-1.1.1.dist-info/RECORD,,
