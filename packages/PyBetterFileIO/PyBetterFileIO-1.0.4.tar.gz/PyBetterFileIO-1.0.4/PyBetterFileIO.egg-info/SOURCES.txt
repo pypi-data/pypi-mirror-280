@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+PyBetterFileIO/__init__.py
+PyBetterFileIO/file.py
+PyBetterFileIO/folder.py
+PyBetterFileIO.egg-info/PKG-INFO
+PyBetterFileIO.egg-info/SOURCES.txt
+PyBetterFileIO.egg-info/dependency_links.txt
+PyBetterFileIO.egg-info/top_level.txt
