@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: flow-toolkit
+Version: 0.0.1
+Summary: CLI toolkit for Flow language, and integration with python.
+Author-email: StealthyPanda <shaikm259@gmail.com>
+License: MIT License
+        
+        Copyright (c) [2024] [StealthyPanda]
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Keywords: flow,ML,DL
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: codexregius
+Requires-Dist: argparse
+Requires-Dist: ply
+Requires-Dist: dulwich
+
+# Flow toolkit
+---
+
+A simple development toolkit for streamlining ML and DL workflows.
+
+## Getting started
+
+### Installation
+
+The base compiler can be installed via `pip`:
+```bash
+pip install flow-toolkit
+```
+
+Next, install a plugin for your intended output. For example:
+
+```bash
+flow -i https://github.com/StealthyPanda/
+```
+
+
+Any github repository can be used as a valid flow plugin, as long as it contains a `plugin.py` in its root directory, and contains a `main` function.
+
+
+### Quick Start
+
+A simple flow for a dense neural network would be:
+
+```
+// example.fl
+
+flow linear(x) [weights, biases] {
+    return
+        (weights @ x) + biases;
+}
+
+flow NeuralNetwork (x) {
+    let linear l1;
+    let linear l2;
+
+    y = l1(x);
+    y = l2(y);
+
+    return y;
+}
+
+build NeuralNetwork simple {
+    x => 784;
+    output => 10;
+}
+```
+
+Build the flow to a pytorch model with:
+```bash
+flow -f example.fl -o example
+```
+
+
+
+
