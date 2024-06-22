@@ -1,0 +1,81 @@
+# randomchessgame
+
+Python library to come in handy when random chess game is needed.
+
+# Installation.
+
+     $ pip install randomchessgame
+
+# Basic usage.
+
+     from randomchessgame import random_chess_game
+     random_chess_game()
+
+output will look like this:
+
+     1. Nf3 Nf6 2. g3 g6 3. Bg2 Bg7 4. c4 O-O 5. O-O d5 6. cxd5 Nxd5 7. Nc3 Nb6 8. d3 Nc6
+
+# Usage with parameters.
+
+You can specify the minimum length, exact length, first move etc. To do it, you have to specify it as parameter while calling a function. Below are listed all possible parameters with their brief explainations.
+
+### length 
+
+Returns random game with exact length as specified by user while calling a function. If length is set to 10, the game will have 10 moves (e4 e5 count as two separate moves) 
+
+     random_chess_game(length=10)
+     1. d4 c5 2. Nf3 cxd4 3. Bf4 Nf6 4. e3 Nd5 5. exd4 Nxf4
+
+### min_length
+
+Returns random game with minimum length as specified by user while calling a function. If min_length is set to 10, the game will have more moves than 10. May be 11 and 111 as well but never less or equal to min_length value.
+
+     random_chess_game(min_length=10)
+     1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. Nc3 e6 5. Bg5 h6 6. Bxf6 Qxf6 7. e3 Nd7 8. Rc1 g6 9. Be2 Qe7
+
+### startswith
+
+Returns random game that has started with a specific move. There is no need to pass move characters (1. e4 e5 2. Nf3 Nf6 3. etc), only moves ('e4 e5 Nf3 Nf6).
+
+     random_chess_game(startswith='e4 e5 Nf3 Nf6')
+     1. e4 e5 2. Nf3 Nf6 3. Bc4 Nxe4 4. Nc3 Nxc3 5. dxc3 f6 6. Nh4 g6 7. f4 f5 8. Nxf5 d5
+
+### endswith_mate
+
+Returns random game that has ended with a mate.
+
+     random_chess_game(endswith_mate=True)
+     ..... 75. a7 Rb8 76. Rxb8 Kg6 77. a8=Q Kg5 78. Qe4 h5 79. Rg3+ Kh6 80. Qg6#
+
+
+### endswith_move
+
+Returns random game that has ended with a specific move.
+
+     random_chess_game(endswith_move='Kf4')
+     ..... 45. Kf4 e5+ 46. dxe5+ Ke6 47. Ke4 h5 48. gxh5 gxh5 49. c5 h4 50. Kf4
+
+### cleargame
+
+Returns random game without movechars.
+
+     random_chess_game(cleargame=True)
+     Nf3 h6 g3 d6 Bg2 Nd7 O-O g5 d4 Bg7 c4 Nf8 Nc3 Ng6 e4 g4 Ne1 e5 
+
+### adding your own file
+
+There is a possibility to add your own file with games and make the func pick a game from it. To do so, pass path to the file while calling a function. Remember that the file should not contain pgn tags ('0-1' , '1-0', '1/2-1/2'), opening name, comments nor clock.
+
+     random_chess_game(file='path/to/file/with/games:)
+
+### mixing params
+
+You can mix parameters to get wanted result. It can look like this:
+
+     random_chess_game(endswith_mate=True, startswith='e4', min_length=25, cleargame=True)
+     e4 g6 d4 Bg7 Nc3 d6 h4 Nf6 f3 h5 Be3 c6 Qd2 b5 Bd3 Qc7 O-O-O a6 e5 Nd5 
+     
+
+In case of file not containing accurate game, it will return:
+
+     No games found with the given criteria.

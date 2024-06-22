@@ -1,0 +1,13 @@
+GAMES.pgn
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+data/GAMES.pgn
+randomchessgame/__init__.py
+randomchessgame/randomchessgame.py
+randomchessgame.egg-info/PKG-INFO
+randomchessgame.egg-info/SOURCES.txt
+randomchessgame.egg-info/dependency_links.txt
+randomchessgame.egg-info/not-zip-safe
+randomchessgame.egg-info/top_level.txt
