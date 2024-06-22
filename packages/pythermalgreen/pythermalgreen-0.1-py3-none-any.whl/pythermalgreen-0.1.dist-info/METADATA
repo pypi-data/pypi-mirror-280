@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pythermalgreen
+Version: 0.1
+License-File: LICENSE
+Requires-Dist: numpy >=1.22.0
+Requires-Dist: rasterio ==1.3.10
+Requires-Dist: geopandas ==0.14.4
+Requires-Dist: pandas <=2.2.2
+Requires-Dist: shapely ==1.7.1
+
