@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+iftns/__init__.py
+iftns.egg-info/PKG-INFO
+iftns.egg-info/SOURCES.txt
+iftns.egg-info/dependency_links.txt
+iftns.egg-info/top_level.txt
