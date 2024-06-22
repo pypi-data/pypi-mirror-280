@@ -1,0 +1,10 @@
+synthetica/__init__.py,sha256=99jkGjWUHeLLcXJrwjXry0LnPYcDwCAZTX6qrq7uJ_o,661
+synthetica/base.py,sha256=gKDPkZffmxULl-lwlLrONqOinf1tEAbArrjs0_4ndh4,9659
+synthetica/config.py,sha256=1BMBX-_jgcAwTx5ScDOKxo1o_vhjdb5aPNkqoiKGtWs,5419
+synthetica/decorators.py,sha256=UviOzuakWxYJhIrk45pCSiXQ31k_THP7D51G5dI3XNE,685
+synthetica/models.py,sha256=MkhOsUHZatCXUK-KVmIp63DdhtEMmdcoRRD6lwmeds0,36326
+synthetica/stats.py,sha256=sCCOnMQW-u8RjF9qt_thMRiDuK9Go1zXKt1E747dDgk,4539
+python_synthetica-0.1.0.dist-info/LICENSE,sha256=21uLyapFHtmAwFu9xSuBgWtL49QtMIzTmI9Lq0w94MI,1502
+python_synthetica-0.1.0.dist-info/METADATA,sha256=eyIJ13E0a8yzJtaetpNaFJL-nGJ4olr4oRDOtjBXT8w,5410
+python_synthetica-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+python_synthetica-0.1.0.dist-info/RECORD,,
