@@ -1,0 +1,8 @@
+prlsp_dnsbl/__init__.py,sha256=t6g1-Up3ib4CBWVsLsOUN54QtJuqz0tXe8dd1L0xdms,4968
+prlsp_dnsbl/domains/all_dnsbl_domains.json,sha256=Jw-q6GD6pBPavFlcXXxjXcgo1b0cEgjVloS3LsaZx8o,11998
+prlsp_dnsbl/domains/base_dnsbl_domains.json,sha256=1AMoJ_0WlUtfnf93hwyA7_moVrtM9x1D8cXLdsehxsk,2519
+prlsp_dnsbl-0.0.1a0.dist-info/LICENSE.txt,sha256=l66_ALNV8cE14yYHkoDFkHc95gSOkVSa8PSsIyn4R4o,1895
+prlsp_dnsbl-0.0.1a0.dist-info/METADATA,sha256=5BG2OhvR6g1bYhHb737v6Fp2NjPXIO3fe_BhJpQ_51c,2398
+prlsp_dnsbl-0.0.1a0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+prlsp_dnsbl-0.0.1a0.dist-info/top_level.txt,sha256=NeJMZ3L8IicIvZZpyS5vTSPZXj7tNiAr0rE4XEDFKgU,12
+prlsp_dnsbl-0.0.1a0.dist-info/RECORD,,
