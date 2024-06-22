@@ -1,0 +1,33 @@
+alignment: tests/data/Tay2023.afa
+beast:
+  chain_length: 100000
+  duplicates: 2
+  envmodules:
+  - GCC/11.3.0
+  - beagle-lib/3.1.2-CUDA-11.7.0
+  fit_clocks: true
+  samples: 1000
+  template: null
+  threads: 4
+clock:
+- relaxed
+date_delimiter: '@'
+date_index: -1
+group:
+- P.1
+marginal_likelihood:
+  chain_length: 1000000
+  duplicates: 3
+  estimate: false
+  log_every: 10000
+  paths: 100
+mcc_tree:
+  heights:
+  - mean
+newick: null
+output:
+  dated: false
+  dir: .
+rate_gamma_prior_scale: 0.1
+rate_gamma_prior_shape: 0.5
+
