@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pr-assistant-pkg"
+version = "0.1.1"
+description = ""
+authors = ["Ahmed Abdul Saad"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.35.3"
+argparse = "^1.4.0"
+chevron = "^0.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
