@@ -1,0 +1,287 @@
+Metadata-Version: 2.1
+Name: tunex
+Version: 0.0.1
+Summary: A powerful CLI toolkit offering one shot solution for LLM in running, finetuning and instruction tuning
+License: Apache-2.0
+Author: swayaminsync
+Author-email: hawkempire007@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: accelerate (==0.31.0)
+Requires-Dist: aiohttp (==3.9.5)
+Requires-Dist: aiosignal (==1.3.1)
+Requires-Dist: anyio (==4.4.0)
+Requires-Dist: appnope (==0.1.4)
+Requires-Dist: argon2-cffi (==23.1.0)
+Requires-Dist: argon2-cffi-bindings (==21.2.0)
+Requires-Dist: arrow (==1.3.0)
+Requires-Dist: asttokens (==2.4.1)
+Requires-Dist: async-lru (==2.0.4)
+Requires-Dist: async-timeout (==4.0.3)
+Requires-Dist: attrs (==23.2.0)
+Requires-Dist: babel (==2.15.0)
+Requires-Dist: backcall (==0.2.0)
+Requires-Dist: beautifulsoup4 (==4.12.3)
+Requires-Dist: bleach (==6.1.0)
+Requires-Dist: certifi (==2024.6.2)
+Requires-Dist: cffi (==1.16.0)
+Requires-Dist: charset-normalizer (==3.3.2)
+Requires-Dist: comm (==0.2.2)
+Requires-Dist: debugpy (==1.8.1)
+Requires-Dist: decorator (==5.1.1)
+Requires-Dist: defusedxml (==0.7.1)
+Requires-Dist: docstring-parser (==0.16)
+Requires-Dist: exceptiongroup (==1.2.1)
+Requires-Dist: executing (==2.0.1)
+Requires-Dist: fastjsonschema (==2.19.1)
+Requires-Dist: filelock (==3.14.0)
+Requires-Dist: fqdn (==1.5.1)
+Requires-Dist: frozenlist (==1.4.1)
+Requires-Dist: fsspec (==2024.6.0)
+Requires-Dist: h11 (==0.14.0)
+Requires-Dist: httpcore (==1.0.5)
+Requires-Dist: httpx (==0.27.0)
+Requires-Dist: huggingface-hub (==0.23.3)
+Requires-Dist: idna (==3.7)
+Requires-Dist: importlib-metadata (==7.1.0)
+Requires-Dist: importlib-resources (==6.4.0)
+Requires-Dist: ipykernel (==6.29.4)
+Requires-Dist: ipython (==8.12.3)
+Requires-Dist: ipywidgets (==8.1.3)
+Requires-Dist: isoduration (==20.11.0)
+Requires-Dist: jedi (==0.19.1)
+Requires-Dist: jinja2 (==3.1.4)
+Requires-Dist: json5 (==0.9.25)
+Requires-Dist: jsonargparse (==4.29.0)
+Requires-Dist: jsonpointer (==3.0.0)
+Requires-Dist: jsonschema (==4.22.0)
+Requires-Dist: jsonschema-specifications (==2023.12.1)
+Requires-Dist: jupyter (==1.0.0)
+Requires-Dist: jupyter-client (==8.6.2)
+Requires-Dist: jupyter-console (==6.6.3)
+Requires-Dist: jupyter-core (==5.7.2)
+Requires-Dist: jupyter-events (==0.10.0)
+Requires-Dist: jupyter-lsp (==2.2.5)
+Requires-Dist: jupyter-server (==2.14.1)
+Requires-Dist: jupyter-server-terminals (==0.5.3)
+Requires-Dist: jupyterlab (==4.2.2)
+Requires-Dist: jupyterlab-pygments (==0.3.0)
+Requires-Dist: jupyterlab-server (==2.27.2)
+Requires-Dist: jupyterlab-widgets (==3.0.11)
+Requires-Dist: lightning-utilities (==0.11.2)
+Requires-Dist: markupsafe (==2.1.5)
+Requires-Dist: matplotlib-inline (==0.1.7)
+Requires-Dist: mistune (==3.0.2)
+Requires-Dist: mpmath (==1.3.0)
+Requires-Dist: multidict (==6.0.5)
+Requires-Dist: nbclient (==0.10.0)
+Requires-Dist: nbconvert (==7.16.4)
+Requires-Dist: nbformat (==5.10.4)
+Requires-Dist: nest-asyncio (==1.6.0)
+Requires-Dist: networkx (==3.1)
+Requires-Dist: notebook (==7.2.1)
+Requires-Dist: notebook-shim (==0.2.4)
+Requires-Dist: numpy (==1.24.4)
+Requires-Dist: overrides (==7.7.0)
+Requires-Dist: packaging (==24.1)
+Requires-Dist: pandocfilters (==1.5.1)
+Requires-Dist: parso (==0.8.4)
+Requires-Dist: pexpect (==4.9.0)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: pkgutil-resolve-name (==1.3.10)
+Requires-Dist: platformdirs (==4.2.2)
+Requires-Dist: prometheus-client (==0.20.0)
+Requires-Dist: prompt-toolkit (==3.0.47)
+Requires-Dist: psutil (==5.9.8)
+Requires-Dist: ptyprocess (==0.7.0)
+Requires-Dist: pure-eval (==0.2.2)
+Requires-Dist: pycparser (==2.22)
+Requires-Dist: pyfiglet (==0.8.post1)
+Requires-Dist: pygments (==2.18.0)
+Requires-Dist: python-dateutil (==2.9.0.post0)
+Requires-Dist: python-json-logger (==2.0.7)
+Requires-Dist: pytorch-lightning (==2.3.0)
+Requires-Dist: pytz (==2024.1)
+Requires-Dist: pyyaml (==6.0.1)
+Requires-Dist: pyzmq (==26.0.3)
+Requires-Dist: qtconsole (==5.5.2)
+Requires-Dist: qtpy (==2.4.1)
+Requires-Dist: referencing (==0.35.1)
+Requires-Dist: regex (==2024.5.15)
+Requires-Dist: requests (==2.32.3)
+Requires-Dist: rfc3339-validator (==0.1.4)
+Requires-Dist: rfc3986-validator (==0.1.1)
+Requires-Dist: rpds-py (==0.18.1)
+Requires-Dist: safetensors (==0.4.3)
+Requires-Dist: send2trash (==1.8.3)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: sniffio (==1.3.1)
+Requires-Dist: soupsieve (==2.5)
+Requires-Dist: stack-data (==0.6.3)
+Requires-Dist: sympy (==1.12.1)
+Requires-Dist: terminado (==0.18.1)
+Requires-Dist: tinycss2 (==1.3.0)
+Requires-Dist: tokenizers (==0.19.1)
+Requires-Dist: tomli (==2.0.1)
+Requires-Dist: torch (==2.2.2)
+Requires-Dist: torchmetrics (==1.4.0.post0)
+Requires-Dist: tornado (==6.4.1)
+Requires-Dist: tqdm (==4.66.4)
+Requires-Dist: traitlets (==5.14.3)
+Requires-Dist: transformers (==4.41.2)
+Requires-Dist: types-python-dateutil (==2.9.0.20240316)
+Requires-Dist: typing-extensions (==4.12.2)
+Requires-Dist: uri-template (==1.3.0)
+Requires-Dist: urllib3 (==2.2.1)
+Requires-Dist: wcwidth (==0.2.13)
+Requires-Dist: webcolors (==24.6.0)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: websocket-client (==1.8.0)
+Requires-Dist: widgetsnbextension (==4.0.11)
+Requires-Dist: yarl (==1.9.4)
+Requires-Dist: zipp (==3.19.2)
+Description-Content-Type: text/markdown
+
+# TuneX
+
+**TuneX** is a powerful command-line tool designed to provide a comprehensive solution for working with Large Language Models (LLMs). It offers a unified interface for running, fine-tuning, and instruction tuning LLMs, making it an essential utility for researchers and developers in the field of natural language processing and artificial intelligence.
+
+Key features of TuneX include:
+- Support for multiple LLM architectures (GPT2, Llama, Mistral, Gemma)
+- Flexible tokenizer options
+- Chat interface support
+- Various prompt style options
+- Advanced text generation techniques (Top-p, Top-k, Beam Search)
+- Extensive fine-tuning capabilities, including full fine-tuning, adapters, and LoRA
+- Instruction tuning based on human preferences (RLHF, PPO, DPO, RLOO)
+- Comprehensive documentation with examples
+
+TuneX simplifies complex LLM-related tasks through an intuitive command-line interface, allowing users to easily run models, fine-tune on custom datasets, and implement advanced instruction tuning techniques. Whether you're a beginner experimenting with LLMs or an experienced researcher pushing the boundaries of AI, TuneX provides a streamlined, command-line driven approach to support your work.
+
+## Installation
+
+```bash
+pip install tunex
+```
+
+## Quick start
+
+```bash
+# tunex [action] [checkpoit directory / model]
+tunex	download  gpt2
+tunex	chat      checkpoints/gpt2
+tunex	list
+```
+
+### Listing Supportive models
+
+```bash
+tunex list
+>>
+ _____                __  __
+|_   _|   _ _ __   ___\ \/ /
+  | || | | | '_ \ / _ \\  / 
+  | || |_| | | | |  __//  \ 
+  |_| \__,_|_| |_|\___/_/\_\
+                            
+
+Supported models: 
+
+1 gpt2
+2 gpt2-medium
+3 gpt2-large
+4 gpt2-xl
+```
+
+### Downloading and chatting with models
+
+```bash
+tunex download "gpt2"
+# download the gpt2 model and store it within "checkpoints/gpt2" by default
+```
+
+```bash
+tunex chat "checkpoints/gpt2"
+
+>>
+ _____                __  __
+|_   _|   _ _ __   ___\ \/ /
+  | || | | | '_ \ / _ \\  / 
+  | || |_| | | | |  __//  \ 
+  |_| \__,_|_| |_|\___/_/\_\
+                            
+
+Initiating chat mode with gpt2
+
+Setting sead to 42
+
+>> Prompt: 
+```
+
+### General help
+
+```bash
+# tunex [action] -h
+tunex download -h
+>>
+Download weights or tokenizer data from the Hugging Face Hub.
+
+positional arguments:
+  repo_id               The repository ID in the format ``org/name`` or ``user/name`` as shown in Hugging Face. (required, type: str)
+
+optional arguments:
+  -h, --help            Show this help message and exit.
+  --config CONFIG       Path to a configuration file.
+  --print_config[=flags]
+                        Print the configuration after applying all other arguments and exit. The optional flags customizes the output and are one or more keywords
+                        separated by comma. The supported flags are: comments, skip_default, skip_null.
+  --access_token ACCESS_TOKEN
+                        Hugging Face API token to access models with restrictions. (type: Union[str, null], default: null)
+  --tokenizer_only {true,false}
+                        Whether to download only the tokenizer files. (type: bool, default: False)
+  --convert_checkpoint {true,false}
+                        Whether to convert the checkpoint files from hugging face format after downloading. (type: bool, default: True)
+  --checkpoint_dir CHECKPOINT_DIR
+                        Where to save the downloaded files. (type: <class 'Path'>, default: checkpoints)
+  --model_name MODEL_NAME
+                        The existing config name to use for this repo_id. This is useful to download alternative weights of existing architectures. (type:
+                        Union[str, null], default: null)
+```
+
+
+
+## Features Roadmap
+
+- [ ] Multiple LLM support
+  - [x]  GPT2
+  - [ ] Llama
+  - [ ] Mistral
+  - [ ] Gemma
+- [ ] Support for different Tokenizers
+- [x] Chat Interface support
+- [ ] Different Prompt Style support
+- [ ] Text generation
+  - [x] Top-p
+  - [x] Top-k
+  - [ ] Beam Search
+- [ ] Finetuning Support with different datasets
+  - [ ] Full finetuning
+  - [ ] Adaptars
+  - [ ] LoRA
+- [ ] Instruction Tuning on Human Preferences
+  - [ ] RLHF
+  - [ ] PPO
+  - [ ] DPO
+  - [ ] RLOO
+- [ ] Comprehensive Documentation with example
+
+## Acknowledgements
+
+- [@litgpt](https://github.com/Lightning-AI/litgpt)
+- [@torchtune](https://github.com/pytorch/torchtune)
