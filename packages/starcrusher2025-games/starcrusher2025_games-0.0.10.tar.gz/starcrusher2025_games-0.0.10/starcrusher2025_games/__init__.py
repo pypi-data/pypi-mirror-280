@@ -1,0 +1,1 @@
+from starcrusher2025_games.game import *
