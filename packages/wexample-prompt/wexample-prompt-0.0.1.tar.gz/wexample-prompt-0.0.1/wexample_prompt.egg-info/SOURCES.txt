@@ -1,0 +1,7 @@
+README.md
+setup.py
+wexample_prompt.egg-info/PKG-INFO
+wexample_prompt.egg-info/SOURCES.txt
+wexample_prompt.egg-info/dependency_links.txt
+wexample_prompt.egg-info/requires.txt
+wexample_prompt.egg-info/top_level.txt
