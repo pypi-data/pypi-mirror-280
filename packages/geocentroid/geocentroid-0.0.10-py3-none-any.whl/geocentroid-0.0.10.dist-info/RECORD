@@ -1,0 +1,14 @@
+geo_centroid/__init__.py,sha256=bqc4pnOi3xK_WiANzCzjRDF6tGTozSVoGFpLfq44Yng,55
+geo_centroid/src/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+geo_centroid/src/centroid_calculator.py,sha256=POjUtjhX_j-Osm6fE92IWZljM9pE5VK39wbUfBlSwZc,5850
+geo_centroid/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geo_centroid/test/test_centroid_calculator.py,sha256=8VdkCxQM8hMFW4fdlT-5h8sxx-nFdgVuL5IsZYwFrRc,4173
+geocentroid/__init__.py,sha256=bqc4pnOi3xK_WiANzCzjRDF6tGTozSVoGFpLfq44Yng,55
+geocentroid/src/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+geocentroid/src/centroid_calculator.py,sha256=5Hb5fWxkEXzPoZykqF6KD1bNGY-T2lZ-nSvg9PSqoeM,5863
+geocentroid/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geocentroid/test/test_centroid_calculator.py,sha256=8VdkCxQM8hMFW4fdlT-5h8sxx-nFdgVuL5IsZYwFrRc,4173
+geocentroid-0.0.10.dist-info/METADATA,sha256=CcOaZQKIsDOOK9U6fDVNb367Tu5oaJo4ylk30bSk0Fs,4733
+geocentroid-0.0.10.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+geocentroid-0.0.10.dist-info/top_level.txt,sha256=5a7l1ivL5LUUxEz_bPCMEUNqTMSYd9bIjZej8sHQTIw,12
+geocentroid-0.0.10.dist-info/RECORD,,
