@@ -1,0 +1,6 @@
+diffify_lib/__init__.py,sha256=3l_YzvfFTWNovpyrFAznbW6209MdQoIog4f9Il8nzGU,120
+diffify_lib/storage/__init__.py,sha256=vXB_bVU0jELu4B-W9OJEa3ViaxeDnLhoe-9Qok6QNw0,148
+diffify_lib/storage/s3.py,sha256=4wZ59_L-TyvRYdcxSN4GDVv_aFDIiDDBbkwD8-JCRFc,6009
+diffify_lib-0.1.1.dist-info/METADATA,sha256=wojlBM5k6ifBJxGIF2qDjoednsurPYp3790ZBbs7_8Y,2490
+diffify_lib-0.1.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+diffify_lib-0.1.1.dist-info/RECORD,,
