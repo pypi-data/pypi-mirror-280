@@ -1,0 +1,11 @@
+spider/__init__.py,sha256=KuuQMYDOG-gxaBzd42y_wXwlyYtJyXNbx-kYb_emPrg,184
+spider/browser.py,sha256=pZc_Ml8rvMpiCxVHRT4CNGsIUynhZsB62vYU4SwuL-8,3681
+spider/deep_spider.py,sha256=WWyJZ2SmqYsym2EYm3b7XJsAUt2PeV7wQ5y3rjR9uzY,2669
+spider/media_spider.py,sha256=-NuSapcvdf25-mYt8VW_ikBWrPzxKRFrezPpKfg6Wj4,5613
+spider/page_spider.py,sha256=1fWveEGLyR7ZY713TuwaKf7B6kAR0n3NMRzlDSvJvlc,3581
+spider/scorll_spider.py,sha256=O6JFmKo9mFTmZBv2HBeCkvtKPBJdP_456nwkL9mad6Q,1812
+spider_ms-1.0.2.dist-info/LICENSE,sha256=k49Yga8CP889JJaHlOpGFzr_be2nqMoep2chYeIDctk,1091
+spider_ms-1.0.2.dist-info/METADATA,sha256=U9ueuAn9s0BGRlA8Haxi5L_F7icjJAZfFy5T0-sJbMA,8655
+spider_ms-1.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+spider_ms-1.0.2.dist-info/top_level.txt,sha256=-omgKN_8Zv_sz8Nh9RKvMeKEgG6ssFAFraIRpgIn8zA,7
+spider_ms-1.0.2.dist-info/RECORD,,
