@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: llmcollection
+Version: 0.1.0
+Summary: 
+Author: Mohit Prabhav GUpta
+Author-email: mohitp.gupta1102@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: torch (==2.3.0)
+Requires-Dist: torchtune (==0.1.1)
+Description-Content-Type: text/markdown
+
+

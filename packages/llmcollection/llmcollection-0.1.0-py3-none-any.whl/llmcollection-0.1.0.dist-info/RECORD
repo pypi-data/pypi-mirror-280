@@ -1,0 +1,6 @@
+llmcollection/__init__.py,sha256=jiouHznn3u6gS8P4vWjIzy1e7ptlQw4n_Y2y4hIQrg0,46
+llmcollection/GPT.py,sha256=oWiOk8j9KulhSRvS79CSQwAQjBhwKAVSir-pI5krvjg,6687
+llmcollection/LLAMA.py,sha256=l-HpJMTJ0IyyyAYuplQ9YqbXMz-_wOWHCFNz7opChl0,6568
+llmcollection-0.1.0.dist-info/METADATA,sha256=2OaKkNtSOousm2zioUAbNfgNjmVCtoDB0jFaYKFNLuc,423
+llmcollection-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llmcollection-0.1.0.dist-info/RECORD,,
