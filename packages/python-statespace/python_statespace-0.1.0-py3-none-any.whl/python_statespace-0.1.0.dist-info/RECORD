@@ -1,0 +1,14 @@
+statespace/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+statespace/base.py,sha256=jABicNIjbgVYx8u3bQ2BW13oF5FLvYGQJ18TwOXqSTU,16749
+statespace/decorators.py,sha256=GnzOzV4RnMkcAMTHXewzNPzVEOiwGF7eMAXjOXr83rA,799
+statespace/models.py,sha256=PWDkSBvB5kZecAVOFRLFlmhE9FNOKYB-lQjtGoGFWaA,2483
+statespace/reporting/__init__.py,sha256=XUy4J_wQC4A8kETXSXqL4Jzh7q-jPbUpLwD4Rh6_I1Y,76
+statespace/reporting/accessors.py,sha256=sQSBpMGQkBSWJJ-S77pGDpuq-FMKO2Jewyd2n8rzpXA,28619
+statespace/reporting/base.py,sha256=pgiUvwhoNF3UWYMqcFLoVE9ssEwoWRqHZ0Uu7Eqga64,2077
+statespace/reporting/models.py,sha256=0hGwDYOG_V5qvYx6qusKZbY5sFApYka3dzvXKog5EnQ,3735
+statespace/reporting/templates.py,sha256=jp-OiI9ko0Gjf-VawFwfOXOTPKEFHeLGGN0KGtxcfLI,19341
+statespace/tools.py,sha256=XRsirtGVRrrTU4y6eG5Cc8HD12v_s7FCKE8906rt5xU,3126
+python_statespace-0.1.0.dist-info/LICENSE,sha256=21uLyapFHtmAwFu9xSuBgWtL49QtMIzTmI9Lq0w94MI,1502
+python_statespace-0.1.0.dist-info/METADATA,sha256=4omPnV6wS_DWRR2U5yDkHQOL_sK1sNYURL8RsNgIIeU,8312
+python_statespace-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+python_statespace-0.1.0.dist-info/RECORD,,
