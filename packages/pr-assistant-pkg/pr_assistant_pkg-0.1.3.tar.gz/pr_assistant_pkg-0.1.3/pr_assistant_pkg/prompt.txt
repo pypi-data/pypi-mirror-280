@@ -1,0 +1,879 @@
+{
+  "matrix": [
+    {
+      "name": "Adnan Aji",
+      "ratings": {
+        "Adnan Aji": "-",
+        "Ahmed Saad": 3,
+        "Abdulsalam Aljamal": 0,
+        "huthefa alfararjeh": 0,
+        "Dema Dada": 0,
+        "Raghad Wahhab": 0,
+        "Sanad Albahti": 0,
+        "Al-Baraa Bakri": 3,
+        "Ayham Al Attar": 0,
+        "Laith Hussein": 0,
+        "Malak Hasan": 0,
+        "Abdulrahaman Abo Srour": 0,
+        "Hasan Assi": 3,
+        "Joel D'Souza": 0,
+        "Natasha Madhu": 0,
+        "Rawan Alakhras": 0,
+        "Ghaith Salloom": 0,
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 0,
+        "Wardah Aamer": 0,
+        "Ahsan Ahmad": 0,
+        "Ahmad Akilan": 2,
+        "Jacqueline Lim": 9,
+        "Nizar Shehada": 1,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "Ahmed Saad",
+      "ratings": {
+        "Adnan Aji": 3,
+        "Ahmed Saad": "-",
+        "Abdulsalam Aljamal": 0,
+        "huthefa alfararjeh": 0,
+        "Dema Dada": 2,
+        "Raghad Wahhab": 0,
+        "Sanad Albahti": 0,
+        "Al-Baraa Bakri": 3,
+        "Ayham Al Attar": 0,
+        "Laith Hussein": 0,
+        "Malak Hasan": 0,
+        "Abdulrahaman Abo Srour": 0,
+        "Hasan Assi": 3,
+        "Joel D'Souza": 0,
+        "Natasha Madhu": 0,
+        "Rawan Alakhras": 0,
+        "Ghaith Salloom": 0,
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 0,
+        "Wardah Aamer": 0,
+        "Ahsan Ahmad": 0,
+        "Ahmad Akilan": 9,
+        "Jacqueline Lim": 3,
+        "Nizar Shehada": 0,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "Abdulsalam Aljamal",
+      "ratings": {
+        "Adnan Aji": 0,
+        "Ahmed Saad": 0,
+        "Abdulsalam Aljamal": "-",
+        "huthefa alfararjeh": 3,
+        "Dema Dada": 2,
+        "Raghad Wahhab": 3,
+        "Sanad Albahti": 2,
+        "Al-Baraa Bakri": 1,
+        "Ayham Al Attar": 0,
+        "Laith Hussein": 1,
+        "Malak Hasan": 2,
+        "Abdulrahaman Abo Srour": 0,
+        "Hasan Assi": 2,
+        "Joel D'Souza": 2,
+        "Natasha Madhu": 0,
+        "Rawan Alakhras": 1,
+        "Ghaith Salloom": 3,
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 0,
+        "Wardah Aamer": 0,
+        "Ahsan Ahmad": 0,
+        "Ahmad Akilan": 9,
+        "Jacqueline Lim": 2,
+        "Nizar Shehada": 1,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "huthefa alfararjeh",
+      "ratings": {
+        "Adnan Aji": 0,
+        "Ahmed Saad": 0,
+        "Abdulsalam Aljamal": 3,
+        "huthefa alfararjeh": "-",
+        "Dema Dada": 1,
+        "Raghad Wahhab": 3,
+        "Sanad Albahti": 2,
+        "Al-Baraa Bakri": 1,
+        "Ayham Al Attar": 0,
+        "Laith Hussein": 2,
+        "Malak Hasan": 2,
+        "Abdulrahaman Abo Srour": 0,
+        "Hasan Assi": 2,
+        "Joel D'Souza": 2,
+        "Natasha Madhu": 0,
+        "Rawan Alakhras": 1,
+        "Ghaith Salloom": 3,
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 1,
+        "Wardah Aamer": 0,
+        "Ahsan Ahmad": 0,
+        "Ahmad Akilan": 9,
+        "Jacqueline Lim": 2,
+        "Nizar Shehada": 1,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "Dema Dada",
+      "ratings": {
+        "Adnan Aji": 0,
+        "Ahmed Saad": 2,
+        "Abdulsalam Aljamal": 2,
+        "huthefa alfararjeh": 1,
+        "Dema Dada": "-",
+        "Raghad Wahhab": 1,
+        "Sanad Albahti": 2,
+        "Al-Baraa Bakri": 0,
+        "Ayham Al Attar": 1,
+        "Laith Hussein": 1,
+        "Malak Hasan": 0,
+        "Abdulrahaman Abo Srour": 3,
+        "Hasan Assi": 1,
+        "Joel D'Souza": 0,
+        "Natasha Madhu": 3,
+        "Rawan Alakhras": 1,
+        "Ghaith Salloom": 0,
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 0,
+        "Wardah Aamer": 0,
+        "Ahsan Ahmad": 1,
+        "Ahmad Akilan": 9,
+        "Jacqueline Lim": 3,
+        "Nizar Shehada": 0,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "Raghad Wahhab",
+      "ratings": {
+        "Adnan Aji": 0,
+        "Ahmed Saad": 0,
+        "Abdulsalam Aljamal": 3,
+        "huthefa alfararjeh": 3,
+        "Dema Dada": 1,
+        "Raghad Wahhab": "-",
+        "Sanad Albahti": 3,
+        "Al-Baraa Bakri": 0,
+        "Ayham Al Attar": 0,
+        "Laith Hussein": 0,
+        "Malak Hasan": 0,
+        "Abdulrahaman Abo Srour": 0,
+        "Hasan Assi": 0,
+        "Joel D'Souza": 0,
+        "Natasha Madhu": 0,
+        "Rawan Alakhras": 0,
+        "Ghaith Salloom": 0,
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 0,
+        "Wardah Aamer": 0,
+        "Ahsan Ahmad": 0,
+        "Ahmad Akilan": 9,
+        "Jacqueline Lim": 1,
+        "Nizar Shehada": 1,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "Sanad Albahti",
+      "ratings": {
+        "Adnan Aji": 0,
+        "Ahmed Saad": 0,
+        "Abdulsalam Aljamal": 2,
+        "huthefa alfararjeh": 2,
+        "Dema Dada": 2,
+        "Raghad Wahhab": 3,
+        "Sanad Albahti": "-",
+        "Al-Baraa Bakri": 3,
+        "Ayham Al Attar": 3,
+        "Laith Hussein": 3,
+        "Malak Hasan": 3,
+        "Abdulrahaman Abo Srour": 1,
+        "Hasan Assi": 1,
+        "Joel D'Souza": 1,
+        "Natasha Madhu": 1,
+        "Rawan Alakhras": 1,
+        "Ghaith Salloom": 1,
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 0,
+        "Wardah Aamer": 0,
+        "Ahsan Ahmad": 0,
+        "Ahmad Akilan": 9,
+        "Jacqueline Lim": 2,
+        "Nizar Shehada": 1,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "Al-Baraa Bakri",
+      "ratings": {
+        "Adnan Aji": 3,
+        "Ahmed Saad": 3,
+        "Abdulsalam Aljamal": 1,
+        "huthefa alfararjeh": 1,
+        "Dema Dada": 0,
+        "Raghad Wahhab": 0,
+        "Sanad Albahti": 3,
+        "Al-Baraa Bakri": "-",
+        "Ayham Al Attar": 3,
+        "Laith Hussein": 3,
+        "Malak Hasan": 3,
+        "Abdulrahaman Abo Srour": 1,
+        "Hasan Assi": 3,
+        "Joel D'Souza": 1,
+        "Natasha Madhu": 1,
+        "Rawan Alakhras": 1,
+        "Ghaith Salloom": 3,
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 0,
+        "Wardah Aamer": 0,
+        "Ahsan Ahmad": 0,
+        "Ahmad Akilan": 9,
+        "Jacqueline Lim": 2,
+        "Nizar Shehada": 1,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "Ayham Al Attar",
+      "ratings": {
+        "Adnan Aji": 0,
+        "Ahmed Saad": 0,
+        "Abdulsalam Aljamal": 0,
+        "huthefa alfararjeh": 0,
+        "Dema Dada": 1,
+        "Raghad Wahhab": 0,
+        "Sanad Albahti": 3,
+        "Al-Baraa Bakri": 3,
+        "Ayham Al Attar": "-",
+        "Laith Hussein": 3,
+        "Malak Hasan": 2,
+        "Abdulrahaman Abo Srour": 1,
+        "Hasan Assi": 2,
+        "Joel D'Souza": 1,
+        "Natasha Madhu": 1,
+        "Rawan Alakhras": 1,
+        "Ghaith Salloom": 2,
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 0,
+        "Wardah Aamer": 0,
+        "Ahsan Ahmad": 0,
+        "Ahmad Akilan": 9,
+        "Jacqueline Lim": 2,
+        "Nizar Shehada": 0,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "Laith Hussein",
+      "ratings": {
+        "Adnan Aji": 0,
+        "Ahmed Saad": 0,
+        "Abdulsalam Aljamal": 1,
+        "huthefa alfararjeh": 2,
+        "Dema Dada": 1,
+        "Raghad Wahhab": 0,
+        "Sanad Albahti": 3,
+        "Al-Baraa Bakri": 3,
+        "Ayham Al Attar": 3,
+        "Laith Hussein": "-",
+        "Malak Hasan": 8,
+        "Abdulrahaman Abo Srour": 2,
+        "Hasan Assi": 2,
+        "Joel D'Souza": 2,
+        "Natasha Madhu": 2,
+        "Rawan Alakhras": 1,
+        "Ghaith Salloom": 3,
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 1,
+        "Wardah Aamer": 0,
+        "Ahsan Ahmad": 0,
+        "Ahmad Akilan": 9,
+        "Jacqueline Lim": 2,
+        "Nizar Shehada": 2,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "Malak Hasan",
+      "ratings": {
+        "Adnan Aji": 0,
+        "Ahmed Saad": 0,
+        "Abdulsalam Aljamal": 2,
+        "huthefa alfararjeh": 2,
+        "Dema Dada": 0,
+        "Raghad Wahhab": 0,
+        "Sanad Albahti": 3,
+        "Al-Baraa Bakri": 3,
+        "Ayham Al Attar": 2,
+        "Laith Hussein": 8,
+        "Malak Hasan": "-",
+        "Abdulrahaman Abo Srour": 0,
+        "Hasan Assi": 2,
+        "Joel D'Souza": 0,
+        "Natasha Madhu": 0,
+        "Rawan Alakhras": 1,
+        "Ghaith Salloom": 2,
+        "Bilal Hassan": 1,
+        "Muhammed Zeeshan": 3,
+        "Wardah Aamer": 2,
+        "Ahsan Ahmad": 0,
+        "Ahmad Akilan": 9,
+        "Jacqueline Lim": 2,
+        "Nizar Shehada": 2,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "Abdulrahaman Abo Srour",
+      "ratings": {
+        "Adnan Aji": 0,
+        "Ahmed Saad": 0,
+        "Abdulsalam Aljamal": 0,
+        "huthefa alfararjeh": 0,
+        "Dema Dada": 3,
+        "Raghad Wahhab": 0,
+        "Sanad Albahti": 1,
+        "Al-Baraa Bakri": 1,
+        "Ayham Al Attar": 1,
+        "Laith Hussein": 2,
+        "Malak Hasan": 0,
+        "Abdulrahaman Abo Srour": "-",
+        "Hasan Assi": 2,
+        "Joel D'Souza": 2,
+        "Natasha Madhu": 3,
+        "Rawan Alakhras": 2,
+        "Ghaith Salloom": 3,
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 1,
+        "Wardah Aamer": 0,
+        "Ahsan Ahmad": 1,
+        "Ahmad Akilan": 2,
+        "Jacqueline Lim": 9,
+        "Nizar Shehada": 2,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "Hasan Assi",
+      "ratings": {
+        "Adnan Aji": 3,
+        "Ahmed Saad": 3,
+        "Abdulsalam Aljamal": 2,
+        "huthefa alfararjeh": 2,
+        "Dema Dada": 1,
+        "Raghad Wahhab": 0,
+        "Sanad Albahti": 1,
+        "Al-Baraa Bakri": 3,
+        "Ayham Al Attar": 2,
+        "Laith Hussein": 2,
+        "Malak Hasan": 2,
+        "Abdulrahaman Abo Srour": 2,
+        "Hasan Assi": "-",
+        "Joel D'Souza": 8,
+        "Natasha Madhu": 2,
+        "Rawan Alakhras": 8,
+        "Ghaith Salloom": 3,
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 1,
+        "Wardah Aamer": 1,
+        "Ahsan Ahmad": 1,
+        "Ahmad Akilan": 3,
+        "Jacqueline Lim": 9,
+        "Nizar Shehada": 3,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "Joel D'Souza",
+      "ratings": {
+        "Adnan Aji": 0,
+        "Ahmed Saad": 0,
+        "Abdulsalam Aljamal": 2,
+        "huthefa alfararjeh": 2,
+        "Dema Dada": 0,
+        "Raghad Wahhab": 0,
+        "Sanad Albahti": 1,
+        "Al-Baraa Bakri": 1,
+        "Ayham Al Attar": 1,
+        "Laith Hussein": 2,
+        "Malak Hasan": 0,
+        "Abdulrahaman Abo Srour": 2,
+        "Hasan Assi": 8,
+        "Joel D'Souza": "-",
+        "Natasha Madhu": 2,
+        "Rawan Alakhras": 3,
+        "Ghaith Salloom": 1,
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 0,
+        "Wardah Aamer": 0,
+        "Ahsan Ahmad": 1,
+        "Ahmad Akilan": 2,
+        "Jacqueline Lim": 9,
+        "Nizar Shehada": 3,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "Natasha Madhu",
+      "ratings": {
+        "Adnan Aji": 0,
+        "Ahmed Saad": 0,
+        "Abdulsalam Aljamal": 0,
+        "huthefa alfararjeh": 0,
+        "Dema Dada": 3,
+        "Raghad Wahhab": 0,
+        "Sanad Albahti": 1,
+        "Al-Baraa Bakri": 1,
+        "Ayham Al Attar": 1,
+        "Laith Hussein": 2,
+        "Malak Hasan": 0,
+        "Abdulrahaman Abo Srour": 3,
+        "Hasan Assi": 2,
+        "Joel D'Souza": 2,
+        "Natasha Madhu": "-",
+        "Rawan Alakhras": 2,
+        "Ghaith Salloom": 2,
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 0,
+        "Wardah Aamer": 0,
+        "Ahsan Ahmad": 1,
+        "Ahmad Akilan": 0,
+        "Jacqueline Lim": 9,
+        "Nizar Shehada": 1,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "Rawan Alakhras",
+      "ratings": {
+        "Adnan Aji": 0,
+        "Ahmed Saad": 0,
+        "Abdulsalam Aljamal": 1,
+        "huthefa alfararjeh": 1,
+        "Dema Dada": 1,
+        "Raghad Wahhab": 0,
+        "Sanad Albahti": 1,
+        "Al-Baraa Bakri": 1,
+        "Ayham Al Attar": 1,
+        "Laith Hussein": 1,
+        "Malak Hasan": 1,
+        "Abdulrahaman Abo Srour": 2,
+        "Hasan Assi": 8,
+        "Joel D'Souza": 3,
+        "Natasha Madhu": 2,
+        "Rawan Alakhras": "-",
+        "Ghaith Salloom": 1,
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 0,
+        "Wardah Aamer": 0,
+        "Ahsan Ahmad": 1,
+        "Ahmad Akilan": 0,
+        "Jacqueline Lim": 9,
+        "Nizar Shehada": 0,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "Ghaith Salloom",
+      "ratings": {
+        "Adnan Aji": 0,
+        "Ahmed Saad": 0,
+        "Abdulsalam Aljamal": 3,
+        "huthefa alfararjeh": 3,
+        "Dema Dada": 0,
+        "Raghad Wahhab": 0,
+        "Sanad Albahti": 1,
+        "Al-Baraa Bakri": 3,
+        "Ayham Al Attar": 2,
+        "Laith Hussein": 3,
+        "Malak Hasan": 2,
+        "Abdulrahaman Abo Srour": 3,
+        "Hasan Assi": 3,
+        "Joel D'Souza": 1,
+        "Natasha Madhu": 2,
+        "Rawan Alakhras": 1,
+        "Ghaith Salloom": "-",
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 0,
+        "Wardah Aamer": 0,
+        "Ahsan Ahmad": 0,
+        "Ahmad Akilan": 3,
+        "Jacqueline Lim": 3,
+        "Nizar Shehada": 9,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "Bilal Hassan",
+      "ratings": {
+        "Adnan Aji": 0,
+        "Ahmed Saad": 0,
+        "Abdulsalam Aljamal": 0,
+        "huthefa alfararjeh": 0,
+        "Dema Dada": 0,
+        "Raghad Wahhab": 0,
+        "Sanad Albahti": 0,
+        "Al-Baraa Bakri": 0,
+        "Ayham Al Attar": 0,
+        "Laith Hussein": 0,
+        "Malak Hasan": 1,
+        "Abdulrahaman Abo Srour": 0,
+        "Hasan Assi": 0,
+        "Joel D'Souza": 0,
+        "Natasha Madhu": 0,
+        "Rawan Alakhras": 0,
+        "Ghaith Salloom": 0,
+        "Bilal Hassan": "-",
+        "Muhammed Zeeshan": 9,
+        "Wardah Aamer": 3,
+        "Ahsan Ahmad": 0,
+        "Ahmad Akilan": 0,
+        "Jacqueline Lim": 0,
+        "Nizar Shehada": 1,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "Muhammed Zeeshan",
+      "ratings": {
+        "Adnan Aji": 0,
+        "Ahmed Saad": 0,
+        "Abdulsalam Aljamal": 0,
+        "huthefa alfararjeh": 1,
+        "Dema Dada": 0,
+        "Raghad Wahhab": 0,
+        "Sanad Albahti": 0,
+        "Al-Baraa Bakri": 0,
+        "Ayham Al Attar": 0,
+        "Laith Hussein": 1,
+        "Malak Hasan": 3,
+        "Abdulrahaman Abo Srour": 1,
+        "Hasan Assi": 1,
+        "Joel D'Souza": 0,
+        "Natasha Madhu": 0,
+        "Rawan Alakhras": 0,
+        "Ghaith Salloom": 0,
+        "Bilal Hassan": 9,
+        "Muhammed Zeeshan": "-",
+        "Wardah Aamer": 9,
+        "Ahsan Ahmad": 0,
+        "Ahmad Akilan": 2,
+        "Jacqueline Lim": 1,
+        "Nizar Shehada": 9,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "Wardah Aamer",
+      "ratings": {
+        "Adnan Aji": 0,
+        "Ahmed Saad": 0,
+        "Abdulsalam Aljamal": 0,
+        "huthefa alfararjeh": 0,
+        "Dema Dada": 0,
+        "Raghad Wahhab": 0,
+        "Sanad Albahti": 0,
+        "Al-Baraa Bakri": 0,
+        "Ayham Al Attar": 0,
+        "Laith Hussein": 0,
+        "Malak Hasan": 2,
+        "Abdulrahaman Abo Srour": 0,
+        "Hasan Assi": 1,
+        "Joel D'Souza": 0,
+        "Natasha Madhu": 0,
+        "Rawan Alakhras": 0,
+        "Ghaith Salloom": 0,
+        "Bilal Hassan": 3,
+        "Muhammed Zeeshan": 9,
+        "Wardah Aamer": "-",
+        "Ahsan Ahmad": 0,
+        "Ahmad Akilan": 0,
+        "Jacqueline Lim": 1,
+        "Nizar Shehada": 3,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "Ahsan Ahmad",
+      "ratings": {
+        "Adnan Aji": 0,
+        "Ahmed Saad": 0,
+        "Abdulsalam Aljamal": 0,
+        "huthefa alfararjeh": 0,
+        "Dema Dada": 1,
+        "Raghad Wahhab": 0,
+        "Sanad Albahti": 0,
+        "Al-Baraa Bakri": 0,
+        "Ayham Al Attar": 0,
+        "Laith Hussein": 0,
+        "Malak Hasan": 0,
+        "Abdulrahaman Abo Srour": 1,
+        "Hasan Assi": 1,
+        "Joel D'Souza": 1,
+        "Natasha Madhu": 1,
+        "Rawan Alakhras": 1,
+        "Ghaith Salloom": 0,
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 0,
+        "Wardah Aamer": 0,
+        "Ahsan Ahmad": "-",
+        "Ahmad Akilan": 0,
+        "Jacqueline Lim": 1,
+        "Nizar Shehada": 9,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": 1
+      }
+    },
+    {
+      "name": "Ahmad Akilan",
+      "ratings": {
+        "Adnan Aji": 2,
+        "Ahmed Saad": 9,
+        "Abdulsalam Aljamal": 9,
+        "huthefa alfararjeh": 9,
+        "Dema Dada": 9,
+        "Raghad Wahhab": 9,
+        "Sanad Albahti": 9,
+        "Al-Baraa Bakri": 9,
+        "Ayham Al Attar": 9,
+        "Laith Hussein": 9,
+        "Malak Hasan": 9,
+        "Abdulrahaman Abo Srour": 2,
+        "Hasan Assi": 3,
+        "Joel D'Souza": 2,
+        "Natasha Madhu": 0,
+        "Rawan Alakhras": 0,
+        "Ghaith Salloom": 3,
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 2,
+        "Wardah Aamer": 0,
+        "Ahsan Ahmad": 0,
+        "Ahmad Akilan": "-",
+        "Jacqueline Lim": 9,
+        "Nizar Shehada": 3,
+        "Ehab Raafat": 3,
+        "Gaith Haboub": 2
+      }
+    },
+    {
+      "name": "Jacqueline Lim",
+      "ratings": {
+        "Adnan Aji": 9,
+        "Ahmed Saad": 3,
+        "Abdulsalam Aljamal": 2,
+        "huthefa alfararjeh": 2,
+        "Dema Dada": 3,
+        "Raghad Wahhab": 1,
+        "Sanad Albahti": 2,
+        "Al-Baraa Bakri": 2,
+        "Ayham Al Attar": 2,
+        "Laith Hussein": 2,
+        "Malak Hasan": 2,
+        "Abdulrahaman Abo Srour": 9,
+        "Hasan Assi": 9,
+        "Joel D'Souza": 9,
+        "Natasha Madhu": 9,
+        "Rawan Alakhras": 9,
+        "Ghaith Salloom": 3,
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 1,
+        "Wardah Aamer": 1,
+        "Ahsan Ahmad": 1,
+        "Ahmad Akilan": 9,
+        "Jacqueline Lim": "-",
+        "Nizar Shehada": 3,
+        "Ehab Raafat": 3,
+        "Gaith Haboub": 1
+      }
+    },
+    {
+      "name": "Nizar Shehada",
+      "ratings": {
+        "Adnan Aji": 1,
+        "Ahmed Saad": 0,
+        "Abdulsalam Aljamal": 1,
+        "huthefa alfararjeh": 1,
+        "Dema Dada": 0,
+        "Raghad Wahhab": 1,
+        "Sanad Albahti": 1,
+        "Al-Baraa Bakri": 1,
+        "Ayham Al Attar": 0,
+        "Laith Hussein": 2,
+        "Malak Hasan": 2,
+        "Abdulrahaman Abo Srour": 2,
+        "Hasan Assi": 3,
+        "Joel D'Souza": 3,
+        "Natasha Madhu": 1,
+        "Rawan Alakhras": 0,
+        "Ghaith Salloom": 9,
+        "Bilal Hassan": 1,
+        "Muhammed Zeeshan": 9,
+        "Wardah Aamer": 3,
+        "Ahsan Ahmad": 9,
+        "Ahmad Akilan": 3,
+        "Jacqueline Lim": 3,
+        "Nizar Shehada": "-",
+        "Ehab Raafat": 3,
+        "Gaith Haboub": 3
+      }
+    },
+    {
+      "name": "Ehab Raafat",
+      "ratings": {
+        "Adnan Aji": 0,
+        "Ahmed Saad": 0,
+        "Abdulsalam Aljamal": 0,
+        "huthefa alfararjeh": 0,
+        "Dema Dada": 0,
+        "Raghad Wahhab": 0,
+        "Sanad Albahti": 0,
+        "Al-Baraa Bakri": 0,
+        "Ayham Al Attar": 0,
+        "Laith Hussein": 0,
+        "Malak Hasan": 0,
+        "Abdulrahaman Abo Srour": 0,
+        "Hasan Assi": 0,
+        "Joel D'Souza": 0,
+        "Natasha Madhu": 0,
+        "Rawan Alakhras": 0,
+        "Ghaith Salloom": 0,
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 0,
+        "Wardah Aamer": 0,
+        "Ahsan Ahmad": 0,
+        "Ahmad Akilan": 3,
+        "Jacqueline Lim": 3,
+        "Nizar Shehada": 3,
+        "Ehab Raafat": "-",
+        "Gaith Haboub": 0
+      }
+    },
+    {
+      "name": "Gaith Haboub",
+      "ratings": {
+        "Adnan Aji": 0,
+        "Ahmed Saad": 0,
+        "Abdulsalam Aljamal": 0,
+        "huthefa alfararjeh": 0,
+        "Dema Dada": 0,
+        "Raghad Wahhab": 0,
+        "Sanad Albahti": 0,
+        "Al-Baraa Bakri": 0,
+        "Ayham Al Attar": 0,
+        "Laith Hussein": 0,
+        "Malak Hasan": 0,
+        "Abdulrahaman Abo Srour": 0,
+        "Hasan Assi": 0,
+        "Joel D'Souza": 0,
+        "Natasha Madhu": 0,
+        "Rawan Alakhras": 0,
+        "Ghaith Salloom": 0,
+        "Bilal Hassan": 0,
+        "Muhammed Zeeshan": 0,
+        "Wardah Aamer": 0,
+        "Ahsan Ahmad": 1,
+        "Ahmad Akilan": 2,
+        "Jacqueline Lim": 1,
+        "Nizar Shehada": 3,
+        "Ehab Raafat": 0,
+        "Gaith Haboub": "-"
+      }
+    }
+  ]
+}
+# Performance Review Assistant
+
+You are an HR Assistant.  Use the Provided JSON data to nominate peers.  The JSON data represents the names of individuals and their interaction levels with each other within a performance review matrix. Each person has given ratings to others, indicating the degree of their interactions, with higher numbers reflecting more significant interactions.
+
+HR Assistant {
+  rating {
+    number indicating work interaction strength:
+    -: not applicable
+    0: never interacted
+    1: interacted
+    2: worked briefly together
+    3: worked entirely together
+    ... [in between]
+    8: mentor
+    9: manager
+  }
+function init(isVerbose=false by default)output=void|csv {
+    store the nominations in the state
+    if verbose is not enabled, don't print anything.
+    if verbose is enabled then print the names
+}
+example{
+A fair list of peers for Ahmed Saad would look like:
+     1. Adnan Aji 
+     2. Al Baraa Bakri 
+     3. Hasan Assi 
+     4. Jacqueline Lim 
+     5. Dema Dada 
+This is because in the CSV data provided, the numbers are between 1-8 for the mentioned peers.
+}
+
+function email output=JSON[] {
+draft emails listing the reviewers for each person. Provide the output in JSON format like this:
+{
+  "emails": {
+            "Adnan Aji": {
+                "address": "adnan.aji@beno.com",
+                "subject": "Your Performance Review Peers",
+                "body": "1. Ahmed Saad (3)<br>2. Al-Baraa Bakri (3)<br>3. Hasan Assi (3)<br>4. Ahmad Akilan (2)<br>5. Nizar Shehada (1)"
+            },
+            ...
+}
+Remember, the output should be in PURE JSON format.
+Dont include the rating in the email.
+Also note that the emails are in this format: {firstName.lastName@beno.com}
+}
+
+constraints {
+    only nominate employees with rating between 1 and 8 only. 
+    Do not nominate employees with rating of 0 or 9.
+    Level 9 or Level 0 rated employees should NEVER be picked when choosing peers.
+    One employee should not review more than 5 employees
+    Each employee should have at least 3 reviewers.
+    These constraints are to be followed VERY strictly.
+  }
+  state {
+    name: name of candidate
+    1st reviewer: a name from the crosstab data [rating]
+    2nd reviewer: a name from the crosstab data [rating]
+    3rd reviewer: a name from the crosstab data [rating]
+    4th reviewer: a name from the crosstab data [rating]
+    5th reviewer: a name from the crosstab data [rating]
+  }
+  /init [isVerbose=false]:  nominates reviewers for each employee
+  /reviewers [name]: print the reviewers of the provided employee
+  /workload: print a visual table: employee, number of peers
+  /email : drafts emails for each employee on who should they review
+
+}
