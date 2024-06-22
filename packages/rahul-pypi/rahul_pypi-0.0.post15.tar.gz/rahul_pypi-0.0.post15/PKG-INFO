@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: rahul-pypi
+Version: 0.0.post15
+Summary: A simple Hello World library
+Home-page: https://gitlab.com/rahuljhs/pypi
+Author: Your Name
+Author-email: your.email@example.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: testing
+Requires-Dist: pytest>=6.0; extra == "testing"
+Requires-Dist: pytest-cov>=2.0; extra == "testing"
+
+# Hello World Library
+A simple Python library that provides a "Hello, World!" function.
+
+## Installation
+pip install hello-world-lib
+
+## Usage
+```python
+from hello_world_lib import hello_world
+
+print(hello_world())  # Output: Hello, World!
+print(hello_world("Alice"))  # Output: Hello, Alice!
+```
+
+## Development
+To set up the development environment:
+1. Clone the repository
+2. Install the package in editable mode with development dependencies:
+```shell
+pip install -e .[dev]
+```
+3. Run tests:
+```shell
+pytest
+```
