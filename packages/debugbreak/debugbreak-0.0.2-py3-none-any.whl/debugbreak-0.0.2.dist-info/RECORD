@@ -1,0 +1,8 @@
+debugbreak/__init__.py,sha256=yH6GHouxxHf6ImZLdOk0El-wcgGFZcacwOAQwIKrSeM,986
+debugbreak/debugbreak.dll,sha256=UNkigDxPcFBtc4npbmU4OpnjX097cPOYzRsaSWzpiAQ,105906
+debugbreak/src/main.c,sha256=WxiHewWAt4HYsGbW1iy6jtpYf8ucgFEUOGC2p0keasc,156
+debugbreak-0.0.2.dist-info/LICENSE,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+debugbreak-0.0.2.dist-info/METADATA,sha256=EBL9r2IN5SZH34xcjzrD0oOQkWZj0qlJuzcB4CPWqeo,1138
+debugbreak-0.0.2.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+debugbreak-0.0.2.dist-info/top_level.txt,sha256=JuwKxHZsW0fs0oc3lGEBxmDxCEb5AFDcI8cYwkTrUcU,11
+debugbreak-0.0.2.dist-info/RECORD,,
