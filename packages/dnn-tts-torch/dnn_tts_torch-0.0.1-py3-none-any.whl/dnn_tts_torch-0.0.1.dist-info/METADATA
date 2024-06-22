@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: dnn_tts_torch
+Version: 0.0.1
+Summary: This is a library consisting of pre-trained models for the synthesis of Russian and English speech
+Home-page: https://github.com/KirillPogranichny/dnn_tts_torch.git
+Author: KirillPogranichny
+Author-email: kirillpogranichny@gmail.com
+Project-URL: GitHub, https://github.com/KirillPogranichny/dnn_tts_torch.git
+Keywords: tts speech synthesize
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: audioread ==3.0.1
+Requires-Dist: certifi ==2024.6.2
+Requires-Dist: cffi ==1.16.0
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: colorama ==0.4.6
+Requires-Dist: DAWG-Python ==0.7.2
+Requires-Dist: decorator ==5.1.1
+Requires-Dist: docopt ==0.6.2
+Requires-Dist: docutils ==0.21.2
+Requires-Dist: filelock ==3.14.0
+Requires-Dist: fsspec ==2024.5.0
+Requires-Dist: idna ==3.7
+Requires-Dist: imageio ==2.34.1
+Requires-Dist: importlib-metadata ==7.2.0
+Requires-Dist: intel-openmp ==2021.4.0
+Requires-Dist: intervaltree ==3.1.0
+Requires-Dist: ipymarkup ==0.9.0
+Requires-Dist: jaraco.classes ==3.4.0
+Requires-Dist: jaraco.context ==5.3.0
+Requires-Dist: jaraco.functools ==4.0.1
+Requires-Dist: Jinja2 ==3.1.4
+Requires-Dist: joblib ==1.4.2
+Requires-Dist: keyring ==25.2.1
+Requires-Dist: lazy-loader ==0.4
+Requires-Dist: librosa ==0.10.2.post1
+Requires-Dist: llvmlite ==0.42.0
+Requires-Dist: markdown-it-py ==3.0.0
+Requires-Dist: MarkupSafe ==2.1.5
+Requires-Dist: mdurl ==0.1.2
+Requires-Dist: mkl ==2021.4.0
+Requires-Dist: more-itertools ==10.3.0
+Requires-Dist: mpmath ==1.3.0
+Requires-Dist: msgpack ==1.0.8
+Requires-Dist: natasha ==1.6.0
+Requires-Dist: navec ==0.10.0
+Requires-Dist: networkx ==3.3
+Requires-Dist: nh3 ==0.2.17
+Requires-Dist: numba ==0.59.1
+Requires-Dist: numpy ==1.26.4
+Requires-Dist: packaging ==24.0
+Requires-Dist: pillow ==10.3.0
+Requires-Dist: pkginfo ==1.11.1
+Requires-Dist: platformdirs ==4.2.2
+Requires-Dist: pooch ==1.8.1
+Requires-Dist: pycparser ==2.22
+Requires-Dist: Pygments ==2.18.0
+Requires-Dist: pymorphy2 ==0.9.1
+Requires-Dist: pymorphy2-dicts-ru ==2.4.417127.4579844
+Requires-Dist: pywin32-ctypes ==0.2.2
+Requires-Dist: razdel ==0.5.0
+Requires-Dist: readme-renderer ==43.0
+Requires-Dist: requests ==2.32.3
+Requires-Dist: requests-toolbelt ==1.0.0
+Requires-Dist: rfc3986 ==2.0.0
+Requires-Dist: rich ==13.7.1
+Requires-Dist: scikit-image ==0.23.2
+Requires-Dist: scikit-learn ==1.5.0
+Requires-Dist: scipy ==1.13.1
+Requires-Dist: setuptools ==70.1.0
+Requires-Dist: slovnet ==0.6.0
+Requires-Dist: sortedcontainers ==2.4.0
+Requires-Dist: soundfile ==0.12.1
+Requires-Dist: soxr ==0.3.7
+Requires-Dist: sympy ==1.12.1
+Requires-Dist: tbb ==2021.12.0
+Requires-Dist: threadpoolctl ==3.5.0
+Requires-Dist: tifffile ==2024.5.22
+Requires-Dist: torch ==2.3.0
+Requires-Dist: tqdm ==4.66.4
+Requires-Dist: twine ==5.1.0
+Requires-Dist: typing-extensions ==4.12.1
+Requires-Dist: urllib3 ==2.2.1
+Requires-Dist: wheel ==0.43.0
+Requires-Dist: yargy ==0.16.0
+Requires-Dist: zipp ==3.19.2
+
+# DNN TTS Torch #
+
+## Что это за проект? ##
+Проект является удобным инструментом для синтеза русской и английской речи, использующий алгоритмы нейронных сетей.
+
+### Используемые датасеты ###
+Для обучения модели синтеза русской речи был использован [датасет](https://www.kaggle.com/datasets/bryanpark/russian-single-speaker-speech-dataset), взятый с сайта Kaggle.
+
+Для обучения модели синтеза английской речи был использован популярный для подобных задач датасет [LJ Speech](https://keithito.com/LJ-Speech-Dataset/).
+
+Оба датасета распространяются по открытой лицензии, что не ограничивает использование взятых мною данных ни для коммерческих ни для исследовательских целей. С условиями лицензии более подробно можно ознакомиться по [ссылке](https://creativecommons.org/publicdomain/zero/1.0/).
+
+## Как работать с проектом? ##
+Взаимодействие с модулями проекта осуществляется при помощи средств библиотеки `argparse` из корневой папки проекта. Доступны следующие команды:
+   * `python dl_and_prepop_dataset -d ruspeech` - для скачивания и подготовки выбранного датасета к последующей работе;
+
+
+   * `python train-text2mel -d ruspeech` - для обучения модуля text2mel, преобразующего текст в мел-спектрограммы;
+
+
+   * `python train-ssrn -d ruspeech` - для обучения модуля ssrn, преобразующего мел-спектрограммы в спектрограммы;
+
+
+   * `python synthesize -d ruspeech -t text` - для синтеза речи на выбранном языке (аргумент `-t text` опционален - он позволяет пропустить форму ввода текста пользователем в будущем и передать его как аргумент во время вызова команды).
+
+
+Для каждой из команд, аргумент `ruspeech` - для русскоязычного датасета, `ljspeech` - для англоязычного датасета.
+## Инструкция ##
+Пользователь может установить пакет dnn_tts_torch на любое устройство на базе операционных систем GNU/Linux или Windows с Python версии 3.12 на борту при помощи следующей команды:
+
+    pip install dnn_tts_torch
+
+Также, пользователь может получить синтезированную речь на английском или русском языках на любом устройстве с помощью [телеграм-бота](https://t.me/TTS_grad_work_bot). Работа с ним интуитивно понятна благодаря удобным аннотациям внутри самого бота.
