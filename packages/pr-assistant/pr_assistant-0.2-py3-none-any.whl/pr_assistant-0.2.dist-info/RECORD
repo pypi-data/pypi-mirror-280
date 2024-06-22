@@ -1,0 +1,10 @@
+pr_assistant/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pr_assistant/local_storage.txt,sha256=7IXpjptbXs_IgaUjB-tU885HyxmldTK13N_n3HWCyvU,3583
+pr_assistant/local_storage_emails.txt,sha256=Mjp1ZjSseiDyTMQdNwluAMuUI7b8EyHmFkzm4BXBXYY,6070
+pr_assistant/main.py,sha256=H1pEzoL8n5kYYzXqnb1GckCfUlOLriIVoyqeLbzmesw,9996
+pr_assistant/prompt.txt,sha256=8do1HUAxwT1fu8-5uAs5VWPJyrZIj49NDbLYFg1RQGQ,23575
+pr_assistant/setup.sh,sha256=a5lG9foI2jK9nREEsG3sHqDQmYdck4XgH_AV98R5N2A,256
+pr_assistant-0.2.dist-info/METADATA,sha256=Ecp_7NV4Q856xglS_YKDGmgtAy50C_wu3vFnhEREy-8,1089
+pr_assistant-0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pr_assistant-0.2.dist-info/entry_points.txt,sha256=Altz-uV3pfZYnyW0v9iWMoH2JMYoCQMZHo0eh7YKY6E,55
+pr_assistant-0.2.dist-info/RECORD,,
