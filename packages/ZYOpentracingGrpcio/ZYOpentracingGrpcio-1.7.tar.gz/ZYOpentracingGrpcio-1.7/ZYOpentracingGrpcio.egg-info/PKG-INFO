@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ZYOpentracingGrpcio
+Version: 1.7
+Summary: Python OpenTracing Extensions for gRPC
+Author: LightStep
+Keywords: opentracing
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
