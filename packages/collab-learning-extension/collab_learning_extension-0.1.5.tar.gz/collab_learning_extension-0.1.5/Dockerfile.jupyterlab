@@ -1,0 +1,5 @@
+FROM quay.io/jupyter/minimal-notebook:x86_64-lab-4.1.8
+RUN  python3 -m pip install -U 'collab_learning_extension==0.1.4'
+EXPOSE 8000
+EXPOSE 8888
+CMD ["jupyterhub-singleuser"]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
