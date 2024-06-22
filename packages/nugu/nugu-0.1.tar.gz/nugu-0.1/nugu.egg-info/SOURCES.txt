@@ -1,0 +1,9 @@
+README.md
+setup.py
+nugu/__init__.py
+nugu/module.py
+nugu.egg-info/PKG-INFO
+nugu.egg-info/SOURCES.txt
+nugu.egg-info/dependency_links.txt
+nugu.egg-info/top_level.txt
+test/test_module.py
