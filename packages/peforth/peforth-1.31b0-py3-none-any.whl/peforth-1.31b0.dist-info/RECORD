@@ -1,0 +1,17 @@
+peforth/__init__.py,sha256=tUhWaxNXIh0XzHwDBUAR0--Hdxc44qXTKkxGFstODDo,9819
+peforth/__main__.py,sha256=x0WL7Zu4DI787mW5QQTOWBznSUDyBco3pwwIo4NnREk,66
+peforth/hello.py,sha256=aSZUccHXiUS2VldNyTO6ARGVgcfl_NzBwTUm6LYqwGE,92
+peforth/kernel.json,sha256=U9-Orr6U-KaHUWK7eIQsEuOC_Tj1-nRFyrjVG8KkRjU,219
+peforth/misc.f,sha256=i5LwIRaGBWJIQMqI7_7cdnZDV2i8dy4rNVWCLskKES0,15555
+peforth/peforth.f,sha256=JsIK8qu3jrHuffoEV5Yp5FYY5zzoTDZQTziLOBN0ZBY,83953
+peforth/peforth.selftest,sha256=5VImFZ6QQ2ZXbc0vzp9EM92e3bs12Ldp9IOWa4W8LVo,21792
+peforth/peforthkernel.py,sha256=S6j5yrhr6zZibkSPuKQNrH84BXwih5F-JuH5LCFrEpw,1366
+peforth/projectk.py,sha256=aIWqgIYek9GXyk_V4_uzjMQvmC1cpr4JtGAT4ym9e4s,20690
+peforth/quit.f,sha256=sxFfS9PCL1yBxxHGX5DxHDvG9R5G_hnJT_996rLgjvw,2617
+peforth/test.py,sha256=ZlsmNkp0_3KaEmI4aJ2Ktc1C8C5dvi5w8Xm6X2HYJpw,526
+peforth/version.txt,sha256=ZFFFoa01hLBbv1l67KivMqSWCAHg5FCFFFXirSN8f2k,25
+peforth-1.31b0.dist-info/LICENSE,sha256=BrEZJauU2koKgTI_qD7xcyuzvs1vCDo45-XCuEqG6tg,1149
+peforth-1.31b0.dist-info/METADATA,sha256=R7Eyjd2DJdSax-cit8H_OdnerCMlbrOTkNKihDWiwUg,10922
+peforth-1.31b0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+peforth-1.31b0.dist-info/top_level.txt,sha256=-zm-0nh9jsfqixTMQ53eD1W9wfquBQ3ECq6XuZfvHGw,8
+peforth-1.31b0.dist-info/RECORD,,
