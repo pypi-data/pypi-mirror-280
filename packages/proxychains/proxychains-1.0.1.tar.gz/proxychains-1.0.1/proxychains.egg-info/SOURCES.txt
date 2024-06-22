@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+proxychains/__init__.py
+proxychains.egg-info/PKG-INFO
+proxychains.egg-info/SOURCES.txt
+proxychains.egg-info/dependency_links.txt
+proxychains.egg-info/requires.txt
+proxychains.egg-info/top_level.txt
