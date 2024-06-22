@@ -1,0 +1,6 @@
+cumulus_library_umls/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cumulus_library_umls/umls/manifest.toml,sha256=6N4-a8CJJ01jR1ewMMjMbyV8p5p8WHRBFAjgFdMNGaA,129
+cumulus_library_umls/umls/umls_builder.py,sha256=fC1bHfYFydgSFsHS6JYEJd-P5MSa-FfTOJQWAgw_3rg,7996
+cumulus_library_umls-0.2.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+cumulus_library_umls-0.2.0.dist-info/METADATA,sha256=ltPWOA4EG4POGSf1oVq2wion66MbeusJM8UhUIC1Cpc,3162
+cumulus_library_umls-0.2.0.dist-info/RECORD,,
