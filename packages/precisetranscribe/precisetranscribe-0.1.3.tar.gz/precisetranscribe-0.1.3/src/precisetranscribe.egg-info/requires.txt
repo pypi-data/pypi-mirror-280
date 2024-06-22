@@ -1,0 +1,10 @@
+openai
+numpy
+ffmpeg-python
+pydub
+tiktoken
+python-dotenv
+
+[dev]
+pytest
+pytest-cov
