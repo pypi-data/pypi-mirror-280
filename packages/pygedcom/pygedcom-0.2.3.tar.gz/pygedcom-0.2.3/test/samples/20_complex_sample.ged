@@ -1,0 +1,59 @@
+0 HEAD
+1 SOUR MyGenealogySoftware
+2 VERS 1.0
+2 NAME My Genealogy Software
+1 DEST GEDCOM
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+0 @S1@ SUBM
+1 NAME John Smith
+1 ADDR 123 Main St.
+2 CONT Anytown, USA
+1 PHON 555-555-5555
+0 @I0001@ INDI
+1 NAME John /Smith/
+1 SEX M
+1 BIRT
+2 DATE 1 JAN 1900
+2 PLAC New York City, New York, USA
+1 FAMS @F0001@
+0 @I0002@ INDI
+1 NAME Jane /Doe/
+1 SEX F
+1 BIRT
+2 DATE 05 FEB 1901
+2 PLAC Chicago, Illinois, USA
+1 FAMS @F0001@
+0 @I0003@ INDI
+1 NAME Mark /Smith/
+1 SEX M
+1 BIRT
+2 DATE 1 JAN 1930
+2 PLAC Los Angeles, California, USA
+1 FAMC @F0001@
+0 @F0001@ FAM
+1 HUSB @I0001@
+1 WIFE @I0002@
+1 CHIL @I0003@
+0 @O0001@ OBJE
+1 FILE image.jpg
+1 FORM JPG
+1 TITL John Smith
+1 NOTE @N0002@
+0 @N0001@ NOTE
+1 CONT This GEDCOM file was created by My Genealogy Software.
+1 CONC For more information, visit www.mygenealogysoftware.com.
+0 @N0002@ NOTE
+1 CONT This is a photo of John Smith taken in 1950.
+0 @R0001@ REPO
+1 NAME National Archives and Records Administration
+1 ADDR 8601 Adelphi Road
+2 CONT College Park, MD 20740-6001
+0 @S0001@ SOUR
+1 AUTHOR My Genealogy Software
+1 TITL My Genealogy Software User Manual
+1 PUBL My Genealogy Software, LLC
+1 DATE 2022
+0 TRLR

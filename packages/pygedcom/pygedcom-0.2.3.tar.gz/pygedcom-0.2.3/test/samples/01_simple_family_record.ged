@@ -1,0 +1,12 @@
+0 @I1@ INDI
+1 NAME John /Travolta/
+0 @I2@ INDI
+1 NAME Jane /Travolta/
+0 @I3@ INDI
+1 NAME Kid /Paddle/
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 MARR
+2 DATE 01 JAN 1925
+1 CHIL @I3@
