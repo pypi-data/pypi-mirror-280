@@ -1,0 +1,17 @@
+pycodata/__init__.py,sha256=ZpOa1oKdCITbB8NnsZ8HRmRDV13LMNN3ChmxHCVBuFk,475
+pycodata/constants_2010.cp310-win_amd64.pyd,sha256=G0jEGv2d9e7qXIf20EdDSEmcHbE9QvSjfIuSE456mug,81408
+pycodata/constants_2014.cp310-win_amd64.pyd,sha256=u0zJHqn6lisHqKWEde8DHd8mMZt2g7o6gV5pUANw9aY,81408
+pycodata/constants_2018.cp310-win_amd64.pyd,sha256=6sp6XTkdT-B9TGPIgTYw6lVpxh4Wig0MFY6p1tmhOZc,85504
+pycodata/constants_2022.cp310-win_amd64.pyd,sha256=bnyyi2s_3j0kmPFcvt_VdG3PysYYxMi5wO4Zq5EtTQM,81920
+pycodata/libcodata.dll,sha256=GPqcoTe32xJ86fVDucz1xON4LCczywE-WCKVF-hjGeg,931706
+pycodata/libcodata.dll.a,sha256=1RjlWIYLzCjnf23viZABplmyy21BeDtvCSdFks14W-w,2350324
+pycodata/libgcc_s_seh-1.dll,sha256=siuVQ5elJwNXnZLbZLV4Eq9w8q_K_i50KgCcFkC57Bo,150707
+pycodata/libgfortran-5.dll,sha256=I6sKHQzwtR9mqUOzGrqTY3ddd8WzvYMkMH7NAWRv0nE,3306867
+pycodata/libquadmath-0.dll,sha256=MjIw-7mkLskqiBy8dziuww06qJFWvpHRl4wW_Q1JuMc,380848
+pycodata/libwinpthread-1.dll,sha256=UJG4WipzuCqjz0M_Ua8zj2JFMZ0cBBvCa0KmHL2y-IA,60798
+pycodata/version.cp310-win_amd64.pyd,sha256=W9Q2TrpHQ_xIBVPExBbqgGNvh8mJ_1VwIMtvNR4CFeA,10752
+pycodata-1.2.1.dist-info/LICENSE,sha256=E4bvAaVGR0kY-3NDZZls2alhojlB1nyyEjquSVW7e-I,1071
+pycodata-1.2.1.dist-info/METADATA,sha256=WWRHGPlGlzXfWQDInC6Oo2kCRo28pV6_6SBLpUWDoH0,2019
+pycodata-1.2.1.dist-info/WHEEL,sha256=jrOhEbqKwvzRFSJcbYXlJCyVkgVdHg4_7__YHrdTUfw,102
+pycodata-1.2.1.dist-info/top_level.txt,sha256=2a1LaR8nqhf7ws8R-8fYwctq4kHd-jFd2edMIUHLeRQ,9
+pycodata-1.2.1.dist-info/RECORD,,
