@@ -1,0 +1,6 @@
+transformers
+openai==0.27.3
+tiktoken
+pandas
+numpy
+graphviz
