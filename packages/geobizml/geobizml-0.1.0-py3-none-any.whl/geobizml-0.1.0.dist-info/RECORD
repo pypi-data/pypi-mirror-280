@@ -1,0 +1,11 @@
+geobizml/__init__.py,sha256=KO1BLpvB_OJmY-HD3dgab34bxr6s-bnJvOb-AJ7dNEg,108
+geobizml/clusterAnalysis.py,sha256=igCwOs7llPOlClSkKWRa0IVkV_9ugaXf4B3axAWswos,8979
+geobizml/visualization.py,sha256=Qh5rxgdypsrO6CQmaalMJV4cf_L5cIdQP_iJlvizqyM,19939
+tests/__init__.py,sha256=X1zcW9m_hkiN8ODPL8sGT1PXpqwxA2APNZkspbHaGiQ,118
+tests/test_clusterAnalysis.py,sha256=igCwOs7llPOlClSkKWRa0IVkV_9ugaXf4B3axAWswos,8979
+tests/test_visualization.py,sha256=Qh5rxgdypsrO6CQmaalMJV4cf_L5cIdQP_iJlvizqyM,19939
+geobizml-0.1.0.dist-info/License.css,sha256=F3PLUQKAg-o-gbc-6r3mG9IrTFg00gtJQ8vCTYb7j-M,172
+geobizml-0.1.0.dist-info/METADATA,sha256=2VPpPa_ZaNIE4dcYrh1bCEWayxwNEhWRolmXW_PHB1w,1583
+geobizml-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+geobizml-0.1.0.dist-info/top_level.txt,sha256=NuHqL5pV9MhBgDgb-lgwnWUjZA8UuJhT22aTGnC7Yhw,15
+geobizml-0.1.0.dist-info/RECORD,,
