@@ -1,0 +1,91 @@
+[tool.poetry]
+name = "e_lims_cookiecutter_template"
+version = "0.0.1"
+description = "E-lims Cookiecutter Template."
+readme = "README.md"
+authors = ["Fabien Meyer <fabien-meyer@outlook.com>"]
+license = "MIT"
+include = ["e_lims_cookiecutter_template/py.typed"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+typing-extensions = "^4.12.2"
+
+[tool.poetry.group.doc]
+optional = true
+
+[tool.poetry.group.doc.dependencies]
+myst-parser = "^3.0.1"
+sphinx = "^7.3.7"
+sphinx-autodoc-typehints = "^2.1.1"
+sphinx-rtd-theme = "^2.0.0"
+sphinxcontrib-mermaid = "^0.9.2"
+
+[tool.poetry.group.dev.dependencies]
+bump2version = "^1.0.1"
+cookiecutter = "^2.6.0"
+cruft = "^2.15.0"
+mypy = "^1.10.0"
+pre-commit = "^3.7.1"
+pytest = "^8.2.2"
+pytest-cov = "^5.0.0"
+pytest-cookies = "^0.7.0"
+ruff = "^0.4.8"
+tox = "^4.15.1"
+
+[tool.bumpversion]
+current_version = "0.0.1"
+commit = true
+tag = false
+
+[tool.bumpversion.file]
+file = "pyproject.toml"
+search = 'version = "{current_version}"'
+replace = 'version = "{new_version}"'
+
+[tool.mypy]
+follow_imports = "normal"
+strict_equality = true
+warn_unused_configs = true
+disallow_subclassing_any = true
+disallow_any_generics = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_return_any = true
+no_implicit_reexport = true
+
+[[tool.mypy.overrides]]
+module = "tests"
+disallow_untyped_decorators = false
+
+[[tool.mypy.overrides]]
+module = "pytest"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "pytest_cookies"
+ignore_missing_imports = true
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["D211", "D213", "Q000", "Q003", "COM812", "ISC001"]
+
+[tool.ruff.lint.per-file-ignores]
+"**/{tests}/*" = ["S101"]
+
+[tool.ruff.format]
+quote-style = "single"
+indent-style = "space"
+
+[build-system]
+requires = []
+build-backend = "poetry.core.masonry.api"
