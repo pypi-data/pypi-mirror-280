@@ -1,0 +1,7 @@
+setup.py
+myredditbot.egg-info/PKG-INFO
+myredditbot.egg-info/SOURCES.txt
+myredditbot.egg-info/dependency_links.txt
+myredditbot.egg-info/entry_points.txt
+myredditbot.egg-info/requires.txt
+myredditbot.egg-info/top_level.txt
