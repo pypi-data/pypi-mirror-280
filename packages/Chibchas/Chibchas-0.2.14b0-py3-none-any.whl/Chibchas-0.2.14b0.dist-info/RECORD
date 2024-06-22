@@ -1,0 +1,15 @@
+Chibchas-0.2.14b0.data/scripts/chibchas_institulac,sha256=UWEehpsxAqzsiBvwclOCv-bMKyc6h4sU2oBPsmuXKjs,3453
+Chibchas-0.2.14b0.data/scripts/chibchas_server,sha256=0thO8_VtW1ja-Vjg6cC-3eFh9JE9qRrQlXiws13NIFo,618
+chibchas/JSON_output.ipynb,sha256=40vvPtQ87CGiPzidZ_JQ4MqC0BUmkIalxR8PsI4G3vA,8760
+chibchas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chibchas/dict_tables.json,sha256=IERu0u7gaOgqlyfFu3n204nfM3vOu9Xo8P3x1erFVOY,2035
+chibchas/tools.py,sha256=zD1mVu7T2Y1yoyxUHty9xUJ8K091kqA0-gR8qDeuvnM,65884
+chibchas/webapp.py,sha256=tE-Dk11PIY3fYTHX4v_Frfxv2MF7xrmcycXVP4meP8Q,2994
+chibchas/templates/login.html,sha256=I-ONonNpPCalqK16JJo_2g9XyszrNmRCtdqLdsvPcPs,1472
+chibchas/templates/processing.html,sha256=7jF8J2NWH1v5sycGnsPuwlRbEWl7UPSkXX_c61OpthI,1274
+chibchas/templates/img/logo.jpeg,sha256=6RZbUoWLRQhQwxo6CuambOAjsqMpsfOMnGPmew3VYiI,19560
+Chibchas-0.2.14b0.dist-info/LICENSE,sha256=TIZj5HDyJABcZ9gDJvitJ2FH70DzArTNgyTW5kcRKAY,1513
+Chibchas-0.2.14b0.dist-info/METADATA,sha256=Mp6UiJcOz6Pvn6ZCoxalP41ymmm20ZMMvmVadw4MQMI,2959
+Chibchas-0.2.14b0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+Chibchas-0.2.14b0.dist-info/top_level.txt,sha256=1ES62PpZPoZgY1EAhv_yY7tVevBug7u4Q0GnPNJBnK4,9
+Chibchas-0.2.14b0.dist-info/RECORD,,
