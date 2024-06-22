@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: syncstar
+Version: 0.1.0a3
+Summary: Guest operated service for creating bootable USB storage devices at any community conference kiosk
+Home-page: https://github.com/gridhead/syncstar
+License: AGPL-3.0-or-later
+Author: Akashdeep Dhar
+Author-email: akashdeep.dhar@gmail.com
+Maintainer: Akashdeep Dhar
+Maintainer-email: akashdeep.dhar@gmail.com
+Requires-Python: >=3.10,<4
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Security
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Networking :: Monitoring
+Classifier: Topic :: System :: Operating System
+Requires-Dist: celery (>=5.3.0,<6.0.0)
+Requires-Dist: click (>=8.0.0,<9)
+Requires-Dist: flask (>=3.0.0)
+Requires-Dist: pyudev (>=0.24.0,<0.25.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: redis (>=5.0.4,<6.0.0)
+Project-URL: Documentation, https://github.com/gridhead/syncstar/blob/main/README.md
+Project-URL: Repository, https://github.com/gridhead/syncstar
+Description-Content-Type: text/markdown
+
+# SyncStar
+
+Guest operated service for creating bootable USB storage devices at any community conference kiosk
+
+## Instruction
+
+Please visit the [documentation](https://github.com/gridhead/syncstar/wiki) to know more about the project
+
