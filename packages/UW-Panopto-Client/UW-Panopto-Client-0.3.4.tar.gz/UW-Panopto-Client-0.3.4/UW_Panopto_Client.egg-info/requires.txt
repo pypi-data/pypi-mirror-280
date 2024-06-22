@@ -1,0 +1,4 @@
+suds~=1.1
+commonconf
+prometheus-client
+mock
