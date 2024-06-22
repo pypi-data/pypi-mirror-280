@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+pbbench/__init__.py
+pbbench/my_module.py
+pbbench.egg-info/PKG-INFO
+pbbench.egg-info/SOURCES.txt
+pbbench.egg-info/dependency_links.txt
+pbbench.egg-info/top_level.txt
