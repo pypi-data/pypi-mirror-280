@@ -1,0 +1,10 @@
+apibase/__init__.py,sha256=M7bFEndxHJm7Hp0EsVpCe4VHNMcTbzieLBp22NCdG_8,138
+apibase/base.py,sha256=sk2fERteht1Vbu7QQcntg3xOjlAKlH5hJ-YZIAsO9xg,46500
+apibase/exceptions.py,sha256=2K407A-fQVmeh4Vnb7ombLtMVrG5sAIUxDx2djdvcV4,2535
+apibase/logging_helper.py,sha256=vZDYNR8CMqppIIhX6weKrP9hdacQ4G6NLWTE5QD0A-k,1380
+apibase/network.py,sha256=bn0UuTFy5HaXdPVQd5qhDRstAP_lKSic7GOjKpssasw,3897
+apibase/read_configs.py,sha256=RPmcRv3LnMNM4ORN067S2fg31ooRTER_jHPasOEhPfw,4299
+apibase/utils.py,sha256=Fd1CRHk1fNfe17ZWxzIOhd2BnMTvjQMNs6tON0lVhMI,3763
+py_apibase-0.1.0.dist-info/METADATA,sha256=vkcVRqr1f_k6KmfoUwg9srIdsu8Wy7IiO8htsjZDxSM,1663
+py_apibase-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+py_apibase-0.1.0.dist-info/RECORD,,
