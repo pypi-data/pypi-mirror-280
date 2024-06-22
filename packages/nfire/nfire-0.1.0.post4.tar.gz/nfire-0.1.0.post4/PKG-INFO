@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nfire
+Version: 0.1.0.post4
+Summary: 
+Author: Abdelrhman Nile
+Author-email: abdelrhmannile@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+
