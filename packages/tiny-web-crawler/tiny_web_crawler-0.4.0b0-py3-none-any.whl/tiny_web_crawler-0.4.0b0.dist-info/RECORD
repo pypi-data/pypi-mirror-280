@@ -1,0 +1,17 @@
+tiny_web_crawler/__init__.py,sha256=ggPLucfa6n3RshjofkQ53E5gNMUJ-A1gY9-vwgks-lY,113
+tiny_web_crawler/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tiny_web_crawler/core/spider.py,sha256=9teZjh4ejBP142z679imeS9R71INip9lhlKP3HKx86s,6293
+tiny_web_crawler/core/spider_settings.py,sha256=c1dtCBHIOjB0JnuQ0C9z0rBfqlOevAfHLulgl5pGMes,2085
+tiny_web_crawler/logging.py,sha256=OoqyYZXtreWJrGOyIS-_GbensjSL4ys3GQF-7nOvSm0,1247
+tiny_web_crawler/middlewares/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tiny_web_crawler/networking/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tiny_web_crawler/networking/fetcher.py,sha256=mqgjB-_AkCsV6KwRJu3uvpptNEW-8X1V3Ogepujnk_s,857
+tiny_web_crawler/networking/formatter.py,sha256=dm25KsX75KRYJH_VLSkygWwydq_aMz8xJO7Z4O7034Y,994
+tiny_web_crawler/networking/robots_txt.py,sha256=uKPjG-9nhWpOLvVUrfegwSiyuyLRcbfrtJTi4NKCrjo,1490
+tiny_web_crawler/networking/validator.py,sha256=OQrsGwMNNbDYTv3lc-n12bCPseX_KrspKx71mGoulI0,271
+tiny_web_crawler/webdrivers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tiny_web_crawler-0.4.0b0.dist-info/LICENSE,sha256=U9aKlCXN08BojRq-OLnMorQUi8LeLaD_gmuTnp7LO8w,1080
+tiny_web_crawler-0.4.0b0.dist-info/METADATA,sha256=BZVEYietbN1HBf3582OYD_jh-MlNc-m6rqA-jwDb2Pk,4642
+tiny_web_crawler-0.4.0b0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+tiny_web_crawler-0.4.0b0.dist-info/entry_points.txt,sha256=BCgEYQ1ORCoNsNKa8J05_8sh2oHWyJjkxyyKu14W0xo,53
+tiny_web_crawler-0.4.0b0.dist-info/RECORD,,
