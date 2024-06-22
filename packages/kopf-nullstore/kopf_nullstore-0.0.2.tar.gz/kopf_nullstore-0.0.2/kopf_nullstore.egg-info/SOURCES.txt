@@ -1,0 +1,7 @@
+README.md
+setup.py
+kopf_nullstore.egg-info/PKG-INFO
+kopf_nullstore.egg-info/SOURCES.txt
+kopf_nullstore.egg-info/dependency_links.txt
+kopf_nullstore.egg-info/requires.txt
+kopf_nullstore.egg-info/top_level.txt
