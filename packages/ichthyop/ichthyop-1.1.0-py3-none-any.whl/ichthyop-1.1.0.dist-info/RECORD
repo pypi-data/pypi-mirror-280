@@ -1,0 +1,12 @@
+ichthyop/__init__.py,sha256=_qX7cLpuNIkR9jlRFN8dyrH_VN8DAc5TJb7YMRAiUA8,307
+ichthyop/_connect_traj.py,sha256=7KIivjOOtgXuq6UNRuDdR9tkY_eyospxcIyGQtNXi-s,5483
+ichthyop/connectivity.py,sha256=3NCJSUl5iOa9Hl4MsL3uhk_YM1DGpiWtqnzHllA0xuo,5631
+ichthyop/density.py,sha256=mrXo3WpUSLTCH29SZPaUs2z_2YfSPp7kz2UlJFc7zQI,5301
+ichthyop/plot.py,sha256=MYcHsK7ivhRAjQ6DTgJUF5BQdQKyPrRbTSRSwYl94ck,8099
+ichthyop/read.py,sha256=Y1jQGefEQLOnQ5qotXN414vMY8ltMQxSa1xUODNZyWw,4615
+ichthyop/shape.py,sha256=Q46oKnUAUDAx5IT-MjvABlre8MRp_PHzikCmLcKjeO4,10153
+ichthyop-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ichthyop-1.1.0.dist-info/METADATA,sha256=d4v5cwCoS13QbvBplEVj_KXZxVlabmj7QizKaFB4JoQ,2282
+ichthyop-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ichthyop-1.1.0.dist-info/top_level.txt,sha256=VrwL9CV5_Ctc-WCIIoHPS21MWkYc0itKFiBLMA44DPs,9
+ichthyop-1.1.0.dist-info/RECORD,,
