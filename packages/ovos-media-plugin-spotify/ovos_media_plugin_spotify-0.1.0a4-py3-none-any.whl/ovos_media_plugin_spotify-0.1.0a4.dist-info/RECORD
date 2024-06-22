@@ -1,0 +1,12 @@
+ovos_media_plugin_spotify/__init__.py,sha256=YH3PQ82_f_5P22clROK0wAM__6yDpd0PFCd6A5WBbr0,3957
+ovos_media_plugin_spotify/audio.py,sha256=qRyXf0YR3Uc7ORMYXU3ATlz0S66HuTUt5hmsIfKu2d0,4162
+ovos_media_plugin_spotify/auth.py,sha256=_nDFJiOQhlNTytO4Nq80LmCzfmucxblR3R4WnXEPZ0w,2251
+ovos_media_plugin_spotify/autoconfigure.py,sha256=VI2d2jmdpDODm8KMSO8frvgQ8n_miP3YiUAVMPANkBU,1482
+ovos_media_plugin_spotify/spotify_client.py,sha256=nnO-CGjGjAYJNH4oeR3-5QZuaAcZo_aAvnsSXAnux3Y,7708
+ovos_media_plugin_spotify/version.py,sha256=evG3_hDv9Mt1wugomGynwVj6EZ_F5nw07QoOFlv6tPw,177
+ovos_media_plugin_spotify-0.1.0a4.dist-info/LICENSE,sha256=ntGHfW0JQ281uH6ycFGfAyFMCThkNAUM3r6HS2aPXA0,11349
+ovos_media_plugin_spotify-0.1.0a4.dist-info/METADATA,sha256=qnzG7IB4LKTu2vJmjErhqfzN6SXi0nnKbFRvS2O67bs,427
+ovos_media_plugin_spotify-0.1.0a4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ovos_media_plugin_spotify-0.1.0a4.dist-info/entry_points.txt,sha256=PSwpxEQHRazu0Sj5n0UO_h8ksZDchNptKZq1SKt9Nk0,326
+ovos_media_plugin_spotify-0.1.0a4.dist-info/top_level.txt,sha256=FD1y4D94-dhMC3J1OXj-a_j2a77GfTq6wX_ujDmVFPQ,26
+ovos_media_plugin_spotify-0.1.0a4.dist-info/RECORD,,
