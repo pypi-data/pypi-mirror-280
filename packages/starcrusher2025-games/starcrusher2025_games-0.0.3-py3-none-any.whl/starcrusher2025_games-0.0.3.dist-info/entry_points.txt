@@ -1,0 +1,2 @@
+[console_scripts]
+starcrusher2025_games = starcrusher2025_games.game:main
