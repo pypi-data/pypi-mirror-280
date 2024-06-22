@@ -1,0 +1,7 @@
+setup.py
+userepo/__init__.py
+userepo/userepo.py
+userepo.egg-info/PKG-INFO
+userepo.egg-info/SOURCES.txt
+userepo.egg-info/dependency_links.txt
+userepo.egg-info/top_level.txt
