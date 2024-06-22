@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+packitup/__init__.py
+packitup/packitup.py
+packitup.egg-info/PKG-INFO
+packitup.egg-info/SOURCES.txt
+packitup.egg-info/dependency_links.txt
+packitup.egg-info/entry_points.txt
+packitup.egg-info/requires.txt
+packitup.egg-info/top_level.txt
