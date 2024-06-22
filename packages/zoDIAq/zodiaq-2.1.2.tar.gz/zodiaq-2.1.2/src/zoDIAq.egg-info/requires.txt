@@ -1,0 +1,9 @@
+pyteomics>=4.4.1
+matplotlib>=3.3.4
+numba>=0.53.1
+numpy<2.0
+pandas>=1.2.2
+Bio>=0.4.1
+PyQt5>=5.15.4
+lxml>=4.6.2
+scikit-learn>=1.1.2
