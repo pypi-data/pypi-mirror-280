@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+shellfish3/__init__.py
+shellfish3/encrypt.py
+shellfish3/support.py
+shellfish3.egg-info/PKG-INFO
+shellfish3.egg-info/SOURCES.txt
+shellfish3.egg-info/dependency_links.txt
+shellfish3.egg-info/requires.txt
+shellfish3.egg-info/top_level.txt

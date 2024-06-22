@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: shellfish3
+Version: 0.2
+Summary: Shellfish testing library
+Home-page: https://github.com/appsecgroup/shellfish3
+Author: AppSecGroup
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Shellfish3
+
+PoC Python package
