@@ -1,0 +1,6 @@
+vkernelrs-0.1.2.dist-info/METADATA,sha256=O6NFRmUCAmAEpNBkhozRmwNa-JEA0qJvYBO7lufPRXg,1420
+vkernelrs-0.1.2.dist-info/WHEEL,sha256=sUhggG_FDDD2lVhDqbCDw0D_knzmulW9avHyBucwRFc,108
+vkernelrs.libs/libgcc_s-e52197c3.so.1,sha256=vkPW1Auw6CH9Bjk7frmX3hry_1H9c0tRI0Ncyg71WUI,724137
+vkernelrs/__init__.py,sha256=R59-6alKEPRei85Od1fMOr5WTi9DfIkAQbZ9BGBQOqI,119
+vkernelrs/vkernelrs.cpython-311-aarch64-linux-musl.so,sha256=a0ZkX2YYOw8VsUfuTQas_ccNo-HqqyYzpkOwMflgCrU,1641793
+vkernelrs-0.1.2.dist-info/RECORD,,
