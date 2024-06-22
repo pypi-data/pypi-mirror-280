@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: khulnasoft-sdk
+Version: 2.0.1
+Summary: The Khulnasoft Software Development Kit for Python.
+Home-page: http://github.com/khulnasoft/khulnasoft-sdk-python
+Author: KhulnaSoft, Ltd.
+Author-email: devinfo@khulnasoft.com
+License: http://www.apache.org/licenses/LICENSE-2.0
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 6 - Mature
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+License-File: LICENSE
