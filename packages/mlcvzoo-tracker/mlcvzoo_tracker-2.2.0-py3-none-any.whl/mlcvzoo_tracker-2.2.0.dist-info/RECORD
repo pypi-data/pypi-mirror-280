@@ -1,0 +1,13 @@
+mlcvzoo_tracker/__init__.py,sha256=wDGUJf7cLHz9bpcNRLP80DWIxeAKOacFWZJxg3l2Yp4,305
+mlcvzoo_tracker/annotation_utils.py,sha256=W-Z8qsdSfapyS3rq33pCn7FMSFev-VJOuJpFI0-ClQ8,4926
+mlcvzoo_tracker/configuration.py,sha256=MjnuyBI_aP50spHEqyYYhjXcv2lxzz0XCx1v-0nGWh0,6047
+mlcvzoo_tracker/hungarian_image_tracker.py,sha256=Sr_AK1bwcFbZCG3h5VJ0FVNxFrg2IVKE5eCuwoHFWU0,17228
+mlcvzoo_tracker/image_track.py,sha256=BmJL-1OfaTT-x3CL9nolbwyhrvsXy9IOkN5gmAZpW4U,28651
+mlcvzoo_tracker/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlcvzoo_tracker/sized_dict.py,sha256=Vsh-ZAIxGcBejV9ad1G8VTyXchBHAhbASnHC4yF50p4,1019
+mlcvzoo_tracker/types.py,sha256=Z5BQC79rKhttiOON-0DnbMNN55AHcklAu59fdf6Rq9M,637
+mlcvzoo_tracker-2.2.0.dist-info/LICENSE,sha256=5n7x8h2jvQ38agEyj2nda3Jw3zg18B1BKF5WPiU4rJ0,11412
+mlcvzoo_tracker-2.2.0.dist-info/METADATA,sha256=s1jdQwuYmw_qIyfBNMr3qn6Ittmasf3ZXl6fImUzRDM,2339
+mlcvzoo_tracker-2.2.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+mlcvzoo_tracker-2.2.0.dist-info/top_level.txt,sha256=WoH5wB4VpiCJAr6lqmgLVXzG-R6x3jZIUmblN5HkLho,16
+mlcvzoo_tracker-2.2.0.dist-info/RECORD,,
