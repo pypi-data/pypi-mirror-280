@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: torch-pgn
+Version: 0.1.2
+Summary: Proximity Graph Networks: Predicting ligand affinity with Message Passing Neural Networks
+Home-page: https://github.com/keiserlab/torch_pgn
+Author: Keiser Lab
+Author-email: keiser@keiserlab.org
+License: MIT
+Keywords: chemistry,machine learning,affinity prediction,message passing neural network,graph neural network
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.6,<3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch >=1.7.0
+Requires-Dist: torch-geometric >=1.6.3
+Requires-Dist: networkx >=2.5
+Requires-Dist: typed-argument-parser ==1.6.1
+Requires-Dist: pandas ==1.1.5
+Requires-Dist: rdkit >=2020.09.3
+Requires-Dist: numpy <=1.21.6,>=1.19.2
+Requires-Dist: tqdm >=4.54.1
+Requires-Dist: tensorboard >2.0
+Requires-Dist: scipy <1.7
+Requires-Dist: scikit-learn >=0.23.2
+Requires-Dist: hyperopt >=0.2.5
+Requires-Dist: sympy >=1.10.1
+Requires-Dist: optuna >=3.6.1
+Requires-Dist: matplotlib >=3.0.0
+Requires-Dist: six >=1.0.0
+Requires-Dist: oddt ==0.7
+
+# torch_pgn
+Proximity Graph Networks (torch_pgn) is a pytorch toolkit allowing for the modular application of multiple different encoder architectures to cheminformatic tasks centered around protein-ligand complexes.
+
+## Installation
+torch-pgn either be installed from PyPi using the pip command or from source. We assume that all users are using conda, if you do not have conda, please install Miniconda from <url>https://conda.io/miniconda.html<url>.
+
+### Installation using pip
+1. <code>conda create --name torch_pgn python=3.7</code>
+2. <code>conda activate torch_pgn</code>
+3. <code>pip install torch_pgn</code>
+4. <code>conda install pytorch-sparse -c pyg</code>
+5. <code>conda install -c conda-forge openbabel</code>
+
+> [!NOTE]
+> If you are using a gpu machine and run into issues with this installation method we suggest you remove pytorch and pyg and reinstall using conda as follows:
+> 1. `conda remove pytorch`
+> 2. `conda remove pyg`
+> 3. `conda install pytorch`
+> 4. `conda install pyg -c pyg`
+> 5. `conda install pytorch-sparse -c pyg`
+
+### Installation from source
+1. `git clone https://github.com/keiserlab/torch_pgn/torch_pgn.git`
+2. `cd torch_pgn`
+3. `conda env create -f environment.yml`
+4. `conda activate torch_pgn`
+5. `pip install -e`
