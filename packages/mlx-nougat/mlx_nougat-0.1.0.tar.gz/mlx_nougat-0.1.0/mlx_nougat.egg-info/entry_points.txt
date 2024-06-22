@@ -1,0 +1,2 @@
+[console_scripts]
+mlx_nougat = mlx_nougat.cli:main

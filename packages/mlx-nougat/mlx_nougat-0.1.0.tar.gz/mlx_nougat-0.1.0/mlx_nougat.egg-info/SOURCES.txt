@@ -1,0 +1,14 @@
+README.md
+setup.py
+mlx_nougat/__init__.py
+mlx_nougat/cli.py
+mlx_nougat/donutSwinModel.py
+mlx_nougat/mbartModel.py
+mlx_nougat/nougat.py
+mlx_nougat/utils.py
+mlx_nougat.egg-info/PKG-INFO
+mlx_nougat.egg-info/SOURCES.txt
+mlx_nougat.egg-info/dependency_links.txt
+mlx_nougat.egg-info/entry_points.txt
+mlx_nougat.egg-info/requires.txt
+mlx_nougat.egg-info/top_level.txt
