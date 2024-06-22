@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: verba
+Version: 0.1.1
+Summary: A collection of modules used for language processing and modeling
+Home-page: https://codeberg.org/tomathon-limited/verba
+Author: tomathon
+Author-email: tomathon@pm.me
+License: GPL-3
+Project-URL: Bug Tracker, https://codeberg.org/tomathon-limited/verba/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# **verba**
+
+## A collection of modules used for language processing and modeling 
+
+#### [FULL README COMING SOON]
