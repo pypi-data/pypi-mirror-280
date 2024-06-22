@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+Gravitad/__init__.py
+Gravitad/version.py
+Gravitad.egg-info/PKG-INFO
+Gravitad.egg-info/SOURCES.txt
+Gravitad.egg-info/dependency_links.txt
+Gravitad.egg-info/requires.txt
+Gravitad.egg-info/top_level.txt
+Gravitad.egg-info/zip-safe
