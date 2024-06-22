@@ -1,0 +1,11 @@
+README.md
+setup.py
+rolilib/__init__.py
+rolilib/exceptions.py
+rolilib/item.py
+rolilib/player.py
+rolilib.egg-info/PKG-INFO
+rolilib.egg-info/SOURCES.txt
+rolilib.egg-info/dependency_links.txt
+rolilib.egg-info/requires.txt
+rolilib.egg-info/top_level.txt
