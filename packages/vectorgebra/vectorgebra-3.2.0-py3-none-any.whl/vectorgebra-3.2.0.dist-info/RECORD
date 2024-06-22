@@ -1,0 +1,15 @@
+vectorgebra/__init__.py,sha256=a9LbMEXaIGGX5nvLXDxU0_cngUCsKSFytKcDgChd6O4,22
+vectorgebra/exceptions.py,sha256=lksekyYqlc6WttbN9XVfhjT23vJrFxVFSHP9rmk86DY,2718
+vectorgebra/functions.py,sha256=yW5_RPPcMHy-1MzhkYNkq844oHpdssv5KUjnPGEQ1Ko,43146
+vectorgebra/graph.py,sha256=WQmZSHvAVRpS8KM9V7LIf1WdMHCDPqh2abOU8FJNwPI,13533
+vectorgebra/infinity.py,sha256=K0ML6XtjzHBqtBaQT4NDVp3qGk9DoQaQMMJ0oral8wg,26441
+vectorgebra/linalg.py,sha256=DV9qI2xVFmnBa7Tneyb-f_4HwGX8T_Aqf_w6URhviWw,147376
+vectorgebra/tensor.py,sha256=FJCFfyuQWWKiB3ULVcae765o5E8_ojA4xBvHLjkusUw,27782
+vectorgebra/undefined.py,sha256=vTROUGNKL88PAqIcMGF_S9veAycFCOADe9F77Vj59dM,2374
+vectorgebra/vectorgebra.py,sha256=WJGJZrTR95erLHT-1YIgMZMyyg5g2OpBKccmfEgZ3OE,1386
+vectorgebra/vectormatrix.py,sha256=ATeq0ffpDA67QhID1R3uv1PLLqJ48a9oYj1h_O-oSrI,126843
+vectorgebra-3.2.0.dist-info/LICENSE.txt,sha256=hW3Nm9sCSNubLcBwBWPftMpMZF_nyYSwsPlYbhRsc6I,1072
+vectorgebra-3.2.0.dist-info/METADATA,sha256=enCSjZ9YoCB9D8nig58u-Cm0auD_BMUZ063gsGkQBmg,31827
+vectorgebra-3.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+vectorgebra-3.2.0.dist-info/top_level.txt,sha256=8vWMtR4CqLK2V2jFGnZS88D7IkvZNFn7HQTOFTLaZgk,12
+vectorgebra-3.2.0.dist-info/RECORD,,
