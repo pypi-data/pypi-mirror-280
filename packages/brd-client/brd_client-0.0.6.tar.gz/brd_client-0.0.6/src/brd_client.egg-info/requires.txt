@@ -1,0 +1,5 @@
+aiohttp
+click
+orjson
+playwright
+pydantic
