@@ -1,0 +1,17 @@
+pydfy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydfy/models.py,sha256=gadoJ1EuKitZcpZ9DnL8L5aSSzU-A7OsR8ZKpMMRH78,2976
+pydfy/renderer.py,sha256=tYfVRd9zvvNxroTgHiSfd0Qy9ycdTpnCtlhiJKDEoPg,3337
+pydfy/template/package.json,sha256=IMGdDGB_jeDoWB57YF09BrsrQCDHqxDL3Hy1Ef5rMBI,59
+pydfy/template/src/base.css,sha256=16emyXtu3XNlgFnSHF8-lb9AR66ThojlFv7AT8YQ76s,328
+pydfy/template/src/partials/image.html,sha256=Yjz3TJrvuFll24arX4uFEf0i37Gds21phBTe1POqMzs,110
+pydfy/template/src/partials/number.html,sha256=Ai0UiAyGOXR-4ju9uFNl43zIoFu6bq5RYZLiegf2iVY,323
+pydfy/template/src/partials/pagebreak.html,sha256=y9o1YaroTNUgBCeg9chA5jhcVCCj-TXjR9KORXH9xYE,68
+pydfy/template/src/partials/paragraph.html,sha256=2u-D5uiayJhTsgQKHKmkOdidHedVFo5ubIizWOORzFQ,63
+pydfy/template/src/partials/section.html,sha256=J0DhzgGEVf3z3V8hy9zLEymblp4lnNBSMclNjLnwqRE,80
+pydfy/template/src/partials/table.html,sha256=LMYwdPKbo7ndRAiFfhDWbP92ce1QjpMqK86IPShruPg,772
+pydfy/template/src/partials/title.html,sha256=T2QWejyAeiYv2ZzHlSDpASSB5Xi8jczEciGFrMlLly4,78
+pydfy/template/src/template.html,sha256=GeudmlfDTzgI9MWb8sxC28zGGoSsTeATbxAm6AsJcak,972
+pydfy-0.1.0.dist-info/LICENSE,sha256=VU9GxZmPgHgl8Fp-LihT6VGEe2dd2GddmVvF6H7ap7U,1073
+pydfy-0.1.0.dist-info/METADATA,sha256=T8whIHaEBOqxvNGyFXT_3b8d1BPWWq0oQdCB8Qdbqlc,5737
+pydfy-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pydfy-0.1.0.dist-info/RECORD,,
