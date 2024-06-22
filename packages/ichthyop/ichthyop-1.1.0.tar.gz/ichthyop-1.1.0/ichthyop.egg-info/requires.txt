@@ -1,0 +1,6 @@
+cartopy
+matplotlib>=1.4
+netCDF4>=1.1
+numpy>=1.9
+pyshp
+xarray>=0.1
