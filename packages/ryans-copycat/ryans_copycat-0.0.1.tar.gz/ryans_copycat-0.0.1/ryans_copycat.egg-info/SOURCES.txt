@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+copy_cat/__init__.py
+copy_cat/copy_cat.py
+ryans_copycat.egg-info/PKG-INFO
+ryans_copycat.egg-info/SOURCES.txt
+ryans_copycat.egg-info/dependency_links.txt
+ryans_copycat.egg-info/requires.txt
+ryans_copycat.egg-info/top_level.txt
