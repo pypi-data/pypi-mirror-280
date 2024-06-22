@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: wordlift-client
+Version: 1.16.0
+Summary: WordLift Fact-Checking API
+Home-page: 
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+Keywords: OpenAPI,OpenAPI-Generator,WordLift Fact-Checking API
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: urllib3 <2.1.0,>=1.25.3
+Requires-Dist: python-dateutil
+Requires-Dist: aiohttp >=3.0.0
+Requires-Dist: aiohttp-retry >=2.8.3
+Requires-Dist: pydantic >=2
+Requires-Dist: typing-extensions >=4.7.1
+
+    API for semi-automated fact-checking. Returns schema.org/ClaimReview markup. This markup is structured data that contains information about the fact check -- for example, what was the claim being assessed, who made the claim, what was the verdict.
+    
