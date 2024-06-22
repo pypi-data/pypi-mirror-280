@@ -1,0 +1,3 @@
+[console_scripts]
+tracy=tracy_binary:main
+
