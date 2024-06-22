@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "llmcollection"
+version = "0.1.0"
+description = ""
+authors = ["Mohit Prabhav GUpta <mohitp.gupta1102@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "2.3.0"
+torchtune = "0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
