@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: pubsubplus-opentelemetry-integration
+Version: 1.0.1
+Summary: Solace PubSub+ OpenTelemetry Integration API for Python.
+License: LICENSE.txt
+Author: Solace
+Author-email: support@solace.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: opentelemetry-api (==1.22.0)
+Requires-Dist: solace-pubsubplus (>=1.7.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# pubsubplus-opentelemetry-integration
+The Solace PubSub+ OpenTelemetry Integration API for Python is used to handle injection and extraction of tracing information for carrier objects (Solace message) for a Solace PubSub+ Event Broker.
+Injection is done through the OutboundMessageCarrier and OutboundMessageSetter objects, while extraction is done through the InboundMessageCarrier and InboundMessageGetter objects.
+
+# Dependencies
+The Solace PubSub+ OpenTelemetry Integration API for Python is dependent on Solace PubSub+ Messaging API for Python 1.7.0 or greater.
+You can install this dependency from [pypi.org](https://pypi.org/project/solace-pubsubplus/).
+
+The Solace PubSub+ OpenTelemetry Integration API for Python requires Python 3.8 or greater.
+
+# Getting Started
+To get started using the Solace PubSub+ OpenTelemetry Integration API for Python, include it in your requirements.txt or pyproject.toml file.
+
+## Documentation
+An online reference for the API is available at [docs.solace.com](https://docs.solace.com/API/API-Developer-Guide-Python/Python-API-Distributed-Tracing.htm).
+
+## Samples
+Sample applications are available at the [Solace Developer Community](https://github.com/SolaceSamples/solace-samples-python)
+
+## Messaging API Reference
+A developer reference guide for the Solace PubSub+ Messaging API is available at [docs.solace.com](https://docs.solace.com/API-Developer-Online-Ref-Documentation/python/)
+
+# OS Support
+The Solace PubSub+ OpenTelemetry API for Python has a dependency on the Solace PubSub+ Messaging API for Python, and so supports only the same operating systems as are supported by this dependency.
+* Linux (x86/x86_64) variants with Linux 2.6 or later
+* Windows 64-bit
+* Windows 32-bit
+* MacOS 11.0 and later
+
+# Customer Support and Resources
+* [Solace Support Team](https://solace.com/support/)
+* [Solace Developer Portal](https://www.solace.dev/)
+* [Solace Technology](https://solace.com/products/tech/)
+
