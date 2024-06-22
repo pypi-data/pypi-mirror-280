@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+elsa_menu/ElsaMenu.egg-info/PKG-INFO
+elsa_menu/ElsaMenu.egg-info/SOURCES.txt
+elsa_menu/ElsaMenu.egg-info/dependency_links.txt
+elsa_menu/ElsaMenu.egg-info/top_level.txt
