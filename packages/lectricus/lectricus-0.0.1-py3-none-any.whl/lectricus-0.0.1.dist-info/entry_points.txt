@@ -1,0 +1,2 @@
+[console_scripts]
+lectricus = lectricus.command_line:main
