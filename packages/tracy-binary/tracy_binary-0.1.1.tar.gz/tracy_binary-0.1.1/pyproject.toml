@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tracy-binary"
+version = "0.1.1"
+description = "Binary packaging of the Tracy base caller"
+authors = ["Kevin Schmittle <kevin@schmittle.net>"]
+license = "BSD 3-Clause License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.scripts]
+tracy = "tracy_binary:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
