@@ -1,0 +1,3 @@
+[console_scripts]
+build-nextjs-app=build_nextjs_app.main:app
+
