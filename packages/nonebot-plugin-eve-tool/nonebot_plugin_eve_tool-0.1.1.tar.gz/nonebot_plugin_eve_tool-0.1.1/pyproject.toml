@@ -1,0 +1,43 @@
+[project]
+name = "EVE_TEST_BOT"
+version = "0.1.0"
+description = "EVE_TEST_BOT"
+readme = "README.md"
+requires-python = "=3.10"
+
+[tool.nonebot]
+adapters = [
+    { name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11" }
+]
+plugins = ["nonebot_plugin_alconna", "nonebot_plugin_htmlrender", "nonebot_plugin_apscheduler"]
+plugin_dirs = ["src/plugins"]
+builtin_plugins = []
+
+[tool.poetry]
+name = "nonebot-plugin-eve-tool"
+version = "0.1.1"
+description = "A NoneBot based plugin provides information query services for EVE online."
+authors = ["zifox666 <zifox666@gmail.com>"]
+license = "GPL-3.0 license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10"
+aioredis = "^2.0.1"
+aiomysql = "^0.2.0"
+aiohttp = "^3.9.5"
+jieba = "^0.42.1"
+requests = "^2.32.3"
+tqdm = "^4.66.4"
+qrcode = "^7.4.2"
+matplotlib = "^3.9.0"
+numpy = "^2.0.0"
+scipy = "^1.13.1"
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
