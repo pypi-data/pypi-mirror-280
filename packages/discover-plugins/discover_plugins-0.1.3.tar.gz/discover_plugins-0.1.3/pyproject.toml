@@ -1,0 +1,26 @@
+[project]
+name = "discover-plugins"
+dynamic = ["version"]
+description = "Discover installed plugins"
+requires-python = ">=3.9"
+readme = "README.md"
+authors = [
+  { name = "Felix Scherz", email = "felixwscherz@gmail.com" },
+]
+
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "setuptools-scm>=8.0"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+
+[project.urls]
+Documentation = "https://github.com/felixscherz/discover-plugins#readme"
+Issues = "https://github.com/felixscherz/discover-plugins/issues"
+Source = "https://github.com/felixscherz/discover-plugins"
+
+[project.scripts]
+discover-plugins = "discover_plugins:inject"
