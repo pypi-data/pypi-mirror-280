@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyAlgebra.py
+src/PyAlgebraLib.egg-info/PKG-INFO
+src/PyAlgebraLib.egg-info/SOURCES.txt
+src/PyAlgebraLib.egg-info/dependency_links.txt
+src/PyAlgebraLib.egg-info/top_level.txt
