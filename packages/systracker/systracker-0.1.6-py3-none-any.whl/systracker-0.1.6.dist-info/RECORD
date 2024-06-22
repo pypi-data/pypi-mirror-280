@@ -1,0 +1,12 @@
+systrack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+systrack/dashboard.py,sha256=HhmJEs8roI1pVOxECLrp2I46RQRyqZpefeNnBooLlgU,1488
+systrack/hardware_info.py,sha256=NT3hiUmEqnv_t7nH4rCQHgbE1E0dp_Nwg5kvsps6qt4,70
+systrack/main.py,sha256=HYWzOwiYSzDjIzFxFeRCLERy6AgRHMmfU8vNmlnVQJw,5276
+systrack/system_monitor.py,sha256=YHp9BVQ82-_NicZQElY_VmHc7z5hu0nW7FGAq80tESU,1653
+systrack/utils.py,sha256=71SU6ONBeRoKod84wjA_zRoQdfe-B6xPrbREYYayL44,90
+systracker-0.1.6.dist-info/LICENSE,sha256=AUzKyqN4CKfQ2Gq4Lms_ii10RqODzc5ZD9sD07njP_0,1068
+systracker-0.1.6.dist-info/METADATA,sha256=XBPCS0aQzo2DuKXDur4wQqGLu3jf_g2YiNGJe5w6ovQ,2326
+systracker-0.1.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+systracker-0.1.6.dist-info/entry_points.txt,sha256=UEgIDyuqPBeOqd3K1UGaDWhQ9LwuXdWfu689SHhAqNI,49
+systracker-0.1.6.dist-info/top_level.txt,sha256=18LfZTc30xO0neHtl-roeTqpXZUtyBKDFQ9txn9ziz0,9
+systracker-0.1.6.dist-info/RECORD,,
