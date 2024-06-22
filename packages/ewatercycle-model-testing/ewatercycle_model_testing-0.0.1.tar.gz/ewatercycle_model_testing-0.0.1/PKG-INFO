@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: ewatercycle-model-testing
+Version: 0.0.1
+Summary: Comprehensive and flexible testing framework for hydrological model plugins that intend to integrate with the eWaterCycle platform.
+Author: Ferdi Helvensteijn, Konrad Gniaź, Alexander van den Arend Schmidt, Robert Mertens, Floris van der Voorn
+Author-email: a.f.helvensteijn@student.tudelft.nl, k.gniaz@student.tudelft.nl, a.f.vandenarendschmidt@student.tudelft.nl, r.h.mertens@student.tudelft.nl, f.c.g.vandervoorn@student.tudelft.nl
+License: Apache-2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: PyYAML==6.0.1
+Requires-Dist: ewatercycle~=2.1.0
+Requires-Dist: ewatercycle-hype==0.0.1
+Requires-Dist: ewatercycle-leakybucket==0.0.2
+Requires-Dist: ewatercycle-lisflood==0.0.1
+Requires-Dist: ewatercycle-marrmot==0.0.2
+Requires-Dist: ewatercycle-pcrglobwb==0.0.2
+Requires-Dist: ewatercycle-wflow==0.0.2
+Requires-Dist: markdown2~=2.4.13
+Requires-Dist: Cython~=3.0.10
+Requires-Dist: netCDF4~=1.6.5
+Requires-Dist: ttkbootstrap~=1.10.1
+Requires-Dist: xarray~=2024.5.0
+Requires-Dist: era5cli==1.4.2
+Provides-Extra: dev
+Requires-Dist: pytest~=8.2.0; extra == "dev"
+Requires-Dist: pylint==3.2.3; extra == "dev"
+Requires-Dist: isort==5.13.2; extra == "dev"
+
+# Plugin Testing Framework for eWaterCycle
+
+[//]: # (## Badges)
+[//]: # (TODO: On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.)
+
+## Description
+The projects goal is to develop a comprehensive and extendable testing framework for hydrological model plugins that intend to integrate with the eWaterCycle platform. This framework will ensure the accuracy and reliability of these models, such that they can be used and compared, properly and consistently inside the eWaterCycle platform.
+
+## Installation
+Install the conda environment as specified by the eWaterCycle documentation [here](https://ewatercycle.readthedocs.io/en/latest/system_setup.html#conda-environment). 
+
+Then just run:
+```
+pip install ewatercycle-model-testing
+```
+Inside your terminal.
+
+## Usage
+To see examples and explanations of how to use and extend the testing framework, please read the WIKI or documentation.
+
+## Contributing
+Any additions to the repository should follow the code style guidelines as specified here:
+
+- **pytest** passes, with >90% code coverage for the added code.
+- **pylinting** gives 10/10 following the rules specified in the pyproject.toml file, which should be located automatically.
+- **pydocstyle** gives no issues (every method and class is accompanied by a correctly formatted docstring)
+
+## Authors and acknowledgment
+This project is developed by 
+- Konrad Gniaź
+- Ferdi Helvensteijn
+- Robert Mertens
+- Alexander van den Arend Schmidt
+- Floris van der Voorn
+
+We extend our gratitude to our client Rolf Hut for the opportunity to work on this project, and to Timur Oberhuber (Teaching Assistant), Burcu Ozkan (TU Coach), and Martin Skrodzki (TU Coordinator) for their guidance.
+
+## License
+This project is licensed under the Apache License 2.0 - see the LICENSE file for details. This is the same license as is used by eWaterCycle [here](https://github.com/eWaterCycle/ewatercycle/blob/main/LICENSE).
+
+## Project status
+This project is ongoing up until the final presentation as scheduled on the 27th of June.
