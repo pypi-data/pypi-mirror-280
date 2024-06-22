@@ -1,0 +1,13 @@
+tensorhue/__init__.py,sha256=DmuoJLK5LOuecKvFPBPv_vCWsjaV_FUDNd-E_LY8vvM,1533
+tensorhue/_jax.py,sha256=TMe-px6KJuDX83RF9eAXCbzcCbwNipYFB2KAKV4p7cc,1064
+tensorhue/_numpy.py,sha256=YIN7j2rqj9GLxEp6IfDFtyQwGrIgbitaJ2vVca6FXQs,216
+tensorhue/_print_opts.py,sha256=LmPdZTh2n3wG7MUYX6ojajjdu-mXhBi2gsWWpCoy2aA,1982
+tensorhue/_torch.py,sha256=17qvTo1TQiP3MqO6Twz5i-25yJ4Gv0fVCwGdeewXmfQ,712
+tensorhue/colors.py,sha256=ukTW7jWiwm3C19PGLNV8e9_102rO5DdP6BuP014xiX0,3529
+tensorhue/eastereggs.py,sha256=wAB6fG6PFwFunWkO8tPxbtPPj9YKrxCo3NlGQnTgSk0,1025
+tensorhue/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorhue/viz.py,sha256=V04uRrriU5Gkw6BafsTLWh2LYZEBdxUoRKrVmi4bf3w,4186
+tensorhue-0.0.11.dist-info/METADATA,sha256=_TeVuQY9uI1LGMv_jPqTMQRznsZCSrxqcgpyD8okOzk,1170
+tensorhue-0.0.11.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+tensorhue-0.0.11.dist-info/top_level.txt,sha256=x2r4Tfoi-7nsb0pL-P8q8DGb1uZBucQJdRdF5GnlZBU,10
+tensorhue-0.0.11.dist-info/RECORD,,
