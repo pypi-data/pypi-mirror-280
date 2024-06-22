@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Time2Feat
+Version: 0.0.2
+Summary: A new method for clustering multivariate time series by adopting the best statistical features.
+Home-page: https://github.com/protti/time2feat
+Author: Del Buono Francesco, Tiano Donato
+Author-email: donatotiano@gmail.com
+Requires-Dist: tsfresh~=0.20
+Requires-Dist: scikit-learn~=1.3
+Requires-Dist: numpy~=1.25
+Requires-Dist: pandas~=2.1
+Requires-Dist: tqdm~=4.66
+Requires-Dist: numba~=0.58
+Requires-Dist: dask~=2023.10
+Requires-Dist: scipy~=1.11
