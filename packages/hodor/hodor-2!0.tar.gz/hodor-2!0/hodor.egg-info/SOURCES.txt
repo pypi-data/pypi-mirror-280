@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+hodor.py
+setup.py
+hodor.egg-info/PKG-INFO
+hodor.egg-info/SOURCES.txt
+hodor.egg-info/dependency_links.txt
+hodor.egg-info/entry_points.txt
+hodor.egg-info/top_level.txt
