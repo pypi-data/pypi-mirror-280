@@ -1,0 +1,7 @@
+setup.py
+proxyese/__init__.py
+proxyese/proxyese.py
+proxyese.egg-info/PKG-INFO
+proxyese.egg-info/SOURCES.txt
+proxyese.egg-info/dependency_links.txt
+proxyese.egg-info/top_level.txt
