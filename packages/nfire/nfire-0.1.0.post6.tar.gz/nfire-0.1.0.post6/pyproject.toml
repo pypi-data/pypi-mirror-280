@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nfire"
+version = "0.1.0-6"
+description = ""
+authors = ["Abdelrhman Nile <abdelrhmannile@gmail.com>"]
+readme = "README.md"
+packages = [{include = "nfire"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
