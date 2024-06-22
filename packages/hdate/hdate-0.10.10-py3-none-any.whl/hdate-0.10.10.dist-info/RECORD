@@ -1,0 +1,11 @@
+hdate-0.10.10.dist-info/METADATA,sha256=B32FaAqKmDRpYKfjnKrgrS-n6H-Z9MXGYzq_5YEkDAc,2728
+hdate-0.10.10.dist-info/WHEEL,sha256=SOP-4bEE0jbVaCHQGVvF08uWxk5rcSsfEybvoQVHlD8,90
+hdate-0.10.10.dist-info/licenses/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+hdate/__init__.py,sha256=wJpB-C0Ceb87FOPYwUm5cwblDNvXYuREJ5KTNmwJHLk,454
+hdate/converters.py,sha256=H13D_CCG_Qxjh7-wh2Bo9e-xzVs6NBSETIdhUBnhQUg,6379
+hdate/date.py,sha256=eIjXI15hZuz8go0QRRJoxhMA5D0AJPArPU11n8VAlWE,19119
+hdate/hebrew_date.py,sha256=FrI7TGLjrgWl1d25swoHIbVyjWxVn_NQZMQWG3Po9Po,359
+hdate/htables.py,sha256=jYS_CtRqGaIshybhFslrhBVUgkDeQ9KmQnENtOhuBn4,27118
+hdate/location.py,sha256=RLRH7IXwidxg8dlqdZQ0dGzhV3-5TNFfsTVF8riuOc4,1412
+hdate/zmanim.py,sha256=sFmjQBuQMMy2JPkUFCmID29LncrVXzNN9Vjy-DyNIJM,14504
+hdate-0.10.10.dist-info/RECORD,,
