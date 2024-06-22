@@ -1,0 +1,2 @@
+[console_scripts]
+tselai = tselai.cli:cli

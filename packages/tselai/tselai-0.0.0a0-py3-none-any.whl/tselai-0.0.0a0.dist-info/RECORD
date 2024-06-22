@@ -1,0 +1,9 @@
+tselai/__init__.py,sha256=5ka_ue9d1DFAsiwX9HqEZhT0PvMv8rykVanHNYU1AYY,41
+tselai/__main__.py,sha256=XBxwPO1abJA6WwNvhMjKVvxkxqDN1GOarH5nRIPNLXs,58
+tselai/cli.py,sha256=1YxBLxF-uyWTDNUrM_T8D9Kfgrlz6OpLeeR9icNK4iY,223
+tselai-0.0.0a0.dist-info/LICENSE,sha256=yFcmEyMnfsnredLZvoi7xSTErmpLt7n644Jwc5yUp-s,1507
+tselai-0.0.0a0.dist-info/METADATA,sha256=nnFbieVKIWfSNzEUDc4uFOfgFz_pk2fejVcE0yXhIaQ,2255
+tselai-0.0.0a0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+tselai-0.0.0a0.dist-info/entry_points.txt,sha256=gwkF1JAe71sWoCNNL6WLYdKW-ngb0dveNo7_CNuFsEY,42
+tselai-0.0.0a0.dist-info/top_level.txt,sha256=bZYT6FgtszPComiIvb1oa6T3ZrtcE6MPLkFAflfARQo,7
+tselai-0.0.0a0.dist-info/RECORD,,
