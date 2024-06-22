@@ -1,0 +1,327 @@
+Metadata-Version: 2.1
+Name: fabric-ops
+Version: 0.1.2
+Summary: English: Fabric-ops is a library for automating tasks with Microsoft Fabric resources. Español: Fabric-ops es una biblioteca para automatizar tareas con los recursos de Microsoft Fabric.
+Home-page: https://dalatic.com/fabric-ops
+Download-URL: https://github.com/dalatic/fabric-ops
+Author: Dalatic S.L
+Author-email: info@dalatic.com
+License: Proprietary
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: azure-core
+Requires-Dist: azure-identity
+Requires-Dist: azure-storage-blob
+Requires-Dist: azure-storage-file-datalake
+Requires-Dist: boto3
+Requires-Dist: botocore
+Requires-Dist: certifi
+Requires-Dist: cffi
+Requires-Dist: charset-normalizer
+Requires-Dist: cryptography
+Requires-Dist: idna
+Requires-Dist: install
+Requires-Dist: isodate
+Requires-Dist: jmespath
+Requires-Dist: msal
+Requires-Dist: msal-extensions
+Requires-Dist: packaging
+Requires-Dist: portalocker
+Requires-Dist: pycparser
+Requires-Dist: PyJWT
+Requires-Dist: python-dateutil
+Requires-Dist: requests
+Requires-Dist: s3transfer
+Requires-Dist: setuptools
+Requires-Dist: six
+Requires-Dist: typing-extensions
+Requires-Dist: urllib3
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: azure-mgmt-resource
+Requires-Dist: azure-mgmt-resourcegraph
+
+# fabric-ops
+
+
+
+pyfabric es una librería de Python que automatiza procesos y trabaja con recursos de Microsoft Fabric.
+
+
+
+## Instalación
+
+
+
+Para instalar la librería, ejecuta el siguiente comando:
+
+
+
+```bash
+
+pip install fabric-ops
+
+```
+
+
+
+## Configuración
+
+
+
+### Consentimiento de Administrador
+
+
+
+Para utilizar esta librería, es necesario conceder permisos de administrador. Los permisos requeridos son:
+
+
+
+- Microsoft Graph
+
+  - Mail.Send (Aplicación): Send mail as any user
+
+- Power BI Service
+
+  - Tenant.Read.All (Delegada): View all content in tenant
+
+
+
+### Creación de un Secreto
+
+
+
+Crea un secreto con la siguiente estructura:
+
+
+
+```json
+
+{
+
+  "tenant_id": "con el tenant",
+
+  "client_id": "el id",
+
+  "client_secret": "el secreto"
+
+}
+
+```
+
+
+
+### Configuración en Windows
+
+
+
+Si vas a utilizar la librería en Windows, crea una variable de entorno llamada `MSFABRIC_CONF` con el valor del secreto creado anteriormente.
+
+
+
+1. Abre el Panel de Control y ve a Sistema y Seguridad.
+
+2. Haz clic en Sistema y luego en Configuración avanzada del sistema.
+
+3. En la pestaña Avanzado, haz clic en Variables de entorno.
+
+4. En la sección Variables del sistema, haz clic en Nuevo.
+
+5. Ingresa `MSFABRIC_CONF` como el nombre de la variable y el valor del secreto como el valor de la variable.
+
+6. Haz clic en Aceptar y luego en Aceptar nuevamente para guardar los cambios.
+
+
+
+Además, es necesario crear otra variable de entorno llamada `MSFABRIC_EMAIL_SENDER`, que debe contener el correo electrónico que enviará las notificaciones, el services principal se encargará de enviar correo con los permisos establecidos anteriormente a nombre de la cuenta de elección. Se recomienda utilizar un correo específico para notificaciones y no uno personal.
+
+
+
+## Uso
+
+
+
+Aquí hay un ejemplo básico de cómo utilizar la librería:
+
+
+
+```python
+
+from fabric_ops import Fabric
+
+
+
+# Uso del Fabric con notificaciones opcionales
+
+fabric = Fabric(send_notification=True, email_list=["LISTA DE CORREOS"], language="es")
+
+
+
+# Reanudar capacidad
+
+fabric.capacity(name="nombre capacidad").resume()
+
+
+
+# O tal vez suspender capacidad
+
+fabric.capacity(name="nombre capacidad").suspend()
+
+```
+
+
+
+- `send_notification` es opcional, si se establece en `True`, `email_list` debe ser proporcionada.
+
+- `language` es opcional, y se utiliza para recibir el correo en inglés o español.
+
+
+
+
+
+
+
+---
+
+
+
+# fabric-ops
+
+
+
+fabric-ops is a Python library that automates processes and works with Microsoft Fabric resources.
+
+
+
+## Installation
+
+
+
+To install the library, run the following command:
+
+
+
+```bash
+
+pip install fabric-ops
+
+```
+
+
+
+## Configuration
+
+
+
+### Admin Consent
+
+
+
+To use this library, you need to grant admin permissions. The required permissions are:
+
+
+
+- Microsoft Graph
+
+  - Mail.Send (Application): Send mail as any user
+
+- Power BI Service
+
+  - Tenant.Read.All (Delegated): View all content in tenant
+
+
+
+### Creating a Secret
+
+
+
+Create a secret with the following structure:
+
+
+
+```json
+
+{
+
+  "tenant_id": "your tenant",
+
+  "client_id": "your id",
+
+  "client_secret": "your secret"
+
+}
+
+```
+
+
+
+### Configuration on Windows
+
+
+
+If you are going to use the library on Windows, create an environment variable called `MSFABRIC_CONF` with the value of the previously created secret.
+
+
+
+1. Open the Control Panel and go to System and Security.
+
+2. Click on System and then on Advanced system settings.
+
+3. In the Advanced tab, click on Environment Variables.
+
+4. In the System variables section, click on New.
+
+5. Enter `MSFabric_Conf` as the variable name and the secret value as the variable value.
+
+6. Click OK and then OK again to save the changes.
+
+
+
+Additionally, you need to create another environment variable called `MSFABRIC_EMAIL_SENDER`, which should contain the email address that will send the notifications. It is recommended to use a specific email for notifications rather than a personal one.
+
+
+
+## Usage
+
+
+
+Here is a basic example of how to use the library:
+
+
+
+```python
+
+from fabric_ops import Fabric
+
+
+
+# Using Fabric with optional notifications
+
+fabric = Fabric(send_notification=True, email_list=["LIST OF EMAILS"], language="en")
+
+
+
+# Resume capacity
+
+fabric.capacity(name="fabdalaticdev001").resume()
+
+
+
+# Or maybe suspend capacity
+
+fabric.capacity(name="fabdalaticdev001").suspend()
+
+```
+
+
+
+- `send_notification` is optional, if set to `True`, `email_list` must be provided.
+
+- `language` is optional and is used to receive the email in English or Spanish.
+
+
+
