@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: qattn
+Version: 0.1.1
+Summary: Efficient GPU Kernels in Triton for Quantized Vision Transformers
+Author-email: Piotr Kluska <klu@zurich.ibm.com>, Florian Scheidegger <eid@zurich.ibm.com>, "A. Cristiano I. Malossi" <acm@zurich.ibm.com>, "Enrique S. Quintana-Ortí" <quintana@disca.upv.es>
+Maintainer-email: Piotr Kluska <klu@zurich.ibm.com>
+License: MIT License
+        
+        Copyright (c) 2024 International Business Machines
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, https://github.com/IBM/qattn
+Project-URL: repository, https://github.com/IBM/qattn
+Keywords: quantization,vision transformers,efficient,gpu
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch >=2.0
+Requires-Dist: triton >=2.0
+Requires-Dist: timm >=0.9
+
+# QAttn
+
+Welcome to the QAttn documentation! QAttn (pronounced like katana) is a [python](https://docs.python.org/3) only framework with GPU kernels implemented in [Triton](https://triton-lang.org/) for quantized vision transformers. This framework implements integer and mixed-precision kernels for operations within vision transformers (currently matrix multiplication and attention) for static and dynamic quantization.
+
+## Installation
+
+To install the package, run
+
+```bash
+pip install qattn
+```
+
+or install from source to get the latest bleeding-edge source version.
+
+```bash
+pip install git+https://github.com/ibm/qattn.git
+```
+
+This package depends on Triton, requiring NVIDIA GPU (preferably Ampere or newer), and is tested only on Linux.
+
+
+To install and modify source code, you can clone the repository locally and install it in editable mode.
+
+```bash
+git clone https://github.com/ibm/qattn.git
+cd qattn
+pip install -e .
+```
+
+## Usage
+
+In the [Examples](examples) section, we present static and dynamic quantization usage samples using QAttn. QAttn is designed to be compatible with PyTorch FX-Quantization to replace dynamically models' graph floating-point modules with quantized ones. This comes with the downside of being unable to capture the control statements in the graph.
+
+## Future direction
+
+In the future, we will support the rest of the basic Vision Transformers operations (GELU, LayerNorm, Add, etc.) for fully quantized models. Next, we will move to the PyTorch 2.0 torchdynamo graph capture to enable integration with `torch.compile`.
+
+## Citation
+
+If you use the project in your research paper or thesis, we would appreciate to use following citation:
+
+```bibtex
+@InProceedings{Kluska_2024_CVPR,
+    author    = {Kluska, Piotr and Castell\'o, Adri\'an and Scheidegger, Florian and Malossi, A. Cristiano I. and Quintana-Ort{\'\i}, Enrique S.},
+    title     = {QAttn: Efficient GPU Kernels for Mixed-precision Vision Transformers},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2024},
+    pages     = {3648-3657}
+}
+```
+
+## Acknowledgments
+
+> The work is conducted within the project APROPOS. This project has received funding from the European Union’s Horizon 2020 (H2020) Marie Sklodowska-Curie Innovative Training Networks H2020-MSCA-ITN-2020 call, under the Grant Agreement no 956090. Project link: https://apropos-project.eu/
