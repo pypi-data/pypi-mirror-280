@@ -1,0 +1,14 @@
+easyrag_tools.tools.hello_world_tool.HelloWorldTool.greeting:
+  name: Hello World Tool
+  type: python
+  inputs:
+    url:
+      type:
+        - string
+    query:
+      type:
+        - string
+  description: This is my hello world tool.
+  module: easyrag_tools.tools.hello_world_tool
+  class_name: HelloWorldTool
+  function: greeting

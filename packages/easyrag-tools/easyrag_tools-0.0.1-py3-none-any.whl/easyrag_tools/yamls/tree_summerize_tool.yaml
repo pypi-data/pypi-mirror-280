@@ -1,0 +1,17 @@
+easyrag_tools.tools.tree_summerize_tool.MyTreeSummarize.synthesize:
+  name: Tree summerize tool
+  type: python
+  inputs:
+    llm_conn:
+      type:
+        - OpenAIConnection
+    query_str:
+      type:
+        - string
+    nodes:
+      type:
+        - list
+  description: This is llamaindex tree summerize.
+  module: easyrag_tools.tools.tree_summerize_tool
+  class_name: MyTreeSummarize
+  function: synthesize
