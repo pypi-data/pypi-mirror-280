@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cbz_generator
+Version: 0.0.1
+Summary: Utility for converting images into a CBZ archive individually or in bulk.
+Author: Tyler Crosby
+Author-email: Tyler Crosby <contact@tycro.io>
+Project-URL: Homepage, https://github.com/croozelberryTea/cbz-generator
+Project-URL: Issues, https://github.com/croozelberryTea/cbz-generator/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cbz-generator
+
+Small utility for packing a directory of images into a .CBZ archive.
