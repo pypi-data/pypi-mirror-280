@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "pyeventhub"
+version = "0.1.2"
+description = "This Python module implements an event handling framework (`EventEmitter`) with support for prioritization (`PriorityEvent`), event filtering, and processing using threading, queues (`queue` module), heap operations (`heapq` module), and logging (`logging` module) capabilities."
+authors = ["fadedreams7 <fadedreams7@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/fadedreams/pyeventhub"
+repository = "https://github.com/fadedreams/pyeventhub"
+keywords = ["event emitter", "event hub", "utilities"]
+classifiers = [
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities"
+]
+include = [
+    "LICENSE",
+    "README.md"  # Ensure README.md is included here if it's part of your package
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
