@@ -1,0 +1,11 @@
+appdirs
+setuptools
+build
+twine
+
+[dev]
+check-manifest
+
+[test]
+coverage
+pytest
