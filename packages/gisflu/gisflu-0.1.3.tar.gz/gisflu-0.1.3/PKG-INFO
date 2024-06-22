@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: gisflu
+Version: 0.1.3
+Summary: Access the GISAID Flu database using Python
+Author-Email: william <william_swl@163.com>
+License: MIT
+Requires-Python: >=3.8
+Requires-Dist: httpx>=0.27.0
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: pandas>=2.0.3
+Requires-Dist: tqdm>=4.66.4
+Requires-Dist: stamina>=24.2.0
+Description-Content-Type: text/markdown
+
+# gisflu
