@@ -1,0 +1,11 @@
+[package]
+name = "rustyfresh"
+version = "1.0.0"
+edition = "2018"
+
+[dependencies]
+pyo3 = { version = "0.18", features = ["extension-module"] }
+
+[package.metadata.maturin]
+name = "rustyfresh"
+bindings = "pyo3"
