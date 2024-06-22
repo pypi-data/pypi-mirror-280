@@ -1,0 +1,11 @@
+workforcerappi/__init__.py,sha256=tIzDi-mnnEGJBKFMooLuj1OS-pYgFKKDxZYwrS_xCA8,61
+workforcerappi/data_processing.py,sha256=JulMr7v6UbNZxtnS99d5rYG6ZoJAUrDEZ_-fsi5QBx8,7812
+workforcerappi/dbconn.py,sha256=PwVHFBENJGbHSVE12VM_2dzvrhTl4GeJF7kyLyeYhM4,1396
+workforcerappi/fetch_data.py,sha256=BOKtLIXGk580fEwzAVrnVjciVPmseKNm2HcgjBTEwUw,15858
+workforcerappi/main.py,sha256=BcVHXfmavPlCoYPI1eno8BDxNVUcYK4xkobUCRqAkro,63
+workforcerappi/modeling.py,sha256=DIzpsM1hkaUjVVyWKSVgCzv-bsHL6_AIElT0Nl5s-o0,1815
+workforcerappi/order_distribution.py,sha256=XLNtZbzGAwFU6PtK-1fMqi9xDnHtdM2p80ehV8aJpRM,22446
+workforcerappi-0.1.0.dist-info/METADATA,sha256=mrgwQIsD1UCfRYoStDliWenql4ExhaxQa8o1LQ-4JDg,3629
+workforcerappi-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+workforcerappi-0.1.0.dist-info/top_level.txt,sha256=9EOzlGytNRgVpo4J8o8cy2uoINIQXPgIDEuoRYj-6RA,15
+workforcerappi-0.1.0.dist-info/RECORD,,
