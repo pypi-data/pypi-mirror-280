@@ -1,0 +1,11 @@
+precisetranscribe/__init__.py,sha256=NmL5gJDO2fr1ge0AkV-ouyLb1sF7sVoDjUGYKR4dsjQ,2778
+precisetranscribe/__main__.py,sha256=AiO5v49e7rsob7GoIYJ5vK6wICZOM9T_C0qJlBDwqbo,446
+precisetranscribe/gpt.py,sha256=2wFay6a78nrmpJnVPQQ3n2wZwLtzS0M6GK_wziYYa6A,683
+precisetranscribe/openai.py,sha256=dyi-9D3-sZ21HEGxSH5H9qj5b0AuE66yV_76ubvUfMg,724
+precisetranscribe/utils.py,sha256=mP1c8JuOsHIRy5efJfrq2k0L0BcdkPpHC8nzFsrWfv8,6251
+precisetranscribe/whisper.py,sha256=2i2FDS5KzfMd15gYSf4X_SUoni6DjmKFfDuOq05Ubhw,585
+precisetranscribe-0.2.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+precisetranscribe-0.2.0.dist-info/METADATA,sha256=-g5Hrz1ijMt0D5VxF0Q3CVSm7w-as5dlyWCNODlUadc,2002
+precisetranscribe-0.2.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+precisetranscribe-0.2.0.dist-info/top_level.txt,sha256=qE3f6amqenDHCRTHnYbAjggSuMEFNoCCmBcimEkyGLQ,18
+precisetranscribe-0.2.0.dist-info/RECORD,,
