@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: duda_dummy
+Version: 0.0.2
+Summary: A dummy project to learn pypi publishing
+Home-page: https://github.com/dudacgf
+Author: dudacgf
+Author-email: dudacgf.cadastro@gmail.com
+Project-URL: Docs, https://github.com/dudacgf/duda_dummy
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
