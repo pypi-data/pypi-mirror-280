@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/thiliapr_tools.egg-info/PKG-INFO
+src/thiliapr_tools.egg-info/SOURCES.txt
+src/thiliapr_tools.egg-info/dependency_links.txt
+src/thiliapr_tools.egg-info/top_level.txt
+src/tprtools/__init__.py
+src/tprtools/jsonpath.py
