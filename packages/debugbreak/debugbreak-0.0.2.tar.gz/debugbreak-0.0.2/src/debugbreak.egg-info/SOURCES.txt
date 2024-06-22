@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/debugbreak/__init__.py
+src/debugbreak/debugbreak.dll
+src/debugbreak.egg-info/PKG-INFO
+src/debugbreak.egg-info/SOURCES.txt
+src/debugbreak.egg-info/dependency_links.txt
+src/debugbreak.egg-info/top_level.txt
+src/debugbreak/src/main.c

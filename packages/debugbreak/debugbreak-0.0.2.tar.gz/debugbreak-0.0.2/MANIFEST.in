@@ -1,0 +1,2 @@
+include src/debugbreak/debugbreak.dll
+include src/debugbreak/src/main.c
