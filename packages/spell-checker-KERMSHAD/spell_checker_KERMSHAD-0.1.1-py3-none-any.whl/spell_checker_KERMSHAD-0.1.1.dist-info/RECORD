@@ -1,0 +1,11 @@
+spell_checker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spell_checker/dictionary.py,sha256=YzF65RAnihNJCGAdP9c4Xdx0l98J3y6oZnvU9DhWxBs,2536
+spell_checker/main.py,sha256=CHgUhkgHMHJFaNL9t2F5bziGs9_qzlm9zv2zpFgtVvY,658
+spell_checker/spellchecker.py,sha256=C2QT9Zct0CdM1gPAuqdqCCHqt_lbBvt6xQaoWcMxsM0,5981
+spell_checker/utils.py,sha256=EY5I_ZpRLWxxZgBxTEveUa5gZEsdHGgrHc64wqAoi1E,218
+spell_checker/dictionaries/english.txt,sha256=PYFfBeUAsMKgALrMgSdCf2KxHXS3nkfswbSv8k-emos,575328
+spell_checker_KERMSHAD-0.1.1.dist-info/LICENSE,sha256=rY-GA-hD-Jc4hTE-PaXmPl1SLVDDqHaHXUuWu_tJ4RI,32422
+spell_checker_KERMSHAD-0.1.1.dist-info/METADATA,sha256=0XMA3JhN67ri3WjG66KaUyFgkbrhGaRwoonx6AZEdd4,1132
+spell_checker_KERMSHAD-0.1.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+spell_checker_KERMSHAD-0.1.1.dist-info/top_level.txt,sha256=nSgLJiZwK99gNNYTlCKvgC2sQkdeV65xKYwjEzBEDxM,14
+spell_checker_KERMSHAD-0.1.1.dist-info/RECORD,,
