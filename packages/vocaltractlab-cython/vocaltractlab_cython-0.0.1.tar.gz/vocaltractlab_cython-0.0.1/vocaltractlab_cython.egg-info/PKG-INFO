@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: vocaltractlab_cython
+Version: 0.0.1
+Summary: Cython wrapper for VocalTractLabApi
+License-File: LICENSE
