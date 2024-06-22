@@ -1,0 +1,3 @@
+[console_scripts]
+tunex=tunex.__main__:main
+
