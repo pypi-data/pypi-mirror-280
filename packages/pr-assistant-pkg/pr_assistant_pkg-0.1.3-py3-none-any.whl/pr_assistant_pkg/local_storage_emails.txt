@@ -1,0 +1,136 @@
+```json
+{
+  "emails": {
+    "Adnan Aji": {
+      "address": "adnan.aji@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Ahmed Saad<br>2. Al-Baraa Bakri<br>3. Hasan Assi<br>4. Ahmad Akilan<br>5. Nizar Shehada"
+    },
+    "Ahmed Saad": {
+      "address": "ahmed.saad@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Adnan Aji<br>2. Dema Dada<br>3. Al-Baraa Bakri<br>4. Hasan Assi<br>5. Jacqueline Lim"
+    },
+    "Abdulsalam Aljamal": {
+      "address": "abdulsalam.aljamal@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. huthefa alfararjeh<br>2. Dema Dada<br>3. Raghad Wahhab<br>4. Sanad Albahti<br>5. Al-Baraa Bakri"
+    },
+    "huthefa alfararjeh": {
+      "address": "huthefa.alfararjeh@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Abdulsalam Aljamal<br>2. Raghad Wahhab<br>3. Sanad Albahti<br>4. Laith Hussein<br>5. Malak Hasan"
+    },
+    "Dema Dada": {
+      "address": "dema.dada@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Ahmed Saad<br>2. Abdulsalam Aljamal<br>3. huthefa alfararjeh<br>4. Ayham Al Attar<br>5. Natasha Madhu"
+    },
+    "Raghad Wahhab": {
+      "address": "raghad.wahhab@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Abdulsalam Aljamal<br>2. huthefa alfararjeh<br>3. Sanad Albahti<br>4. Jacqueline Lim"
+    },
+    "Sanad Albahti": {
+      "address": "sanad.albahti@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Abdulsalam Aljamal<br>2. huthefa alfararjeh<br>3. Dema Dada<br>4. Raghad Wahhab<br>5. Al-Baraa Bakri"
+    },
+    "Al-Baraa Bakri": {
+      "address": "al-baraa.bakri@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Adnan Aji<br>2. Ahmed Saad<br>3. Sanad Albahti<br>4. Ayham Al Attar<br>5. Laith Hussein"
+    },
+    "Ayham Al Attar": {
+      "address": "ayham.alattar@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Sanad Albahti<br>2. Al-Baraa Bakri<br>3. Laith Hussein<br>4. Malak Hasan<br>5. Hasan Assi"
+    },
+    "Laith Hussein": {
+      "address": "laith.hussein@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Abdulsalam Aljamal<br>2. huthefa alfararjeh<br>3. Dema Dada<br>4. Sanad Albahti<br>5. Al-Baraa Bakri"
+    },
+    "Malak Hasan": {
+      "address": "malak.hasan@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Abdulsalam Aljamal<br>2. huthefa alfararjeh<br>3. Sanad Albahti<br>4. Al-Baraa Bakri<br>5. Ayham Al Attar"
+    },
+    "Abdulrahaman Abo Srour": {
+      "address": "abdulrahaman.abosrour@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Dema Dada<br>2. Sanad Albahti<br>3. Al-Baraa Bakri<br>4. Ayham Al Attar<br>5. Laith Hussein"
+    },
+    "Hasan Assi": {
+      "address": "hasan.assi@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Adnan Aji<br>2. Ahmed Saad<br>3. Abdulsalam Aljamal<br>4. huthefa alfararjeh<br>5. Al-Baraa Bakri"
+    },
+    "Joel D'Souza": {
+      "address": "joel.dsouza@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Abdulsalam Aljamal<br>2. huthefa alfararjeh<br>3. Laith Hussein<br>4. Abdulrahaman Abo Srour<br>5. Hasan Assi"
+    },
+    "Natasha Madhu": {
+      "address": "natasha.madhu@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Dema Dada<br>2. Abdulrahaman Abo Srour<br>3. Laith Hussein<br>4. Hasan Assi<br>5. Joel D'Souza"
+    },
+    "Rawan Alakhras": {
+      "address": "rawan.alakhras@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Abdulsalam Aljamal<br>2. huthefa alfararjeh<br>3. Dema Dada<br>4. Sanad Albahti<br>5. Al-Baraa Bakri"
+    },
+    "Ghaith Salloom": {
+      "address": "ghaith.salloom@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Abdulsalam Aljamal<br>2. huthefa alfararjeh<br>3. Sanad Albahti<br>4. Al-Baraa Bakri<br>5. Laith Hussein"
+    },
+    "Bilal Hassan": {
+      "address": "bilal.hassan@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Malak Hasan<br>2. Wardah Aamer<br>3. Nizar Shehada"
+    },
+    "Muhammed Zeeshan": {
+      "address": "muhammed.zeeshan@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. huthefa alfararjeh<br>2. Laith Hussein<br>3. Malak Hasan<br>4. Abdulrahaman Abo Srour<br>5. Hasan Assi"
+    },
+    "Wardah Aamer": {
+      "address": "wardah.aamer@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Malak Hasan<br>2. Bilal Hassan<br>3. Nizar Shehada"
+    },
+    "Ahsan Ahmad": {
+      "address": "ahsan.ahmad@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Dema Dada<br>2. Abdulrahaman Abo Srour<br>3. Hasan Assi<br>4. Joel D'Souza<br>5. Natasha Madhu"
+    },
+    "Ahmad Akilan": {
+      "address": "ahmad.akilan@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Adnan Aji<br>2. Abdulrahaman Abo Srour<br>3. Hasan Assi<br>4. Joel D'Souza<br>5. Ghaith Salloom"
+    },
+    "Jacqueline Lim": {
+      "address": "jacqueline.lim@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Ahmed Saad<br>2. Dema Dada<br>3. Hasan Assi<br>4. Joel D'Souza<br>5. Natasha Madhu"
+    },
+    "Nizar Shehada": {
+      "address": "nizar.shehada@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Adnan Aji<br>2. Abdulsalam Aljamal<br>3. huthefa alfararjeh<br>4. Raghad Wahhab<br>5. Sanad Albahti"
+    },
+    "Ehab Raafat": {
+      "address": "ehab.raafat@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Ahmad Akilan<br>2. Jacqueline Lim<br>3. Nizar Shehada"
+    },
+    "Gaith Haboub": {
+      "address": "gaith.haboub@beno.com",
+      "subject": "Your Performance Review Peers",
+      "body": "1. Ahsan Ahmad<br>2. Ahmad Akilan<br>3. Jacqueline Lim<br>4. Nizar Shehada"
+    }
+  }
+}
+```
