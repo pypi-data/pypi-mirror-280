@@ -1,0 +1,157 @@
+Metadata-Version: 2.1
+Name: sopel-chanlogs
+Version: 0.3.0.dev0
+Summary: A channel logging plugin for Sopel IRC bots
+Author: David Baumgold, Elsie Powell
+Maintainer-email: dgw <dgw@technobabbl.es>
+License: EFL-2.0
+Project-URL: Homepage, https://github.com/sopel-irc/sopel-chanlogs
+Project-URL: Bug Tracker, https://github.com/sopel-irc/sopel-chanlogs/issues
+Keywords: sopel,plugin,bot,irc
+Platform: Linux x86, x86-64
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: Eiffel Forum License (EFL)
+Classifier: License :: OSI Approved :: Eiffel Forum License
+Classifier: Topic :: Communications :: Chat :: Internet Relay Chat
+Requires-Python: <4,>=3.8
+Description-Content-Type: text/markdown
+License-File: COPYING
+Requires-Dist: sopel >=8.0
+Requires-Dist: pytz
+
+# sopel-chanlogs
+
+A channel logging plugin for Sopel IRC bots
+
+## Installing
+
+Releases are hosted on PyPI, so after installing Sopel, all you need is `pip`:
+
+```shell
+$ pip install sopel-chanlogs
+```
+
+Enable the plugin with `sopel-plugins enable chanlogs`, if your bot
+configuration requires it.
+
+### Requirements
+
+`sopel-chanlogs` requires only Sopel itself, version 7.1 or higher.
+
+## Usage
+
+### Configuration
+
+The easiest way to configure `sopel-chanlogs` is via Sopel's configuration
+wizard—simply run `sopel-plugins configure chanlogs` and complete the prompts.
+All settings are optional, falling back on sensible defaults.
+
+<dl>
+  <dt>
+    <tt>dir</tt>
+  </dt>
+  <dd>
+    Path to channel log storage directory. Default: <tt>~/chanlogs</tt>
+  </dd>
+  <dt>
+    <tt>by_day</tt>
+  </dt>
+  <dd>
+    Split log files by day. Default: <tt>True</tt>
+  </dd>
+  <dt>
+    <tt>privmsg</tt>
+  </dt>
+  <dd>
+    Record private messages. Default: <tt>False</tt>
+  </dd>
+  <dt>
+    <tt>microseconds</tt>
+  </dt>
+  <dd>
+    Include microseconds in log timestamps. Default: <tt>False</tt>
+  </dd>
+  <dt>
+    <tt>localtime</tt>
+  </dt>
+  <dd>
+    <p>
+      Attempt to use preferred timezone (the bot's
+      <tt>core.default_timezone</tt>) instead of UTC. Default: <tt>False</tt>
+    </p>
+    <p>
+      <em>
+        <strong>Please note</strong> that Sopel's default
+        <tt>default_timezone</tt> is UTC.
+      </em>
+    </p>
+  </dd>
+</dl>
+
+#### Advanced configuration
+
+Log line templates can be overridden using the relevant setting from this list:
+
+- `message_template`
+- `action_template`
+- `join_template`
+- `part_template`
+- `quit_template`
+- `nick_template`
+- `topic_template`
+
+Each template is formatted using the following `{placeholder}` values:
+
+- the `trigger`, with all of its attributes (see [Sopel's
+  documentation](https://sopel.chat/docs/trigger.html))
+- the `date` in ISO format
+- the `time` in ISO format
+- the full `datetime` in ISO format
+
+For convenience, the `message_template` also receives a `message` placeholder.
+
+Please consult the plugin's code for current default templates.
+
+## Changelog
+
+### 0.2.3
+
+Fixed:
+* Switch from obsolete `clock.tz` setting to `core.default_timezone` (#11)
+
+Meta:
+* Greatly improved documentation of settings (#12)
+
+
+### 0.2.2
+
+Changed:
+* Replaced deprecated call to `SopelMemory.contains()` (#8)
+
+
+### 0.2.1
+
+Meta:
+* Added project README file
+* Use README as project's PyPI description
+
+
+### 0.2.0
+
+Changed:
+* Target Sopel 7.x (#5)
+
+Added:
+* Support for logging topic changes (#3)
+* Support for echo-message (#4)
+
+Fixed:
+* Install errors (#1)
+* Startup/config glitches (#2)
+
+
+### 0.1.0
+
+First release of `sopel_modules.chanlogs`.
