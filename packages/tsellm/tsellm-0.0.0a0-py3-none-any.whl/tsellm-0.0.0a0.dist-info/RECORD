@@ -1,0 +1,9 @@
+tsellm/__init__.py,sha256=5ka_ue9d1DFAsiwX9HqEZhT0PvMv8rykVanHNYU1AYY,41
+tsellm/__main__.py,sha256=XBxwPO1abJA6WwNvhMjKVvxkxqDN1GOarH5nRIPNLXs,58
+tsellm/cli.py,sha256=gWFnPnD_cjiUDPZ1OS4eoBHSB6LnHGTZzyD3mtgWP3o,223
+tsellm-0.0.0a0.dist-info/LICENSE,sha256=P63ASE8bNwbgFYGn6xEbGFFp3eppPKvyk4QzXJF2G7o,1509
+tsellm-0.0.0a0.dist-info/METADATA,sha256=4W3h7P3fFs1exjBchqh2K7HWCqBmGXxm-niENMySPM4,2255
+tsellm-0.0.0a0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+tsellm-0.0.0a0.dist-info/entry_points.txt,sha256=J-gMl2V745kai5Ulw1czxqLBRomHvnZiAJuHCRiZflc,42
+tsellm-0.0.0a0.dist-info/top_level.txt,sha256=iwnuv6Che2ACxY7SAxPXRbJ47QAZlds8lhZptHn6o9Y,7
+tsellm-0.0.0a0.dist-info/RECORD,,
