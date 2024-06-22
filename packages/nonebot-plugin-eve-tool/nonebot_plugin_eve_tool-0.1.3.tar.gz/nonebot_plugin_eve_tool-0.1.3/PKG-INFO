@@ -1,0 +1,238 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-eve-tool
+Version: 0.1.3
+Summary: A NoneBot based plugin provides information query services for EVE online.
+License: GPL-3.0 license
+Author: zifox666
+Author-email: zifox666@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: APScheduler (>=3.10.4,<4.0.0)
+Requires-Dist: Jinja2 (>=3.1.4,<4.0.0)
+Requires-Dist: Markdown (>=3.6,<4.0)
+Requires-Dist: MarkupSafe (>=2.1.5,<3.0.0)
+Requires-Dist: PyMySQL (>=1.1.1,<2.0.0)
+Requires-Dist: PyYAML (>=6.0.1,<7.0.0)
+Requires-Dist: Pygments (>=2.18.0,<3.0.0)
+Requires-Dist: aiofiles (>=23.2.1,<24.0.0)
+Requires-Dist: aiohttp (>=3.9.5,<4.0.0)
+Requires-Dist: aiomysql (>=0.2.0,<0.3.0)
+Requires-Dist: aioredis (>=2.0.1,<3.0.0)
+Requires-Dist: aiosignal (>=1.3.1,<2.0.0)
+Requires-Dist: annotated-types (>=0.7.0,<0.8.0)
+Requires-Dist: anyio (>=4.4.0,<5.0.0)
+Requires-Dist: arclet-alconna (>=1.8.15,<2.0.0)
+Requires-Dist: arclet-alconna-tools (>=0.7.6,<0.8.0)
+Requires-Dist: async-timeout (>=4.0.3,<5.0.0)
+Requires-Dist: attrs (>=23.2.0,<24.0.0)
+Requires-Dist: certifi (>=2024.6.2,<2025.0.0)
+Requires-Dist: charset-normalizer (>=3.3.2,<4.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: contourpy (>=1.2.1,<2.0.0)
+Requires-Dist: cycler (>=0.12.1,<0.13.0)
+Requires-Dist: dnspython (>=2.6.1,<3.0.0)
+Requires-Dist: email_validator (>=2.2.0,<3.0.0)
+Requires-Dist: fastapi (>=0.111.0,<0.112.0)
+Requires-Dist: fastapi-cli (>=0.0.4,<0.0.5)
+Requires-Dist: fonttools (>=4.53.0,<5.0.0)
+Requires-Dist: frozenlist (>=1.4.1,<2.0.0)
+Requires-Dist: greenlet (>=3.0.3,<4.0.0)
+Requires-Dist: h11 (>=0.14.0,<0.15.0)
+Requires-Dist: httpcore (>=1.0.5,<2.0.0)
+Requires-Dist: httptools (>=0.6.1,<0.7.0)
+Requires-Dist: httpx (>=0.27.0,<0.28.0)
+Requires-Dist: idna (>=3.7,<4.0)
+Requires-Dist: importlib_metadata (>=7.1.0,<8.0.0)
+Requires-Dist: jieba (>=0.42.1,<0.43.0)
+Requires-Dist: kiwisolver (>=1.4.5,<2.0.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: markdown-it-py (>=3.0.0,<4.0.0)
+Requires-Dist: matplotlib (>=3.9.0,<4.0.0)
+Requires-Dist: mdurl (>=0.1.2,<0.2.0)
+Requires-Dist: msgpack (>=1.0.8,<2.0.0)
+Requires-Dist: multidict (>=6.0.5,<7.0.0)
+Requires-Dist: nepattern (>=0.7.4,<0.8.0)
+Requires-Dist: nonebot-adapter-onebot (>=2.4.3,<3.0.0)
+Requires-Dist: nonebot-plugin-alconna (>=0.47.1,<0.48.0)
+Requires-Dist: nonebot-plugin-apscheduler (>=0.4.0,<0.5.0)
+Requires-Dist: nonebot-plugin-htmlrender (>=0.3.2,<0.4.0)
+Requires-Dist: nonebot-plugin-waiter (>=0.6.2,<0.7.0)
+Requires-Dist: nonebot2 (>=2.3.1,<3.0.0)
+Requires-Dist: numpy (>=2.0.0,<3.0.0)
+Requires-Dist: orjson (>=3.10.5,<4.0.0)
+Requires-Dist: packaging (>=24.1,<25.0)
+Requires-Dist: pillow (>=10.3.0,<11.0.0)
+Requires-Dist: pip (>=24.0,<25.0)
+Requires-Dist: playwright (>=1.44.0,<2.0.0)
+Requires-Dist: pydantic (>=2.7.4,<3.0.0)
+Requires-Dist: pydantic_core (>=2.18.4,<3.0.0)
+Requires-Dist: pyee (>=11.1.0,<12.0.0)
+Requires-Dist: pygtrie (>=2.5.0,<3.0.0)
+Requires-Dist: pymdown-extensions (>=10.8.1,<11.0.0)
+Requires-Dist: pyparsing (>=3.1.2,<4.0.0)
+Requires-Dist: pypng (>=0.20220715.0,<0.20220716.0)
+Requires-Dist: python-dateutil (>=2.9.0.post0,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: python-markdown-math (>=0.8,<0.9)
+Requires-Dist: python-multipart (>=0.0.9,<0.0.10)
+Requires-Dist: pytz (>=2024.1,<2025.0)
+Requires-Dist: qrcode (>=7.4.2,<8.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Requires-Dist: scipy (>=1.13.1,<2.0.0)
+Requires-Dist: setuptools (>=69.5.1,<70.0.0)
+Requires-Dist: shellingham (>=1.5.4,<2.0.0)
+Requires-Dist: six (>=1.16.0,<2.0.0)
+Requires-Dist: sniffio (>=1.3.1,<2.0.0)
+Requires-Dist: starlette (>=0.37.2,<0.38.0)
+Requires-Dist: tarina (>=0.5.4,<0.6.0)
+Requires-Dist: tqdm (>=4.66.4,<5.0.0)
+Requires-Dist: typer (>=0.12.3,<0.13.0)
+Requires-Dist: typing_extensions (>=4.12.2,<5.0.0)
+Requires-Dist: tzdata (>=2024.1,<2025.0)
+Requires-Dist: tzlocal (>=5.2,<6.0)
+Requires-Dist: ujson (>=5.10.0,<6.0.0)
+Requires-Dist: urllib3 (>=2.2.2,<3.0.0)
+Requires-Dist: uvicorn (>=0.30.1,<0.31.0)
+Requires-Dist: watchfiles (>=0.22.0,<0.23.0)
+Requires-Dist: websockets (>=12.0,<13.0)
+Requires-Dist: wheel (>=0.43.0,<0.44.0)
+Requires-Dist: win32-setctime (>=1.1.0,<2.0.0)
+Requires-Dist: yarl (>=1.9.4,<2.0.0)
+Requires-Dist: zipp (>=3.19.2,<4.0.0)
+Description-Content-Type: text/markdown
+
+```text
+                                                                           .-'''-.        .-'''-.          
+                                                                          '   _    \     '   _    \  .---. 
+       __.....__   .----.     .----.   __.....__                        /   /` '.   \  /   /` '.   \ |   | 
+   .-''         '.  \    \   /    /.-''         '.                     .   |     \  ' .   |     \  ' |   | 
+  /     .-''"'-.  `. '   '. /'   //     .-''"'-.  `.                .| |   '      |  '|   '      |  '|   | 
+ /     /________\   \|    |'    //     /________\   \             .' |_\    \     / / \    \     / / |   | 
+ |                  ||    ||    ||                  |           .'     |`.   ` ..' /   `.   ` ..' /  |   | 
+ \    .-------------''.   `'   .'\    .-------------'          '--.  .-'   '-...-'`       '-...-'`   |   | 
+  \    '-.____...---. \        /  \    '-.____...---.             |  |                               |   | 
+   `.             .'   \      /    `.             .'              |  |                               |   | 
+     `''-...... -'      '----'       `''-...... -'                |  '.'                             '---' 
+                                                                  |   /                                    
+                                                                  `'-'                                     
+```
+
+<div align="center">
+
+# nonebot-plugin-eve-tool
+
+_✨ NoneBot EVE信息查询插件 ✨_
+
+
+<a href="./LICENSE">
+    <img src="https://img.shields.io/github/license/owner/nonebot-plugin-template.svg" alt="license">
+</a>
+<a href="https://pypi.python.org/pypi/nonebot-plugin-template">
+    <img src="https://img.shields.io/pypi/v/nonebot-plugin-template.svg" alt="pypi">
+</a>
+<img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="python">
+
+</div>
+
+这是一个基于 nonebot2 编写的EVE ONLINE信息查询插件。
+
+
+## 📖 介绍
+
+懒，具体功能：查价，kb信息，翻译，汇率，KM订阅及推送
+
+## 💿 安装
+
+<details open>
+<summary>使用 nb-cli 安装 (推荐)</summary>
+在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装
+
+    nb plugin install nonebot-plugin-eve-tool
+
+</details>
+
+<details>
+<summary>使用包管理器安装</summary>
+在 nonebot2 项目的插件目录下, 打开命令行, 根据你使用的包管理器, 输入相应的安装命令
+
+<details>
+<summary>pip</summary>
+
+    pip install nonebot-plugin-eve-tool
+</details>
+<details>
+<summary>pdm</summary>
+
+    pdm add nonebot-plugin-eve-tool
+</details>
+<details>
+<summary>poetry</summary>
+
+    poetry nonebot-plugin-eve-tool
+</details>
+<details>
+<summary>conda</summary>
+
+    conda install nonebot-plugin-template
+</details>
+
+打开 nonebot2 项目根目录下的 `pyproject.toml` 文件, 在 `[tool.nonebot]` 部分追加写入
+
+    plugins = ["nonebot_plugin_template"]
+
+</details>
+
+## ⚙️ 配置
+
+在 nonebot2 项目的`.env`文件中添加下表中的必填配置
+
+```text
+eve_mysql_password='你的密码'
+eve_proxy='http://127.0.0.1:7890' #国内强烈推荐
+```
+
+<details>
+<summary>全部配置项</summary>
+
+| 配置项 | 必填 | 默认值 | 说明 |
+|:-----:|:----:|:----:|:----:|
+| eve_mysql_host | 否 | 'localhost' | MYSQL主机地址 |
+| eve_mysql_port | 否 | 3306 | MYSQL端口号 |
+| eve_mysql_user | 否 | 'root' | MYSQL用户名 |
+| eve_mysql_password | 是 | 无 | MYSQL密码 |
+| eve_mysql_db | 否 | 'eve_tool' | MYSQL数据库名 |
+| eve_redis_url | 否 | 'redis://localhost:6379/0' | Redis连接URL |
+| eve_proxy | 否 | None | 代理配置 |
+| eve_market_preference | 否 | 'esi_cache' | 市场设置偏好 |
+| eve_janice_api_key | 否 | 'G9KwKq3465588VPd6747t95Zh94q3W2E' | Janice API密钥 |
+| eve_word_cut | 否 | 'jieba' | 分词工具偏好 |
+| eve_history_preference | 否 | 'follow' | 历史记录偏好 |
+| eve_km_speed_limit | 否 | 0 | Kill Mail速度限制 |
+| eve_km_send_delay | 否 | 3 | Kill Mail发送延迟 |
+| eve_kb_info_background_url | 否 | 'https://www.loliapi.com/acg/' | KB信息背景URL |
+| eve_sde_path | 否 | data_path / 'sde' | SDE存放位置 |
+| eve_lagrange_preference | 否 | 'zh' | 语言偏好 |
+| eve_command_start | 否 | ["/", "", "！", ".", "!", "#"] | 命令起始字符 |
+</details>
+
+
+接下来请安装mysql和redis，推荐使用docker
+```shell
+docker run -itd --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql
+docker run -itd --name redis -p 6379:6379 redis/redis-stack-server:latest
+```
+
+## 🎉 使用
+### 指令表
+|  指令   | 权限 | 需要@ | 范围 | 说明 |
+|:-----:|:----:|:----:|:--:|:--:|
+| /help | 群员 | 否 | 全部 | 无  |
+
+
+
