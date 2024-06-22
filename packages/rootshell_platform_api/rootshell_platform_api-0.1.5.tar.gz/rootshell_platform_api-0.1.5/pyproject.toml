@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "rootshell_platform_api"
+version = "0.1.5"
+description = "A Package to interact with Rootshells Public API"
+authors = ["Chris <chris.mills@rootshellsecurity.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+pandas = "^2.2.2"
+
+click = "^8.1.7"
+[tool.poetry.group.dev.dependencies]
+requests-mock = "^1.12.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+rootshell_platform = "rootshell_platform_api.cli:cli"

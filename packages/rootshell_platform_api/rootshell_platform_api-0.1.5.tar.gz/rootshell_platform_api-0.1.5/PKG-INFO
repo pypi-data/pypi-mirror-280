@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: rootshell_platform_api
+Version: 0.1.5
+Summary: A Package to interact with Rootshells Public API
+Author: Chris
+Author-email: chris.mills@rootshellsecurity.net
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+
+A project to access Rootshell's Public API. 
+
+`pip install rootshell_platform_api`
+
+The `BEARER_TOKEN` can be accessed in the Platform. 
+The `API_ENDPOINT` is the tenant url which you want access the data.
+```shell
+export BEARER_TOKEN=your_token_here
+export API_ENDPOINT=https://your.api.endpoint
+```
+
+Currently list of groups that are accessible
+
+```text
+tags
+    get-paginated
+    get-single
+    create
+    update
+    delete
+projects
+    get-paginated
+    get-single
+    create
+    update
+    delete
+```
+Example:
+```shell
+rootshell_platform tags get_paginated
+```
+
+
