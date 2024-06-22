@@ -1,0 +1,6 @@
+recursive-include checkers_main *.py
+
+recursive-include checkers_main/static *.png
+recursive-include checkers_main/static *.ttf
+recursive-include checkers_main/static/images *.png
+
