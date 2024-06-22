@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: wocecolormap
+Version: 0.0.1
+Summary: A package of the World Ocean Circulation Experiment (woce) colormaps.
+Author-email: Emma Holtzman <holtzmaner@gmail.com>
+Project-URL: Homepage, https://github.com/EES-3506-5506/Code_share
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a package of the World Ocean Circulation Experiment (woce) colormaps. These colormaps were specific to woce and were not availible in python. Megan Siwak used MatPlotLib to recreate them for data analysis.
+
+Important Notes
+- These colormaps cannot be reversed.
+- The 'under' label is given to the lower value while the 'over' label is given to the higher value.

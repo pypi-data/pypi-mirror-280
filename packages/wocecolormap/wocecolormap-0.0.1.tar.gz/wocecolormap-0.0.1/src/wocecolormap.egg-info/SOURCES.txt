@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/wocecolor.py
+src/wocecolormap.egg-info/PKG-INFO
+src/wocecolormap.egg-info/SOURCES.txt
+src/wocecolormap.egg-info/dependency_links.txt
+src/wocecolormap.egg-info/top_level.txt
