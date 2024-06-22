@@ -1,0 +1,2 @@
+[console_scripts]
+hjreborn = hjreborn.main:group

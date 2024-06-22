@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: hjreborn
+Version: 0.1.1
+Summary: A simple CLI offline judge system
+Home-page: https://github.com/hellojudger/HelloJudgerReborn
+Author: xiezheyuan
+Author-email: xiezheyuan09@163.com
+License: AGPL-3.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Topic :: Education
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Education :: Testing
+Classifier: Programming Language :: C++
+Requires-Python: >=3.8
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: rich
+Requires-Dist: parse
+Requires-Dist: click
+Requires-Dist: jsonschema
+Requires-Dist: simplejson
+Requires-Dist: psutil
+
+A simple CLI offline judge system
