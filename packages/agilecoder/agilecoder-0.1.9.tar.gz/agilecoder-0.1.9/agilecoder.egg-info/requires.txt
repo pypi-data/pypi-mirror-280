@@ -1,0 +1,16 @@
+openai==0.28.1
+tiktoken==0.6.0
+markdown==3.5.2
+colorama
+nltk==3.8.1
+flask
+tenacity==8.2.3
+python-dotenv
+codebleu==0.7.0
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+anthropic
+pygame
+numpy
+tree-sitter
