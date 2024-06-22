@@ -1,0 +1,13 @@
+rfmix_reader/__init__.py,sha256=Syh7U6WiBdi2KIJu7B_gKVUOuKBuBr557qz2-b7nF4s,371
+rfmix_reader/_chunk.py,sha256=OR0JtFV6TRIU5qXVG38rbdTb51wa3bYnkHqK30ewRlc,1124
+rfmix_reader/_fb_read.py,sha256=83_RYuDpit80Oea_11d9esQ3x9MuZmpXXti265fYyks,4004
+rfmix_reader/_fb_reader.c,sha256=6qHefrOCKNTaZQSZvnf7xFtWjTaJSZfZMFG4OGiv0CI,1201
+rfmix_reader/_fb_reader.h,sha256=7G-avBJLpHXS4Gw5DFNWJgm8uV1ig01B3GvIhDNRjzM,354
+rfmix_reader/_loci_bed.py,sha256=9QwCZP7JaXie82Qq5SByB2VeQPnVac3DIVEw47hzJxE,1599
+rfmix_reader/_read_rfmix.py,sha256=0DQHwHoJUFGVmSG1k7kGyQzeePekptWuBZanqCfGKjg,14003
+rfmix_reader/_utils.py,sha256=APsyn75EcAPzVJ-0MNzJBSXFJ_I59rb9PSEQnG7LowM,1932
+rfmix_reader/fb_reader.abi3.so,sha256=KFF-4R0LksqinMzPOqdDeADZvTaelorDyyE-KaZFTpk,28400
+rfmix_reader-0.1.12.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+rfmix_reader-0.1.12.dist-info/METADATA,sha256=KU8YyKJ0bqlSDFaA5j-THYCPBT6ynzLapgU4rBCGavM,3515
+rfmix_reader-0.1.12.dist-info/WHEEL,sha256=zYDTCmuD0sc_pO-P86hADejUpJfF1UQQhbffJkH2WAw,108
+rfmix_reader-0.1.12.dist-info/RECORD,,
