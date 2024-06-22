@@ -1,0 +1,8 @@
+README.md
+setup.py
+vital-model-paraphrase-MiniLM-onnx/__init__.py
+vital-model-paraphrase-MiniLM-onnx/model/paraphrase-MiniLM-L3-v2.onnx
+vital_model_paraphrase_MiniLM_onnx.egg-info/PKG-INFO
+vital_model_paraphrase_MiniLM_onnx.egg-info/SOURCES.txt
+vital_model_paraphrase_MiniLM_onnx.egg-info/dependency_links.txt
+vital_model_paraphrase_MiniLM_onnx.egg-info/top_level.txt
