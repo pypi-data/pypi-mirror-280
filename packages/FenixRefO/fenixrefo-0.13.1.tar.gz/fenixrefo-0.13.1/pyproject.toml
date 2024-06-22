@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "FenixRefO"
+packages = [
+    {include = "refo"},
+]
+version = "0.13.1"
+description = "Regular expressions for objects"
+authors = ["Rafael Carrascosa <rafacarrascosa@gmail.com>", "Javier Mansilla <javimansilla@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/javimansilla/refo"
+keywords=["regular expressions", "regexp", "re", "objects", "classes"]
+classifiers=[
+    "Programming Language :: Python",
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 2.6",
+    "Programming Language :: Python :: 2.7",
+    "Programming Language :: Python :: 3.2",
+    "Programming Language :: Python :: 3.3",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Text Processing",
+    "Topic :: Utilities",
+    ]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+nose = "^1.3.7"
+coverage = "^7.5.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
