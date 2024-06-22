@@ -1,0 +1,13 @@
+COPYING
+MANIFEST.in
+NEWS
+README.md
+pyproject.toml
+sopel_chanlogs/__init__.py
+sopel_chanlogs/plugin.py
+sopel_chanlogs.egg-info/PKG-INFO
+sopel_chanlogs.egg-info/SOURCES.txt
+sopel_chanlogs.egg-info/dependency_links.txt
+sopel_chanlogs.egg-info/entry_points.txt
+sopel_chanlogs.egg-info/requires.txt
+sopel_chanlogs.egg-info/top_level.txt
