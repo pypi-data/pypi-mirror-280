@@ -1,0 +1,10 @@
+spotzero/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spotzero/cli.py,sha256=21w1pPCnleWmse8bc7A6yTLsgSKzZMcHGp4WLG20rJM,1671
+spotzero/dbus_handler.py,sha256=d-pPOR1RyzIl67mI2mVFWC4twCbEEsEEh1Gg-PIBVaM,3010
+spotzero/linux.py,sha256=yTA-IBRJxDBr-Q2HkfnaNr9Y3-4uhAgAp80dOpY0SRk,760
+spotzero-0.1.1.dist-info/LICENSE,sha256=dCuSNnm1ZLXam9NdjgQjZXqObnxgYjxSe5nxlVaJaYE,1074
+spotzero-0.1.1.dist-info/METADATA,sha256=YRhhKILgqczjA7CiPDqweKgmXfKZd997TS869U92ddU,3437
+spotzero-0.1.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+spotzero-0.1.1.dist-info/entry_points.txt,sha256=OCrJE-nQlZbcXCcClyE31YZ8BrBeCRFPWD-4Ewz3CQM,46
+spotzero-0.1.1.dist-info/top_level.txt,sha256=fJXQkP8ZlQRoTBKtCARQIYM6f618Xy4QIJWWJMu_79I,9
+spotzero-0.1.1.dist-info/RECORD,,
