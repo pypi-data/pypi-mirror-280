@@ -1,0 +1,185 @@
+Metadata-Version: 2.1
+Name: pyVisio
+Version: 0.3
+Summary: An interactive and dynamic data visualization and analysis library
+Home-page: https://github.com/kayahuseyinn/pyVisio
+Author: Hüseyin Kaya
+Author-email: kaya87826@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: plotly
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: statsmodels
+
+
+# pyVisio KullanÄ±m KÄ±lavuzu
+
+## Kurulum
+
+pyVisio'yu pip ile kurabilirsiniz:
+
+```bash
+pip install pyVisio
+```
+
+GeliÅŸtirme sÃ¼rÃ¼mÃ¼nÃ¼ yÃ¼klemek iÃ§in, projeyi klonlayÄ±p `pip install -e .` komutunu Ã§alÄ±ÅŸtÄ±rabilirsiniz:
+
+```bash
+git clone https://github.com/kayahuseyinn/pyVisio.git
+cd pyVisio
+pip install -e .
+```
+
+## Temel KullanÄ±m
+
+### Ã‡izgi GrafiÄŸi
+
+Ã‡izgi grafiÄŸi oluÅŸturmak iÃ§in `line_chart` fonksiyonunu kullanabilirsiniz.
+
+```python
+import pyVisio as pv
+
+data = [1, 2, 3, 4, 5]
+pv.line_chart(data, title="Ã‡izgi GrafiÄŸi", xlabel="X Ekseni", ylabel="Y Ekseni", color='red')
+```
+
+### EtkileÅŸimli Ã‡izgi GrafiÄŸi
+
+EtkileÅŸimli Ã§izgi grafiÄŸi oluÅŸturmak iÃ§in `line_chart` fonksiyonunun `interactive` parametresini `True` olarak ayarlayabilirsiniz.
+
+```python
+pv.line_chart(data, title="EtkileÅŸimli Ã‡izgi GrafiÄŸi", xlabel="X Ekseni", ylabel="Y Ekseni", interactive=True, color='green')
+```
+
+### Ã‡ubuk GrafiÄŸi
+
+Ã‡ubuk grafiÄŸi oluÅŸturmak iÃ§in `bar_chart` fonksiyonunu kullanabilirsiniz.
+
+```python
+data_bar = {'A': 10, 'B': 20, 'C': 30}
+pv.bar_chart(data_bar, title="Ã‡ubuk GrafiÄŸi", xlabel="Kategori", ylabel="DeÄŸer", color='blue')
+```
+
+### EtkileÅŸimli Ã‡ubuk GrafiÄŸi
+
+EtkileÅŸimli Ã§ubuk grafiÄŸi oluÅŸturmak iÃ§in `bar_chart` fonksiyonunun `interactive` parametresini `True` olarak ayarlayabilirsiniz.
+
+```python
+pv.bar_chart(data_bar, title="EtkileÅŸimli Ã‡ubuk GrafiÄŸi", xlabel="Kategori", ylabel="DeÄŸer", interactive=True, color='purple')
+```
+
+### DaÄŸÄ±lÄ±m GrafiÄŸi
+
+DaÄŸÄ±lÄ±m grafiÄŸi oluÅŸturmak iÃ§in `scatter_plot` fonksiyonunu kullanabilirsiniz.
+
+```python
+x_data = [1, 2, 3, 4, 5]
+y_data = [10, 14, 12, 15, 10]
+pv.scatter_plot(x_data, y_data, title="DaÄŸÄ±lÄ±m GrafiÄŸi", xlabel="X Ekseni", ylabel="Y Ekseni", color='blue')
+```
+
+### EtkileÅŸimli DaÄŸÄ±lÄ±m GrafiÄŸi
+
+EtkileÅŸimli daÄŸÄ±lÄ±m grafiÄŸi oluÅŸturmak iÃ§in `scatter_plot` fonksiyonunun `interactive` parametresini `True` olarak ayarlayabilirsiniz.
+
+```python
+pv.scatter_plot(x_data, y_data, title="EtkileÅŸimli DaÄŸÄ±lÄ±m GrafiÄŸi", xlabel="X Ekseni", ylabel="Y Ekseni", interactive=True, color='orange')
+```
+
+### Pasta GrafiÄŸi
+
+Pasta grafiÄŸi oluÅŸturmak iÃ§in `pie_chart` fonksiyonunu kullanabilirsiniz.
+
+```python
+data_pie = {'Elma': 50, 'Armut': 30, 'Kiraz': 20}
+pv.pie_chart(data_pie, title="Pasta GrafiÄŸi")
+```
+
+### EtkileÅŸimli Pasta GrafiÄŸi
+
+EtkileÅŸimli pasta grafiÄŸi oluÅŸturmak iÃ§in `pie_chart` fonksiyonunun `interactive` parametresini `True` olarak ayarlayabilirsiniz.
+
+```python
+pv.pie_chart(data_pie, title="EtkileÅŸimli Pasta GrafiÄŸi", interactive=True)
+```
+
+### Zaman Serisi Analizi
+
+Zaman serisi analizi yapmak iÃ§in `time_series_analysis` fonksiyonunu kullanabilirsiniz.
+
+```python
+import pyVisio as pv
+import numpy as np
+
+data_ts = np.random.randn(100)
+summary, forecast, anomalies = pv.time_series_analysis(data_ts, detect_anomalies=True)
+print(summary)
+print("Forecast:", forecast)
+print("Anomalies:", anomalies)
+```
+
+### Anomali Tespiti
+
+Zaman serisi verisinde anomali tespiti yapmak iÃ§in `detect_anomalies_in_series` fonksiyonunu kullanabilirsiniz.
+
+```python
+import pyVisio as pv
+import numpy as np
+
+data_ts = np.random.randn(100)
+anomalies = pv.detect_anomalies_in_series(data_ts)
+print("Anomalies:", anomalies)
+```
+
+### Rapor OluÅŸturma
+
+Otomatik rapor oluÅŸturmak iÃ§in `generate_report` fonksiyonunu kullanabilirsiniz.
+
+```python
+import pyVisio as pv
+
+report_data = {
+    'title': 'Veri Analiz Raporu',
+    'author': 'HÃ¼seyin Kaya',
+    'date': '2024-06-22',
+    'content': [
+        {'type': 'line_chart', 'data': [1, 2, 3, 4, 5], 'title': 'Ã‡izgi GrafiÄŸi'},
+        {'type': 'bar_chart', 'data': {'A': 10, 'B': 20, 'C': 30}, 'title': 'Ã‡ubuk GrafiÄŸi'}
+    ]
+}
+pv.generate_report(report_data, format='pdf', output_path='report.pdf')
+```
+
+### Veri Temizleme
+
+Veri temizleme iÅŸlemi yapmak iÃ§in `clean_data` fonksiyonunu kullanabilirsiniz.
+
+```python
+import pyVisio as pv
+
+raw_data = {'column1': [1, 2, None, 4, 5], 'column2': [5, None, 3, 2, 1]}
+cleaned_data = pv.clean_data(raw_data, method='fillna', fill_value=0)
+pv.line_chart(cleaned_data['column1'], title="TemizlenmiÅŸ Veri ile Ã‡izgi GrafiÄŸi")
+```
+
+### Tema Ayarlama
+
+Grafiklerin temasÄ±nÄ± ayarlamak iÃ§in `set_theme` fonksiyonunu kullanabilirsiniz.
+
+```python
+import pyVisio as pv
+
+custom_theme = {
+    'background_color': 'black',
+    'grid_color': 'gray',
+    'line_color': 'cyan',
+    'font_family': 'Arial'
+}
+pv.set_theme(custom_theme)
+pv.line_chart([1, 2, 3, 4, 5], title="Ã–zelleÅŸtirilmiÅŸ Tema ile Ã‡izgi GrafiÄŸi")
+```
