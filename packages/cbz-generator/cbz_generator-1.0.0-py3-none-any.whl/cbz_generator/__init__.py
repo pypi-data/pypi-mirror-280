@@ -1,0 +1,1 @@
+from cbz_generator import create_cbz_archive as cbz_generator
