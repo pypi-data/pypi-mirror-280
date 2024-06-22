@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: wexample-workspaces
+Version: 0.0.1
+Summary: Helper to manage local directories
+Home-page: https://github.com/wexample/python-workspaces
+Author: weeger
+Author-email: contact@wexample.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Workspaces
+
+This package is for you if you want to manage, in python, a directory containing a special metadata folder.
+
+Like .git, .idea, you want your own .my_company folders structure, and store data in it.
+

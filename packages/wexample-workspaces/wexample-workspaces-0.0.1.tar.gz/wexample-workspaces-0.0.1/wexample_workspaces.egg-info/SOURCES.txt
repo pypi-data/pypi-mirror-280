@@ -1,0 +1,7 @@
+README.md
+setup.py
+wexample_workspaces.egg-info/PKG-INFO
+wexample_workspaces.egg-info/SOURCES.txt
+wexample_workspaces.egg-info/dependency_links.txt
+wexample_workspaces.egg-info/requires.txt
+wexample_workspaces.egg-info/top_level.txt
