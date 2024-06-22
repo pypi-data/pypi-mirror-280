@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "persunravelnp"
+version = "0.0.2"
+description = """\
+  Kernel and Utilities for Unravelled Persistence Diagrams Using NumPy"""
+authors = ["Benedikt Fluhr <pypi@bfluhr.com>"]
+readme = "README.md"
+license = "BSD-3-Clause"
+repository = "https://git.sr.ht/~bfluhr/persunravelnp"
+
+[tool.poetry.dependencies]
+python = ">= 3.12"
+numpy = ">= 1.16"
+jinja2 = { version = ">= 3.1", optional = true }
+
+[tool.poetry.extras]
+draw = ["jinja2"]
+
+[tool.poetry.group.examples.dependencies]
+notebook = "^7.2.0"
+gudhi = "^3.9.0"
+tadasets = "^0.2.1"
+scikit-learn = "^1.5.0"
+matplotlib = "^3.9.0"
+torch = { version = "^2.3.1+cpu", source = "pytorch_cpu" }
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.10.0"
+
+[[tool.poetry.source]]
+name = "pytorch_cpu"
+url = "https://download.pytorch.org/whl/cpu"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
