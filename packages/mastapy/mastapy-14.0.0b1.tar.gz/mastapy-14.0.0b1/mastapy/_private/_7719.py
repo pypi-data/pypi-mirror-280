@@ -1,0 +1,81 @@
+"""MarshalByRefObjects"""
+from __future__ import annotations
+
+from typing import TYPE_CHECKING, ClassVar
+
+from mastapy._private._internal.type_enforcement import enforce_parameter_types
+from mastapy._private._internal.python_net import python_net_import
+
+_MARSHAL_BY_REF_OBJECTS = python_net_import(
+    "SMT.MastaAPIUtility", "MarshalByRefObjects"
+)
+
+if TYPE_CHECKING:
+    from typing import Any, Type, NoReturn
+
+
+__docformat__ = "restructuredtext en"
+__all__ = ("MarshalByRefObjects",)
+
+
+class MarshalByRefObjects:
+    """MarshalByRefObjects
+
+    This is a mastapy class.
+    """
+
+    TYPE: ClassVar["Type"] = _MARSHAL_BY_REF_OBJECTS
+
+    def __new__(
+        cls: "Type[MarshalByRefObjects]", *args: "Any", **kwargs: "Any"
+    ) -> "NoReturn":
+        """Override of the new magic method.
+
+        Note:
+            This class cannot be instantiated and this method will always throw an
+            exception.
+
+        Args:
+            cls (Type[MarshalByRefObjects]: The class to instantiate.
+            *args (Any): Arguments.
+            **kwargs (Any): Keyword arguments.
+
+        Returns:
+            NoReturn
+        """
+        raise TypeError("Class cannot be instantiated. Please use statically.")
+
+    @staticmethod
+    @enforce_parameter_types
+    def add(item: "object") -> None:
+        """Method does not return.
+
+        Args:
+            item (object)
+        """
+        MarshalByRefObjects.TYPE.Add(item)
+
+    @staticmethod
+    @enforce_parameter_types
+    def remove(item: "object") -> None:
+        """Method does not return.
+
+        Args:
+            item (object)
+        """
+        MarshalByRefObjects.TYPE.Remove(item)
+
+    @staticmethod
+    @enforce_parameter_types
+    def disconnect(item: "object") -> None:
+        """Method does not return.
+
+        Args:
+            item (object)
+        """
+        MarshalByRefObjects.TYPE.Disconnect(item)
+
+    @staticmethod
+    def clear() -> None:
+        """Method does not return."""
+        MarshalByRefObjects.TYPE.Clear()
