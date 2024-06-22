@@ -1,0 +1,10 @@
+DiscriminantAnalysis/__init__.py,sha256=eqCZellG8Kt214bSNfJhMSrBcZy3fB5xMSch9MF6Qvw,70
+DiscriminantAnalysis/ida.py,sha256=d2eEE-iUYL5g0YbKCL88D4gYbszvWE2jOPA0SmMnVp8,358
+DiscriminantAnalysis/qda.py,sha256=d2eEE-iUYL5g0YbKCL88D4gYbszvWE2jOPA0SmMnVp8,358
+discanal/__init__.py,sha256=eqCZellG8Kt214bSNfJhMSrBcZy3fB5xMSch9MF6Qvw,70
+discanal/ida.py,sha256=d2eEE-iUYL5g0YbKCL88D4gYbszvWE2jOPA0SmMnVp8,358
+discanal/qda.py,sha256=d2eEE-iUYL5g0YbKCL88D4gYbszvWE2jOPA0SmMnVp8,358
+discanal-0.0.1.dist-info/METADATA,sha256=dxmPSwoqklDei8mBulxw7Y3832F3KxzHe3JIavQN6iI,396
+discanal-0.0.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+discanal-0.0.1.dist-info/top_level.txt,sha256=m7BC3MSqedNKICqoQth0IzI27g-B_8BcqcmFvYDNHek,9
+discanal-0.0.1.dist-info/RECORD,,
