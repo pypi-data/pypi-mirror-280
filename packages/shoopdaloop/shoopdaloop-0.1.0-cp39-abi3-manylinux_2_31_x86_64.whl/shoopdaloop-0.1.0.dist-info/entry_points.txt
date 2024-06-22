@@ -1,0 +1,3 @@
+[gui_scripts]
+shoopdaloop=shoopdaloop.__main__:main
+
