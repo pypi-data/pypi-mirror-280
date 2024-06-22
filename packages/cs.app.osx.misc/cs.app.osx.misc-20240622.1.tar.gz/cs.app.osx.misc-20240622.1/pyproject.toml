@@ -1,0 +1,67 @@
+[project]
+name = "cs.app.osx.misc"
+description = "Assorted ad hoc MacOS/OSX things. They'd be in `cs.app.osx` directly except that I haven't looked into namespace packages yet."
+authors = [
+    { name = "Cameron Simpson", email = "cs@cskk.id.au" },
+]
+keywords = [
+    "python3",
+]
+dependencies = []
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: MacOS X",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+]
+version = "20240622.1"
+
+[project.license]
+text = "GNU General Public License v3 or later (GPLv3+)"
+
+[project.urls]
+"Monorepo Hg/Mercurial Mirror" = "https://hg.sr.ht/~cameron-simpson/css"
+"Monorepo Git Mirror" = "https://github.com/cameron-simpson/css"
+"MonoRepo Commits" = "https://bitbucket.org/cameron_simpson/css/commits/all"
+Source = "https://github.com/cameron-simpson/css/blob/main/lib/python/cs/app/osx/misc.py"
+
+[project.readme]
+text = """
+Assorted ad hoc MacOS/OSX things.
+They'd be in `cs.app.osx` directly except that I haven't looked
+into namespace packages yet.
+
+*Latest release 20240622.1*:
+Fix trove classifier.
+
+
+
+# Release Log
+
+
+
+*Release 20240622.1*:
+Fix trove classifier.
+
+*Release 20240622*:
+Initial release with just macos_version as a tuple of ints, eg (14,5); cs.app.osx is just a namespace package, with no __init__.py."""
+content-type = "text/markdown"
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools >= 61.2",
+    "trove-classifiers",
+    "wheel",
+]
+
+[tool.setuptools]
+py-modules = [
+    "cs.app.osx.misc",
+]
+
+[tool.setuptools.package-dir]
+"" = "lib/python"

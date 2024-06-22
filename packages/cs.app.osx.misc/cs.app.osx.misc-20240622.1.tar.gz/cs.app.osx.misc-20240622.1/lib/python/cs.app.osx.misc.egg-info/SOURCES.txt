@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+pyproject.toml
+lib/python/cs.app.osx.misc.egg-info/PKG-INFO
+lib/python/cs.app.osx.misc.egg-info/SOURCES.txt
+lib/python/cs.app.osx.misc.egg-info/dependency_links.txt
+lib/python/cs.app.osx.misc.egg-info/top_level.txt
+lib/python/cs/app/osx/misc.py

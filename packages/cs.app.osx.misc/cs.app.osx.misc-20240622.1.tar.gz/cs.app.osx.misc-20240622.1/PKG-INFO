@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: cs.app.osx.misc
+Version: 20240622.1
+Summary: Assorted ad hoc MacOS/OSX things. They'd be in `cs.app.osx` directly except that I haven't looked into namespace packages yet.
+Author-email: Cameron Simpson <cs@cskk.id.au>
+License: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Monorepo Hg/Mercurial Mirror, https://hg.sr.ht/~cameron-simpson/css
+Project-URL: Monorepo Git Mirror, https://github.com/cameron-simpson/css
+Project-URL: MonoRepo Commits, https://bitbucket.org/cameron_simpson/css/commits/all
+Project-URL: Source, https://github.com/cameron-simpson/css/blob/main/lib/python/cs/app/osx/misc.py
+Keywords: python3
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Description-Content-Type: text/markdown
+
+Assorted ad hoc MacOS/OSX things.
+They'd be in `cs.app.osx` directly except that I haven't looked
+into namespace packages yet.
+
+*Latest release 20240622.1*:
+Fix trove classifier.
+
+
+
+# Release Log
+
+
+
+*Release 20240622.1*:
+Fix trove classifier.
+
+*Release 20240622*:
+Initial release with just macos_version as a tuple of ints, eg (14,5); cs.app.osx is just a namespace package, with no __init__.py.
+
