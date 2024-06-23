@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools==58.2.0", "wheel", "Cython", "numpy"]
+
+[project]
+name = "example_package_micahvista"
+version = "0.0.1"
+authors = [
+  { name="Hongyu Ding", email="920268622@qq.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = "==3.10"
+classifiers = [
+    'Programming Language :: C',
+    'Programming Language :: Cython',
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
