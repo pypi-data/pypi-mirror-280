@@ -1,0 +1,9 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_vectorclock.py,sha256=5MZx2ZCoWkv0p-i8hOlh8x5rmncC6NyV8RUl3ifdELM,3889
+vectorclock/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vectorclock/vectorclock.py,sha256=GhU5fvsqVGZj2DSGz3cjK0aF6Pt4SJkoFdHk-kddETg,5552
+vectorclock-0.5.3.dist-info/LICENSE,sha256=OfnSoxRV6a0XNWHjjNTS75sELwSyMdJknFz0sImVwJQ,1064
+vectorclock-0.5.3.dist-info/METADATA,sha256=vnK4FNkh6gWqlclhG6nUO06VnY5uAibnB0d6wkpefLU,2759
+vectorclock-0.5.3.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+vectorclock-0.5.3.dist-info/top_level.txt,sha256=7FTPsHP_vtD6nxIy6_bgFinqo-5RN3FWtnDKMNWM8W0,18
+vectorclock-0.5.3.dist-info/RECORD,,
