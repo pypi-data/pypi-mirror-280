@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pymelon
+Version: 0.1.0
+Summary: A data manipulation library for JSON and lists of dictionaries.
+Home-page: https://github.com/jaz-alli/pyberry
+Author: Jaz Allibhai
+Author-email: jaz.allibhai@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+
+# pyberry
