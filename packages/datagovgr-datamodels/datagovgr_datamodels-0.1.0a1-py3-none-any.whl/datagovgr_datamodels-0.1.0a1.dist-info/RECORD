@@ -1,0 +1,11 @@
+datagovgr_datamodels/API-DOC-VERSION,sha256=y-NTX1iTRVRydKI09GknkRSUGWd6Z3N7bhfzcbY_3e0,5
+datagovgr_datamodels/__init__.py,sha256=s0xRajbmiNZLu7z5XZY0g9ocd8ujTN-KgxqYjkACjnU,209
+datagovgr_datamodels/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datagovgr_datamodels/pydantic_v1/__init__.py,sha256=v_sjSztw7DwDW0K2hEyLNFIb16sFkWHS1Ss7lxHBP0E,464
+datagovgr_datamodels/pydantic_v1/models.py,sha256=lcOrotnR3Dz6tIi1yJnbwlXHacDW8LDlq05i0t47waQ,39862
+datagovgr_datamodels/pydantic_v2/__init__.py,sha256=e0jkHPnz7CN9f6U6Ab3KBal_d21bHc2RbfWGKNE384w,1638
+datagovgr_datamodels/pydantic_v2/models.py,sha256=nIkU1BsrWRNoPOSeW83md1_SEIap2EGPLwRGPooDGnw,41680
+datagovgr_datamodels-0.1.0a1.dist-info/LICENSE,sha256=uuF-zfq2p4eToEmDEmiOQBw8HctAr0Cxze2eORUGBDc,1082
+datagovgr_datamodels-0.1.0a1.dist-info/METADATA,sha256=rvvI07e1Aje2lwJ6YpTT6btnvCj85GuG5OPRlDmCafE,4002
+datagovgr_datamodels-0.1.0a1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+datagovgr_datamodels-0.1.0a1.dist-info/RECORD,,
