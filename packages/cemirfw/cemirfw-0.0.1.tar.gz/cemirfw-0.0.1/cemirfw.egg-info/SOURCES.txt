@@ -1,0 +1,9 @@
+README.md
+setup.py
+cemirfw/__init__.py
+cemirfw/cemirfw.py
+cemirfw/testmain.py
+cemirfw.egg-info/PKG-INFO
+cemirfw.egg-info/SOURCES.txt
+cemirfw.egg-info/dependency_links.txt
+cemirfw.egg-info/top_level.txt
