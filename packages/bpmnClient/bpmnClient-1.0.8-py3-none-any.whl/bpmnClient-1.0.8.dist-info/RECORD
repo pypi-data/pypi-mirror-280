@@ -1,0 +1,10 @@
+bpmnClient/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bpmnClient/bpmn.py,sha256=ew-uS7x46lNHTplXE3f3oat1jCgBxgFmRdzEqz-X424,7139
+bpmnClient/bpmn2.py,sha256=4X5j7sUn-bxlRm2mBuAQOBsbFFwcuV7iSvN_QAw9QFc,9368
+bpmnClient/client.py,sha256=sWABw0lseWITdT1YmnahOiAMwzmkqJ8dH_aX9d1PFas,3036
+bpmnClient/example.py,sha256=Ywy0jyrDUtYMY4pEf1bauVeErpWpiH3MZ7zsWK173MI,390
+bpmnClient-1.0.8.dist-info/LICENSE,sha256=k65kJjdvri4YYWOXmLYoXVzSz-CKlYFefJkhy7SyhqE,1088
+bpmnClient-1.0.8.dist-info/METADATA,sha256=CR83eOlY4ahC6r5HSErCne7pBaPE0K87tgr_5TAITvk,832
+bpmnClient-1.0.8.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+bpmnClient-1.0.8.dist-info/top_level.txt,sha256=D2sGmawpMUqvkdSIT7CZN1m9mFrjADQktqJQCY6s0gA,11
+bpmnClient-1.0.8.dist-info/RECORD,,
