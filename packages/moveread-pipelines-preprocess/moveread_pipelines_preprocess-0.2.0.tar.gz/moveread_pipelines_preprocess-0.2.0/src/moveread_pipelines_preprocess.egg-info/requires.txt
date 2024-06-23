@@ -1,0 +1,10 @@
+pure-cv
+robust-extraction2
+scoresheet-models
+lazy-loader
+pipeteer
+dslog
+fastapi
+kv-fs
+moveread-boxes
+moveread-annotations
