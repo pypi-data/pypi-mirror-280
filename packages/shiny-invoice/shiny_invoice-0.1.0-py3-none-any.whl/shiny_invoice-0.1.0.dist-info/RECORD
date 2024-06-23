@@ -1,0 +1,12 @@
+shiny_invoice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shiny_invoice/default_invoice_template.html,sha256=hbgTDT8gLGQClE9181u3e-6zGjIfcqCywxEgVOA_J9w,5414
+shiny_invoice/shiny_invoice.py,sha256=Z4_fkCc-jz-MkXWlVDvMrSbsxG1dNhEa1RrsNljL-NM,2204
+shiny_invoice/ui_config.py,sha256=hDexhryTJ36vUbAYnmitj53vCKahh5svX2LN5AjDnH4,788
+shiny_invoice/ui_existing_invoices.py,sha256=sTkUES3Iz1x3lFDDbBj415bZsvgwqSd75uv7fdI26Eo,5239
+shiny_invoice/ui_new_invoice.py,sha256=Dkwym3b07tGSL8NfjsymRlnm6wHBxfKm0NUpS1jFUC0,5043
+shiny_invoice-0.1.0.dist-info/LICENSE,sha256=TRc5mU7d42YxMe9kkVPQWEoxcIIpepITm_uQ5m-Br9k,1063
+shiny_invoice-0.1.0.dist-info/METADATA,sha256=QLZdpeXtK_awb9ikSwsEjOSCFVwnq0FS7eVfSrNiR6E,3938
+shiny_invoice-0.1.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+shiny_invoice-0.1.0.dist-info/entry_points.txt,sha256=I_Hd7xnbWUHg-TK_sYFN8LAFRflUq-N8mkREVQeigLs,66
+shiny_invoice-0.1.0.dist-info/top_level.txt,sha256=P2EPQsIMM16isFJYuWbKTJeKVdGvwZUMMESKarIKJUc,14
+shiny_invoice-0.1.0.dist-info/RECORD,,

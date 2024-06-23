@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: shiny-invoice
+Version: 0.1.0
+Summary: Simply manage invoices
+License: MIT License
+        
+        Copyright (c) 2024 dtrai2
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Keywords: invoice,finance,accounting
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Office/Business :: Financial :: Accounting
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: shiny
+Requires-Dist: click
+Requires-Dist: ruamel.yaml
+Requires-Dist: pandas
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+
+# Shiny Invoice
+
+This tool is meant as a simple and naive way to manage invoices locally.
+It is not meant to be published online and used as an enterprise tool.
+
+
+## Run
+
+To run shiny invoice you need to clone this repository and install the dependencies with (it is suggested to use a venv)
+
+```bash
+pip install -e .
+```
+
+Once `shiny-invoice` is installed you need to create configuration file. 
+A suitable example looks like this:
+
+```yaml
+paths:
+  invoices_root_dir: /home/user/invoices/  # must be an absolute path, and it needs to end with /
+  invoices_dir_paid: paid
+  invoices_dir_unpaid: open
+  html_template: shiny_invoice/default_invoice_template.html
+company:  # here you can specify details of your company
+  name: Company Name
+  skills:
+    - Primary Skill
+    - Secondary Skill
+  address:
+    - Address line 1
+    - 4234 Addresline2
+  contact:
+    - contact@shinyinvoice.de
+    - +49 123 456789
+    - shinyinvoice.de
+  bank:
+    name: SomeBank
+    iban: DE12 1234 5678 9100 00
+    bic: BICCCCCCC
+    tax_number: 11/2222/3333
+  tax_rate: 0.19
+  payment_terms_days: 14
+invoice_defaults:  # here you can set defaults, which will be used to prefill the invoice formular
+  recipient: |-
+    Comp 2
+    Compstreet Comp
+    1335 Compvill
+  items: |
+    Services, Hours, Rate, Price
+    Service 1, 40h, 100 €, 4.000 €
+```
+
+Once everything is set up you can run `shiny-invoice` with:
+
+```bash
+shiny-invoice run --config config.yaml 
+```
+
+## Workflow
+
+This application manages the invoices as plain html files, which then can be turned into pdfs via the 
+browsers print functionality. 
+According to the configuration invoices can be separated into paid/unpaid directories.
+Based on that they will be also categorised inside the ui.
+The application does not offer ways to move or change files, this has to be done manually. 
+The filename also needs to follow a specific pattern which is 
+`<CREATED_AT_DATE>-<INVOICE_NUMBER>-<CUSTOMERNAME>.html`
