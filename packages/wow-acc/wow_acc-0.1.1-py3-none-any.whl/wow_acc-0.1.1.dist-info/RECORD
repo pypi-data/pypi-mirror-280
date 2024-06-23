@@ -1,0 +1,17 @@
+wow_acc/__init__.py,sha256=TOJfafkntpEo7ZNvKGVKNfRG8zAxukBkMhrdvBdR7f8,409
+wow_acc/_version.py,sha256=3ngZz3_QoERdhI7hz4p3JzJ6Msem0N5631SEIjary1M,93
+wow_acc/api.py,sha256=SB1hGCpiLmBka-bRN5SmdlZ8uJMckVaVut4UWSQBN5Q,133
+wow_acc/model.py,sha256=gRI5QSnhnMhnK3IfTogSBo6KqDSkgF1UQ5HgNFEKyGo,9635
+wow_acc/paths.py,sha256=97S8BLeL_V7rmEA-I0RmMZCJ8p1lZseMiorow53W4C8,642
+wow_acc/docs/__init__.py,sha256=f-E2GGaAOnea7U51BKWcRtFHZ6p2iPnvGoXR6VvBtGg,43
+wow_acc/tests/__init__.py,sha256=2nfXkz9TigdtVWm0YAeP8qD83i0KvM74AWag9WJMw4Q,58
+wow_acc/tests/helper.py,sha256=p_oZhY0NE1HTQ50ftj1y4sJ6nVOLxQrPwseOlX0AD4s,447
+wow_acc/vendor/__init__.py,sha256=O9CT1B2F-cVB8elT0EoCJbgkcffjvlmqteqavs4giDg,25
+wow_acc/vendor/better_dataclasses.py,sha256=Xn3U_9C5SEdKp2zP8DVPjZq_QssF_ed5_tUDSL_Ip5U,7191
+wow_acc/vendor/pytest_cov_helper.py,sha256=nR-I6d8j0P1JQy6dxIiZtG9Gz0DkfJFpk6EPCCpfnm8,3572
+wow_acc-0.1.1.dist-info/AUTHORS.rst,sha256=nHTveFzFQh1uHjbLOIj6LbooSLAAByNffYkdIMKP-Pc,670
+wow_acc-0.1.1.dist-info/LICENSE.txt,sha256=FpBEjJE5jj6LcZSA1-3ju9TmB-We8MlUyQv2dQtcbMI,1118
+wow_acc-0.1.1.dist-info/METADATA,sha256=DrOhgUdHMrJhxPaAr2bz4CQrzvfXJKheci03GTU4CWA,4580
+wow_acc-0.1.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+wow_acc-0.1.1.dist-info/top_level.txt,sha256=8aIyMakmc5BwYSt0YhebwUZSN3IhhQH0pVuBtGvU_4w,8
+wow_acc-0.1.1.dist-info/RECORD,,
