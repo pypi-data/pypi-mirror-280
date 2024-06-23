@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: chunkit
+Version: 0.1.0
+Summary: Convert URLs and files into LLM-friendly text chunks
+Home-page: https://github.com/genaitools/chunkit
+Author: genaitools
+Author-email: 173556723+genaitools@users.noreply.github.com
+Project-URL: Source Code, https://github.com/genaitools/chunkit
+Description-Content-Type: text/markdown
+
+Initial readme
