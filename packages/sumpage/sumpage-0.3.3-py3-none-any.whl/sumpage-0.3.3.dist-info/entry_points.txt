@@ -1,0 +1,3 @@
+[console_scripts]
+sumpage=sumpage.cli:main
+
