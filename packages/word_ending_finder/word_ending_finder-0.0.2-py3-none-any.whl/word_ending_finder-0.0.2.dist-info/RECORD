@@ -1,0 +1,11 @@
+word_ending_finder/__init__.py,sha256=eXjkh5zNKiT4jC_qe4-V01BT10h23no-F5o9PDKC6EA,117
+word_ending_finder/__main__.py,sha256=Z9IEoWQlVMGHDcp_QIb5iZMv43xxK0q215hWa8R5i6s,169
+word_ending_finder/cli.py,sha256=ojLaoOwsHLqFQQbmLWkO7VvyfiwL7PId0aZ0MM2J_TI,1082
+word_ending_finder/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+word_ending_finder/vie_data.py,sha256=EncCllJ0je7H7yvktMEbm3jTR6yCNIv0WWG8jN36E1k,1062593
+word_ending_finder/wef.py,sha256=mJyWz_-MoCubdtvLjB41XpncS1_RwsE06iBT7A2jQ9g,917
+word_ending_finder-0.0.2.dist-info/METADATA,sha256=uu6_M9OvQbR84L2v7wSxgOh9w6EsZt-3lnCor0R4ik0,1678
+word_ending_finder-0.0.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+word_ending_finder-0.0.2.dist-info/entry_points.txt,sha256=YWknoZ4THrCzvFwm1sTxKRM6Drn2pd0KcV8EjzLw4L8,57
+word_ending_finder-0.0.2.dist-info/licenses/LICENSE,sha256=9AfTEcwnVmDhN3ME2teM7LtzX1NgDR7c4kKay2-_MSQ,1091
+word_ending_finder-0.0.2.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+wef = word_ending_finder.__main__:main
