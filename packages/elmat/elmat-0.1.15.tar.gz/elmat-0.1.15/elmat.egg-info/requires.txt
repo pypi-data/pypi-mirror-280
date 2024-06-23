@@ -1,0 +1,9 @@
+PyYAML
+osadl-matrix==2024.5.22.10535
+
+[dev]
+bump2version~=1.0
+flake8~=7.1
+pytest
+reuse
+twine
