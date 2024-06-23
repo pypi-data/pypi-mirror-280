@@ -1,0 +1,144 @@
+Metadata-Version: 2.1
+Name: tinylang
+Version: 3.0.2
+Summary: A tiny language interpreter
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: annotated-types ==0.5.0
+Requires-Dist: anthropic ==0.29.0
+Requires-Dist: anyio ==3.7.1
+Requires-Dist: cachetools ==5.3.3
+Requires-Dist: certifi ==2023.7.22
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: distro ==1.8.0
+Requires-Dist: filelock ==3.15.4
+Requires-Dist: fsspec ==2024.6.0
+Requires-Dist: google-ai-generativelanguage ==0.6.5
+Requires-Dist: google-api-core[grpc] ==2.19.0
+Requires-Dist: google-api-python-client ==2.134.0
+Requires-Dist: google-auth ==2.30.0
+Requires-Dist: google-auth-httplib2 ==0.2.0
+Requires-Dist: google-generativeai ==0.7.0
+Requires-Dist: googleapis-common-protos ==1.63.1
+Requires-Dist: grpcio ==1.64.1
+Requires-Dist: grpcio-status ==1.62.2
+Requires-Dist: h11 ==0.14.0
+Requires-Dist: httpcore ==1.0.1
+Requires-Dist: httplib2 ==0.22.0
+Requires-Dist: httpx ==0.25.1
+Requires-Dist: huggingface-hub ==0.23.4
+Requires-Dist: idna ==3.4
+Requires-Dist: jiter ==0.4.2
+Requires-Dist: openai ==1.0.1
+Requires-Dist: packaging ==24.1
+Requires-Dist: proto-plus ==1.24.0
+Requires-Dist: protobuf ==4.25.3
+Requires-Dist: pyasn1 ==0.6.0
+Requires-Dist: pyasn1-modules ==0.4.0
+Requires-Dist: pydantic ==2.4.2
+Requires-Dist: pydantic-core ==2.10.1
+Requires-Dist: pyparsing ==3.1.2
+Requires-Dist: python-dotenv ==1.0.1
+Requires-Dist: pyyaml ==6.0.1
+Requires-Dist: requests ==2.32.3
+Requires-Dist: rsa ==4.9
+Requires-Dist: sniffio ==1.3.0
+Requires-Dist: tokenizers ==0.19.1
+Requires-Dist: tqdm ==4.66.1
+Requires-Dist: typing-extensions ==4.8.0
+Requires-Dist: uritemplate ==4.1.1
+Requires-Dist: urllib3 ==2.2.2
+
+# 🦜🔗🔍 Tinylang
+
+Tinylang is a Python library that provides a unified interface for interacting with various Large Language Models (LLMs) including OpenAI's GPT, Anthropic's Claude, and Google's Gemini.
+
+[Documentation](https://astelmach01.github.io/tinylang/)
+
+## Features
+
+- Unified API for multiple LLM providers
+- Support for OpenAI, Anthropic Claude, and Google Gemini
+- Synchronous and asynchronous invocation methods
+- Streaming support for real-time responses
+- Chat history management
+- Easy integration with existing projects
+
+## Installation
+
+To install Tinylang, use pip:
+
+```bash
+pip install tinylang
+```
+
+## Usage
+
+Here's a quick example of how to use Tinylang:
+
+```python
+from tinylang.llms import ChatOpenAI, ChatClaude, ChatGemini
+
+# Initialize chat interfaces
+openai_chat = ChatOpenAI("gpt-4o", chat_history=2)
+claude_chat = ChatClaude("claude-3-opus-20240229", chat_history=2)
+gemini_chat = ChatGemini("gemini-1.5-pro", chat_history=2)
+
+# Use the chat interfaces
+response = openai_chat.invoke("Hello, how are you?")
+print(response)
+
+# Streaming example
+for chunk in claude_chat.stream_invoke("Tell me a joke"):
+    print(chunk, end='')
+
+# Async example
+async def async_chat():
+    response = await gemini_chat.ainvoke("What's the weather like today?")
+    print(response)
+
+# Run the async function
+import asyncio
+asyncio.run(async_chat())
+```
+
+## API Reference
+
+### ChatOpenAI, ChatClaude, ChatGemini
+
+These classes provide interfaces to their respective LLM providers. They share the following methods:
+
+- `invoke(prompt: str) -> str`: Synchronous invocation
+- `ainvoke(prompt: str) -> str`: Asynchronous invocation
+- `stream_invoke(prompt: str) -> Iterator[str]`: Synchronous streaming invocation
+- `astream_invoke(prompt: str) -> AsyncIterable[str]`: Asynchronous streaming invocation
+
+### ChatHistory
+
+Manages the conversation history for the chat interfaces.
+
+## Configuration
+
+Set the following environment variables for API authentication:
+
+- `OPENAI_API_KEY` for OpenAI
+- `ANTHROPIC_API_KEY` for Claude
+- `GOOGLE_API_KEY` for Gemini
+
+Alternatively, you can pass the API keys directly when initializing the chat interfaces.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## More Information
+
+For more detailed information about using Tinylang, please refer to our [documentation](https://astelmach01.github.io/tinylang/).
+
+## To be Added
+
+- function calling
