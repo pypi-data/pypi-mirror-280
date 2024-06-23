@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pythonbeid/__init__.py
+pythonbeid/card_reader.py
+pythonbeid.egg-info/PKG-INFO
+pythonbeid.egg-info/SOURCES.txt
+pythonbeid.egg-info/dependency_links.txt
+pythonbeid.egg-info/requires.txt
+pythonbeid.egg-info/top_level.txt
+tests/__init__.py
+tests/test_card_reader.py
