@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: synengine
+Version: 0.1.14
+Summary: automation tool for unity content integration
+Home-page: https://github.com/SyngularXR/SynPusher-Unity-Engine
+Author: esun
+Author-email: esun@voteb.com
+License: MIT
+Keywords: python,grpc
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: aenum (==3.1.11)
+Requires-Dist: pydantic
+Requires-Dist: engine-grpc
+Requires-Dist: compipe
+
