@@ -1,0 +1,14 @@
+termtalk/__init__.py,sha256=PLyor-EYGQWmR5Dxwm7JbrfE3TTby_gLA7t0aZyefrE,23
+termtalk/alr.py,sha256=6cLcNg_1h1YYs_0zX88hgZid5VIbGBVE0ziNHsL91jE,17
+termtalk/config.json,sha256=LJsoIEbF3KU-ehIlKSfzRmO3G81f2vevZmUjMEgO3fI,264
+termtalk/credential.json,sha256=jimVQoVSNwPfy34nZkxe3kw-OzRKStFjM1vzBFOxLrY,2397
+termtalk/exit_flag,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+termtalk/main.py,sha256=a1HWOXtgW95mrPEPllkF3RQYJKJOKI5c1kN5Nt5YRlM,1376
+termtalk/peler.py,sha256=Icxo1H8j7V4bZV6-uf6lmjBzOyY5PQH3TdXxnZ-BQRQ,509
+termtalk/receiver.py,sha256=gtgZvVAd_9Dwf4P6C05DeRdQCEAk1OYPrxOkd7wdZHQ,2384
+termtalk/sender.py,sha256=i6_Ty9uoXelP6UBU_GjHDEUHEbozBviMmvxl13uCc48,1575
+termtalk-0.2.0.dist-info/METADATA,sha256=gW5f5VcmWmF9nurR9YQ57ui965EKoF2FVnjz_nuf0f0,2406
+termtalk-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+termtalk-0.2.0.dist-info/entry_points.txt,sha256=pPwb8ga8bYQ1nSD_pGbIOAqBx1h6prenH4N1gHmCyc0,44
+termtalk-0.2.0.dist-info/top_level.txt,sha256=XPcNOeIWJHHqq3Y_Qy_6Z8BdxgYryNByqfrRvS0ijIk,9
+termtalk-0.2.0.dist-info/RECORD,,
