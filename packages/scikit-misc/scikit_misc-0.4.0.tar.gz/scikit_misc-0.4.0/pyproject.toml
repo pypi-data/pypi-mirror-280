@@ -1,0 +1,180 @@
+########## Project ##########
+[project]
+name = "scikit-misc"
+description = "Miscellaneous tools for scientific computing."
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+authors = [
+  {name = "Hassan Kibirige", email = "has2k1@gmail.com"},
+]
+dynamic = ['version']
+readme = "README.rst"
+dependencies = [
+    "numpy>=1.23.5",
+]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: Unix",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX",
+    "Programming Language :: C",
+    "Programming Language :: Fortran",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.optional-dependencies]
+all = [
+    "scikit-misc[doc]",
+    "scikit-misc[build]",
+    "scikit-misc[lint]",
+    "scikit-misc[test]",
+    "scikit-misc[dev]",
+]
+
+doc = [
+    "numpydoc",
+    "sphinx",
+]
+
+build = [
+    "cython",
+    "build",
+    "spin",
+    "meson",
+    "meson-python",
+    "ninja",
+]
+
+lint = [
+    "ruff",
+]
+
+test = [
+    "pytest-cov",
+]
+
+dev = [
+    "wheel",
+    "twine",
+]
+
+[project.urls]
+homepage = "https://has2k1.github.io/scikit-misc/stable"
+repository = "https://github.com/has2k1/scikit-misc"
+documentation = "https://has2k1.github.io/scikit-misc/stable"
+changelog = "https://has2k1.github.io/scikit-misc/stable/changelog.html"
+
+########## Build System ##########
+[build-system]
+build-backend = 'mesonpy'
+requires = [
+    "meson-python>=0.15.0",
+    "Cython>=3.0.8",  # when updating version, also update check in meson.build
+    "setuptools",
+    "wheel",
+
+    # NumPy dependencies - to update these, sync from
+    # https://github.com/scipy/scipy/blob/main/pyproject.toml
+    # building against 2.x yields wheels that are also compatible with
+    # numpy 1.x at runtime.
+    "numpy>=2.0",
+]
+
+
+########## Tool - setuptools ##########
+[tool.pytest.ini_options]
+testpaths = [
+    "skmisc/loess/tests"
+]
+doctest_optionflags = "ALLOW_UNICODE ALLOW_BYTES NORMALIZE_WHITESPACE"
+addopts = "--pyargs --cov=skmisc --cov-report=xml --import-mode=importlib"
+
+
+########## Tool - Coverage ##########
+[tool.coverage.run]
+branch = true
+source = ["skmisc"]
+omit = [
+    "skmisc/__config__.py",
+]
+
+########## Tool - Ruff ##########
+[tool.ruff]
+line-length = 79
+
+[tool.ruff.lint]
+select = ["E", "F", "C"]
+ignore = [
+    "E741",  # Ambiguous l
+    "E743",  # Ambiguous I
+    "C901",  # Too complex
+]
+
+# Allow autofix for all enabled rules (when `--fix`) is provided.
+fixable = ["A", "B", "C", "D", "E", "F", "I"]
+unfixable = []
+
+# Exclude a variety of commonly ignored directories.
+exclude = [
+]
+
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+########## Tool - Spin ##########
+[tool.spin]
+package = "skmisc"
+
+[tool.spin.commands]
+Build = [
+    "spin.cmds.meson.build",
+    "spin.cmds.meson.test",
+    ".spin/cmds.py:docs",
+    ".spin/cmds.py:coverage",
+    ".spin/cmds.py:coverage_html",
+    ".spin/cmds.py:sdist",
+]
+Environments = [
+    "spin.cmds.meson.shell",
+    "spin.cmds.meson.ipython",
+    "spin.cmds.meson.python",
+]
+
+########## Tool - CIBuildWheel ##########
+[tool.cibuildwheel]
+skip = "pp* *_ppc64le *_i686 *_s390x *-musllinux*"
+build-verbosity = "3"
+# gmpy2 and scikit-umfpack are usually added for testing. However, there are
+# currently wheels missing that make the test script fail.
+test-requires = ["pytest", "pytest-cov"]
+test-command = "bash {project}/tools/wheels/cibw_test_command.sh {project}"
+
+[tool.cibuildwheel.linux]
+manylinux-x86_64-image = "manylinux2014"
+manylinux-aarch64-image = "manylinux2014"
+before-build = "bash {project}/tools/wheels/cibw_before_build_linux.sh {project}"
+
+[tool.cibuildwheel.macos]
+before-build = "bash {project}/tools/wheels/cibw_before_build_macos.sh {project}"
+
+[tool.cibuildwheel.windows]
+before-build = "bash {project}/tools/wheels/cibw_before_build_win.sh {project}"
+repair-wheel-command = "bash ./tools/wheels/repair_windows.sh {wheel} {dest_dir}"
+
+[[tool.cibuildwheel.overrides]]
+select = "*-win32"
+
+[[tool.cibuildwheel.overrides]]
+select = "*-win_amd64"
+# can use pkg-config detection for win_amd64 because the installed rtools
+# provide a working pkg-config.
+# An alternative is to set CMAKE_PREFIX_PATH="c:/opt/openblas/if_32/32"
+# Don't use double backslash for path separators, they don't get passed
+# to the build correctly
+environment = { PKG_CONFIG_PATH="c:/opt/64/lib/pkgconfig" }
