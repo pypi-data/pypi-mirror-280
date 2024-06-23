@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vocaltractlab_cython
+Version: 0.0.10
+Summary: Cython wrapper for VocalTractLabApi
+Home-page: https://github.com/paul-krug/vocaltractlab-cython
+Author: Paul Krug
+License: GPL-3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# VocalTractLab-Cython
+<p align="center">
+<b>Basic pythonic access to the VocalTractLabBackend-dev API via Cython.</b>
+</p>
