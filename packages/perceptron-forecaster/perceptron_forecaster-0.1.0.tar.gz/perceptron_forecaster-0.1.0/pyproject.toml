@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "perceptron-forecaster"
+version = "0.1.0"
+description = ""
+authors = ["sambaiga <sambaiga@gmail.com>", "apina <fred.apina@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+torch = "^2.3.0"
+pytorch-lightning = "^2.2.5"
+torchmetrics = "^1.4.0.post0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
