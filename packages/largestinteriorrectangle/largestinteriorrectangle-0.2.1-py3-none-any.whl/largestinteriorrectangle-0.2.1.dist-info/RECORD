@@ -1,0 +1,10 @@
+largestinteriorrectangle/__init__.py,sha256=WLAPUqjof2OG8W3zbLuyXiDXhZ7v5fnozHSUsO5lQrA,68
+largestinteriorrectangle/lir.py,sha256=au8pGIiS9mnHOFQIUC-jJt92SVTx4-M98mRczHpw99c,1375
+largestinteriorrectangle/lir_basis.py,sha256=DX_WoQZtjt4lKB5dZYTxHJsf_0QD3vxwqJqavnoPhVs,3533
+largestinteriorrectangle/lir_within_contour.py,sha256=rPry9GM6yieGiPFzYlBIhWEYuqV6eZyev5FlkaqDuQY,7057
+largestinteriorrectangle/lir_within_polygon.py,sha256=QuoQTpMad_2n1_kObTYO1Z7lqTl3lpSVywTw118T_Hc,1403
+largestinteriorrectangle-0.2.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+largestinteriorrectangle-0.2.1.dist-info/METADATA,sha256=Hw5l0rUNAAUPJZColZqPSheveODAeH-HtI0QzEKSIuQ,10778
+largestinteriorrectangle-0.2.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+largestinteriorrectangle-0.2.1.dist-info/top_level.txt,sha256=RgUtdfi-d9M9FOyEg3s1KQOyUdE3z1hvNvupSIXqmZg,25
+largestinteriorrectangle-0.2.1.dist-info/RECORD,,
