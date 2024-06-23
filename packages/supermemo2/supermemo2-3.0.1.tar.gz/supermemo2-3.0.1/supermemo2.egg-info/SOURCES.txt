@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+supermemo2/__init__.py
+supermemo2/sm_two.py
+tests/__init__.py
+tests/test_sm_two.py
