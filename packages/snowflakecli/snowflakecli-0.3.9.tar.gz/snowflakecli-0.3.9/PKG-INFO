@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: snowflakecli
+Version: 0.3.9
+Summary: A DuckDB and DataFusion-powered, AI-augmented command line interface for Snowflake security, optimization, management, and operations.
+Author-email: jake <jake@bostata.com>
+License: MIT
+Requires-Python: ==3.11.*
+Description-Content-Type: text/markdown
+Requires-Dist: duckdb>=1.0.0
+Requires-Dist: snowflake-connector-python>=3.11.0
+Requires-Dist: typer>=0.12.3
+Requires-Dist: datafusion>=38.0.0
+
+# snowflakecli
