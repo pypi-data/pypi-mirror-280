@@ -1,0 +1,7 @@
+pipeteer
+chess-pairings
+lazy-loader
+fastapi
+
+[clientgen]
+openapi-ts
