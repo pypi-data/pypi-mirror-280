@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: amtrak_analysis
+Version: 0.1.9
+Summary: A library for analyzing Amtrak ridership data
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: statsmodels
