@@ -1,0 +1,16 @@
+sanic_security/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sanic_security/authentication.py,sha256=haCrLHF6S-goSmsgQAvI8m59ccSAqjdYVK1ObS2oE_k,12546
+sanic_security/authorization.py,sha256=aQztMiZG9LDctr_C6QEzO5qScwbxpiLk96XVxwdCChM,6921
+sanic_security/configuration.py,sha256=U-xUgceT5ZRjbxYocrzhxyJYFBkobCrlxLNMVGJNX2k,5470
+sanic_security/exceptions.py,sha256=D_7uq9wubZL2C6F4-jxGWUaXUdJtyR6V0tGL_JWw82k,5357
+sanic_security/models.py,sha256=RET2FjOgO-bOdmTYeKgR3zmdSScu9Z6PV52rVGd1fJI,20474
+sanic_security/utils.py,sha256=Zgde7W69ixwv_H8eTs7indO5_U2Jvq62YUpG6ipN768,2629
+sanic_security/verification.py,sha256=vrxYborEOBKEirOHczul9WYub5j6T2ldXE1gsoA8iyY,7503
+sanic_security/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sanic_security/test/server.py,sha256=Tv9KR_BiSb-6Fx7BCxPPPOeWyKUOEFLTptn9dysEbAo,12458
+sanic_security/test/tests.py,sha256=lAI-yd4HVttYKazSxOmyRMCcL_d8eIxciBMrRKE1v4o,22231
+sanic_security-1.12.0.dist-info/LICENSE,sha256=sXlJs9_mG-dCkPfWsDnuzydJWagS82E2gYtkVH9enHA,1100
+sanic_security-1.12.0.dist-info/METADATA,sha256=UdYofgFLFs331K0j8m0PXJ83bDKjGGjv_lnDmKQdpkw,23698
+sanic_security-1.12.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+sanic_security-1.12.0.dist-info/top_level.txt,sha256=ZybkhHXSjfzhmv8XeqLvnNmLmv21Z0oPX6Ep4DJN8b0,15
+sanic_security-1.12.0.dist-info/RECORD,,
