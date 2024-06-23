@@ -1,0 +1,8 @@
+sumpage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sumpage/cli.py,sha256=oUEXQ17dwKdPC0SF_guEE-DVUa50fIB5ANMyoB1dD6w,1100
+sumpage/summary.py,sha256=GWlTSmZDxmH4_yBEB0sOaacmNqqN6y5Y6PowsTg7FPQ,1401
+sumpage-0.3.2.dist-info/LICENSE,sha256=H2T3_RTgmcngMeC7p_SXT3GwBLkd2DaNgAZuxulcfiA,1066
+sumpage-0.3.2.dist-info/METADATA,sha256=CURfLZpxn6ZtbGwgHT5b0jKKW-CmTBF9LcK7rE2Sylc,835
+sumpage-0.3.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sumpage-0.3.2.dist-info/entry_points.txt,sha256=_LFWtnGDloa0eDPBysFDP73TZp7n2H9FwuLp6SZhBNk,44
+sumpage-0.3.2.dist-info/RECORD,,
