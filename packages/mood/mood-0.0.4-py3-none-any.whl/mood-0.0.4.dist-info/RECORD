@@ -1,0 +1,10 @@
+mood/__init__.py,sha256=kHxrVvHh9jJXFNj2wXZhcHxyeLS9cAYEaeJHfKABuNg,173
+mood/data_sources.py,sha256=Kqnz1fJ8rJPeRdmzl7iZF_VPqiCkm3bKDRZRTkuIv2A,933
+mood/sentiment.py,sha256=SkDPm0eJNFF8FC1w0gy6eLIqArWQEPObBiRKPKS1R8E,493
+mood/tools.py,sha256=xSUSYW5pfd7EU3noKJML-87kQqcKDV1U0llQ0z0tJDc,198
+mood/util.py,sha256=YDP81Q4DTE-QR83ZvzEUmzsGsq3GM6iw_rkJNIVM6l0,899
+mood-0.0.4.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+mood-0.0.4.dist-info/METADATA,sha256=-cJKVzTuKUMopQNi8o3kR9yRAbGYUbP8W_oRhGnlQT0,6075
+mood-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mood-0.0.4.dist-info/top_level.txt,sha256=IS3AgpH7glU6i31o33-wEV4-9PZ020co02v4FMjdrI4,5
+mood-0.0.4.dist-info/RECORD,,
