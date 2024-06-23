@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: irdi-parser
+Version: 1.0.0
+Summary: A parser for International Registration Data Identifier (IRDI) strings.
+Home-page: https://github.com/moritzsommer/irdi-parser
+Author: Moritz Sommer
+Author-email: moritz.sommer@rwth-aachen.de
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+License-File: LICENSE
+
