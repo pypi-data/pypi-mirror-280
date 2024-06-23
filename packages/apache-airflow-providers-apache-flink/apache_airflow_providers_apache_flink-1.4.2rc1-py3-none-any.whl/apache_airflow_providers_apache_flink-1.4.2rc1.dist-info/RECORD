@@ -1,0 +1,12 @@
+airflow/providers/apache/flink/LICENSE,sha256=FFb4jd2AXnOOf7XLP04pQW6jbdhG49TxlGY6fFpCV1Y,13609
+airflow/providers/apache/flink/__init__.py,sha256=4L5YeDA6k5wFeeyksUafkFrfzx-sX_CF0DTrp5I5mV0,1499
+airflow/providers/apache/flink/get_provider_info.py,sha256=-cK--H1VI1BQhUDNhRDqfb7t-CYLVwUWm30RKaLOaP8,2599
+airflow/providers/apache/flink/hooks/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/apache/flink/operators/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/apache/flink/operators/flink_kubernetes.py,sha256=1CT9K5VYZAYM4kDITCUQhzcpGq0FIPtKYK-Ml34D6TE,4601
+airflow/providers/apache/flink/sensors/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/apache/flink/sensors/flink_kubernetes.py,sha256=UuDSJgmGkWD1ic7JM-hQM-dldLm1Pb9VeD6BL4SyY90,5843
+apache_airflow_providers_apache_flink-1.4.2rc1.dist-info/entry_points.txt,sha256=99uX_QeXLtKTG0YxU7gJULa3VuAuQjScvynpBLokY6Q,108
+apache_airflow_providers_apache_flink-1.4.2rc1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+apache_airflow_providers_apache_flink-1.4.2rc1.dist-info/METADATA,sha256=E2KhQmFiAr70Iv2gjYkFyQD6GEIYGkL1pwINBs3xVTg,6333
+apache_airflow_providers_apache_flink-1.4.2rc1.dist-info/RECORD,,
