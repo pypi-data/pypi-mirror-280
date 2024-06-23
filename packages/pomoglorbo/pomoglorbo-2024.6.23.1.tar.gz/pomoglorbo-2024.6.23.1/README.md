@@ -1,0 +1,259 @@
+<!--
+SPDX-FileCopyrightText: 2023 Justus Perlwitz
+SPDX-FileCopyrightText: 2024 Justus Perlwitz
+SPDX-FileCopyrightText: 2021-2023 Bhatihya Perera
+
+SPDX-License-Identifier: MIT
+-->
+
+Links: [PyPI](https://pypi.org/project/pomoglorbo/) [Codeberg](https://codeberg.org/justusw/Pomoglorbo)
+
+# Pomoglorbo
+
+A Pomodoro Technique timer for your terminal! Runs over SSH! A bell rings
+when your Pomodoro is over!
+
+_muuuuuust haaaaaaaveeeeee_
+
+![A screenshot of Pomoglorbo running in alacritty on
+macOS](docs/pomoglorbo.png)
+
+But what are Pomodoros? And why would I run this in my terminal? Read my [blog
+post about
+Pomoglorbo](https://www.justus.pw/posts/2024-06-18-try-pomoglorbo.html) for
+more info.
+
+## Installation
+
+__Recommended__: Install using
+[pipx](https://pipx.pypa.io/stable/#install-pipx):
+
+```bash
+pipx install pomoglorbo
+```
+
+Then run using
+
+```bash
+pomoglorbo
+```
+
+You can also install using `pip`, if you don't mind clobbering packages:
+
+```bash
+pip3 install --user pomoglorbo
+```
+
+### With Nix
+
+For [NixOS](https://nixos.org/) or [Home
+Manager](https://nix-community.github.io/home-manager/) users, you can also
+use and install Pomoglorbo as a [Nix Flake](https://hydra.nixos.org/build/263397466/download/1/manual/command-ref/new-cli/nix3-flake.html#description).
+
+The easiest way is to use `nix run` with this Codeberg repository:
+
+```bash
+nix run git+https://codeberg.org/justusw/Pomoglorbo.git
+```
+
+If you want to pass additional arguments, append a `--` argument separator
+first, and you are good to go:
+
+```bash
+nix run git+https://codeberg.org/justusw/Pomoglorbo.git -- --audio-check
+```
+
+It's almost a bit too magical. Reproducible builds? Poetry packages? Builds on
+many different systems? _whooooosh_ Nix is the cave allegory of build systems.
+
+This is how you can add it to your Home Manager configuration, if you use [Nix
+Flakes with Home
+Manager](https://nix-community.github.io/home-manager/index.xhtml#ch-usage):
+
+```nix
+{
+  description = "My awesome nix home manager configuration";
+
+  inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.11";
+    pomoglorbo = {
+      url = "git+https://codeberg.org/justusw/Pomoglorbo.git";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+  };
+
+  outputs = { self, nixpkgs, pomoglorbo }: {
+    # do what you must here
+  };
+}
+```
+
+Do you want to know more about Nix Flakes? I recommend these posts by Xe Iaso:
+
+- [Nix Flakes: an
+Introduction](https://xeiaso.net/blog/nix-flakes-1-2022-02-21/)
+- [Building Go programs with Nix
+Flakes](https://xeiaso.net/blog/nix-flakes-go-programs/)
+
+## Usage
+
+Run `pomoglorbo` to launch. More info in [the
+wiki](https://github.com/JaDogg/pydoro/wiki) of the original version.
+
+See `pomoglorbo --help` for a complete overview of available options. At the
+time of writing, these are all available flags:
+
+<!--
+poetry run src/pomoglorbo/cli/__init__.py --help | sed -e '1,/options:/d' -e 's/^  //'
+-->
+
+```
+-h, --help            show this help message and exit
+--no-sound            mutes all sounds
+--audio-check         play audio and exit
+-v, --version         display version and exit
+--audio-file path     custom audio file
+--config-file path    Which config file to use. Takes precedence over
+                      POMOGLORBO_CONFIG_FILE environment variable. Default
+                      is "$XDG_CONFIG_HOME/pomoglorbo/config.ini".
+--work-state-cmd-suffix suffix [suffix ...]
+                      arguments to append to every command invocation
+```
+
+## Configure Pomoglorbo
+
+A configuration file is automatically created in
+`$XDG_CONFIG_HOME/pomoglorbo/config.ini` when you launch Pomoglorbo. You can
+customize how Pomoglorbo behaves. The default configuration can be found in
+`src/pomoglorbo/core/config.py` under `DEFAULT_CONFIG`.
+
+### Use a different audio file
+
+Set the following in your `config.ini` file:
+
+```ini
+[General]
+audio_file = path/to/your/audio/file.ogg
+```
+
+or run Pomoglorbo with the following flag:
+
+```bash
+pomoglorbo --audio-file path/to/your/audio/file.ogg
+```
+
+If you want to just check whether the sound plays correctly, add the
+`--audio-check` flag as well.
+
+```bash
+pomoglorbo --audio-file path/to/your/audio/file.ogg --audio-check
+```
+
+### Change Pomodoro intervals
+
+The duration of work and break times can be set using the following variables
+in your configuration file:
+
+```ini
+[Time]
+# How many tomatoes need to elapse to get to a long break
+tomatoes_per_set = 4
+# Duration of a single pomodoro in minutes
+work_minutes = 25
+# Duration of a short break between Pomodoros in minutes
+small_break_minutes = 5
+# Duration of a long break after a set, in minutes
+long_break_minutes = 15
+```
+
+### Change key bindings
+
+You can customize Pomoglorbo TUI key bindings using the following configuration
+variables, illustrated with some examples values:
+
+```ini
+[KeyBindings]
+# Focus on previous button in TUI
+focus_previous = s-tab
+# Focus on next button in TUI
+focus_next = tab
+# Quit Pomoglorbo
+exit_clicked = q
+# Start the next Pomodoro or break
+start = s
+# Pause the current Pomodoro or break
+pause = p
+# Reset elapsed time of current Pomodoro or break
+reset = r
+# Reset elapsed time, go back to 0 elapsed Pomodoros (see tomatoes_per_set)
+reset_all = a
+# Show current key bindings
+help = ?
+```
+
+## Development
+
+To start developing Pomoglorbo this, clone this repository from Codeberg:
+
+```
+git clone https://codeberg.org/justusw/Pomoglorbo.git
+```
+
+Use [poetry](https://python-poetry.org/docs/#installation) to install all
+dependencies:
+
+```bash
+# This will install packages used for testing as well
+poetry install --all-extras
+```
+
+Run Pomoglorbo inside the poetry virtual environment using the following command:
+
+```bash
+poetry run src/pomoglorbo/cli/__init__.py
+```
+
+You can additionally specify a config file to be used like so:
+
+```bash
+poetry run src/pomoglorbo/cli/__init__.py --config-file test/config.ini
+```
+
+### Testing
+
+Run all tests and formatters using
+
+```bash
+poetry run bin/test.sh
+```
+
+Format code using
+
+```bash
+poetry run bin/format.sh
+```
+
+## Contributing
+
+Would you like to make a contribution? Your ideas are very welcome as this is
+an open source project welcoming all contributors! Please read the
+[CONTRIBUTING.md](CONTRIBUTING.md) file for more info. Please also refer to the
+[Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Credits
+
+Pomoglorbo is a fork of the original
+[pydoro](https://github.com/JaDogg/pydoro).
+
+- [pydoro](https://github.com/JaDogg/pydoro) - by Bhathiya Perera
+- Pomodoro - Invented by Francesco Cirillo
+- prompt-toolkit - Awesome TUI library
+- b15.wav - [Dana](https://freesound.org/s/377639/) robinson designs,
+  CC0 from freesound
+
+See the `CONTRIBUTORS` file in the root directory for a list of contributors to
+the original pydoro project.
+
+## Copyright
+
+See the LICENSES folder for more information.
