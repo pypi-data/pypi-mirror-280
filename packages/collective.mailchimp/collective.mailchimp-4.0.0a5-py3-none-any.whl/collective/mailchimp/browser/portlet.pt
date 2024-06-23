@@ -1,0 +1,16 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      tal:omit-tag="">
+
+<aside class="portlet portletMailChimp portletMailChimp-${view/name}">
+
+  <header class="portletHeader">
+    <span tal:content="view/name">Title of the portlet</span>
+  </header>
+  <div class="portletContent" tal:content="structure view/form/render" />
+ 
+</aside>
+</html>
