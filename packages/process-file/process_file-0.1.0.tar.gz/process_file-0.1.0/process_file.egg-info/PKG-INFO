@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: process_file
+Version: 0.1.0
+Summary: Biblioteca que processa configurações locais
+Author: Rafael Gomes de Oliveira
+Author-email: rafaelprotest4@gmail.com
+Requires-Dist: psutil~=6.0.0

@@ -1,0 +1,8 @@
+setup.py
+process_file/__init__.py
+process_file/package.py
+process_file.egg-info/PKG-INFO
+process_file.egg-info/SOURCES.txt
+process_file.egg-info/dependency_links.txt
+process_file.egg-info/requires.txt
+process_file.egg-info/top_level.txt
