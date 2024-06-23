@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+xshap/__init__.py
+xshap/xshap.py
+xshap.egg-info/PKG-INFO
+xshap.egg-info/SOURCES.txt
+xshap.egg-info/dependency_links.txt
+xshap.egg-info/requires.txt
+xshap.egg-info/top_level.txt

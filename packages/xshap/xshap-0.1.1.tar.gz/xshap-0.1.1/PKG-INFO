@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: xshap
+Version: 0.1.1
+Summary: Package created as a wrapper for the original Shap package to simplify the learning process
+Home-page: https://github.com/Priyanshu-server/xshap
+Author: xDoramming
+Author-email: priyanshuserver55@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# xshap
+
+[![License](https://img.shields.io/github/license/Priyanshu-server/xshap)](https://github.com/Priyanshu-server/xshap/blob/main/LICENSE.txt)
+[![PyPI](https://img.shields.io/pypi/v/xshap)](https://pypi.org/project/xshap/)
+[![Python Version](https://img.shields.io/pypi/pyversions/xshap)](https://pypi.org/project/xshap/)
+
+**xshap** is a Python package created as a wrapper for the original Shap package to simplify the learning process.
+
+## Installation
+
+You can install **xshap** via pip:
+
+```bash
+pip install xshap
+```
+## Enjoy !
+
