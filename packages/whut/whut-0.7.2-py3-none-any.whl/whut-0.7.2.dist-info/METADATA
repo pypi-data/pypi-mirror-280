@@ -1,0 +1,142 @@
+Metadata-Version: 2.1
+Name: whut
+Version: 0.7.2
+Summary: A CLI tool to instantly search the internet using Google Generative AI in a decluttered manner.
+Home-page: https://github.com/pkdeva/whut
+Author: Priyanshu K
+Author-email: priyanshu.txt@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pygments ==2.18.0
+Requires-Dist: SecretStorage ==3.3.3
+Requires-Dist: annotated-types ==0.7.0
+Requires-Dist: backports.tarfile ==1.2.0
+Requires-Dist: cachetools ==5.3.3
+Requires-Dist: certifi ==2024.2.2
+Requires-Dist: cffi ==1.16.0
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: cryptography ==42.0.7
+Requires-Dist: docutils ==0.21.2
+Requires-Dist: google-ai-generativelanguage ==0.6.4
+Requires-Dist: google-api-core ==2.19.0
+Requires-Dist: google-api-python-client ==2.131.0
+Requires-Dist: google-auth-httplib2 ==0.2.0
+Requires-Dist: google-auth ==2.29.0
+Requires-Dist: google-generativeai ==0.5.4
+Requires-Dist: googleapis-common-protos ==1.63.0
+Requires-Dist: grpcio-status ==1.62.2
+Requires-Dist: grpcio ==1.64.0
+Requires-Dist: httplib2 ==0.22.0
+Requires-Dist: idna ==3.7
+Requires-Dist: importlib-metadata ==7.1.0
+Requires-Dist: jaraco.classes ==3.4.0
+Requires-Dist: jaraco.context ==5.3.0
+Requires-Dist: jaraco.functools ==4.0.1
+Requires-Dist: jeepney ==0.8.0
+Requires-Dist: keyring ==25.2.1
+Requires-Dist: markdown-it-py ==3.0.0
+Requires-Dist: mdurl ==0.1.2
+Requires-Dist: more-itertools ==10.2.0
+Requires-Dist: nh3 ==0.2.17
+Requires-Dist: pkginfo ==1.10.0
+Requires-Dist: proto-plus ==1.23.0
+Requires-Dist: protobuf ==4.25.3
+Requires-Dist: pyasn1 ==0.6.0
+Requires-Dist: pyasn1-modules ==0.4.0
+Requires-Dist: pycparser ==2.22
+Requires-Dist: pydantic ==2.7.2
+Requires-Dist: pydantic-core ==2.18.3
+Requires-Dist: pyparsing ==3.1.2
+Requires-Dist: pyperclip ==1.9.0
+Requires-Dist: readme-renderer ==43.0
+Requires-Dist: requests-toolbelt ==1.0.0
+Requires-Dist: requests ==2.32.2
+Requires-Dist: rfc3986 ==2.0.0
+Requires-Dist: rich ==13.7.1
+Requires-Dist: rsa ==4.9
+Requires-Dist: tqdm ==4.66.4
+Requires-Dist: twine ==5.1.0
+Requires-Dist: typing-extensions ==4.12.0
+Requires-Dist: uritemplate ==4.1.1
+Requires-Dist: urllib3 ==2.2.1
+Requires-Dist: zipp ==3.19.0
+
+# Whut
+
+Whut is a versatile command-line tool that leverages Google Generative AI to search the internet and provide decluttered answers directly in your terminal. With Whut, you can configure your own API key, customize search prompts, and specify response lengths.
+
+## Features
+
+- **Configuration Mode**: Set your own API key for personalized usage.
+- **Default Mode**: Get decluttered answers using a standard prompt.
+- **Custom Mode**: Pass queries directly to the API without modification.
+- **Limited Length Mode**: Specify the number of lines for the answer.
+
+## Installation
+
+You can install Whut from PyPI:
+
+```pip install whut```
+
+> Info here: https://pypi.org/project/whut/
+
+
+## Usage
+### Basic Search
+To perform a basic search, simply type:
+
+```whut "your search query"```   
+
+ example:
+            
+    whut "Mahatma Gandhi"
+
+
+### Configuration Mode
+
+To set your own API key, use the -set flag:    
+
+    whut -set
+
+
+### Custom Mode
+
+To pass the query directly to the API, use the -c flag:   
+
+
+```whut -c "your search query"```    
+
+Example: 
+
+    whut -c "Sam Altman"
+
+### Limited Length Mode
+
+To get an answer with a specific number of lines, use the -c flag along with the -l flag:
+
+```whut -c -l <number> "your search query"```    
+Example: 
+
+    whut -c -l 5 "Sam Altman"
+
+### Custom Prompt
+You can customize the search prompt by using the `-C` or `-c` option followed by a colon (`:`) and then your query:
+
+
+```whut -C "Please provide detailed information about: Your search query"```   
+
+Example:
+    
+    whut -C "Tell me in detail about: Sam Altman"
+
+
+
+
+
+
