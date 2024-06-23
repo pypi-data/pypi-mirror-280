@@ -1,0 +1,13 @@
+visby/__init__.py,sha256=WuaKapL9mgmmvOgktOM-SqfCEYLRpU4tLK1M26nGChk,13
+visby/activity_model.py,sha256=11WXuljuJFeIcrVxbW2A2rP2rzMV7kiXm8BLMNz6aEA,562
+visby/crud.py,sha256=4jH8ciNW-Wpqx5Rx0JBm_xpQWycgWWr0npyrWajXxgc,2874
+visby/database.py,sha256=zS9-Ewr3ENv9u9iv6_Sf3MlMYDZDcxUx1-p-WHjpOx4,281
+visby/main.py,sha256=H1I6k-In2dEQqgzoinj-Iy7ZqgS1dQLSHuKGweq7d1E,4037
+visby/measurement_model.py,sha256=4WrJ6GcuIpDTCiS450D-7lXSTdL5dehSvOhuEPCI14c,554
+visby/user_model.py,sha256=TN2r5l-QQRxS-lltLI8B-HYu-XVIWwnRZDzJ1E8h8-k,272
+visby/version.py,sha256=IMl2Pr_Sy4LVRKy_Sm4CdwUl1Gryous6ncL96EMYsnM,411
+visby-0.1.0.dist-info/LICENSE,sha256=_a0n6_dExw4rFxnNg9HNiAvixbtCxwvQqgwGJjce7ek,1065
+visby-0.1.0.dist-info/METADATA,sha256=YQF7vDLhj3zGgWS3yZvIT4vm_yrpVQwbcf7iJCg22-w,979
+visby-0.1.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+visby-0.1.0.dist-info/top_level.txt,sha256=AE-1wF95PxyurCUkWBpzvKMNZZOJgDzPvT__VVIlP1c,6
+visby-0.1.0.dist-info/RECORD,,
