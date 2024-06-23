@@ -1,0 +1,11 @@
+dobby_storage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dobby_storage/storage.json,sha256=pZzCf2AxRt_e2gEhZOaanbk8CHiuKtpx3UvClaxHb8Q,645
+dobby_storage/storage.py,sha256=UepXQE3U7ZZGsQnCUoXbWnTR4U6AJi9OOmUgqGg16BQ,6192
+dobby_storage/storage_example.py,sha256=iL5uZ56TYdsecAStg9dwtQFKLm2QNyxrY4vhFZY4Ehc,926
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_storage.py,sha256=avXJ84q68TFX7UaTxIhG01ILr31b1opPUeu4WU8X--g,3272
+dobby_storage-1.0.0.dist-info/LICENSE,sha256=wkWdn1ffy8nomKYgmsj6zAfqzHi2tHXp5fj-m9z4xYA,1066
+dobby_storage-1.0.0.dist-info/METADATA,sha256=eVuU5chaFGou8NXGzYgeNKtzKW5li_4Qtfm3b9dMpFI,937
+dobby_storage-1.0.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+dobby_storage-1.0.0.dist-info/top_level.txt,sha256=0nNAUSQcVJbohgckb9JTSuZY1077wddFMsahH_rhyco,20
+dobby_storage-1.0.0.dist-info/RECORD,,
