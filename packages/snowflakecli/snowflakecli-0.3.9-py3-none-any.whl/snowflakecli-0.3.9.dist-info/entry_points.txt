@@ -1,0 +1,4 @@
+[console_scripts]
+sf = snowflakecli.cli.main:main
+sfcli = snowflakecli.cli.main:main
+snowflakecli = snowflakecli.cli.main:main
