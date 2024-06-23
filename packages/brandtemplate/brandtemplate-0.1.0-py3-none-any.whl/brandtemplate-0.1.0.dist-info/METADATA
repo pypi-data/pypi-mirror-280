@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: brandtemplate
+Version: 0.1.0
+Summary: Template for qmd presenations
+Author: aplunket
+Author-email: applunket@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: great-tables (>=0.9.0,<0.10.0)
+Requires-Dist: numpy (>=1.4,<2.0)
+Requires-Dist: plotnine (>=0.13.6,<0.14.0)
+Requires-Dist: presoutput (>=0.1.1,<0.2.0)
+Description-Content-Type: text/markdown
+
+# brandtemplate
+
+A customisable package to automate the creation of [Quarto](https://quarto.org/) presentations using your own brand to display the output of your python based analysis to stakeholders. 
+
+The template uses plotnine and great-tables to create graphs and tables and has themes for both of these that go with the quarto template.
+
+## Customtisation of template
+
+- Fork this repo to create your own master template.
+- Update `config.yaml` in `template_config` to update the formatting of the template.
+  - If changing the fonts add the new font files into `brandtemplate/template_files/font` and delete the existing files.
+  - Change the background and logo image files in `brandtemplate/template_files` to the ones for your brand. This can be copied out of your PowerPoint template and saved as an image.
+- Run `python template_config/config_template.py` to update the template based on the changes to your config.yaml
+
+
+## Build and publish template
+
+
+
+
+## Usage
+
+
+
+## Features
