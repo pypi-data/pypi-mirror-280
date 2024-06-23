@@ -1,0 +1,10 @@
+maple/__init__.py,sha256=LKzYnTn0rcs3Viz4U8eq_AEJ7NphTUxGA7p2EMy1-Ms,7882
+maple/base_extensions.py,sha256=6x_qO3uYdhwllWuhl1776JxvRC2vnS7Q8LU4fzZqxi4,1973
+maple/models.py,sha256=umIe9FAJDY29U3zsMrY_SGF7GgnS6FwpsrmdC1y2X7s,520
+maple/ops.py,sha256=mI9dXHpEGPMnLy7SiOEAsUy29rMce54DTeeK8Pssf8s,1394
+maple/utils.py,sha256=d21cAJ8HSnfbq2YowwaetqPVAeE5MRZ3b6yY170SrCM,604
+maple_spec-0.0.4.dist-info/LICENSE,sha256=ccquvL_DSfyql2-YS5_bYNgF-fPnFs7CSWCo_pHyLLA,11345
+maple_spec-0.0.4.dist-info/METADATA,sha256=Z0zCVU162fXbBbU7a3N8EHGA2Yp-G_iZACwXf1c5dd0,2231
+maple_spec-0.0.4.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+maple_spec-0.0.4.dist-info/top_level.txt,sha256=CKsqVshQPHQsdiATR1rSlVN30gAan8A-TovCLgmvCEQ,6
+maple_spec-0.0.4.dist-info/RECORD,,
