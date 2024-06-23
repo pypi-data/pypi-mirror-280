@@ -1,0 +1,10 @@
+odoo/addons/ssi_non_assurance_report_quality_control/README.rst,sha256=oKEjP5rQhD5Ax_dhzPynuF3_kzCToMJK6cBi-am3g20,1347
+odoo/addons/ssi_non_assurance_report_quality_control/__init__.py,sha256=-feWQ2YwItE4Se4xcT01Jj_FksU0o0mpt48P0cUxpeU,201
+odoo/addons/ssi_non_assurance_report_quality_control/__manifest__.py,sha256=B7ZkINmh6p5g8BVwsZF_FoLul4mKAsAuJMF1Z5J5DoE,519
+odoo/addons/ssi_non_assurance_report_quality_control/models/__init__.py,sha256=KFfGI-Wt8c-_gAlhqwiqMj5dm5-bDRqojE_rwcv1QIs,225
+odoo/addons/ssi_non_assurance_report_quality_control/models/accountant_nonassurance_report.py,sha256=_AMPwjFthShiMbbQ0Tqn3y-_eeg3-dOX7s2sqqBEXvo,424
+odoo/addons/ssi_non_assurance_report_quality_control/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo14_addon_ssi_non_assurance_report_quality_control-14.0.1.0.1.dev2.dist-info/METADATA,sha256=35OaYhxWebBfTb9Xvx1wkwa3-Tn0IZLZjbr4Tc5ysTk,1995
+odoo14_addon_ssi_non_assurance_report_quality_control-14.0.1.0.1.dev2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+odoo14_addon_ssi_non_assurance_report_quality_control-14.0.1.0.1.dev2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_non_assurance_report_quality_control-14.0.1.0.1.dev2.dist-info/RECORD,,
