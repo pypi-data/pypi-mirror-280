@@ -1,0 +1,3 @@
+include data/*.csv
+include data/*.json
+include maps/*.png
