@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: tweet_fetcher
+Version: 1.0
+Summary: Python library to retrieve tweet data without consuming the API or using your X account.
+Home-page: https://github.com/DobleV55/tweet_fetcher
+Author: DobleV55
+Author-email: vilavalentin@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# tweet_fetcher
+
+tweet_fetcher is a Python library to retrieve tweet data without consuming the API or using your X account.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install tweet_fetcher
+```
+
+## Usage
+
+Here's an example of how to use the library:
+
+```python
+from tweet_fetcher import get_tweet_data
+
+tweet_data = get_tweet_data("1465392570310217728")
+print(tweet_data)
+```
+
+### Methods
+
+- get_tweet_data(tweet_id_or_url)
+  Retrieve tweet data given its ID (int or str) or URL.
+
+### Parameters:
+
+- tweet_id_or_url (str): The tweet ID (as int or str) or URL.
+
+### Returns:
+
+- dict: The tweet data in JSON format.
+
+### Example:
+
+```python
+from tweet_fetcher import get_tweet_data
+
+tweet_data = get_tweet_data("https://x.com/valen_vila00/status/1465392570310217728")
+print(tweet_data)
+```
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Author
+
+Me.
