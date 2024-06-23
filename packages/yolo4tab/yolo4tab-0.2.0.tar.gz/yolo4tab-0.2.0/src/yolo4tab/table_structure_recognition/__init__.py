@@ -1,0 +1,1 @@
+from .table_structure_recognition import TableStructureRecognition
