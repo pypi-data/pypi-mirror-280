@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+pymopac/__init__.py
+pymopac/helpers.py
+pymopac.egg-info/PKG-INFO
+pymopac.egg-info/SOURCES.txt
+pymopac.egg-info/dependency_links.txt
+pymopac.egg-info/requires.txt
+pymopac.egg-info/top_level.txt
+tests/test_dependencies.py
+tests/test_mopac.py
