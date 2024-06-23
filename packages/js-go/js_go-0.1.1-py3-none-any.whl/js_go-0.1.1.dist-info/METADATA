@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: js-go
+Version: 0.1.1
+Summary: A Python implementation of the Go board game. This project includes game logic, rules enforcement, and unit tests to ensure correctness.
+Home-page: https://github.com/orca0613/go-game
+Author: JS
+Author-email: polarbear13@naver.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
