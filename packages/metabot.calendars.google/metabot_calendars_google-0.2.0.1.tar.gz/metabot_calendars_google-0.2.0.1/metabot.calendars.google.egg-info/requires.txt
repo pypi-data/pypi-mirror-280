@@ -1,0 +1,9 @@
+google-api-python-client
+metabot>=0.3.20.2
+oauth2client
+
+[dev]
+pylint
+pytest-cov
+pytest
+requests-mock
