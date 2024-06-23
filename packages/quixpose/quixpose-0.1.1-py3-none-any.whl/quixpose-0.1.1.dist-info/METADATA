@@ -1,0 +1,20 @@
+Metadata-Version: 2.3
+Name: quixpose
+Version: 0.1.1
+Summary: Quixpose.io official python client
+Project-URL: Homepage, https://github.com/ShiftyByte/quixpose-python
+Project-URL: Issues, https://github.com/ShiftyByte/quixpose-python/issues
+Author-email: ShiftyByte <shiftybyte@quixpose.io>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: loguru>=0.7.2
+Requires-Dist: rel>=0.4.9.19
+Requires-Dist: requests>=2.32.3
+Requires-Dist: websocket-client>=1.8.0
+Description-Content-Type: text/markdown
+
+# quixpose-python
+Quixpose python module for exposing and tunnelling connections from the internet to closed environments

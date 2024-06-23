@@ -1,0 +1,8 @@
+quixpose/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quixpose/__main__.py,sha256=VgwrZXxdnoZCuKbwNAxyHtFstSpIqPg6u70Nlt1KCZ4,531
+quixpose/client.py,sha256=hMMJeGEW06TdJFtlwgeCmElY65C_OgpCcJMBjQeDRzY,6159
+quixpose/tunnel.py,sha256=xUUv1Lns62MCrDeI72AnOyAC2-cgDA2QK1b-SnjATQ0,4440
+quixpose-0.1.1.dist-info/METADATA,sha256=DGewk30AYNqbSV_AxaTQVdDOWsJID2wxYWXPhjEBlsE,772
+quixpose-0.1.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+quixpose-0.1.1.dist-info/licenses/LICENSE,sha256=3B1o_cKjJEnJHD-YxCBAJ2U9aa3aPri9ACvdG4mTn2o,1067
+quixpose-0.1.1.dist-info/RECORD,,
