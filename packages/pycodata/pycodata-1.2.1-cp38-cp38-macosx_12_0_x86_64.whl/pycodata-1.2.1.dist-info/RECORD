@@ -1,0 +1,15 @@
+pycodata/__init__.py,sha256=jUpNidq_yB2Zgeyl5PJp5iojliOBcUsGUN2xKrI9rIg,461
+pycodata/constants_2010.cpython-38-darwin.so,sha256=a6VArBAUPwyMtE5IyjI6BXXafD4qd-CYDLQdms4l2AI,114232
+pycodata/constants_2014.cpython-38-darwin.so,sha256=8LuQNWD47qbwJ5ZTJnf6x3zZdR2GGQR6aGqf5nb-Bww,114232
+pycodata/constants_2018.cpython-38-darwin.so,sha256=M9P0b5aBbbxN7LLEWBK0Y_SOzjEl8SMJxUiVVgYxMRo,116048
+pycodata/constants_2022.cpython-38-darwin.so,sha256=qhh6pXEAugex82MNcCyXv7X0uJHxsgbrgSXxUj3qk_g,112616
+pycodata/libcodata.dylib,sha256=TMCs7lF9Kv7-1vVrJw2XKnVtI3wKOcKLbEYQK8gESTo,946112
+pycodata/libgcc_s.1.1.dylib,sha256=-OUZTOJEWTs1ay4nK8jH_J6yYN7_MxPoVLW8yf1vbzQ,235624
+pycodata/libgfortran.5.dylib,sha256=AoWxvDEaqt1YNNsY56rVkBPrzsfijLPShgAbvI0h470,3504752
+pycodata/libquadmath.0.dylib,sha256=RbVjMf8SYTUuf9DZ17f5jyS7qSdRFJl3Tlqbl58eI8w,346616
+pycodata/version.cpython-38-darwin.so,sha256=8t7t4Nux3hqr2XKPuZ-HNE5tHHSh8fuAGqOvkwcR2PU,50176
+pycodata-1.2.1.dist-info/LICENSE,sha256=X9z2HI0PLFE-8XCLZPKXm1j8Qq9n05aHdq6T-fISeI8,1051
+pycodata-1.2.1.dist-info/METADATA,sha256=CDLiEGXt2w_ttAhedQWAadDx__E2QYm3PfCzUFgZOHI,1960
+pycodata-1.2.1.dist-info/WHEEL,sha256=emwMQ9MdqLOT5pgoHe2-b99A3F3GRM5S6HdVxst6gFM,109
+pycodata-1.2.1.dist-info/top_level.txt,sha256=2a1LaR8nqhf7ws8R-8fYwctq4kHd-jFd2edMIUHLeRQ,9
+pycodata-1.2.1.dist-info/RECORD,,
