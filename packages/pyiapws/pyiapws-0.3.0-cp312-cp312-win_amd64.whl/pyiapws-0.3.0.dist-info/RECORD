@@ -1,0 +1,15 @@
+pyiapws/__init__.py,sha256=uJMWS6S4_ZEt5K5bAWXAATR24ffwyRucw1-KoS-XpuU,121
+pyiapws/g704.cp312-win_amd64.pyd,sha256=tiAzjyTbVNCvBtf9e3ap7FwBp16mVC9v7pS4dbYMlyw,12288
+pyiapws/libgcc_s_seh-1.dll,sha256=siuVQ5elJwNXnZLbZLV4Eq9w8q_K_i50KgCcFkC57Bo,150707
+pyiapws/libgfortran-5.dll,sha256=I6sKHQzwtR9mqUOzGrqTY3ddd8WzvYMkMH7NAWRv0nE,3306867
+pyiapws/libiapws.dll,sha256=yY_dAV1FTBgT2GW2pT1xudW2bldJSdermr2EPpKpQ5M,153406
+pyiapws/libiapws.dll.a,sha256=KlIPXLOc9C2gv6y76PNcbca_lWk31EOWdNvEdNJ0q54,46648
+pyiapws/libquadmath-0.dll,sha256=MjIw-7mkLskqiBy8dziuww06qJFWvpHRl4wW_Q1JuMc,380848
+pyiapws/libwinpthread-1.dll,sha256=UJG4WipzuCqjz0M_Ua8zj2JFMZ0cBBvCa0KmHL2y-IA,60798
+pyiapws/r283.cp312-win_amd64.pyd,sha256=bl3L2w37dnIhupkMe2ApAOrM6X3VV2Ayr5OYru9JEek,11264
+pyiapws/version.cp312-win_amd64.pyd,sha256=tTMIEA6H81By57k2F49QxmvPnoSWbyMxSzuu6ehIFTQ,10752
+pyiapws-0.3.0.dist-info/LICENSE,sha256=L89ZlAU1h12hV7se2OZ1DmQ58zzcsJBcukggeWbeQTI,1086
+pyiapws-0.3.0.dist-info/METADATA,sha256=z3MMvsYdIbps8Ca6XtXo0c952nzEVZia7HG6itAbYSg,3882
+pyiapws-0.3.0.dist-info/WHEEL,sha256=7M9omTteV1AA1lqimSm66FA5mPjaJNBD3zI5eMwtk7s,102
+pyiapws-0.3.0.dist-info/top_level.txt,sha256=ggYw7wHwjJOaZitfcjCdg6gPpTA7Cs-gsR1M5IfF7bA,8
+pyiapws-0.3.0.dist-info/RECORD,,
