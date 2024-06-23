@@ -1,0 +1,8 @@
+parsedatetime
+cached-property
+numpy
+pandas
+pytest
+coverage
+pytest-cov
+pkrcomponents
