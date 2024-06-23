@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sim-mat
+Version: 1.0.0
+Summary: A brief description of your package
+Home-page: https://github.com/AfreenAman/Mathfunc
+Author: Afreen Aman
+Author-email: afreenaman90@gmail.com
+License: Apache
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+"This is a package for adding numbers"
