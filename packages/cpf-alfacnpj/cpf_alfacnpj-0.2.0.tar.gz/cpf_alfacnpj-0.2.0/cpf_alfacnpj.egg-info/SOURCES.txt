@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+cpf_alfacnpj/__init__.py
+cpf_alfacnpj/cnpj.py
+cpf_alfacnpj/cpf.py
+cpf_alfacnpj.egg-info/PKG-INFO
+cpf_alfacnpj.egg-info/SOURCES.txt
+cpf_alfacnpj.egg-info/dependency_links.txt
+cpf_alfacnpj.egg-info/entry_points.txt
+cpf_alfacnpj.egg-info/top_level.txt
+tests/__init__.py
+tests/test_validar_cnpj.py
+tests/test_validar_cnpj_2026.py
+tests/test_validar_cpf.py
