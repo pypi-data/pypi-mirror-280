@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: stax_cx_service_sdk
+Version: 0.0.1
+Summary: Stax.ai CX Service SDK
+Home-page: https://bitbucket.org/staxai/cx-service-sdk
+Author: Stax.ai, Inc. <https://stax.ai>
+Author-email: naru@stax.ai
+License: Proprietary
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: retry_requests
+Requires-Dist: functions_framework
+
+# Stax.ai CX Service SDK
+
+This project is created and maintained by [Stax.ai, Inc.](https://stax.ai). This is proprietary to Stax.ai, Inc. Unauthorized use, copy, license, or modification of this project and all associated source code is strictly prohibited.
+
+## About
+
+...coming soon...
+
+## Installation
+
+```sh
+pip install stax_cx_service_sdk
+```
+
+## Usage
+
+### Write your service app
+
+```py
+from os import getenv
+from stax_cx_service_sdk import def_service
+
+# This is the internal token for cross-internal system communication
+@def_service(getenv('INTERNAL_KEY'))
+def app(**kwargs):
+    '''
+    Your custom service.
+    - kwargs is a dictionary with arguments sent to the service.
+
+    Return an optional string representing the message to log.
+    If there is an error, raise an exception with a nice human-readable error message to show up on the log.
+    '''
+
+    # Put your service functionality here
+    # ...
+
+    # Raise an exception to report the error
+    raise Exception("Oops, something went wrong!")
+
+    # Return without an exception to complete
+```
+
+### Testing your service
+
+To test your automation, simply comment out the `@def_service` line and call the `app` function with the appropriate input arguments.
+
+### Deploy your service
+
+1. Navigate to the `Project CX` Google Cloud topic.
+2. Create a Pub/Sub topic with the name: `service-{NAME}`, for example `service-generate-client-summary`.
+3. Create a Cloud Function with the same name as the Pub/Sub topic.
+4. Set the trigger type to `Cloud Pub/Sub`.
+5. Pick the previously created Pub/Sub topic.
+6. Select the appropriate memory, CPU, timeout, and concurrency settings.
+7. Select the `App Engine default service account`.
+8. Add the runtime environment variable: `INTERNAL_KEY`.
+9. Ensure your entry file is called `main.py` and that you have a `requirements.txt` file with your dependencies.
+10. Load your source code as a ZIP and configure the function appropriately (make sure the entry-point is set.)
+11. Test your function, and deploy it!
+
+### Using your service
+
+In the API, use the `auto` package to publish messages to the appropriate Pub/Sub topic created earlier to send a request to the service.
