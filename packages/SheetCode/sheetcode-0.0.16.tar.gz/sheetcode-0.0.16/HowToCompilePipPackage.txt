@@ -1,0 +1,6 @@
+1) Upgrade version in pyproject.toml
+2) Run "python3 -m build"
+3) Run "twine upload dist/<Name of tar.gz>"
+4) Enter key:
+
+pypi-AgEIcHlwaS5vcmcCJDQyMDljYTE5LWM3MTktNGFlNi04NWY0LWMzYzcwODRjNzQ3YwACKlszLCJiN2Y2Mjg2OC0yZDM1LTQ2OTctOTc5ZS0xN2QxYzRmYTM4M2IiXQAABiALjG0umA24qc8ToblULGQN-DrczsIjSQZqkqICuBW7Cw
