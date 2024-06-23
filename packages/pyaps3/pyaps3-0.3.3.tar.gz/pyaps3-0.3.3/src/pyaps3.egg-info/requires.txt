@@ -1,0 +1,6 @@
+cdsapi
+matplotlib
+numpy
+pygrib
+scipy
+urllib3
