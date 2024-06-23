@@ -1,0 +1,10 @@
+perceptual_manifold_geometry/__init__.py,sha256=Zhnws5u1Ib49WJieyVb1I0Hq53eWgNo3PdtUqU1bweY,619
+perceptual_manifold_geometry/curvature.py,sha256=6eznSt95yi3iPjyjLlAuzuyRzRstdtwZqgMKA90B5Ng,697
+perceptual_manifold_geometry/density.py,sha256=2sdWFuF0hyhJuxTtnQkHjVqVOxb-oVV17AeKCbvTmao,663
+perceptual_manifold_geometry/holes.py,sha256=HU7mLYe-zukfOf2ofJ1_svkBw5JzpilwGK56Oc1mzSg,1555
+perceptual_manifold_geometry/intrinsic_dimension.py,sha256=3C3NY7ENJDCC0iPaDB2O_KpTSoslXRNLLGyRef8qWtc,401
+perceptual_manifold_geometry/nonconvexity.py,sha256=SHCl0DBEpJzUb17RMayaipGVS9q9NUcciBYL-CEEDs8,2959
+perceptual_manifold_geometry-0.1.1.dist-info/METADATA,sha256=XaFWh2Z43kCbzz4cZPvk1TIIcmCbL_LhoE87uQOXa4k,13431
+perceptual_manifold_geometry-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+perceptual_manifold_geometry-0.1.1.dist-info/top_level.txt,sha256=kSbfcJVRz_LbpQKUm1jZGvsG3O6WV16uYWQXVri9OMA,29
+perceptual_manifold_geometry-0.1.1.dist-info/RECORD,,
