@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+doctoc/__init__.py
+doctoc/cli.py
+doctoc/core.py
+doctoc/markdown.py
+doctoc.egg-info/PKG-INFO
+doctoc.egg-info/SOURCES.txt
+doctoc.egg-info/dependency_links.txt
+doctoc.egg-info/entry_points.txt
+doctoc.egg-info/requires.txt
+doctoc.egg-info/top_level.txt
