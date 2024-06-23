@@ -1,0 +1,16 @@
+numpy<2,>=1.21.1
+Pillow<9,>=8.3.1
+scipy<2,>=1.7.1
+
+[cedar-detect]
+grpcio
+protobuf
+
+[dev]
+pytest
+build
+grpcio-tools
+
+[docs]
+sphinx
+sphinx-rtd-theme
