@@ -1,0 +1,5 @@
+mongomock==3.20.0
+mongoengine==0.24.0
+pyyaml==6.0.1
+tools_fs==0.0.1
+tools_commons==0.0.1
