@@ -1,0 +1,2 @@
+[console_scripts]
+dev_template = dev_template.dev_template:main

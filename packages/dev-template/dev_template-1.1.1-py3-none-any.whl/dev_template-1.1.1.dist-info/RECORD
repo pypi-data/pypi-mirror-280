@@ -1,0 +1,17 @@
+dev_template/__init__.py,sha256=uBYImdJGdSRZIX0zKHWrJNR441t-V_fmRFbbY4rHpxA,31
+dev_template/dev_template.py,sha256=d4cKQ_o7hGV8l4L-Hbz9QF7ddC_eQbkLYzkC8_PG7lk,25188
+dev_template/config/config.ini,sha256=Y4fKcj2Zw3uodWav8ieKMJfXRj6zkSfAsLdwfzDUt_0,332
+dev_template/templates/.gitignore,sha256=XLgkQyw_q82OMGA9zWHwfBF2Nzxdxo0Okk4GGIBf6OI,1858
+dev_template/templates/README.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dev_template/templates/pyproject.toml,sha256=FQVRTKifPf6ZdO5xSenXrcX3QBBPlFoG2k8bsbDdPg4,1046
+dev_template/templates/requirements.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dev_template/templates/setup.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dev_template/templates/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dev_template/templates/src/main.py,sha256=0wmzPh5r9MGwDzS-KuR38LTH84694qju62Vr0LFLXn0,107
+dev_template/templates/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dev_template/templates/tests/test_main.py,sha256=9Y_pAwtCDgkt0yaDymHNhW-8A_1HT0qrEU7u1lPbw6w,422
+dev_template-1.1.1.dist-info/METADATA,sha256=YjwjnMNPDghIj_W5nyUlK7Wet6BBcywd9zhG-UWndjw,9188
+dev_template-1.1.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+dev_template-1.1.1.dist-info/entry_points.txt,sha256=qHw6oBgRl_BrIrJbvursOP72L14zOyC_Os1KrkpIdOg,64
+dev_template-1.1.1.dist-info/licenses/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+dev_template-1.1.1.dist-info/RECORD,,
