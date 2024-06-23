@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+deepxube/__init__.py
+deepxube.egg-info/PKG-INFO
+deepxube.egg-info/SOURCES.txt
+deepxube.egg-info/dependency_links.txt
+deepxube.egg-info/requires.txt
+deepxube.egg-info/top_level.txt
+tests/test_avi.py
+tests/test_environment.py
+tests/test_parse_clauses.py
