@@ -1,0 +1,9 @@
+neopipe/__about__.py,sha256=2FHe3ohxqOBKTZ6pR_ZYhrU3mWw4L-0e0hypKfHmVnI,134
+neopipe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neopipe/pipeline.py,sha256=PBXdrErdndHvWtjFBv9U0tBMXE2-APpQ4k-DRmQJ6mM,2591
+neopipe/result.py,sha256=oIsX9U4wkCO9nn922pFkcUiJmWUXsJvWSmsI1-gRO3U,1162
+neopipe/task.py,sha256=931eIlnaxQy7WZjF1hznFLpO83xeZIOOFmef4pXD8Bg,1944
+neopipe-0.0.4.dist-info/METADATA,sha256=yhBbdMGyRNg7PYleCGrdq9Sfd5YffGsXq_PikMLAV7M,5994
+neopipe-0.0.4.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+neopipe-0.0.4.dist-info/licenses/LICENSE,sha256=auw1U65W6poCPxAodK6rCYdn-Bp-1yuc0ET9-FZE4Cs,1071
+neopipe-0.0.4.dist-info/RECORD,,
