@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: BSpyConvert
+Version: 1.2
+Summary: Library for converting BSpy splines and solid models to and from OpenCascade (OCCT) equivalents and a variety of geometry and CAD file formats
+Home-page: http://github.com/ericbrec/BSpyConvert
+Author: Eric Brechner
+Author-email: ericbrec@msn.com
+License: MIT
+Project-URL: Bug Tracker, http://github.com/ericbrec/BSpyConvert/issues
+Keywords: bspline,B-spline,OCCT,OCC,OpenCascade,CAD,STEP,IGES,STL,solid modeling,solid model
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: PyOpenGL
+Requires-Dist: pyopengltk
+Requires-Dist: bspy
+
+# BSpyConvert
+Library for converting [BSpy](https://pypi.org/project/bspy/) splines and solid models to and from [OpenCascade (OCCT)](https://dev.opencascade.org/) equivalents and a variety of geometry and CAD file formats.
+
+The [convert](https://ericbrec.github.io/BSpyConvert/BSpyConvert/convert.html) module has low-level functions to convert [BSpy](https://pypi.org/project/bspy/) splines and solid models to and from [OpenCascade (OCCT)](https://dev.opencascade.org/) equivalents.
+
+The [importer](https://ericbrec.github.io/BSpyConvert/BSpyConvert/importer.html) module has high-level functions to import [BSpy](https://pypi.org/project/bspy/) splines and solid models from a variety of geometry and CAD file formats, specifically STEP and IGES.
+
+The [exporter](https://ericbrec.github.io/BSpyConvert/BSpyConvert/exporter.html) module has high-level functions to export [BSpy](https://pypi.org/project/bspy/) splines and solid models to a variety of geometry and CAD file formats, specifically STEP, IGES, and STL.
+
+BSpyConvert depends on the [PythonOCC](https://dev.opencascade.org/project/pythonocc) conda package. It can be installed with [conda](https://docs.conda.io/en/latest/), which is commonly acquired from [Anaconda](https://www.anaconda.com/). Details about PythonOCC, including installation instructions, can be found [here](https://github.com/tpaviot/pythonocc-core).
+
+The full documentation for BSpyConvert can be found [here](https://ericbrec.github.io/BSpyConvert), its GitHub project can be found 
+[here](https://github.com/ericbrec/BSpyConvert), <!-- a test suite can be found [here](https://github.com/ericbrec/BSpy/tree/main/tests), --> and
+a set of examples can be found [here](https://github.com/ericbrec/BSpyConvert/tree/main/examples).

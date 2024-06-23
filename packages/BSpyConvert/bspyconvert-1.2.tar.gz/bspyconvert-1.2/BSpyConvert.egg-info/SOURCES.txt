@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+BSpyConvert/__init__.py
+BSpyConvert/convert.py
+BSpyConvert/exporter.py
+BSpyConvert/importer.py
+BSpyConvert.egg-info/PKG-INFO
+BSpyConvert.egg-info/SOURCES.txt
+BSpyConvert.egg-info/dependency_links.txt
+BSpyConvert.egg-info/requires.txt
+BSpyConvert.egg-info/top_level.txt
