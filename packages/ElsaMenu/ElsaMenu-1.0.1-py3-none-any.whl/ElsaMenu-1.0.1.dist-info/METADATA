@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: ElsaMenu
+Version: 1.0.1
+Summary: Easy menu with python3
+Home-page: https://gitlab.com/Elsalamander1/elsamenu
+Author: Elsalamander
+Author-email: edilinguanotto@gmail.com
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ElsaMenu
+
+API to easily create a menu in `python3` in the console.
+
+The system supports:
+
+- automatic refresh where configured
+- colored text
+- non-selectable sections
+- submenus
+- menu history to navigate back to the previous menu
+
+## Example
+
+Example in `python3`, this example shows how to create 2 menus:
+
+- Root menu with 3 options:
+  - `hello`: with green text
+  - `world`
+  - `go sub menu`: opens a sub menu when you press enter on this option
+- Sub menu with 4 options:
+  - `example 1`
+  - `example 2`
+  - `Quit`: closes all
+  - `Back`: goes back to the previous menu
+
+```python
+"""Example"""
+
+from elsa_menu.menu_element import TextBox, OpenMenu, BackMenu, CloseMenu
+from elsa_menu.menu_object import MenuObject
+from elsa_menu.menu import ElsaMenu
+from elsa_menu.color import TextColor
+
+
+if __name__ == "__main__":
+    menu = ElsaMenu()
+
+    menu_obj = MenuObject("test")
+    menu_obj.add_element(TextBox(True, f"{TextColor.GREEN.value}hello"))
+    menu_obj.add_element(TextBox(True, "world"))
+
+    prova = MenuObject("submenu")
+    prova.add_element(TextBox(True, "example 1"))
+    prova.add_element(TextBox(True, "example 2"))
+    prova.add_element(CloseMenu("Quit"))
+    prova.add_element(BackMenu("Back"))
+    prova.entry[1].refresh_min = 1
+    menu_obj.add_element(OpenMenu("go sub menu", prova))
+
+    menu.set_root(menu_obj)
+    menu.start_show()
+```
+
+## Personalizzazioni
+
+### Input
+
+The menu input can be customized by extending the `Input` class and implementing the `getch` method.
+
+The API implements `keyboard` input by default.
+The supported keys are:
+
+- Up arrow
+- Down arrow
+- Enter
+- Back
+
+These are the minimum keys required to use a menu.
+
+### PMenu Customization
+
+The class for managing a single menu can also be customized by extending `AbstractMenu`. There are various useful callbacks:
+
+- `callback_enter`: called when the menu is opened
+- `callback_quit`: called when the menu is exited
+- `callback_move`: called whenever there is movement within the menu
+
+### Menu Element Customization
+
+The elements within the menu can be customized by using the base abstract class `Element`. To create a custom menu element, extend the class and implement at least the `generate_text` method, which generates the text to be displayed in the menu.
+
+There are various supportive callbacks for elements to implement desired mechanics:
+
+- `callback_enter`: called when Enter is pressed on the element
+- `callback_go_in`: called when the cursor is positioned over the element
+- `callback_go_out`: called when the cursor moves away from the element
+- `callback_move_on_menu`: called whenever there is movement within the menu
+
+### Menu Instance Customization
+
+To create a customized version of the menu instance, extend the `AbstractInstance` class.
+
+By default, this requires implementing the output. The API provides an implementation for console output with `ConsoleInstance`.
+
+By extending the class, it is also possible to modify input handling if new inputs have been added or if a different handling method is desired.
