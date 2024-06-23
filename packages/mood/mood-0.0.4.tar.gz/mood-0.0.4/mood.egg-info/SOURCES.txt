@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mood/__init__.py
+mood/data_sources.py
+mood/sentiment.py
+mood/tools.py
+mood/util.py
+mood.egg-info/PKG-INFO
+mood.egg-info/SOURCES.txt
+mood.egg-info/dependency_links.txt
+mood.egg-info/not-zip-safe
+mood.egg-info/requires.txt
+mood.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+beautifulsoup4
+requests
+oa
+config2py
+dol
+i2
