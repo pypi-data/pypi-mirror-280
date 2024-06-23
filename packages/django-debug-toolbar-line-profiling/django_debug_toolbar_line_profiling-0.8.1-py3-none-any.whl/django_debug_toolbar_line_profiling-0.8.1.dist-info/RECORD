@@ -1,0 +1,9 @@
+debug_toolbar_line_profiler/__init__.py,sha256=bSi2e_9PhAH4tVDQqu1GFpiFSeXCBprcvtWqNszYKg0,137
+debug_toolbar_line_profiler/panel.py,sha256=35ZZxqgIwFAlt7TpPPrlrTTIhT1U3D6b85uioQuRlnc,6807
+debug_toolbar_line_profiler/signals.py,sha256=AEGNp2Y3YUqhz8pqZOhh33LKqFOjvJ_FSuCpMyTR62E,66
+debug_toolbar_line_profiler/templates/debug_toolbar_line_profiler/panels/profiling.html,sha256=ARJhUaq5_go2G9PVUratjcrDEZGjMTpllC_UjzY-B0c,1508
+django_debug_toolbar_line_profiling-0.8.1.dist-info/LICENSE,sha256=w820EmcjKSPw0JOkZFL2w_rrg_7s_WtpxkHRIGU6Znk,1541
+django_debug_toolbar_line_profiling-0.8.1.dist-info/METADATA,sha256=qXQ_wpB956xv-j3ms8kenkKVN4_RO-ojjNUeafuLrNY,4505
+django_debug_toolbar_line_profiling-0.8.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+django_debug_toolbar_line_profiling-0.8.1.dist-info/top_level.txt,sha256=wyQs8OMO0V5ayY3H5-l9B--fdkJLVUfDndPK4vHLbOI,28
+django_debug_toolbar_line_profiling-0.8.1.dist-info/RECORD,,
