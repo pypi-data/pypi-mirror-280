@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: rts-twitchbot
+Version: 0.1
+Summary: A RTS Package to create your own Twitch Bot.
+Home-page: UNKNOWN
+Author: RandomTimeTV
+Author-email: dergepanzerte1@gmail.com
+License: Unlicensed
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+You may want to create a little overview of your project -/-
+
