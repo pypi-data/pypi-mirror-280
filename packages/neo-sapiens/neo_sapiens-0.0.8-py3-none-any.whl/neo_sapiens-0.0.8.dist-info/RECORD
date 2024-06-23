@@ -1,0 +1,9 @@
+neo_sapiens/__init__.py,sha256=yLyiCgzzLz-_1l9IRa517Hie09pxI6XAU0p-4EpI-Z0,416
+neo_sapiens/chroma_db_s.py,sha256=-iixsAC9qJQsB0nD03eOxlnswGr4mFRxteqZXJFsUho,5530
+neo_sapiens/few_shot_prompts.py,sha256=DYVmjJcGeIrk13MeyivhDqaNp0O5-8s982hf3PKysy0,21314
+neo_sapiens/hass_schema.py,sha256=pCn_Xkozy3XpNigZbgYjN7Oa9rL0Kwv4bGxkOW61uT0,8511
+neo_sapiens/tools_preset.py,sha256=MFpboDs-gG5EXHArydugzbGRM5Nm0YckBwpQuHxKwxg,1623
+neo_sapiens-0.0.8.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+neo_sapiens-0.0.8.dist-info/METADATA,sha256=RuhlZh2yHkUAkVb_4Dqu5moI0-b2MMsTiCpEirjDG7M,1877
+neo_sapiens-0.0.8.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+neo_sapiens-0.0.8.dist-info/RECORD,,
