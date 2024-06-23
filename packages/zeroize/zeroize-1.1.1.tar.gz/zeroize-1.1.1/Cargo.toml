@@ -1,0 +1,18 @@
+[package]
+name = "zeroize"
+version = "1.1.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "zeroize"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.21.2"
+zeroize_rs = { version = "1.8.1", package = "zeroize"}
+numpy = "0.21"
+memsec = "0.7.0"
+
+[profile.release]
+panic = "abort"
