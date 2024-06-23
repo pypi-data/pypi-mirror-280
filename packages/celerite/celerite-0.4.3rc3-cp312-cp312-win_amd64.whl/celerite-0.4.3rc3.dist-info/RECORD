@@ -1,0 +1,17 @@
+celerite/__init__.py,sha256=mJIlA7QYab2pjnFJbS8hC2DXLx99iaDh_MnMu8DLWcg,804
+celerite/build.py,sha256=DZpGZQV9qAxvMB80deAis-1xmGsPsNV5nuVVoBXrxXU,4964
+celerite/celerite.py,sha256=Uqz7vV1U0aDZtQdZQNNqjq7xwJozHJ18uDdLbQnDX2c,20063
+celerite/celerite_version.py,sha256=7PylG4F-dVemc84kJBsxrpHlmi76i_GzlSg9FHsvImI,26
+celerite/modeling.py,sha256=CkvsuK7cy3tJMSRt0tkO94ut4MLx6Ow_1XuR-OOWa0A,14635
+celerite/plot_setup.py,sha256=YnF1Ag3UaW1LKuTQ5NoRfUu_-kZYIrnwBuVbQLPOu7Y,1082
+celerite/solver.cp312-win_amd64.pyd,sha256=M52nddfkX88mGBRSGkd9Vu2ysqT5s6In3MMku08z-JA,762880
+celerite/solver.cpp,sha256=Tk7J1Yi0UceGCNMBYcABjbMueEN9jnKUgrCSQ1sG3Os,21694
+celerite/terms.py,sha256=yPWNjFcpF0vCxkB1FIE3iqz3lThvdyOOzQOO6eUIKD4,18403
+celerite/timer.py,sha256=P2MHQ97pJJQSQaOUL945u_MAPD6nPm00MuuXHgV3RHU,336
+celerite-0.4.3rc3.dist-info/AUTHORS.rst,sha256=MWYEUhKzqD7S-weZCDWJs4KMcNiqtifvZ14gejYcFIw,225
+celerite-0.4.3rc3.dist-info/LICENSE,sha256=hGLHf_QroKq3omXTlwENegpDifg6_gY7HO1VVcWRZew,1123
+celerite-0.4.3rc3.dist-info/METADATA,sha256=tFB1gx3vBHgBrX7qPGK1adLQbir9Aq6U9KulR5_1tY0,2988
+celerite-0.4.3rc3.dist-info/WHEEL,sha256=h3VxxLkZstcnkT86k1ujrti5ToMTN-RbBnzIRuTWCMs,101
+celerite-0.4.3rc3.dist-info/top_level.txt,sha256=butom7gmdQDjIHk5T--v0UFY9y3tpNMWqw2eVt1S0Hg,9
+celerite-0.4.3rc3.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+celerite-0.4.3rc3.dist-info/RECORD,,
