@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: coinconverter
+Version: 0.0.3
+Summary: Real-time currency converter
+Author: EdexCode
+Author-email: edexcode@gmail.com
+License: MIT License
+Project-URL: GitHub, https://github.com/EdexCode/coinconverter
+Keywords: python,currency,converter,realtime,convert
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: bs4
+Requires-Dist: requests
