@@ -1,0 +1,17 @@
+desktop_notifier/__init__.py,sha256=qT3KODQI13PXXfFKn9ACbL9I7mqM0WdbXGNgLWNdnDs,725
+desktop_notifier/base.py,sha256=ZzxL86ZAmEG7V14f0QPg-B4Vnainp3lSTNU9Qk9hCZ0,16655
+desktop_notifier/dbus.py,sha256=j13y7fCDuF9XAGGi_LYdc3EMHS9__HJfSLIVb9zPxzU,11523
+desktop_notifier/dummy.py,sha256=6aO3W7zMXC-ld-us6yQtzbdDwV8rhjBZc1anP7rZaBw,1266
+desktop_notifier/macos.py,sha256=ymxhP_NS5Cs9gQ-pW0axaN4ZtnbAomlrc-6dsxHXhWU,15542
+desktop_notifier/macos_support.py,sha256=ITnFySHFHrXhIeN_7TuDCndJMPT6U603R7ZwyQ1WE7M,1598
+desktop_notifier/main.py,sha256=GpVZMpFVRIw2jviHNcVsgoyqwEi9VIizdme21YUcw8k,9807
+desktop_notifier/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+desktop_notifier/sync.py,sha256=t6t4Bkj_bS-pZA2OcTIysrf1WRn0FXuAwVeGGTHMKB0,4350
+desktop_notifier/winrt.py,sha256=S5K9LUtUForsuwV2AoIJn_S0-JqeGVX3VDqQuPYceRw,11546
+desktop_notifier/resources/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+desktop_notifier/resources/python.png,sha256=guP0M4b6dnprPLnl-ery8skP3Ot32jjJOMYebZ5G3Ss,5526
+desktop_notifier-5.0.0.dev2.dist-info/LICENSE,sha256=NpXk4SuT80v8umQM93FjKztlrUPp5qhN7tbI3Ek-I4s,1069
+desktop_notifier-5.0.0.dev2.dist-info/METADATA,sha256=Cc6_JncFB96WwZSjfPxQLTybwUcNdPnOukBYr1cMhoY,9475
+desktop_notifier-5.0.0.dev2.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+desktop_notifier-5.0.0.dev2.dist-info/top_level.txt,sha256=Su2Hgb-H69rVamhdu7qvs_HlQ4rvrjegtlAyAfCYyTM,17
+desktop_notifier-5.0.0.dev2.dist-info/RECORD,,
