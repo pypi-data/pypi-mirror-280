@@ -1,0 +1,12 @@
+.DS_Store
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/interface/__init__.py
+src/interface/interface.py
+src/interface/labels.py
+src/meta_interface.egg-info/PKG-INFO
+src/meta_interface.egg-info/SOURCES.txt
+src/meta_interface.egg-info/dependency_links.txt
+src/meta_interface.egg-info/top_level.txt
