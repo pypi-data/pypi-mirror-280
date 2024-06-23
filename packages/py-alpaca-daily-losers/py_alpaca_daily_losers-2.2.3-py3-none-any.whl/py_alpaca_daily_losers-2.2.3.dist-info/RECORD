@@ -1,0 +1,11 @@
+alpaca_daily_losers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alpaca_daily_losers/close_positions.py,sha256=6tj5laSaSGH0N3OIYAAe2LNcsBchaBrt361dzAJPMjs,5746
+alpaca_daily_losers/daily_losers.py,sha256=S5zuxa0TG59eGJYGwyzrqFIZUq47I5-a9o2RvGPx87w,8150
+alpaca_daily_losers/global_functions.py,sha256=KlMK4ADnGRe3my_nHTYoEK763uy71XKkgErMfG5RtY0,3633
+alpaca_daily_losers/liquidate.py,sha256=VW7VTb3qtNdcsulqIb5eys3HFtf7eTxLn9ocgN_9i8E,4693
+alpaca_daily_losers/openai.py,sha256=iDiUauudF_46S_n-Xnvr5ve9Qhz6oVSCdbDsnS2xrKs,2641
+alpaca_daily_losers/slack.py,sha256=Wtbgky3sthFjgbzHMVVqd8-mafnh-AyjYU3n-6nXRZs,1913
+alpaca_daily_losers/statistics.py,sha256=34AxKBYUOZzV1zbcaXvHqJ9vrPBDeLvvL1qT1qocspw,229
+py_alpaca_daily_losers-2.2.3.dist-info/METADATA,sha256=oy-PZgT-aBLWfF8-sra9Jl_fs00AC02M_SpoCnrB6Go,3255
+py_alpaca_daily_losers-2.2.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+py_alpaca_daily_losers-2.2.3.dist-info/RECORD,,
