@@ -1,0 +1,10 @@
+Change Log
+==========
+
+0.0.1 (2024-06-22)
+------------------
+- First release
+
+0.0.2 (2024-06-22)
+------------------
+- Made some changes to the README
