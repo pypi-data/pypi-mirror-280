@@ -1,0 +1,4 @@
+include cflags.py
+include src/*.c
+include include/*.h
+include package_config.yaml
