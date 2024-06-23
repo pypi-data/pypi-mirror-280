@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: ooj
+Version: 0.1
+Summary: OOJ (Object Oriented JSON) is a Python library designed to simplify working with JSON data.
+Home-page: https://github.com/KiryxaTechDev/JsonStructor
+Download-URL: https://github.com/KiryxaTechDev/JsonStructor/archive/refs/tags/v0.1.zip
+Author: KiryxaTechDev
+Author-email: kiryxatech@gmail.com
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# OOJ Library
+
+The `OOJ` library is a Python package that simplifies working with JSON files. It provides methods to read, write, add, remove, and replace elements in a JSON file.
+
+## Installation
+
+You can install the `OOJ` library directly from PyPI:
+
+```bash
+pip install ooj
+```
