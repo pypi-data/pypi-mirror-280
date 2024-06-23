@@ -1,0 +1,10 @@
+js-go/__init__.py,sha256=CBr7aVYtqCFQxmzxxaK1J9-qODllwdaTrc6o51krFZo,71
+js-go/constants.py,sha256=lMsC-D9D0Nj02PtG0wSYitbsBYo7gMF2qZKfMQH-nmU,63
+js-go/function.py,sha256=Uttgu_Tzvpb-Y6JT5ThBPo7wQBJuaLSMCY1PeetOd5k,523
+js-go/go_game.py,sha256=hU4QoMIS2esidoNnNeNeS3uzK1OFxGGuPtEv26cvQEo,2368
+js-go/go_logic.py,sha256=xrD48lSpul_68gczKug5SIGiqtrzPf7bSNhygG7UbvM,2089
+js-go/test.py,sha256=_zZ5iwne_g_s5DSMdwDOSzTK2WyCWpaOFBZq_OqRV5A,5148
+js_go-0.1.0.dist-info/METADATA,sha256=5QxEEBvlqwP7N8EFf1VxSnMEnMqYoquqemg6gfo27sE,449
+js_go-0.1.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+js_go-0.1.0.dist-info/top_level.txt,sha256=U6djJCJ3Ge0s6t3jiEpEjAj-CjZSnWi8U3fk-lX-ZPk,6
+js_go-0.1.0.dist-info/RECORD,,
