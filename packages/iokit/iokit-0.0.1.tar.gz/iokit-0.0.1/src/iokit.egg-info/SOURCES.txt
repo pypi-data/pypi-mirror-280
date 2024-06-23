@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/iokit/__init__.py
+src/iokit/state.py
+src/iokit.egg-info/PKG-INFO
+src/iokit.egg-info/SOURCES.txt
+src/iokit.egg-info/dependency_links.txt
+src/iokit.egg-info/requires.txt
+src/iokit.egg-info/top_level.txt
+src/iokit/extensions/__init__.py
+src/iokit/extensions/gz.py
+src/iokit/extensions/txt.py
