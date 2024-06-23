@@ -1,0 +1,17 @@
+torch
+torchvision
+transformers
+datasets
+evaluate
+opencv-python
+ray[serve]
+accelerate
+tensorboardX
+nltk
+python-multipart
+augraphy
+streamlit==1.30
+streamlit-paste-button
+shapely
+pyclipper
+optimum[exporters]
