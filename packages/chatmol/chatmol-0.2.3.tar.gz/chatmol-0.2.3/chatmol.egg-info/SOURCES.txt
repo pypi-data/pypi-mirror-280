@@ -1,0 +1,10 @@
+README.md
+setup.py
+chatmol/__init__.py
+chatmol/pymol_server.py
+chatmol/utils.py
+chatmol.egg-info/PKG-INFO
+chatmol.egg-info/SOURCES.txt
+chatmol.egg-info/dependency_links.txt
+chatmol.egg-info/requires.txt
+chatmol.egg-info/top_level.txt
