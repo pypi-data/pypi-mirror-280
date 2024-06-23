@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+irdi_parser.egg-info/PKG-INFO
+irdi_parser.egg-info/SOURCES.txt
+irdi_parser.egg-info/dependency_links.txt
+irdi_parser.egg-info/top_level.txt
+parser/__init__.py
+parser/irdi_parser.py
+test/__init__.py
+test/test_irdi_parser.py

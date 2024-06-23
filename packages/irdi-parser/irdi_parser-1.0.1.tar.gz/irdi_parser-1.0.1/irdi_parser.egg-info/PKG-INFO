@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: irdi-parser
+Version: 1.0.1
+Summary: A parser for International Registration Data Identifier (IRDI) strings.
+Home-page: https://github.com/moritzsommer/irdi-parser
+Author: Moritz Sommer
+Author-email: moritz.sommer@rwth-aachen.de
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+License-File: LICENSE
+
+The IRDI Parser is a Python program designed to parse IRDI (International Registration Data Identifier) strings based on the international standards ISO/IEC 11179-6, ISO 29002 and ISO/IEC 6523. It is used in the ECLASS standard. The program uses regular expressions to extract various components of an IRDI string and returns them in a structured format.
