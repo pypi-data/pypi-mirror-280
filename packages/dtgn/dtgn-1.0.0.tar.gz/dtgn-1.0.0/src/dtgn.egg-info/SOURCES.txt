@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+setup.py
+src/dtgn/__init__.py
+src/dtgn/__main__.py
+src/dtgn.egg-info/PKG-INFO
+src/dtgn.egg-info/SOURCES.txt
+src/dtgn.egg-info/dependency_links.txt
+src/dtgn.egg-info/entry_points.txt
+src/dtgn.egg-info/top_level.txt
+src/dtgn/args/Args.py
+src/dtgn/args/__init__.py
+src/dtgn/output/Output.py
+src/dtgn/output/__init__.py
+src/dtgn/util/Util.py
+src/dtgn/util/__init__.py
