@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: yolo4tab
+Version: 0.2.1
+Summary: An End-to-End table extraction system for printed documents based on YOLOv9.
+Author-email: vm7608 <vanmanh76o8@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://vm7608.github.io/
+Project-URL: Documentation, https://vm7608.github.io/
+Keywords: Table Extraction,Table Detection,Table Structure Recognition,Text Extraction,YOLO
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dill
+Requires-Dist: ultralytics
+Requires-Dist: easyocr
+Requires-Dist: StrEnum
+Requires-Dist: gdown ==5.1.0
+Requires-Dist: PyMuPDF
+
+# **YOLO4TAB - An End-to-End Table Extraction System for printed documents**
+
+## **Introduction**
+
+- YOLO4TAB is an end-to-end table extraction system for printed documents. It is based on the YOLOv9 to solve both table detection and table structure recognition problem. Besides, it also includes a skew correction algorithm to correct the skew of the input document.
+
+- This is an end-to-end system that user can input a document image and get the table structure in HTML/LaTex/CSV format. The system also support some custom border styles and alignment for the table.
+
+## **Installation**
+
+- You can easily install the package by using pip:
+
+```bash
+pip install yolo4tab
+```
+
+## **Usage**
+
+- You can use the package by running the following command:
+
+```python
+from yolo4tab import TableExtraction
+
+table_extraction = TableExtraction(device="cpu")
+image_path = "/content/example.png"
+
+outputs = table_extraction.extract_table(
+    image_source=image_path,
+)
+
+for idx, table in enumerate(outputs):
+    print(f"Table {idx}")
+    print(table["outputs"]["html"])
+    print(table["outputs"]["latex"])
+    print(table["outputs"]["csv"])
+```
+
+## **Release Version**
+
+- v0.2.0 (23/6/2024) -> Public release
+
+- v0.1.1 - v0.1.9 (6/2024) -> Under development (Private release)
+
+- v0.1.0 (2/6/2024) -> Update weights and new baseline model (Private release)
+
+- v0.0.2 (17/5/2024) and v0.0.3 (23/05/2024) -> Update codebase (Private release)
+
+- v0.0.1 (16/5/2024) -> Initial version with full pipeline (training, testing, evaluation) for table extraction on printed documents. (Private release)
+
+## Contributing
+
+- vm7608
+
