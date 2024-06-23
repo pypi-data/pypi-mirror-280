@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+Readme.md
+coverage.txt
+requirements.txt
+setup.py
+pkrsplitter/__init__.py
+pkrsplitter/directories.py
+pkrsplitter/main.py
+pkrsplitter/patterns.py
+pkrsplitter/splitter.py
+pkrsplitter.egg-info/PKG-INFO
+pkrsplitter.egg-info/SOURCES.txt
+pkrsplitter.egg-info/dependency_links.txt
+pkrsplitter.egg-info/requires.txt
+pkrsplitter.egg-info/top_level.txt
+site/requirements.txt
