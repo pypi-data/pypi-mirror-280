@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: lyraml
+Version: 0.0.3
+Summary: lyraml
+Keywords: python,first package
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: anyio ==4.4.0
+Requires-Dist: CacheControl ==0.14.0
+Requires-Dist: cachetools ==5.3.3
+Requires-Dist: certifi ==2024.6.2
+Requires-Dist: cffi ==1.16.0
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: cryptography ==42.0.8
+Requires-Dist: firebase-admin ==6.5.0
+Requires-Dist: google-api-core ==2.19.0
+Requires-Dist: google-api-python-client ==2.134.0
+Requires-Dist: google-auth ==2.30.0
+Requires-Dist: google-auth-httplib2 ==0.2.0
+Requires-Dist: google-cloud-core ==2.4.1
+Requires-Dist: google-cloud-firestore ==2.16.0
+Requires-Dist: google-cloud-storage ==2.17.0
+Requires-Dist: google-crc32c ==1.5.0
+Requires-Dist: google-resumable-media ==2.7.1
+Requires-Dist: googleapis-common-protos ==1.63.1
+Requires-Dist: grpcio ==1.64.1
+Requires-Dist: grpcio-status ==1.62.2
+Requires-Dist: h11 ==0.14.0
+Requires-Dist: httpcore ==1.0.5
+Requires-Dist: httplib2 ==0.22.0
+Requires-Dist: httpx ==0.27.0
+Requires-Dist: idna ==3.7
+Requires-Dist: msgpack ==1.0.8
+Requires-Dist: proto-plus ==1.24.0
+Requires-Dist: protobuf ==4.25.3
+Requires-Dist: pyasn1 ==0.6.0
+Requires-Dist: pyasn1-modules ==0.4.0
+Requires-Dist: pycparser ==2.22
+Requires-Dist: PyJWT ==2.8.0
+Requires-Dist: pyparsing ==3.1.2
+Requires-Dist: requests ==2.32.3
+Requires-Dist: rsa ==4.9
+Requires-Dist: sniffio ==1.3.1
+Requires-Dist: uritemplate ==4.1.1
+Requires-Dist: urllib3 ==2.2.2
+
