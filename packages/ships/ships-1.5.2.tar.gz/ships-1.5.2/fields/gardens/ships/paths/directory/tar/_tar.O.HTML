@@ -1,0 +1,62 @@
+
+
+<pre>
+
+	<h1>tar</h1>
+	
+	<code>
+	#/
+	#
+	from ships.paths.directory.tar.drive_directory_to_memory_tar import drive_directory_to_memory_tar	
+	from ships.paths.directory.tar.memory_tar_to_drive_directory import memory_tar_to_drive_directory	
+	#
+	from ships.paths.files.delete_abandon import delete_abandon_file	
+	import ships.paths.directory.deallocate as dellocate_dir
+		
+	#
+	#
+	import ships.paths.directory.check_equality as check_equality
+	#
+	#
+	from os.path import dirname, join, normpath
+	import pathlib
+	import sys
+	#
+	#\
+
+	this_folder = pathlib.Path (__file__).parent.resolve ()
+	original_directory_path = str (normpath (join (this_folder, "constants/directory_1")))
+
+	tar_path_without_extension = str (normpath (join (this_folder, "variance/directory_1")))
+	tar_path = str (normpath (join (this_folder, "variance/directory_1.tar")))
+
+	reversed_directory_path = str (normpath (join (this_folder, "variance/directory_1")))
+
+		
+	tar_stream = drive_directory_to_memory_tar ({
+		"directory_path": original_directory_path
+	})
+	memory_tar_to_drive_directory ({
+		"tar_stream": tar_stream,
+		"directory_path": reversed_directory_path
+	})
+	report = check_equality.start (
+		original_directory_path,
+		reversed_directory_path
+	)
+	</code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
