@@ -1,0 +1,38 @@
+easyrag_tools.tools.vector_store_tool.MyVectorStoreIndex.build_index:
+  name: MyVectorStoreIndex.build_index
+  type: python
+  inputs:
+    embed_conn:
+      type:
+        - CustomConnection
+    adb_conn:
+      type:
+        - CustomConnection
+    storage:
+      type:
+        - string
+    content_path:
+      type:
+        - string
+  module: easyrag_tools.tools.vector_store_tool
+  class_name: MyVectorStoreIndex
+  function: build_index
+easyrag_tools.tools.vector_store_tool.MyVectorStoreIndex.retrieve:
+  name: MyVectorStoreIndex.retrieve
+  type: python
+  inputs:
+    embed_conn:
+      type:
+        - CustomConnection
+    adb_conn:
+      type:
+        - CustomConnection
+    storage:
+      type:
+        - string
+    query:
+      type:
+        - string
+  module: easyrag_tools.tools.vector_store_tool
+  class_name: MyVectorStoreIndex
+  function: retrieve
