@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nsarchive
+Version: 0.1a0
+Summary: 
+License: GPL-3.0
+Author: happex
+Author-email: 110610727+okayhappex@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# 1ns-archive
+
