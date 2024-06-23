@@ -1,0 +1,6 @@
+README.md
+setup.py
+logfinance.egg-info/PKG-INFO
+logfinance.egg-info/SOURCES.txt
+logfinance.egg-info/dependency_links.txt
+logfinance.egg-info/top_level.txt
