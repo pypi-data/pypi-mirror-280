@@ -1,0 +1,13 @@
+setup.py
+banco_dados/__init__.py
+banco_dados/connection.py
+banco_dados/delete_bd.py
+banco_dados/insert_bd.py
+banco_dados/select_bd.py
+banco_dados/update_bd.py
+banco_dados/utils.py
+banco_dados.egg-info/PKG-INFO
+banco_dados.egg-info/SOURCES.txt
+banco_dados.egg-info/dependency_links.txt
+banco_dados.egg-info/requires.txt
+banco_dados.egg-info/top_level.txt
