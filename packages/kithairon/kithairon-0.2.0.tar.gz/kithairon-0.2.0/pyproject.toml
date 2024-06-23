@@ -1,0 +1,114 @@
+[build-system]
+requires = ["setuptools>=60", "wheel", "setuptools_scm[toml]>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kithairon"
+readme = "README.md"
+dynamic = ["version"]
+description = "A library for the Echo liquid handler."
+authors = [{ name = "Constantine Evans", email = "const@costi.net" }]
+license = { file = "LICENCE.txt" }
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+    "License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Typing :: Typed",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "polars > 0.19",
+    "numpy >= 1",
+    "pydantic-xml ~= 2.9",
+    "typing_extensions ~= 4.4",
+    "lxml >= 4.9",
+    "rich >= 13",
+    "xdg_base_dirs",
+    "networkx >= 3.2",
+]
+
+[tool.ruff]
+target-version = "py38"
+
+# Same as Black.
+line-length = 88
+indent-width = 4
+
+[tool.ruff.lint]
+
+fixable = ["ALL"]
+select = ["E4", "E7", "E9", "F", "B", "A001", "A002", "C4", "ICN", "PIE", "PYI", "RSE",
+    "RET501", "SIM", "TID", "TCH", "INT", "PTH", "PD", "PLR", "PLW", "TRY",
+    "NPY", "PERF", "FURB", "RUF", "UP", "D"]
+
+# 2. Avoid enforcing line-length violations (`E501`)
+ignore = ["E501", "TRY003", "D1"]
+
+# 3. Avoid trying to fix flake8-bugbear (`B`) violations.
+unfixable = ["B"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+quote-style = "double"
+
+# Like Black, indent with spaces, rather than tabs.
+indent-style = "space"
+
+# Like Black, respect magic trailing commas.
+skip-magic-trailing-comma = false
+
+# Like Black, automatically detect the appropriate line ending.
+line-ending = "auto"
+
+[project.urls]
+Homepage = "https://github.com/cgevans/kithairon"
+Documentation = "https://kithairon.readthedocs.io/en/latest/"
+
+
+[project.optional-dependencies]
+graphics = [
+    "seaborn >= 0.13",
+]
+all = [
+    "kithairon[graphics]",
+]
+testing = [
+    "kithairon[all]",
+    "pytest ~= 7.4",
+    "pytest-cov ~= 4.1",
+    "hypothesis ~= 6.0"
+]
+docs = [
+    "kithairon[all]",
+    "sphinx ~= 7.2",
+    "numpydoc ~= 1.6",
+    "pydata-sphinx-theme ~= 0.14",
+    "autodocsumm ~= 0.2",
+    "autodoc_pydantic ~= 2.0",
+    "sphinx-book-theme",
+    "sphinx-autoapi",
+]
+
+[tool.setuptools_scm]
+version_scheme = "no-guess-dev"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
+[tool.pytest.ini_options]
+addopts = "--cov kithairon --cov-report term-missing --verbose"
+norecursedirs = ["dist", "build", ".tox"]
+testpaths = ["tests"]
