@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: zana-ai
+Version: 0.1
+Summary: A package for PHIND chatbot functionality
+Home-page: https://github.com/ZanaNowshad/zana-ai
+Author: Zanabal
+Author-email: zanabal.nowshad@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pyyaml
+Requires-Dist: colorama
+Requires-Dist: python-tgpt
+
+# zana-ai
+
+zana-ai is a custom Python package for interacting with the PHIND model.
+
+## Installation
+
+```bash
+pip install zana-ai
+```
+ Usage
+```bash
+from zana_ai import PHIND
+
+phind = PHIND()
+response = phind.chat("What is a car?")
+print(response)
+```

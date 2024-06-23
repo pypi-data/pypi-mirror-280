@@ -1,0 +1,2 @@
+[console_scripts]
+phind = zana_ai.phind:main
