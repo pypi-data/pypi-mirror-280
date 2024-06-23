@@ -1,0 +1,12 @@
+neocogs/__init__.py,sha256=dHgEgTNwYC94GgzDtubzFZHxdKN8UwZBdRUAPKU2eP8,27
+neocogs/core.py,sha256=ixOKbwDqqi0UH14d2WytrjeFe0Ky-E2ICnbNKtACj9I,12462
+neocogs/fs.py,sha256=jl9icpWwNYx59VJ9nEO0Fe24ckOv1Z6k9sVq5hGFUTY,3407
+neocogs/log.py,sha256=SXDAvTXOyZt8EWO8zrGdwiSRN1j6FccyKjzGdDyhi4I,2560
+neocogs/run.py,sha256=s8GmC1mgcbgQp03c3kxw9H15JIwsJ7sDNQJj_He6lDE,13804
+neocogs/std.py,sha256=fDDP-QTNWc7tzbXsipPeiZqF5G6Z3pDrT1nOsMCvH2w,7459
+NeoCogs-0.4.5a1.dist-info/LICENSE,sha256=iqzUq1LcsL7RCbEk_9Qn8ZZEKiDQqUPsiGxzKOsSZb0,1076
+NeoCogs-0.4.5a1.dist-info/METADATA,sha256=xv8xWkNLkOzyUUVVGqbIBDgB2NMSwBUySulDId6V12Y,18235
+NeoCogs-0.4.5a1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+NeoCogs-0.4.5a1.dist-info/entry_points.txt,sha256=HvCMjNSTtqCEN6B-u6osIyg6Bj1pj94FbnFD6Gkn8hI,45
+NeoCogs-0.4.5a1.dist-info/top_level.txt,sha256=FM_JE3jrwBR87-mX1bNeRCFskNZ2BA8gJDmFEPjEtQY,8
+NeoCogs-0.4.5a1.dist-info/RECORD,,
