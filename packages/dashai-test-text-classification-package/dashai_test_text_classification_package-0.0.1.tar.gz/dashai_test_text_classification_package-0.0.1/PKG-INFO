@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: dashai_test_text_classification_package
+Version: 0.0.1
+Summary: Text Classification Package
+Author: DashAI team
+Author-email: dashaisoftware@gmail.com
+Keywords: DashAI,Dataloader,Model,Package,Task
+Requires-Python: >=3.8
+Requires-Dist: dashai-test2-tabular-classification-package
+Description-Content-Type: text/markdown
+
+# **Text Classification Package**
+
+## **BOW Model**
