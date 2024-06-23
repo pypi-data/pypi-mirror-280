@@ -1,0 +1,6 @@
+aws_jmespath_utils/__init__.py,sha256=0ZyW2gIKagx-EXqful66B1t3j_wLfncrgA4gy_dCa-Y,162
+aws_jmespath_utils/filter_tags.py,sha256=Uuz6-DTVSH-GankWiQvsr3yaAL00dkJegN6z5BVNZxY,5233
+aws_jmespath_utils-0.1.13.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aws_jmespath_utils-0.1.13.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+aws_jmespath_utils-0.1.13.dist-info/METADATA,sha256=e6Ooj13HQ4eI_BGGoDH-AzgskeTRRuTSAzcRY4Hhyw0,1198
+aws_jmespath_utils-0.1.13.dist-info/RECORD,,
