@@ -1,0 +1,33 @@
+services:
+  db:
+    image: postgres:12
+    restart: always
+    volumes:
+      - db-data:/var/lib/postgresql/data/pgdata
+    environment:
+      - PGDATA=/var/lib/postgresql/data/pgdata
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=visby
+      - POSTGRES_SERVER=localhost
+      - POSTGRES_PORT=5432
+    networks:
+      - visby-network
+
+  visby-app:
+    build: .
+    restart: always
+    environment:
+      - PORT=8000
+      - POSTGRES_DATABASE_URL=postgresql://postgres:postgres@db:5432/visby
+    ports:
+      - "8000:8000"
+    networks:
+      - visby-network
+
+volumes:
+  db-data:
+
+networks:
+  visby-network:
+    driver: bridge
