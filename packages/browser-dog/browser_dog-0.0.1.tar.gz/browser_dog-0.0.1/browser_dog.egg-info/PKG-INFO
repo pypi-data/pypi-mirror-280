@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: browser-dog
+Version: 0.0.1
+Summary: chrome selenium browser by cookies
+Home-page: https://www.linkedin.com/in/chandlersong/
+Author: chandler song
+Author-email: 275737875@qq.com
+License: MIT
+Keywords: selenium automation browser cookies
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Introduction
+## Install package
+```shell
+pip install browser_dog
+```
+## Preparation
+
+- create file `linkedin_cookies.json`
+
+- please use Chrome Extension `EditThisCookie` to export linkedin cookies to `linkedin_cookies.json`
+
+##  Example Usage:
+
+```python
+from browser_dog.browser import BrowserDog
+
+cat = BrowserDog('cookie.json', 'https://gitee.com', headless=True)
+driver = cat.get_driver()
+
+driver.get("https://gitee.com/login")
+cat.long_wait()
+
+# Get HTML
+html = driver.page_source
+
+```

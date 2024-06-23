@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+browser_dog/__init__.py
+browser_dog/browser.py
+browser_dog.egg-info/PKG-INFO
+browser_dog.egg-info/SOURCES.txt
+browser_dog.egg-info/dependency_links.txt
+browser_dog.egg-info/requires.txt
+browser_dog.egg-info/top_level.txt
