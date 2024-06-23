@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+src/ElsaMenu.egg-info/PKG-INFO
+src/ElsaMenu.egg-info/SOURCES.txt
+src/ElsaMenu.egg-info/dependency_links.txt
+src/ElsaMenu.egg-info/top_level.txt
+src/elsa_menu/__init__.py
+src/elsa_menu/abstract_class.py
+src/elsa_menu/color.py
+src/elsa_menu/instance_object.py
+src/elsa_menu/keyboard_input.py
+src/elsa_menu/menu.py
+src/elsa_menu/menu_element.py
+src/elsa_menu/menu_object.py
