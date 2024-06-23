@@ -1,0 +1,9 @@
+matplotlib
+numpy
+
+[dev]
+pytest
+flake8
+mypy
+black
+isort
