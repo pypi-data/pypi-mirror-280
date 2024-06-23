@@ -1,0 +1,2 @@
+[console_scripts]
+punch-clock = punch_clock:main
