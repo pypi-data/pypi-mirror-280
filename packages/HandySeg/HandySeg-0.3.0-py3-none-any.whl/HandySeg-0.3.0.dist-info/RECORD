@@ -1,0 +1,9 @@
+HandySeg/__init__.py,sha256=4Fwfd_IhdqyCz_rkxjn946KRvSb3ytkcILB94KW2B3o,282
+HandySeg/line_segmentation.py,sha256=gyV2tdCt96uJTOnBbFxGh3Ef1sTY5up5VfSsnvbZCAc,4055
+HandySeg/preprocessing.py,sha256=b8P6JI7lZvIqJl4PrI5Mfk5G0QDLl28dMzQ_PHymbo4,2845
+HandySeg/word_segmentaiton.py,sha256=t_SmB1LVmHX9kUQvRd3EmTYJv8XucBXYBOzWGOFUHKg,3613
+HandySeg-0.3.0.dist-info/LICENSE,sha256=ECR-tVKYg81NCjF7WiDdBWGnrA7Z0Sj_PXrLsV_dwt8,1093
+HandySeg-0.3.0.dist-info/METADATA,sha256=YBh-ffQcFkqKr37BO6RtqDrBPThDaHTPVnwh8b41_c4,3740
+HandySeg-0.3.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+HandySeg-0.3.0.dist-info/top_level.txt,sha256=0801UbQQM_c25AZbevJ-KE0QURVqtKdhjNqjNqnp6g8,9
+HandySeg-0.3.0.dist-info/RECORD,,
