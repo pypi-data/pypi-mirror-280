@@ -1,0 +1,46 @@
+Metadata-Version: 2.3
+Name: etlup
+Version: 0.0.4
+Project-URL: Documentation, https://github.com/Hayden Swanson/etlup#readme
+Project-URL: Issues, https://github.com/Hayden Swanson/etlup/issues
+Project-URL: Source, https://github.com/Hayden Swanson/etlup
+Author-email: Hayden Swanson <hayden_swanson22@yahoo.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: matplotlib==3.9.0
+Requires-Dist: numpy~=1.26.4
+Requires-Dist: pydantic==2.5.3
+Requires-Dist: pytz==2022.7
+Description-Content-Type: text/markdown
+
+# etlup
+
+[![PyPI - Version](https://img.shields.io/pypi/v/etlup.svg)](https://pypi.org/project/etlup)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/etlup.svg)](https://pypi.org/project/etlup)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install etlup
+```
+
+## License
+
+`etlup` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
