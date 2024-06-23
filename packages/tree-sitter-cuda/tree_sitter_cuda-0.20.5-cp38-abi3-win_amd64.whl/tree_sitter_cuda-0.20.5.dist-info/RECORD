@@ -1,0 +1,10 @@
+tree_sitter_cuda/__init__.py,sha256=7pK_PawQjaA-b_nGhXqVJaHRD1yo3GELkM77o73zS_w,92
+tree_sitter_cuda/__init__.pyi,sha256=u8xQzb5Klx7aVoyDlksLHkE7SXkMIO0hmR6yvl_L_40,28
+tree_sitter_cuda/_binding.pyd,sha256=C0v_jMv53hiB_NRg2OWtJ7FzcnzbdpvJslVbyFPp48g,3725824
+tree_sitter_cuda/binding.c,sha256=Yoi4QTb72-mI2_5LE1B60b0v8Tko5VBwgE2IeIcdsOg,659
+tree_sitter_cuda/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_cuda-0.20.5.dist-info/LICENSE,sha256=B74oBht-gehxGBxFoULMQBMHSxFRtMS4cLhO_zGR5Xg,1136
+tree_sitter_cuda-0.20.5.dist-info/METADATA,sha256=6PuVQhUz8Q13CJzFN5AqebqlV0yi_WB7yMnZxSdIeEM,1822
+tree_sitter_cuda-0.20.5.dist-info/WHEEL,sha256=Aavq5XXl58tL6bL-VsXq6M2KHwSF4I7YrvRYfeAzm5A,100
+tree_sitter_cuda-0.20.5.dist-info/top_level.txt,sha256=NAIZzkk-n8sawiKSI9IzlReDgSuVjBjkKSAourdsG7g,26
+tree_sitter_cuda-0.20.5.dist-info/RECORD,,
