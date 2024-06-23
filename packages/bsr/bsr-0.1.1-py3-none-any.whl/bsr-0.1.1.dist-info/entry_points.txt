@@ -1,0 +1,3 @@
+[console_scripts]
+elastica-npz2blend=elastica_blender.converter.npz2blend:main
+
