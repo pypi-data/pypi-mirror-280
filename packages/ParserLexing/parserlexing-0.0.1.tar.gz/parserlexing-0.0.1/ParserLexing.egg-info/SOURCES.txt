@@ -1,0 +1,7 @@
+setup.py
+ParseLexer/__init__.py
+ParseLexer/strings_with_arrows.py
+ParserLexing.egg-info/PKG-INFO
+ParserLexing.egg-info/SOURCES.txt
+ParserLexing.egg-info/dependency_links.txt
+ParserLexing.egg-info/top_level.txt
