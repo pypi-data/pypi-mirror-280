@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pretix-plugin-attendance-certificate
+Version: 0.1.11
+Summary: Create attendance certificates
+Author: Python Italia
+License: MIT
+Requires-Python: <4.0,>=3.9
+Description-Content-Type: text/markdown
+
+# pretix-plugin-attendance-certificate
+
+Plugin to create and send the certificate of attendance to attendees.
+
+Used by https://pycon.it

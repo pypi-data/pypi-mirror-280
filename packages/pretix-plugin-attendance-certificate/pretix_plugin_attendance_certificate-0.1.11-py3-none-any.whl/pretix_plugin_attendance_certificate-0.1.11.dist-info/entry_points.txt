@@ -1,0 +1,3 @@
+[pretix.plugin]
+pretix_attendance_certificate = pretix_attendance_certificate:PretixPluginMeta
+
