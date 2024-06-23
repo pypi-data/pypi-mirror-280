@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: dtgn
+Version: 0.0.1
+Summary: Creates folder structures and puts data in it
+Home-page: https://github.com/5f0ne/dtgn
+Author: 5f0
+License: MIT
+Classifier: Operating System :: OS Independent 
+Classifier: Programming Language :: Python :: 3 
+Classifier: License :: OSI Approved :: MIT License 
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Description
+
+Creates folder structures and puts data in it
+
+# Installation
+
+`pip install dtgn`
+
+# Usage
+
+**From command line:**
+
+`python -m dtgn`
+
+| Option | Short | Type | Default | Description |
+|---|---|---|---|---|
+|--path | -p | String | - | Example path |
+
+
+# Example
+
+`python -m dtgn`
+
+```
+Add example here...
+```
+
+
+# License
+
+MIT
