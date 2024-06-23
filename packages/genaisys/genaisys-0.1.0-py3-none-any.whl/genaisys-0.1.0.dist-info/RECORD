@@ -1,0 +1,7 @@
+genaisys/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genaisys/pygame/__init__.py,sha256=G7U1e5ZbdL7kDegjiah6TaM_cXH96n-6Qh7HrbSrBkI,3172
+genaisys/pygame/snake.py,sha256=MpEIIWqkmT7Dkef-e-_hrqhJ7rElE2R3adx25J4sktY,3160
+genaisys-0.1.0.dist-info/LICENSE,sha256=WlffTLo0DP36orEqvnkHrDdqCi0wxuh2TEQJEN1LFyA,1068
+genaisys-0.1.0.dist-info/METADATA,sha256=KrQA0ug_Phw4GDu0LOmiPvB9h3Jt0v4fMCJ7kSf8D-0,408
+genaisys-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+genaisys-0.1.0.dist-info/RECORD,,
