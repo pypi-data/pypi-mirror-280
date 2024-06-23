@@ -1,0 +1,2 @@
+[console_scripts]
+stm8dce = stm8dce:__main__.main
