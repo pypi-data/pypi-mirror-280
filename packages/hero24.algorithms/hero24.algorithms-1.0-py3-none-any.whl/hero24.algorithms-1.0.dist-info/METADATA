@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hero24.algorithms
+Version: 1.0
+Summary: A set of various algorithms
+Author: hero24
+Author-email: hero24 <hero24@interia.pl>
+Project-URL: Homepage, https://github.com/hero24/Algorithms/
+Project-URL: Issues, https://github.com/hero24/Algorithms/issues/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+

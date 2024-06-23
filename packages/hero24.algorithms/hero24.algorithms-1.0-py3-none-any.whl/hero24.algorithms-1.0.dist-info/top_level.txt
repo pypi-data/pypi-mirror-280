@@ -1,0 +1,7 @@
+hero24/algorithms
+hero24/algorithms/compression
+hero24/algorithms/cryptography
+hero24/algorithms/hero24
+hero24/algorithms/maths
+hero24/algorithms/searching
+hero24/algorithms/sorting
