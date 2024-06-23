@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yolo4tab"
+dynamic = ["version", "dependencies"]
+authors = [
+  { name="vm7608", email="vanmanh76o8@gmail.com" },
+]
+description = "An End-to-End table extraction system for printed documents based on YOLOv9."
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = [
+    "Table Extraction",
+    "Table Detection",
+    "Table Structure Recognition",
+    "Text Extraction",
+    "YOLO",
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license = {text = "MIT License"}
+
+[project.urls]
+Homepage = "https://vm7608.github.io/"
+Documentation = "https://vm7608.github.io/"
+
+[tool.setuptools]
+package-dir = {"yolo4tab" = "src/yolo4tab"}
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+version = {attr = "src.yolo4tab.__version__"}

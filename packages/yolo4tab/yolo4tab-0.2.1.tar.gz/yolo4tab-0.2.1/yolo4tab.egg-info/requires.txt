@@ -1,0 +1,6 @@
+dill
+ultralytics
+easyocr
+StrEnum
+gdown==5.1.0
+PyMuPDF
