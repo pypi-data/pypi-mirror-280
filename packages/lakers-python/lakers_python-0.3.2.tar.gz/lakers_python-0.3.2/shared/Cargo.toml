@@ -1,0 +1,33 @@
+[package]
+name = "lakers-shared"
+version.workspace = true
+edition = "2021"
+authors = ["Mališa Vučinić <malisa.vucinic@inria.fr>"]
+license.workspace = true
+description = "EDHOC crypto library constants crate"
+repository.workspace = true
+# It's implied, but still better for consistency to have it explicit.
+readme.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
+[dependencies]
+pyo3 = { version = "0.20.2", features = ["extension-module"], optional = true }
+hex = { version = "0.4.3", optional = true }
+log = "0.4"
+
+[dev-dependencies]
+hexlit = "0.5.3"
+
+[features]
+default = [  ]
+python-bindings = ["pyo3", "hex"]
+
+## For all arbitrarily limited buffers, pick 4x the current default.
+##
+## On the long run, this might be replaced with a more fine-grained feature set
+## picking the minimum size of all the items, or even an option to generalize,
+## but this provides an easy way to allow unconstrained systems to stomach
+## larger sizes (especially for experimentation) without making sizes explode
+## on embedded.
+quadruple_sizes = []
