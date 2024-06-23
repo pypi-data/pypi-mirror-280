@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: RitikSrivastav-pkg-Ritik-Srivastav
+Version: 0.0.2
+Summary: a small package for perceptron
+Home-page: https://github.com/Ritik-Srivastav/RitikSrivastav-pkg
+Author: Ritik-Srivastav
+Author-email: ritiksrivastav773@gmail.com
+Project-URL: Bug Tracker, https://github.com/Ritik-Srivastav/RitikSrivastav-pkg/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy ==1.21.6
+Requires-Dist: pandas ==1.1.5
+Requires-Dist: joblib ==1.1.0
+
+# RitikSrivastav python package
+
+# How to use this package
+
+from RitikSrivastav.perceptron import Perceptron
+model = Perceptron(eta=0.3, epochs=10)
+
+## References -
+
+- [official python docs for PYPI](https://packaging.python.org/tutorials/packaging-projects/)
+
+-[Github Action File For PYPI](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries)
