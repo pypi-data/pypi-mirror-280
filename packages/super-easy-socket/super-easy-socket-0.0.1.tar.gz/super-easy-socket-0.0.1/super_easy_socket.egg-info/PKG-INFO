@@ -1,0 +1,167 @@
+Metadata-Version: 2.1
+Name: super-easy-socket
+Version: 0.0.1
+Summary: A Python module designed to simplify the implementation of socket-based server-client communication
+Home-page: 
+Author: Theodor Billek
+Author-email: HilbertLooked@gmail.com
+License: MIT
+Keywords: super-easy-socket
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# super-easy-socket
+
+`super-easy-socket` is a Python module designed to simplify the implementation of socket-based server-client communication. It provides an easy-to-use API for creating servers and clients that can send and receive messages, handle custom functions, and manage connections.
+
+## Features
+- Easy-to-use server and client classes.
+- Support for custom functions associated with specific keywords.
+- Automatic ping and pong for connection health monitoring.
+- Threaded handling of client connections on the server side.
+
+## Installation
+You can install `super-easy-socket` using pip:
+
+```bash
+pip install super-easy-socket
+```
+
+## Usage
+
+### Server Side
+The server listens for incoming client connections and can handle custom functions based on keywords.
+
+#### Example Server (server.py)
+```python
+from super-easy-socket import Server
+
+# Define custom functions to handle specific keywords
+def handle_message(client, payload):
+    print(f"Received from {client.ip}: {payload}")
+    if payload == 'hello':
+        client.send('response', 'Hello, client!')
+    elif payload == 'bye':
+        client.send('response', 'Goodbye, client!')
+        client.close_connection()
+
+# Create a server object
+my_server = Server(('127.0.0.1', 8080), 5)
+
+# Associate functions with keywords
+my_server.New_Function('message', handle_message)
+
+# Start the server
+my_server.start(ping=True)
+```
+
+### Client Side
+The client connects to a server and can send messages or handle responses based on custom functions.
+
+#### Example Client (client.py)
+```python
+from super-easy-socket import Client
+
+# Define custom functions to handle specific keywords from the server
+def handle_response(server, payload):
+    print(f"Received from server: {payload}")
+    if payload == 'Goodbye, client!':
+        client.close_connection()
+
+# Define a function to run when connected to the server
+def on_connect(client):
+    client.send('message', 'hello')
+
+# Create a client object
+my_client = Client(('127.0.0.1', 8080))
+
+# Associate functions with keywords
+my_client.New_Function('response', handle_response)
+my_client.on_connect(on_connect)
+
+# Connect to the server
+my_client.connect(ping=True)
+```
+
+## How to Use
+
+### Server Class
+
+#### Creating a Server
+```python
+my_server = Server(('127.0.0.1', 8080), 5)
+```
+- `('127.0.0.1', 8080)`: Server IP address and port.
+- `5`: Maximum number of clients.
+
+#### Associating Functions with Keywords
+```python
+my_server.New_Function('message', handle_message)
+```
+- `'message'`: Keyword that triggers the function.
+- `handle_message`: Function to be executed when the keyword is received.
+
+#### Starting the Server
+```python
+my_server.start(ping=True)
+```
+- `ping=True`: Enable ping for connection health monitoring.
+
+### Client Class
+
+#### Creating a Client
+```python
+my_client = Client(('127.0.0.1', 8080))
+```
+- `('127.0.0.1', 8080)`: Server IP address and port.
+
+#### Associating Functions with Keywords
+```python
+my_client.New_Function('response', handle_response)
+```
+- `'response'`: Keyword that triggers the function.
+- `handle_response`: Function to be executed when the keyword is received.
+
+#### Setting a Function to Run on Connect
+```python
+my_client.on_connect(on_connect)
+```
+- `on_connect`: Function to run when the client successfully connects to the server.
+
+#### Connecting to the Server
+```python
+my_client.connect(ping=True)
+```
+- `ping=True`: Enable ping for connection health monitoring.
+
+### Sending Messages
+Messages are sent using the `send` method, which associates a keyword with a message payload. The receiving side will use the associated keyword to trigger the corresponding function.
+
+#### Server Side Sending
+To send a message from the server to the client:
+```python
+client.send('response', 'Hello, client!')
+```
+- `'response'`: The keyword associated with the message.
+- `'Hello, client!'`: The message payload.
+
+#### Client Side Sending
+To send a message from the client to the server:
+```python
+my_client.send('message', 'hello')
+```
+- `'message'`: The keyword associated with the message.
+- `'hello'`: The message payload.
+
+## License
+This module is licensed under the MIT License.
+
+## Contributing
+Contributions are welcome! Please submit a pull request or open an issue to discuss potential changes.
+
+## Support
+If you encounter any issues or have any questions, feel free to open an issue on the GitHub repository.
