@@ -1,0 +1,4 @@
+[console_scripts]
+sf = cli.main:main
+sfcli = cli.main:main
+snowflakecli = cli.main:main
