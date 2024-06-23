@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+Flask_DebugToolbar_DjangoSQL.egg-info/PKG-INFO
+Flask_DebugToolbar_DjangoSQL.egg-info/SOURCES.txt
+Flask_DebugToolbar_DjangoSQL.egg-info/dependency_links.txt
+Flask_DebugToolbar_DjangoSQL.egg-info/requires.txt
+Flask_DebugToolbar_DjangoSQL.egg-info/top_level.txt
+flask_debugtoolbar_djangosql/__init__.py
+flask_debugtoolbar_djangosql/panel.py
+flask_debugtoolbar_djangosql/templates/panels/django_sql.html
