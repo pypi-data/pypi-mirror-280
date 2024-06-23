@@ -1,0 +1,14 @@
+kithairon/__init__.py,sha256=hQwnfwgGs4rAJ1rXsYuDV1Ia3F0HzOVUIG08Q5XbcWs,348
+kithairon/_util.py,sha256=KxT1KTwBZDVwYuQySPtlXIkxd6LFPZIS_SpgP5icWjE,3922
+kithairon/labware.py,sha256=kjUWmmne0CTlx0QILxKBHr1dW56x8BtY-ZuvCcyj1v0,6995
+kithairon/picklists.py,sha256=VzNfkqtx3R4LoMS-SswY_TiZenHjSpZqSsNJHSUH0p0,28173
+kithairon/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kithairon/surveys/__init__.py,sha256=kNVj98SntmkyfSknzLV3HqJRGMzn7vpVgejhLpt2poc,232
+kithairon/surveys/platesurvey.py,sha256=ZQQF9wpC-fL-wo_HUSyWODGmZx4rolHJn_DfALh-ufc,7533
+kithairon/surveys/surveydata.py,sha256=h74kHYWY3qa6lsBS0TfwEXTBDuXZnzqF6s_il7BeGwc,26272
+kithairon/surveys/surveyreport.py,sha256=JHhHWccgCK320BinQp71Dv9HdYs17gm12J3YvWpeW5Q,8116
+kithairon-0.2.0.dist-info/LICENCE.txt,sha256=b8nnCcy_4Nd_v_okJ6mDKCvi64jkexzbSfIag7TR5mU,13827
+kithairon-0.2.0.dist-info/METADATA,sha256=y-ebMcD2BGkcjJVUYiPNCONE5bYjIwVPtjLgR2rktwk,18741
+kithairon-0.2.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+kithairon-0.2.0.dist-info/top_level.txt,sha256=g_ZiizMi208yd83QL-J5pESus09Y866ix2rBF-Zc_8o,10
+kithairon-0.2.0.dist-info/RECORD,,
