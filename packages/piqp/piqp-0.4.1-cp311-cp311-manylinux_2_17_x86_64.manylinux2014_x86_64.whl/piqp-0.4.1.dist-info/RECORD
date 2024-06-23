@@ -1,0 +1,11 @@
+piqp-0.4.1.dist-info/LICENSE,sha256=Ql0WXOWsYrw_0c74NzT6Z4C8hEZYv8XpBMpFoBHf7HA,1313
+piqp-0.4.1.dist-info/WHEEL,sha256=ZJpcSajRNd2JfiY4vjeQoZxFLq2Du6mWCV5E_iphdu4,151
+piqp-0.4.1.dist-info/top_level.txt,sha256=F-GFRluNmn1bIS3npWT9LVAqKKnPzP4_LX_vULOXLnE,5
+piqp-0.4.1.dist-info/RECORD,,
+piqp-0.4.1.dist-info/METADATA,sha256=65dp6PnfzyuANOXJvjmChn_TxGo5Rb7HLpHeYsyghLk,4891
+piqp/instruction_set.cpython-311-x86_64-linux-gnu.so,sha256=QUCns8QhoWWltkirg9jpGTzi2R4vx6SveQFwlY2U7XU,208840
+piqp/__init__.pyi,sha256=G_S_Ll7dPPia3MiZWb1Ue_nwzyLDGKsXQKnusoOREkg,7739
+piqp/piqp_python_avx512.cpython-311-x86_64-linux-gnu.so,sha256=-91Yr28KSDoREoFXEytu3oex160eEKRPQ6LCSWP5IS0,741608
+piqp/piqp_python_avx2.cpython-311-x86_64-linux-gnu.so,sha256=0T7AUcuv2W1N15G1yZW9v-EQkUQRo87a-0hF886Vm5c,700648
+piqp/piqp_python.cpython-311-x86_64-linux-gnu.so,sha256=3mbBxCMg2NaAIiv4Os-BftGxnTlx3ltAjhtxHBCLmpY,635112
+piqp/__init__.py,sha256=Wjb2QcsWaVeit-n248L7l7u603eEeamLdQOmJPjiE2Q,965
