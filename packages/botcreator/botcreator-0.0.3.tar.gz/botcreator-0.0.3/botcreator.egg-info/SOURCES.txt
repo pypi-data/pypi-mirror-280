@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+botcreator/__init__.py
+botcreator/botcreator.py
+botcreator.egg-info/PKG-INFO
+botcreator.egg-info/SOURCES.txt
+botcreator.egg-info/dependency_links.txt
+botcreator.egg-info/top_level.txt
