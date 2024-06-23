@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: meds_reader
+Version: 0.0.1
+Summary: Optimized algorithms for meds_etl implemented in C++.
+License: Apache-2.0
+Requires-Python: >3.9
+License-File: LICENSE
