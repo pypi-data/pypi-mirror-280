@@ -1,0 +1,2 @@
+[console_scripts]
+objx = objx.main:wrapped
