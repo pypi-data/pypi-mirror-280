@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+aznlp/__init__.py
+aznlp.egg-info/PKG-INFO
+aznlp.egg-info/SOURCES.txt
+aznlp.egg-info/dependency_links.txt
+aznlp.egg-info/top_level.txt
+aznlp/corpus/__init__.py
+aznlp/tokenize/__init__.py
