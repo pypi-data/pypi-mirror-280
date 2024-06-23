@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: logfinance
+Version: 0.0.1
+Summary: A simple library to calculate whatever for financial applications
+Home-page: https://github.com/logfinance/python-logfinance
+Author: Erfan Varedi
+Author-email: logfinanceresearch@gmail.com
+Keywords: finance
+
