@@ -1,0 +1,1 @@
+include easyrag_tools/yamls/*.yaml
