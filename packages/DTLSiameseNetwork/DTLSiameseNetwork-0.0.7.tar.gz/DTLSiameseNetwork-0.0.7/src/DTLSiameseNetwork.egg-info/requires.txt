@@ -1,0 +1,14 @@
+pillow
+numpy
+matplotlib
+marshmallow_dataclass
+pyyaml
+tensorboard
+tabulate
+tqdm
+scikit-image
+
+[all]
+
+[test]
+coverage
