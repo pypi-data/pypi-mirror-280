@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: iokit
+Version: 0.1.0
+Summary: Input Output Kit
+Author-email: "Vladislav A. Proskurov" <rilshok@pm.me>
+License: MIT
+Project-URL: Homepage, https://github.com/rilshok/iokit
+Project-URL: Repository, https://github.com/rilshok/iokit
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jsonlines>=4.0.0
+Requires-Dist: humanize>=4.9.0
+Requires-Dist: typing-extensions>=4.8.0
+Requires-Dist: pytz>=2024.1
+Provides-Extra: dev
+Requires-Dist: iokit[lint,test]; extra == "dev"
+Provides-Extra: lint
+Requires-Dist: mypy; extra == "lint"
+Requires-Dist: ruff; extra == "lint"
+Requires-Dist: types-pytz; extra == "lint"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+
+# iok
+input / output kit
