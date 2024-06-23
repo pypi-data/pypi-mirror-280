@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: MultiDataPlotting
+Version: 0.1.0
+Summary: A package for plotting multiple datasets
+Home-page: http://github.com/yourusername/MultiDataPlotting
+Author: Your Name
+Author-email: your.email@example.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools
+Requires-Dist: pytest
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: scipy
+
+# MultiDataPlotting
+
+`MultiDataPlotting` is a Python package designed for easy and efficient plotting of multiple data sets, providing tools for generating bar plots, scatter plots, and other types of visual data representations. It leverages popular libraries such as Matplotlib, Seaborn, and Pandas to offer a versatile set of plotting functionalities.
+
+## Features
+
+- Plot multiple data sets in a single figure.
+- Support for various types of plots: bar plots, scatter plots, line plots.
+- Customizable plot settings: colors, labels, legends, and more.
+- Integration with Pandas for direct data frame plotting.
+
+## Installation
+
+You can install `MultiDataPlotting` using pip:
+
+```bash
+pip install MultiDataPlotting
+
+
