@@ -1,0 +1,17 @@
+colab_toolbox/__init__.py,sha256=z3ozDNNd37UPoD4ki5P7KBJy3FEb8K_ilur_OSVd5Sk,153
+colab_toolbox/colabtool.py,sha256=nuHTSEeuhFL1W3H1JNAzhq19oBt-IsItM8HEz7IROeY,690
+colab_toolbox/auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colab_toolbox/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colab_toolbox/common/utils.py,sha256=aNjuTu8QlLZM9O8oT2bKVjs2i-PlT7Aq1KXWPM6lvC8,1378
+colab_toolbox/ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colab_toolbox/git/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colab_toolbox/script/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colab_toolbox/script/setup_pytesseract.sh,sha256=Qw3-eFj3T_VsoVs7LY1whIglhWVfMBMyWLudDPKInDQ,139
+colab_toolbox/script/setup_quarto.sh,sha256=aQLOAqHLe5o7RDf4iCIa2AWd1QjOax1ztQmYzffBvBo,252
+colab_toolbox/script/setup_selenium.sh,sha256=kHemfWwjWEdlt0VcOk2pXopodZIh12lLu3RIUedH5Ls,953
+colab_toolbox/script/setup_talib.sh,sha256=ITxwTLhyFt4c2LQ57GWN_6yf_ccvqUdxqMju6jt0Ps4,232
+colab_toolbox-0.1.0.dist-info/METADATA,sha256=IwaHSKFPodtuP5pY0PINSUrP15OcyG-mv8D8CmQwNo8,58
+colab_toolbox-0.1.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+colab_toolbox-0.1.0.dist-info/entry_points.txt,sha256=tYjtwQIqrzxVRHdM9vroTcG0XKmzQLSqHr7bxYWDqZY,62
+colab_toolbox-0.1.0.dist-info/top_level.txt,sha256=AQa5lw1J18rpOsmq62mGgnGqJ8b-NVXLwA2LsUULqIE,14
+colab_toolbox-0.1.0.dist-info/RECORD,,
