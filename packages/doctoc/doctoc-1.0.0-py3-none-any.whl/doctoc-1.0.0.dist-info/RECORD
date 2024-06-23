@@ -1,0 +1,10 @@
+doctoc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doctoc/cli.py,sha256=ySdaCVXd4mrVAEw0mqNT47NgSAJPo-bBbcPpppb8uXE,2798
+doctoc/core.py,sha256=vhLY3wjBMGkXtAIFPYgzOKza4winNKW6H6xxZbJanwA,1507
+doctoc/markdown.py,sha256=8qKA-W0fzuRoHNFh1cMcuKFSprO0y00ArgwJhMp-62I,8575
+doctoc-1.0.0.dist-info/LICENSE,sha256=n2LB-f-wQQD0BlhlL9soaAkNFwErnSiJh14564UmiXc,1065
+doctoc-1.0.0.dist-info/METADATA,sha256=3ObJ0hsNZiiRG2XCtQkLqc7ZJyM121m__U0tKFzRq7c,4241
+doctoc-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+doctoc-1.0.0.dist-info/entry_points.txt,sha256=JkuP_kqLhPgIGkTj_2MpFppUAOGfZrAKgtmR9fncX3w,43
+doctoc-1.0.0.dist-info/top_level.txt,sha256=1ZdVHfI6zuqKOEPaur0IaLDqPxzbYPHRW5kRcBpflfE,7
+doctoc-1.0.0.dist-info/RECORD,,
