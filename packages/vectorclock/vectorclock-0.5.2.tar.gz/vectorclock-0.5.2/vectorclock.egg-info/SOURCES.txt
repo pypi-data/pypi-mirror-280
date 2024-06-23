@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+tests/__init__.py
+tests/test_vectorclock.py
+vectorclock/__init__.py
+vectorclock/vectorclock.py
+vectorclock.egg-info/PKG-INFO
+vectorclock.egg-info/SOURCES.txt
+vectorclock.egg-info/dependency_links.txt
+vectorclock.egg-info/top_level.txt
