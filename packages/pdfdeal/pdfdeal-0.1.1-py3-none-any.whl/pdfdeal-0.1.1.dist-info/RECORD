@@ -1,0 +1,11 @@
+pdfdeal/__init__.py,sha256=p90BYY6xdnmnhyMLvrU8a7I0ZqJ7ZEFJLbVD_Ar3mlM,54
+pdfdeal/doc2x.py,sha256=ZYbrdR-3hMypfidBCoMkHRE00sP9naglLzCH2ROiG-M,19365
+pdfdeal/doc2x_old.py,sha256=xYMfoJCD5g67HyrpzPDe5mHqcPBG0WnniYeL_-8sYDw,18228
+pdfdeal/file_tools.py,sha256=csDzGJcoygduzjoonAw3xx4pKkBFKyrEtMnaC4qHcLs,6787
+pdfdeal/get_file.py,sha256=5V1Ghcoev2n-aJYB2hZdjYCcFCPWS5mLvHXdCnIYZI4,4318
+pdfdeal/Doc2X/Convert.py,sha256=an5hSzn_RvTtr3htyU1xmsSraA8WfH32Y_YjF5UqDrs,10982
+pdfdeal/Doc2X/Exception.py,sha256=ZIuqcfrS06J2Tae1GvXoB3HQxwVfmyu_0-Om7U9hjGI,1318
+pdfdeal-0.1.1.dist-info/METADATA,sha256=9yXFrXhsIVOHzJZAZwItCk-MIqm0od5GmbyTa-Syjjg,8134
+pdfdeal-0.1.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+pdfdeal-0.1.1.dist-info/licenses/LICENSE,sha256=t9HEODO-QtQU4wXEz2WAOH1-z3dZ3IYt-folHx3enwo,1069
+pdfdeal-0.1.1.dist-info/RECORD,,
