@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pjsk-name-index/__init__.py
+pjsk-name-index/sekai_index.py
+pypjskni.egg-info/PKG-INFO
+pypjskni.egg-info/SOURCES.txt
+pypjskni.egg-info/dependency_links.txt
+pypjskni.egg-info/top_level.txt
