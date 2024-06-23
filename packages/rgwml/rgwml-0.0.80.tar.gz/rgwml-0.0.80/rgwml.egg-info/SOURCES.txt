@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+rgwml.egg-info/PKG-INFO
+rgwml.egg-info/SOURCES.txt
+rgwml.egg-info/dependency_links.txt
+rgwml.egg-info/entry_points.txt
+rgwml.egg-info/requires.txt
+rgwml.egg-info/top_level.txt
