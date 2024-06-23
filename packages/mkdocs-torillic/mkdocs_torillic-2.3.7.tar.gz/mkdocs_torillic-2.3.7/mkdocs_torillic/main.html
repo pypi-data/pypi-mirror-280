@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
+  <link href="{{ 'css/torillic.css'|url }}" rel="stylesheet">
+  {%- for path in config.extra_css %}
+  <link href="{{ path | url }}" rel="stylesheet">
+  {%- endfor %}
+  <style>
+    .torillic-background {
+      {% if config.theme.background_image %}
+      background-image: url("{{ config.theme.background_image | url }}");
+      {% endif %}
+    }
+  </style>
+</head>
+
+<body class="torillic-background">
+  <header class="torillic-header">
+    <h1>{{ config.site_name }}</h1>
+    <nav>
+      {% for nav_item in nav %}
+      {% if nav_item.children and not nav_item.url %}
+      <a class="{% if nav_item.active %}current{% endif %}" href="{{ nav_item.children[0].url|url }}">{{nav_item.title }}</a>
+      {% else %}
+      <a class="{% if nav_item.active %}current{% endif %}" href="{{ nav_item.url|url }}">{{nav_item.title }}</a>
+      {% endif %}
+      {% endfor %}
+    </nav>
+  </header>
+  <main class="torillic-page">
+    {# add page content #}
+    {{ page.content }}
+
+    {% if page.is_homepage %}
+    {# add global contents on the root page #}
+    <h3>Contents</h3>
+    {% for target in nav %}
+    {% if target.is_section %}
+    <h4>
+      <a href="{{ target.children[0].url | url }}">{{ target.title }}</a>
+    </h4>
+    {% include "partials/contents_block.html" %}
+    {% elif target != page %}
+    <h4>
+      <a href="{{ target.url | url }}">{{ target.title }}</a>
+    </h4>
+    {% endif %}
+    {% endfor %}
+
+    {% elif page.parent and page.parent.is_section and page.parent.children[0] == page %}
+    {# add local contents on section home pages #}
+    {% set target = page.parent %}
+    <h4>Contents</h4>
+    {% include "partials/contents_block.html" %}
+
+    {% endif %}
+
+    {# add a back arrow if there's a parent to go back to #}
+    {% set backlink_target = page.parent %}
+    {% if backlink_target and backlink_target.is_section and page == backlink_target.children[0] %}
+    {% set backlink_target = backlink_target.parent %}
+    {% endif %}
+
+    {% if backlink_target %}
+    <a href=".." class="torillic-backlink">🡐 {{ backlink_target.title }}</a>
+    {% endif %}
+
+    
+  </main>
+  
+  {%- for script in config.extra_javascript %}
+  {{ script | script_tag }}
+  {%- endfor %}
+</body>
+
+</html>
