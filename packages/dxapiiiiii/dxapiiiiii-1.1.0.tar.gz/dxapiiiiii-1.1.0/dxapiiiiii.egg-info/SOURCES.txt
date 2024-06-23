@@ -1,0 +1,5 @@
+setup.py
+dxapiiiiii.egg-info/PKG-INFO
+dxapiiiiii.egg-info/SOURCES.txt
+dxapiiiiii.egg-info/dependency_links.txt
+dxapiiiiii.egg-info/top_level.txt
