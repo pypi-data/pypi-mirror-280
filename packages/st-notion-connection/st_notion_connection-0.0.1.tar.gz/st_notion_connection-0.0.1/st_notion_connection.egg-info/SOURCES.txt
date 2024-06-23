@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+st_notion_connection.egg-info/PKG-INFO
+st_notion_connection.egg-info/SOURCES.txt
+st_notion_connection.egg-info/dependency_links.txt
+st_notion_connection.egg-info/requires.txt
+st_notion_connection.egg-info/top_level.txt
+streamlit_notion/__init__.py
+streamlit_notion/notion_connection.py
