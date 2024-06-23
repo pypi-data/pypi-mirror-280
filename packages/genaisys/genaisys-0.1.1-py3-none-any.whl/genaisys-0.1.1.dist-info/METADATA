@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: genaisys
+Version: 0.1.1
+Summary: 
+Author: riaz
+Author-email: riaz.2012@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: duckdb (>=1.0.0,<2.0.0)
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: pygame (>=2.5.2,<3.0.0)
+Requires-Dist: pytest (>=8.2.2,<9.0.0)
+Description-Content-Type: text/markdown
+
+# GenAISys
+
+This is a meta project where we play with various prompts to llm and save their results with some tinking and document the evolution of llms to automate tasks that would take several hours otherwise.
+
+### Development
+
+    VSCode Settings :     "python.poetryPath": "/opt/homebrew/bin/poetry",
+    
+
+### Running Tests
+
+    poetry install # this will install the package locally
+
+    poetry run pytest # this will run all the tests
+
+### Publishing
+
+This is a poerty project and we are publishing the project to pypi.Make sure you have your pypi token or copy from your .pypirc file. Set the following before running poetry publish
+
+    poetry config pypi-token <paste_pypi_token_here>
+
+
