@@ -1,0 +1,12 @@
+README.md
+setup.py
+js-go/__init__.py
+js-go/constants.py
+js-go/function.py
+js-go/go_game.py
+js-go/go_logic.py
+js-go/test.py
+js_go.egg-info/PKG-INFO
+js_go.egg-info/SOURCES.txt
+js_go.egg-info/dependency_links.txt
+js_go.egg-info/top_level.txt
