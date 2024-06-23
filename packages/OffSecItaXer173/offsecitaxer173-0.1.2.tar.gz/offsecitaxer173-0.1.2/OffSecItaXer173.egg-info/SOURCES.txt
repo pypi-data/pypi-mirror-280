@@ -1,0 +1,9 @@
+README.md
+setup.py
+OffSecItaXer173/__init__.py
+OffSecItaXer173/corsi.py
+OffSecItaXer173/utils.py
+OffSecItaXer173.egg-info/PKG-INFO
+OffSecItaXer173.egg-info/SOURCES.txt
+OffSecItaXer173.egg-info/dependency_links.txt
+OffSecItaXer173.egg-info/top_level.txt
