@@ -1,0 +1,17 @@
+exiffusion/__init__.py,sha256=UCBmWodi3JMByloromoT0yHDP1uf5QWyjBAB06ZHCi0,276
+exiffusion/apple.py,sha256=qF9TFdBA4w2vhuqQprE3X4OwbMEtCExgCU3IOc-gldA,153
+exiffusion/cli.py,sha256=wLaJhOJTm0vLhFuFdbIATFLiMHWJKmTZ7tT2W35wdQg,992
+exiffusion/color.py,sha256=jhG5H6XLMpLlt7--J6SMcjZk7CK3WycLrBo-AxmkkQs,1634
+exiffusion/exif.py,sha256=4Dm8thBFLaJgjENYfVGvqnYPNz9yScS_pgOxZvWTyA4,4605
+exiffusion/font.py,sha256=uti5Fsh3HIXjgHwpVwFJqGQGhity5fLNkbthhKs7IVU,1031
+exiffusion/fuse.py,sha256=1QXlXdIM88h8dBTuFKNixKz0OG9wOt5iEvOzBcECFRo,4771
+exiffusion/geo.py,sha256=tXc2cs9B3_iEp0BBuTW8QTkZ97EkeJMrfa-r7BCHOus,5498
+exiffusion/overlay.py,sha256=qqcigRDyxWGdtGCHgy6fnJikhmfievC2IG2PZabrjW8,3692
+exiffusion/assets/WorkSans-Medium.otf,sha256=Ql5Mbbg9L0DYuyKqV2kEllJsI-3BLUgQC2CdZtWdtoc,104248
+exiffusion/assets/unifont-15.1.05.otf,sha256=e2K1CsuxhmidwwxEbOQ2e4fXlInpkHuDJV-fvg3PueE,5105508
+exiffusion-0.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+exiffusion-0.0.4.dist-info/METADATA,sha256=iGCWFIpcOaeLnPzJzwpMQ9mAaGsuQFZQlioRF9e5Pf0,2491
+exiffusion-0.0.4.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+exiffusion-0.0.4.dist-info/entry_points.txt,sha256=kHW3cKDd0DTquZHeSUSIQ5J6wToEpmautF2cq_1YL5Y,50
+exiffusion-0.0.4.dist-info/top_level.txt,sha256=RwACcitRBSoL9ZQBykKfbcQ4rypbcSDCHkX8CcNOryo,11
+exiffusion-0.0.4.dist-info/RECORD,,
