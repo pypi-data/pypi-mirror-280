@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/soltan.py
+src/Soltan.egg-info/PKG-INFO
+src/Soltan.egg-info/SOURCES.txt
+src/Soltan.egg-info/dependency_links.txt
+src/Soltan.egg-info/top_level.txt
