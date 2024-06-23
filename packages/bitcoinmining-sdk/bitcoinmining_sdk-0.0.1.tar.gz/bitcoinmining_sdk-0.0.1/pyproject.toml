@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "bitcoinmining-sdk"
+version = "0.0.1"
+description = ""
+authors = ["DesKaOne <DesKaOne@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "bitcoinmining_sdk"}]
+
+include = [
+    "bitcoinmining_sdk/BitcoinMining.pyd",
+    "bitcoinmining_sdk/BitcoinMining.so",
+]
+
+exclude = [
+    "bitcoinmining_sdk/BitcoinMining.py",
+    "bitcoinmining_sdk/BitcoinMining copy.py",
+    "bitcoinmining_sdk/BitcoinMining copy.pyd",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tuyul-online-sdk = "^0.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
