@@ -1,0 +1,2 @@
+[cosole_scripts]
+pythermalgreen = pythermalgreen:pythermalgreen
