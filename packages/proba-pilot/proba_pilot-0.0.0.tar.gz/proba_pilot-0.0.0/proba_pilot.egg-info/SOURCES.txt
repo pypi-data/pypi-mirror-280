@@ -1,0 +1,8 @@
+README.md
+setup.py
+proba-pilot/__init__.py
+proba_pilot.egg-info/PKG-INFO
+proba_pilot.egg-info/SOURCES.txt
+proba_pilot.egg-info/dependency_links.txt
+proba_pilot.egg-info/requires.txt
+proba_pilot.egg-info/top_level.txt
