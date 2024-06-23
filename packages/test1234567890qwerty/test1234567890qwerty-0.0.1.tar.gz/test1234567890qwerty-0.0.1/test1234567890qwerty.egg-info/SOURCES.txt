@@ -1,0 +1,7 @@
+README.md
+setup.py
+test1234567890qwerty.egg-info/PKG-INFO
+test1234567890qwerty.egg-info/SOURCES.txt
+test1234567890qwerty.egg-info/dependency_links.txt
+test1234567890qwerty.egg-info/requires.txt
+test1234567890qwerty.egg-info/top_level.txt
