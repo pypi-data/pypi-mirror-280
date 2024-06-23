@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: mapmanagercore
+Version: 0.0.30.post0
+Summary: MapManagerCore is a Python library that provides the core functionality for MapManager.
+Author: Robert H Cudmore
+Author-email: robert.cudmore@gmail.com
+License: GNU General Public License, Version 3
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: shapely
+Requires-Dist: geopandas
+Requires-Dist: scikit-image
+Requires-Dist: zarr
+Requires-Dist: async-lru
+Requires-Dist: asyncio
+Requires-Dist: imagecodecs
+Requires-Dist: platformdirs
+Requires-Dist: plotly
+Requires-Dist: dataclasses-json
+Requires-Dist: brightest-path-lib
+Requires-Dist: pooch
+Provides-Extra: dev
+Requires-Dist: jupyter ; extra == 'dev'
+Requires-Dist: ipykernel ; extra == 'dev'
+Requires-Dist: matplotlib ; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: tox ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: flake8 ; extra == 'tests'
+Requires-Dist: nbformat ; extra == 'tests'
+Requires-Dist: matplotlib ; extra == 'tests'
+
+[![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3111/)
+[![tests](https://github.com/mapmanager/MapManagerCore/workflows/Test/badge.svg)](https://github.com/mapmanager/MapManagerCore/actions)
+[![codecov](https://codecov.io/gh/mapmanager/MapManagerCore/graph/badge.svg?token=M9SO38DYPY)](https://codecov.io/gh/mapmanager/MapManagerCore)
+[![OS](https://img.shields.io/badge/OS-Linux|Windows|macOS-blue.svg)]()
+[![License](https://img.shields.io/badge/license-GPLv3-blue)](https://github.com/mapmanager/MapManagerCore/blob/master/LICENSE)
+[![image](http://img.shields.io/pypi/v/mapmanagercore.svg)](https://pypi.python.org/project/mapmanagercore)
+
+# MapManagerCore
+
+MapManagerCore is a Python library that provides the core functionality for MapManager.
+
+An example notebook is located under [examples/example.ipynb](examples/example.ipynb)
+
+## Install
+
+Clone the repo, create a conda environment, install with pip, and run the tests.
+
+    # clone
+    git clone https://github.com/mapmanager/MapManagerCore.git
+    cd MapManagerCore
+
+    # create environment
+    conda create -y -n mmc-env python=3.11
+    conda activate mmc-env
+
+    # install
+    pip install -e '.[tests]'
+
+    # run test
+    pytest tests
+
+
