@@ -1,0 +1,36 @@
+.kmviz-tab-header {
+  top:0;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  opacity: 1;
+  background-color: white;
+}
+
+.kmviz-tabs {
+  margin-top: 50px;
+}
+
+.kmviz-gselect {
+  width: 130px;
+}
+
+.kmviz-gselect-group {
+  position: absolute;
+  top: 2px;
+  right: 1px;
+  z-index: 11;
+}
+
+.kmviz-dmc-number-input {
+  width: 100px;
+}
+
+.kmviz-dmc-text-input {
+  width: 315px;
+}
+
+.kmviz-dmc-figure-select {
+  width: 150px;
+}
+
