@@ -1,0 +1,9 @@
+prosper_api/__init__.py,sha256=CsJSeiBAN8vWt06GU2CfmoeugEai8OUEWOi9ag3vCWI,180
+prosper_api/auth_token_manager.py,sha256=6Er7xVUlB309DpaHSIfNWgq1NSg-Ck7HpAZJt3yLLC8,6461
+prosper_api/client.py,sha256=ak4E6UtZ3GHaOpLkFslSinzQNA1CFcaDHRvFpD7H59k,16632
+prosper_api/models/__init__.py,sha256=_CkNRgf7TZ_iNleNJ-Q-u9OcOcC76R9B_BbqdKBpA4c,15545
+prosper_api/models/enums.py,sha256=2dWAtT0tOmtFJXmNq1dAdpnrHmGGFjJ-T5xEmBxWlzk,7772
+prosper_api-0.8.4rc1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+prosper_api-0.8.4rc1.dist-info/METADATA,sha256=zdQpfHvx9kRsPUXJc-dpNKHNDhZJr0Ne1_JbHWGzqf8,8218
+prosper_api-0.8.4rc1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+prosper_api-0.8.4rc1.dist-info/RECORD,,
