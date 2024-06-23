@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: activity_4_entrega_Programacion_Ciencia_de_datos
+Version: 0.1.3
+Summary: A data analysis project for PEC4 UOC, Master Data Science
+Home-page: https://github.com/mbreviniuoc/PEC4-ProgCienciadedatos
+Author: Massimiliano Brevini
+Author-email: mbrevini@uoc.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENCE
+Requires-Dist: pandas
+Requires-Dist: folium
+Requires-Dist: Pillow
+Requires-Dist: pytest
