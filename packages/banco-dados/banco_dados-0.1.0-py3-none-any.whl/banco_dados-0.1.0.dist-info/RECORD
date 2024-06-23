@@ -1,0 +1,11 @@
+banco_dados/__init__.py,sha256=Zs3IglQV-xWRKi0dus7i0ZLYtMt1rkImJ7MimBLgaQg,130
+banco_dados/connection.py,sha256=k-sI1e0FCwyydope8aBEuj8p7fvgv6obZt9b7fWAmfc,724
+banco_dados/delete_bd.py,sha256=I0xiYaeGCyyNHFcDe37W_CqQXk3nxBJ5iOFWMS0RtEE,273
+banco_dados/insert_bd.py,sha256=4abTOdTF66PZ8Ue_4WWjuAJo82NNG3WvFinq5wKl0jA,452
+banco_dados/select_bd.py,sha256=yKlqwJD1w9p7L_hAjFvvIwLjxj7Nop1H0kSX83TfHxA,533
+banco_dados/update_bd.py,sha256=nbKbC7v_v2myMOgOYw9IN-MrKvfTxySdLA6_-IA0MNE,277
+banco_dados/utils.py,sha256=mHgMxr65SIRxQpWvm70CmOjXftqKjbYJNAq-ZsDeQ44,529
+banco_dados-0.1.0.dist-info/METADATA,sha256=_sEeeMPREudgBw3JfG3ArJwPu8wSbowHVeLOV8b2sng,262
+banco_dados-0.1.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+banco_dados-0.1.0.dist-info/top_level.txt,sha256=wfHABr1z6pY4F-rtyhbz-In_XEpmdwXMUl_geyHUfoA,12
+banco_dados-0.1.0.dist-info/RECORD,,

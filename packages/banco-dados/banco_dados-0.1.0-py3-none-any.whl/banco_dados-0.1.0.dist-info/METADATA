@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: banco_dados
+Version: 0.1.0
+Summary: Biblioteca que executa ações no banco de dados
+Author: Rafael Gomes de Oliveira
+Author-email: rafaelprotest4@gmail.com
+Requires-Dist: mysql-connector-python
+Requires-Dist: python-dotenv
+
