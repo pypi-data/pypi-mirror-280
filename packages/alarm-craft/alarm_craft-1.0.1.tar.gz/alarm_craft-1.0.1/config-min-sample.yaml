@@ -1,0 +1,6 @@
+resources:
+  lambda:
+    target_resource_type: lambda:function
+    alarm:
+      metrics:
+      - Errors

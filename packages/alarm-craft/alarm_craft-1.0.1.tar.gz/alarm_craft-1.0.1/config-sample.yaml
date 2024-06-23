@@ -1,0 +1,96 @@
+globals:
+  resource_filter:
+    target_resource_name_pattern: ^myproj-(dev|prod)-
+    target_resource_tags:
+      Owner: mydivision
+      myproj:observedBy: alarm-craft
+
+  alarm:
+    alarm_actions: []
+    alarm_name_prefix: myproj-cw-metric-alarm-autogen-
+    default_alarm_params:
+      Statistic: Sum
+      Period: 60
+      EvaluationPeriods: 1
+      Threshold: 1
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      TreatMissingData: notBreaching
+    alarm_tagging:
+      division: alpha
+
+  api_call_intervals_in_millis: 340
+
+resources:
+
+  lambda:
+    target_resource_type: lambda:function
+    alarm:
+      metrics:
+      - Errors
+      - Throttled
+
+  apigateway:
+    target_resource_type: apigateway:restapi
+    alarm:
+      metrics:
+      - 5XXError
+
+  eventbridge:
+    target_resource_type: events:rule
+    alarm:
+      metrics:
+      - FailedInvocations
+      - ThrottledRules
+
+  scheduler:
+    target_resource_type: scheduler:schedule-group
+    alarm:
+      metrics:
+      - TargetErrorCount
+      - TargetErrorThrottledCount
+      - InvocationThrottleCount
+      - InvocationDroppedCount
+
+  sns:
+    target_resource_type: sns:topic
+    alarm:
+      metrics:
+      - NumberOfNotificationsFailed
+
+  sqs-main-queue:
+    target_resource_type: sqs:queue
+    target_resource_tags:
+      alarm-craft:sqs:main-queue: 'true'
+    alarm:
+      metrics:
+      - ApproximateAgeOfOldestMessage
+      - ApproximateNumberOfMessagesVisible
+      alarm_param_overrides:
+        ApproximateAgeOfOldestMessage:
+          ComparisonOperator: GreaterThanOrEqualToThreshold
+          Threshold: 3600
+        ApproximateNumberOfMessagesVisible:
+          ComparisonOperator: GreaterThanOrEqualToThreshold
+          Threshold: 500
+
+  sqs-dead-letter-queue:
+    target_resource_type: sqs:queue
+    target_resource_tags:
+      alarm-craft:sqs:dlq: 'true'
+    alarm:
+      metrics:
+      - ApproximateNumberOfMessagesVisible
+      - ApproximateAgeOfOldestMessage
+      alarm_param_overrides:
+        ApproximateAgeOfOldestMessage:
+          ComparisonOperator: GreaterThanOrEqualToThreshold
+          Threshold: 864000
+
+  stepfunctions:
+    target_resource_type: states:stateMachine
+    alarm:
+      metrics:
+      - ExecutionsFailed
+      - ExecutionsTimedOut
+      - ExecutionsAborted
+      - ExecutionThrottled
