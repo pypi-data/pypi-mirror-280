@@ -1,0 +1,3 @@
+[console_scripts]
+ngwidget = warskald.ngwidget:main
+wslatest = warskald.ws_latest:main

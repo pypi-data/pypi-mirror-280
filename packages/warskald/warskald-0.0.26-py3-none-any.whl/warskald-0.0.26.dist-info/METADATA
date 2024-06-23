@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: warskald
+Version: 0.0.26
+Summary: Common utilities for the workspace
+Author: Joseph Bochinski
+License-File: LICENSE
+Requires-Dist: flask
+Requires-Dist: case-converter
+Requires-Dist: pyyaml
+Requires-Dist: toml
+Requires-Dist: configobj
+
