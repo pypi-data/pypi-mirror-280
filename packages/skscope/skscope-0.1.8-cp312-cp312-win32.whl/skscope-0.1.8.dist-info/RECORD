@@ -1,0 +1,13 @@
+skscope/__init__.py,sha256=H53EehF8uvhzs0JIb9hqaTVj9kKs7exAaSIibEhzOss,871
+skscope/_scope.cp312-win32.pyd,sha256=pQI3raBPWSZvKjGXdEjDnZ-HU_BkgLgP_wYmDUVfdGs,461824
+skscope/base_solver.py,sha256=jpknsYTpCdswauDUI2t26P3oknrwXchqF0hGV9qCVa0,26135
+skscope/layer.py,sha256=FIGqYbXjXcbyB2gPOCSdRpTlftBuYekxbBvKTNnFTBk,6924
+skscope/numeric_solver.py,sha256=gEOOYCFLs5P_rUbyw01ygbR-sWQ0BXgoERkIAVbKuEk,1359
+skscope/skmodel.py,sha256=ttsOT09VwwhNQvB1pIjKamP8nKqr4tQNTCcc3V8DzrM,23170
+skscope/solver.py,sha256=GaGWuyYzACVg5Ktunw7uzlcqhh9JIJr1OPtid5ne54c,80700
+skscope/utilities.py,sha256=ua5997GNNMU1fXJP2iOzFeSbS0zNHqIV0LyUcBNoLtw,14381
+skscope-0.1.8.dist-info/LICENSE,sha256=akaEquxUFtmXBoRRYz3-0jSOQJsQ-IQrF4crFWli7VI,1088
+skscope-0.1.8.dist-info/METADATA,sha256=cOpAyzWwbLQoFNBeERVH7qN9KwfZK6Df6unYFZtsDho,11893
+skscope-0.1.8.dist-info/WHEEL,sha256=7yn_qFKTcA4JJSm47Yxzbma1qCjcboj85CYR-nDbo2s,97
+skscope-0.1.8.dist-info/top_level.txt,sha256=quKo8OCkw-NTGUvVQNUNs28HPGm5HlUP09A6AyyQSSM,8
+skscope-0.1.8.dist-info/RECORD,,
