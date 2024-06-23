@@ -1,0 +1,4 @@
+[console_scripts]
+aws3=s3_helper.cli.aws:aws_s3_cli
+s3=s3_helper.cli.s3:s3_cli
+
