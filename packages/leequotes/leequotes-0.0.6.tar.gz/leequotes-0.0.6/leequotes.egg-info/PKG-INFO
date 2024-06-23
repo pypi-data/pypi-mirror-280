@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: leequotes
+Version: 0.0.6
+Summary: A python package that provides Bruce Lee quotes
+Author-email: Alexandre Petit <lxnd@proton.me>
+License: MIT License
+        
+        Copyright (c) 2024 Alexandre Petit
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Repository, https://github.com/lxnd-dune/leequotes
+Keywords: Bruce,Lee,quotes,wisdom
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![PyPI version fury.io](https://badge.fury.io/py/ansicolortags.svg)](https://pypi.python.org/pypi/leequotes/)
+[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=plastic)](http://makeapullrequest.com)
+***
+
+# leequotes
+
+A python package that provides Bruce Lee quotes
+
+# How to install
+
+From a terminal, run the following command:
+```shell
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+source venv/bin/activate
+
+# Install the package
+pip install leequotes
+```
+
+# How to use
+
+Here is a minimal example of how to use the package:
+```python
+from leequotes import leequotes
+
+quote = leequotes.random()
+print(quote)
+```
+
+
+# How to update the package (for clients)
+
+To update the package, run the following command:
+```shell
+pip intall --upgrade leequotes
+```
+
+# How to update the package (for maintainers)
+
+Once the modification is developed : 
+1. Increment the version in `pyproject.toml`
+2. Run `python -m build` to build the package
+3. Run `twine upload dist/*`to upload the builds on PyPI
+
+Notes : 
+- Once uploaded, the package is immutable. If you need to make changes, you will need to increment the version again.
+- To test the package locally, you can run `pip install dist/<the-local-build>.whl`
+
+
