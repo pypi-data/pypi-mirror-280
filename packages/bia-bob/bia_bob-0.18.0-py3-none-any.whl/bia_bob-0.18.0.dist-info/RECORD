@@ -1,0 +1,15 @@
+bia_bob/__init__.py,sha256=NQ012B0PFpKG57aNOGZX7mIFfxVWjCTWbQ6xNxWalJY,391
+bia_bob/__main__.py,sha256=A9jq58Mec3Ug3ZuAjG3eG6yAwAenbC0xyrKoV6AJ__I,97
+bia_bob/_accelerate.py,sha256=yt7uPDUky1xYmh690J2xIqW-vDF_Z5YfB-x8IW1K2D8,1336
+bia_bob/_bug_fixing.py,sha256=PnMC-PVF671foZ6yMV74DVJzQUUAe_N72u8qXNkb8PY,1259
+bia_bob/_document.py,sha256=849jXY-S9CTD8C0CLxUL2Hm1ZEWtg450E8Pn1vu7FSk,1061
+bia_bob/_kernel.py,sha256=6uY5GFerYD4_1UbW8s-GemBz4-zxYMF52l4Mp8Bns9g,5406
+bia_bob/_machinery.py,sha256=pBh_pcLZR5I7ODbLCUTErFvgsugEYXIdrEENppuE0U8,8890
+bia_bob/_notebook_generation.py,sha256=IOgI4PwNssCPm6vY8jI1pgT5j-qaJB2CAbcCZh5Bmbg,6363
+bia_bob/_utilities.py,sha256=S4IPb-D5hPdmEjSjdt5_P6lXb6pnI3ze5-cPY-lUYLM,24295
+bia_bob/_tests/__init__.py,sha256=QNSEDdZvE5B8NuVasnkmp4FJsr5Sxc6jDcDY4B8biNU,31
+bia_bob-0.18.0.dist-info/LICENSE,sha256=bmFnHRmtW9xWiREm-CsO3xgbidrU9tpAzzppMyTtiXg,1546
+bia_bob-0.18.0.dist-info/METADATA,sha256=gsN-lisaR7tPb9RAzoRogKHAO1gCiT-sSStTZDcmS-k,12744
+bia_bob-0.18.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+bia_bob-0.18.0.dist-info/top_level.txt,sha256=XsOEYj2eu4_lj5BBoCRWEUHq5hjSEC1Yavb66vMOS5s,8
+bia_bob-0.18.0.dist-info/RECORD,,
