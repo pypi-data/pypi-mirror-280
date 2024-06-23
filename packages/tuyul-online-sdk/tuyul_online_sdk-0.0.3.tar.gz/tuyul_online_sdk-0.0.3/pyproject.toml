@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "tuyul-online-sdk"
+version = "0.0.3"
+description = ""
+authors = ["DesKaOne <DesKaOne@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "tuyul_online_sdk"}]
+
+include = [
+    "tuyul_online_sdk/TuyulOnlineSDK.pyd",
+    "tuyul_online_sdk/TuyulOnlineSDK.so",
+]
+
+exclude = [
+    "tuyul_online_sdk/TuyulOnlineSDK.py",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+rich = "13.7.1"
+colorama = "0.4.6"
+sqlalchemy = "2.0.30"
+pydantic = "2.7.4"
+pydantic-settings = "2.3.3"
+pydantic-core = "2.18.4"
+aiohttp = "3.9.5"
+useragenter = "1.3.1"
+requests = "2.31.0"
+requests-toolbelt = "0.10.1"
+urllib3 = "1.26.15"
+httpx = {version = "0.27.0", extras = ["socks", "http2"]}
+pycryptodomex = "3.20.0"
+base58 = "2.1.1"
+chardet = "5.2.0"
+python-dotenv = "1.0.1"
+aiohttp-proxy = "0.1.2"
+google-api-python-client = "2.131.0"
+pyrogram = "2.0.106"
+hexbytes = "^1.2.1"
+bs4 = "0.0.2"
+lxml = "5.2.2"
+loguru = "0.7.2"
+pyjwt = "2.8.0"
+passlib = "^1.7.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
