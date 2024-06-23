@@ -1,0 +1,9 @@
+README.md
+setup.py
+STRling/__init__.py
+STRling/lib.py
+STRling/templates.py
+STRling.egg-info/PKG-INFO
+STRling.egg-info/SOURCES.txt
+STRling.egg-info/dependency_links.txt
+STRling.egg-info/top_level.txt
