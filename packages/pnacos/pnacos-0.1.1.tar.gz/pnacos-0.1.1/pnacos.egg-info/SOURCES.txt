@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pnacos/__init__.py
+pnacos/client.py
+pnacos.egg-info/PKG-INFO
+pnacos.egg-info/SOURCES.txt
+pnacos.egg-info/dependency_links.txt
+pnacos.egg-info/top_level.txt
