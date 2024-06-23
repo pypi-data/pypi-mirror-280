@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+hack0/__init__.py
+hack0/hack0.py
+hack0.egg-info/PKG-INFO
+hack0.egg-info/SOURCES.txt
+hack0.egg-info/dependency_links.txt
+hack0.egg-info/top_level.txt
