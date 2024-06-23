@@ -1,0 +1,10 @@
+README.md
+setup.py
+zana_ai/__init__.py
+zana_ai/phind.py
+zana_ai.egg-info/PKG-INFO
+zana_ai.egg-info/SOURCES.txt
+zana_ai.egg-info/dependency_links.txt
+zana_ai.egg-info/entry_points.txt
+zana_ai.egg-info/requires.txt
+zana_ai.egg-info/top_level.txt
