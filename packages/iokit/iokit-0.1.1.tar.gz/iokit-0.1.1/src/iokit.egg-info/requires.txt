@@ -1,0 +1,16 @@
+jsonlines>=4.0.0
+humanize>=4.9.0
+typing-extensions>=4.8.0
+pytz>=2024.1
+
+[dev]
+iokit[lint,test]
+
+[lint]
+mypy
+ruff
+types-pytz
+
+[test]
+pytest
+pytest-cov
