@@ -1,0 +1,8 @@
+README.md
+setup.py
+edaha/__init__.py
+edaha.egg-info/PKG-INFO
+edaha.egg-info/SOURCES.txt
+edaha.egg-info/dependency_links.txt
+edaha.egg-info/requires.txt
+edaha.egg-info/top_level.txt
