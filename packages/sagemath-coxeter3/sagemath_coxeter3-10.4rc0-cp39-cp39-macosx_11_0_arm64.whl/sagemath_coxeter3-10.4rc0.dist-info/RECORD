@@ -1,0 +1,16 @@
+sagemath_coxeter3.dylibs/libcoxeter3.dylib,sha256=oGl2q5v6sPHj-uy-OJR0cy4GbbCuLy3-gnA7ho8_LQQ,782032
+sage/all__sagemath_coxeter3.py,sha256=t7LLXMgYQKEeedzk3oKQ8wfkugk4pbhvZyA1YYuTCRY,47
+sage/libs/all__sagemath_coxeter3.py,sha256=t7LLXMgYQKEeedzk3oKQ8wfkugk4pbhvZyA1YYuTCRY,47
+sage/libs/coxeter3/coxeter.cpython-39-darwin.so,sha256=L66JoIvjT2AU9Parbrqn2sBYeXekw0ar0NFZTzB4lks,295568
+sage/libs/coxeter3/decl.pxd,sha256=zZjtHPyPhMFou6i-Jac032TuDnkzlAt3ZMqJ85U8Y-Q,5059
+sage/libs/coxeter3/__init__.py,sha256=t7LLXMgYQKEeedzk3oKQ8wfkugk4pbhvZyA1YYuTCRY,47
+sage/libs/coxeter3/coxeter.pyx,sha256=g0OlsabTjSejWWQ3RZVV2ZpuCGrJOANJynMx5yod9Qg,36515
+sage/libs/coxeter3/coxeter.pxd,sha256=40lRm9xY0NeniDxA_sbjOePwF1QiIBd_c66woPe5V6k,945
+sage/libs/coxeter3/all__sagemath_coxeter3.py,sha256=t7LLXMgYQKEeedzk3oKQ8wfkugk4pbhvZyA1YYuTCRY,47
+sage/libs/coxeter3/coxeter_group.py,sha256=ybfFHWnz6CZLz3CkG4tHZm-dtnnPUmXbf8RCfPPslCc,24281
+sage/cython_debug/interpreter,sha256=9RpKKQiA_pCjZEq6MqMrFkl6jC4EkyxpFi0cHD9Ag2c,86
+sage/cython_debug/cython_debug_info_sage.libs.coxeter3.coxeter,sha256=wPMo6foUEyAiWktzpGcCeFyNKLfQdvy6TY0b56nmrW0,202863
+sagemath_coxeter3-10.4rc0.dist-info/RECORD,,
+sagemath_coxeter3-10.4rc0.dist-info/WHEEL,sha256=Ko5Gr3WFzgDI8vk11kDjeS4bh8uaxSwVaPyo-6n1OgE,107
+sagemath_coxeter3-10.4rc0.dist-info/top_level.txt,sha256=hibFyzQHiLOMK68qL1OWsNKaXOmSXqZjeLTBem6Yy7I,5
+sagemath_coxeter3-10.4rc0.dist-info/METADATA,sha256=uFv2ZZR4Cqh7ALfYqvVVxQReA34u2xPuIQwcjZy4u-g,2197
