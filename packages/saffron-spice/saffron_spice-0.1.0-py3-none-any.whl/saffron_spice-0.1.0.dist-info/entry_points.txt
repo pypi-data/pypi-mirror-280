@@ -1,0 +1,4 @@
+[console_scripts]
+saffron-gui=saffron.__main__:GUI_init
+setup-chianti=saffron.__main__:setup_chianti_database
+
