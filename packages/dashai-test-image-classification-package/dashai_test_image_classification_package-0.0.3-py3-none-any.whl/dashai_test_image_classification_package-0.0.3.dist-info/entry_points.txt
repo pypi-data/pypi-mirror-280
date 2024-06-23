@@ -1,0 +1,4 @@
+[dashai.plugins]
+imageClassificationModel = dashai_test_image_classification_package.image_classification_model:ImageClassificationModel
+imageClassificationTask = dashai_test_image_classification_package.image_classification_task:ImageClassificationTask
+mlp = dashai_test_image_classification_package.mlp_image_classifier:MLPImageClassifier
