@@ -1,0 +1,15 @@
+toml
+pycparser
+setuptools
+prompt_toolkit
+tqdm
+jfx_bridge
+ghidra_bridge
+psutil
+pyhidra
+
+[test]
+pytest
+angr
+requests
+ipdb
