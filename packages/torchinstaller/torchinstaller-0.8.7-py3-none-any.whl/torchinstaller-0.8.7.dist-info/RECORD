@@ -1,0 +1,15 @@
+torchinstaller/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torchinstaller/__main__.py,sha256=Ye_E1yY63NIeO-csDZUyaJ-ML1g6InanXrQzpADwXd8,63
+torchinstaller/__version__.py,sha256=vTwvdJOZi8jZb9U-Em7-d50qNDNPS2z51IXqRoojeNM,22
+torchinstaller/_parse.py,sha256=NuKIHSfuL2qbOAROaPGVJiQC-W0SpKQMpwguFHENMRA,3767
+torchinstaller/_soup.py,sha256=tKj84hqvOl2R_crGbOtjjDkaXz_vxtwxi3aLOKJ3OYo,3383
+torchinstaller/main.py,sha256=iDVEFBxmZ7g_FmJFeiWUyOhsAMuNWfT1Tk08F_8bc2U,4749
+torchinstaller/utils.py,sha256=HNQDP4aByNIX6DbO_z4JDuE7EnRi_dDRzyHFQNvcQdo,8268
+torchinstaller/config/commands.bak.toml,sha256=Gmf30UiZJJJcoTsNQ1bwEq6kCRmEvYwix-YxKX_Zjsk,8155
+torchinstaller/config/commands.md,sha256=ffsfQRec2lPTi9TRnjM83CbXyFaFRVEeCaB2p4cq-IY,20724
+torchinstaller/config/commands.toml,sha256=ZJiTZOW1kjVcTGdFMt5EOUs0O6P2RDDfYNn3RPnISgY,40347
+torchinstaller-0.8.7.dist-info/METADATA,sha256=eCpa9OVXz6krcyLhZtWm6S3-ukgXD7XSVJx7e5Yptn4,3623
+torchinstaller-0.8.7.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+torchinstaller-0.8.7.dist-info/entry_points.txt,sha256=ccbts7TuZpNN_zNpAk2AkwHiNxT6OEBaRqKRpNljSNs,58
+torchinstaller-0.8.7.dist-info/licenses/LICENSE,sha256=92UL-0p6xkrM2YcfsRmC07SoqOPriSykM5ULTJ85P08,35150
+torchinstaller-0.8.7.dist-info/RECORD,,
