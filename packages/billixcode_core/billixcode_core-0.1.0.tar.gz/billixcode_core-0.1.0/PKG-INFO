@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: billixcode_core
+Version: 0.1.0
+Summary: 
+Author: billixcode
+Author-email: 64236392+billixcode@users.noreply.github.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+
