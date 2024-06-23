@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.py
+qchem/OrcaCalculation.py
+qchem/XYZFile.py
+qchem/__init__.py
+qchem/molecule.py
+qchem/optimize.py
+qchem/parser.py
+qchem.egg-info/PKG-INFO
+qchem.egg-info/SOURCES.txt
+qchem.egg-info/dependency_links.txt
+qchem.egg-info/requires.txt
+qchem.egg-info/top_level.txt
+tests/__init__.py
+tests/parser_test.py
