@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: simpleinference
+Version: 0.0.1.dev4
+Summary: A stable and easy-to-use inference library with a focus on a sync-to-async API
+Author: michaelfeil
+Author-email: me@michaelfeil.eu
+Requires-Python: >=3.9,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: infinity_emb[optimum,torch,vision] (==0.0.49)
+Description-Content-Type: text/markdown
+
+
