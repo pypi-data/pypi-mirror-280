@@ -1,0 +1,16 @@
+django_meili/__init__.py,sha256=3L68CI7nOIMUbHmcQJ1EORIQpQ8R8HzTxP-GDq1p2YQ,74
+django_meili/_client.py,sha256=0M7JciyKRv_EUenMKFAikgrLMjAXSCyv4WZWq-Jqk98,3698
+django_meili/_settings.py,sha256=LF7RoQ-ul29F_1rIp2itMEIAresKdS5BkUHDj0CSmKA,1867
+django_meili/apps.py,sha256=5XiV-iONDk6xzqxNGXJlesCW7YSB9BLnlDNZk3fqN5Q,3325
+django_meili/models.py,sha256=DpgADdlvN6Jja4C_LeJiQZvCMASRlmuA63EOMyngLi8,5237
+django_meili/querysets.py,sha256=CQSnJepeUxsEp_0j4iThYPvpKMcwvYkCrF5pwN46R0I,9859
+django_meili/tests.py,sha256=pms30U6lpSm_O6TWYuF9BiiE4cCOpZa0sHjohfZZT1o,2816
+django_meili/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_meili/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_meili/management/commands/clearindex.py,sha256=9wW8JZJdEpbBwAV1WmxJKBCjpLS941CGFQWxqRRSdfU,696
+django_meili/management/commands/syncindex.py,sha256=cNQ0Cj4tAsNq6Uhm1a_d7I2u0twwGcitheXR3DKFxAo,2089
+django_meili/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_meili-0.0.5.dist-info/LICENSE,sha256=RLle_844hAY6_qwbzB3I0xAabsQD0jnCXmlF-_jF8oc,1086
+django_meili-0.0.5.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+django_meili-0.0.5.dist-info/METADATA,sha256=1X_BCcrknziWPV7jKhYas1nPCztW4oriSYOromYnMq4,4554
+django_meili-0.0.5.dist-info/RECORD,,
