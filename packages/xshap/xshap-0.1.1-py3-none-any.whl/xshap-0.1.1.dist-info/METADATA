@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: xshap
+Version: 0.1.1
+Summary: Package created as a wrapper for the original Shap package to simplify the learning process
+Home-page: https://github.com/Priyanshu-server/xshap
+Author: xDoramming
+Author-email: priyanshuserver55@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: Pygments (==2.18.0)
+Requires-Dist: asttokens (==2.4.1)
+Requires-Dist: cloudpickle (==3.0.0)
+Requires-Dist: contourpy (==1.2.1)
+Requires-Dist: cycler (==0.12.1)
+Requires-Dist: decorator (==5.1.1)
+Requires-Dist: exceptiongroup (==1.2.1)
+Requires-Dist: executing (==2.0.1)
+Requires-Dist: fonttools (==4.52.1)
+Requires-Dist: ipython (==8.24.0)
+Requires-Dist: jedi (==0.19.1)
+Requires-Dist: joblib (==1.4.2)
+Requires-Dist: kiwisolver (==1.4.5)
+Requires-Dist: llvmlite (==0.42.0)
+Requires-Dist: matplotlib-inline (==0.1.7)
+Requires-Dist: matplotlib (==3.9.0)
+Requires-Dist: numba (==0.59.1)
+Requires-Dist: numpy (==1.26.4)
+Requires-Dist: packaging (==24.0)
+Requires-Dist: pandas (==2.2.2)
+Requires-Dist: parso (==0.8.4)
+Requires-Dist: pexpect (==4.9.0)
+Requires-Dist: pillow (==10.3.0)
+Requires-Dist: prompt-toolkit (==3.0.43)
+Requires-Dist: ptyprocess (==0.7.0)
+Requires-Dist: pure-eval (==0.2.2)
+Requires-Dist: pyparsing (==3.1.2)
+Requires-Dist: python-dateutil (==2.9.0.post0)
+Requires-Dist: pytz (==2024.1)
+Requires-Dist: scikit-learn (==1.5.0)
+Requires-Dist: scipy (==1.13.1)
+Requires-Dist: shap (==0.45.1)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: slicer (==0.0.8)
+Requires-Dist: stack-data (==0.6.3)
+Requires-Dist: threadpoolctl (==3.5.0)
+Requires-Dist: tqdm (==4.66.4)
+Requires-Dist: traitlets (==5.14.3)
+Requires-Dist: typing-extensions (==4.12.0)
+Requires-Dist: tzdata (==2024.1)
+Requires-Dist: wcwidth (==0.2.13)
+
+# xshap
+
+[![License](https://img.shields.io/github/license/Priyanshu-server/xshap)](https://github.com/Priyanshu-server/xshap/blob/main/LICENSE.txt)
+[![PyPI](https://img.shields.io/pypi/v/xshap)](https://pypi.org/project/xshap/)
+[![Python Version](https://img.shields.io/pypi/pyversions/xshap)](https://pypi.org/project/xshap/)
+
+**xshap** is a Python package created as a wrapper for the original Shap package to simplify the learning process.
+
+## Installation
+
+You can install **xshap** via pip:
+
+```bash
+pip install xshap
+```
+## Enjoy !
+
