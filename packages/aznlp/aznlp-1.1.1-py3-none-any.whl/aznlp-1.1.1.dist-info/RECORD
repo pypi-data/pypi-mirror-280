@@ -1,0 +1,8 @@
+aznlp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aznlp/corpus/__init__.py,sha256=WuAg2rulyQHvjqlzgnnsLoJk_RhhT3SCVLk7fCtjrxc,2733
+aznlp/tokenize/__init__.py,sha256=tGiG8G_ZRuomS38tSs9MMWfzXcGPvfxTUbHDOdN90F4,672
+aznlp-1.1.1.dist-info/LICENSE,sha256=sf1HUSaz5F9Pl2ny5OOlgqDO_dnpWfPbFgqavVsXa-s,1066
+aznlp-1.1.1.dist-info/METADATA,sha256=iFzQoKAaRzu5Hp4aVsuBfEOBM6dKyk6q-pswBj9J2QQ,1199
+aznlp-1.1.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+aznlp-1.1.1.dist-info/top_level.txt,sha256=7RH0X0pJah9uNzyK1F_dbDu5PnVVAll73f2DfmRisX8,6
+aznlp-1.1.1.dist-info/RECORD,,
