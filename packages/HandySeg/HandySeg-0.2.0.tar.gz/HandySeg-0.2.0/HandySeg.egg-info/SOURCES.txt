@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+HandySeg/__init__.py
+HandySeg/line_segmentation.py
+HandySeg/preprocessing.py
+HandySeg/word_segmentaiton.py
+HandySeg.egg-info/PKG-INFO
+HandySeg.egg-info/SOURCES.txt
+HandySeg.egg-info/dependency_links.txt
+HandySeg.egg-info/requires.txt
+HandySeg.egg-info/top_level.txt
