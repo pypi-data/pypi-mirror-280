@@ -1,0 +1,7 @@
+numpy
+scikit-learn
+scipy
+ripser
+persim
+matplotlib
+scikit-dimension
