@@ -1,0 +1,2 @@
+django-debug-toolbar>=4.0.0
+line_profiler>=3.4.0
