@@ -1,0 +1,7 @@
+README.md
+setup.py
+pivotr.egg-info/PKG-INFO
+pivotr.egg-info/SOURCES.txt
+pivotr.egg-info/dependency_links.txt
+pivotr.egg-info/requires.txt
+pivotr.egg-info/top_level.txt
