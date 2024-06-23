@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "wuwaimagen"
+version = "0.1.1" 
+description = "WuWaImaGen - is a Python module that allows you to generate images for projects based on the game Wuthering Waves"
+authors = ["DeviantUa <deviantapi@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+repository = "https://github.com/Wuthery/WuWaConvene.py"
+homepage = "https://github.com/Wuthery/WuWaConvene.py"
+keywords = ["Wuthering", "Waves", "generation", "WuWa", "gacha", "convene", "card", "api"]
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+pydantic = "*"
+aiohttp = "*"
+cachetools = "*"
+Pillow = "*"
+aiofiles = "*"
+more-itertools = "*"
+numpy = "*"
+beautifulsoup4 = "*"
+anyio = "*"
+"kuro.py" = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
