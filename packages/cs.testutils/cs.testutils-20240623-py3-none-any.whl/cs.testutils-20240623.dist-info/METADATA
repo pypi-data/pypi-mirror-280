@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: cs.testutils
+Version: 20240623
+Summary: Hacks to assist with testing.
+Author-email: Cameron Simpson <cs@cskk.id.au>
+License: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Monorepo Hg/Mercurial Mirror, https://hg.sr.ht/~cameron-simpson/css
+Project-URL: Monorepo Git Mirror, https://github.com/cameron-simpson/css
+Project-URL: MonoRepo Commits, https://bitbucket.org/cameron_simpson/css/commits/all
+Project-URL: Source, https://github.com/cameron-simpson/css/blob/main/lib/python/cs/testutils.py
+Keywords: python3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Testing :: Unit
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Description-Content-Type: text/markdown
+Requires-Dist: cs.context >=20240412
+Requires-Dist: cs.deco >=20240412
+
+Hacks to assist with testing.
+
+*Latest release 20240623*:
+New assertSingleThread() function to check that there are no left over Threads.
+
+## Function `assertSingleThread(include_daemon=False)`
+
+Test that the is only one `Thread` still running.
+
+## Function `product_test(*da, **dkw)`
+
+Decorator for test methods which should run subTests
+against the Cartesian products from `params`.
+
+A specific TestCase would define its own decorator
+and apply it throughout the suite.
+Here is an example from cs.vt.datadir_tests:
+
+  def multitest(test_method):
+    return product_test(
+        test_method,
+        datadirclass=[DataDir, RawDataDir],
+        indexclass=[
+            indexclass_by_name(indexname)
+            for indexname in sorted(indexclass_names())
+        ],
+        hashclass=[
+            HASHCLASS_BY_NAME[hashname]
+            for hashname in sorted(HASHCLASS_BY_NAME.keys())
+        ],
+    )
+
+whose test suite then just decorates each method with `@multitest`:
+
+    @multitest
+    def test000IndexEntry(self):
+        ....
+
+Note that because there must be setup and teardown for each product,
+the TestCase class may well have empty `setUp` and `tearDown` methods
+and instead is expected to provide:
+* `product_setup(self,**params)`:
+  a setup method taking keyword arguments for each product
+* `product_teardown(self)`:
+  the corresponding testdown method
+There are called around each `subTest`.
+
+## Class `SetupTeardownMixin`
+
+A mixin to support a single `setupTeardown()` context manager method.
+
+*Method `SetupTeardownMixin.setUp(self)`*:
+Run `super().setUp()` then the set up step of `self.setupTeardown()`.
+
+*Method `SetupTeardownMixin.tearDown(self)`*:
+Run the tear down step of `self.setupTeardown()`,
+then `super().tearDown()`.
+
+# Release Log
+
+
+
+*Release 20240623*:
+New assertSingleThread() function to check that there are no left over Threads.
+
+*Release 20230109*:
+* @product_test decorator for running test matrices.
+* SetupTeardownMixin providing unittest setUp/tearDown from setupTeardown context manager method.
+
