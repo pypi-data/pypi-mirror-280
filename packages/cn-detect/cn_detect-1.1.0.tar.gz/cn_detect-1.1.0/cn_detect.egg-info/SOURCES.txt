@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+cn_detect/__init__.py
+cn_detect/config.py
+cn_detect/detect.py
+cn_detect.egg-info/PKG-INFO
+cn_detect.egg-info/SOURCES.txt
+cn_detect.egg-info/dependency_links.txt
+cn_detect.egg-info/requires.txt
+cn_detect.egg-info/top_level.txt

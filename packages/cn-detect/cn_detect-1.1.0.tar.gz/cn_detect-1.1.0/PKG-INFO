@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: cn_detect
+Version: 1.1.0
+Summary: Recognize Chinese Name of
+Home-page: https://www.linkedin.com/in/chandlersong/
+Author: chandler song
+Author-email: 275737875@qq.com
+License: MIT
+Keywords: excel chinese detector recognizer
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Introduction
+## Install package
+```shell
+pip install cn_detect
+```
+##  Example Usage:
+```python
+from cn_detect.detect import ChineseNameDetect
+
+# Basic
+detector = ChineseNameDetect() 
+detector.recognize_excel_by_column(excel_file_path='myfile.xlsx', column='Name')
+
+# Use your own family name list, and the family_name_file must be *.txt file
+detector = ChineseNameDetect(family_name_file='family_name.txt')
+detector.recognize_excel_by_column(excel_file_path='myfile.xlsx', column='Name')
+```
