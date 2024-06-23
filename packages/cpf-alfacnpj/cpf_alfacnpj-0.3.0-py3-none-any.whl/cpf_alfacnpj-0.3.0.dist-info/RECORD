@@ -1,0 +1,13 @@
+cpf_alfacnpj/__init__.py,sha256=AHH3LZNegwdp56gHzxA5QnndP5hRL0Yb9quvDUuXCBs,103
+cpf_alfacnpj/cnpj.py,sha256=wJwX2e-uTdztj4BE0BQ34igSu9d484xnqd9zzCFRZDQ,1768
+cpf_alfacnpj/cpf.py,sha256=uxSyjye4TM7DfHft7yblKncXF07a_fZU0aur6aFDric,847
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_validar_cnpj.py,sha256=t94miVOyDkauuSMGf_6LZZG6cANp8sVrhL4BjvSzzkk,919
+tests/test_validar_cnpj_alfanumerico.py,sha256=-BfVr75vhugx8asis4u3uvMeQ7nwx9gvql9FSKe6YLs,1498
+tests/test_validar_cpf.py,sha256=G2K-SNpJVS8blGjGfhGrvWhvIccbtj_OfI_Lbx07xCY,861
+cpf_alfacnpj-0.3.0.dist-info/LICENSE,sha256=F9ZcTCVoWv1lkYoM-46OBt-d_IsIJt_n4pVaeLNGDYk,1073
+cpf_alfacnpj-0.3.0.dist-info/METADATA,sha256=W39M5jMWd4E9de3KfKVsqrYPmAU7Fhj7qqaEyfYFmFg,1135
+cpf_alfacnpj-0.3.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+cpf_alfacnpj-0.3.0.dist-info/entry_points.txt,sha256=U7O_Ztv4UEXHU0k82jIuJgOjH5t56k2tQz-KxO7nyCI,56
+cpf_alfacnpj-0.3.0.dist-info/top_level.txt,sha256=N7Gbos4wO8bvh-s_5HZ3zfds5-IeeQhVDkNs-8-cGag,19
+cpf_alfacnpj-0.3.0.dist-info/RECORD,,
