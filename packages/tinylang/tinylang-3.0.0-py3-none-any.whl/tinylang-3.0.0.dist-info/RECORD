@@ -1,0 +1,14 @@
+tinylang/__init__.py,sha256=LG-zblOfMP6hVPKsBg0_Vu7Np90aDwZoQtZkamDOsus,46
+tinylang/history/__init__.py,sha256=M2mD8GiR9ZIuWcqEATpY-grhccynW1ghQp2gE_bg-rU,57
+tinylang/history/chat.py,sha256=CwLe_G9j1eWJEDbllSd7CJXZ1LKq11o9c7_F6iD7MSA,1019
+tinylang/llms/__init__.py,sha256=qyclo1ghIBuPIrRfFhUyAQCj5Ew2Z6WFGmlumHlrUTw,147
+tinylang/llms/base.py,sha256=QMwHXQ6-MbGvLUOjn5x8-BRZdzD9Uyfx4DZghEOKZzg,777
+tinylang/llms/claude.py,sha256=vsNnRhDQSIWGdkIhRHI-3ORRyZXtmHApgDIbYl7i9_k,3220
+tinylang/llms/gemini.py,sha256=5_gts-MIVSmKZSmZt8eYmShnecL2YoTPbAjc1bVkVyE,3029
+tinylang/llms/openai.py,sha256=srV5NFrX5bZOXreCeqB_qe-dRf1xQyLDLHnsciPnhqU,3047
+tinylang/llms/util.py,sha256=38kwjrkmKaTeZg-XyvZQj3NVs84PTi666xqzbTMRra4,363
+tinylang-3.0.0.dist-info/LICENSE,sha256=ialWdVxk3B6BWpMbmtF8ZNXmV84b-etH5qC7IJSmrCw,1072
+tinylang-3.0.0.dist-info/METADATA,sha256=fIkh3_QpNN560-hCYzuCs_ZJBtEnODGVJx-phtrO02k,2351
+tinylang-3.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+tinylang-3.0.0.dist-info/top_level.txt,sha256=4hVcARRS7qdokA3EeuJZGtREaMvR22resE_9K8GwjNg,9
+tinylang-3.0.0.dist-info/RECORD,,
