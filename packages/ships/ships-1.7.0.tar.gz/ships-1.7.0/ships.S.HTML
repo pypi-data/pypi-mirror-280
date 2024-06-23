@@ -1,0 +1,57 @@
+
+
+
+<pre>
+	<h1>ships</h1>
+
+
+	<h2>on</h2>
+		<h3>sesssion 1</h3>
+			docker compose up -d; docker exec -it ships.1 bash
+			. /habitat/_controls/build_1.sh
+			
+		<h3>sesssion 2</h3>
+			docker exec -it ships.1 bash 
+			. /habitat/_controls/build_2.sh
+
+	<h2>status</h2>
+		cd /habitat/fields/gardens/ships/_status
+		python3 status.proc.py
+
+
+	<h2>publishing</h2>
+		
+		(cp /ships/fields/gardens/ships/module.MD readme.md)
+		
+		#
+		#	statuses
+		#
+		python3 /habitat/fields/gardens/ships/_status/status.proc.py
+		
+		#
+		#	git push
+		#
+		#		if Circle CI is successful, then publish
+		#
+		
+		
+		#
+		#	increase version
+		#
+		
+		git add --all
+		git commit -m "save"
+		git tag 1.6.0
+		git push --tags
+		
+		#
+		#	poetry auth
+		#
+		rm -rf dist && poetry build --verbose && poetry publish --verbose;
+
+
+
+
+
+
+</pre>
