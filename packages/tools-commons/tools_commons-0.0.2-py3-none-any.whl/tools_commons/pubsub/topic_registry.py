@@ -1,0 +1,1 @@
+MODEL_METADATA_STATUS_UPDATE = "model_metadata_status_update"
