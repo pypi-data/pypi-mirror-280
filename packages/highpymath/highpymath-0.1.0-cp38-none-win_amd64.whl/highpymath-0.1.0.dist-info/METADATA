@@ -1,0 +1,28 @@
+Metadata-Version: 2.3
+Name: highpymath
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: High Quality Math library for Python
+Author-email: pyrootcpp <pyrootcpp@outlook.de>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst; charset=UTF-8
+
+highpymath
+==========
+
+High high-quality Python Math Library written in Rust and Python.
+
+Features
+========
+
+Better precision
+Better performance
+Better readability
+
+The Main Functions are Implemented in Rust, but you can not call direct the Rust Functions, this will do in Python written wrapper Functions.
+
+The in Python Written Wrapper Functions gives you a gurenteed better performance and precision.
