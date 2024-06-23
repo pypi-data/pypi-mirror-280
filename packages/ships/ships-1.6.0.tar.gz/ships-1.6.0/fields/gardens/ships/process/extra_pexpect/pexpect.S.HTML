@@ -1,0 +1,109 @@
+
+
+
+
+<pre>
+
+	<h1>pexpect</h1>
+	
+	
+	<h2>objectives</h2>
+	
+		/processes
+			/pids
+				/{ pid }
+					records.UTF8
+				
+				/{ pid }	
+					records.UTF8
+		
+			process_identities.JSON {}
+
+		
+		status:
+			check pid
+			check pid-file-txt
+				
+				example: pid.txt
+					"14738\n"
+				
+				If the pid in the pid file txt is on,
+				then say it's on.
+			
+			check HTTP(S) address
+		
+		
+				
+			python3 class, etc.:
+				returns: "on" or "off"
+
+
+
+		process.essence.py {
+			"processes": [{
+				"on": [
+					"mongod", 
+					'--fork',
+
+					'--dbpath', 
+					f"'{ dbpath }'", 
+					
+					'--logpath',
+					f"'{ logs_path }'", 
+				
+					'--port', 
+					str (port),
+					
+					'--bind_ip',
+					'0.0.0.0',
+					
+					'--pidfilepath',
+					f"'{ PID_path }'"
+				],
+				"off": [
+					"mongod",
+					"--shutdown",
+					
+					'--dbpath', 
+					f"{ dbpath }", 
+					
+					"--pidfilepath",
+					f"'{ PID_path }'"
+				],
+				"status": {
+					"kind": "pid-file-txt",
+					"path": str (PID_path)
+				}
+			},{
+				"on": [
+					"sanic",
+					f'harbor:create',
+					f'--port={ harbor_port }',
+					f'--host=0.0.0.0',
+					
+					'--fast',
+					'--factory',
+					
+					#'--dev'
+				],
+				"off": 
+				"status": check_sanique_status ()
+			}]
+		}
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
