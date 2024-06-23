@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: py3-sdb
+Version: 1.0.7
+Summary: SDB is a simple database for beginners.
+Home-page: https://github.com/DDavid701/sdb
+Author: DDavid701
+Author-email: ddavid701@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Simple Database
+
+SDB is a simple database for python.
+If you're a beginner in python and want to save some stuff this is you're solution :)
+
+SDB is using an id system to get specific data from
+the database.
+
+You'll find the documentation in the ```documentation.md```
+
+###### DDavid701 <-> 2024 <-> v1.0.7
