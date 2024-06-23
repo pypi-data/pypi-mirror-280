@@ -1,0 +1,9 @@
+pythonbeid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pythonbeid/card_reader.py,sha256=ut9x2EI2CaYQbfvzW3QMc0EE3qBUQ6Lr8JkjUJFB_Xc,7154
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_card_reader.py,sha256=S-WhbD8ldB_bdlELJ58LFxjW1Sybj2oKzsujFM97v3Y,300
+pythonbeid-0.1.1.dist-info/LICENSE,sha256=8xOq3W-9w8IgGAWBbKMFTcX3fMQCV4YmgQsvC14CTPE,1090
+pythonbeid-0.1.1.dist-info/METADATA,sha256=LUfRFXBTNdNb1ra_sYn__IdqMpuRJQYWN7BA6Y-IfDE,1804
+pythonbeid-0.1.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+pythonbeid-0.1.1.dist-info/top_level.txt,sha256=nwijJKuYdePBeJE_Z_Wy3dUL-h0iF2IgL5SbsVt2-AQ,17
+pythonbeid-0.1.1.dist-info/RECORD,,
