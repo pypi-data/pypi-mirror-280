@@ -1,0 +1,7 @@
+matplotlib
+plotly
+pandas
+numpy
+statsmodels
+jinja2
+reportlab
