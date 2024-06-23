@@ -1,0 +1,8 @@
+game-prediction2
+pipeteer
+haskellian
+lazy-loader
+fastapi
+uvicorn
+python-multipart
+sse-starlette
