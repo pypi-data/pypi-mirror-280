@@ -1,0 +1,9 @@
+README.md
+setup.py
+speechify/__init__.py
+speechify/speechify.py
+speechify.egg-info/PKG-INFO
+speechify.egg-info/SOURCES.txt
+speechify.egg-info/dependency_links.txt
+speechify.egg-info/requires.txt
+speechify.egg-info/top_level.txt
