@@ -1,0 +1,8 @@
+README.md
+bl2_seed_reader.py
+pyproject.toml
+bl2_seed_reader.egg-info/PKG-INFO
+bl2_seed_reader.egg-info/SOURCES.txt
+bl2_seed_reader.egg-info/dependency_links.txt
+bl2_seed_reader.egg-info/requires.txt
+bl2_seed_reader.egg-info/top_level.txt

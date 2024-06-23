@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools >= 38.3.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bl2-seed-reader"
+version = "0.1.0"
+authors = [{name = "Zoey Mae", email = "admin@barkshark.xyz"}]
+description = " Parser for seed files from the Loot Randomizer mod for Borderlands 2"
+license = {text = "CNPL 7+"}
+keywords = ["python", "borderlands 2"]
+classifiers = [
+	"Development Status :: 4 - Beta",
+	"Intended Audience :: Developers",
+	"Operating System :: OS Independent",
+	"Programming Language :: Python",
+	"Programming Language :: Python :: 3.11",
+	"Programming Language :: Python :: 3.12",
+	"Topic :: Software Development :: Libraries :: Python Modules",
+	"Typing :: Typed"
+]
+requires-python = ">= 3.11"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[project.urls]
+Homepage = "https://git.barkshark.xyz/barkshark/bl2-seed-reader"
+"Bug Tracker" = "https://git.barkshark.xyz/barkshark/bl2-seed-reader/issues"
+Documentation = "https://docs.barkshark.xyz/bl2-seed-reader"
+"Source Code" = "https://git.barkshark.xyz/barkshark/bl2-seed-reader"
+
+[tool.setuptools]
+include-package-data = true
+py-modules = ["bl2_seed_reader"]
+platforms = ["any"]
+license-files = ["LICENSE.md"]
+
+[project.optional-dependencies]
+docs = [
+	"furo == 2024.1.29",
+	"sphinx == 7.2.6",
+	"sphinx-external-toc == 1.0.1"
+]
+dev = [
+	"mypy == 1.9.0",
+	"flake8 == 7.0.0"
+]
+
+[tool.distutils.bdist_wheel]
+universal = false
+
+[tool.distutils.sdist]
+formats = "zip, gztar"
+
+[tool.mypy]
+show_traceback = true
+install_types = true
+pretty = true
+disallow_untyped_decorators = true
+warn_redundant_casts = true
+warn_unreachable = true
+warn_unused_ignores = true
+ignore_missing_imports = true
+follow_imports = "silent"
