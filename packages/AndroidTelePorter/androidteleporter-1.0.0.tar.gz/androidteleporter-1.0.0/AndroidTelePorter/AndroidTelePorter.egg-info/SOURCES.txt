@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+AndroidTelePorter/AndroidTelePorter.egg-info/PKG-INFO
+AndroidTelePorter/AndroidTelePorter.egg-info/SOURCES.txt
+AndroidTelePorter/AndroidTelePorter.egg-info/dependency_links.txt
+AndroidTelePorter/AndroidTelePorter.egg-info/requires.txt
+AndroidTelePorter/AndroidTelePorter.egg-info/top_level.txt
+AndroidTelePorter/managers/__init__.py
+AndroidTelePorter/managers/tgnetmanager.py
+AndroidTelePorter/managers/userconfigmanager.py
