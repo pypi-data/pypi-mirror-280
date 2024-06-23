@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pysignalbot
+Version: 0.1.1
+Summary: Python client for `signal-cli-rest-api`
+Home-page: https://github.com/poterba/pysignalbot
+License: MIT
+Author: poterba
+Maintainer: poterba
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: asyncio
+Requires-Dist: requests
+Requires-Dist: websockets
+Project-URL: Repository, https://github.com/poterba/pysignalbot
+Description-Content-Type: text/markdown
+
+# pysignalbot
+
+Simple yet powerful library to work with [signal-cli-rest-api](https://github.com/bbernhard/signal-cli-rest-api). It supports both sync and async modes of origin Docker container, providing supplying API.
+
+```python
+import asyncio
+from pysignalbot import Bot
+
+bot = Bot("localhost:8080", mode=Bot.Mode.JSON_RPC)
+
+@bot.handler
+def on_message(msg):
+    logging.info(msg)
+
+async def main():
+    accounts = bot.accounts()
+    for account in accounts:
+        await bot.fetch(account)
+
+if __name__ in {"__main__", "__mp_main__"}:
+    logging.basicConfig(level=logging.DEBUG)
+    asyncio.run(main())
+```
+
+## Credits:
+
+This project is heavily inspired by:
+
+- [signalbot](https://github.com/filipre/signalbot)
+- [pysignalclirestapi](https://github.com/bbernhard/pysignalclirestapi)
+
