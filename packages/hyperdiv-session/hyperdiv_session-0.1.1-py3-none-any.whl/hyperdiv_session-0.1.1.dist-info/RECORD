@@ -1,0 +1,10 @@
+hyperdiv_session/__init__.py,sha256=FNYD50SGlfGAV4vcPbRPIKvb8VIo1ls35BVnKcAvqCI,928
+hyperdiv_session/assets/session.js,sha256=MMW5BNzoiUNo15fvw2zpI7IwQc3PtaDA1nNndcxdMjM,1456
+hyperdiv_session/crypto.py,sha256=bmTu4_SDTRH5hzVYEq5W9NPUc-68F6pkDTtvU6WID_0,1355
+hyperdiv_session/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hyperdiv_session/tests/test_crypto.py,sha256=aUYRRiC4iG5Br5SE8dRrzWnIKd7SkgSIBltV5c13enE,202
+hyperdiv_session/tests/test_session.py,sha256=8phnxmGE2PrruVki7NeNW7X9sefypnufv8hu0MhlPKk,66
+hyperdiv_session-0.1.1.dist-info/LICENSE,sha256=8Y3R5ddMUFwG7zZYNRaHKhE2I0B0ECCm5wxps_s1n3o,11371
+hyperdiv_session-0.1.1.dist-info/METADATA,sha256=5qCNhRdTsxCxx2yyLT2N8mURJz-nzRKEimFZDyHGenI,3736
+hyperdiv_session-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+hyperdiv_session-0.1.1.dist-info/RECORD,,
