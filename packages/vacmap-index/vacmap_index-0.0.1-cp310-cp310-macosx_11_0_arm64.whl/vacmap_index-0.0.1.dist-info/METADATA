@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: vacmap-index
+Version: 0.0.1
+Summary: vacmap_index
+Home-page: https://github.com/micahvista/VACmap/tree/main
+Author: Hongyu Ding
+Author-email: 920268622@qq.com
+License: MIT
+Keywords: sequence-alignment
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+License-File: LICENSE.txt
+
+This code is adapted from minimap2
+
