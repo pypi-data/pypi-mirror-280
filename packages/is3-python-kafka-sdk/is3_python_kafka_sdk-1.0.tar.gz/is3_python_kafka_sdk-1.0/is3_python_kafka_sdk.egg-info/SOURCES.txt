@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+is3_python_kafka_sdk.egg-info/PKG-INFO
+is3_python_kafka_sdk.egg-info/SOURCES.txt
+is3_python_kafka_sdk.egg-info/dependency_links.txt
+is3_python_kafka_sdk.egg-info/entry_points.txt
+is3_python_kafka_sdk.egg-info/requires.txt
+is3_python_kafka_sdk.egg-info/top_level.txt
