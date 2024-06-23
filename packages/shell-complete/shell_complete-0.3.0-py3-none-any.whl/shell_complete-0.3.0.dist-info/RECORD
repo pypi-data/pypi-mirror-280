@@ -1,0 +1,15 @@
+shell_complete/__init__.py,sha256=SEp97PPioM2luOsBgR2qKs8VHdA7k9p0Xbdgm2-kTKk,1533
+shell_complete/__main__.py,sha256=BG72cDfIFosggBIfVeIfJLR3Dxoa72qek3EMdqLBuXM,2036
+shell_complete/argparse/__init__.py,sha256=iLHgBPqLjsGPJuPvEAeKbxZLRGS9AJxswmL2kQGW1WM,139
+shell_complete/argparse/action.py,sha256=kCVmleMI0PxxrSRaQA7WMEYpL-J5zunL5X8vNGdFEr4,3491
+shell_complete/argparse/types.py,sha256=lO1tQ-2dh01l6Hz7NgqE1Ta_hyGO8VkRK_Neb0741cE,1753
+shell_complete/core/__init__.py,sha256=5XvgPV_Oq1Muq2mFj81lpypguOK-EOkIGTG_fdJ20z4,64
+shell_complete/core/_argparse_actions.py,sha256=rQnjHqP-6b57lu9130k_LrBaCMY2fPA3fYsagdrehIU,1679
+shell_complete/core/generate.py,sha256=V1e_Tq2N1QgmrR_H2pj9PzEWJ7T4-Cd5-asFBKIjcgk,9774
+shell_complete/core/writing.py,sha256=w59Q6a2XQyVTj-HfqgcJW3bzOTkEFE_QYh6C4p6WlIg,1660
+shell_complete-0.3.0.dist-info/LICENSE,sha256=d3B3pkQbQQeAK6SI7AO-rIlif4RVeyO6UCNF25qO_c8,1074
+shell_complete-0.3.0.dist-info/METADATA,sha256=_M9dG4t-N2lNS1fO7QkREjtI4cqOcnm92LPhOyHNBJc,5925
+shell_complete-0.3.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+shell_complete-0.3.0.dist-info/entry_points.txt,sha256=EJMjsn711dw2yi23_e24Y6pHFAXmJAtk_OujUqD-sfg,64
+shell_complete-0.3.0.dist-info/top_level.txt,sha256=IflCR6TxpSKZ0Lx1RZD7iWZtHsaVPBnj_tAPzuJPljU,15
+shell_complete-0.3.0.dist-info/RECORD,,
