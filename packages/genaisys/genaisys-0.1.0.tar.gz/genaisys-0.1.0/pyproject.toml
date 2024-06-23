@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "genaisys"
+version = "0.1.0"
+description = ""
+authors = ["riaz <riaz.2012@gmail.com>"]
+packages = [{include = "genaisys"}]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pygame = "^2.5.2"
+pytest = "^8.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
