@@ -1,0 +1,10 @@
+iokit/__init__.py,sha256=F8YoZcXrNY4gwVVXX3c7onpDmyt0KjztWOe53qJ7pPQ,132
+iokit/state.py,sha256=3EEtVc-cpzrUyo-zTPI5ym3Ow8XYcU5HcFe9sT5auRs,3676
+iokit/extensions/__init__.py,sha256=fRloSBjMV_VD8HvoCuF92eQ7AIJVMe1mRp-xGiT4t2U,80
+iokit/extensions/gz.py,sha256=tPI16M067t4riDDGz_Yd_A1IMemkFfSx1j0en2CQrXw,710
+iokit/extensions/txt.py,sha256=t20jikk7G0Z5QVEli9Zih9oEhvJllDp1oAPjCJWgokQ,406
+iokit-0.0.1.dist-info/LICENSE,sha256=EXGrvMoZBiANlMUmGH48tUFMo6cMCYGkiKsvRXl8VCg,1079
+iokit-0.0.1.dist-info/METADATA,sha256=eaSZhlr2OFDo5PXNaI2S_EbiQrcBAL1QSyP-Bq92vhU,471
+iokit-0.0.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+iokit-0.0.1.dist-info/top_level.txt,sha256=uCFlt6KpDQ3Ntb2RXL9p-Ko8JMO7nMK7sQRLd1CLtIc,6
+iokit-0.0.1.dist-info/RECORD,,
