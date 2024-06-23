@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+tower_of_hanoi/__init__.py
+tower_of_hanoi/hanoi.py
+tower_of_hanoi.egg-info/PKG-INFO
+tower_of_hanoi.egg-info/SOURCES.txt
+tower_of_hanoi.egg-info/dependency_links.txt
+tower_of_hanoi.egg-info/top_level.txt
