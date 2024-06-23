@@ -1,0 +1,12 @@
+mlx_nougat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlx_nougat/cli.py,sha256=AzCuRKgS_fBJAJ4ctCLaO3o8VjqaPhTdaJMQH3k4uXE,6699
+mlx_nougat/convert.py,sha256=nk_LQZ2493N7Xa5wtGce_Nm1hAHk4LLTbFrdfsMwtuk,1555
+mlx_nougat/donutSwinModel.py,sha256=7stFn6Fuo4JhGPE3iLtdtNNO-QRuB4VD3H-vjtBDR08,21541
+mlx_nougat/mbartModel.py,sha256=0lCTivaSACVPm7n8bx3TtoeV8G-VjF39O0lk8x7RiaY,9571
+mlx_nougat/nougat.py,sha256=0nz_yMDxBBbuhdtPPNzmUOlePEcvuYvSc-LN7mKy694,2155
+mlx_nougat/utils.py,sha256=2BKFQyqqRWEHcjGMS6hIQ6rUmEDWNrb_VRTSesBM2t0,5332
+mlx_nougat-0.1.2.dist-info/METADATA,sha256=ll8niMnRUym8tifcxmDApIhN4v65Jwhg-hniBpUSob4,3214
+mlx_nougat-0.1.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mlx_nougat-0.1.2.dist-info/entry_points.txt,sha256=zM7535rwUZnhPfN9fnh1U7rgUIcDHzp4vaN-z8EmpcM,51
+mlx_nougat-0.1.2.dist-info/top_level.txt,sha256=KEirrSiQC3OkkN-pgkF6C0nitUUCdJ1UxZWCa5gUilI,11
+mlx_nougat-0.1.2.dist-info/RECORD,,
