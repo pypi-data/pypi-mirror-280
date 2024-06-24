@@ -1,0 +1,45 @@
+From d3b7de4f7d01a924a7d9bd31848793fa36e893f7 Mon Sep 17 00:00:00 2001
+From: Marc Soda <marc@soda.fm>
+Date: Sun, 23 Jun 2024 19:51:17 -0400
+Subject: [PATCH 3/3] read fasta in both formats
+
+---
+ src/psicalc/psicalc.py | 22 ----------------------
+ 1 file changed, 22 deletions(-)
+
+diff --git a/src/psicalc/psicalc.py b/src/psicalc/psicalc.py
+index 50c67a2..e6a88c1 100644
+--- a/src/psicalc/psicalc.py
++++ b/src/psicalc/psicalc.py
+@@ -115,28 +115,6 @@ def check_for_duplicates(df: pd.DataFrame) -> pd.DataFrame:
+ 
+ 
+ def read_txt_file_format(file) -> pd.DataFrame:
+-    """Reads text file-based MSAs into a dataframe."""
+-    id, seq = [], []
+-    with open(file, "r") as fasta_file:
+-        for line in fasta_file:
+-            if line.startswith(">"):
+-                id.append(line.strip("\n").strip(">"))
+-            elif line:
+-                seq.append([*line.strip("\n")])
+-        res = list(zip(id, seq))
+-        fasta_file.close()
+-    nucs_dict = dict(res)
+-
+-    df = pd.DataFrame.from_dict(nucs_dict, orient='index')
+-    df = df.replace({'.': '-'})
+-    df.index.name = 'SEQUENCE_ID'
+-    df = check_for_duplicates(df)
+-    df.fillna('?', inplace=True)
+-
+-    return df
+-
+-
+-def read_fasta_file_format(file) -> pd.DataFrame:
+     """Reads FASTA files or text file-based MSAs into a dataframe."""
+     ids, sequences = [], []
+     with open(file, "r") as fasta_file:
+-- 
+2.39.3 (Apple Git-146)
+

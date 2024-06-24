@@ -1,0 +1,25 @@
+From d76c11a1d9816bf0918c075c102b09867ea5b747 Mon Sep 17 00:00:00 2001
+From: Marc Soda <marc@soda.fm>
+Date: Sun, 23 Jun 2024 19:36:30 -0400
+Subject: [PATCH 2/3] raise schema exception
+
+---
+ src/psicalc/psicalc.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/psicalc/psicalc.py b/src/psicalc/psicalc.py
+index 03e49cc..50c67a2 100644
+--- a/src/psicalc/psicalc.py
++++ b/src/psicalc/psicalc.py
+@@ -98,7 +98,7 @@ def deweese_schema(df: pd.DataFrame, pattern='^-') -> pd.DataFrame:
+         df = df.rename(columns=lambda x: int(x))
+ 
+     except IndexError or KeyError:
+-        sys.exit(1)
++        raise Exception("invalid Deweese schema")
+ 
+     return df
+ 
+-- 
+2.39.3 (Apple Git-146)
+

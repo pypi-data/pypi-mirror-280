@@ -1,0 +1,7 @@
+1. increment version in pyproject.toml
+2. merge PR to upstream and merge back to origin
+3. git tag VERSION
+4. git push origin VERSION
+5. git push upstream VERSION
+6. https://github.com/jdeweeselab/psicalc-package > Releases > Draft a new release
+7. Generate release notes
