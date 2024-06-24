@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Scrapins
+Version: 0.2.0
+Summary: Une description personnelle pour des outils de Scraping
+Home-page: https://github.com/Grimmins/Scrapins
+Author: Lùkas K.
+Author-email: lukas.koltes@hotmail.fr
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+## Configuration OpenAI
+
+Pour utiliser les fonctionnalités liées à l'API OpenAI, vous devez créer un fichier `openai.json` dans le répertoire racine de votre projet avec le contenu suivant :
+
+```json
+{
+    "api_key": "votre_cle_api_openai"
+}
+```
