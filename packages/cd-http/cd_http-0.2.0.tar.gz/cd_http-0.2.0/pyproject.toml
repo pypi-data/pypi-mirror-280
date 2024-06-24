@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cd-http"
+version = "0.2.0"
+description = "An HTTP wrapper around the wonderful requests library to make it easier for new users and old."
+authors = ["Nick Capasso <codedocta@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.3"
+fake-useragent = "^1.5.1"
+
+[project.urls]
+homepage = "https://codedocta.com"
+Bug-Reports = "https://github.com/codedocta/CD_HTTP/issues"
+Source = "https://github.com/codedocta/CD_HTTP/"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
