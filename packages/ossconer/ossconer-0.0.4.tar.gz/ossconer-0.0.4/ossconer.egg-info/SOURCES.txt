@@ -1,0 +1,10 @@
+setup.py
+ossconer/__init__.py
+ossconer/core.py
+ossconer/exceptions.py
+ossconer.egg-info/PKG-INFO
+ossconer.egg-info/SOURCES.txt
+ossconer.egg-info/dependency_links.txt
+ossconer.egg-info/not-zip-safe
+ossconer.egg-info/requires.txt
+ossconer.egg-info/top_level.txt
