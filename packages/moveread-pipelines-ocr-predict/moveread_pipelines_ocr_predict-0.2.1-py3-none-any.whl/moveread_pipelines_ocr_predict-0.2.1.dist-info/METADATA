@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: moveread-pipelines-ocr-predict
+Version: 0.2.1
+Summary: package_description
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Project-URL: repo, https://github.com/moveread/dfy-pipeline.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: lazy-loader
+Requires-Dist: tf-serving
+Requires-Dist: pipeteer
+Requires-Dist: kv-api
+Requires-Dist: haskellian
+
+# Moveread Pipelines Ocr Predict
+
+> package_description
