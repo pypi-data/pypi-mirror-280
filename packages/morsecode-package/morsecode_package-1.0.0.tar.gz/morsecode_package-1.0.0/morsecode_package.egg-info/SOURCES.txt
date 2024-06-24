@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+morse/Morse.py
+morse/__init__.py
+morsecode_package.egg-info/PKG-INFO
+morsecode_package.egg-info/SOURCES.txt
+morsecode_package.egg-info/dependency_links.txt
+morsecode_package.egg-info/top_level.txt
