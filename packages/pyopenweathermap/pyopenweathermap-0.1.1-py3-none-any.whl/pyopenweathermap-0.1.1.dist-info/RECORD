@@ -1,0 +1,13 @@
+pyopenweathermap/__init__.py,sha256=GGWQpLTLf8pAD-C3BoQGEIJNwW0g0AB5zmjEWWg-pbM,340
+pyopenweathermap/client/free_client.py,sha256=UNUtadeHYNIx6m0oUHEvNNf4jEaeZmzibTsBehQD51U,1597
+pyopenweathermap/client/onecall_client.py,sha256=ZcWNuTr5JspXDtaU6R0erP_vmD_IeTCXkWZ_r3dx2Is,1894
+pyopenweathermap/client/owm_abstract_client.py,sha256=1gmChbmvJmrJdWwuv51y6J2Unn0Pd7k1wOSlFlQQUPA,404
+pyopenweathermap/client/owm_client_factory.py,sha256=xr32caza7MU-CXlKLVBNluBAoa9aOmkM0HMTspz5Hf8,596
+pyopenweathermap/data_converter.py,sha256=jpU39YW7b8SKwViV6pca2Dwj1tpkLvAuJnF6qba71Ss,4975
+pyopenweathermap/exception.py,sha256=VVNm50_GvmXjx3-0Tvi62Ob5lcupVxR2CAiYR7B0BpY,143
+pyopenweathermap/http_client.py,sha256=XEbGzmGgFWUsmUiWCcjowQ3Dq5jsGA8ZRW5OYo0cX0M,1574
+pyopenweathermap/weather.py,sha256=ei_g_XlDgJDItboQricjNGlUH81UQxym057cJaz-lzI,1896
+pyopenweathermap-0.1.1.dist-info/LICENSE,sha256=2g4kAT8CH14nRdmeXCDPsDfuW5-IetBWz-ygqbwMZ_I,1063
+pyopenweathermap-0.1.1.dist-info/METADATA,sha256=DAF2-Wcc9MiQshtw46gslNwiYdOU2DVj0hQOh_BUBsc,602
+pyopenweathermap-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pyopenweathermap-0.1.1.dist-info/RECORD,,
