@@ -1,0 +1,3 @@
+[console_scripts]
+pytest_server = pytest_server.pytest_server:run
+
