@@ -1,0 +1,3 @@
+[console_scripts]
+brandtemplate-import=brandtemplate.qmd_template.cli_import_template:_cli_import_template
+
