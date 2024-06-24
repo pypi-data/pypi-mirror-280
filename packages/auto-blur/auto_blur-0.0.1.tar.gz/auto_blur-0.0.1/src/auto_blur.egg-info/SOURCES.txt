@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/auto_blur.egg-info/PKG-INFO
+src/auto_blur.egg-info/SOURCES.txt
+src/auto_blur.egg-info/dependency_links.txt
+src/auto_blur.egg-info/top_level.txt
