@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+drf-comments/__init__.py
+drf-comments/comments.py
+drf_comments.egg-info/PKG-INFO
+drf_comments.egg-info/SOURCES.txt
+drf_comments.egg-info/dependency_links.txt
+drf_comments.egg-info/requires.txt
+drf_comments.egg-info/top_level.txt
