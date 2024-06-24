@@ -1,0 +1,6 @@
+setup.py
+semantic_text_search_word_disambiguation/__init__.py
+semantic_text_search_word_disambiguation.egg-info/PKG-INFO
+semantic_text_search_word_disambiguation.egg-info/SOURCES.txt
+semantic_text_search_word_disambiguation.egg-info/dependency_links.txt
+semantic_text_search_word_disambiguation.egg-info/top_level.txt
