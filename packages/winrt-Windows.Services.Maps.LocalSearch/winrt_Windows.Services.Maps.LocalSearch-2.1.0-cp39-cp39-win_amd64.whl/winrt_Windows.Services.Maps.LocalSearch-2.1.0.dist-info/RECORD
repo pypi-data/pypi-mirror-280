@@ -1,0 +1,8 @@
+winrt/_winrt_windows_services_maps_localsearch.cp39-win_amd64.pyd,sha256=5qSVM0IbqT25EGEfZlit-6h3fzfbZ-35hPnMD8jx3ms,103936
+winrt/_winrt_windows_services_maps_localsearch.pyi,sha256=K22Yx0ojZg_jBgShOU5iXFRygbS6NvMgnFTDsNpK0P8,4012
+winrt/windows/services/maps/localsearch/__init__.py,sha256=j2c09o3z6zyRFJVEvbSaN1JTwIX0Z6uGjsLlm66ga8k,1263
+winrt/windows/services/maps/localsearch/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Services.Maps.LocalSearch-2.1.0.dist-info/METADATA,sha256=-0ttYqx6v-KdbL8SK30ifX2cUld3fiyaBVf6r8ZMJt4,1406
+winrt_Windows.Services.Maps.LocalSearch-2.1.0.dist-info/WHEEL,sha256=eep6QWEFiQfg2wcclssb_WY-D33AnLYLnEKGA9Rn-VU,100
+winrt_Windows.Services.Maps.LocalSearch-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Services.Maps.LocalSearch-2.1.0.dist-info/RECORD,,
