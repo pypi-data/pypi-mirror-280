@@ -1,0 +1,8 @@
+geojson_faker/__init__.py,sha256=hdzQeQngz1g5CSPZ1r5bVYDsS2SwEOpcYuLWA-u8Iwg,699
+geojson_faker/constants.py,sha256=UfcLdVwAs1erue5vgBifxuu9VQnu8_tHAq3Pgi1xy44,1039
+geojson_faker/faker.py,sha256=jmBYPNGMzZURDNhe_y5uQjgH-6SzXGlPPPQr9Yug_RQ,6315
+geojson_faker/generators.py,sha256=7BpGxzs96pFunXr8x20a3eR4EkQ-IA0boZZLy_VLRxA,6306
+geojson_faker/types.py,sha256=eQahnAC7okaTaaFwwXjV30xMyC2Icc50hFtl16tf78Q,85
+geojson_faker-1.0.0.dist-info/METADATA,sha256=9MHIcVeFCpjkxpBKSnzxQdhzWxNAh3JPVkdb2Y9mulY,4354
+geojson_faker-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+geojson_faker-1.0.0.dist-info/RECORD,,
