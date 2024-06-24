@@ -1,0 +1,54 @@
+name: Vjer Build
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+concurrency:
+  group: ${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    uses: tardis4500/shared-actions/.github/workflows/vjer.yml@main
+    with:
+      action: test
+      os: ${{ matrix.os }}
+      python-version: ${{ matrix.python-version }}
+      vjer-local: true
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+          - macos-latest
+          - windows-latest
+        python-version:
+          - "3.11"
+          - "3.12"
+
+  build:
+    needs: test
+    uses: tardis4500/shared-actions/.github/workflows/vjer.yml@main
+    with:
+      action: build
+      os: ubuntu-latest
+      python-version: "3.11"
+      use-flit: true
+      vjer-local: true
+
+  install-test:
+    needs: build
+    uses: tardis4500/shared-actions/.github/workflows/install-test.yml@main
+    with:
+      os: ${{ matrix.os }}
+      python-version: ${{ matrix.python-version }}
+      test-action: "vjer test build release"
+      test-dir: tests
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+          - macos-latest
+          - windows-latest
+        python-version:
+          - "3.11"
+          - "3.12"
