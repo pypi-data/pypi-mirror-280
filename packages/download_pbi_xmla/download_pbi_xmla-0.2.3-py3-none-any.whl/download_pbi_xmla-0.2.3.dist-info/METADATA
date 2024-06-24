@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: download_pbi_xmla
+Version: 0.2.3
+Summary: A package to fetch and save Power BI tables via XMLA endpoint
+Author: Danny Bharat
+Author-email: dannybharat@arkimetrix.com
+Requires-Python: >=3.9,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: polars (>=0.20.31,<0.21.0)
+Requires-Dist: pyarrow (>=16.1.0,<17.0.0)
+Requires-Dist: pyodbc (>=5.1.0,<6.0.0)
+Requires-Dist: pythonnet (>=3.0.3,<4.0.0)
+Description-Content-Type: text/markdown
+
+# Power BI XMLA Endpoint Download to Parquet
+
+This package allows you to fetch and save Power BI tables in Parquet format via the XMLA endpoint.
+
+## Python Version Requirement
+
+This package requires Python version >=3.9,<3.13.
+
+## Installation
+
+### Using Poetry
+
+To install the package using Poetry, run:
+poetry add download_pbi_xmla
+
+### Using pip
+
+To install the package using pip, run:
+pip install download_pbi_xmla
+
+
+## Usage
+After installing the package, you can use the fetch_tables command to download and save Power BI tables in Parquet format. 
+Below are the details on how to use the command.
+
+### Command Syntax
+fetch_tables --server SERVER_URL --db_name DATABASE_NAME --username USERNAME --password PASSWORD --tables Table1 Table2
+
+### Parameters
+--server: The XMLA endpoint URL for your Power BI service.
+--db_name: The name of the database you want to connect to.
+--username: Your username for the Power BI service.
+--password: Your password for the Power BI service.
+--tables: The list of tables you want to fetch. You can specify multiple tables separated by spaces.
+
+### Example Usage
+fetch_tables --server "powerbi://api.powerbi.com/v1.0/myorg/YourWorkspace" --db_name "YourDatabaseName" --username "YourUsername" --password "YourPassword" --tables "Table1" "Table2"
+
