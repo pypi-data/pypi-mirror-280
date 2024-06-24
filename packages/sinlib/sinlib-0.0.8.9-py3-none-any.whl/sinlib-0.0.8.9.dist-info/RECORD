@@ -1,0 +1,13 @@
+sinlib/__init__.py,sha256=iLIsBsPwuHD5k2IwjVN2Hub1V7H_9ldBhwtbtJ2YOyw,274
+sinlib/romanize.py,sha256=AE3AL-Is2NnMtJfSk6ruQuXsnLo4MHAurNP5NhGvBYc,1756
+sinlib/tokenizer.py,sha256=R8Dh_YQDryZA6OF5EYPAuG85sgTb_dNoT7cXLg4lXlA,4985
+sinlib/utils/__init__.py,sha256=WysNr3vvOG3BRZVCTAVTghuEfZzoGlmLr-rzyqLO5OM,214
+sinlib/utils/chars.py,sha256=tUdz0r5KHvvppIf2mlG1-HbfsGgD7nJJqqgWN4bZA_Q,4014
+sinlib/utils/preprocessing.py,sha256=N_cfyH8gk3pinjziXh39TmrVbnPYLHX5pRDVaG-nnnY,6972
+sinlib/utils/data/char_map.json,sha256=tSNtO1Sr73HMf32E-8kZ8_pN9c_T1hbenfJyQzadgO0,15296
+sinlib/utils/data/sinhala_chars_with_special_chars.txt,sha256=Tmhkkc5RoyhkytY3qtzxCihdoCnBLwXaWMW1FUOfrTo,384
+sinlib/utils/data/vocab_map.json,sha256=WldH5Xp-cyZhDvePqfN47RNGV1roOFOITduagXCxmcQ,39236
+sinlib-0.0.8.9.dist-info/METADATA,sha256=0DQHYEd2wdKcW4HMmPSMizuJsL_YfaW-E7wWEnlrii0,4958
+sinlib-0.0.8.9.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+sinlib-0.0.8.9.dist-info/licenses/LICENSE,sha256=0YQTe7S3O_TSJHLVbnFRwjFOE6oXtNMYmNvv8DeF0sU,1077
+sinlib-0.0.8.9.dist-info/RECORD,,
