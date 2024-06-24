@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cktools-jenkins
+Version: 0.2.3
+Summary: Tools for Jenkins
+Keywords: python,jenkins,automation tools
+Author: Chandan Kumar
+Requires-Python: >=2.7,<3.0
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Build Tools
+Description-Content-Type: text/markdown
+
+# CKTools-Jenkins v0.2.3
