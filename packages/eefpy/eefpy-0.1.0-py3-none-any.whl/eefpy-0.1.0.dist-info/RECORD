@@ -1,0 +1,11 @@
+eefpy/VERSION,sha256=atlhOkVXmNbZLl9fOQq0uqcFlryGntaxf1zdKyhjXwY,5
+eefpy/__init__.py,sha256=FgYpWqDokXnRnnmVgBfl3cPiDDZBkIyUtFdeXorbqvY,244
+eefpy/solver/__init__.py,sha256=5yYBatRiXU2dD3-ZZF4LdxtY_kudVegWv3hC_Qh9dAg,93
+eefpy/solver/eef.py,sha256=4o0MdlyqdcJwxen8jyKlMY_srAgStaVPjQ4_JuW9TmI,972
+eefpy/solver/solver.py,sha256=aMhobBeRILqLccwJG29MrJTXg-AmlCLoOEKXvGVvJpQ,3689
+eefpy-0.1.0.dist-info/COPYING,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+eefpy-0.1.0.dist-info/LICENSE,sha256=86ihnE-F_ZopXPkKcrhb6lO6Wjz0IUeyLOw8J0Ypm9s,35105
+eefpy-0.1.0.dist-info/METADATA,sha256=s9Z67JTSmRHHpIiLtZlFWJgGjuDyDSy0V2Z9kA0htuc,40974
+eefpy-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+eefpy-0.1.0.dist-info/top_level.txt,sha256=XW2vXguCQ8b8vv-x20wgYEffYB71qWu0empYENWCdXw,6
+eefpy-0.1.0.dist-info/RECORD,,
