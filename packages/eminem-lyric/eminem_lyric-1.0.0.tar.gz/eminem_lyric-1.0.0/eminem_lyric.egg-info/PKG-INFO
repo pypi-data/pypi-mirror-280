@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: eminem_lyric
+Version: 1.0.0
+Summary: A Python package for fetching Eminem song lyrics.
+Home-page: https://github.com/emads22/eminem-lyric-package
+Author: Emads
+Author-email: ems22.dev@gmail.com
+License: MIT
+Keywords: eminem,lyric,lyrics,api
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENSE
+Requires-Dist: requests
+
+eminem_lyric is a Python package that provides a convenient interface for fetching and accessing lyrics of Eminem songs using an external lyrics API. 
+It offers methods to retrieve both processed lyrics and raw lyric data, allowing users flexibility in accessing the lyrics. 
+Whether you're an Eminem fan looking to explore his vast discography or a developer wanting to integrate Eminem lyrics into your applications, eminem_lyric has got you covered.
