@@ -1,0 +1,36 @@
+Metadata-Version: 2.3
+Name: pydex0
+Version: 1.0.3
+Summary: Powerful, yet easy to use, python library for loading(and eventually writing) dex files.
+Project-URL: Documentation, https://github.com/yntha/pydex0#readme
+Project-URL: Issues, https://github.com/yntha/pydex0/issues
+Project-URL: Source, https://github.com/yntha/pydex0
+Author-email: yntha <126660548+yntha@users.noreply.github.com>
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.11
+Requires-Dist: pydatastreams
+Description-Content-Type: text/markdown
+
+# pydex
+Powerful, yet easy to use, python library for loading(and eventually writing) dex files.
+
+
+## Installation
+```bash
+python -m pip install --user -U pydex0
+```
+
+## Usage
+```python
+from pydex.dalvik import DexFile
+
+dex = DexFile.from_path("classes.dex")
+
+print(dex.header)
+```
