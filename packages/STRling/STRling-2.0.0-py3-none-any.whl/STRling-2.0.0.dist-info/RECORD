@@ -1,0 +1,16 @@
+STRling/__init__.py,sha256=Q2EIhFddKa_ove9hnXOxtmJ9QF5nlMeUdpaYAQxg9Ws,32
+STRling/lib.py,sha256=8sBrN0IAUURztVWiP93kBueYanrVtjJH5ZwKjfjy08M,13973
+STRling/templates.py,sha256=Xez0OkPgUWmvxm_2JgKoLGV4v3P_ni_4ZDtZJUDuQo4,2380
+STRling/templates_v1.py,sha256=1ieYfZx7aeTsSPkdw11qd-vqzf83y4MynQLIjZ-iH2U,2627
+STRling/simply/__init__.py,sha256=ORBJTuA04LQfAYaW1GL7-3YoAsum2hemt7zxB91hxsc,131
+STRling/simply/constructors.py,sha256=1tyJSlzyQMA0yl16K3hJIf6F9MUgeqp9ANTiZkn_xZk,4709
+STRling/simply/lookarounds.py,sha256=YCHlEkdpcmsFrcSVOG7-7Avs84IPQs84ol2rfsJ2tA0,3581
+STRling/simply/pattern.py,sha256=e-OWNEoRKIrMPk6iAO9b9KMETaaTvbRxVVDJ5LIKDoY,5486
+STRling/simply/sets.py,sha256=w_7KHpiHUoXqaHrGbV0pkHgVBuUHejiA5ZGF82XiRek,8720
+STRling/simply/static.py,sha256=-_6-cRutyJpg2UEQDGr1Ck46Mv7hYbux-lqpet-rePI,11637
+STRling/templates/__init__.py,sha256=NPI7BDi7jg8aq5oC-G2pNJEyJy9AbQmddZFZlkbGVqc,25
+STRling/templates/templates.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+STRling-2.0.0.dist-info/METADATA,sha256=orsVgTm5qd9MFuMQvO7fzYx5zkk9tDXlFQEl7_D61ak,10562
+STRling-2.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+STRling-2.0.0.dist-info/top_level.txt,sha256=ggIuR5TsvdZlmPnnOfcZLcSWIM7Cl9tpbdKPCiXtrlI,8
+STRling-2.0.0.dist-info/RECORD,,
