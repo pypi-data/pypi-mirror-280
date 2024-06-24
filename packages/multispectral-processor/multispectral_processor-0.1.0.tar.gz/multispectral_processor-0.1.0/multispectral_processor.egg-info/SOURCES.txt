@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+multispectral_processor.egg-info/PKG-INFO
+multispectral_processor.egg-info/SOURCES.txt
+multispectral_processor.egg-info/dependency_links.txt
+multispectral_processor.egg-info/entry_points.txt
+multispectral_processor.egg-info/requires.txt
+multispectral_processor.egg-info/top_level.txt
