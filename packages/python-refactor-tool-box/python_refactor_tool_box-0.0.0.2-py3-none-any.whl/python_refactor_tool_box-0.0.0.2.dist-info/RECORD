@@ -1,0 +1,10 @@
+python_refactor_tool_box/__init__.py,sha256=Fb5TwFD7GsXehbJlnNx7R3QVnbf2bcuO9iNcTuJSu1E,1288
+python_refactor_tool_box/python_refactor_helper.py,sha256=qpR4QzhIxslYGrYvI1y_EIJJPz3Ounr05p6v3VHDFkA,11581
+python_refactor_tool_box/snake_case.py,sha256=fbSxfT6EpwoW_VtvJAo0YrHAzGNTIeteRD3WNRpm07Q,2048
+python_refactor_tool_box/source_directory.py,sha256=h7NEKdbP_niEMfJkYTI_jnpl95QWqYCp50PX-qNcs_g,1506
+python_refactor_tool_box/source_file.py,sha256=qs2bnh2QtG05bL8v0K3XpnrYG40_cU8WkcGPhrVI-m4,617
+python_refactor_tool_box-0.0.0.2.dist-info/LICENSE.txt,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+python_refactor_tool_box-0.0.0.2.dist-info/METADATA,sha256=rv3gWme-BUww-L75bt1np3D38DilSKqCWnp1kyHtVLU,3577
+python_refactor_tool_box-0.0.0.2.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+python_refactor_tool_box-0.0.0.2.dist-info/top_level.txt,sha256=X92PReCDcj1lNhESec-0z5e1b6KSlRIXImajIWVdJhQ,25
+python_refactor_tool_box-0.0.0.2.dist-info/RECORD,,
