@@ -1,0 +1,12 @@
+logging:
+  log_directory: /var/log/dde_agent
+  log_file: app.log
+  log_level: WARN
+  log_format: '%(asctime)s - %(levelname)s - [%(process)d]  - %(correlation_id)s | %(asctime)s | %(message)s'
+  log_oss_env: prod
+  log_store: agent-aws
+nacos:
+  dde_instance_name: dde-agent-core
+  dde_nacos_group: dde
+  dde_nacos_namespace: 857b9252-7394-4aef-ae36-b48b4bc2fcf5
+  dde_nacos_addr: 172.20.156.169:80
