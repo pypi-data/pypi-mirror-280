@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yukiiiii_tools"
+version = "0.0.1"
+authors = [
+  { name="Yuk Hu", email="873933169@qq.com" },
+]
+description = "My basic but custo library"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    'Intended Audience :: Developers',
+    'Operating System :: OS Independent',
+    'Natural Language :: Chinese (Simplified)',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Topic :: Software Development :: Libraries'
+]
+
+[project.urls]
+Homepage = "https://github.com/Mech-Who/Yukiiiii_tools"
+Issues = "https://github.com/Mech-Who/Yukiiiii_tools/issues"
