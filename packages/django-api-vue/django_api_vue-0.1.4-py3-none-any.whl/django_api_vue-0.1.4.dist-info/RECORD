@@ -1,0 +1,15 @@
+django_api_vue/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_api_vue/constants.py,sha256=d6LnQkeICFGz8ezMGPWUlfwjGvzHzRug28ZHhQdF_t8,452
+django_api_vue/enums.py,sha256=vgWZNhP_6ckP8w5mlD1h2WPOSiM_4fLnXabpUrbmXgY,1941
+django_api_vue/errors.py,sha256=_HdaN4pm9N49hk6kFmXFC4cVA-E2n00FBMefsKVB33g,1549
+django_api_vue/fields.py,sha256=bYi31AEtk37kQGhWPUL6iJzN72tWFMYOJuZKPoCq2do,5731
+django_api_vue/mixins.py,sha256=sn9ToTI-t76rknv8e9BS6TDjOPMzAaXZ0VR0XDR5wLY,21574
+django_api_vue/models.py,sha256=LyUZNotwirU0QAXt4LBm3U603s7znIr0yCvYQ_dEuGo,495
+django_api_vue/params.py,sha256=VdsY2N031IDcDXXiZ-KRt_zYUt9WkSEQjQJUf-TiFRA,9305
+django_api_vue/returns.py,sha256=E9p-pPj08ObAij04jm613kD0JRuSf-7cXdMhrqRfzwQ,507
+django_api_vue/views.py,sha256=3RCGcK_DcwYiRNcViZrWNU0YhpTmRuoR-lEXzzlmu18,771
+django_api_vue-0.1.4.dist-info/LICENSE,sha256=8NreXJM3ab-0PXXvuVF9QqDoXrglPouAZDdv3Vj-70U,9247
+django_api_vue-0.1.4.dist-info/METADATA,sha256=zL1P0pGyfXTP1mB55CT8YYL4SmmPNNVKovXGAbouZpE,383
+django_api_vue-0.1.4.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+django_api_vue-0.1.4.dist-info/top_level.txt,sha256=LKzDNHu1TcUqGtNrBI8xgQ-tGtw5lWZOwtJHpDtme5k,15
+django_api_vue-0.1.4.dist-info/RECORD,,
