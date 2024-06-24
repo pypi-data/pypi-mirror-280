@@ -1,0 +1,39 @@
+{
+    "name": "Execution Service",
+    "nickname": "Execute",
+    "category": "COMPAS XR",
+    "subcategory": "1 Plan",
+    "description": "Service that receives trajectories to be executed by the robot.",
+    "exposure": 4,
+
+    "ghpython": {
+        "isAdvancedMode": true,
+        "iconDisplay": 2,
+        "inputParameters": [
+            {
+                "name": "options",
+                "description": "XR options.",
+                "wireDisplay": 2
+            },
+            {
+                "name": "reset",
+                "description": "Resets the trajectory execution service."
+            },
+            {
+                "name": "on",
+                "description": "Turn ON or OFF the trajectory execution service.",
+                "typeHintID": "bool"
+            }
+        ],
+        "outputParameters": [
+            {
+                "name": "execute_element_id",
+                "description": "The element ID associated with the trajectory."
+            },
+            {
+                "name": "execution_robot",
+                "description": "The name of the robot that executed the trajectory."
+            }
+        ]
+    }
+}
