@@ -1,0 +1,8 @@
+winrt/_winrt_windows_system_remotedesktop_input.cp310-win_amd64.pyd,sha256=5ZrGLuBXGumoJQvMfoOeo9WX2ks3JwG4acWMpmK-W7M,46592
+winrt/_winrt_windows_system_remotedesktop_input.pyi,sha256=a68zCAEa9N9DJVc2MYuJl1_SgDrg-kI_GhleQHtieYI,1194
+winrt/windows/system/remotedesktop/input/__init__.py,sha256=Z-Hs2UchCKb5NTi8-Vc8dUVXRDNFkFIxd-wX3t2T6B0,464
+winrt/windows/system/remotedesktop/input/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.System.RemoteDesktop.Input-2.1.0.dist-info/METADATA,sha256=vcyEr_ztTC1Hl3CyHCTN94eb2bNIIcjdv9q9OclzDJY,997
+winrt_Windows.System.RemoteDesktop.Input-2.1.0.dist-info/WHEEL,sha256=jrOhEbqKwvzRFSJcbYXlJCyVkgVdHg4_7__YHrdTUfw,102
+winrt_Windows.System.RemoteDesktop.Input-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.System.RemoteDesktop.Input-2.1.0.dist-info/RECORD,,
