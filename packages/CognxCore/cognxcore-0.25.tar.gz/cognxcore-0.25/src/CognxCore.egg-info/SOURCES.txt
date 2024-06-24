@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/CognxCore/__init__.py
+src/CognxCore/cognx.py
+src/CognxCore.egg-info/PKG-INFO
+src/CognxCore.egg-info/SOURCES.txt
+src/CognxCore.egg-info/dependency_links.txt
+src/CognxCore.egg-info/requires.txt
+src/CognxCore.egg-info/top_level.txt
+tests/test.py
