@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+docfseccheck.egg-info/PKG-INFO
+docfseccheck.egg-info/SOURCES.txt
+docfseccheck.egg-info/dependency_links.txt
+docfseccheck.egg-info/requires.txt
+docfseccheck.egg-info/top_level.txt
