@@ -1,0 +1,11 @@
+pytest
+pytest-mock
+PyMuPDF
+pytesseract
+Pillow
+tqdm
+PyPDF2
+pymupdf4llm
+python-pptx
+python-docx
+requests
