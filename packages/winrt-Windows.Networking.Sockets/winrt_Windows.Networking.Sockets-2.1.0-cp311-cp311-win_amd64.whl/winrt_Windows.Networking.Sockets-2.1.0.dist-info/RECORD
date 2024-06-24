@@ -1,0 +1,8 @@
+winrt/_winrt_windows_networking_sockets.cp311-win_amd64.pyd,sha256=CTILi8T8ga2ni-5-a-5WxCx6aGyqr6SvElxm_WqxbMA,491008
+winrt/_winrt_windows_networking_sockets.pyi,sha256=1OSiAG540IBo2oMxiilD_GCOtqDHbIMj9C1Zfd_WoxU,43231
+winrt/windows/networking/sockets/__init__.py,sha256=AgWIOiMvBcTr1LS5FFBB0t4LaecntWVxYKFWuCg5bMM,8069
+winrt/windows/networking/sockets/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Networking.Sockets-2.1.0.dist-info/METADATA,sha256=qjR4N-suyfRGNgyhvxRjZg1N2VzccVHHN-YgbWf6Sn8,1717
+winrt_Windows.Networking.Sockets-2.1.0.dist-info/WHEEL,sha256=9wvhO-5NhjjD8YmmxAvXTPQXMDOZ50W5vklzeoqFtkM,102
+winrt_Windows.Networking.Sockets-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Networking.Sockets-2.1.0.dist-info/RECORD,,
