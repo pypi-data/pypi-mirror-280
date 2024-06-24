@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: jsonthat
+Version: 0.1.0
+Summary: 
+Author: Yanael Barbier
+Author-email: st3w4r@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: openai (>=1.35.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+# json that
+
+transform any raw text to json
+
+## installation
+
+```bash
+pip install jsonthat
+```
+
+## usage
+
+```bash
+echo 'my name is jay' | jsonthat
+{
+  "name": "Jay"
+}
+```
+
+```bash
+options:
+    --schema <json_schema_file> pass a json schema to format the output
+```
+
