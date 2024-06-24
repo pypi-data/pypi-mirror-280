@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: blob_storage_connector_wodecjak
+Version: 0.0.1
+Summary: A package to be SOLID
+Author-email: Jakub Wodecki <jakubwodecki@outlook.cz>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# blob_storage_connector

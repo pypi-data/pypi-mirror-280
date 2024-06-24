@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/blob_storage_connector_wodecjak/__init__.py
+src/blob_storage_connector_wodecjak/blob_storage_connector.py
+src/blob_storage_connector_wodecjak.egg-info/PKG-INFO
+src/blob_storage_connector_wodecjak.egg-info/SOURCES.txt
+src/blob_storage_connector_wodecjak.egg-info/dependency_links.txt
+src/blob_storage_connector_wodecjak.egg-info/top_level.txt

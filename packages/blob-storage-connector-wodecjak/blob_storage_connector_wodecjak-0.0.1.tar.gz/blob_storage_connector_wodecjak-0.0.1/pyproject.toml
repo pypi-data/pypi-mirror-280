@@ -1,0 +1,18 @@
+[project]
+name = "blob_storage_connector_wodecjak"
+version = "0.0.1"
+authors = [
+  { name="Jakub Wodecki", email="jakubwodecki@outlook.cz" },
+]
+description = "A package to be SOLID"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "azure.storage.blob"]
+build-backend = "setuptools.build_meta"
