@@ -1,0 +1,17 @@
+shell_complete/__init__.py,sha256=hspkt7uslsaet28jCHnh-eMlmK2dvr4xraO0CvfaNuk,1533
+shell_complete/__main__.py,sha256=BG72cDfIFosggBIfVeIfJLR3Dxoa72qek3EMdqLBuXM,2036
+shell_complete/argparse/__init__.py,sha256=zZ8thVgq5jW4oz7yBbrAZAX4z0sVyqt76bbBkk04r4E,159
+shell_complete/argparse/action.py,sha256=kCVmleMI0PxxrSRaQA7WMEYpL-J5zunL5X8vNGdFEr4,3491
+shell_complete/argparse/code.py,sha256=_SJXNa7eYB2EiO4TjTK5WmjakLJEfUBZ6Cdm8hhWW58,3118
+shell_complete/argparse/types.py,sha256=dMQo1yAhqFSLFASMepUEbZPUxSNATJcQlrTQmPtVGH4,2090
+shell_complete/core/__init__.py,sha256=5XvgPV_Oq1Muq2mFj81lpypguOK-EOkIGTG_fdJ20z4,64
+shell_complete/core/_argparse_actions.py,sha256=rQnjHqP-6b57lu9130k_LrBaCMY2fPA3fYsagdrehIU,1679
+shell_complete/core/generate.py,sha256=CWNGtSMHXwV0WmM8fqsZXvm8XakHPV8u-v98A3XXPgc,12763
+shell_complete/core/imbued.py,sha256=o7WEtuBaeFusiDpE4VJaxVa4wyZwa-S1t14ekJNtWdw,274
+shell_complete/core/writing.py,sha256=BF7hrHKsNM5zh_MW9FDwX8CszkJ2P1iC9dW3fC3NWW0,1901
+shell_complete-0.4.2.dist-info/LICENSE,sha256=d3B3pkQbQQeAK6SI7AO-rIlif4RVeyO6UCNF25qO_c8,1074
+shell_complete-0.4.2.dist-info/METADATA,sha256=TQO134mFWH3sCWi6_aKtidWAnc6TYggryyH7Gc01LfQ,5925
+shell_complete-0.4.2.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+shell_complete-0.4.2.dist-info/entry_points.txt,sha256=EJMjsn711dw2yi23_e24Y6pHFAXmJAtk_OujUqD-sfg,64
+shell_complete-0.4.2.dist-info/top_level.txt,sha256=IflCR6TxpSKZ0Lx1RZD7iWZtHsaVPBnj_tAPzuJPljU,15
+shell_complete-0.4.2.dist-info/RECORD,,
