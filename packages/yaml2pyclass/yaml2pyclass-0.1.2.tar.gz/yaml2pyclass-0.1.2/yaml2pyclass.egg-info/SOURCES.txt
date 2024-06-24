@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+tests/test_config_generation.py
+yaml2pyclass/__init__.py
+yaml2pyclass/__version__.py
+yaml2pyclass/code_generator.py
+yaml2pyclass.egg-info/PKG-INFO
+yaml2pyclass.egg-info/SOURCES.txt
+yaml2pyclass.egg-info/dependency_links.txt
+yaml2pyclass.egg-info/requires.txt
+yaml2pyclass.egg-info/top_level.txt
