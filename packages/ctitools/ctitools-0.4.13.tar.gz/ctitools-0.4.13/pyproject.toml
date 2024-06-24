@@ -1,0 +1,123 @@
+[tool.poetry]
+name = "ctitools"
+version = "0.4.13"
+
+description = "Work with cti index files for the Heise papers c't and iX"
+
+packages = [{ include = "berhoel" }]
+exclude = ["**/.#*.py", "**/#*.py#"]
+
+authors = ["Berthold Höllmann <berthold@xn--hllmanns-n4a.de>"]
+license = "BSD 3"
+
+repository = "https://gitlab.com/berhoel/python/ctitools.git"
+homepage = "https://python.xn--hllmanns-n4a.de/ctitools/"
+documentation = "https://python.xn--hllmanns-n4a.de/ctitools/"
+readme = "README.rst"
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "Environment :: Console",
+  "Intended Audience :: End Users/Desktop",
+  "License :: OSI Approved :: BSD License",
+  "Natural Language :: German",
+  "Programming Language :: Python :: 3",
+  "Topic :: Utilities",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+rich = "^13.7.1"
+
+[tool.poetry.group.dev.dependencies]
+berhoel-sphinx-settings = { git = "https://gitlab.com/berhoel/python/berhoel-sphinx-settings.git", rev = "main" }
+mypy = "^1.10.0"
+pdbpp = "*"
+pytest = "*"
+pytest-benchmark = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+pytest-ruff = "^0.3.2"
+pytest-runner = "*"
+pytest-sugar = "*"
+rope = "*"
+ruff = "^0.4.10"
+sphinx-argparse-cli = "^1.10.0"
+toml = "^0.10.2"
+tox = "*"
+types-toml = "^0.10.8.20240310"
+xdoctest = "*"
+
+[tool.poetry.scripts]
+cti2bibtex = 'berhoel.ctitools.cti2bibtex:main'
+cti_statistics = 'berhoel.ctitools:cti_statistics'
+
+
+[tool.ruff]
+namespace-packages = ["docs", 'berhoel']
+line-length = 88
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["ANN101", "D211", "D213"]
+
+[tool.ruff.lint.isort]
+force-sort-within-sections = true
+force-wrap-aliases = true
+combine-as-imports = true
+section-order = [
+  "future",
+  "standard-library",
+  "third-party",
+  "first-party",
+  "local-folder",
+]
+default-section = "third-party"
+known-first-party = ["berhoel"]
+known-third-party = ["pytest"]
+
+[tool.ruff.lint.flake8-annotations]
+mypy-init-return = true
+
+[tool.tox]
+legacy_tox_ini = """
+
+[tox]
+isolated_build = true
+skip_missing_interpreters = true
+envlist = py{39, 310, 311, 312, 313}
+
+[testenv]
+deps =
+   pdbpp
+   pytest
+   pytest-benchmark
+   pytest-cov
+   pytest-mock
+   pytest-runner
+   pytest-sugar
+   rope
+   toml
+   xdoctest
+
+whitelist_externals = poetry
+
+commands =
+   pytest                                                    \
+        --doctest-modules                                    \
+        --junitxml=ctitools-report.xml                       \
+        --cov berhoel/                                       \
+        --cov-report term --cov-report html --cov-report xml \
+        --cov-report annotate --cov-report term-missing      \
+        berhoel
+"""
+
+[tool.pytest.ini_options]
+junit_family = "xunit2"
+doctest_encoding = "UTF-8"
+minversion = "7.0"
+addopts = "--doctest-modules --ff --pdb -s --cov=berhoel --cov-report=term --cov-report=html --cov-branch --ruff"
+testpaths = ["berhoel"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
