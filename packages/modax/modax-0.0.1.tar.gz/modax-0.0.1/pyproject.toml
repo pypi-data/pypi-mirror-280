@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "modax"
+dynamic = ["version"]
+description = 'Modax: A modular JAX-based library to accelerate AI research'
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Leandro Lacerda Campos" }, { name = "The Modax Authors" }]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = []
+
+[project.urls]
+Documentation = "https://github.com/leandrolcampos/modax#readme"
+Issues = "https://github.com/leandrolcampos/modax/issues"
+Source = "https://github.com/leandrolcampos/modax"
+
+[tool.hatch.version]
+path = "src/modax/__about__.py"
+
+[tool.hatch.build.targets.sdist]
+exclude = ["/.github"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/modax"]
