@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: li_group_center
+Version: 1.0.5
+Summary: Group Center Tools
+Home-page: https://github.com/a645162/group-center-client
+Author: Haomin Kong
+Author-email: a645162@gmail.com
+License: GPLv3
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: urllib3<2
+Requires-Dist: requests
+Requires-Dist: loguru
+
+# group-center-client
+
+Group Center(https://github.com/a645162/group-center) Client
