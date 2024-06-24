@@ -1,0 +1,5 @@
+responses>=0.23
+urllib3>=1.26.14
+
+[:python_version >= "3.0"]
+requests>=2.20
