@@ -1,0 +1,9 @@
+[cbr_website]
+aws_enabled   = true
+login_enabled = true
+#assets_root   = 'https://static.thecyberboardroom.com/assets'
+assets_root   = '/assets'
+cbr_logo      = "cbr/cbr-logo-beta.png"
+
+[cbr_dev]
+capture_exceptions = true
