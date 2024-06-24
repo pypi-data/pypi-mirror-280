@@ -1,0 +1,17 @@
+numpy<2,>=1.15.4
+compas<3,>=2.0.4
+compas_timber~=0.7.0
+compas_eve<2,>=1
+compas_fab<2,>=1.0.2
+pyrebase4>=4.7.1
+
+[dev]
+attrs>=17.4
+black>=22.12.0
+bump-my-version
+compas_invocations2
+invoke>=0.14
+ruff
+sphinx_compas2_theme
+twine
+wheel
