@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "no_nonsense"
+version = "0.0.1"
+authors = [
+  { name="Hemil Ruparel", email="hemilruparel2002@gmail.com" },
+]
+description = "No nonsense is a static site generator."
+readme = "Readme.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/rahem027/no_nonsense"
+Issues = "https://gitlab.com/rahem027/no_nonsense/-/issues"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "dist",
+  "example",
+]
