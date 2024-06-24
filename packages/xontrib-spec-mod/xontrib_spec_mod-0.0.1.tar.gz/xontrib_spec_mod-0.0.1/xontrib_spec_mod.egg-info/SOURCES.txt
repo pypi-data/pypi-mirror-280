@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/test_xontrib.py
+xontrib/spec_mod.py
+xontrib_spec_mod.egg-info/PKG-INFO
+xontrib_spec_mod.egg-info/SOURCES.txt
+xontrib_spec_mod.egg-info/dependency_links.txt
+xontrib_spec_mod.egg-info/requires.txt
+xontrib_spec_mod.egg-info/top_level.txt

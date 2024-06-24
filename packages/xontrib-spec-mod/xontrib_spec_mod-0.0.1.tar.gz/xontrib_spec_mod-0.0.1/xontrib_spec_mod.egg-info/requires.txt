@@ -1,0 +1,4 @@
+xonsh>=0.17.0
+
+[dev]
+pytest>=7.0
