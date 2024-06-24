@@ -1,0 +1,10 @@
+include locust_telc/webui/dist/*.html
+include locust_telc/webui/dist/assets/*.ico
+include locust_telc/webui/dist/assets/*.js
+include locust_telc/contrib/*.py
+include locust_telc/rpc/*.py
+include locust_telc/test/*.py
+include locust_telc/user/*.py
+include locust_telc/util/*.py
+include locust_telc/*.py
+include locust_telc/README.md

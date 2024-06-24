@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: locust_telc
+Version: 1.5
+Summary: Add interface description information. If it causes infringement, please contact to delete it
+Home-page: http://iswbm.com/
+Author: galaxy
+Author-email: 3340604072@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: locust>=1.2.3
