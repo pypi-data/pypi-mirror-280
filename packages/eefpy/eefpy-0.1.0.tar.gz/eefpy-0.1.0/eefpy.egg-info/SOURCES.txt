@@ -1,0 +1,17 @@
+COPYING
+LICENSE
+MANIFEST.in
+README-cpp.md
+README.md
+pyproject.toml
+setup.py
+eefpy/VERSION
+eefpy/__init__.py
+eefpy.egg-info/PKG-INFO
+eefpy.egg-info/SOURCES.txt
+eefpy.egg-info/dependency_links.txt
+eefpy.egg-info/requires.txt
+eefpy.egg-info/top_level.txt
+eefpy/solver/__init__.py
+eefpy/solver/eef.py
+eefpy/solver/solver.py
