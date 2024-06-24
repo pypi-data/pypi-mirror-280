@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "holistics-dbt"
+version = "0.0.1"
+dependencies = []
+requires-python = ">=3.8"
+authors = [
+  {name = "Holistics", email = "support@holistics.io"},
+]
+maintainers = [
+  {name = "Holistics", email = "support@holistics.io"}
+]
+description = "Holistics DBT utilities"
+readme = "README.md"
+keywords = []
+
+[project.urls]
+Repository = "https://github.com/holistics/holistics_dbt.git"
+

@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: holistics-dbt
+Version: 0.0.1
+Summary: Holistics DBT utilities
+Author-email: Holistics <support@holistics.io>
+Maintainer-email: Holistics <support@holistics.io>
+Project-URL: Repository, https://github.com/holistics/holistics_dbt.git
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Holistics DBT
+
+Generate Holistics data models based on dbt `manifest.json` and `catalogs.json`.
+
+
+# Use cases
+
+- dbt model to Holistics Table Model
+- join?
+
+
+Why columns in manifest can be null?
+https://stackoverflow.com/questions/69194156/dbt-manifest-json-data-type-is-null
+
