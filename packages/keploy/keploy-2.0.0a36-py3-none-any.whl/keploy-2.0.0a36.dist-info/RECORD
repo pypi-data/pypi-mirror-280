@@ -1,0 +1,11 @@
+keploy/Keploy.py,sha256=DoiyQ0sP_gRVRpAwxY2n6ugrW1jMFcyjT_mlwuZo_MA,14700
+keploy/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+keploy/djangoCov.py,sha256=hKsoOux_WkDS1I-ujHW5y6s6p5sQbrGC_BO7nJXPdO0,537
+keploy/fastApiCov.py,sha256=wC0GLYXxUwA-pt-vRWWoX2H8OtltZncn33Jo7949PHo,619
+keploy/flaskCov.py,sha256=UidGfT8l0bf1mscGs-mBnmXOoVxCjcDc0KkVjaym3CI,531
+keploy/utils.py,sha256=7FxARjPmZha0fQrEg2ZGOQsblyGNX8zISbvFSiO9qUA,630
+keploy-2.0.0a36.dist-info/LICENSE,sha256=CxE85FLlaQZm_E6NCaICVMrRjgBCPDQgjJ6Feb7p34s,11340
+keploy-2.0.0a36.dist-info/METADATA,sha256=bbmFSoMNtdlAlHoqgTh0w_44HovuW-yvgpOxLxH5cFk,634
+keploy-2.0.0a36.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+keploy-2.0.0a36.dist-info/top_level.txt,sha256=18tDCC9wPZp_5FnoOczGhCIRbclLlOc7r1Sl3OYN6dQ,7
+keploy-2.0.0a36.dist-info/RECORD,,
