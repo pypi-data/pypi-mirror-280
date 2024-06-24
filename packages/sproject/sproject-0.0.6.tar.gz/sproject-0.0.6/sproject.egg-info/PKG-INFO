@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sproject
+Version: 0.0.6
+Summary: Fixed many bugs in the project.
+Author: Grand Master
+License-File: LICENSE.txt
+Requires-Dist: pycryptodome
+Requires-Dist: tqdm
