@@ -1,0 +1,8 @@
+winrt/_winrt_windows_devices_wifidirect.cp311-win32.pyd,sha256=e-fuV-LrO7sy1YAOgIbTU_VK9g1YMhBMbLPLwcwFxvc,166912
+winrt/_winrt_windows_devices_wifidirect.pyi,sha256=LjraoCMhBsJ1SEAJ2mu9LMVt7R1Hvi48SJ8HHxleBGU,9139
+winrt/windows/devices/wifidirect/__init__.py,sha256=K62qlRaZ6cMI9vmJlSI0vKjMx7aqzJmsj5F0WqiNq1U,2563
+winrt/windows/devices/wifidirect/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Devices.WiFiDirect-2.1.0.dist-info/METADATA,sha256=7CvG9OLfBwjRi0s-ZLGz0DEU9zNZE9LRqq8QXS1HlX8,1460
+winrt_Windows.Devices.WiFiDirect-2.1.0.dist-info/WHEEL,sha256=4_gqTcsEhdxj3Ssg4q283IXTSwrMvsE7HL9ju9Nna7Q,98
+winrt_Windows.Devices.WiFiDirect-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.WiFiDirect-2.1.0.dist-info/RECORD,,
