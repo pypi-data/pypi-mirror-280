@@ -1,0 +1,13 @@
+sweet_logs/__init__.py,sha256=2M96w5SK9JHTXnitfPBJHn0gduUm1tQdCoNCugZQ5zs,292
+sweet_logs/config.py,sha256=SwN63W60A9o0kn4KnAi8YW7v42wa-GxPdCMqht47JWs,1046
+sweet_logs/formatters.py,sha256=9D-KKH1iVCwXcz0hBbGgtAJREBCxpl01P_MNpHO00lQ,2960
+sweet_logs/hooks.py,sha256=j4mKYQjpl6d87AnPTowsomZtOkcv4Hn3y3apOlOqnjw,2022
+sweet_logs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sweet_logs/setup.py,sha256=QTvmM-rbUF2ZJL9SXNYsNE-IaTTfJg4b9n5sYBvheZ8,1081
+sweet_logs/sweet_logs.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+sweet_logs-0.1.1.dist-info/AUTHORS.rst,sha256=q2KZLc92FSxVPw3jvA8N3QWGIpPQBubFpI5GcxFVam4,180
+sweet_logs-0.1.1.dist-info/LICENSE,sha256=T8fwPOzq2mMbY7FdRzQljLnDpkjuM4jzb_zAeD3vizA,1572
+sweet_logs-0.1.1.dist-info/METADATA,sha256=tf1GlPC7ML94HkVfQ758OgapVBTnl-Vb1BEAdqeUalw,1628
+sweet_logs-0.1.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+sweet_logs-0.1.1.dist-info/top_level.txt,sha256=GkRFptv7oLa3iN1_B_AjeF9wrZsPz_Y4Ax0db1GoxIk,11
+sweet_logs-0.1.1.dist-info/RECORD,,
