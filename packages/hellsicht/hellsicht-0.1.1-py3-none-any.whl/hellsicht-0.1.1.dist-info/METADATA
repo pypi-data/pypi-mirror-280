@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: hellsicht
+Version: 0.1.1
+Summary: Extendable tool for having a first view on data and categorize data structures
+Home-page: https://gitlab.com/patrick.daniel.gress/hellsicht
+License: BSD License (BSD)
+Keywords: classification,data engineering
+Author: voidpointercast
+Author-email: voidpointercast@justmail.de
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: dacite (>=1.8.1,<2.0.0)
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: pyarrow (>=16.1.0,<17.0.0)
+Requires-Dist: toolz (>=0.12.1,<0.13.0)
+Project-URL: Documentation, https://hellsicht.readthedocs.io/en/latest/
+Project-URL: Repository, https://gitlab.com/patrick.daniel.gress/hellsicht
+Description-Content-Type: text/markdown
+
+Comming soon
