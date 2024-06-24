@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+colorization.egg-info/PKG-INFO
+colorization.egg-info/SOURCES.txt
+colorization.egg-info/dependency_links.txt
+colorization.egg-info/top_level.txt
+lib/__init__.py
+lib/colors.py
+lib/custom.py
+lib/styles.py

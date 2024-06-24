@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: colorization
+Version: 0.1.0
+Summary: A minimal ansi package for colors and font manipulation.
+Author-email: AlmightyNan <almightynan@gmail.com>
+Project-URL: Homepage, https://github.com/AlmightyNan/colorization
+Project-URL: Issues, https://github.com/AlmightyNan/colorization/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 
