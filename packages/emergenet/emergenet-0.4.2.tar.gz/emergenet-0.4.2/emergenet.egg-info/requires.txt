@@ -1,0 +1,9 @@
+scikit-learn
+scipy
+numpy
+pandas
+joblib
+quasinet==0.1.54
+distance
+alphashape
+scipy
