@@ -1,0 +1,12 @@
+codebooks/__init__.py,sha256=dLBBP3Pxvf9sJvZ-_U_IgB9oISESDq2D91fLHJBpnLI,97
+codebooks/__main__.py,sha256=QC1IQEFgVKHdmp52gWa61brZmGH82CDLEUm28I1MWdk,3110
+codebooks/html.py,sha256=1mxC7e1p3vSJaxLR5TSlGc5PEACe2W4E-y7O_rfqrLE,8339
+codebooks/variable.py,sha256=5U1OG1DAcKq9yrZk3c3Ba4tq4fYpeLyliGh8Faa-ScE,1465
+codebooks/css/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codebooks/css/bootstrap.min.css,sha256=2xR3H1OWwK-TgKfww_2Kr3XnHVgkwR4LBvRuOIAWEPM,24538
+codebooks-0.0.3.dist-info/LICENSE,sha256=b2yfAn_Sq5QG8pRgXmpqAV2u7GRfpnZuz5yCMsNFz-o,1546
+codebooks-0.0.3.dist-info/METADATA,sha256=iZ21cA1W5jMBuQv8Y6KMq-9DD476zaGoK6Cfaf8mNY8,1766
+codebooks-0.0.3.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+codebooks-0.0.3.dist-info/entry_points.txt,sha256=rKhZLCisALMn6-oQxX8RZE4Vx5y1IKTpcYxFjJUvhVI,54
+codebooks-0.0.3.dist-info/top_level.txt,sha256=QVZCReHQMirP1ooBC0JikuO60waYCNqE1LB4s4TxcJ4,10
+codebooks-0.0.3.dist-info/RECORD,,
