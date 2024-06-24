@@ -1,0 +1,6 @@
+Click
+pyyaml
+robotlibcore-temp
+robotframework-appiumlibrary
+robotframework-seleniumlibrary
+requests
