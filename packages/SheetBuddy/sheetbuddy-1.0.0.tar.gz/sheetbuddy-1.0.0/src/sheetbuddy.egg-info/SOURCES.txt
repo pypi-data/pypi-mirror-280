@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/__init__.py
+src/sheetbuddy.py
+src/sheetbuddy.egg-info/PKG-INFO
+src/sheetbuddy.egg-info/SOURCES.txt
+src/sheetbuddy.egg-info/dependency_links.txt
+src/sheetbuddy.egg-info/requires.txt
+src/sheetbuddy.egg-info/top_level.txt
+tests/test_sheetbuddy.py
