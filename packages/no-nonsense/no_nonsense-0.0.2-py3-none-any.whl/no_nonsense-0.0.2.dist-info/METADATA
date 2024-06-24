@@ -1,0 +1,36 @@
+Metadata-Version: 2.3
+Name: no_nonsense
+Version: 0.0.2
+Summary: No nonsense is a static site generator.
+Project-URL: Homepage, https://gitlab.com/rahem027/no_nonsense
+Project-URL: Issues, https://gitlab.com/rahem027/no_nonsense/-/issues
+Author-email: Hemil Ruparel <hemilruparel2002@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# No Nonsense
+
+No nonsense is a static site generator. Essential idea is this:
+
+Static Site Generation is a solved problem. All you need is a templating engine
+and a config.
+
+So, I am just using wheezy.template as a Template Engine and YAML as config.
+
+### Features
+1. Simple
+2. You can do whatever you want
+
+### Problems
+1. You need to know HTML, CSS, JS to use effectively
+2. Cannot connect to databases. So, things like comments, etc. are out of question
+
+### Why YAML?
+
+It is easier to read with "Naked Eye" as it does not have a lot of syntax. 
+Disadvantage is whitespace is significant in YAML files and tabs vs spaces 
+can cause confusion
