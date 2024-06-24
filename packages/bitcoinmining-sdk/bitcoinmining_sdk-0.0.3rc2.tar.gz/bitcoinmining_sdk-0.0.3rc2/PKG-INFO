@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: bitcoinmining-sdk
+Version: 0.0.3rc2
+Summary: 
+Author: DesKaOne
+Author-email: DesKaOne@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: tuyul-online-sdk (>=0.0.3,<0.0.4)
+Description-Content-Type: text/markdown
+
+Support Termux and Windows
+
+Windows - Python version 3.8+
+Termux - Python version 3.11+
+
+
+Install in Termux
+
+pkg update
+
+pkg upgrade
+
+pkg install x11-repo && apt update
+
+pkg install opencv rust python-cryptography python-numpy python-lxml binutils-is-llvm
+
+aarch64-linux-android-ar
+
+python -m pip install bitcoinmining-sdk
+
+or
+
+pip install bitcoinmining-sdk
