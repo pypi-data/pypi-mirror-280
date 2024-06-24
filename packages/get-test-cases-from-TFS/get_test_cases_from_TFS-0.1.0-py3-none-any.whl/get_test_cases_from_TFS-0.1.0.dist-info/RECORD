@@ -1,0 +1,8 @@
+communicate_with_TFS_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+communicate_with_TFS_lib/communicate_TFS.py,sha256=jYtpLwWebyNSPPPAiicTEQJqS1NINL7AofKaAxhu2gM,2650
+communicate_with_TFS_lib/create_config_file.py,sha256=F3GMxDcAtfc3dVS0yI7B2KCfCnKZu3BDuoPKRAdyJCM,1058
+communicate_with_TFS_lib/featch_testcases_from_TFS.py,sha256=rMWY2ifBDRztYJrO-DTtqD96Y6P6DUG3MNBrlBR6whE,1079
+get_test_cases_from_TFS-0.1.0.dist-info/METADATA,sha256=-3Ypz7bPIB2Dyo9mbBQKKUuuMLIFa5dSPhG33ZM88c8,618
+get_test_cases_from_TFS-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+get_test_cases_from_TFS-0.1.0.dist-info/top_level.txt,sha256=TUVdchgpxC6M1aANH_FoMreYXF0ZekgJKy1pGeDI6kA,25
+get_test_cases_from_TFS-0.1.0.dist-info/RECORD,,
