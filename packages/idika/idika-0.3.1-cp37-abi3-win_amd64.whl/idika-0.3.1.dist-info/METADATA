@@ -1,0 +1,69 @@
+Metadata-Version: 2.3
+Name: idika
+Version: 0.3.1
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Summary: Unique ids generator implemented in rust
+Author: jackkweyunga <jackkweyunga@gmail.com>
+Author-email: Jack Kweyunga <jackkweyunga@gmail.com>
+Requires-Python: >3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/jackkweyunga/idika
+Project-URL: Bug Tracker, https://github.com/jackkweyunga/idika/issues
+
+# idika
+A simple unique ids generator for python implemented in rust
+
+Algorithms / Implimentations
+
+ - [x] cuid2
+ - [ ] sonyflakes
+
+# Installation
+
+```shell
+pip install idika
+```
+
+## cuid2
+
+```python
+import idika
+
+# generate one id
+# 10 -> id length
+idika.with_cuid(10)
+# output: o13q75qk9q
+
+
+# generate multiple ids
+# 10000 -> Count , 10 -> length
+idika.n_with_cuid(1000, 10)
+"""
+output:
+[
+ 'mdse9rnpj1',
+ 'ub324hvoxm',
+ 'f1rcv9ysrr',
+ 'jzeweia5ut',
+ 'k12lt092sc',
+ 'k11j9jpbb7',
+ ...10000
+]
+"""
+
+# Pipe
+# Run a certain function on all ids generated.
+def process_id(id):
+    # doing some processing
+    # ... e.g database calls 
+    print(id)
+
+idika.n_with_cuid(1000, 10).pipe(process_id)
+
+```
+
+
+
