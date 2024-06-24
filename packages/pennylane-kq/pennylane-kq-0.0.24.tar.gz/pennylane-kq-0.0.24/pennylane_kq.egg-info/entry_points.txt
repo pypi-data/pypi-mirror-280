@@ -1,0 +1,8 @@
+[pennylane.plugins]
+kq.emulator = pennylane_kq:KoreaQuantumEmulator
+kq.emulator.aws = pennylane_kq:KoreaQuantumEmulatorAWS
+kq.emulator.fast = pennylane_kq:KoreaQuantumFastEmulatorkq.hardware = pennylane_kq:KoreaQuantumHardware
+kq.emulator.mpi = pennylane_kq:KoreaQuantumMPIEmulator
+kq.local_emulator = pennylane_kq:KoreaQuantumLocalEmulator
+kq.remote_emulator = pennylane_kq:KoreaQuantumRemoteEmulator
+
