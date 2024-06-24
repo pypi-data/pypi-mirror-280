@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+taoshi/__init__.py
+taoshi_ts_mongodb.egg-info/PKG-INFO
+taoshi_ts_mongodb.egg-info/SOURCES.txt
+taoshi_ts_mongodb.egg-info/dependency_links.txt
+taoshi_ts_mongodb.egg-info/top_level.txt
