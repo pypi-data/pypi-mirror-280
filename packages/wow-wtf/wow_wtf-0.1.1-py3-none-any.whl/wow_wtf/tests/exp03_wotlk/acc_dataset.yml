@@ -1,0 +1,30 @@
+acc01:
+  realm1:
+    - mywarrior
+acc02:
+  realm1:
+    - mypaladin
+acc03:
+  realm1:
+    - mydk
+acc04:
+  realm1:
+    - myhunter
+acc05:
+  realm1:
+    - myshaman
+acc06:
+  realm1:
+    - myrogue
+acc07:
+  realm1:
+    - mydruid
+acc08:
+  realm1:
+    - mywarlock
+acc09:
+  realm1:
+    - mymage
+acc10:
+  realm1:
+    - mypriest
