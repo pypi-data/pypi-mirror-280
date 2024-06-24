@@ -1,0 +1,14 @@
+/.envrc
+/.direnv
+__pycache__
+*.pyc
+*.egg-info
+/.tox
+/.coverage*
+/build
+/dist
+/.mypy_cache
+
+# Devenv
+.devenv*
+devenv.local.nix
