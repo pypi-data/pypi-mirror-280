@@ -1,0 +1,8 @@
+winrt/_winrt_windows_media_audio.cp311-win_arm64.pyd,sha256=ByxlRiydYQvI11Pizaekdfx89lDuaYX3tWDkvKde8M0,783872
+winrt/_winrt_windows_media_audio.pyi,sha256=GRjsJqQs8DW5i7qinmNC77vq8dkV99za23AG7NeL_Qo,56061
+winrt/windows/media/audio/__init__.py,sha256=k0X_yYZS_hoTLjt1zckwPpwg-MbksTLRaKrmLEe6HvA,7344
+winrt/windows/media/audio/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Media.Audio-2.1.0.dist-info/METADATA,sha256=rIqj-ud7Wt7d4EJGEmTMJ8gRGL6-D-OEMMMTwybKEdE,1958
+winrt_Windows.Media.Audio-2.1.0.dist-info/WHEEL,sha256=KYdEOsdUN8GC50wETE93-AKMCFYWlcSEIynIYo-Bwus,102
+winrt_Windows.Media.Audio-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Media.Audio-2.1.0.dist-info/RECORD,,
