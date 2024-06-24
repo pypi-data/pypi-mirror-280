@@ -1,0 +1,8 @@
+requests
+
+[dev]
+pytest
+isort
+black
+mypy
+python-dotenv

@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/pygister.egg-info/PKG-INFO
+src/pygister.egg-info/SOURCES.txt
+src/pygister.egg-info/dependency_links.txt
+src/pygister.egg-info/requires.txt
+src/pygister.egg-info/top_level.txt
