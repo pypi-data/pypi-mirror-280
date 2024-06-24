@@ -1,0 +1,13 @@
+superpaste/__init__.py,sha256=CWy02mO4cMXGPI1XIvS7iYugg8Gil6WgeSR4H0H0yKU,97
+superpaste/__main__.py,sha256=YxTqas_kLr9ayR1g-H-hzkmL5RccbiyjPuGUnmq-XAQ,1641
+superpaste/__version__.py,sha256=-OL962Swj1zLRn5wbU47WI8XWWaZBnyynn_0R2dz8oQ,414
+superpaste/backends/__init__.py,sha256=zo6Ns1z68_yPu6Zp7VU81xLYwiKWpY28JIa4lWJWfcc,320
+superpaste/backends/base.py,sha256=yYD49qEReddLgZ9NK3cYI0zpT5hzVotgRtn9NUAmvng,4195
+superpaste/backends/hst_sh.py,sha256=61H8BVDeu-VN1Nx-nkN3XS9qdwccW6BCWNITIQV4-Rg,1981
+superpaste/backends/mystb_in.py,sha256=KRI1taHsgBXutEtuznlCNPaOHcT15u6JJW8hcbM5CDY,4013
+superpaste-1.0.0rc1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+superpaste-1.0.0rc1.dist-info/METADATA,sha256=2kXydPcDYpEh75kVjT2fDWZsOjYIxAL2Scjr6UnI-OI,3672
+superpaste-1.0.0rc1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+superpaste-1.0.0rc1.dist-info/entry_points.txt,sha256=orlC27B5qqrhiV2MGRScatdx7Mkkx6aw6yEc0UohYd0,56
+superpaste-1.0.0rc1.dist-info/top_level.txt,sha256=MaQNXZmsXGY0937NxSzN7LOksS5XXso8svU13UeDdXc,11
+superpaste-1.0.0rc1.dist-info/RECORD,,
