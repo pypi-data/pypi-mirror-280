@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "bdskeletor"
+version = "0.1.0"
+description = "My first look at pygame"
+authors = ["Bill Dirks <bill.dirks@gmail.com>"]
+readme = "README.md"
+license = "GPL-3.0-only"
+repository = "https://github.com/billdirks/skeletor"
+keywords = ["pygame"]
+classifiers = [ "Topic :: Games/Entertainment" ]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pygame = "^2.5.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.10"
+mypy = "^1.10.0"
+
+
+[tool.poetry.scripts]
+bdskeletor = "bdskeletor.skeletor:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
