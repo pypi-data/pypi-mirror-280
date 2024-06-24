@@ -1,0 +1,57 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+    "oldest-supported-numpy",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "faiss-cpu"
+version = "1.8.0.post1"
+authors = [
+    { name = "Kota Yamaguchi", email = "yamaguchi_kota@cyberagent.co.jp" },
+]
+description = "A library for efficient similarity search and clustering of dense vectors."
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["faiss", "similarity search", "clustering", "machine learning"]
+license = { text = "MIT License" }
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = ["numpy>=1.0,<2.0", "packaging"]
+
+[project.urls]
+Repository = "https://github.com/kyamagu/faiss-wheels"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = [
+    # Failing tests for numerical issues.
+    "--deselect=faiss/tests/test_local_search_quantizer.py::TestProductLocalSearchQuantizer::test_lut",
+]
+testpaths = ["faiss/tests"]
+
+[tool.cibuildwheel]
+skip = "pp* *-musllinux*"
+test-skip = "*-macosx_arm64 *-manylinux_aarch64 *-win_amd64 cp312-*"
+
+test-requires = ["pytest", "scipy", "torch"]
+test-command = "pytest {project}/faiss/tests"
+
+[tool.cibuildwheel.windows]
+before-build = "pip install delvewheel"
+repair-wheel-command = "delvewheel repair -v -w {dest_dir} {wheel}"
