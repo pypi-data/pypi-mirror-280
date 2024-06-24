@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "brandtemplate"
+version = "0.1.1"
+description = "Template for qmd presenations"
+authors = ["aplunket <applunket@gmail.com>"]
+readme = "PACKAGE.md"
+include = [
+  "brandtemplate/qmd_template/template_files/*"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+plotnine = "^0.13.6"
+great-tables = "^0.9.0"
+presoutput = "^0.1.1"
+numpy = "^1.4"
+
+[tool.poetry.group.dev.dependencies]
+pylance = "^0.12.2"
+ipykernel = "^6.29.4"
+pyyaml = "^6.0.1"
+jsondiff = "^2.0.0"
+
+[tool.poetry.scripts]
+brandtemplate-import = "brandtemplate.qmd_template.cli_import_template:_cli_import_template"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

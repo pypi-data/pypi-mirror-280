@@ -1,0 +1,25 @@
+---
+title: Slide title goes here
+subtitle: Slide subtitle goes here or delete this line
+author: Author name goes here
+format:
+  brandtemplate-revealjs:
+    toc: false
+---
+
+## Title of first slide goes here
+
+```{python}
+# the following code sets up so that can use plotnine plots and import the font files from the template
+from plotnine import *
+from mizani.formatters import *
+import matplotlib.pyplot as plt
+
+%config InlineBackend.figure_format = 'svg'
+ 
+from matplotlib import font_manager
+font_dir = '_extensions' #looks at all subfolders inside _extensions. This is where the font files should be copied.
+font_files = font_manager.findSystemFonts(fontpaths=font_dir)
+for file in font_files:
+  font_manager.fontManager.addfont(file)
+```
