@@ -1,0 +1,5 @@
+requests
+# env tools
+python-dotenv
+# command line
+click
