@@ -1,0 +1,8 @@
+winrt/_winrt_windows_applicationmodel_wallet_system.cp312-win_arm64.pyd,sha256=FnjmsvygDd0VSk20TDLCNjY9T3tqnERAoQBhiTIOp2A,112128
+winrt/_winrt_windows_applicationmodel_wallet_system.pyi,sha256=06ayG4bmd4lKbIGu0QBHpf9jbtei8UGX92vvimTIJGs,2128
+winrt/windows/applicationmodel/wallet/system/__init__.py,sha256=DPMa8SQLl6KAsdrkXuIp-Exwc0pwpij_AllYVPO89aI,570
+winrt/windows/applicationmodel/wallet/system/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.ApplicationModel.Wallet.System-2.1.0.dist-info/METADATA,sha256=zu0ikhVwYWSvL0xS18HS22BHqvTNoP9BIKfI5vo81Pk,1356
+winrt_Windows.ApplicationModel.Wallet.System-2.1.0.dist-info/WHEEL,sha256=Bv7J8O_-FnSb3IGeFWkp4bS4m9uc0RAAXyF4lKsep6k,102
+winrt_Windows.ApplicationModel.Wallet.System-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.Wallet.System-2.1.0.dist-info/RECORD,,
