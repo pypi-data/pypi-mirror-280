@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "indentation-converter"
+version = "0.1.0"
+description = "Convert indentation between spaces and tabs in text files and directories, ignoring hidden files, binary files, and files in `.gitiginore`."
+authors = ["HenestrosaDev <henestrosadev@gmail.com>"]
+license = "MIT"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Environment :: Console",
+    "Topic :: Text Processing :: General",
+    "Topic :: Utilities",
+    "Operating System :: OS Independent",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Other OS",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+keywords = [
+    "indentation",
+    "tabs",
+    "spaces",
+    "converter",
+]
+repository = "https://github.com/HenestrosaDev/indentation-converter"
+readme = "README.md"
+packages = [{ include = "indentation_converter", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+binaryornot = "^0.4.4"
+pathspec = "^0.12.1"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.7.1"
+codecov = "^2.1.13"
+pytest = "^8.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
