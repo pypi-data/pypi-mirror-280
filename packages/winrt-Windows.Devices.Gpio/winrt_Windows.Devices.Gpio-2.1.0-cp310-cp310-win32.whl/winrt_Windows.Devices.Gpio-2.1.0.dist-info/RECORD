@@ -1,0 +1,8 @@
+winrt/_winrt_windows_devices_gpio.cp310-win32.pyd,sha256=-xCKJ7jyEBl8_7GzRq1xQ1hq-Mtks7Vqp9VtsSSL368,136192
+winrt/_winrt_windows_devices_gpio.pyi,sha256=ePcdPixZvzWwRmEAyezi_UyaXVj1nTA4qil6tgXATFM,5795
+winrt/windows/devices/gpio/__init__.py,sha256=b-T4PRvZQal61VFsudm-bhZEOzdWrDutye6S-sfo8LQ,1620
+winrt/windows/devices/gpio/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Devices.Gpio-2.1.0.dist-info/METADATA,sha256=ennQJG08pdrn3fkqkaxDH_DKF6w2AEhyqc9PgIXxWE0,1204
+winrt_Windows.Devices.Gpio-2.1.0.dist-info/WHEEL,sha256=yXMlTXjHPYBFmMOeF4b9ZM_ASRm_Q54GxZmxQGPAzx4,98
+winrt_Windows.Devices.Gpio-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Gpio-2.1.0.dist-info/RECORD,,
