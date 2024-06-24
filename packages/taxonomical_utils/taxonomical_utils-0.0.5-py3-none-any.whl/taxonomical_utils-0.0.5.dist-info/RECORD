@@ -1,0 +1,17 @@
+taxonomical_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taxonomical_utils/cli.py,sha256=yoTUiGPYZZUtGlEmxcvCiyS6cLeX_V1GqTJTUdDgjSU,3062
+taxonomical_utils/downloader.py,sha256=LBlX6_P7I0vqGpwGsWLPeUAuhjFMMJncRdxkeI3XmmY,662
+taxonomical_utils/exceptions.py,sha256=WbTfUVURHoW8uUwHHM6DZJ5hSyAK_93Tnu36_lktVUg,174
+taxonomical_utils/foo.py,sha256=h8_wq9mYRSrZvOX4QirlaFHzNlBx8Yk3xvL2twF2qpI,267
+taxonomical_utils/merger.py,sha256=6OA-am1H6xRnYPlk1Xlw8S4OleStsapNAvqCsmMfEiI,1532
+taxonomical_utils/nb.py,sha256=7FUk3Qu_nK1YCF9bx-IQr0bT8gp5zecpWuSWAKfJPaE,2275
+taxonomical_utils/processor.py,sha256=1bpCzDblzyJlYJ_kqLp-ixSufIcLWJww1cFQ3CUKB6k,2444
+taxonomical_utils/resolver.py,sha256=gTVTEGRu-YovqsUkJoyJNtqGUXkU1wt18Ej2zh33KyY,2276
+taxonomical_utils/shared.py,sha256=19jJJAS3Yyxnmev-WbLmLy_V0ni8CxZmkm6qHZC5eQ4,917
+taxonomical_utils/upper_taxa_lineage_appender.py,sha256=Vr1Vudg-oM00hKyE7aluGF8leCOy8R0xQT4yHjvTNtc,6160
+taxonomical_utils/wikidata_fetcher.py,sha256=uWpeTcb_xv2C85ZwcUQhSOohoLjg_cnpz-1gtLqurBk,723
+taxonomical_utils-0.0.5.dist-info/LICENSE,sha256=mg_lotMhGfBIa2synZpstxuhNcMdhZHN4FQQ7FWz2rk,1077
+taxonomical_utils-0.0.5.dist-info/METADATA,sha256=C0A9Ae0WtdmPtTuGvAIqNFtD48DmA2jDGE92NcHTV6Y,7670
+taxonomical_utils-0.0.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+taxonomical_utils-0.0.5.dist-info/entry_points.txt,sha256=xIYtOEl1XFvt4N8KLAn7rYciXwm4Gswn3t9-Gkq7iF8,63
+taxonomical_utils-0.0.5.dist-info/RECORD,,
