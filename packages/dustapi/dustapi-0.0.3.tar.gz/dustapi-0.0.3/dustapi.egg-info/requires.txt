@@ -1,0 +1,7 @@
+werkzeug
+jinja2
+click
+websockets
+mkdocs
+pyjwt
+typer

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dustapi
+Version: 0.0.3
+Summary: Fast light weight web server
+Author: Praise Godwins
+Requires-Dist: werkzeug
+Requires-Dist: jinja2
+Requires-Dist: click
+Requires-Dist: websockets
+Requires-Dist: mkdocs
+Requires-Dist: pyjwt
+Requires-Dist: typer
