@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+eminem_lyric/__init__.py
+eminem_lyric/eminem_lyric.py
+eminem_lyric.egg-info/PKG-INFO
+eminem_lyric.egg-info/SOURCES.txt
+eminem_lyric.egg-info/dependency_links.txt
+eminem_lyric.egg-info/requires.txt
+eminem_lyric.egg-info/top_level.txt
+tests/__init__.py
+tests/test_eminem_lyric.py
