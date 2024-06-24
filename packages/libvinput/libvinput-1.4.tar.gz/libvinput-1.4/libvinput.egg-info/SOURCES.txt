@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+libvinput.egg-info/PKG-INFO
+libvinput.egg-info/SOURCES.txt
+libvinput.egg-info/dependency_links.txt
+libvinput.egg-info/top_level.txt
+src/libvinput.c
+src/linux.c
+src/linux_emu.c
+src/pybind.c
