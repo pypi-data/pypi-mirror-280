@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/gdicons/__init__.py
+src/gdicons/plist.py
+src/gdicons/script.py
+src/gdicons.egg-info/PKG-INFO
+src/gdicons.egg-info/SOURCES.txt
+src/gdicons.egg-info/dependency_links.txt
+src/gdicons.egg-info/requires.txt
+src/gdicons.egg-info/top_level.txt

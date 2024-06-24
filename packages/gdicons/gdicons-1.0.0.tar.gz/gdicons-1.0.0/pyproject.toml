@@ -1,0 +1,28 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools", "pillow"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gdicons"
+version = "1.0.0"
+description = "Render Geometry Dash icons"
+readme = "README.md"
+authors = [
+    {name = "Bradley Pierce", email = "bituvocoding@gmail.com"}
+]
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: Microsoft :: Windows",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Games/Entertainment",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12"
+]
+keywords = ["geometry", "dash", "icon", "render"]
+dependencies = ["pillow>=10.3.0"]
+requires-python = ">=3.9"
