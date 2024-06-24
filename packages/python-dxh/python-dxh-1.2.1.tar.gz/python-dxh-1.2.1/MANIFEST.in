@@ -1,0 +1,5 @@
+include requirements.txt
+recursive-include anticaptcha *.py 
+recursive-include anticaptcha *.py
+recursive-include config *.py
+recursive-include aws *.py
