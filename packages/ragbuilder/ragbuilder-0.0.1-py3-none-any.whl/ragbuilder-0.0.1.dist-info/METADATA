@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: ragbuilder
+Version: 0.0.1
+Summary: Library of Rag Methods
+Home-page: https://github.com/kruxai/ragbuilder
+Author: Ashwin Aravind
+Author-email: ashwin@krux.ai
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: Flask
+Requires-Dist: pytest ==7.2.1
+Requires-Dist: pytest-xdist ~=3.2.0
+Requires-Dist: coverage ~=7.1.0
+Requires-Dist: black ~=23.1.0
+Requires-Dist: pytest-timeout ~=2.1.0
+Requires-Dist: pytest-env ~=0.8.1
+Requires-Dist: python-dotenv
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: langchainhub
+Requires-Dist: langchain-openai
+Requires-Dist: langchain-chroma
+Requires-Dist: bs4
+Requires-Dist: langchain-core
+Requires-Dist: unstructured
+Requires-Dist: pdf2image
+Requires-Dist: pdfminer.six
+Requires-Dist: langchain-experimental
+Requires-Dist: scikit-learn
+Requires-Dist: ragas ==0.1.7
+Requires-Dist: inquirer
+Requires-Dist: llama-index
+Requires-Dist: chromadb
+Requires-Dist: sentence-transformers
+Requires-Dist: llama-index-vector-stores-chroma
+Requires-Dist: llama-index-readers-web
+Requires-Dist: IPython
+Requires-Dist: llama-index-retrievers-bm25
+Requires-Dist: rake-nltk
+Requires-Dist: llama-index-embeddings-langchain
+Requires-Dist: llama-index-vector-stores-faiss
+Requires-Dist: faiss-cpu
+Requires-Dist: llama-index-llms-mistralai
+Requires-Dist: llama-index-embeddings-mistralai
+Requires-Dist: llama-index-embeddings-openai
+Requires-Dist: llama-index-postprocessor-longllmlingua
+Requires-Dist: llmlingua
+Requires-Dist: llama-index-postprocessor-cohere-rerank
+Requires-Dist: llama-index-postprocessor-jinaai-rerank
+Requires-Dist: llama-index-postprocessor-rankgpt-rerank
+Requires-Dist: llama-index-postprocessor-colbert-rerank
+Requires-Dist: llama-index-postprocessor-rankllm-rerank
+Requires-Dist: llama-index-llms-openai
+Requires-Dist: langchain-huggingface
+Requires-Dist: rank-bm25
+Requires-Dist: ragas
+Requires-Dist: flask
+Requires-Dist: pandas
+Requires-Dist: pillow-heif
+Requires-Dist: opencv-python
+Requires-Dist: onnx ==1.16.0
+Requires-Dist: pikepdf ==8.0.0
+Requires-Dist: unstructured-inference
+Requires-Dist: pytesseract
+Requires-Dist: unstructured[all-docs]
+Requires-Dist: mixpanel
+Requires-Dist: langchain-mistralai
+Requires-Dist: huggingface-hub
+Requires-Dist: datasets
+Requires-Dist: langchain-text-splitters
+Requires-Dist: llama-index-core
+Requires-Dist: requests
+Requires-Dist: markdown
+Requires-Dist: singlestoredb
+
