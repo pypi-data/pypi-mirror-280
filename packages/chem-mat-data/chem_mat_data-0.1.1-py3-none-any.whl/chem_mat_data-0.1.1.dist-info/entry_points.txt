@@ -1,0 +1,3 @@
+[console_scripts]
+chemdata=chem_mat_data.cli:cli
+
