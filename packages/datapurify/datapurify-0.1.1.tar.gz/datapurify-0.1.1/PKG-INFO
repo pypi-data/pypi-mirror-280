@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: datapurify
+Version: 0.1.1
+Summary: Add your description here
+Author-email: yuvenhol <yuvenhol@gmail.com>
+Requires-Python: >=3.8
+Requires-Dist: playwright>=1.44.0
+Requires-Dist: pytest>=8.2.2
+Description-Content-Type: text/markdown
+
+# datapurify
+
+DataPurify is a package for crawling and purifying
+
