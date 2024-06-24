@@ -1,0 +1,8 @@
+winrt/_winrt_microsoft_ui_composition_systembackdrops.cp310-win_arm64.pyd,sha256=f6JxSsqvkVNOPbul56innJJvgybRgQ4Z7SfnXBjtCXU,159744
+winrt/_winrt_microsoft_ui_composition_systembackdrops.pyi,sha256=7mxALcioLvjlx24T5EXxEA84t0eALTgCYWUicts9iXI,9163
+winrt/microsoft/ui/composition/systembackdrops/__init__.py,sha256=YvgImHUusrrZmBhF9jYL7akbvr4leLLskCReT-Npz88,1295
+winrt/microsoft/ui/composition/systembackdrops/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Microsoft.UI.Composition.SystemBackdrops-2.1.0.dist-info/METADATA,sha256=gOt0rR46ziOQmCSZ4HZ8M-vuj38ZyU48muE7GNKn3to,1403
+winrt_Microsoft.UI.Composition.SystemBackdrops-2.1.0.dist-info/WHEEL,sha256=CcAI0PRTe_I4keOFlnkSD5f8JWpqn-d3pa3DI_LtI6E,102
+winrt_Microsoft.UI.Composition.SystemBackdrops-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Microsoft.UI.Composition.SystemBackdrops-2.1.0.dist-info/RECORD,,
