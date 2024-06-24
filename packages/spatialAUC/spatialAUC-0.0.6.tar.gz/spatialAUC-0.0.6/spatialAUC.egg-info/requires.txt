@@ -1,0 +1,4 @@
+gseapy
+scanpy
+squidpy
+numba
