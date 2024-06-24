@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+chipignite/__init__.py
+chipignite.egg-info/PKG-INFO
+chipignite.egg-info/SOURCES.txt
+chipignite.egg-info/dependency_links.txt
+chipignite.egg-info/top_level.txt
