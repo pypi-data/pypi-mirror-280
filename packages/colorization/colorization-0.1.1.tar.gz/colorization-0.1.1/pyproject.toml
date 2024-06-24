@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "colorization"
+version = "0.1.1"
+authors = [
+  { name="AlmightyNan", email="almightynan@gmail.com" },
+]
+description = "A minimal ansi package for colors and font manipulation."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/AlmightyNan/colorization"
+Issues = "https://github.com/AlmightyNan/colorization/issues"
