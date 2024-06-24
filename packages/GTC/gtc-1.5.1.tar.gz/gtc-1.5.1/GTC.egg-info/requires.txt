@@ -1,0 +1,12 @@
+numpy>=1.13.0
+scipy
+
+[docs]
+sphinx>2
+sphinx-rtd-theme>0.5
+
+[tests]
+pytest>=4.4
+pytest-cov
+jsonschema
+lxml
