@@ -1,0 +1,8 @@
+winrt/_winrt_windows_devices_alljoyn.cp311-win32.pyd,sha256=RCAkDv7nmcEmqoGpZTXFhYCbMJ_76BvVpRPLBEGK09A,355328
+winrt/_winrt_windows_devices_alljoyn.pyi,sha256=4mIN5z_t2nSiRox0_5H3qffrw5Ykv-sE_3-RdYHYDNU,21250
+winrt/windows/devices/alljoyn/__init__.py,sha256=yMcOX5F2m1G_bonOYEoW8idNybesVPwO954QYzzy7pM,3896
+winrt/windows/devices/alljoyn/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Devices.AllJoyn-2.1.0.dist-info/METADATA,sha256=pK-tTHT-sr7zrHRRJGhaLARydOMU-h4_Axj-5Pd-KAw,1551
+winrt_Windows.Devices.AllJoyn-2.1.0.dist-info/WHEEL,sha256=4_gqTcsEhdxj3Ssg4q283IXTSwrMvsE7HL9ju9Nna7Q,98
+winrt_Windows.Devices.AllJoyn-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.AllJoyn-2.1.0.dist-info/RECORD,,
