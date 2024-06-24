@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: hemse
+Version: 1.0.2
+Author-email: Jakub Klawikowski <klawik.j@gmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: dash ==2.16.1
+Requires-Dist: dash-bootstrap-components ==1.6.0
+Requires-Dist: dash-core-components ==2.0.0
+Requires-Dist: dash-html-components ==2.0.0
+Requires-Dist: dash-table ==5.0.0
+Requires-Dist: dash-daq ==0.5.0
+Requires-Dist: requests ==2.31.0
+Requires-Dist: pandas ==2.2.2
+Requires-Dist: gunicorn ==22.0.0
+
