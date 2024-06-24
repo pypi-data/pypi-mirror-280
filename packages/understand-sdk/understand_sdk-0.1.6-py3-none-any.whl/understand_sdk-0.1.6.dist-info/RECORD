@@ -1,0 +1,13 @@
+understand_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+understand_sdk/client.py,sha256=K6qxdaKC1c7vV1pCIBEhzHorZLWpDF4JQEVdToRwTvA,3167
+understand_sdk/const.py,sha256=KvNeQhMME_evrm00_MS5l6iYboGgEjrVZJX1-7u163A,46
+understand_sdk/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+understand_sdk/examples/story.py,sha256=08vlVaT9s5SVDuiVl4m-1m36DxQEqYbyD9q0xz2lTC0,16927
+understand_sdk/exceptions.py,sha256=XZj5t3ZXU0B0tos30Rb2WEwAVZhGNH0TGx4DJYMXInU,96
+understand_sdk/model.py,sha256=ss3aB7G5jabSFbO89h8J5Eo8xf79YnttulKvTwi8Qqc,197
+understand_sdk/story.py,sha256=a4z-tW9L8OhqbwSnwPFhaPEBgPinijXloW1ye9C-t2E,6432
+understand_sdk/task.py,sha256=YbbmNyCyI0d5S6_l_7PIfn3tOs0L0VIoTVDDyoyy094,697
+understand_sdk-0.1.6.dist-info/LICENSE,sha256=o63aJykRixP4r7DVcDf1WKbFaTPaGqbWsCr0ueQza0w,1072
+understand_sdk-0.1.6.dist-info/METADATA,sha256=A4loP0WojjDgWXQspCiITa6mW5Le1SghnyB7YFWAthE,1558
+understand_sdk-0.1.6.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+understand_sdk-0.1.6.dist-info/RECORD,,
