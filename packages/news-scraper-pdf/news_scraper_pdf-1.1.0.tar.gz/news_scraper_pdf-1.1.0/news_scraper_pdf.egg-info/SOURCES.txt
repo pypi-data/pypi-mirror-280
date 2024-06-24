@@ -1,0 +1,11 @@
+LICENCE
+README.md
+setup.py
+news_scraper_pdf.egg-info/PKG-INFO
+news_scraper_pdf.egg-info/SOURCES.txt
+news_scraper_pdf.egg-info/dependency_links.txt
+news_scraper_pdf.egg-info/entry_points.txt
+news_scraper_pdf.egg-info/requires.txt
+news_scraper_pdf.egg-info/top_level.txt
+src/__init__.py
+src/get_edition.py
