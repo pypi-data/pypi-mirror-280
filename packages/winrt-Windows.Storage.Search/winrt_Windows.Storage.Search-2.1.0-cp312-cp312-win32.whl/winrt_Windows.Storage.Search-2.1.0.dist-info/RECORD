@@ -1,0 +1,8 @@
+winrt/_winrt_windows_storage_search.cp312-win32.pyd,sha256=Fd6jnKjv6csEXLF6GkwzlYfXp5JQBPfKvkngLpBHP3c,374784
+winrt/_winrt_windows_storage_search.pyi,sha256=tyLWubosq88zuFD7OPPJ0Fc2xdtLfcMGnhT2Ac_iNH0,20314
+winrt/windows/storage/search/__init__.py,sha256=hik153fZozWRvzDD8fNYw5glfiZ-DXF2D8vsabOJKUM,2970
+winrt/windows/storage/search/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Storage.Search-2.1.0.dist-info/METADATA,sha256=pGmkwfMZgQfh0azji3n7LBXZ8SSzjtq79iR3dcAmftE,1433
+winrt_Windows.Storage.Search-2.1.0.dist-info/WHEEL,sha256=ruwpOBdFI6_HbvqqfiJbSxRZ7qQ6XNHlvTRo9Gu8mVc,98
+winrt_Windows.Storage.Search-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Storage.Search-2.1.0.dist-info/RECORD,,
