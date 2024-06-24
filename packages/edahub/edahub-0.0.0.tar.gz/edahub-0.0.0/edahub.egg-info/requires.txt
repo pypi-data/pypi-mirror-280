@@ -1,0 +1,6 @@
+altair
+ipywidgets
+jupyterlab
+jupyterlab-widgets
+pandas
+sidecar
