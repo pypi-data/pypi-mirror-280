@@ -1,0 +1,12 @@
+logging:
+  log_directory: /var/log/dde_agent
+  log_file: app.log
+  log_level: DEBUG
+  log_format: '%(asctime)s - %(levelname)s - [%(process)d]  - %(correlation_id)s | %(asctime)s | %(message)s'
+  log_oss_env: test
+  log_store: agent-test
+nacos:
+  dde_instance_name: dde-agent-core
+  dde_nacos_group: dde
+  dde_nacos_namespace: 20d44145-834a-455e-b032-6a7f5d6c1f57
+  dde_nacos_addr: mse-224603e14-p.nacos-ans.mse.aliyuncs.com:8848
