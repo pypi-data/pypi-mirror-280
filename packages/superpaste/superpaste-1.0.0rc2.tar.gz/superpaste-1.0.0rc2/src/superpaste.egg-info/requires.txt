@@ -1,0 +1,4 @@
+httpx>=0.27.0
+
+[auto_mime]
+python-magic>=0.4.27
