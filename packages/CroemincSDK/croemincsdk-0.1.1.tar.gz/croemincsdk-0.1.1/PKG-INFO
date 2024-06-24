@@ -1,0 +1,176 @@
+Metadata-Version: 2.1
+Name: CroemincSDK
+Version: 0.1.1
+Summary: This SDK provides an organized way to connect and consume Croeminc payment gateway, card storage, and customer management service
+Home-page: https://dev.azure.com/croeminc/NeoGateway/_git/NeoGateway.SDK.Python.Package
+Author: Muhammad Umer farooq
+Author-email: support@croeminc.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: jsonpickle>=3.2.1
+Requires-Dist: requests>=2.32.3
+
+# Croeminc Gateway Python SDK
+
+This SDK provides an organized way to connect and consume Croeminc payment gateway, card storage, and customer management services. 
+
+## v0.6 - Release Notes
+* Adding Preauthorization and Adjustment features
+
+## v0.54 - Release Notes
+* Setting up production credentials
+
+## v0.53 - Release Notes
+* Clean up of sample code. 
+* Cleanup of integration with API
+
+## v0.52 - Release Notes
+This release contains the basic markup of the future release. You may use the current code to understand how your application would need to interact with the SDK. This SDK performs real communication with the test Gateway API.
+Following are the definition improvements in this release that allows the SDK to:
+
+* Create a gateway object with simplified encryption logic
+* Utilize basic transaction operations such as Sale
+* Search for customers
+* Create customers and manage their payment methods
+* Update customers and their cards
+
+## Sample Code:
+This code is also available in the Sample folder inside of SDK
+
+
+```
+#Initializing Gateway object with Merchant details and environment
+sdk = CroemincGateway("SANDBOX", "100177", "DEMO0001", "AERT99HY", "")
+print("SDK Version " + str(sdk.SDKVersion))
+
+#Initializing Transaction Manager
+trx = TransactionManager(sdk)
+#Initializing Card Manager
+cus = CustomerManager(sdk)
+
+
+#Creating Customer With Unique Identification
+customer = Customer()
+customer.Company = "Sigma"
+customer.Email = "customer@sigmaprocessing.net"
+customer.Fax = "50712345678"
+customer.FirstName = "John"
+customer.LastName = "Snow"
+customer.Phone = "50712345679"
+customer.UniqueIdentifier = str(random.randrange(00000, 99999, 1))
+customer.Website = "http://www.sigmaprocessing.net"
+customer.CustomerId = "0"
+#Adding Extra detail to Customer Model
+customer.CustomFields = dict()
+customer.CustomFields["Profession"] = "Software Developer"
+#Adding Shipping Address to Customer Model
+customer.ShippingAddress = list()
+ShippingAddress = Address()
+ShippingAddress.AddressId = "0"
+ShippingAddress.AddressLine1 = "Collin Road"
+ShippingAddress.AddressLine2 = "Suite XYZ"
+ShippingAddress.City = "PA"
+ShippingAddress.CountryName = "PA"
+ShippingAddress.SubDivision = "XYZ"
+ShippingAddress.State = "PA"
+ShippingAddress.ZipCode = "123456"
+customer.ShippingAddress.append(ShippingAddress)
+#Adding Billing Address to Customer Model
+customer.BillingAddress = list()
+BillingAddress = Address()
+BillingAddress.AddressId = "0"
+BillingAddress.AddressLine1 = "Collin Road"
+BillingAddress.AddressLine2 = "Suite XYZ"
+BillingAddress.City = "PA"
+BillingAddress.CountryName = "PA"
+BillingAddress.SubDivision = "XYZ"
+BillingAddress.State = "PA"
+BillingAddress.ZipCode = "123456"
+customer.BillingAddress.append(BillingAddress)
+customerRe = cus.SaveCustomer(customer);
+
+print("\r\n* Create Customer *")
+if(customerRe.ResponseDetails.IsSuccess):
+    print("New Customer added successfully")
+else:
+    print(customerRe.ResponseDetails.ResponseSummary)
+
+
+#Adding Card to Customer Model
+cc = CreditCard()
+cc.CardholderName="John Snow"
+cc.Status = "Active"
+cc.ExpirationDate ="0118"
+cc.ExpirationMonth = "01"
+cc.ExpirationYear="18"
+cc.Number="4111111111111111"
+cc.CustomerId = customerRe.CustomerId
+cardRe = cus.UpdateCard(cc);
+
+print("\r\n* Adding Card to Customer *")
+if(cardRe.ResponseDetails.IsSuccess):
+    print("Card Added/Updatted successfully")
+
+#Processing Sale Request
+transRequest = Transaction()
+transRequest.Amount = 1
+transRequest.CustomerId = customerRe.CustomerId
+transRequest.PaymentMethodToken = cardRe.Token.upper()
+transRequest.TerminalId = "100177001"
+transRequest.TransactOptions = TransactionOptions()
+transRequest.TransactOptions.Operation = "Sale"
+sale_response = trx.Sale(transRequest)
+
+print("\r\n* Sale *")
+print("Response: " + sale_response.ResponseDetails.ResponseSummary)
+print("Authorization #: " + sale_response.ResponseDetails.AuthorizationNumber)
+
+#Processing Reversal Request
+transRequest = Transaction()
+transRequest.Amount = 1
+transRequest.TransactionId = sale_response.ResponseDetails.TransactionId
+transRequest.TransactOptions = TransactionOptions()
+transRequest.TransactOptions.Operation = "Refund"
+transRequest.TerminalId = "100177001"
+refund_response = trx.Refund(transRequest)
+
+print("\r\n* Refund *")
+print("Response: " + refund_response.ResponseDetails.ResponseSummary)
+print("Authorization #: " + refund_response.ResponseDetails.AuthorizationNumber)
+
+#Searching for Transaction Record by Filters
+searchFilter = TransactionSearch()
+searchFilter.Amount = AmountRangeFilter()
+searchFilter.Amount.Between(1, 2)
+searchFilter.DateCreated = DateRangeFilter()
+searchFilter.DateCreated.Between("2015-09-22","2015-09-30")
+transactionlst = trx.SearchTransaction(searchFilter)
+
+print("\r\n* Transaction Search *")
+print("Total "+ str(len(transactionlst)) + " transaction found matching search filters")
+
+#Searching for Customer
+customerFilters = CustomerSearch()
+customerFilters.FirstName = TextFilter()
+customerFilters.FirstName.StartsWith("John")
+response_customers = cus.SearchCustomer(customerFilters)
+print("\r\n* Searching Customer *")
+print("Total "+ str(len(response_customers)) + " customer found matching search filters")
+```
+
+## Todos
+ * Define structure for recurring payments
+ * Define structure for web hooks
+ * Define structure to select and use a default payment method
+ * Delete customers and payment methods
+ * Define card validation, i.e. card has money and then void transaction
+ * Define card owner validation, i.e.e card belongs to the customer by making token transaction and then validating.
+ 
+## License
+MIT
+## Support
+For details, improvements and requests please contact ccsupport@croem.net
+
