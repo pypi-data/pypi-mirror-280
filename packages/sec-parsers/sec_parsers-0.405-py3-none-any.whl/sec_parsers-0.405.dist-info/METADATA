@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sec-parsers
+Version: 0.405
+Summary: A package to parse SEC filings
+Author: John Friedman
+Requires-Dist: beautifulsoup4
+Requires-Dist: pandas
+
