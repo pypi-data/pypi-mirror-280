@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+base36py/__init__.py
+base36py.egg-info/PKG-INFO
+base36py.egg-info/SOURCES.txt
+base36py.egg-info/dependency_links.txt
+base36py.egg-info/top_level.txt
