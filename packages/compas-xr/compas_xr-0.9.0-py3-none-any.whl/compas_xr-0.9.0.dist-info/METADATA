@@ -1,0 +1,118 @@
+Metadata-Version: 2.1
+Name: compas_xr
+Version: 0.9.0
+Summary: COMPAS XR streamlines extended reality workflows to ease the implementation of human-machine collaborative applications in architectural research and educational environments.
+Author-email: Joseph Kenny <kenny@arch.ethz.ch>, Daniela Mitterberger <mitterberger@princeton.edu>
+License: MIT License
+        
+        Copyright (c) 2023-2024 ETH Zurich, Princeton University
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/gramaziokohler/compas_xr
+Project-URL: Documentation, https://gramaziokohler.github.io/compas_xr/
+Project-URL: Repository, https://github.com/gramaziokohler/compas_xr.git
+Project-URL: Changelog, https://github.com/gramaziokohler/compas_xr/blob/main/CHANGELOG.md
+Project-URL: Issues, https://github.com/gramaziokohler/compas_xr/issues
+Project-URL: Forum, https://forum.compas-framework.org/
+Keywords: compas,xr,aec,robotic,human-machine
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+Requires-Dist: numpy <2,>=1.15.4
+Requires-Dist: compas <3,>=2.0.4
+Requires-Dist: compas-timber ~=0.7.0
+Requires-Dist: compas-eve <2,>=1
+Requires-Dist: compas-fab <2,>=1.0.2
+Requires-Dist: pyrebase4 >=4.7.1
+Provides-Extra: dev
+Requires-Dist: attrs >=17.4 ; extra == 'dev'
+Requires-Dist: black >=22.12.0 ; extra == 'dev'
+Requires-Dist: bump-my-version ; extra == 'dev'
+Requires-Dist: compas-invocations2 ; extra == 'dev'
+Requires-Dist: invoke >=0.14 ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Requires-Dist: sphinx-compas2-theme ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+
+# COMPAS XR
+
+[![Github Actions Build Status](https://github.com/gramaziokohler/compas_xr/workflows/build/badge.svg)](https://github.com/gramaziokohler/compas_xr/actions)
+[![License](https://img.shields.io/github/license/gramaziokohler/compas_xr.svg)](https://pypi.python.org/pypi/compas_xr)
+[![pip downloads](https://img.shields.io/pypi/dm/compas_xr)](https://pypi.python.org/project/compas_xr)
+[![PyPI Package latest release](https://img.shields.io/pypi/v/compas_xr.svg)](https://pypi.python.org/pypi/compas_xr)
+[![Supported implementations](https://img.shields.io/pypi/implementation/compas_xr.svg)](https://pypi.python.org/pypi/compas_xr)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXXX)
+[![Twitter Follow](https://img.shields.io/twitter/follow/compas_dev?style=social)](https://twitter.com/compas_dev)
+
+![COMPAS XR](https://raw.githubusercontent.com/gramaziokohler/compas_xr/main/docs/_images/compas_xr_lead_image.png)
+
+`COMPAS XR` streamlines extended reality workflows to ease the implementation of human-machine collaborative applications in architectural research and educational environments.
+
+## Installation
+
+> It is recomended you install `compas_xr` inside a virtual environment.
+
+```bash
+pip install compas_xr
+```
+
+To install `compas_xr` to Rhino run
+
+```bash
+python -m compas_rhino.install
+```
+
+## First Steps
+
+* [Documentation](https://gramaziokohler.github.io/compas_xr/)
+* [User guide](https://gramaziokohler.github.io/compas_xr/latest/userguide.html)
+* [API Reference](https://gramaziokohler.github.io/compas_xr/latest/api.html)
+
+## Questions and feedback
+
+We encourage the use of the [COMPAS framework forum](https://forum.compas-framework.org/)
+for questions and discussions.
+
+## Issue tracker
+
+If you found an issue or have a suggestion for a dandy new feature, please file a new issue in our [issue tracker](https://github.com/gramaziokohler/compas_xr/issues).
+
+## Contributing
+
+We love contributions!
+
+Check the [Contributor's Guide](https://github.com/gramaziokohler/compas_xr/blob/main/CONTRIBUTING.md)
+for more details.
+
+## Credits
+
+`compas_xr` is currently developed by ETH Zurich (Gramazio Kohler Research) and Princeton University. See the [list of authors](https://github.com/gramaziokohler/compas_xr/blob/main/AUTHORS.md) for a complete overview.
