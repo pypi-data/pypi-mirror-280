@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/veriCAS/__init__.py
+src/veriCAS/atom_eco.py
+src/veriCAS/test.py
+src/veriCAS.egg-info/PKG-INFO
+src/veriCAS.egg-info/SOURCES.txt
+src/veriCAS.egg-info/dependency_links.txt
+src/veriCAS.egg-info/top_level.txt
