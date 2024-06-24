@@ -1,0 +1,8 @@
+winrt/_winrt_windows_management_policies.cp39-win_arm64.pyd,sha256=uTiRia5HMPqZmNGdabEKJMqeUEotGwY1CvFxahi3WNU,61440
+winrt/_winrt_windows_management_policies.pyi,sha256=VIbUM5hzhJjGmAjpn0rLNoy741knqtnrAkQg51fQC5U,1904
+winrt/windows/management/policies/__init__.py,sha256=_P0ygGcfKqgA9jNP29Zf4-SPOynDqe1tbziUOrO2szg,506
+winrt/windows/management/policies/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Management.Policies-2.1.0.dist-info/METADATA,sha256=6AS79svnlRRXE_bcepZxiX2VBTsPNC4N86VG58dKavM,1210
+winrt_Windows.Management.Policies-2.1.0.dist-info/WHEEL,sha256=t9jK7yLDf8Sm3MHlwabjxx5ZT0OooACnPwjLW_r-SdA,100
+winrt_Windows.Management.Policies-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Management.Policies-2.1.0.dist-info/RECORD,,
