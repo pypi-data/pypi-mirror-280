@@ -1,0 +1,11 @@
+pychd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pychd/compile.py,sha256=PZImK1UjELt0_CGsmmd7PNt2By3g5gpKFnl73SzWKD0,863
+pychd/decompile.py,sha256=3x1SbSl8WBSEukO1vyR-0RIX94vI1zdcmDwCTNNABqM,4274
+pychd/main.py,sha256=U61R154XSYKWgEfvuY5eah3f0_vpNro99uHffhYNEd4,2409
+pychd/types.py,sha256=4bAKyd_N25QLoS4ZNY8aexNDsqJl4TkBWaJy64eCkeM,294
+pychd-0.2.4.dist-info/LICENSE,sha256=GAHbkuwKujiIBLnfIfD-aBSAkaAeJ-Xu-STVFUgrOqA,1071
+pychd-0.2.4.dist-info/METADATA,sha256=oBCZtwyz1CaasCjbzLSLxVGiXTBlpB8i1jpFQx4wits,2352
+pychd-0.2.4.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+pychd-0.2.4.dist-info/entry_points.txt,sha256=FPUSfdf4mKe73FO6VhnLW773fuhL_mfA0xUL51Jegys,42
+pychd-0.2.4.dist-info/top_level.txt,sha256=GsMSaaoobVlT8eOD5ciZZsnQsi7tcrcUf9scWLQFtu8,6
+pychd-0.2.4.dist-info/RECORD,,
