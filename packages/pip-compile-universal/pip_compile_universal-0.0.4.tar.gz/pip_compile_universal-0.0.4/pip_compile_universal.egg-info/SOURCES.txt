@@ -1,0 +1,13 @@
+.cz.toml
+.editorconfig
+.gitignore
+CHANGELOG.md
+README.rst
+pip_compile_universal
+pyproject.toml
+setup.py
+pip_compile_universal.egg-info/PKG-INFO
+pip_compile_universal.egg-info/SOURCES.txt
+pip_compile_universal.egg-info/dependency_links.txt
+pip_compile_universal.egg-info/requires.txt
+pip_compile_universal.egg-info/top_level.txt
