@@ -1,0 +1,2 @@
+[console_scripts]
+convert_to_meds_reader = meds_reader:convert_to_meds_reader
