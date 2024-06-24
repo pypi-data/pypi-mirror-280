@@ -1,0 +1,3 @@
+# Scalify API reference
+
+::: scalify

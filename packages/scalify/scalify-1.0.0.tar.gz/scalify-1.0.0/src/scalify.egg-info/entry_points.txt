@@ -1,0 +1,2 @@
+[console_scripts]
+scalify = scalify.cli:app
