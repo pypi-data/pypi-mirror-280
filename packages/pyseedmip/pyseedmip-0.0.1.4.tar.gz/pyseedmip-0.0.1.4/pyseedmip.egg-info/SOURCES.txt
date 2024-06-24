@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyseedmip/__init__.py
+pyseedmip/pyseedmip.cpython-39-x86_64-linux-gnu.so
+pyseedmip.egg-info/PKG-INFO
+pyseedmip.egg-info/SOURCES.txt
+pyseedmip.egg-info/dependency_links.txt
+pyseedmip.egg-info/top_level.txt
