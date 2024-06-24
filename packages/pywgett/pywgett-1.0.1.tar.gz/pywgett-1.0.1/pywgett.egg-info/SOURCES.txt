@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+pywgett/__init__.py
+pywgett/cli.py
+pywgett/download.py
+pywgett/utils.py
+pywgett.egg-info/PKG-INFO
+pywgett.egg-info/SOURCES.txt
+pywgett.egg-info/dependency_links.txt
+pywgett.egg-info/entry_points.txt
+pywgett.egg-info/requires.txt
+pywgett.egg-info/top_level.txt
