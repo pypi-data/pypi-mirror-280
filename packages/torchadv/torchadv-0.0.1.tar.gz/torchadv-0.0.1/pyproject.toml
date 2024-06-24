@@ -1,0 +1,78 @@
+[tool.poetry]
+name = "torchadv"
+version = "0.0.1"
+description = "Tiny package designed to support red teams and penetration testers in creating and analyzing adversarial attacks on PyTorch models."
+authors = ["hupe1980"]
+repository = "https://github.com/hupe1980/torchadv"
+homepage = "https://github.com/hupe1980/torchadv"
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Security",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+keywords = [
+    "security",
+    "ai",
+    "pentest",
+    "red-team",
+    "responsible-ai",
+    "red-team-tools",
+    "ai-red-team",
+    "adversarial-attacks",
+    "pytorch",
+    "deep-learning",
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.3.1"
+numpy = "^2.0.0"
+matplotlib = "^3.9.0"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+torchvision = "^0.18.1"
+pillow = "^10.3.0"
+tqdm = "^4.66.4"
+mypy = "^1.10.0"
+ruff = "^0.4.10"
+black = "^24.4.2"
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.black]
+skip-string-normalization = true
+line-length = 120
+
+[tool.ruff]
+# Same as Black.
+line-length = 120
+
+lint.select = [
+    "E",  # pycodestyle errors (settings from FastAPI, thanks, @tiangolo!)
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "C",  # flake8-comprehensions
+    "B",  # flake8-bugbear
+]
+lint.ignore = [
+    "E501",  # line too long, handled by black
+    "C901",  # too complex
+]
+
+[tool.ruff.lint.isort]
+order-by-type = true
+relative-imports-order = "closest-to-furthest"
+extra-standard-library = ["typing"]
+section-order = ["future", "standard-library", "third-party", "first-party", "local-folder"]
+known-first-party = []
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

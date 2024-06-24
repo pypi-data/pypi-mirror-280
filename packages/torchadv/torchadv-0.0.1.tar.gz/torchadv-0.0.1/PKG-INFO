@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: torchadv
+Version: 0.0.1
+Summary: Tiny package designed to support red teams and penetration testers in creating and analyzing adversarial attacks on PyTorch models.
+Home-page: https://github.com/hupe1980/torchadv
+License: MIT
+Keywords: security,ai,pentest,red-team,responsible-ai,red-team-tools,ai-red-team,adversarial-attacks,pytorch,deep-learning
+Author: hupe1980
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Security
+Requires-Dist: matplotlib (>=3.9.0,<4.0.0)
+Requires-Dist: numpy (>=2.0.0,<3.0.0)
+Requires-Dist: torch (>=2.3.1,<3.0.0)
+Project-URL: Repository, https://github.com/hupe1980/torchadv
+Description-Content-Type: text/markdown
+
+# 🔥🛡️⚔️ TorchAdv
+
+TorchAdv is a Python package designed to facilitate the creation and execution of adversarial attacks on PyTorch models. This library aims to provide easy-to-use tools for generating adversarial examples, evaluating model robustness, and implementing state-of-the-art adversarial attack methods.
+
+## Features
+
+- **Adversarial Attacks**: Implementations of popular adversarial attacks such as FGSM, PGD, and more.
+- **Compatibility**: Designed to work seamlessly with PyTorch models.
+- **Customizable**: Easily extendable to include new attack methods or custom functionality.
+
+## Installation
+
+Install the package via pip:
+
+```bash
+pip install torchadv
+```
+
+## Usage
+
+Here is a simple example of how to use TorchAdv to perform an FGSM attack on a PyTorch model:
+
+```python
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from torchvision import models, transforms
+from PIL import Image
+
+from torchadv.attacks import PGD
+
+# Load a pre-trained model
+model = models.resnet18(pretrained=True)
+model.eval()
+
+# Load an image and preprocess it
+transform = transforms.Compose([
+    transforms.Resize((224, 224)),
+    transforms.ToTensor(),
+])
+image = Image.open('path_to_image.jpg')
+orig = transform(image).unsqueeze(0)
+
+# Define the target label
+target_label = torch.tensor([your_target_label])
+
+# Perform the attack
+attack = PGD(model)
+adv = attack(orig, target_label)
+```
+
+## Contributing
+
+Contributions are welcome! If you have any ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
