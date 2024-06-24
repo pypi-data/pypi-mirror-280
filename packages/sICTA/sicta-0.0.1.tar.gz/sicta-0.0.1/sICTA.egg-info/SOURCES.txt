@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+sICTA/__init__.py
+sICTA/customized_linear.py
+sICTA/main.py
+sICTA/pre.py
+sICTA/sICTA_model.py
+sICTA/train.py
+sICTA.egg-info/PKG-INFO
+sICTA.egg-info/SOURCES.txt
+sICTA.egg-info/dependency_links.txt
+sICTA.egg-info/top_level.txt
