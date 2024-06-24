@@ -1,0 +1,16 @@
+jgtml/TideAlligatorAnalysis.py,sha256=fRuxQ7bo6uFLk7Ojot0gtPqq1sNVOw0kOgVFIqSWGfk,2629
+jgtml/__init__.py,sha256=ZNuasSAh-We4SOf4jHj49SyZ-7qtaAP6MjwNlUSD3n8,538
+jgtml/jdash.py,sha256=lP_sHFVIg0QFQ5iMPZi2OvbkjYRKwpDu1i0-XWbJRJM,6382
+jgtml/jgtapp.py,sha256=eUyJuMVosez07YBTxLwOMUpTLG_7B8fTINJz5DKruzU,3583
+jgtml/jgtmlcli.py,sha256=Jh1o3wNOlLKtkUvgYyW1qS-4swCF4mSXj4tBZGqdvXE,5146
+jgtml/jplt.py,sha256=0pArk-LohXfnaMLiGflomwSJw0BYYWy3pWmPmHDYAf8,7127
+jgtml/jtc.py,sha256=zV3VZ4A5Og4pzE1NVgxg9pxlQFqudU8jxxdCQ4n1XVE,29941
+jgtml/ptojgtmlclittfprotocli.py,sha256=ivyE55lcYI7Cma6sZa08N08HZjcoMYzEeTRRVi0YTZk,1303
+jgtml/ptojgtmltidealligator.py,sha256=c5fCJmjGz0aMboleG0ERlo7tAyhCOaejqiBbzfC_WdA,22820
+jgtml/ptottf.py,sha256=00jiuVMI8gRpTOYlfqX_xADIj3A4mr-D5JHwndI2jHo,3314
+jgtml-0.0.71.dist-info/LICENSE,sha256=G1x51YNR21TIHbY2EYzGqgnJyhTP08hUYb6pSoLYRFM,1086
+jgtml-0.0.71.dist-info/METADATA,sha256=4z6dTWxIsDh2AOmTIjScFfV4tKwv-jMlmYg2L1FG5xE,1562
+jgtml-0.0.71.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+jgtml-0.0.71.dist-info/entry_points.txt,sha256=gDBaUe3fw68CCq14LtED4JEPZxkoS5APc7b6wYWHIgo,192
+jgtml-0.0.71.dist-info/top_level.txt,sha256=FOTxp4OIUrWS3SP-783lBNEqGdfnBlX5FZKyfUq6q5M,6
+jgtml-0.0.71.dist-info/RECORD,,
