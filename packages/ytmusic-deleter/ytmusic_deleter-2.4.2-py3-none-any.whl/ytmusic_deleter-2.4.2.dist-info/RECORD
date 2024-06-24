@@ -1,0 +1,12 @@
+ytmusic_deleter-2.4.2.dist-info/METADATA,sha256=Y4SnlCx511-pO1ANHcX3U7fNtXtRKG80Yv_NVwr68rU,5879
+ytmusic_deleter-2.4.2.dist-info/WHEEL,sha256=SOP-4bEE0jbVaCHQGVvF08uWxk5rcSsfEybvoQVHlD8,90
+ytmusic_deleter-2.4.2.dist-info/entry_points.txt,sha256=NP1oqCKu0z1-YxmykywWLbi-YUCT6Bd8UbQx1CyTN3k,61
+ytmusic_deleter-2.4.2.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ytmusic_deleter/_version.py,sha256=mbr1x0lgwkkOTfP8_pmHp21dDLicZtB6g0722CdAIlc,22
+ytmusic_deleter/auth.py,sha256=M3U-B1GKrM4dcguKK1OKqGFIZfveX1Pa9rfU6DllsnA,1139
+ytmusic_deleter/cli.py,sha256=4hrCh3L1vX2uR4au-4megY3Kg-UAU_qZj1uSp1UeIbE,21063
+ytmusic_deleter/common.py,sha256=AVafY1ihRIUh4660Iv1-Qwrqw9yu7hxgsz2DBlsn-7c,488
+ytmusic_deleter/duplicates.py,sha256=iL_hWmwExAP6iewAxvmvymnfEcBvLnvKiQdkN9FC8wo,5518
+ytmusic_deleter/progress.py,sha256=VCpGUQ1Uo0VDn9VruQ_Dhjqxj69dqxVah_ILf5Nfz3g,319
+ytmusic_deleter/uploads.py,sha256=QGXXcpgovNwFjTyTQnCSEZdFg3qWVOq_yKQAHzWaJhY,9509
+ytmusic_deleter-2.4.2.dist-info/RECORD,,
