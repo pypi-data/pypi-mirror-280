@@ -1,0 +1,8 @@
+README.md
+setup.py
+citiesnearby/__init__.py
+citiesnearby/main.py
+citiesnearby.egg-info/PKG-INFO
+citiesnearby.egg-info/SOURCES.txt
+citiesnearby.egg-info/dependency_links.txt
+citiesnearby.egg-info/top_level.txt
