@@ -1,0 +1,10 @@
+robobo_emotion/__init__.py,sha256=fJDCAB0A_YXtNwMJanDDnF0WGhBCYdCqOk317CgtscE,222
+robobo_emotion/emotion_audio.py,sha256=vp8uNiaf7kPUtQWEl3ogyzhwVdsOysP5tjeF_QXl-KQ,2110
+robobo_emotion/emotion_image.py,sha256=e29U5eLK2A3T4tH4BuxVEPGMsY9csYWBZ6ObY0thElI,513
+robobo_emotion/robobo_multimodal_emotion.py,sha256=2NhTfHugL1mqqg1VcdRv_CVa4-IyfCDUAR1ni21E4Vg,4157
+robobo_multimodal_emotion/__init__.py,sha256=fSPtp0YWPTcsMi1MdyvSWPUjkCJMtWZLpz8_RrOd70Y,86
+robobo_multimodal_emotion/robobo_multimodal_emotion.py,sha256=kaYBTuwWg7tYQsa9Ht-FWHm0ujtpvJeVvVJ19ToPG1c,924
+robobo_emotion-0.7.dist-info/METADATA,sha256=kjbdIPvCsMh_lp7AnVpqLrhxRjlz67ZScC51WoneQUo,5186
+robobo_emotion-0.7.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+robobo_emotion-0.7.dist-info/top_level.txt,sha256=79Zt2d7hEqfHgPrwjo6asN2-TfXR0pzmcmqk6gHj1u8,15
+robobo_emotion-0.7.dist-info/RECORD,,
