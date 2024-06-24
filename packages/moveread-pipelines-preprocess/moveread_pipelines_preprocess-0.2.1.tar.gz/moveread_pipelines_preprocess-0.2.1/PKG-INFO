@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: moveread-pipelines-preprocess
+Version: 0.2.1
+Summary: package_description
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Project-URL: repo, https://github.com/moveread/dfy-pipeline.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pure-cv
+Requires-Dist: robust-extraction2
+Requires-Dist: scoresheet-models
+Requires-Dist: lazy-loader
+Requires-Dist: pipeteer
+Requires-Dist: dslog
+Requires-Dist: fastapi
+Requires-Dist: kv-fs
+Requires-Dist: moveread-boxes
+Requires-Dist: moveread-annotations
+
+# Moveread Pipelines Preprocess
+
+> package_description

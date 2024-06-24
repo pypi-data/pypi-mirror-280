@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moveread-pipelines-preprocess"
+version = "0.2.1"
+authors = [
+  {name="Marcel Claramunt", email="marcel@moveread.com"}
+]
+description = "package_description"
+dependencies = [
+  "pure-cv", "robust-extraction2", "scoresheet-models", "lazy-loader",
+  "pipeteer", "dslog", "fastapi", "kv-fs", "moveread-boxes", "moveread-annotations",
+]
+requires-python = ">=3.10"
+readme = {file="README.md", content-type="text/markdown"}
+
+[project.urls]
+repo = "https://github.com/moveread/dfy-pipeline.git"
+
+[project.scripts]
+preprocess = "moveread.pipelines.preprocess.scripts.cli:main"
