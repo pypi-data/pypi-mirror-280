@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "contract-wasm-interface-parser"
+version = "0.1.0"
+description = "Contract interface metadata parser for binary Stellar WASM"
+authors = ["overcat <4catcode@gmail.com>"]
+license = "Apache License 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+stellar-sdk = "^10.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
