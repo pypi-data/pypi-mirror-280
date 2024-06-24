@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: haxballgym-tools
+Version: 1.1.1
+Summary: 
+Author: Wazarr
+Author-email: jeje_04@live.com
+Requires-Python: >=3.10,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: haxballgym (>=0.5.8,<0.6.0)
+Requires-Dist: psutil (>=5.9.4,<6.0.0)
+Requires-Dist: stable-baselines3 (<2)
+Requires-Dist: tensorboard (>=2.11.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# HaxBallGym-tools
+
+Extra tools for HaxballGym.
+
+Contains environments for [Stable-Baselines3](https://stable-baselines3.readthedocs.io/en/master/)
+
+## Installation
+
+`pip install haxballgym-tools`
+
