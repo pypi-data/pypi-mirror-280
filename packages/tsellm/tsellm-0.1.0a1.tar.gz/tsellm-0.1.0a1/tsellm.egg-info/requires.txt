@@ -1,0 +1,11 @@
+llm
+setuptools
+pip
+
+[test]
+pytest
+pytest-cov
+black
+ruff
+sqlite_utils
+llm-markov
