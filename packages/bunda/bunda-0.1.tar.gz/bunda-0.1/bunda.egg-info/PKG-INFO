@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: bunda
+Version: 0.1
+Summary: bunda
+Home-page: https://github.com/bunda/bunda
+Author: bunda
+Author-email: bunda@bunda.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: appnope
+Requires-Dist: asttokens
+Requires-Dist: comm
+Requires-Dist: debugpy
+Requires-Dist: decorator
+Requires-Dist: executing
+Requires-Dist: ipykernel
+Requires-Dist: ipython
+Requires-Dist: jedi
+Requires-Dist: jupyter_client
+Requires-Dist: jupyter_core
+Requires-Dist: matplotlib-inline
+Requires-Dist: nest-asyncio
+Requires-Dist: numpy
+Requires-Dist: packaging
+Requires-Dist: parso
+Requires-Dist: pexpect
+Requires-Dist: platformdirs
+Requires-Dist: prompt_toolkit
+Requires-Dist: psutil
+Requires-Dist: ptyprocess
+Requires-Dist: pure-eval
+Requires-Dist: py4j
+Requires-Dist: Pygments
+Requires-Dist: pyspark
+Requires-Dist: python-dateutil
+Requires-Dist: pyzmq
+Requires-Dist: setuptools
+Requires-Dist: six
+Requires-Dist: stack-data
+Requires-Dist: tornado
+Requires-Dist: traitlets
+Requires-Dist: wcwidth
