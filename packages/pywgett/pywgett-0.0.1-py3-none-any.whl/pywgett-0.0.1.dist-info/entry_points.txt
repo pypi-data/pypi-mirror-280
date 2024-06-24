@@ -1,0 +1,2 @@
+[console_scripts]
+pywget = py_wget.cli:main
