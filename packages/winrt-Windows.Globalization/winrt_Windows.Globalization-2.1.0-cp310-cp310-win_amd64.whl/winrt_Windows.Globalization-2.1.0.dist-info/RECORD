@@ -1,0 +1,8 @@
+winrt/_winrt_windows_globalization.cp310-win_amd64.pyd,sha256=rTDCKqBbZ1XuzmU6ho7UWCcSH4vVF90unKuECIw6p3s,397824
+winrt/_winrt_windows_globalization.pyi,sha256=7kM5LjvFoZgbezzYDC28iG5kC90ECW0SbEudX2vvO5A,23707
+winrt/windows/globalization/__init__.py,sha256=hTdIcox3oJJ3e-XgMKupu0ranKa4RPyBCuErokJS71A,1472
+winrt/windows/globalization/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Globalization-2.1.0.dist-info/METADATA,sha256=AC6UwZxo54jm5FyryhflOlRS_8NAfRRpU5Y5VXhZNt0,1193
+winrt_Windows.Globalization-2.1.0.dist-info/WHEEL,sha256=jrOhEbqKwvzRFSJcbYXlJCyVkgVdHg4_7__YHrdTUfw,102
+winrt_Windows.Globalization-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Globalization-2.1.0.dist-info/RECORD,,
