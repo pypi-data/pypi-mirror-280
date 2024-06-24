@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: yukiiiii_tools
+Version: 0.0.1
+Summary: My basic but custo library
+Author-email: Yuk Hu <873933169@qq.com>
+Project-URL: Homepage, https://github.com/Mech-Who/Yukiiiii_tools
+Project-URL: Issues, https://github.com/Mech-Who/Yukiiiii_tools/issues
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 个人工具库
+
+## 一、介绍
+
+    个人用库，汇集各类工具以及自己的工具代码。便于快速安装个性化的依赖。
+
+## 二、安装
+
+## 三、主要内容
+
+## 四、相关依赖
+
+## 五、开发环境说明
+
+    - Python版本：3.10
+    - 使用`conda`管理依赖，保证开发环境一致性
+    - 初始化项目：`pip install -r requirements.txt`安装依赖
