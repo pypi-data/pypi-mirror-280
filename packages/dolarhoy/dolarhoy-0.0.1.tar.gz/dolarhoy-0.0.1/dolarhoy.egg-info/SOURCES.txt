@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dolarhoy/__init__.py
+dolarhoy.egg-info/PKG-INFO
+dolarhoy.egg-info/SOURCES.txt
+dolarhoy.egg-info/dependency_links.txt
+dolarhoy.egg-info/requires.txt
+dolarhoy.egg-info/top_level.txt
+tests/test_dolarhoy.py
