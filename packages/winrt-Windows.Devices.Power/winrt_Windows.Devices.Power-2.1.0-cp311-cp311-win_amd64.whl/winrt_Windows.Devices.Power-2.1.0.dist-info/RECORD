@@ -1,0 +1,8 @@
+winrt/_winrt_windows_devices_power.cp311-win_amd64.pyd,sha256=i_i12OKFWuwdt54TPVJ8T0CujoTVwTcBLk4orpq3boE,65536
+winrt/_winrt_windows_devices_power.pyi,sha256=t77tb5LxbJf1PZgJlLMUafW77BzYqy5HbxlEh8LMER4,1901
+winrt/windows/devices/power/__init__.py,sha256=G0XwlLDkZULbcV7fHTtsxZ9qImDsa3E-BzFyvPbR-jU,306
+winrt/windows/devices/power/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Devices.Power-2.1.0.dist-info/METADATA,sha256=wlvFNhSzLpzUJBCSnHewXFLRsI5XyRnpOg7EI-xb_24,1114
+winrt_Windows.Devices.Power-2.1.0.dist-info/WHEEL,sha256=9wvhO-5NhjjD8YmmxAvXTPQXMDOZ50W5vklzeoqFtkM,102
+winrt_Windows.Devices.Power-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Power-2.1.0.dist-info/RECORD,,
