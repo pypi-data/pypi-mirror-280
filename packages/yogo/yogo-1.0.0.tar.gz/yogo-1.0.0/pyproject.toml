@@ -1,0 +1,61 @@
+[project]
+name = "yogo"
+version = "1.0.0"
+description = "The \"you only glance once\" object detection model"
+authors = [
+  {name = "Axel Jacobsen", email="axelnj44@gmail.com"},
+  {name = "Paul Lebel", email="paul.lebel@czbiohub.org"},
+  {name = "Ilakkiyan Jeyakumar", email="ilakkiyan.jeyakumar@czbiohub.org"},
+]
+readme = "README.md"
+keywords = ["object detection", "YOGO", "YOLO", "deep learning", "PyTorch"]
+license = { file = "LICENSE" }
+requires-python = ">=3.9,<3.11"
+
+dependencies = [
+  "zarr==2.17",
+  "torch>=1.13.1,<=2.1.0",
+  "torchmetrics[detection]>=0.11.4",
+  "torchvision>=0.14.1",
+  "ruamel.yaml==0.17.21",
+  "tqdm>=4.61.2,<5.0.0",
+  "wandb>=0.14.2",
+  "matplotlib>=3.4.2,<4.0.0",
+  "MonkeyType==23.3.0",
+  "onnx>=1.14.0",
+  "onnxruntime>=1.14.1",
+  "onnx-simplifier>=0.4.17",
+  "openvino-dev==2023.0.2"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.4.3,<8.0.0",
+  "ruff>=0.4.4",
+  "black>=24.4.2",
+  "mypy>=1.10.0"
+]
+
+[tool.setuptools.packages.find]
+include = ['yogo*']
+
+[project.scripts]
+yogo = "yogo.__main__:main"
+
+[project.urls]
+repository = "https://github.com/czbiohub-sf/yogo"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+lint.ignore = ["E501"]
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]
