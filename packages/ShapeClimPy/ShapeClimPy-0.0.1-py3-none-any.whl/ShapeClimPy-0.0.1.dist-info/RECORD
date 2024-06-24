@@ -1,0 +1,15 @@
+csv_processing/cleaning_processor.py,sha256=oNp3gvVzpvJv6ePu9YKPd7RDUdOrzqITALf4EEN-AQY,2843
+csv_processing/filling_gaps_processor.py,sha256=TSLZwIxVO4cMuxrNkLQBm1_MfXl_Lrf7TRWyWXfPB7E,19880
+csv_processing/filling_gaps_strategy.py,sha256=oJikwJlyGa-JFKWIQKk-xZBRqpZk_YvLNLkyJvQzz5I,15860
+csv_processing/models.py,sha256=VERK6wo-nhBNmnML9QVjyMN1VKWxkHyyiDIkb5Uz5NM,2513
+csv_processing/parsing_processor.py,sha256=P64O75YmInAkN2JdsS6BO-sSyXrO0_t82ZB2VuVIJIg,3599
+geotiff_processing/geotiff_processor.py,sha256=XC6PBKlKWcQa8jjFqyIrTZxNP3ngSm_6rOCkVBZoe8k,6621
+netcdf_processing/interpolation_service.py,sha256=YOWbwEcac9R9GnLjy9gK-tV1Ym6ENuVjvV8K8sY5XOg,1578
+netcdf_processing/netcdf_processor.py,sha256=OOVBr-VuNnlokYyDjZ7HtRuo1BA6K1XPBMX3YRlGVXs,10924
+relief_processing/relief_merging.py,sha256=4gvF11O--rmDk9UMXMLf3bfrbRvpr-Vug9kDQyMDFwU,4129
+ssp_models_compare/models_comparer.py,sha256=KWYoCs2msTLTBnoDbjSHU17oskMHjtby4dz4iMWSytU,4433
+ShapeClimPy-0.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+ShapeClimPy-0.0.1.dist-info/METADATA,sha256=S6hpyuTllzmCLZT_q9tNwVQ6PNm_z0BQvnDZbjfGC24,2868
+ShapeClimPy-0.0.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+ShapeClimPy-0.0.1.dist-info/top_level.txt,sha256=kCk06frh85E-wxQCCtt0Eeja-ik_aNA_NhezAZ7ww20,89
+ShapeClimPy-0.0.1.dist-info/RECORD,,
