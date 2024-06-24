@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+rxss/__init__.py
+rxss/rxss.py
+rxss.egg-info/PKG-INFO
+rxss.egg-info/SOURCES.txt
+rxss.egg-info/dependency_links.txt
+rxss.egg-info/entry_points.txt
+rxss.egg-info/requires.txt
+rxss.egg-info/top_level.txt
