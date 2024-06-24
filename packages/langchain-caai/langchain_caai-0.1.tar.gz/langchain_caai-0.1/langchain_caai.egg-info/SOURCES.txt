@@ -1,0 +1,11 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+langchain_caai/__init__.py
+langchain_caai/caai_emb_client.py
+langchain_caai.egg-info/PKG-INFO
+langchain_caai.egg-info/SOURCES.txt
+langchain_caai.egg-info/dependency_links.txt
+langchain_caai.egg-info/requires.txt
+langchain_caai.egg-info/top_level.txt

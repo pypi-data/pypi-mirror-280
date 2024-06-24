@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: langchain-caai
+Version: 0.1
+Summary: Python Langchain CAAI Tools
+Home-page: https://caai.ai.uky.edu
+Author: CAAI
+Author-email: ai@uky.edu
+License: Apache 2.0
+License-File: LICENSE.txt
+Requires-Dist: langchain_core
