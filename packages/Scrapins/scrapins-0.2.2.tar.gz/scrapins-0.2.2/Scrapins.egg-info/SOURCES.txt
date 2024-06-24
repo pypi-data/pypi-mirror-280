@@ -1,0 +1,12 @@
+README.md
+setup.py
+Scrapins/__init__.py
+Scrapins/openai.py
+Scrapins/scrap.py
+Scrapins/utils.py
+Scrapins.egg-info/PKG-INFO
+Scrapins.egg-info/SOURCES.txt
+Scrapins.egg-info/dependency_links.txt
+Scrapins.egg-info/top_level.txt
+tests/__init__.py
+tests/test_utils.py
