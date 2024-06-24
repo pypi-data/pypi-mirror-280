@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+ar2en/__init__.py
+ar2en/ar2en.py
+ar2en.egg-info/PKG-INFO
+ar2en.egg-info/SOURCES.txt
+ar2en.egg-info/dependency_links.txt
+ar2en.egg-info/entry_points.txt
+ar2en.egg-info/requires.txt
+ar2en.egg-info/top_level.txt
