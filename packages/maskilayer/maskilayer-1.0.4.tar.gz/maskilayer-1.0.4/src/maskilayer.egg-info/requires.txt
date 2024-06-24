@@ -1,0 +1,10 @@
+numpy
+Pillow
+aiofiles
+fire
+rich
+
+[testing]
+setuptools
+pytest
+pytest-cov
