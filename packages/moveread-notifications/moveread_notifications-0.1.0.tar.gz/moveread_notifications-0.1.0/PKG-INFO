@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: moveread-notifications
+Version: 0.1.0
+Summary: APIs for moveread-notifications
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Project-URL: repo, https://github.com/moveread/notifications.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: pushed-over
+
+# Moveread Notifications
+
+> APIs for moveread-notifications

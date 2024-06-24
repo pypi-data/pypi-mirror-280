@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/moveread/notifications/__init__.py
+src/moveread/notifications/main.py
+src/moveread_notifications.egg-info/PKG-INFO
+src/moveread_notifications.egg-info/SOURCES.txt
+src/moveread_notifications.egg-info/dependency_links.txt
+src/moveread_notifications.egg-info/requires.txt
+src/moveread_notifications.egg-info/top_level.txt
