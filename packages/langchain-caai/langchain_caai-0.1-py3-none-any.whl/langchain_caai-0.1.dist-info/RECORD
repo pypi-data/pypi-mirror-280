@@ -1,0 +1,7 @@
+langchain_caai/__init__.py,sha256=ovguP4wzQEDNguczwiZnhMm4dRRVcvnzmHrfQtlRCNQ,15
+langchain_caai/caai_emb_client.py,sha256=tPHu0oTHGNO9VC5t-zkVALl6TS6MernBSi9gKQ8xFdc,2177
+langchain_caai-0.1.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+langchain_caai-0.1.dist-info/METADATA,sha256=DQToGKOiQV84JL7PE2ipxwEI4VYvwiEWLDQ7dE8XYXA,243
+langchain_caai-0.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+langchain_caai-0.1.dist-info/top_level.txt,sha256=D1R_D4Ls5WWL0b3CbrNxxCwjEurd4JYRYqa4tQjoot0,15
+langchain_caai-0.1.dist-info/RECORD,,
