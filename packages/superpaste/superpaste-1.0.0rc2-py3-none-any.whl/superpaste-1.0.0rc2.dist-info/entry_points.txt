@@ -1,0 +1,2 @@
+[console_scripts]
+superpaste = superpaste.__main__:main

@@ -1,0 +1,16 @@
+superpaste/__init__.py,sha256=CWy02mO4cMXGPI1XIvS7iYugg8Gil6WgeSR4H0H0yKU,97
+superpaste/__main__.py,sha256=YxTqas_kLr9ayR1g-H-hzkmL5RccbiyjPuGUnmq-XAQ,1641
+superpaste/__version__.py,sha256=IdMJXAd0sDZTSxeQ-DJMdjldEZLvVOgK-kckvUiJhwU,414
+superpaste/backends/__init__.py,sha256=HXzNZCGeFKivpkY6Is4x09jPoOjEE-crWNQNEz9CTiY,560
+superpaste/backends/base.py,sha256=crqcfXqDvI1YXQ5XhNPAiF59xoEyfMIw7pYiJzFjM24,4777
+superpaste/backends/hastebin_com.py,sha256=emPA_KGFzVoG6Iw0n3M2a6Du0Gqp7ErK2sdsQvFpg24,3341
+superpaste/backends/hastebin_skyra_pw.py,sha256=6p-BDpOGYP_wDM8vLXF0rMDcBudEqOs1a9YDpT2iJro,475
+superpaste/backends/hst_sh.py,sha256=2PPgGfNktJd6CgdddhGX8vBwYHVU00HJTbbUkIqWRgg,2661
+superpaste/backends/mystb_in.py,sha256=N4zzOthsu_Ld4lqWLjotUXMtc_aUsSbmxftjMx07mvA,5004
+superpaste/backends/paste_ee.py,sha256=RGXZEmAdZL7ONPSm4WxZzFRJnV3vAclJRIX2ZJapV9Y,4317
+superpaste-1.0.0rc2.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+superpaste-1.0.0rc2.dist-info/METADATA,sha256=2D3i6b1vNFiv-71pgVejq-tkr4aOj8B_nKeCSZZ3U8I,3758
+superpaste-1.0.0rc2.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+superpaste-1.0.0rc2.dist-info/entry_points.txt,sha256=orlC27B5qqrhiV2MGRScatdx7Mkkx6aw6yEc0UohYd0,56
+superpaste-1.0.0rc2.dist-info/top_level.txt,sha256=MaQNXZmsXGY0937NxSzN7LOksS5XXso8svU13UeDdXc,11
+superpaste-1.0.0rc2.dist-info/RECORD,,
