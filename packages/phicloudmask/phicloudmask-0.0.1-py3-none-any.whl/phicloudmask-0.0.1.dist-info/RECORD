@@ -1,0 +1,10 @@
+phicloudmask/__init__.py,sha256=HpH9pvugiUhRTb5PSzRpRmjn07nuNUutjLHo_wyORII,119
+phicloudmask/constant.py,sha256=G3xUU-aqaPXoRymuc3T6wO6Bh3iUihIFHcHgY9ZDh3E,4756
+phicloudmask/embedding.py,sha256=BXUAlGRVOEwIN5n066o1XiZp-JZaWuurxOdYN8Dlzlg,13571
+phicloudmask/encoding.py,sha256=zBUg5z9qr-DDDXHfF_z8pYkZVutxbSUn5osVQtM3WHM,5050
+phicloudmask/main.py,sha256=rrT6t9gMURRTK2LkRWtGbtHPzdZUUL9ustKGi5l4R3E,1689
+phicloudmask/segmodel.py,sha256=ERJh5r0p_V5_915dF0Pp_QuNM7nghskSTq1nVdfz6DI,1050
+phicloudmask-0.0.1.dist-info/LICENSE,sha256=YdB4BQMkMzWuKvXRIpQR4g91IQ_pwA5PSH2lNM97zFI,1070
+phicloudmask-0.0.1.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+phicloudmask-0.0.1.dist-info/METADATA,sha256=wrBu0HmRVfSyhl97RL9kxYmidE66379jKUtw3nG43Hk,3334
+phicloudmask-0.0.1.dist-info/RECORD,,
