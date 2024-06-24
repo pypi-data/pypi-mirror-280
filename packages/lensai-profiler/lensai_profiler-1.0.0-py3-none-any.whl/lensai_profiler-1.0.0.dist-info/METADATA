@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: lensai-profiler
+Version: 1.0.0
+Summary: LensAI: A Python Library for Image and Model Profiling with Probabilistic Data Structures using TensorFlow
+Home-page: https://github.com/lens-ai/lensai_profiler
+Author: Venkata Pydipalli
+Author-email: vsnm.tej@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tensorflow
+Requires-Dist: numpy
+Requires-Dist: datasketches
+
+###Lens AI - Data and Model Monitoring Library for Edge AI Applications
+Lensai Profiler TF is a TensorFlow-supported Python library designed to profile data using probabilistic data structures. These profiles are essential for computing model and data drift, ensuring efficient and accurate monitoring of your AI models on edge devices.
+
+##Installation
+Install the Python package using pip:
+
+##bash
+Copy code
+pip install lensai_profiler_tf
+Usage
+For detailed usage, please refer to the provided iPython notebook. Below are the key steps for data and model monitoring on edge devices using Lens AI tools:
+
+##1. Model Training
+During the model training process, use the lensai_profiler_tf library to profile the training data. This step is crucial for establishing baseline profiles for data and model performance.
+
+##2. Model Deployment
+During model deployment, integrate the Lensai C++ profiling code from the following repository: GitHub Repository. This integration profiles the real-time data during inference, enabling continuous monitoring.
+
+##3. Monitoring
+Use the LensAI Server to monitor data and model drift by comparing profiles from the training phase and real-time data obtained during inference. Detailed instructions and implementation examples are available in the examples directory.
+
+##Repository Link: GitHub Repository
+Examples and API Documentation
+For implementation details, refer to the examples directory. The API documentation can be found at the following link: API Documentation.
+
+##Future Development
+The current library focuses on image data profiling and monitoring. Future releases will extend support to other data types.
+
+##Contributions
+We welcome new feature requests and bug reports. Feel free to create issues and contribute to the project.
+
+Thank you for using Lens AI for your edge AI applications. For more information, please visit our GitHub Repository.
