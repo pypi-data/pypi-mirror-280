@@ -1,0 +1,16 @@
+README.md
+setup.py
+yta_voice_module/__init__.py
+yta_voice_module.egg-info/PKG-INFO
+yta_voice_module.egg-info/SOURCES.txt
+yta_voice_module.egg-info/dependency_links.txt
+yta_voice_module.egg-info/requires.txt
+yta_voice_module.egg-info/top_level.txt
+yta_voice_module/experimental/__init__.py
+yta_voice_module/stt/__init__.py
+yta_voice_module/stt/whisper.py
+yta_voice_module/tts/__init__.py
+yta_voice_module/tts/coqui.py
+yta_voice_module/tts/google.py
+yta_voice_module/tts/microsoft.py
+yta_voice_module/tts/open_voice.py
