@@ -1,0 +1,15 @@
+backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backend/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backend/api/v1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backend/application/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backend/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backend/domain/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backend/infrastructure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backend/infrastructure/database.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backend/infrastructure/orm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backend/main.py,sha256=SIepLPZQ3X1ZYaobS7Vnb9x1zTH0ixfGyb7kQuW9LqQ,218
+trainer_loop-0.1.0.dist-info/LICENSE,sha256=W2g7n-TCtH35CtAgNeDv6VsaHlzlM4jwHcFtJXnWhj0,1065
+trainer_loop-0.1.0.dist-info/METADATA,sha256=7Fitz02eKsUI3SJYvYf7D7nuJpR-vo1G_-oGgprZaFE,520
+trainer_loop-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+trainer_loop-0.1.0.dist-info/entry_points.txt,sha256=nckgu-C-8v_sxcy9FmJbxCau76FoeshgDq8YReSeO38,45
+trainer_loop-0.1.0.dist-info/RECORD,,

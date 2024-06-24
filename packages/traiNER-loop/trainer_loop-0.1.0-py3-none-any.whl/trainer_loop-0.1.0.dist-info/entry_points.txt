@@ -1,0 +1,3 @@
+[console_scripts]
+traiNER=backend.main:main
+
