@@ -1,0 +1,8 @@
+winrt/_winrt_windows_services_store.cp310-win_arm64.pyd,sha256=FMP0-SmKoUb075XaK3Km-NQBpw4fsg1uVlUqbKUCJxM,676864
+winrt/_winrt_windows_services_store.pyi,sha256=pAUY_mArwfn1LzeBOWMB92ihvTnRlxUTuhTECY0QRxY,26558
+winrt/windows/services/store/__init__.py,sha256=Fd9re7mJEcJ7Rud8RZY6_31cUL46MSFb_finccroNSg,5461
+winrt/windows/services/store/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Services.Store-2.1.0.dist-info/METADATA,sha256=xc3Brs0IQrR9dj5pH6RR62Hbi7THxyF2idtirOctXNM,1347
+winrt_Windows.Services.Store-2.1.0.dist-info/WHEEL,sha256=CcAI0PRTe_I4keOFlnkSD5f8JWpqn-d3pa3DI_LtI6E,102
+winrt_Windows.Services.Store-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Services.Store-2.1.0.dist-info/RECORD,,
