@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: moveread-pipelines-game-preprocess
+Version: 0.2.2
+Summary: package_description
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Project-URL: repo, https://github.com/moveread/dfy-pipeline.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: moveread-pipelines-preprocess
+Requires-Dist: kv-fs
+Requires-Dist: kv-sqlite-sync
+Requires-Dist: pipeteer
+Requires-Dist: lazy-loader
+
+# Moveread Pipelines Game Preprocess
+
+> package_description
