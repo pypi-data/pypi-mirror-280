@@ -1,0 +1,13 @@
+CINOSUM/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CINOSUM/models/CINOSUM.py,sha256=bxKrTLr2wR7HA6IOODqRs1lnsmdpgc-KW7vZ9-8WeZE,4645
+CINOSUM/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CINOSUM/models/encoder.py,sha256=VyMNXxMeznIVErGARSg1NdbWC0YZ7S6P1x5ukcLeglM,4814
+CINOSUM/models/generate.py,sha256=ZzWzcuTtOF6icy9MIH19aEag1Vc5Bdmvtyj0DEICO2M,12903
+CINOSUM/models/model_builder.py,sha256=QhTk6CaqVCqN4ITuhKhwU-Q4NHQV0Cgbnf_uK94latI,3951
+CINOSUM/models/neural.py,sha256=V76GgaLO3cJlNpzCCmdTwdXfsXG8x0fXYxerOsqM_Gs,8340
+CINOSUM/models/optimizers.py,sha256=KsosNT14AKdLXU1Wrc4ZfNUu6kvkY0fi2ZTieW253W0,9649
+CINOSUM/models/rnn.py,sha256=h8Vu3BMsDTxZI3i_pMzZPdPMoMOHBvvyUo7mkmPN_Bc,3886
+CINOSUM-1.0.8.dist-info/METADATA,sha256=OuD-Q1FuzivZVut8wlTvhzFyFxCvGcjWU1bfCspGKq4,2214
+CINOSUM-1.0.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+CINOSUM-1.0.8.dist-info/top_level.txt,sha256=7V1IupWUyJw6zt7zUxXe27Z8Gj1rOf1bOjauBOWarc8,8
+CINOSUM-1.0.8.dist-info/RECORD,,
