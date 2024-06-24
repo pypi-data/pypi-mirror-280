@@ -1,0 +1,14 @@
+traycortex/client.py,sha256=kyX3BiVkHCZM18LId3VNZWRo3TDa0ZScQSFyjB5d6Us,2345
+traycortex/config.py,sha256=qSq6pT9iWFcOEypYQKF2CnjPxpa60aATsJkZ4Ns44ac,2316
+traycortex/defaults.py,sha256=pXgXwE8yw1GlT7hig2TFc_ZDZzZ3PIj7227HUrPTO7Y,282
+traycortex/images/borgmatic.png,sha256=e7fmK1iHKlUEdCsfKyaj9lNslMvwlvQUtHFtERDPSlk,3593
+traycortex/images/borgmatic_i.png,sha256=2mHLDUUUAPNrEX2P1T0GXxo4MXqHE4KTs6EK87-GYxo,8155
+traycortex/images/borgmatic_i_r.png,sha256=KLkATyjK-1GcUp5xRzHNscjS18Ofrpz3UOenilKmdCo,8619
+traycortex/images/borgmatic_r.png,sha256=dmQ7MpwADi_5Is9rxbbzTaIz--7pmzRs8n72Xy8oRkY,8105
+traycortex/log.py,sha256=WJzbgujffE9yzYR3SRLxEkz_XH7XTKm_RJsDhnyzO-M,799
+traycortex/tray.py,sha256=4EyDSEJ0LNGxqKcvefjYsnasf7jxU5_H5Yv_66uN9XU,4738
+traycortex-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+traycortex-0.1.1.dist-info/METADATA,sha256=rx-kCJNxkSMdgigen1c1YaUrlFjlOL9LHsqy_aJA720,2420
+traycortex-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+traycortex-0.1.1.dist-info/entry_points.txt,sha256=Ua19UaYcaPxonVjzybmvkbUo0MfqgOLwDvqn2-ylSz0,87
+traycortex-0.1.1.dist-info/RECORD,,
