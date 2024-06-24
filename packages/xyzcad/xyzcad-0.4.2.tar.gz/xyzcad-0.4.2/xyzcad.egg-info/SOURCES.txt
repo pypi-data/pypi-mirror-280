@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+xyzcad/__init__.py
+xyzcad/render.py
+xyzcad.egg-info/PKG-INFO
+xyzcad.egg-info/SOURCES.txt
+xyzcad.egg-info/dependency_links.txt
+xyzcad.egg-info/requires.txt
+xyzcad.egg-info/top_level.txt
