@@ -1,0 +1,15 @@
+luganda-ocr/__init__.py,sha256=wAzjbmHFGV_j98IpjO7iFvGdoqxGeX8X3abnMNAdzd0,60
+luganda-ocr/example.py,sha256=AgSXuxQGqctpcu95stbBKoeKF07svZe06GorRZ7FkIQ,1030
+luganda-ocr/model.py,sha256=em1pwvr7N6wf5xxE7yDEGPdjDfOZux2QKEksvntK3YE,3746
+luganda-ocr/utils.py,sha256=2oi-sd79HmvoJxLcKoCdKIi6jdm_XNbSS3js1R1XUyw,4475
+luganda_ocr/__init__.py,sha256=wAzjbmHFGV_j98IpjO7iFvGdoqxGeX8X3abnMNAdzd0,60
+luganda_ocr/example.py,sha256=AgSXuxQGqctpcu95stbBKoeKF07svZe06GorRZ7FkIQ,1030
+luganda_ocr/model.py,sha256=z0hVCJqym2aS-WKDhHV5OsW0oAa3WF-jdbQFYPI3U64,3845
+luganda_ocr/utils.py,sha256=TVRio1bMDb3dHE6LFYvDANdtxdso7gojqM-4qe4q9hA,4577
+luganda_ocr/models/basepath.py,sha256=1u3m5yAdoo3W94ew7xgyA5cQPdhM-XR1KXi9YNitmJ0,211
+luganda_ocr/models/sentenceModel.h5,sha256=wa3h3KEXrHOd4L0U5mxQmQXn17mq1Tnt1uUiplOpGS8,5718544
+luganda_ocr/models/sentenceModel2.h5,sha256=agZp6BFa4WF2xDlhNdVZwg1i8HNy0fY12jHlLtHByoo,5715456
+luganda_ocr-0.0.1.dist-info/METADATA,sha256=dcdBUiif_iMBkI1hMB7mToTKhs1_eKMpjMx5uZPgU8A,1477
+luganda_ocr-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+luganda_ocr-0.0.1.dist-info/top_level.txt,sha256=mjWgmtDgdTZlxrr0EfJ6z7L2kbBylqU8FwCAQLu46SA,12
+luganda_ocr-0.0.1.dist-info/RECORD,,
