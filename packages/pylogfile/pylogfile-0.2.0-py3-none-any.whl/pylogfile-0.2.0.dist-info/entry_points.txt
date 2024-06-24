@@ -1,0 +1,2 @@
+[console_scripts]
+lumber = scripts.lumberjack:main
