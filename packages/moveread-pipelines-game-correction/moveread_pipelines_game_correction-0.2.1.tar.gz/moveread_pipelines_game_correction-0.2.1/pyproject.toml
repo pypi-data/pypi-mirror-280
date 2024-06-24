@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moveread-pipelines-game-correction"
+version = "0.2.1"
+authors = [
+  {name="Marcel Claramunt", email="marcel@moveread.com"}
+]
+description = "package_description"
+dependencies = [
+  "game-prediction2", "pipeteer", "haskellian", "lazy-loader",
+  "fastapi", "uvicorn", "python-multipart", "sse-starlette",
+]
+requires-python = ">=3.10"
+readme = {file="README.md", content-type="text/markdown"}
+
+[project.urls]
+repo = "https://github.com/moveread/dfy-pipeline.git"
+
+[project.scripts]
+gamecorr = "moveread.pipelines.game_correction.cli:main"
+gamecorr-clientgen = "moveread.pipelines.game_correction.api.clientgen_cli:main"
