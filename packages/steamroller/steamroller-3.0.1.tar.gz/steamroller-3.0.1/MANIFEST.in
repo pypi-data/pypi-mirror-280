@@ -1,0 +1,3 @@
+include src/steamroller/data/*py
+include src/steamroller/data/SConstruct
+include src/steamroller/data/custom.py.example
