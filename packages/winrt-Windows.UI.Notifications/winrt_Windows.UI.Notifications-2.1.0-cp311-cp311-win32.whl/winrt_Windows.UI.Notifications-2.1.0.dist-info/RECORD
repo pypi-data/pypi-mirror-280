@@ -1,0 +1,8 @@
+winrt/_winrt_windows_ui_notifications.cp311-win32.pyd,sha256=M9TbKM3r-7CrVFmNvwiv1AcylQ26nrcq4FxmXE_CCgQ,435200
+winrt/_winrt_windows_ui_notifications.pyi,sha256=kkSnRfZrVvVRdqA_TBv_CrA8RF2FKbh6oC2l2wwPuyM,30111
+winrt/windows/ui/notifications/__init__.py,sha256=lN0NXi2NLHl_CY6i4Fk8MIvW72m1VG-rD3OLG2CRooc,11396
+winrt/windows/ui/notifications/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.UI.Notifications-2.1.0.dist-info/METADATA,sha256=tuzLOLdSMzOm3EuabWQNv9m1_ueTNhUOiewbJgifpKE,1359
+winrt_Windows.UI.Notifications-2.1.0.dist-info/WHEEL,sha256=4_gqTcsEhdxj3Ssg4q283IXTSwrMvsE7HL9ju9Nna7Q,98
+winrt_Windows.UI.Notifications-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.UI.Notifications-2.1.0.dist-info/RECORD,,
