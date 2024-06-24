@@ -1,0 +1,9 @@
+touchstone_auth/__init__.py,sha256=r1wfvG-y7eW9i-90XdkCtgcxho9k0IWkHDwIpBWXyHs,18
+touchstone_auth/__main__.py,sha256=l5p8cASrAmCSRbfJj8MAqhYxlNuLDidaUz5j9xgLQ3U,1059
+touchstone_auth/okta_parsing.py,sha256=--PWN_E72FiB4tKEu9O6bJE1wsa_k4Sy5UajNV6-cqc,2587
+touchstone_auth/sso.py,sha256=al557qrB3RxIeCq0UqrA_uDfDLMa9yMcQQqzv5G_288,27631
+touchstone_auth-0.8.0.dist-info/LICENSE,sha256=kHVe1CX9HXoCK2GfMoPTJ2162Si97-HzgkXGc5PNwZk,1093
+touchstone_auth-0.8.0.dist-info/METADATA,sha256=46yfhAG9uQpbh_L6LSKrOjK_LbWrRirKRbRVXHD-YKo,11008
+touchstone_auth-0.8.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+touchstone_auth-0.8.0.dist-info/top_level.txt,sha256=LY38hxPc_I3MofBPIeVCfzFmqcFOKdCQWpVf1Hn-Yws,16
+touchstone_auth-0.8.0.dist-info/RECORD,,
