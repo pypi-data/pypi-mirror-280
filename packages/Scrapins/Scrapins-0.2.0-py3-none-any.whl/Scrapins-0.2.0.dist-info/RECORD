@@ -1,0 +1,10 @@
+Scrapins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Scrapins/openai.py,sha256=cRoLFKhUI_NueKnRU9SJvuMJRwDpL2eY4oP3FU9dfWE,1249
+Scrapins/scrap.py,sha256=PxMrw0g6eeLnTT9GXvaQ7GYJUFemGQC-YMpMvpz24LU,1288
+Scrapins/utils.py,sha256=Wtpkx2HhT_Bt7FvX-Nzzd06IUT-jGk-CY9YfcREKivA,3903
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_utils.py,sha256=ZvmFNm384nnFrt9WX_JoVzvWghc-ri47D0w0UG9FEU0,1293
+Scrapins-0.2.0.dist-info/METADATA,sha256=tn5O_YkLSGc-0rG0Wm_KOXI4v-QgdSBGAiW96uVeWR0,682
+Scrapins-0.2.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+Scrapins-0.2.0.dist-info/top_level.txt,sha256=fW348EktLEnJV1A2RPz-KcgKXJHwrEKpxGDL7zYzNTk,15
+Scrapins-0.2.0.dist-info/RECORD,,
