@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pushed-over
+Version: 0.1.3
+Summary: Typed, async client for the Pushover API
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Project-URL: repo, https://github.com/moveread/REPO.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic
+Requires-Dist: httpx
+Requires-Dist: haskellian
+
+# Pushed Over
+
+> Typed, async client for the Pushover API
+
+```
+pip install pushed-over
+```
+
+## Usage
+
+```python
+from pushed_over import notify
+
+await notify(
+    token="your-pushover-token",
+    user="your-pushover-user",
+    message="Hello, world!",
+)
+# Either[Err, Ok]
+```
+
+Or, with the `PUSHOVER_TOKEN` and `PUSHOVER_USER` environment variables set:
+
+```python
+await notify(message="Hello, world!")
+```
+
+For other parameters, just let auto-complete guide you ;)
