@@ -1,0 +1,10 @@
+aws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws/cloudwatch.py,sha256=eostFfurqCWikrTs0BwtqqEHY5k6aFWnxD0PV9W8fZI,3009
+aws/glue.py,sha256=zmYY8xZQ0PIoL09JTu3DiUlJsKXqQqTT0dbEZQKv6Uc,3167
+aws/lambda.py,sha256=d2g7DB4ZqcMQjKqPSUriQEcgRB15OqsO7yH6_VFsFcI,2754
+aws/s3.py,sha256=dwXjHjvBf5EA9xukWmUcUFzfeZKBkKX_3npYOnsrFug,4753
+pnh_ttf-1.0.0.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+pnh_ttf-1.0.0.dist-info/METADATA,sha256=gIJRvCY5eyqTwY4HwubfkwZ3mUfdO5SFLoChv14nqco,6223
+pnh_ttf-1.0.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+pnh_ttf-1.0.0.dist-info/top_level.txt,sha256=cGN9AygK9hJ6obZkvkz9vh2cDIwiYSmUDUzkbuWVdBo,4
+pnh_ttf-1.0.0.dist-info/RECORD,,
