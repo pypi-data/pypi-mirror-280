@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "hellsicht"
+version = "0.1.0"
+description = ""
+authors = ["voidpointercast <voidpointercast@justmail.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+toolz = "^0.12.1"
+pandas = "^2.2.2"
+pyarrow = "^16.1.0"
+dacite = "^1.8.1"
+
+[tool.mypy]
+ignore_missing_imports = true
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+mypy = "^1.10.0"
+pytest-cov = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
