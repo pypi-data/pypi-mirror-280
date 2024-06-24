@@ -1,0 +1,12 @@
+_jaxbind.cpython-312-darwin.so,sha256=yK_sFty4hv4iOoBph1uR83dxM2JqNmhFTUXBzydGw3A,175752
+jaxbind-1.1.0.dist-info/RECORD,,
+jaxbind-1.1.0.dist-info/LICENSE,sha256=PxXTfmH-Zv65ycQ6B6TE1_kHyzCGZ8_J9zWTO27k0nA,1306
+jaxbind-1.1.0.dist-info/WHEEL,sha256=QBUZFS3KbepaguWT-2rhOD8jkBgjTGrjFOzb6ImYvEU,111
+jaxbind-1.1.0.dist-info/top_level.txt,sha256=W4klZfmjeodUlW1ft6KcStq-js8tSw4m0JWANPuQWNc,17
+jaxbind-1.1.0.dist-info/METADATA,sha256=olNOV39Nuv9-PofziXVKn5xwoxGAoRkeefEHR8JUi40,12904
+jaxbind/misc.py,sha256=o37WQOgSP5usw1DsBMZG_Ci1xgsTkbpqH43WfeMIEOI,626
+jaxbind/custom_map.py,sha256=vBXSChFM6IVvKtRoPN5CdNVFi8k9TVPbC_mp_FY0ec0,4284
+jaxbind/__init__.py,sha256=1yqizR3gUjGXdYNFWe4CrM66Ea-qiHNq-P0Akxot_TE,110
+jaxbind/jaxbind.py,sha256=cc4N0j7oVmaMwczuSQTlQbJrNvuXnSJcUEKFUTp-Le0,19692
+jaxbind/contrib/jaxducc0.py,sha256=EJ4ymqhOS8_0mQpW_NJH8nZ9C7rLIjnIvPvEc6qGbYs,11342
+jaxbind/contrib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
