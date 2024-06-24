@@ -1,0 +1,8 @@
+winrt/_winrt_windows_security_exchangeactivesyncprovisioning.cp311-win32.pyd,sha256=t66MzUxGWrhwqsSTlrZeJymKKGsJxUmQdYsOOkAFb9s,78848
+winrt/_winrt_windows_security_exchangeactivesyncprovisioning.pyi,sha256=aoaHrx8p8TbTUBXQY3jkWRQq47F3qbGl20auhfhpHrM,4391
+winrt/windows/security/exchangeactivesyncprovisioning/__init__.py,sha256=vA2tP-EGThp8MLYmllj2sVDrMctAUzAGoEhh4MIxfpE,3960
+winrt/windows/security/exchangeactivesyncprovisioning/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Security.ExchangeActiveSyncProvisioning-2.1.0.dist-info/METADATA,sha256=AStHKYg-QLXYS7q44EH_WukG-KBHZWfGeMk_l-DVrEc,1143
+winrt_Windows.Security.ExchangeActiveSyncProvisioning-2.1.0.dist-info/WHEEL,sha256=4_gqTcsEhdxj3Ssg4q283IXTSwrMvsE7HL9ju9Nna7Q,98
+winrt_Windows.Security.ExchangeActiveSyncProvisioning-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Security.ExchangeActiveSyncProvisioning-2.1.0.dist-info/RECORD,,
