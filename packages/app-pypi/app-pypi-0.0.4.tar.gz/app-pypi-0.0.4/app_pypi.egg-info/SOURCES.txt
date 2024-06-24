@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+app_pypi.egg-info/PKG-INFO
+app_pypi.egg-info/SOURCES.txt
+app_pypi.egg-info/dependency_links.txt
+app_pypi.egg-info/entry_points.txt
+app_pypi.egg-info/requires.txt
+app_pypi.egg-info/top_level.txt
+my-app-poetry/__init__.py
+my-app-poetry/module.py
+tests/__init__.py
+tests/test_module1.py
