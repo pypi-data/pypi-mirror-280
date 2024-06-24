@@ -1,0 +1,14 @@
+python_odt_template/__about__.py,sha256=5lAkq2F8oin4WnZjBe3xQCsdp9dprn_DVftw1mZ7djQ,129
+python_odt_template/__init__.py,sha256=mbaI_4So5vZ0-TEUV9VUiCHbqjjKZpHYLdBSIh5PxJo,314
+python_odt_template/dtl.py,sha256=DZJV7CIL_iAPvxI2nBN4aJv7_VSQTL1fo89E69EhKxQ,66
+python_odt_template/filters.py,sha256=nYxrM7gfPJzYT6yOwg_m6ww-YynbsoQiliKG205AIf0,659
+python_odt_template/jinja.py,sha256=f3Ji4a96lbw-hCwD1vd_Qhxtkac_PjwOEABb_JmR7XY,1707
+python_odt_template/libreoffice.py,sha256=sb9X10CYTX7M3lmBWIq7bBwhYQpG84Wx52Qx7me2vLs,1101
+python_odt_template/markdown_map.py,sha256=wLh_c1CQOopw6XZHJYXXslJ9IYm3da3nDcKX9Z6mcbs,2679
+python_odt_template/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_odt_template/renderer.py,sha256=EhbttmWTT4iBKKCaUmEZZr0ZSReH4xRh7Qhih_T3J9w,13194
+python_odt_template/template.py,sha256=K9iBBo1d0raikDCGUID1ZsZoFTQN8f-2LBVUdjR7G3I,9822
+python_odt_template-0.1.0.dist-info/METADATA,sha256=ggdRMSFb275tJn4fjBsYwqe9mUc6Vgv9MtbW30j90FA,2786
+python_odt_template-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+python_odt_template-0.1.0.dist-info/licenses/LICENSE.txt,sha256=0QF8XfuH0zkIHhSet6teXfiCze6JSdr8inRkmLLTDyo,1099
+python_odt_template-0.1.0.dist-info/RECORD,,
