@@ -1,0 +1,9 @@
+snappi/__init__.py,sha256=2q4CleDIm80qrXnkmPcC5Dh51Ri8S0nqSWzCqOS0oWY,62933
+snappi/otg_pb2.py,sha256=itkgP4xcw3mCuA7ujNdj5BJtLiIHPCWPl3pXnBMjlmg,721413
+snappi/otg_pb2_grpc.py,sha256=0OYRaLve2qF4c1ACJndb25YTaa4zirbpeyRu5uTNaRc,15543
+snappi/snappi.py,sha256=qAqSgMsit0ZbfxbaIZ4u5v4JFRI1f75zDjKL-dUiZZ8,4281610
+snappi-1.6.1.dist-info/LICENSE,sha256=EJ8uMB85Z-KSV0Zq_-TEqAaS5rgTmVKlI3UJxZs4SAk,1079
+snappi-1.6.1.dist-info/METADATA,sha256=dxKGSzH_8Akf_eH9cBwrqwbq8bq9vy6FPRgbpYwMWn8,5613
+snappi-1.6.1.dist-info/WHEEL,sha256=pOwdCRdxkCaq8tWTvnGIC-q_meWYHwmqvvQPkeaM2I4,109
+snappi-1.6.1.dist-info/top_level.txt,sha256=AbXorJRnLfRSU8sjmK1dSzJsCjG8NKKVsvWTjW3_3OI,7
+snappi-1.6.1.dist-info/RECORD,,
