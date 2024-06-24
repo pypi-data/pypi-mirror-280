@@ -1,0 +1,69 @@
+# OKN LABEL PYTHON PACKAGE LIBRARY MANUAL
+Python program to label the signal.csv and produce signal.updated.csv which contains label information such as **is_chained_okn** and **num_chained_okn** etc.  
+
+## Installation requirements and guide
+### Anaconda
+To install this program, **Anaconda python distributing program** and **Anaconda Powershell Prompt** are needed.  
+If you do not have **Anaconda**, please use the following links to download and install:  
+Download link: https://www.anaconda.com/products/distribution  
+Installation guide link: https://docs.anaconda.com/anaconda/install/  
+
+### PIP install
+To install **oknlabel**, you have to use **Anaconda Powershell Prompt**.  
+After that, you can use the **oknlabel** from any command prompt.  
+In **Anaconda Powershell Prompt**:
+```
+pip install oknlabel
+```
+
+## Usage guide
+### Example usage
+```
+oknlabel -i (input csv file) -c (config file) -r (rule_info/rule_info_file) -o (output csv file)
+```
+Only `-i` flag is mandatory.  
+The rest `-c`, `-r` and `-o` are optional flags.  
+
+#### `-c` flag
+To use the custom label config instead of built-in config which has information which and how we gonna add new columns into output csv file.  
+Example
+```
+oknlabel -i (input csv file) -c ./development/oknlabel_config.json
+```
+
+#### `-r` flag
+To use the custom rules instead of default rules which are 2 **min_okn_chain_length** and 3 **min_okn_per_window**.  
+It can be string input or file input.  
+Example
+```
+oknlabel -i (input csv file) -r min_okn_chain_length:2,min_okn_per_window:3
+```
+(or)
+```
+oknlabel -i (input csv file) -r ./development/okn_detection_rule.json
+```
+
+#### `-o` flag
+To change the default output directory location. The default directory will be the same level as input file and output file name will be **signal.updated.csv**.  
+
+
+### Testing
+If you want to test this program, you can clone this repository, install **oknlabel** and then open any command prompt or terminal.  
+In the terminal, go to **../oknlabel/development** directory then run the following command:
+```
+oknlabel -i signal.csv
+```
+That will produce signal.updated.csv in that directory.
+
+
+### To upgrade version  
+In **Anaconda Powershell Prompt**,
+```
+pip install -U oknlabel
+```
+or
+```
+pip install --upgrade oknlabel
+```
+
+

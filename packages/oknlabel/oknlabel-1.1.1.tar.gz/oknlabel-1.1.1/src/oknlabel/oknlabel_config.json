@@ -1,0 +1,10 @@
+{
+    "labels" : [ 
+    { "Enabled" : true, "function" : "is_any_true", "input": [ "is_sp", "is_qp" ], "output": "is_okn" },
+    { "Enabled" : true, "function" : "is_chained_okn", "input": [ "result_id", "result_chain_id" ], "output": "is_chained_okn" }, 
+    { "Enabled" : true, "function" : "num_of_chained_okn", "input": [ "result_id", "result_chain_id" ], "output": "num_of_chained_okn" },
+    { "Enabled" : true, "function" : "is_sparse_okn", "input": [ "result_chain_id", "num_of_chained_okn" ], "output": "is_sparse_okn",  "window_type": "rows", "window_size": 100 },
+    { "Enabled" : false, "function" : "is_sparse_okn", "input": [ "result_chain_id", "num_of_chained_okn", "t" ], "output": "is_sparse_okn",  "window_type": "time", "window_size": 2 },
+    { "Enabled" : true, "function" : "is_any_true", "input": [ "is_chained_okn", "is_sparse_okn" ], "output": "is_valid_okn" }
+    ]
+}
