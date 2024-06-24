@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: rxss
+Version: 0.0.1.post2
+Summary: Tool to check reflecting params and paths in a bunch of URLs
+Home-page: https://github.com/basedygt/rxss
+Author: basedygt
+License: Apache-2.0 License
+Keywords: rxss,Reflected Cross Site Scripting,Pentest tools
+Classifier: Topic :: Security
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Rxss
+Tool to check reflecting params and paths in a bunch of URLs
