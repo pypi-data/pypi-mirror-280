@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+AIConsole_o.egg-info/PKG-INFO
+AIConsole_o.egg-info/SOURCES.txt
+AIConsole_o.egg-info/dependency_links.txt
+AIConsole_o.egg-info/entry_points.txt
+AIConsole_o.egg-info/requires.txt
+AIConsole_o.egg-info/top_level.txt
+app/__init__.py
+app/api.py
+app/commands.py
+app/logo.py
+app/main.py
+app/os_system.py
+app/prompts.py
+test/test.py
