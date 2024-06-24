@@ -1,0 +1,5 @@
+llama_index/storage/docstore/azure/__init__.py,sha256=xMzUl-QWMcqr9Kf6xBPLXpvp6g8hQ4hIlE_weey5PQU,105
+llama_index/storage/docstore/azure/base.py,sha256=mHVWmx9LxLO4fLyc44PrD6Tax0AJLGkv1V4Tw6ihZto,13445
+llama_index_storage_docstore_azure-0.1.1.dist-info/METADATA,sha256=Xo4YKx23Ho_8fJgADKWv0SzPtBXz4WsOWifTqYMjjGk,3093
+llama_index_storage_docstore_azure-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llama_index_storage_docstore_azure-0.1.1.dist-info/RECORD,,
