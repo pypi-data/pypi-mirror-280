@@ -1,0 +1,8 @@
+README.md
+setup.py
+num_management/__init__.py
+num_management/converter.py
+num_management.egg-info/PKG-INFO
+num_management.egg-info/SOURCES.txt
+num_management.egg-info/dependency_links.txt
+num_management.egg-info/top_level.txt
