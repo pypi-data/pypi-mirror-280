@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pytest_server
+Version: 1.0.0
+Summary: test server exec cmd
+Author-Email: funcdefmain <741132517@qq.com>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: flask>=3.0.0
+Requires-Dist: requests>=2.32.0
+Description-Content-Type: text/markdown
+
+# pytest_server
