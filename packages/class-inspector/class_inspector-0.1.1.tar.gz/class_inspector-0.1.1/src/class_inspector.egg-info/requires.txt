@@ -1,0 +1,16 @@
+attrs>=22.1.0
+python-dotenv>=0.21.0
+
+[dev]
+class_inspector[lint,test]
+
+[lint]
+black<24
+ruff
+pylint>=3.0.1
+
+[test]
+numpy>=1.19.5
+pytest
+pytest-cov
+hypothesis
