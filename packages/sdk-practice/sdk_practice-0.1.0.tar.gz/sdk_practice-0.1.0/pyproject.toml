@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sdk-practice"
+version = "0.1.0"
+description = "A test project for sdk practice"
+authors = ["jinyang628 <chenjinyang4192@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/jinyang628/sdk_practice"
+repository = "https://github.com/jinyang628/sdk_practice"
+documentation = "https://jinyang628.github.io/sdk_practice/"
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

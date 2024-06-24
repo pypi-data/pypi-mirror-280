@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sdk-practice
+Version: 0.1.0
+Summary: A test project for sdk practice
+Home-page: https://github.com/jinyang628/sdk_practice
+Author: jinyang628
+Author-email: chenjinyang4192@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Documentation, https://jinyang628.github.io/sdk_practice/
+Project-URL: Repository, https://github.com/jinyang628/sdk_practice
+Description-Content-Type: text/markdown
+
+# sdk_practice
+Learning how to create an SDK and publish it on PyPi
+
