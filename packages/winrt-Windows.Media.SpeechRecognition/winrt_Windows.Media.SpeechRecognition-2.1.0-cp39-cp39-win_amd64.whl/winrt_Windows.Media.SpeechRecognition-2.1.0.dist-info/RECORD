@@ -1,0 +1,8 @@
+winrt/_winrt_windows_media_speechrecognition.cp39-win_amd64.pyd,sha256=cPN1LvrJthHIySowVnUCcf54u6eWc_shrblFjBbvPaM,307200
+winrt/_winrt_windows_media_speechrecognition.pyi,sha256=tdrhms284UU3U851SlgJkNggckl-mDGum1wOlLt5TVI,15876
+winrt/windows/media/speechrecognition/__init__.py,sha256=fDXYSLesGi3QSX8yVlwu4sTPty9PTm6X4bIsdcMI2xo,4705
+winrt/windows/media/speechrecognition/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Media.SpeechRecognition-2.1.0.dist-info/METADATA,sha256=y9KgaqVteL4CT9C3CXcV69rb2G8R_TuV8oD3zkWsXjY,1310
+winrt_Windows.Media.SpeechRecognition-2.1.0.dist-info/WHEEL,sha256=eep6QWEFiQfg2wcclssb_WY-D33AnLYLnEKGA9Rn-VU,100
+winrt_Windows.Media.SpeechRecognition-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Media.SpeechRecognition-2.1.0.dist-info/RECORD,,
