@@ -1,0 +1,11 @@
+sICTA/__init__.py,sha256=ehkOxKb4nC0fKXGphmWzopO_PZif1jD0beBLapk5FNc,6184
+sICTA/customized_linear.py,sha256=XUp3o02sULKiTJVT81wyudjZ_dTvYtur3qppUjxeMPA,5902
+sICTA/main.py,sha256=eUo77spBr_cJSzXx47wunOGv0JOm7J3I-_VXj8Y_ZBs,1022
+sICTA/pre.py,sha256=U0JLXo-A69yXQCZL-1S5Rikh4NPSDA60LXN4FeiEXps,7510
+sICTA/sICTA_model.py,sha256=ZVjl23hppWeOxbsT4tt4jdMmMz5gS85BKRZgECiI4Jg,10919
+sICTA/train.py,sha256=NqFG41g_8Z1IZ3aJd5t83PI3qrNueVEotl27rxOWNPg,12971
+sICTA-0.0.2.dist-info/LICENSE.txt,sha256=dh9wNBdL8OqPt-Mc7VnI4Yqrd-M2D_igWcqod53BxDY,1076
+sICTA-0.0.2.dist-info/METADATA,sha256=SiCA1yjuruoGzFH0TjuEryUHFV5-433A4qTWwDy59BE,1990
+sICTA-0.0.2.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+sICTA-0.0.2.dist-info/top_level.txt,sha256=0Xb0HNfhaNAhsLbve9hZHPh7C3QoARnQJ2tGEEHX1vQ,6
+sICTA-0.0.2.dist-info/RECORD,,
