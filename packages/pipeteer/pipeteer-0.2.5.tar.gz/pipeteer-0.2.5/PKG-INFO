@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pipeteer
+Version: 0.2.5
+Summary: Queue-based workflow orchestration
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Project-URL: repo, https://github.com/marciclabas/pipeteer.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: haskellian
+Requires-Dist: lazy-loader
+Provides-Extra: http
+Requires-Dist: fastapi; extra == "http"
+Requires-Dist: httpx; extra == "http"
+Provides-Extra: server
+Requires-Dist: fastapi; extra == "server"
+Provides-Extra: client
+Requires-Dist: httpx; extra == "client"
+Provides-Extra: sqlite
+Requires-Dist: kv-sqlite-sync; extra == "sqlite"
+
+# Pipeteer
+
+> Queue-based workflow orchestration
+
+## Ideas of v3
+- Pass parameters on queue creation instead of (or both) on running?
+  - So that one e.g. can override `push_queue` and `premap` it by storing an image or something

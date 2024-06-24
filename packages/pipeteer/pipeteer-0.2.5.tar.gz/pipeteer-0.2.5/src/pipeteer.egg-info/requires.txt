@@ -1,0 +1,15 @@
+haskellian
+lazy-loader
+
+[client]
+httpx
+
+[http]
+fastapi
+httpx
+
+[server]
+fastapi
+
+[sqlite]
+kv-sqlite-sync
