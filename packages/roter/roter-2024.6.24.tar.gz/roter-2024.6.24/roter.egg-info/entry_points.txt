@@ -1,0 +1,2 @@
+[console_scripts]
+roter = roter.cli:app
