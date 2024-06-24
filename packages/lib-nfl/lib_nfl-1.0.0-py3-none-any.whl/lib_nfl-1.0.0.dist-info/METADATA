@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: lib-nfl
+Version: 1.0.0
+Summary: NFL is a number formatting library.
+Home-page: https://github.com/DDavid701/nfl
+Author: DDavid701
+Author-email: ddavid701@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Number Format Lib
+
+NFL or Number Format Lib is a python module that is used to format numbers.
+
+#### example
+```python
+40000 = '40.0k'
+```
+
+If you want to use the documentation go to the ```docs.md``` file.
+
+#### setup
+
+To install the module run this command in you're terminal:
+```shell
+pip install python-nfl 
+```
