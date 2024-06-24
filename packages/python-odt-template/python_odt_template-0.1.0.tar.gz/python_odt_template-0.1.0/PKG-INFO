@@ -1,0 +1,82 @@
+Metadata-Version: 2.3
+Name: python-odt-template
+Version: 0.1.0
+Project-URL: Documentation, https://github.com/Tobi-De/python-odt-template#readme
+Project-URL: Issues, https://github.com/Tobi-De/python-odt-template/issues
+Project-URL: Source, https://github.com/Tobi-De/python-odt-template
+Author-email: Tobi DEGNON <tobidegnon@proton.me>
+License-Expression: MIT
+License-File: LICENSE.txt
+Keywords: django,jinja2,libreoffice,odt,open-document-text
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: markdown2
+Provides-Extra: django
+Requires-Dist: django>=3; extra == 'django'
+Provides-Extra: jinja
+Requires-Dist: jinja2; extra == 'jinja'
+Description-Content-Type: text/markdown
+
+# python-odt-template
+
+[![PyPI - Version](https://img.shields.io/pypi/v/python-odt-template.svg)](https://pypi.org/project/python-odt-template)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/python-odt-template.svg)](https://pypi.org/project/python-odt-template)
+
+-----
+
+> [!IMPORTANT]
+> This package currently contains minimal features and is a work-in-progress
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Alternatives](#alternatives)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+```console
+pip install python-odt-template
+```
+
+## Usage
+
+```python
+from python_odt_template import ODTTemplate
+from python_odt_template.jinja import enable_markdown
+from python_odt_template.jinja import get_odt_renderer
+from python_odt_template.libreoffice import convert_to_pdf
+
+odt_renderer = get_odt_renderer(media_path="inputs")
+
+with ODTTemplate("inputs/simple_template.odt") as template, enable_markdown(template.get_markdown_filter()):
+    odt_renderer.render(
+        template,
+        context={"document": document, "countries": countries},
+    )
+    template.pack("simple_template_rendered.odt")
+    convert_to_pdf("simple_template_rendered.odt", "outputs")
+```
+
+## Alternatives
+
+- [python-docx-template](https://github.com/elapouya/python-docx-template)
+
+## Credits
+
+Thanks to [secretary](https://github.com/christopher-ramirez/secretary) for the enormous amount of integration work on Jinja2 and ODT.
+
+## License
+
+`python-odt-template` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
