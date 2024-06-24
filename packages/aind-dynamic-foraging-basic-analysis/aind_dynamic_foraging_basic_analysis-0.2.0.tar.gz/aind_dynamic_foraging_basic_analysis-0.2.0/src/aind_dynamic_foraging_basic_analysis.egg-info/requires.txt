@@ -1,0 +1,14 @@
+numpy
+matplotlib
+pydantic
+
+[dev]
+aind-dynamic-foraging-basic-analysis
+black
+coverage
+flake8
+interrogate
+isort
+Sphinx
+furo
+pynwb
