@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: multispectral-processor
+Version: 0.1.0
+Summary: A package to process multispectral images.
+Home-page: https://github.com/muzammilali3579/multispectral_processor.git
+Author: Muzammil Ali A
+Author-email: muzammilali3579@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pillow
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+
+# multispectral_processor
+
+A package to process multispectral images.
+
+## Installation
+
+ ```bash
+    pip install multispectral_processor
+```
+
+## Usage
+
+```python
+from multispectral_processor import process_multispectral_data
+
+base_dir = '/path/to/Spectral_Images'
+channels = ['Red_Edge_Channel', 'Red_Channel', 'Green_Channel', 'Near_Infrared_Channel']
+train_images = '/path/to/train_images'
+test_images = '/path/to/test_images'
+
+process_multispectral_data(base_dir, channels, train_images, test_images)
+'''
