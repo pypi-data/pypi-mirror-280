@@ -1,0 +1,13 @@
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/api.py,sha256=R3rtHTNtIGL2EoSlpCdto_mMC61LLw3rQq7q4mdnDDg,983
+app/commands.py,sha256=U8Hsvhp7CLDR7CJ0Bl7PHcvIjNzKm049DKkJgBdrFi0,1419
+app/logo.py,sha256=9gxdHGbr6eNXJXiXgVICt36qWqiCxF6OK3VEYzqyn2c,2278
+app/main.py,sha256=e0aux2n_R244FcDHbMxyL1MvGf0hmlf8hz6ptPWWKDY,2693
+app/os_system.py,sha256=jzTC0Ogk0-8Wk_2rvCpZMhU4oluJ6hUvdeUgHESowLU,680
+app/prompts.py,sha256=mdMCoEOCfwBGM6jmn_son0ssObxaRJsIl5muUboUt-c,4174
+AIConsole_o-0.1.dist-info/LICENSE,sha256=CrDQZBjOI5YZ6zAy_zA3dPPbUr9hNGpd9bYYEO8_RE8,1076
+AIConsole_o-0.1.dist-info/METADATA,sha256=33F8Bax_OQnTubWEi1qQ9-_QNV6GLBdTs_-v77wKKnc,4943
+AIConsole_o-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+AIConsole_o-0.1.dist-info/entry_points.txt,sha256=sbbAADocoY4l11ij_EjzJ7wDvcdnGFvmgES2b3EDPME,44
+AIConsole_o-0.1.dist-info/top_level.txt,sha256=io9g7LCbfmTG1SFKgEOGXmCFB9uMP2H5lerm0HiHWQE,4
+AIConsole_o-0.1.dist-info/RECORD,,
