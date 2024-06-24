@@ -1,0 +1,11 @@
+bdskeletor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bdskeletor/data/no-punch.png,sha256=VPDISwPc0nCVrZE9AVJLLk23GTEt6cRRBFsYXDt66Po,89003
+bdskeletor/data/punch.png,sha256=UmxQw16cDHCqPTOBfOcmhrN2HoMuyqvmwuQQkXl1aRo,97763
+bdskeletor/data/punch.wav,sha256=A0F1xT8aIZ6aNI_5McMqLygb1EfmdIzPi4kWkU4EwQc,4176
+bdskeletor/data/skeletor-he-man-armor.png,sha256=odqB77cBd8laoXMlQwuql4rkbsjwyCKfEhhXuJpX7SU,171926
+bdskeletor/data/whiff.wav,sha256=FMWM3XnYtce6mHFXQCYPgzT-xu-Q4DJybZfpPjG8cpE,5850
+bdskeletor/skeletor.py,sha256=CDIFRtSlvL8DPQMJ5aeP8OSSniVF-xmovoq9Kj_ob2w,6369
+bdskeletor-0.1.0.dist-info/METADATA,sha256=izDBkEQWqb_hQ9JSI4_Wa0LZFw72Uf-SmvOLTItd6H0,1018
+bdskeletor-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+bdskeletor-0.1.0.dist-info/entry_points.txt,sha256=1x9cPfMEOAroYN7U6xDrRrMt0_k18sKRzezXkPUapvk,55
+bdskeletor-0.1.0.dist-info/RECORD,,
