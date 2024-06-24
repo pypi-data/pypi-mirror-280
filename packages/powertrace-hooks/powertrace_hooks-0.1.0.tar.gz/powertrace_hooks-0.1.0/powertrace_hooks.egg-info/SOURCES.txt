@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+powertrace_hooks.egg-info/PKG-INFO
+powertrace_hooks.egg-info/SOURCES.txt
+powertrace_hooks.egg-info/dependency_links.txt
+powertrace_hooks.egg-info/entry_points.txt
+powertrace_hooks.egg-info/requires.txt
+powertrace_hooks.egg-info/top_level.txt
+tests/test_testing.py
