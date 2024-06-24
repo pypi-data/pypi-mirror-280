@@ -1,0 +1,8 @@
+winrt/_winrt_windows_system_update.cp311-win_amd64.pyd,sha256=43zZkLVDnjLOYlgpZwZ1NDQcWxnTNA7vKLOPlrHaryM,112640
+winrt/_winrt_windows_system_update.pyi,sha256=5rCBePaMAU0FDPK5CgAaky4Jepg4aR5kugpQnyndyo4,3749
+winrt/windows/system/update/__init__.py,sha256=8z0OkODTJjljMF38ZVjrBuo7jkDdVJUsrX51tNEVuHc,1413
+winrt/windows/system/update/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.System.Update-2.1.0.dist-info/METADATA,sha256=h7CDcamN1C4JYxT45xu__Ao2winID6ivaY-dXJ9t95I,1124
+winrt_Windows.System.Update-2.1.0.dist-info/WHEEL,sha256=9wvhO-5NhjjD8YmmxAvXTPQXMDOZ50W5vklzeoqFtkM,102
+winrt_Windows.System.Update-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.System.Update-2.1.0.dist-info/RECORD,,
