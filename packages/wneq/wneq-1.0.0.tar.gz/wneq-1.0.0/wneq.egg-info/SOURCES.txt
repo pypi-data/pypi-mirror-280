@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+wneq/__about__.py
+wneq/__init__.py
+wneq/ng.py
+wneq.egg-info/PKG-INFO
+wneq.egg-info/SOURCES.txt
+wneq.egg-info/dependency_links.txt
+wneq.egg-info/requires.txt
+wneq.egg-info/top_level.txt
