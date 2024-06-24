@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: exaplot
+Version: 0.9.0
+Project-URL: Repository, https://github.com/bytemarx/exaplot
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Other Environment
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+
+# ExaPlot
+
+The ExaPlot package is bundled with the standard library within its environment; users shouldn't download/install this package.
