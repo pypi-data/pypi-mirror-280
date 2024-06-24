@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: NolanMQuantTradingEnvSetUp
+Version: 0.1
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: requests
