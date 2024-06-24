@@ -1,0 +1,6 @@
+[dashai.plugins]
+accuracy = dashai_test_classification_metrics_package.accuracy:Accuracy
+classification_metric = dashai_test_classification_metrics_package.classification_metric:ClassificationMetric
+f1 = dashai_test_classification_metrics_package.f1:F1
+precision = dashai_test_classification_metrics_package.precision:Precision
+recall = dashai_test_classification_metrics_package.recall:Recall
