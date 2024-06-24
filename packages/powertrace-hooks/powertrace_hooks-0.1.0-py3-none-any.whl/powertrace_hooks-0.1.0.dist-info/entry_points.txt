@@ -1,0 +1,2 @@
+[console_scripts]
+powertrace-hooks = powertrace_hooks.cli:entry_point
