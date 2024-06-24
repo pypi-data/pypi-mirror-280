@@ -1,0 +1,8 @@
+winrt/_winrt_windows_ui_composition_scenes.cp39-win_amd64.pyd,sha256=fl7VW302vZMPAN4AKWRtHyrzl_4zwmu34bL56Tmuf5I,261120
+winrt/_winrt_windows_ui_composition_scenes.pyi,sha256=evKiVJQVHtDi6FsIRtIZim9t2GfDCNvLPJoe3uJb0Ms,53325
+winrt/windows/ui/composition/scenes/__init__.py,sha256=AO4pCFX-ZbAM_y-F4gNnHB7B99zhPMT3JMtmkxheKwA,2658
+winrt/windows/ui/composition/scenes/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.UI.Composition.Scenes-2.1.0.dist-info/METADATA,sha256=qRZ_vLDhqMdKoMJOF-9_gxquboNfF27qPh5SvtnY37k,1533
+winrt_Windows.UI.Composition.Scenes-2.1.0.dist-info/WHEEL,sha256=eep6QWEFiQfg2wcclssb_WY-D33AnLYLnEKGA9Rn-VU,100
+winrt_Windows.UI.Composition.Scenes-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.UI.Composition.Scenes-2.1.0.dist-info/RECORD,,
