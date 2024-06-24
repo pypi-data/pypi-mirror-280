@@ -1,0 +1,10 @@
+omfpandas/__init__.py,sha256=FTkbguONvx21torZUEQXJkvv-IHamDD0hJie37oQ9-c,303
+omfpandas/base.py,sha256=I2wvJVcxlJShBxEZjU-m_z45r-N_w-conXwHd22HZRo,1664
+omfpandas/converter.py,sha256=iCWIJYg2Q6G66dnNtqkd9hiumZLfftxnGrH-ihLhBAw,1608
+omfpandas/reader.py,sha256=VOwandnCPuTybXUu4ZXciBJB7o_T_xJGqzX8CCnIPMo,1785
+omfpandas/volume.py,sha256=puZKCM2WVROwQaW7OH1kUCXsGX6BTDP1wH925X_k-E0,8198
+omfpandas/writer.py,sha256=XjsULG34htnGZ674ekneVitJIrYxaSNex708ci2AMYQ,2659
+omfpandas-0.2.1.dist-info/LICENSE,sha256=GrSVdcGtNbGvAYC_tIjLHBrIVPyg-Ksfe7ZGr087yCI,1069
+omfpandas-0.2.1.dist-info/METADATA,sha256=f5aKPOocGhpKonqtKqvzuHFPSL_JHhy-sXNMAW1_ejo,2367
+omfpandas-0.2.1.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+omfpandas-0.2.1.dist-info/RECORD,,
