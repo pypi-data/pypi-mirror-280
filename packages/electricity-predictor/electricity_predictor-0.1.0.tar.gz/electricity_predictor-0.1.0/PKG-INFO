@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: electricity_predictor
+Version: 0.1.0
+Summary: A package to predict whether electricity consumption is normal or abnormal
+Home-page: https://github.com/yourusername/electricity_predictor
+Author: Neeraja Ram Manohar
+Author-email: neeraja.rammanohar@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: license.txt
+
+# Electricity Predictor
+
+A Python package to predict whether electricity consumption is normal or abnormal based on a CSV file input.
+
+## Installation
+
+```bash
+pip install electricity_predictor
