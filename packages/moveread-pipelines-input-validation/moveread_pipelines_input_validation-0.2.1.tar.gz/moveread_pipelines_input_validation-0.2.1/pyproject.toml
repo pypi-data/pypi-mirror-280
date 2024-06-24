@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moveread-pipelines-input-validation"
+version = "0.2.1"
+authors = [
+  {name="Marcel Claramunt", email="marcel@moveread.com"}
+]
+description = "package_description"
+dependencies = [
+  "pipeteer", "chess-pairings", "lazy-loader", "fastapi"
+]
+requires-python = ">=3.10"
+readme = {file="README.md", content-type="text/markdown"}
+
+[project.urls]
+repo = "https://github.com/moveread/dfy-pipeline.git"
+
+[project.optional-dependencies]
+clientgen = ["openapi-ts"]
+
+[project.scripts]
+inputval = "moveread.pipelines.input_validation.scripts.cli:main"
+inputval-clientgen = "moveread.pipelines.input_validation.scripts.clientgen_cli:main"
