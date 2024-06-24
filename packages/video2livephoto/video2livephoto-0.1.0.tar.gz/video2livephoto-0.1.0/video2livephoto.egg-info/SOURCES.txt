@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+tests/__init__.py
+tests/test_converter.py
+video2livephoto/__init__.py
+video2livephoto/converter.py
+video2livephoto.egg-info/PKG-INFO
+video2livephoto.egg-info/SOURCES.txt
+video2livephoto.egg-info/dependency_links.txt
+video2livephoto.egg-info/requires.txt
+video2livephoto.egg-info/top_level.txt
