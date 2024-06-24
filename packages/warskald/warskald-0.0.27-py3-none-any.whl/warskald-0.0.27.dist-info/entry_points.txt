@@ -1,0 +1,4 @@
+[console_scripts]
+ngwidget = warskald.ngwidget:main
+pybuild = warskald.pybuild:main
+wslatest = warskald.ws_latest:main
