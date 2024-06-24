@@ -1,0 +1,8 @@
+pyicom/__init__.py,sha256=P2JvSWAJt2XDvAGS1dam-PgAd_KhMuqXwwXfQ3kcBZw,44
+pyicom/client.py,sha256=OoSdjB_lh5l2qdBOPdlIv3uXmRhNATKo5_GrRKMv3Wo,2212
+pyicom/common.py,sha256=05dusNJKnbQafDGzPDLaeWaEsbRohbLh2qZw4drCxPU,1500
+pyicom/server.py,sha256=qvzVEdOuubl4eY0bUiTrKsjn6k6AOMrvXZNAkn-j35A,3499
+pyicom-0.1.1.dist-info/METADATA,sha256=ztn3lVysmrvJ9-p4SEAbZZYE7InXxkevcNSn6RkB7-Q,513
+pyicom-0.1.1.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+pyicom-0.1.1.dist-info/top_level.txt,sha256=pkb83xNlvd4UA6p-qaCG9pHXsiUPqMDAJJxoc3ErVGI,7
+pyicom-0.1.1.dist-info/RECORD,,
