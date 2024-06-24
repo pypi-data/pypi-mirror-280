@@ -1,0 +1,9 @@
+eminem_lyric/__init__.py,sha256=_EJ_PV4b6EEoyx46KsD9eK1qQaqnfJMYIlFGdpxtttI,116
+eminem_lyric/eminem_lyric.py,sha256=lc8w_plA-SEDsb5cVz25_6bpVem09HWyPcUO2EjtOes,4487
+tests/__init__.py,sha256=p845ZN7oOeTCPpz3DQFBKL3efdi9L7IzvL7R9p4MO9U,127
+tests/test_eminem_lyric.py,sha256=qAxuAJGqBOrM7YnEki98yNo8JS4a9JNSaPQ5seUEQzc,1397
+eminem_lyric-1.0.3.dist-info/LICENSE,sha256=m7uAXIIsIsYv5N3YIFQNLUfGUwpOCsGfRfGVUtJPNSI,1104
+eminem_lyric-1.0.3.dist-info/METADATA,sha256=wOuAmQQU1-_g4cXRof1biDH7IwAgrBvS_XQs9MldDsA,3383
+eminem_lyric-1.0.3.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+eminem_lyric-1.0.3.dist-info/top_level.txt,sha256=bd6WBhshu2iVoaUHw5uiRehS3FWjPOfrUDtP9fiSM8k,19
+eminem_lyric-1.0.3.dist-info/RECORD,,
