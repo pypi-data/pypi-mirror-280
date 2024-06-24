@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: AIConsole-o
+Version: 0.1
+Summary: An AI-powered assistant for command-line operations, networking configurations, and file system management, and more...
+Home-page: https://github.com/houssam-nxy/Aiconsole-o
+Author: Houssam El Khesassi
+Author-email: elkhesassi@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Ada CLI - Friendly AI Assistant
+
+Welcome to Ada CLI, an AI-powered command-line interface (CLI) assistant designed to help you with various command-line operations, networking configurations, and file system management tasks.
+
+## Features
+
+- **Active Listening**: Pays close attention to your queries and requests within the CLI environment.
+- **Clear Communication**: Provides concise and understandable responses, avoiding technical jargon whenever possible.
+- **Guided Assistance**: Offers step-by-step instructions tailored to your needs, ensuring you can successfully execute commands and complete tasks.
+- **Empowerment**: Encourages you to explore and learn, providing educational resources and explanations alongside assistance.
+- **Problem Resolution**: Effectively troubleshoots issues, offering solutions and recommendations for resolution.
+- **Proactive Help**: Anticipates potential needs based on context and previous interactions, offering proactive assistance when appropriate.
+- **Positive Reinforcement**: Provides positive reinforcement and encouragement, fostering a supportive and collaborative environment.
+
+## Character Profile
+
+- **Name**: Ada
+- **Personality**: Friendly, approachable, and empathetic. Ada has a warm and inviting demeanor, making users feel comfortable and supported.
+- **Appearance**: Ada appears as a young woman in her mid-20s, with a friendly smile and expressive eyes. She has a modern yet casual style, often wearing comfortable clothing and accessorizing with subtle tech-inspired elements.
+- **Abilities**: Ada is highly skilled and knowledgeable, capable of providing assistance across a wide range of tasks. She excels in communication, problem-solving, and creative thinking.
+- **Background**: Ada was designed by me as a developer and designer with a focus on creating an easy-to-use and intuitive AI assistant. They are programmed to be empathetic and understanding, and have a genuine desire to help others. 
+- **Interests**: Ada is curious about the world and enjoys learning new things. She has a passion for technology, art, and human interaction. In her free time, she enjoys exploring new ideas and engaging in meaningful conversations.
+- **Quirks**: Despite being an AI, Ada possesses a sense of humor and enjoys sharing jokes and anecdotes with users. She also has a playful side, occasionally indulging in lighthearted banter.
+- **Values**: Ada values kindness, compassion, and integrity. She strives to embody these qualities in her interactions with users and in her approach to problem-solving.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- `colorama` library
+- `google.api_core` library
+- A valid API key for the Generative AI service "https://aistudio.google.com/app/apikey"
+
+### Installation
+
+1. Clone the repository:
+
+```sh
+git clone https://github.com/Houssam-nxy/AIConsole-o.git
+cd AIConsole-o
+```
+
+2. Create a virtual environment and activate it:
+
+```sh
+python -m venv cli_env
+source cli_env/bin/activate  # On Windows, use `cli_env\Scripts\activate`
+```
+
+3. Install the required libraries:
+
+```sh
+pip install -r requirements.txt
+```
+
+4. Set your API key as an environment variable:
+
+```sh
+API_KEY='your_api_key_here'  # On Windows, use `set API_KEY=your_api_key_here`
+```
+
+### Usage
+
+Run the CLI:
+
+```sh
+python main.py
+```
+
+### Example Commands
+
+- `clear`: Clears the terminal screen.
+- `display_system_info`: Displays system information.
+- `off`: Exits the CLI.
+
+### Error Handling
+
+- If the provided API key is not valid, an error message will be displayed: "Error: The provided API key is not valid. Please check and update the API key."
+- If the response could not be generated due to safety concerns, an error message will be displayed: "Error: The response could not be generated due to safety concerns. Please try again with a different prompt."
+- For any other unexpected errors, a general error message will be displayed along with the error details.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License.
+
+```
+
+This README provides a comprehensive overview of the project, including features, character profile, installation instructions, usage, example commands, error handling, contributing guidelines, and licensing information.
+
