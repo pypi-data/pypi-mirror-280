@@ -1,0 +1,14 @@
+yta_voice_module/__init__.py,sha256=0I_yW-wlHFoW1vG62CQ1Oh333K8AyGM8mEh8BawmhS4,108
+yta_voice_module/experimental/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yta_voice_module/stt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yta_voice_module/stt/whisper.py,sha256=-mA2AWmlC9Zbf8syXe2xBHfloIV5X0iYFH5UAPaLwkk,2376
+yta_voice_module/tts/__init__.py,sha256=r-Ic0QZl-gMMLZflsQ1f1xsyygdhztp4FP96GAliNlE,72
+yta_voice_module/tts/coqui.py,sha256=wCISJKydTEDpMn-VtXrUuS4Y-1yw9OUwZAzqm8Mm__I,490
+yta_voice_module/tts/google.py,sha256=9KYmbgFqc6I_-ArLIppQd6izuS5aEYwWM7_TC405stw,597
+yta_voice_module/tts/microsoft.py,sha256=W4lpnovTgubiDEULaQZy_fi1txbd3tbXoBbx08LaaHs,711
+yta_voice_module/tts/open_voice.py,sha256=5vn6Aa_ZDAQATz3p_b6W_yvaV2u3zqDvMP76NVQTqbU,5090
+yta_voice_module-0.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+yta_voice_module-0.0.1.dist-info/METADATA,sha256=hWJ0g_3iWeK6WNivF3XGM9b4IU_pbwnXxwdyFbXe_WY,690
+yta_voice_module-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+yta_voice_module-0.0.1.dist-info/top_level.txt,sha256=5JrwfexTtJm__KawDNUPWwNQ9Vmv8JIRBgKRPeNbDpQ,17
+yta_voice_module-0.0.1.dist-info/RECORD,,
