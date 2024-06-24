@@ -1,0 +1,4 @@
+click<9,>=8.0.0
+rich~=12.0.0
+httpx<0.26.0,>=0.22.0
+click-default-group~=1.2.2
