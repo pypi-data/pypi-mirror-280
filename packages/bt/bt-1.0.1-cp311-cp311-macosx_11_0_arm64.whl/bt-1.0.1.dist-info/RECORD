@@ -1,0 +1,10 @@
+bt-1.0.1.dist-info/RECORD,,
+bt-1.0.1.dist-info/LICENSE,sha256=hxFHFWbXItVeyj8JGW80Ky7ilgYW5oEn7CoXs5_5mUk,1086
+bt-1.0.1.dist-info/WHEEL,sha256=wN7r1fnH_LajW3fTDOX5k5EMp1DpAbVC4dE7fzkd2tg,109
+bt-1.0.1.dist-info/top_level.txt,sha256=LFE71WPijFAVG7PsD3RyvhAjPHS-z7ArER2vCP-TklI,3
+bt-1.0.1.dist-info/METADATA,sha256=-mZscD8eMuaT8xpJoH2_tiJty8Mnf-znIb3khLc4rtg,6265
+bt/algos.py,sha256=I4d8hT3truY4C8TSdiAn3moZ8-RFJupa8Uh5AnDUAWY,75726
+bt/__init__.py,sha256=ENtftJDgxH9qmg2LcDKAZvbGDK4OWg-FERUiRGSK_Mw,368
+bt/core.py,sha256=yj1b_wp8gkjvx1gKfPB8ltl5bwHSMh0nWTOrSbscSN8,76500
+bt/core.cpython-311-darwin.so,sha256=qMv1Ih6CRdZETytPpC5l1sq4axH-nUIqGMp-Z7TlbSQ,556663
+bt/backtest.py,sha256=Bov0x-KL9gUGByJpYYN8kl3QBWHYcy1lwjOXi0EV46I,21646
