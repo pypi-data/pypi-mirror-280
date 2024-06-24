@@ -1,0 +1,8 @@
+winrt/_winrt_windows_networking_xboxlive.cp312-win_arm64.pyd,sha256=RQtTdxgtismRRdjEAtxt9YFFl8UaWg8Nc_Ptts8V4LI,274944
+winrt/_winrt_windows_networking_xboxlive.pyi,sha256=tOLdJlrn4597uu5LsXxl8DA_N1UCwopilL_KQqqa8bw,12580
+winrt/windows/networking/xboxlive/__init__.py,sha256=3BVOaNP8_lGE0M5SLZpf5J1iIzcVHiwUuu4sk-f0zDw,3382
+winrt/windows/networking/xboxlive/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Networking.XboxLive-2.1.0.dist-info/METADATA,sha256=YihGJbffk_JhjzdgJa7FA8DLhURr8At3wAkqPJxP4nk,1299
+winrt_Windows.Networking.XboxLive-2.1.0.dist-info/WHEEL,sha256=Bv7J8O_-FnSb3IGeFWkp4bS4m9uc0RAAXyF4lKsep6k,102
+winrt_Windows.Networking.XboxLive-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Networking.XboxLive-2.1.0.dist-info/RECORD,,
