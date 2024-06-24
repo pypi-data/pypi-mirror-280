@@ -1,0 +1,10 @@
+pywgett/__init__.py,sha256=cSjLVjlNrpjSQsLQ1ABN7vUqnVh5hi9q5Gc2W0m3M7k,331
+pywgett/cli.py,sha256=szCP-_5ua6RohApcSEAhiaVzqIm1E83Ofq3hbH3WJvU,1481
+pywgett/download.py,sha256=bC6IMRCItMUEm3l9GPun_MRkbi1UJCsiE9gG0do-ZCI,2353
+pywgett/utils.py,sha256=A9yBhha5xPdBOmcIcEkPEEM6yrZ1PbaX6Evf3IKICHA,1042
+pywgett-0.1.0.dist-info/LICENSE,sha256=n2LB-f-wQQD0BlhlL9soaAkNFwErnSiJh14564UmiXc,1065
+pywgett-0.1.0.dist-info/METADATA,sha256=jrjlMBlTDagPouL0zljpxCRv05JXaJkS0DHaGnmS9t4,3580
+pywgett-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pywgett-0.1.0.dist-info/entry_points.txt,sha256=N29OnU2AkyIlseLvr9V3N8NXAaGblAy6evDCV1XQbNs,44
+pywgett-0.1.0.dist-info/top_level.txt,sha256=lld0wIl-V4TatvGIaULYUXlEaBXCU6YMR9IlUparXsI,8
+pywgett-0.1.0.dist-info/RECORD,,
