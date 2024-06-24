@@ -1,0 +1,5 @@
+lavague/drivers/playwright/__init__.py,sha256=c5N_bNG8sW6pVtkY0sIzkSaFMSUhZQ1e7qOg-4KnpSg,61
+lavague/drivers/playwright/base.py,sha256=-jznZVjVQqe-v04FkzhxJhildixRF0o6m1admpLxL4M,12375
+lavague_drivers_playwright-0.2.4.dist-info/METADATA,sha256=jilYBUkpPr0QMRDBtJnl5c1aKJ21wD-knzpWDpSgJ6I,1151
+lavague_drivers_playwright-0.2.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+lavague_drivers_playwright-0.2.4.dist-info/RECORD,,
