@@ -1,0 +1,12 @@
+Scrapins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Scrapins/openai.py,sha256=cRoLFKhUI_NueKnRU9SJvuMJRwDpL2eY4oP3FU9dfWE,1249
+Scrapins/scrap.py,sha256=PxMrw0g6eeLnTT9GXvaQ7GYJUFemGQC-YMpMvpz24LU,1288
+Scrapins/utilities.py,sha256=8M76uIrtqEB34wutKXS6kOQBTP8qwasM0nWg52b-GDc,2883
+Scrapins/utils.py,sha256=PqvAU6Oa2zErOxkM-MZBJKutU9byFncOua42_dighu8,3197
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_utilities.py,sha256=ZvmFNm384nnFrt9WX_JoVzvWghc-ri47D0w0UG9FEU0,1293
+tests/test_utils.py,sha256=ZvmFNm384nnFrt9WX_JoVzvWghc-ri47D0w0UG9FEU0,1293
+Scrapins-0.1.3.dist-info/METADATA,sha256=95IeFqXbUM0Isn688_IMVkQNefipawo0I14FyvwB4Lk,682
+Scrapins-0.1.3.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+Scrapins-0.1.3.dist-info/top_level.txt,sha256=fW348EktLEnJV1A2RPz-KcgKXJHwrEKpxGDL7zYzNTk,15
+Scrapins-0.1.3.dist-info/RECORD,,
