@@ -1,0 +1,8 @@
+winrt/_winrt_windows_system_diagnostics_tracereporting.cp310-win_amd64.pyd,sha256=vhfsjBK37_vQgWs6PP9PZvmX9L0efKHPj14E-G5jQ1E,78848
+winrt/_winrt_windows_system_diagnostics_tracereporting.pyi,sha256=hdxvcg-JAVfnhQi_INc_xhkWo1_Ce5JcCTJitVZxrZA,3072
+winrt/windows/system/diagnostics/tracereporting/__init__.py,sha256=vVg3kYCv2xDU-brI-QTbzkJAEXarpxrExgTOkQIP7Qc,1536
+winrt/windows/system/diagnostics/tracereporting/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.System.Diagnostics.TraceReporting-2.1.0.dist-info/METADATA,sha256=Q7w2HHTzlzkkDMjRhgDsm1bQ1gAQQ9n-acfWrIxkcaI,1131
+winrt_Windows.System.Diagnostics.TraceReporting-2.1.0.dist-info/WHEEL,sha256=jrOhEbqKwvzRFSJcbYXlJCyVkgVdHg4_7__YHrdTUfw,102
+winrt_Windows.System.Diagnostics.TraceReporting-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.System.Diagnostics.TraceReporting-2.1.0.dist-info/RECORD,,
