@@ -1,0 +1,13 @@
+cltoolbox>=1.0.0
+flopy
+fortranformat
+hspf_reader
+hydrotoolbox>=2.0.11
+numpy
+pandas
+pint-pandas
+pydantic
+pyemu
+python-dateutil
+tstoolbox>=106.0.0
+xlsxwriter
