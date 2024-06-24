@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/mongo_congo/__init__.py
+src/mongo_congo/mongo_crud.py
+src/mongo_congo.egg-info/PKG-INFO
+src/mongo_congo.egg-info/SOURCES.txt
+src/mongo_congo.egg-info/dependency_links.txt
+src/mongo_congo.egg-info/requires.txt
+src/mongo_congo.egg-info/top_level.txt
