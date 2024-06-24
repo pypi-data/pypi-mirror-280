@@ -1,0 +1,3 @@
+[console_scripts]
+create-api-app=create_api_app.main:app
+
