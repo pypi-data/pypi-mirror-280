@@ -1,0 +1,13 @@
+pyiapws/__init__.py,sha256=fUSKviutkGRtHidmmtGGGM-bSUEm46m95iBKUx3CO4E,118
+pyiapws/g704.cpython-312-darwin.so,sha256=E_Sp3Wxzul0jEIBrPVmG2prHI0e6ECinfrPFAX2jM_c,52096
+pyiapws/libgcc_s.1.1.dylib,sha256=-OUZTOJEWTs1ay4nK8jH_J6yYN7_MxPoVLW8yf1vbzQ,235624
+pyiapws/libgfortran.5.dylib,sha256=AoWxvDEaqt1YNNsY56rVkBPrzsfijLPShgAbvI0h470,3504752
+pyiapws/libiapws.dylib,sha256=URnGYHe8gRgUjJ1Ue8VjKuS6D3Nl9H9rqkzzATAnYDM,241096
+pyiapws/libquadmath.0.dylib,sha256=RbVjMf8SYTUuf9DZ17f5jyS7qSdRFJl3Tlqbl58eI8w,346616
+pyiapws/r283.cpython-312-darwin.so,sha256=HLyupP-woC67y7qiMDPSBO0nKMwGmGvNWJJon5ITptM,50464
+pyiapws/version.cpython-312-darwin.so,sha256=EdT7oa_ZgsOUW30JoswxMw4PgDCd-mV19g1hCeTvmMA,50168
+pyiapws-0.3.0.dist-info/LICENSE,sha256=rPuuWRMCUNHTwM4-8LwcNyw9xUWFQTYN6-Tl0QcqCiI,1064
+pyiapws-0.3.0.dist-info/METADATA,sha256=UgKixAAXVfkKU67T2fDKTS7Q9k9XtKQjYa4gKSbM2Uc,3747
+pyiapws-0.3.0.dist-info/WHEEL,sha256=P-4Ac6kHrNJgFZ9EtlDKuIbMohr0eI5NMK0zccq2iIk,111
+pyiapws-0.3.0.dist-info/top_level.txt,sha256=ggYw7wHwjJOaZitfcjCdg6gPpTA7Cs-gsR1M5IfF7bA,8
+pyiapws-0.3.0.dist-info/RECORD,,
