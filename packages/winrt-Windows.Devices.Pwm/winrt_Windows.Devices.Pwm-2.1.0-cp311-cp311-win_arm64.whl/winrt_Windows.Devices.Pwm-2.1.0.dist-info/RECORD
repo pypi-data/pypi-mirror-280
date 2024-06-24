@@ -1,0 +1,8 @@
+winrt/_winrt_windows_devices_pwm.cp311-win_arm64.pyd,sha256=TiHZSXzfcxWCj5D1LC6pfGk9aLyn79eLBY94FN4q-uE,105984
+winrt/_winrt_windows_devices_pwm.pyi,sha256=f4Y-tDZIKite2ifojTA-TfBkg6RLc_JSZtH11cNDk3E,2561
+winrt/windows/devices/pwm/__init__.py,sha256=DPo2Gqh3EdWhd-Kjq3FzHSPDHX_RjKCNMzj9Cu0FINU,412
+winrt/windows/devices/pwm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Devices.Pwm-2.1.0.dist-info/METADATA,sha256=JIxhpknva2gngHMavxJBEpJx1UNXSFWx4l9ZwudxkF8,1199
+winrt_Windows.Devices.Pwm-2.1.0.dist-info/WHEEL,sha256=KYdEOsdUN8GC50wETE93-AKMCFYWlcSEIynIYo-Bwus,102
+winrt_Windows.Devices.Pwm-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Pwm-2.1.0.dist-info/RECORD,,
