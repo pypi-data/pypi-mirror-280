@@ -1,0 +1,12 @@
+requests
+pyperclip
+pystray
+psutil
+selenium
+mysql.connector
+pyinstaller
+openpyxl
+jsonpath
+extruct
+w3lib
+pyotp
