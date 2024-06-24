@@ -1,0 +1,8 @@
+winrt/_winrt_windows_applicationmodel_search.cp312-win_arm64.pyd,sha256=6rTuV0mzCClJDFXvQjkgh6OvoO-BzDq-DjqaoxgB9ik,244736
+winrt/_winrt_windows_applicationmodel_search.pyi,sha256=Zkpk-tZTdifl2VZTRpSxEZI1d15fVPN2UVrPV5800wE,9416
+winrt/windows/applicationmodel/search/__init__.py,sha256=SBpDBJbkzbI0WiRti6e6HCDDeW_GYFM2M_SCPolOB5Q,2313
+winrt/windows/applicationmodel/search/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.ApplicationModel.Search-2.1.0.dist-info/METADATA,sha256=a-6qs2PHEP3PkkvjNshjU0s87qxLoiEMLOnAW_xMjfk,1312
+winrt_Windows.ApplicationModel.Search-2.1.0.dist-info/WHEEL,sha256=Bv7J8O_-FnSb3IGeFWkp4bS4m9uc0RAAXyF4lKsep6k,102
+winrt_Windows.ApplicationModel.Search-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.Search-2.1.0.dist-info/RECORD,,
