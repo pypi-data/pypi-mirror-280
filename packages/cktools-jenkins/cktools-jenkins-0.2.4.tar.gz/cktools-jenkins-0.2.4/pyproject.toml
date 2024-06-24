@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "cktools-jenkins"
+version = "0.2.4"
+description = "Tools for Jenkins"
+readme = "README.md"
+authors = ["Chandan Kumar"]
+keywords = ["python", "jenkins", "automation tools"]
+packages = [{ include = "cktools_jenkins" }]
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Programming Language :: Python :: 2.7"
+]
+
+[tool.poetry.dependencies]
+python = "^2.7"
+
+[tool.poetry.dev-dependencies]
+bumpversion = "^0.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+ckmail = "cktools_jenkins.send_email:main"
+ckgitinfo = "cktools_jenkins.git_src_info_extractor:main"
