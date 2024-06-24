@@ -1,0 +1,8 @@
+winrt/_winrt_windows_networking_proximity.cp310-win32.pyd,sha256=jHLae74wb2UeNPZzH_dFXlEMKEHCa6GOmccErlzqEew,169984
+winrt/_winrt_windows_networking_proximity.pyi,sha256=rap3hXuFR2Df70jB4dlDPlTBiSxyEvxkSIUyl4zq53c,8919
+winrt/windows/networking/proximity/__init__.py,sha256=FYqCf_dG-wxq1uxP2OY61OcOIEGHODC3-aB0R5yAkYo,2049
+winrt/windows/networking/proximity/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Networking.Proximity-2.1.0.dist-info/METADATA,sha256=6HrzYv-Sr8IeEjXs8DITXiC4W0Wh6grCIzXqrTl6RIE,1384
+winrt_Windows.Networking.Proximity-2.1.0.dist-info/WHEEL,sha256=yXMlTXjHPYBFmMOeF4b9ZM_ASRm_Q54GxZmxQGPAzx4,98
+winrt_Windows.Networking.Proximity-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Networking.Proximity-2.1.0.dist-info/RECORD,,
