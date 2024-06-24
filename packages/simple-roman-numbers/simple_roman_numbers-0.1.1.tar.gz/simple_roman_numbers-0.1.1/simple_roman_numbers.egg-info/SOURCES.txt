@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+simple_roman_numbers/__init__.py
+simple_roman_numbers/funcs.py
+simple_roman_numbers.egg-info/PKG-INFO
+simple_roman_numbers.egg-info/SOURCES.txt
+simple_roman_numbers.egg-info/dependency_links.txt
+simple_roman_numbers.egg-info/top_level.txt
+tests/__init__.py
+tests/test_calculus.py
+tests/test_to_decimal.py
+tests/test_to_roman.py
