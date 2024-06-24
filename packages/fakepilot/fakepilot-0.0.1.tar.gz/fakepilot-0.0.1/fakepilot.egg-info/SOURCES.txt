@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+fakepilot/__init__.py
+fakepilot/_xray.py
+fakepilot/site.py
+fakepilot/utils.py
+fakepilot.egg-info/PKG-INFO
+fakepilot.egg-info/SOURCES.txt
+fakepilot.egg-info/dependency_links.txt
+fakepilot.egg-info/requires.txt
+fakepilot.egg-info/top_level.txt
+tests/test_site.py
+tests/test_xray.py
