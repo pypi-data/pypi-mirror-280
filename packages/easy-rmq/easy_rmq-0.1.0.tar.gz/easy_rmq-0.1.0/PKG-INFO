@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: easy-rmq
+Version: 0.1.0
+Summary: 
+Author: harut
+Author-email: harut.avetisyan@imeasystems.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aio-pika (>=9.4.1,<10.0.0)
+Requires-Dist: dependency-injector (>=4.41.0,<5.0.0)
+Requires-Dist: fastapi (>=0.111.0,<0.112.0)
+Requires-Dist: pydantic (>=2.7.4,<3.0.0)
+Description-Content-Type: text/markdown
+
+# RMQ-ROUTER
+
+Rmq-router is python lib for easy integration rabbit consumer with fastapi
+
+## Installation
+
+```bash
+poetry add easy-rmq
+```
+
+## Usage
+Make sure in .env you declare `RABBITMQ_URL`=amqp://...
+
+```python
+from pub_sub import PubSub
+
+@PubSub.subscribe(queue_name="hello", route_key="hello", exchange_name="hello")
+async def hello(message):
+    print("Welcome", message)
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    await hello()
+    yield
+
+app = FastAPI(lifespan=lifespan)
+
+```
+
