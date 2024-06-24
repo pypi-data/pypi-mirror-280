@@ -1,0 +1,8 @@
+winrt/_winrt_windows_devices_printers.cp39-win32.pyd,sha256=SH41Tb4APDcml_Bwat-uCmZaZwvfAKyIqz_L7E5YndI,468480
+winrt/_winrt_windows_devices_printers.pyi,sha256=Q8gTbxZsI6UHlpXRsA6JN1GNGXJ-Slu4wJX-HWp3dj4,14387
+winrt/windows/devices/printers/__init__.py,sha256=F-50tUbwZ0APIo4Ka0Ftx_0IH4QTKsFCaT1s9GDVjwQ,2329
+winrt/windows/devices/printers/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Devices.Printers-2.1.0.dist-info/METADATA,sha256=HBO1Ab-i6qaDPBDEn4sOg8kql0OL7L3WVK7bv0GnwJk,1294
+winrt_Windows.Devices.Printers-2.1.0.dist-info/WHEEL,sha256=1aMbN4t2zTDfBHuhuWzAfIzzQesiKpXOWwJmQwUBD2M,96
+winrt_Windows.Devices.Printers-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Printers-2.1.0.dist-info/RECORD,,
