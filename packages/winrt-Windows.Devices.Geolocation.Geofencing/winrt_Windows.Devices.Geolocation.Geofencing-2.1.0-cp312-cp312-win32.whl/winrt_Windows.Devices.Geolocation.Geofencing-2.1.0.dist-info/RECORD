@@ -1,0 +1,8 @@
+winrt/_winrt_windows_devices_geolocation_geofencing.cp312-win32.pyd,sha256=SQmUh336qKdveK5zK1MaDRbDBDTlNpsvabHdmgV6X84,91136
+winrt/_winrt_windows_devices_geolocation_geofencing.pyi,sha256=0D5-vZ6c1X15Pmc-Ud9wrTPOu5ehcW_qkOzbfY43N9g,3934
+winrt/windows/devices/geolocation/geofencing/__init__.py,sha256=FSBwOwm-vDlKd4Tz3MEdPwRmlQm6yPun3e6XwBzER_g,1071
+winrt/windows/devices/geolocation/geofencing/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Devices.Geolocation.Geofencing-2.1.0.dist-info/METADATA,sha256=17ZouTrGEdOCOzln_nrClCPN6aytkC0jrff6AyIoxBc,1274
+winrt_Windows.Devices.Geolocation.Geofencing-2.1.0.dist-info/WHEEL,sha256=ruwpOBdFI6_HbvqqfiJbSxRZ7qQ6XNHlvTRo9Gu8mVc,98
+winrt_Windows.Devices.Geolocation.Geofencing-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Geolocation.Geofencing-2.1.0.dist-info/RECORD,,
