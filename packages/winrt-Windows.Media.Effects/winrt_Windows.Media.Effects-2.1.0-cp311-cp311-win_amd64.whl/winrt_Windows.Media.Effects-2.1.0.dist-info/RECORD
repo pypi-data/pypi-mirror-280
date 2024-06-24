@@ -1,0 +1,8 @@
+winrt/_winrt_windows_media_effects.cp311-win_amd64.pyd,sha256=ns2AYxqs2BuCkfyH8dvYPTfuVwciyjUz62buIQVZVTA,194560
+winrt/_winrt_windows_media_effects.pyi,sha256=BGvoYaTw_vTm-x_Rjz-NQdWtsPxC7nEwjzLEoDatBuU,14582
+winrt/windows/media/effects/__init__.py,sha256=-B4Q6kfCA1rYPk2ZZAoRj51uFQxyOwLduUelwU34xAU,3133
+winrt/windows/media/effects/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Media.Effects-2.1.0.dist-info/METADATA,sha256=xDAwy6PL4mHTNxwe3FdftDJdgjmAEztPt9D9fdhvUuU,1975
+winrt_Windows.Media.Effects-2.1.0.dist-info/WHEEL,sha256=9wvhO-5NhjjD8YmmxAvXTPQXMDOZ50W5vklzeoqFtkM,102
+winrt_Windows.Media.Effects-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Media.Effects-2.1.0.dist-info/RECORD,,
