@@ -1,0 +1,8 @@
+winrt/_winrt_windows_media_miracast.cp39-win_arm64.pyd,sha256=Asv66_cbQxzhlyghhslZOfZIy1uJAAZ16V0IXhUqEVU,306688
+winrt/_winrt_windows_media_miracast.pyi,sha256=j7G-qMnUFOZZUKZhqf18oqwYamHmzeFKzOJ8lejKevA,14914
+winrt/windows/media/miracast/__init__.py,sha256=dWExNlFlvSVr1nWtnWZI-QSbfsiCAoDItTrGy2COIVk,4435
+winrt/windows/media/miracast/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Media.Miracast-2.1.0.dist-info/METADATA,sha256=CCkXDZDklp44cFqtJDq_Sgf_cWgzk3F0c3B_iTltG0E,1434
+winrt_Windows.Media.Miracast-2.1.0.dist-info/WHEEL,sha256=t9jK7yLDf8Sm3MHlwabjxx5ZT0OooACnPwjLW_r-SdA,100
+winrt_Windows.Media.Miracast-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Media.Miracast-2.1.0.dist-info/RECORD,,
