@@ -1,0 +1,9 @@
+aind_dynamic_foraging_basic_analysis/__init__.py,sha256=ozBqp0S9SOhV0OnQYo3Azwerr9L2PAcjK4i5-t4POsg,194
+aind_dynamic_foraging_basic_analysis/foraging_efficiency.py,sha256=9IhMqQo_aU_RFsDu8D2P3-Qu3J72bo7sASC3dkUQ2YE,8634
+aind_dynamic_foraging_basic_analysis/data_model/foraging_session.py,sha256=7PFHfEIXP3QcjFS9Fk88S7PzBBYnUYw81WBjjEu_UKo,3536
+aind_dynamic_foraging_basic_analysis/plot/plot_foraging_session.py,sha256=X-gLffs8tau2Eeh_fF8tlU-KDkYiyRrtbO_jZnTyPxo,11580
+aind_dynamic_foraging_basic_analysis-0.2.0.dist-info/LICENSE,sha256=U0Y7B3gZJHXpjJVLgTQjM8e_c8w4JJpLgGhIdsoFR1Y,1092
+aind_dynamic_foraging_basic_analysis-0.2.0.dist-info/METADATA,sha256=Bt5D8dpWcYwwPiHmwyhxFXe1RftpAuUGLCRi3ji4uqw,6571
+aind_dynamic_foraging_basic_analysis-0.2.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+aind_dynamic_foraging_basic_analysis-0.2.0.dist-info/top_level.txt,sha256=gc5fvvd3cR7uvCHkTaSx-TcC4JmKMt9dBYMPncEO8VY,37
+aind_dynamic_foraging_basic_analysis-0.2.0.dist-info/RECORD,,
