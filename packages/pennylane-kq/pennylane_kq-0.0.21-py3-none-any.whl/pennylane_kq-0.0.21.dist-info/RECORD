@@ -1,0 +1,15 @@
+pennylane_kq/__init__.py,sha256=ddcE8BTIFuI8rfB6lNszZep6mAdV4VzkV0ZCHEqFH5g,406
+pennylane_kq/_version.py,sha256=9gqbPV5McjX-E5uMNZ1nnawtILy8pH2ZngGDm7fotSE,98
+pennylane_kq/kq_device.py,sha256=iRxtpeKODv8PggWZNoQTrVzD94t9gD9gp1zf7cHwNi0,1766
+pennylane_kq/kq_emulator.py,sha256=oeQMHgpoVFuxezblAbAnzXjuGL80bdI6RX2lxldxqF0,5496
+pennylane_kq/kq_emulator_aws.py,sha256=D51767YxbDLXOD3AT8dLCK8v_GpV5_bS10MSIt3UtYA,3479
+pennylane_kq/kq_emulator_mpi.py,sha256=a6nvRNlEMpLuPW1vOoDrWx16-OKGCCeJEdhHuOv2Wf4,5511
+pennylane_kq/kq_hardware.py,sha256=8GSQVnfKV3uMl2k0Y_vT4PwKRNmehHUKO4VovDkI8n0,4438
+pennylane_kq/kq_local_emulator.py,sha256=oKdtHDxFX3wayGhio7oS4NykdVqE_OlyA2maYZVo4o0,4874
+pennylane_kq/kq_remote_emulator.py,sha256=8D9DEjyIRXwlROgMsK6DN18ECUYoCqY_2Qjd7lE8sEs,3562
+pennylane_kq-0.0.21.dist-info/LICENSE,sha256=kXgG7r2G0DMyCGpDLPNvCCbY_Dy5LiHfPibofPPpMp0,1335
+pennylane_kq-0.0.21.dist-info/METADATA,sha256=ly81dhL7bTjNjyxB3pXjpEcHsRhxgfNQPuEWp73WKg8,1940
+pennylane_kq-0.0.21.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pennylane_kq-0.0.21.dist-info/entry_points.txt,sha256=KDVHhenDj5f9cQ8SJyL6Daz5JsU0ehLL3M1XIlSEhX4,292
+pennylane_kq-0.0.21.dist-info/top_level.txt,sha256=PcSCZL0JUex69kH6lmHIfrAWtOpQWz44Wv8qLkbNzN0,13
+pennylane_kq-0.0.21.dist-info/RECORD,,
