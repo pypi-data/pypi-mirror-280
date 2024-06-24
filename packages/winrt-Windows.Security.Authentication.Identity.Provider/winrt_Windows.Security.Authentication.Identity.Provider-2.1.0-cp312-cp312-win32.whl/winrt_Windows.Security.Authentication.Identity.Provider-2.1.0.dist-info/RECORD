@@ -1,0 +1,8 @@
+winrt/_winrt_windows_security_authentication_identity_provider.cp312-win32.pyd,sha256=jYrJy9qtMEq9J2erp8j7ewThBoJlIc9KzUOqc59BjjU,156160
+winrt/_winrt_windows_security_authentication_identity_provider.pyi,sha256=FigPzn-0ZVdTQIS1Y3Lpx7_zl4VWqUlQ8G74vQmor14,8071
+winrt/windows/security/authentication/identity/provider/__init__.py,sha256=RsXvAeEgJrbsqZXyqb9CrwUPXNocJcJY51pgM0XuCVI,4954
+winrt/windows/security/authentication/identity/provider/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Security.Authentication.Identity.Provider-2.1.0.dist-info/METADATA,sha256=ZhMDNKYzduZ4FC9EXcfZmj9e7U9VnoZk_qhyM591s_I,1314
+winrt_Windows.Security.Authentication.Identity.Provider-2.1.0.dist-info/WHEEL,sha256=ruwpOBdFI6_HbvqqfiJbSxRZ7qQ6XNHlvTRo9Gu8mVc,98
+winrt_Windows.Security.Authentication.Identity.Provider-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Security.Authentication.Identity.Provider-2.1.0.dist-info/RECORD,,
