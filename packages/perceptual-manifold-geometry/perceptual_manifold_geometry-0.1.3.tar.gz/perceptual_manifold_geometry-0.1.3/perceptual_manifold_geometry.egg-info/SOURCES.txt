@@ -1,0 +1,13 @@
+README.md
+setup.py
+perceptual_manifold_geometry/__init__.py
+perceptual_manifold_geometry/curvature.py
+perceptual_manifold_geometry/density.py
+perceptual_manifold_geometry/holes.py
+perceptual_manifold_geometry/intrinsic_dimension.py
+perceptual_manifold_geometry/nonconvexity.py
+perceptual_manifold_geometry.egg-info/PKG-INFO
+perceptual_manifold_geometry.egg-info/SOURCES.txt
+perceptual_manifold_geometry.egg-info/dependency_links.txt
+perceptual_manifold_geometry.egg-info/requires.txt
+perceptual_manifold_geometry.egg-info/top_level.txt
