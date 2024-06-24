@@ -1,0 +1,22 @@
+[build-system]
+requires = ['setuptools>=61.0']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "pnh_ttf"
+version = "1.0.0"
+authors = [
+  { name="Gert van Rooyen", email="gert.van.rooyen@noord-holland.nl" },
+  { name="Mohanraj Subburaj", email="mohanraj.subburaj@xebia.com" },
+]
+description = "Python package to test cloud infrastructure"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Issues = "https://github.com/provincieNH/pnh_terraform_testing_framework/issues"
