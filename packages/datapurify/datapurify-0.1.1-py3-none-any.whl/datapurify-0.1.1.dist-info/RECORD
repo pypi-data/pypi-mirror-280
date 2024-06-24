@@ -1,0 +1,8 @@
+datapurify/__init__.py,sha256=AzkDi9Ldle_OUyIgxkSjd_Gi4ULUXGEm2s2qHGg6lEM,56
+datapurify/base.py,sha256=G0X6n4FJLl8TBZ15gEyliy-tvIK4wWPAxoOS0pe4JB8,117
+datapurify/purifier/purifier.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datapurify/spider/common_spider.py,sha256=A0Qzn2uNB5vYBAIKuI4NvZmqvY3QZcz3jf-wI_9EdgE,945
+datapurify/spider/spider.py,sha256=H0bTcJOjEzz4HjZ58NO5nLXdZCBRYxuXhj6ahJPl1pU,183
+datapurify-0.1.1.dist-info/METADATA,sha256=F0cCo4TvxRWaDQp_UcHVHNQGVedXkQEPim38LWjc1UQ,326
+datapurify-0.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+datapurify-0.1.1.dist-info/RECORD,,
