@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: num-management
+Version: 0.1
+Summary: A library to convert numbers to their word representation
+Home-page: https://bitbucket.org/onprem/olvera_carlos_interview-numbertostring-python/src/master/
+Author: Carlos Alberto Olvera Rodriguez
+Author-email: orcas40@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
