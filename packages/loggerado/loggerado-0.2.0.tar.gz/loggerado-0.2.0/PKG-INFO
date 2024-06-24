@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: loggerado
+Version: 0.2.0
+Summary: Logan Grado's custom logger
+Author-Email: Logan Grado <logangrado@gmail.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# loggerado
