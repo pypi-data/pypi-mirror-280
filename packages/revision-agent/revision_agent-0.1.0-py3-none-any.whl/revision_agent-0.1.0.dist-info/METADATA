@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: revision-agent
+Version: 0.1.0
+Summary: Agentic workflow for machine revision using LLMs
+Home-page: https://github.com/xiaoyu/revision-agent
+License: MIT
+Keywords: revision,agents,LLM,machine revision
+Author: Xiao Yu
+Author-email: xyustudio@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: icecream (>=2.1.3,<3.0.0)
+Requires-Dist: joblib (>=1.4.2,<2.0.0)
+Requires-Dist: langchain-text-splitters (>=0.0.1,<0.0.2)
+Requires-Dist: openai (>=1.28.1,<2.0.0)
+Requires-Dist: pysrt (>=1.1.2,<2.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: tiktoken (>=0.6.0,<0.7.0)
+Project-URL: Repository, https://github.com/xiaoyu/revision-agent
+Description-Content-Type: text/markdown
+
+
