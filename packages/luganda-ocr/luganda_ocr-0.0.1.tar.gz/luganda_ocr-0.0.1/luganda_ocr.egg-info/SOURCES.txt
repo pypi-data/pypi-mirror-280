@@ -1,0 +1,13 @@
+README.md
+setup.py
+luganda_ocr/__init__.py
+luganda_ocr/example.py
+luganda_ocr/model.py
+luganda_ocr/utils.py
+luganda_ocr.egg-info/PKG-INFO
+luganda_ocr.egg-info/SOURCES.txt
+luganda_ocr.egg-info/dependency_links.txt
+luganda_ocr.egg-info/requires.txt
+luganda_ocr.egg-info/top_level.txt
+luganda_ocr/models/basepath.py
+luganda_ocr/models/sentenceModel2.h5
