@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "asyncflows-classify"
+version = "0.1.2"
+description = ""
+authors = ["Rafael Irgolic <hello@irgolic.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+asyncflows = ">=0.1.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."asyncflows"]
+actions = "asyncflows_classify.actions"
