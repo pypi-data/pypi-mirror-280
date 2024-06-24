@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+linkedin_queens_solver/__init__.py
+linkedin_queens_solver.egg-info/PKG-INFO
+linkedin_queens_solver.egg-info/SOURCES.txt
+linkedin_queens_solver.egg-info/dependency_links.txt
+linkedin_queens_solver.egg-info/requires.txt
+linkedin_queens_solver.egg-info/top_level.txt

@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: linkedin-queens-solver
+Version: 0.0.2
+Summary: lib to solve the linkedin daily challenge `Queens`
+Home-page: https://github.com/Utkarsh-Deshmukh/Linkedin_Queens_challenge
+Author: utkarsh-deshmukh
+Author-email: utkarsh.deshmukh@gmail.com
+License: MIT License
+Download-URL: https://github.com/Utkarsh-Deshmukh/Linkedin_Queens_challenge/archive/refs/heads/main.zip
+Keywords: Linkedin Daily challenge Queens
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Linkedin_Queens_challenge
+Solve the Linkedin daily challenge "Queens"
+
+# Usage
+Step 1- Take a snapshot of the daily queens problem board, and save this image
+
+Step 2- Run the following code:
+```
+pip install linkedin-queens-solver
+
+import linkedin_queens_solver
+import cv2
+image = cv2.imread("<path to the image where the board is saved>")
+linkedin_queens_solver.solve_queens(image, visualize=True)
+```
+
