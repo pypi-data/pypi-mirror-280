@@ -1,0 +1,9 @@
+grscheller_courses_distributions/__init__.py,sha256=Yq1B9kVf1Py7YcMPpKKfV1UpR5x6v68qH8qJL5F2byA,980
+grscheller_courses_distributions/binomial.py,sha256=XruNtUbLJFmDv_gaT_my1Wb3BjKOmtF-7PEMLIp5oFU,5727
+grscheller_courses_distributions/distribution.py,sha256=_NbF-HmgPexRbUf-5r4-IfK12xCvCSn64yn232qOyu8,3573
+grscheller_courses_distributions/gaussian.py,sha256=I98a9E0Lk2obLxrd-yYw_u_Q-LMb6gZ-DTyHCUfLPxo,4173
+grscheller_courses_distributions/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grscheller_courses_distributions-0.1.0.dist-info/LICENSE,sha256=Uza2XB0zS1mpZTCxWoTRUOsSd_k3_zsZ6Y6csohf6rY,10769
+grscheller_courses_distributions-0.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+grscheller_courses_distributions-0.1.0.dist-info/METADATA,sha256=fJlm2rm28buik1UmsFyHDUtWeRKprw-MHW9ljEday_w,2157
+grscheller_courses_distributions-0.1.0.dist-info/RECORD,,
