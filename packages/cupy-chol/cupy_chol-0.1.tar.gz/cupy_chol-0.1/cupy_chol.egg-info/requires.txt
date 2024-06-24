@@ -1,0 +1,9 @@
+pybind11>=2.5.0
+cupy>=8.0.0
+numpy>=1.18.0
+scipy>=1.4.0
+
+[dev]
+check-manifest
+flake8
+pytest
