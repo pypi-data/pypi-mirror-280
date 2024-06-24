@@ -1,0 +1,14 @@
+cryptography
+Flask
+Jinja2
+werkzeug>=3.0.1
+aiohttp>=3.9.4
+googletrans==3.1.0a0
+beautifulsoup4
+bs4
+crawler-user-agents
+opencv-python
+numpy
+dnspython>=2.6.1
+geoip2
+captcha
