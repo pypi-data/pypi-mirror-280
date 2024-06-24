@@ -1,0 +1,69 @@
+[project]
+name = "powertrace-hooks"
+version = "0.1.1"
+description = "Automated stack trace logging and visualization"
+authors = [{name = "Quinten Roets", email = "qdr2104@columbia.edu"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "powertrace >=0.1.1, <1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "package-dev-tools >=0.5.11, <1",
+    "package-dev-utils >=0.1.6, <1",
+]
+
+[project.urls]
+"Source Code" = "https://github.com/quintenroets/powertrace-hooks"
+
+[project.scripts]
+powertrace-hooks = "powertrace_hooks.cli:entry_point"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.coverage.run]
+command_line = "-m pytest tests"
+
+[tool.coverage.report]
+precision = 4
+fail_under = 100
+
+[tool.mypy]
+strict = true
+no_implicit_reexport = false
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "src", ".",
+]
+
+[tool.setuptools]
+py-modules = [
+    "sitecustomize"
+]
+
+[tool.ruff]
+fix = true
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "UP",  # pyupgrade
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["src"]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+
+[tool.setuptools.package-data]
+powertrace_hooks = ["py.typed"]
