@@ -1,0 +1,3 @@
+[console_scripts]
+ar2en = ar2en.ar2en:main
+
