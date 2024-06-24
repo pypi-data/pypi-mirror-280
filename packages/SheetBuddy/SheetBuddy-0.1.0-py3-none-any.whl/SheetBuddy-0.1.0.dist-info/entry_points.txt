@@ -1,0 +1,2 @@
+[console_scripts]
+sheetbuddy = sheetbuddy.cli:main
