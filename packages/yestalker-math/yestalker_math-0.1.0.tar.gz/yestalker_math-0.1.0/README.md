@@ -1,0 +1,1 @@
+a simplest math lib! (for test)

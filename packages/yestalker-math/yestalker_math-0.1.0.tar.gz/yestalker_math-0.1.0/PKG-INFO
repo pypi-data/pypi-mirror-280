@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: yestalker_math
+Version: 0.1.0
+Summary: a new persian lib for math in python
+Project-URL: Homepage, https://t.me/NikAPisChannel
+Project-URL: Issues, https://t.me/YeStalker
+Author-email: sina nik <nikpy.dev@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+a simplest math lib! (for test)
