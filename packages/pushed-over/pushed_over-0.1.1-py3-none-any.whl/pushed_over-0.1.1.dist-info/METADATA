@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pushed-over
+Version: 0.1.1
+Summary: Typed, async client for the Pushover API
+Author-email: Marcel Claramunt <marcel@moveread.com>
+Project-URL: repo, https://github.com/moveread/REPO.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic
+Requires-Dist: httpx
+Requires-Dist: haskellian
+
+# Pushed Over
+
+> Typed, async client for the Pushover API
