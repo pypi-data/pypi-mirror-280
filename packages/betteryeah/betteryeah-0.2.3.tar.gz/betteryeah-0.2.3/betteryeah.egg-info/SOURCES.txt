@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+betteryeah/__init__.py
+betteryeah/client.py
+betteryeah/generic_client.py
+betteryeah/generic_response.py
+betteryeah/marketing_client.py
+betteryeah/marketing_response.py
+betteryeah/parse_client.py
+betteryeah/response.py
+betteryeah/utils.py
+betteryeah.egg-info/PKG-INFO
+betteryeah.egg-info/SOURCES.txt
+betteryeah.egg-info/dependency_links.txt
+betteryeah.egg-info/top_level.txt
