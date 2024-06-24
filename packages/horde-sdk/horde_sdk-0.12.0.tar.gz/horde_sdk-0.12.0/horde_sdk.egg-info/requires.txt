@@ -1,0 +1,10 @@
+horde_model_reference~=0.7.0
+pydantic
+requests
+StrEnum
+loguru
+aiohttp
+aiofiles
+aiodns
+pillow
+python-dotenv
