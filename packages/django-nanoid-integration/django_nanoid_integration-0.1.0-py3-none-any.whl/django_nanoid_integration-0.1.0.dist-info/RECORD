@@ -1,0 +1,12 @@
+django_nanoid_integration/__init__.py,sha256=WXQZB1uWH_pbY3cnSMwOwU8_e7Oy6UUxcOfih3ADhPY,916
+django_nanoid_integration/alphabets.py,sha256=JWpqb_578twPt_BMwWNbyjsFZI3ji-5F-nlA31pUvd0,3293
+django_nanoid_integration/fields.py,sha256=oTGIugSYvb_c_s2pj9WYzcQOa1lAegZ7RcoFwbVl4kg,4109
+django_nanoid_integration/helpers.py,sha256=Pis0b41eJIfPQJXu3KfGYc0LVh3hCXP8RLoJANmyMAM,1792
+django_nanoid_integration/mixins.py,sha256=GNyE94catabFPymya31jiHQG_6iRijetWUi8ADUOa4I,8566
+django_nanoid_integration/upload.py,sha256=s8co0RgGCwDYfvVnbcdpeUnkn4dcN4MMSpLLJGTxaPA,4871
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_nanoid_integration-0.1.0.dist-info/LICENSE,sha256=VRCfZaTefI9L4vUMEPM4F8YWnv4N_JnDRmlQRcmwJs4,1062
+django_nanoid_integration-0.1.0.dist-info/METADATA,sha256=va0SSlCbgCnNnsGun9YFhGBXXt45Y1PYf9PAXtmvPCg,12414
+django_nanoid_integration-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_nanoid_integration-0.1.0.dist-info/top_level.txt,sha256=YKzkxct6Tq1cHvCbRbtwv0Hoh2Y317O73ejIGCB7MWQ,32
+django_nanoid_integration-0.1.0.dist-info/RECORD,,
