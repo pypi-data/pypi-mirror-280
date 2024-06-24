@@ -1,0 +1,2 @@
+[console_scripts]
+maskilayer = maskilayer.__main__:cli
