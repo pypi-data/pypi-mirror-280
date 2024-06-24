@@ -1,0 +1,14 @@
+PySubtitle/__init__.py,sha256=ovguP4wzQEDNguczwiZnhMm4dRRVcvnzmHrfQtlRCNQ,15
+PySubtitle/audio_extraction.py,sha256=1YAvXctBS-qbbp8BmQj8eAq_dHLFqsxUFVnkAgmPLJo,278
+PySubtitle/languages.py,sha256=ReywCwfQxAakRVJMBdf0xyHm17TncIsyHWXDc1B3-r8,308
+PySubtitle/speech_recognition.py,sha256=v_4NPasQXyKC1Rl5zl1m-uzKf7vfub6qB445HK1oDiA,1631
+PySubtitle/vtt_generation.py,sha256=LP29qh3dwZtpsdtWx6rIMPJTs-b2V9SvbUkCCeaNAIo,714
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_audio_extraction.py,sha256=08S1FNqO2lwbocSOUjKbRLppJP_eO7dGQotDqH6tr-w,592
+tests/test_speech_recognition.py,sha256=QwkoTnvix3cN3w7tdUzgkWrtUu9YAgXpvm7cWKUqMaQ,900
+tests/test_vtt_generation.py,sha256=M7JMdJTCKLPGoXSdkZMrvnZgM6ph21oY2gqc3yOdEYw,709
+PySubtitle-0.1.2.dist-info/LICENSE,sha256=Zh9xRYmLhDw9v9dzLiwXWMSqlFrmk8i1nyiXfyJUGmg,1069
+PySubtitle-0.1.2.dist-info/METADATA,sha256=G4mBSQgPWCr--b0qRXC9LvGGS9PIQ41xkhbq_EelTyw,3531
+PySubtitle-0.1.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+PySubtitle-0.1.2.dist-info/top_level.txt,sha256=sABETKFcqxgyGTNw9vVq2ZM9i9J6pxD0ayX3ff-_I20,17
+PySubtitle-0.1.2.dist-info/RECORD,,
