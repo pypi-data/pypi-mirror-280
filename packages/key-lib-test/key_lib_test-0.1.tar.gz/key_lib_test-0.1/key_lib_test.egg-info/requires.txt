@@ -1,0 +1,4 @@
+fastapi_keycloak
+Pyjwt
+requests
+starlette
