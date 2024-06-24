@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "traycortex"
+version = "0.1.0"
+description = "borgmatic systray icon"
+authors = ["Sebastian Stark <sstark@mailbox.org>"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pystray = "^0.19.5"
+pillow = "^10.3.0"
+pygobject = "^3.48.2"
+platformdirs = "^4.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+traycortex = "traycortex.tray:app"
+traycortex-cli = "traycortex.client:cli"
