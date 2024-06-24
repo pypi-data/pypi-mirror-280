@@ -1,0 +1,10 @@
+open_irceline/__init__.py,sha256=oymequwI3P1V7ULGwbbAb5P9TQCfE4tjZKjjOXzOx2E,250
+open_irceline/api.py,sha256=Qdwi_vJYc-x-CfHPPanjgZeQTtstd4Sv9pXV0-1Ex8Q,11494
+open_irceline/belaqi.py,sha256=2d1i4euXOn-4VmQuBI3NB5YAzGkHakv6qPotrq57yMw,5296
+open_irceline/data.py,sha256=d9uzsuCZlWpxVU-N4hCI1jJQzAglvva38q6pzel5zQo,1385
+open_irceline/utils.py,sha256=PdtY0sb0mlYKPjZcaLgTVfZ2UAqH2wWRD2-yZ1CvF8g,1609
+open_irceline-0.0.6.dist-info/LICENSE,sha256=SRdvpT2Jlv71GP4s4FiCLqdq5gDXQL4noLGMZZl5Ywk,11346
+open_irceline-0.0.6.dist-info/METADATA,sha256=4d1-ai1SRLHVkeRls5JqqWX_QTa7vkR8DDPC6vsXZQM,14457
+open_irceline-0.0.6.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+open_irceline-0.0.6.dist-info/top_level.txt,sha256=_N9WfhpYvP9aJ1ZkznJsHA4exjyLeLaoxVWKj_snHTs,14
+open_irceline-0.0.6.dist-info/RECORD,,
