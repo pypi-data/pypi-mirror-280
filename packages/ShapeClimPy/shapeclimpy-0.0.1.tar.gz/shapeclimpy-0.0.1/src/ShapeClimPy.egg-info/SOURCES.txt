@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/ShapeClimPy.egg-info/PKG-INFO
+src/ShapeClimPy.egg-info/SOURCES.txt
+src/ShapeClimPy.egg-info/dependency_links.txt
+src/ShapeClimPy.egg-info/top_level.txt
+src/csv_processing/cleaning_processor.py
+src/csv_processing/filling_gaps_processor.py
+src/csv_processing/filling_gaps_strategy.py
+src/csv_processing/models.py
+src/csv_processing/parsing_processor.py
+src/geotiff_processing/geotiff_processor.py
+src/netcdf_processing/interpolation_service.py
+src/netcdf_processing/netcdf_processor.py
+src/relief_processing/relief_merging.py
+src/ssp_models_compare/models_comparer.py
