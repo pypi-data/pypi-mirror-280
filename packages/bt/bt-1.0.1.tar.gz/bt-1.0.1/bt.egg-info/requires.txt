@@ -1,0 +1,14 @@
+ffn>=1.0.0
+pyprind>=2.11
+tqdm>=4
+
+[dev]
+cython>=0.25
+ffn>=1.0.0
+matplotlib>=2
+numpy>=1
+pandas>=0.19
+pyprind>=2.11
+pytest
+pytest-cov
+ruff
