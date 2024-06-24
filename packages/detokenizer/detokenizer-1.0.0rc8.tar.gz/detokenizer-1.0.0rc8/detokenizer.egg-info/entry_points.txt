@@ -1,0 +1,2 @@
+[console_scripts]
+detokenizer = detokenizer.__main__:main
