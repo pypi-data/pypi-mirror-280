@@ -1,0 +1,13 @@
+wa_cloud_py/__init__.py,sha256=A0ASVeeF1z-EESjsNn_vWsMHiyB8ecGWvvB0dng0xfY,93
+wa_cloud_py/verticals.py,sha256=OMui64CzjmysGuxtpt4buMaFy9J7A7P1PlsiMUjGdfE,595
+wa_cloud_py/whatsapp.py,sha256=LV-2vlkNH5pnHzzUDDzwx7brfQIGWd_MSUhxxwyMey0,28812
+wa_cloud_py/components/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wa_cloud_py/components/conversational.py,sha256=OHzhHjDJwUb3PvJlF7x-Ldn1ZBDCzSZIjFabaS69zUs,202
+wa_cloud_py/components/messages.py,sha256=zso9dsCwVLSa5hKBevloKgmB2hLehFKjXzmtzr175RY,1972
+wa_cloud_py/messages/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wa_cloud_py/messages/types.py,sha256=02ZbB_N2RPdq9BN1UYXi4BYslmhSYCbwfS-aRF-SjJg,6019
+wa_cloud_py-0.1.4.dist-info/LICENSE.txt,sha256=u5UQsKuezrbai2W6O1Z6VFKVd0n1TN3eR4_ExBsyQ8c,1071
+wa_cloud_py-0.1.4.dist-info/METADATA,sha256=JylTCWzTeZKrU31lN3j2Jc2UTP3_8FpfseNPsK1MEhM,414
+wa_cloud_py-0.1.4.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+wa_cloud_py-0.1.4.dist-info/top_level.txt,sha256=3H6PZFzG9fDJ5GrNYBAw32X29H8g25yEUsx5YEzyNpw,12
+wa_cloud_py-0.1.4.dist-info/RECORD,,
