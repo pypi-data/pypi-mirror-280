@@ -1,0 +1,8 @@
+winrt/_winrt_microsoft_windows_widgets_providers.cp312-win_arm64.pyd,sha256=4wvD6mouKnR_pfVid7-jUxdGviFNMXJnWOGRiW6cJ7s,131584
+winrt/_winrt_microsoft_windows_widgets_providers.pyi,sha256=waGaHrokWWQTwkcSF2MOo6nVdc6zakOrQ5xrCkgewjE,6380
+winrt/microsoft/windows/widgets/providers/__init__.py,sha256=TxMbelcXXskp0I4I7fvI7BYk5SsK15zyFwRPRiFQ4yg,1815
+winrt/microsoft/windows/widgets/providers/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Microsoft.Windows.Widgets.Providers-2.1.0.dist-info/METADATA,sha256=XLx-DUTq42sjliSXYN3-tx2My_2TAXEni-0Fjm_-xuY,1175
+winrt_Microsoft.Windows.Widgets.Providers-2.1.0.dist-info/WHEEL,sha256=Bv7J8O_-FnSb3IGeFWkp4bS4m9uc0RAAXyF4lKsep6k,102
+winrt_Microsoft.Windows.Widgets.Providers-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Microsoft.Windows.Widgets.Providers-2.1.0.dist-info/RECORD,,
