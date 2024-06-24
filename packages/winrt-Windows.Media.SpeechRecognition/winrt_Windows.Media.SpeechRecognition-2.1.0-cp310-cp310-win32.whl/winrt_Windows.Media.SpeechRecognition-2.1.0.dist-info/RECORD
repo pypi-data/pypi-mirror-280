@@ -1,0 +1,8 @@
+winrt/_winrt_windows_media_speechrecognition.cp310-win32.pyd,sha256=ECJRCAxoc02MQM4_jx7MVdFp0jNvaxbqQpYFmlE2Fbc,285696
+winrt/_winrt_windows_media_speechrecognition.pyi,sha256=tdrhms284UU3U851SlgJkNggckl-mDGum1wOlLt5TVI,15876
+winrt/windows/media/speechrecognition/__init__.py,sha256=fDXYSLesGi3QSX8yVlwu4sTPty9PTm6X4bIsdcMI2xo,4705
+winrt/windows/media/speechrecognition/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Media.SpeechRecognition-2.1.0.dist-info/METADATA,sha256=y9KgaqVteL4CT9C3CXcV69rb2G8R_TuV8oD3zkWsXjY,1310
+winrt_Windows.Media.SpeechRecognition-2.1.0.dist-info/WHEEL,sha256=yXMlTXjHPYBFmMOeF4b9ZM_ASRm_Q54GxZmxQGPAzx4,98
+winrt_Windows.Media.SpeechRecognition-2.1.0.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Media.SpeechRecognition-2.1.0.dist-info/RECORD,,
