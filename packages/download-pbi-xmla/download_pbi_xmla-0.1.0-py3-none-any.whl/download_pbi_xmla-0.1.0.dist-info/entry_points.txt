@@ -1,0 +1,3 @@
+[console_scripts]
+fetch_tables=download_xmla.main:main
+
